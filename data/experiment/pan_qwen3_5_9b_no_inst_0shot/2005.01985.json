@@ -1,0 +1,130 @@
+{
+  "document_id": "2005.01985",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Mechanism of pressure induced amorphization of SnI4: a combined X-ray diffraction – X-ray absorption spectroscopy study",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff-1",
+          "label": "1",
+          "text": "Synchrotron SOLEIL, L'Orme des Merisiers, St Aubin BP48, 91192 Gif sur Yvette Cedex"
+        },
+        {
+          "id": "aff-2",
+          "label": "2",
+          "text": "Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie - CNRS UMR 7590, Sorbonne Université, 4 Place Jussieu, 75005 Paris"
+        },
+        {
+          "id": "aff-3",
+          "label": "3",
+          "text": "Geodynamics Research Center, Ehime University, 2–5 Bunkyo-cho, Matsuyama 790-8577, Japan"
+        },
+        {
+          "id": "aff-4",
+          "label": "4",
+          "text": "Earth-Life Science Institute, Tokyo Institute of Technology, Tokyo 152-8500, Japan"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth-1",
+          "full_name": "Emiliano Fonda",
+          "orcid": null,
+          "email": "fonda@synchrotron-soleil.fr",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "auth-2",
+          "full_name": "Alain Polian",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "auth-3",
+          "full_name": "Toru Shinmei",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "3"
+          ]
+        },
+        {
+          "id": "auth-4",
+          "full_name": "Tetsuo Irifune",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "auth-5",
+          "full_name": "Jean-Paul Itié",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        }
+      ],
+      "abstract": "We have studied the amorphization process of SnI4 up to 26.8GPa with unprecedented experimental details by combining Sn and I K edge X-ray absorption spectroscopy and powder X-ray diffraction. Standards and reverse Monte Carlo extended X-ray absorption fine structure (EXAFS) refinements confirm that the SnI4 tetrahedron is a fundamental structural unit that is preserved through the crystalline phase-I to crystalline phase-II transition about 7 to 10GPa and then in the amorphous phase that appears above 20GPa. Up to now unexploited Iodine EXAFS reveals to be extremely informative and confirms the formation of iodine iodine short bonds close to 2.85Å in the amorphous phase at 26.8 GPa. A coordination number increase of Sn in the crystalline phase-II appears to be excluded, while the deformation of the tetrahedral units proceeds through a flattening that keeps the average I-Sn-I angle close to 109.5°. Moreover, we put in evidence the impact of pressure on the Sn near edge structure under competing geometrical and electronic effects.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "INTRODUCTION",
+        "EXPERIMENTAL",
+        "RESULTS AND DISCUSSION",
+        "CONCLUDING REMARKS",
+        "ACKNOWLEDGMENTS",
+        "REFERENCES"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac-1",
+        "name": "Synchrotron SOLEIL"
+      }
+    ],
+    "samples": [],
+    "datasets": []
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Mechanism of pressure induced amorphization of SnI4: a combined X-ray diffraction – X-ray absorption spectroscopy study\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff-1\",\n        \"label\": \"1\",\n        \"text\": \"Synchrotron SOLEIL, L'Orme des Merisiers, St Aubin BP48, 91192 Gif sur Yvette Cedex\"\n      },\n      {\n        \"id\": \"aff-2\",\n        \"label\": \"2\",\n        \"text\": \"Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie - CNRS UMR 7590, Sorbonne Université, 4 Place Jussieu, 75005 Paris\"\n      },\n      {\n        \"id\": \"aff-3\",\n        \"label\": \"3\",\n        \"text\": \"Geodynamics Research Center, Ehime University, 2–5 Bunkyo-cho, Matsuyama 790-8577, Japan\"\n      },\n      {\n        \"id\": \"aff-4\",\n        \"label\": \"4\",\n        \"text\": \"Earth-Life Science Institute, Tokyo Institute of Technology, Tokyo 152-8500, Japan\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth-1\",\n        \"full_name\": \"Emiliano Fonda\",\n        \"orcid\": null,\n        \"email\": \"fonda@synchrotron-soleil.fr\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"auth-2\",\n        \"full_name\": \"Alain Polian\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\",\n          \"2\"\n        ]\n      },\n      {\n        \"id\": \"auth-3\",\n        \"full_name\": \"Toru Shinmei\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"3\"\n        ]\n      },\n      {\n        \"id\": \"auth-4\",\n        \"full_name\": \"Tetsuo Irifune\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"3\",\n          \"4\"\n        ]\n      },\n      {\n        \"id\": \"auth-5\",\n        \"full_name\": \"Jean-Paul Itié\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      }\n    ],\n    \"abstract\": \"We have studied the amorphization process of SnI4 up to 26.8GPa with unprecedented experimental details by combining Sn and I K edge X-ray absorption spectroscopy and powder X-ray diffraction. Standards and reverse Monte Carlo extended X-ray absorption fine structure (EXAFS) refinements confirm that the SnI4 tetrahedron is a fundamental structural unit that is preserved through the crystalline phase-I to crystalline phase-II transition about 7 to 10GPa and then in the amorphous phase that appears above 20GPa. Up to now unexploited Iodine EXAFS reveals to be extremely informative and confirms the formation of iodine iodine short bonds close to 2.85Å in the amorphous phase at 26.8 GPa. A coordination number increase of Sn in the crystalline phase-II appears to be excluded, while the deformation of the tetrahedral units proceeds through a flattening that keeps the average I-Sn-I angle close to 109.5°. Moreover, we put in evidence the impact of pressure on the Sn near edge structure under competing geometrical and electronic effects.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"INTRODUCTION\",\n      \"EXPERIMENTAL\",\n      \"RESULTS AND DISCUSSION\",\n      \"CONCLUDING REMARKS\",\n      \"ACKNOWLEDGMENTS\",\n      \"REFERENCES\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac-1\",\n      \"name\": \"Synchrotron SOLEIL\"\n    }\n  ],\n  \"samples\": [],\n  \"datasets\": []\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 13226,
+    "output_tokens": 1167,
+    "latency_ms": 14660.99
+  },
+  "warnings": []
+}

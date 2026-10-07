@@ -1,0 +1,318 @@
+{
+  "document_id": "2501.08122",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Origin of perpendicular magnetic anisotropy in ultra-thin metal films studied by in-situ neutron reflectometry",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "a",
+          "text": "Research and Educational Center “Functional Nanomaterials”, Immanuel Kant Baltic Federal University, 236041, Kaliningrad, Russian Federation"
+        },
+        {
+          "id": "aff2",
+          "label": "b",
+          "text": "Koenigssystems UG, 22869, Schenefeld bei Hamburg, Germany."
+        },
+        {
+          "id": "aff3",
+          "label": "c",
+          "text": "NanoLund and Physical Chemistry, Lund University, PO Box 124, 22 100Lund, Sweden"
+        },
+        {
+          "id": "aff4",
+          "label": "d",
+          "text": "Institut Laue-Langevin, 71 avenue des Martyrs, 38000 Grenoble, France"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "Grigorii Kirichuk",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "Alexey Grunin",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "Artur Dolgoborodov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "Pavel Prokopovich",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "Petr Shvets",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "Alexey Vorobiev",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "Anton Devishvilli",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff4"
+          ]
+        },
+        {
+          "id": "auth8",
+          "full_name": "Alexandr Goikhman",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth9",
+          "full_name": "Ksenia Maksimova",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        }
+      ],
+      "abstract": "Perpendicular magnetic anisotropy (PMA) plays an important role in different spintronic devices. The rapid development of spintronics requires a better understanding of the nature and mechanisms of the PMA formation. In our article, we demonstrate the potential of studying PMA by in-situ polarized neutron reflectometry combined with pulsed laser deposition. Using these techniques, we show the formation of out-of-plane anisotropy in thin CoFeB films (11–18 Å) with a capping Mo layer. Investigating thick (53 Å) and thin (5 Å) molybdenum films, we demonstrate that in both cases, PMA was established in bilayer structures without any thermal annealing. Also, we demonstrate how an additional silicon layer grown over the CoFeB / Mo bilayer can critically alter the magnetic properties of the sample. Such studies are possible only through the unique combination of the growth method with the in-situ polarized neutron reflectometry measurement technique. We believe that this approach will open up broad opportunities for the development and investigation of new spintronic devices.",
+      "keywords": [
+        "Perpendicular magnetic anisotropy",
+        "Pulsed laser deposition",
+        "Polarized Neutron Reflectivity",
+        "Thin films",
+        "in-situ facilities",
+        "Spintronics",
+        "CoFeB",
+        "Heavy metals"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Ministry of Science and Higher Education of the Russian Federation",
+          "grant_id": "FZWM-2024-0011"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Abstract",
+        "Introduction",
+        "Experimental details",
+        "Results and discussion",
+        "1. PMA in CoFeB / Mo (thick HM layer)",
+        "2. PMA in CoFeB / Mo (thin HM layer)",
+        "3. Silicon ‘protective’ layer",
+        "Conclusion",
+        "Acknowledgements",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "SuperADAM station, Institut Laue-Langevin (ILL), Grenoble, France"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "single-layer thin CoFeB film",
+        "sample_description": "CoFeB film with thickness determined from the PNR measurements as 18 ± 2 Å; grown on a (100)-oriented single-crystal silicon with thermal oxide SiO2 with a thickness of ~ 750 nm.",
+        "chemical_composition": "CoFeB",
+        "sample_state": "thin film",
+        "sample_mass": null,
+        "supplier_or_creator": "produced by PLD"
+      },
+      {
+        "id": "sample2",
+        "sample_name": "CoFeB / Mo (51 Å) bilayer structure",
+        "sample_description": "Molybdenum film deposited on the previously grown CoFeB film; thickness of the Mo layer was 51 ± 2 Å.",
+        "chemical_composition": "CoFeB / Mo",
+        "sample_state": "bilayer structure",
+        "sample_mass": null,
+        "supplier_or_creator": "produced by PLD"
+      },
+      {
+        "id": "sample3",
+        "sample_name": "thin CoFeB film",
+        "sample_description": "Thin CoFeB film characterized by PNR measurements at a magnetic field of 100 Oe; film thickness was 18 ± 2 Å.",
+        "chemical_composition": "CoFeB",
+        "sample_state": "thin film",
+        "sample_mass": null,
+        "supplier_or_creator": "produced by PLD"
+      },
+      {
+        "id": "sample4",
+        "sample_name": "CoFeB / Mo (5 Å) bilayer structure",
+        "sample_description": "A 5.0 ± 1.2 Å thick molybdenum layer was deposited on top of the CoFeB film.",
+        "chemical_composition": "CoFeB / Mo",
+        "sample_state": "bilayer structure",
+        "sample_mass": null,
+        "supplier_or_creator": "produced by PLD"
+      },
+      {
+        "id": "sample5",
+        "sample_name": "CoFeB / Mo / Si structure",
+        "sample_description": "A ~50 Å thick Si film deposited on top of the CoFeB / Mo (5 Å) sample with PMA; sample was exposed to the air.",
+        "chemical_composition": "CoFeB / Mo / Si",
+        "sample_state": "trilayer structure",
+        "sample_mass": null,
+        "supplier_or_creator": "produced by PLD"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "PNR measurements of single-layer CoFeB film",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Neutron reflectivity curves measured at 100 Oe for R+ and R– polarizations for a CoFeB film.",
+        "measurement_technique": "polarized neutron reflectometry",
+        "measurement_mode": [
+          "AngleScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset2",
+        "dataset_name": "PNR measurements of CoFeB / Mo (51 Å) bilayer structure",
+        "sample_refs": [
+          "sample2"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Reflectometry curves for the CoFeB / Mo (51 Å) bilayer structure, measured at 100 and 7500 Oe; nSLD and mSLD profiles measured at a field of 7500 Oe.",
+        "measurement_technique": "polarized neutron reflectometry",
+        "measurement_mode": [
+          "AngleScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset3",
+        "dataset_name": "PNR measurements of thin CoFeB film",
+        "sample_refs": [
+          "sample3"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Thin CoFeB film characterized by PNR measurements at a magnetic field of 100 Oe.",
+        "measurement_technique": "PNR measurements",
+        "measurement_mode": [
+          "AngleScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset4",
+        "dataset_name": "PNR measurements of CoFeB / Mo (5 Å) bilayer structure",
+        "sample_refs": [
+          "sample4"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Reflectivity curves for the CoFeB / Mo (5 Å) bilayer structure measured at 100 and 7500 Oe; mSLD and nSLD profiles measured at 7500 Oe.",
+        "measurement_technique": "PNR measurements",
+        "measurement_mode": [
+          "AngleScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset5",
+        "dataset_name": "PNR measurements of CoFeB / Mo (5 Å) / Si (SiO2) film",
+        "sample_refs": [
+          "sample5"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Reflectometry curves and nSLD and mSLD profiles for the CoFeB / Mo (5 Å) / Si (SiO2) trilayer structures, measured at a field of 7500 Oe.",
+        "measurement_technique": "PNR",
+        "measurement_mode": [
+          "AngleScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Origin of perpendicular magnetic anisotropy in ultra-thin metal films studied by in-situ neutron reflectometry\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"a\",\n        \"text\": \"Research and Educational Center “Functional Nanomaterials”, Immanuel Kant Baltic Federal University, 236041, Kaliningrad, Russian Federation\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"b\",\n        \"text\": \"Koenigssystems UG, 22869, Schenefeld bei Hamburg, Germany.\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"c\",\n        \"text\": \"NanoLund and Physical Chemistry, Lund University, PO Box 124, 22 100Lund, Sweden\"\n      },\n      {\n        \"id\": \"aff4\",\n        \"label\": \"d\",\n        \"text\": \"Institut Laue-Langevin, 71 avenue des Martyrs, 38000 Grenoble, France\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"Grigorii Kirichuk\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"Alexey Grunin\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"Artur Dolgoborodov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"Pavel Prokopovich\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"Petr Shvets\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"Alexey Vorobiev\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff3\"\n        ]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"Anton Devishvilli\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff4\"\n        ]\n      },\n      {\n        \"id\": \"auth8\",\n        \"full_name\": \"Alexandr Goikhman\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth9\",\n        \"full_name\": \"Ksenia Maksimova\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      }\n    ],\n    \"abstract\": \"Perpendicular magnetic anisotropy (PMA) plays an important role in different spintronic devices. The rapid development of spintronics requires a better understanding of the nature and mechanisms of the PMA formation. In our article, we demonstrate the potential of studying PMA by in-situ polarized neutron reflectometry combined with pulsed laser deposition. Using these techniques, we show the formation of out-of-plane anisotropy in thin CoFeB films (11–18 Å) with a capping Mo layer. Investigating thick (53 Å) and thin (5 Å) molybdenum films, we demonstrate that in both cases, PMA was established in bilayer structures without any thermal annealing. Also, we demonstrate how an additional silicon layer grown over the CoFeB / Mo bilayer can critically alter the magnetic properties of the sample. Such studies are possible only through the unique combination of the growth method with the in-situ polarized neutron reflectometry measurement technique. We believe that this approach will open up broad opportunities for the development and investigation of new spintronic devices.\",\n    \"keywords\": [\n      \"Perpendicular magnetic anisotropy\",\n      \"Pulsed laser deposition\",\n      \"Polarized Neutron Reflectivity\",\n      \"Thin films\",\n      \"in-situ facilities\",\n      \"Spintronics\",\n      \"CoFeB\",\n      \"Heavy metals\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Ministry of Science and Higher Education of the Russian Federation\",\n        \"grant_id\": \"FZWM-2024-0011\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Abstract\",\n      \"Introduction\",\n      \"Experimental details\",\n      \"Results and discussion\",\n      \"1. PMA in CoFeB / Mo (thick HM layer)\",\n      \"2. PMA in CoFeB / Mo (thin HM layer)\",\n      \"3. Silicon ‘protective’ layer\",\n      \"Conclusion\",\n      \"Acknowledgements\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"SuperADAM station, Institut Laue-Langevin (ILL), Grenoble, France\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"single-layer thin CoFeB film\",\n      \"sample_description\": \"CoFeB film with thickness determined from the PNR measurements as 18 ± 2 Å; grown on a (100)-oriented single-crystal silicon with thermal oxide SiO2 with a thickness of ~ 750 nm.\",\n      \"chemical_composition\": \"CoFeB\",\n      \"sample_state\": \"thin film\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"produced by PLD\"\n    },\n    {\n      \"id\": \"sample2\",\n      \"sample_name\": \"CoFeB / Mo (51 Å) bilayer structure\",\n      \"sample_description\": \"Molybdenum film deposited on the previously grown CoFeB film; thickness of the Mo layer was 51 ± 2 Å.\",\n      \"chemical_composition\": \"CoFeB / Mo\",\n      \"sample_state\": \"bilayer structure\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"produced by PLD\"\n    },\n    {\n      \"id\": \"sample3\",\n      \"sample_name\": \"thin CoFeB film\",\n      \"sample_description\": \"Thin CoFeB film characterized by PNR measurements at a magnetic field of 100 Oe; film thickness was 18 ± 2 Å.\",\n      \"chemical_composition\": \"CoFeB\",\n      \"sample_state\": \"thin film\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"produced by PLD\"\n    },\n    {\n      \"id\": \"sample4\",\n      \"sample_name\": \"CoFeB / Mo (5 Å) bilayer structure\",\n      \"sample_description\": \"A 5.0 ± 1.2 Å thick molybdenum layer was deposited on top of the CoFeB film.\",\n      \"chemical_composition\": \"CoFeB / Mo\",\n      \"sample_state\": \"bilayer structure\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"produced by PLD\"\n    },\n    {\n      \"id\": \"sample5\",\n      \"sample_name\": \"CoFeB / Mo / Si structure\",\n      \"sample_description\": \"A ~50 Å thick Si film deposited on top of the CoFeB / Mo (5 Å) sample with PMA; sample was exposed to the air.\",\n      \"chemical_composition\": \"CoFeB / Mo / Si\",\n      \"sample_state\": \"trilayer structure\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"produced by PLD\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"PNR measurements of single-layer CoFeB film\",\n      \"sample_refs\": [\n        \"sample1\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Neutron reflectivity curves measured at 100 Oe for R+ and R– polarizations for a CoFeB film.\",\n      \"measurement_technique\": \"polarized neutron reflectometry\",\n      \"measurement_mode\": [\n        \"AngleScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset2\",\n      \"dataset_name\": \"PNR measurements of CoFeB / Mo (51 Å) bilayer structure\",\n      \"sample_refs\": [\n        \"sample2\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Reflectometry curves for the CoFeB / Mo (51 Å) bilayer structure, measured at 100 and 7500 Oe; nSLD and mSLD profiles measured at a field of 7500 Oe.\",\n      \"measurement_technique\": \"polarized neutron reflectometry\",\n      \"measurement_mode\": [\n        \"AngleScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset3\",\n      \"dataset_name\": \"PNR measurements of thin CoFeB film\",\n      \"sample_refs\": [\n        \"sample3\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Thin CoFeB film characterized by PNR measurements at a magnetic field of 100 Oe.\",\n      \"measurement_technique\": \"PNR measurements\",\n      \"measurement_mode\": [\n        \"AngleScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset4\",\n      \"dataset_name\": \"PNR measurements of CoFeB / Mo (5 Å) bilayer structure\",\n      \"sample_refs\": [\n        \"sample4\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Reflectivity curves for the CoFeB / Mo (5 Å) bilayer structure measured at 100 and 7500 Oe; mSLD and nSLD profiles measured at 7500 Oe.\",\n      \"measurement_technique\": \"PNR measurements\",\n      \"measurement_mode\": [\n        \"AngleScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset5\",\n      \"dataset_name\": \"PNR measurements of CoFeB / Mo (5 Å) / Si (SiO2) film\",\n      \"sample_refs\": [\n        \"sample5\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Reflectometry curves and nSLD and mSLD profiles for the CoFeB / Mo (5 Å) / Si (SiO2) trilayer structures, measured at a field of 7500 Oe.\",\n      \"measurement_technique\": \"PNR\",\n      \"measurement_mode\": [\n        \"AngleScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 11044,
+    "output_tokens": 2604,
+    "latency_ms": 19223.13
+  },
+  "warnings": []
+}

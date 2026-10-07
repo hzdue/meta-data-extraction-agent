@@ -1,0 +1,132 @@
+{
+  "bibliographic": {
+    "title": "In-situ investigation of temperature induced agglomeration in non-polar magnetic nanoparticle dispersions by small angle X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Experimental Condensed Matter Physics, TU Darmstadt, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "INM - Leibniz Institute for New Materials, Campus D2 2, 66123 Saarbrücken, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Colloid and Interface Chemistry, Saarland University, Campus D2 2, 66123 Saarbrücken, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christian Appel",
+        "orcid": null,
+        "email": "christian.appel@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Björn Kuttich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Tobias Kraus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Bernd Stühn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Non-polar magnetic nanoparticles agglomerate upon cooling. This process is followed by in-situ small angle X-ray scattering to assess structural properties of the emerging agglomerates. On the length scale of a few particle diameters, no differences are found between the agglomerates of small (d = 12 nm) and large (d = 22 nm) nanoparticles. Hard-sphere like random packing with a local packing fraction of η = 0.4 is seen. On larger length scales, small particle form compact superstructures, while large particles arrange into agglomerates that resemble chain-like structure in SAXS. This can be explained by directed magnetic dipole interactions that dominate larger particles, while isotropic van der Waals interaction governs the agglomeration of smaller particles.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "2011.13326",
+    "url": null,
+    "publication_date": "2020-11-26",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental section",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FeNP10",
+      "sample_description": "Spherical iron oxide nanoparticles (d ≈ 10 nm) composed of Fe3O4 nanocrystals.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "nanoparticle",
+      "sample_mass": null,
+      "supplier_or_creator": "Ocean Nanotech"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FeNP20",
+      "sample_description": "Spherical iron oxide nanoparticles (d ≈ 20 nm) composed of Fe3O4 nanocrystals.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "nanoparticle",
+      "sample_mass": null,
+      "supplier_or_creator": "Ocean Nanotech"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "small angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Small angle X-ray scattering measurements using the Kα-line (λ = 0.154 nm) of a conventional Copper anode with a laboratory X-ray set-up with temperature ranging between 153 K and 293 K.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "document_id": "2011.13326",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "In-situ investigation of temperature induced agglomeration in non-polar magnetic nanoparticle dispersions by small angle X-ray scattering",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "a",
+          "text": "Experimental Condensed Matter Physics, TU Darmstadt, Germany"
+        },
+        {
+          "id": "aff_2",
+          "label": "b",
+          "text": "current affiliation: Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+        },
+        {
+          "id": "aff_3",
+          "label": "c",
+          "text": "INM - Leibniz Institute for New Materials, Campus D2 2, 66123 Saarbrücken, Germany"
+        },
+        {
+          "id": "aff_4",
+          "label": "d",
+          "text": "Colloid and Interface Chemistry, Saarland University, Campus D2 2, 66123 Saarbrücken, Germany"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth_1",
+          "full_name": "Christian Appel",
+          "orcid": null,
+          "email": "christian.appel@psi.ch",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_2"
+          ]
+        },
+        {
+          "id": "auth_2",
+          "full_name": "Björn Kuttich",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_3"
+          ]
+        },
+        {
+          "id": "auth_3",
+          "full_name": "Tobias Kraus",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3",
+            "aff_4"
+          ]
+        },
+        {
+          "id": "auth_4",
+          "full_name": "Bernd Stühn",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "Non-polar magnetic nanoparticles agglomerate upon cooling. This process is followed by in-situ small angle X-ray scattering to assess structural properties of the emerging agglomerates. On the length scale of a few particle diameters, no differences are found between the agglomerates of small ( d = 12nm) and large ( d = 22nm) nanoparticles. Hard-sphere like random packing with a local packing fraction of η = 0 . 4 is seen. On larger length scales, small particle form compact superstructures, while large particles arrange into agglomerates that resemble chain-like structure in SAXS. This can be explained by directed magnetic dipole interactions that dominate larger particles, while isotropic van der Waals interaction governs the agglomeration of smaller particles.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Experimental section",
+        "Results and discussion",
+        "Dispersion stability at room temperature",
+        "Temperature induced agglomeration of FeNPs",
+        "Conclusions",
+        "Notes and references"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [],
+    "samples": [
+      {
+        "id": "samp_1",
+        "sample_name": "FeNP10",
+        "sample_description": "Spherical iron oxide nanoparticles, d ≈ 10nm",
+        "chemical_composition": "Fe3O4",
+        "sample_state": "dispersion in chloroform (later exchanged to toluene)",
+        "sample_mass": null,
+        "supplier_or_creator": "Ocean Nanotech"
+      },
+      {
+        "id": "samp_2",
+        "sample_name": "FeNP20",
+        "sample_description": "Spherical iron oxide nanoparticles, d ≈ 20nm",
+        "chemical_composition": "Fe3O4",
+        "sample_state": "dispersion in chloroform (later exchanged to toluene)",
+        "sample_mass": null,
+        "supplier_or_creator": "Ocean Nanotech"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ds_1",
+        "dataset_name": "Room temperature SAXS",
+        "sample_refs": [
+          "samp_1",
+          "samp_2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Small angle X-ray scattering at 293 K to determine size distributions and ensure absence of agglomerates.",
+        "measurement_technique": "small angle X-ray scattering (SAXS)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds_2",
+        "dataset_name": "Temperature dependent SAXS",
+        "sample_refs": [
+          "samp_1",
+          "samp_2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "In-situ SAXS measurements ranging between 153 K and 293 K to follow the agglomeration process upon cooling.",
+        "measurement_technique": "small angle X-ray scattering (SAXS)",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds_3",
+        "dataset_name": "Magnetic properties measurement",
+        "sample_refs": [
+          "samp_1",
+          "samp_2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Measurement of magnetic hysteresis loops at room temperature to determine saturation and remanent magnetisation.",
+        "measurement_technique": "vibrating sample magnetometer",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"In-situ investigation of temperature induced agglomeration in non-polar magnetic nanoparticle dispersions by small angle X-ray scattering\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"a\",\n        \"text\": \"Experimental Condensed Matter Physics, TU Darmstadt, Germany\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"b\",\n        \"text\": \"current affiliation: Paul Scherrer Institut, 5232 Villigen PSI, Switzerland\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"c\",\n        \"text\": \"INM - Leibniz Institute for New Materials, Campus D2 2, 66123 Saarbrücken, Germany\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"d\",\n        \"text\": \"Colloid and Interface Chemistry, Saarland University, Campus D2 2, 66123 Saarbrücken, Germany\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth_1\",\n        \"full_name\": \"Christian Appel\",\n        \"orcid\": null,\n        \"email\": \"christian.appel@psi.ch\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"auth_2\",\n        \"full_name\": \"Björn Kuttich\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"auth_3\",\n        \"full_name\": \"Tobias Kraus\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\",\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"auth_4\",\n        \"full_name\": \"Bernd Stühn\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"Non-polar magnetic nanoparticles agglomerate upon cooling. This process is followed by in-situ small angle X-ray scattering to assess structural properties of the emerging agglomerates. On the length scale of a few particle diameters, no differences are found between the agglomerates of small ( d = 12nm) and large ( d = 22nm) nanoparticles. Hard-sphere like random packing with a local packing fraction of η = 0 . 4 is seen. On larger length scales, small particle form compact superstructures, while large particles arrange into agglomerates that resemble chain-like structure in SAXS. This can be explained by directed magnetic dipole interactions that dominate larger particles, while isotropic van der Waals interaction governs the agglomeration of smaller particles.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Experimental section\",\n      \"Results and discussion\",\n      \"Dispersion stability at room temperature\",\n      \"Temperature induced agglomeration of FeNPs\",\n      \"Conclusions\",\n      \"Notes and references\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [],\n  \"samples\": [\n    {\n      \"id\": \"samp_1\",\n      \"sample_name\": \"FeNP10\",\n      \"sample_description\": \"Spherical iron oxide nanoparticles, d ≈ 10nm\",\n      \"chemical_composition\": \"Fe3O4\",\n      \"sample_state\": \"dispersion in chloroform (later exchanged to toluene)\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Ocean Nanotech\"\n    },\n    {\n      \"id\": \"samp_2\",\n      \"sample_name\": \"FeNP20\",\n      \"sample_description\": \"Spherical iron oxide nanoparticles, d ≈ 20nm\",\n      \"chemical_composition\": \"Fe3O4\",\n      \"sample_state\": \"dispersion in chloroform (later exchanged to toluene)\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Ocean Nanotech\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"ds_1\",\n      \"dataset_name\": \"Room temperature SAXS\",\n      \"sample_refs\": [\n        \"samp_1\",\n        \"samp_2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Small angle X-ray scattering at 293 K to determine size distributions and ensure absence of agglomerates.\",\n      \"measurement_technique\": \"small angle X-ray scattering (SAXS)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds_2\",\n      \"dataset_name\": \"Temperature dependent SAXS\",\n      \"sample_refs\": [\n        \"samp_1\",\n        \"samp_2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"In-situ SAXS measurements ranging between 153 K and 293 K to follow the agglomeration process upon cooling.\",\n      \"measurement_technique\": \"small angle X-ray scattering (SAXS)\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds_3\",\n      \"dataset_name\": \"Magnetic properties measurement\",\n      \"sample_refs\": [\n        \"samp_1\",\n        \"samp_2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Measurement of magnetic hysteresis loops at room temperature to determine saturation and remanent magnetisation.\",\n      \"measurement_technique\": \"vibrating sample magnetometer\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 9331,
+    "output_tokens": 1543,
+    "latency_ms": 70927.66
+  },
+  "warnings": []
+}

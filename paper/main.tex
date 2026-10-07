@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" for the camera-ready manuscript.
+\usepackage[review]{acl}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{graphicx}
+\usepackage{placeins}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+% Monochrome code-block style for the appendix schema excerpts and prompt
+% template (fontsize overridden per use where needed).
+\lstdefinestyle{codeblock}{%
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  breakautoindent=true,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  frame=single,
+  framesep=4pt,
+  xleftmargin=6pt,
+  aboveskip=6pt,
+  belowskip=2pt,
+}
+
+\title{A Benchmark for Entity-Aware Metadata Extraction from Photon and
+Neutron Science Papers}
+
+\author{Anonymous ACL submission}
+
+\begin{document}
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/benchmark}
+\input{sections/evaluation}
+\input{sections/experiments}
+\FloatBarrier
+\input{sections/conclusion}
+\input{sections/limitations}
+
+\bibliography{custom}
+
+\appendix
+\input{sections/appendix}
+
+\end{document}

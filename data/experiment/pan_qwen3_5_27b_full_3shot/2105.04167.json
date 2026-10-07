@@ -1,0 +1,276 @@
+{
+  "document_id": "2105.04167",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Role of higher-order effects in spin-misalignment small-angle neutron scattering of high-pressure torsion nickel",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Materials Sciences Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki, 3191195, Japan"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Department of Mechanical Engineering, Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku, Toyohashi, Aichi 441-8580, Japan"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation, Locked Bag 2001, Kirrawee DC, NSW 2232, Australia"
+        },
+        {
+          "id": "aff_5",
+          "label": "5",
+          "text": "Institute Laue-Langevin, 71 avenue des Martyrs, F-38042 Grenoble, France"
+        },
+        {
+          "id": "aff_6",
+          "label": "6",
+          "text": "Donetsk Institute for Physics and Technology, R. Luxembourg str. 72, 83114 Donetsk, Ukraine and Institute for Numerical Mathematics RAS, 8 Gubkina str., 119991 Moscow GSP-1, Russia"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Y. Oba",
+          "orcid": null,
+          "email": "ohba.yojiro@jaea.go.jp",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "M. Bersweiler",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "I. Titov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "N. Adachi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Y. Todaka",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "E.P. Gilbert",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "N.-J. Steinke",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_5"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "K.L. Metlov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_9",
+          "full_name": "A. Michels",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        }
+      ],
+      "abstract": "Magnetic-field-dependent unpolarized small-angle neutron scattering (SANS) experiments demonstrate that high-pressure torsion (HPT) straining induces spin misalignments in pure Ni, which persist in magnetic fields up to 4 T. The spin-misalignment scattering patterns are elongated perpendicular to the applied magnetic field due to an unusual predominant longitudinal sin[2]  -type angular anisotropy. Such a contribution cannot be explained by the conventional second order (in spin misalignment amplitude) micromagnetic SANS theory in the approach-to-saturation regime, nor can its magnitude relative to the other features of the cross sections by the third order micromagnetic SANS theory. This indicates that the high-density of crystal defects induced via HPT straining in Ni makes such higher-order effects in the micromagnetic SANS cross sections observable.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Russian Science Foundation",
+          "grant_id": "RSF 21-11-00325"
+        },
+        {
+          "funder": "KAKENHI",
+          "grant_id": "19K05102"
+        },
+        {
+          "funder": "Japan Science and Technology Agency",
+          "grant_id": "JPMJSK1511"
+        },
+        {
+          "funder": "General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo",
+          "grant_id": "15563"
+        },
+        {
+          "funder": "General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo",
+          "grant_id": "16554"
+        },
+        {
+          "funder": "General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo",
+          "grant_id": "16566"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "I. INTRODUCTION",
+        "II. EXPERIMENT",
+        "III. MICROMAGNETIC SMALL-ANGLE NEUTRON SCATTERING THEORY",
+        "IV. RESULTS AND DISCUSSION",
+        "V. CONCLUSION"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "QUOKKA"
+      },
+      {
+        "id": "facility_2",
+        "name": "D33"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "HPT-Ni",
+        "sample_description": "Nickel disks processed via high-pressure torsion (HPT) at 5 GPa with 5 rotations and 0.2 rpm, mechanically polished to 0.5 mm thickness.",
+        "chemical_composition": "Ni",
+        "sample_state": "disk",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "nd-Ni",
+        "sample_description": "Non-deformed nickel disks with the same dimensions as HPT-Ni, prepared for comparison.",
+        "chemical_composition": "Ni",
+        "sample_state": "disk",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "magnetization curves",
+        "sample_refs": [
+          "sample_1",
+          "sample_2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Magnetization curves measured using a vibrating sample magnetometer (VSM) equipped with a 14 T superconducting magnet.",
+        "measurement_technique": "vibrating sample magnetometry",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "SANS perpendicular geometry",
+        "sample_refs": [
+          "sample_1",
+          "sample_2"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "Small-angle neutron scattering (SANS) measurements in perpendicular scattering geometry (magnetic field perpendicular to incident beam) at fields between 0.1 T and 10 T (ANSTO) and 0.1 T and 6.7 T (ILL).",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "SANS parallel geometry",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_2"
+        ],
+        "dataset_description": "Small-angle neutron scattering (SANS) measurements in parallel scattering geometry (magnetic field parallel to incident beam) at the D33 instrument.",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Role of higher-order effects in spin-misalignment small-angle neutron scattering of high-pressure torsion nickel\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Materials Sciences Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai, Ibaraki, 3191195, Japan\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Department of Mechanical Engineering, Toyohashi University of Technology, 1-1 Hibarigaoka, Tempaku, Toyohashi, Aichi 441-8580, Japan\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation, Locked Bag 2001, Kirrawee DC, NSW 2232, Australia\"\n      },\n      {\n        \"id\": \"aff_5\",\n        \"label\": \"5\",\n        \"text\": \"Institute Laue-Langevin, 71 avenue des Martyrs, F-38042 Grenoble, France\"\n      },\n      {\n        \"id\": \"aff_6\",\n        \"label\": \"6\",\n        \"text\": \"Donetsk Institute for Physics and Technology, R. Luxembourg str. 72, 83114 Donetsk, Ukraine and Institute for Numerical Mathematics RAS, 8 Gubkina str., 119991 Moscow GSP-1, Russia\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Y. Oba\",\n        \"orcid\": null,\n        \"email\": \"ohba.yojiro@jaea.go.jp\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"M. Bersweiler\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"I. Titov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"N. Adachi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Y. Todaka\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"E.P. Gilbert\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"N.-J. Steinke\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_5\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"K.L. Metlov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_6\"\n        ]\n      },\n      {\n        \"id\": \"author_9\",\n        \"full_name\": \"A. Michels\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      }\n    ],\n    \"abstract\": \"Magnetic-field-dependent unpolarized small-angle neutron scattering (SANS) experiments demonstrate that high-pressure torsion (HPT) straining induces spin misalignments in pure Ni, which persist in magnetic fields up to 4 T. The spin-misalignment scattering patterns are elongated perpendicular to the applied magnetic field due to an unusual predominant longitudinal sin[2]  -type angular anisotropy. Such a contribution cannot be explained by the conventional second order (in spin misalignment amplitude) micromagnetic SANS theory in the approach-to-saturation regime, nor can its magnitude relative to the other features of the cross sections by the third order micromagnetic SANS theory. This indicates that the high-density of crystal defects induced via HPT straining in Ni makes such higher-order effects in the micromagnetic SANS cross sections observable.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Russian Science Foundation\",\n        \"grant_id\": \"RSF 21-11-00325\"\n      },\n      {\n        \"funder\": \"KAKENHI\",\n        \"grant_id\": \"19K05102\"\n      },\n      {\n        \"funder\": \"Japan Science and Technology Agency\",\n        \"grant_id\": \"JPMJSK1511\"\n      },\n      {\n        \"funder\": \"General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo\",\n        \"grant_id\": \"15563\"\n      },\n      {\n        \"funder\": \"General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo\",\n        \"grant_id\": \"16554\"\n      },\n      {\n        \"funder\": \"General User Program for Neutron Scattering Experiments, Institute for Solid State Physics, the University of Tokyo\",\n        \"grant_id\": \"16566\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"I. INTRODUCTION\",\n      \"II. EXPERIMENT\",\n      \"III. MICROMAGNETIC SMALL-ANGLE NEUTRON SCATTERING THEORY\",\n      \"IV. RESULTS AND DISCUSSION\",\n      \"V. CONCLUSION\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"QUOKKA\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"D33\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"HPT-Ni\",\n      \"sample_description\": \"Nickel disks processed via high-pressure torsion (HPT) at 5 GPa with 5 rotations and 0.2 rpm, mechanically polished to 0.5 mm thickness.\",\n      \"chemical_composition\": \"Ni\",\n      \"sample_state\": \"disk\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"nd-Ni\",\n      \"sample_description\": \"Non-deformed nickel disks with the same dimensions as HPT-Ni, prepared for comparison.\",\n      \"chemical_composition\": \"Ni\",\n      \"sample_state\": \"disk\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"magnetization curves\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Magnetization curves measured using a vibrating sample magnetometer (VSM) equipped with a 14 T superconducting magnet.\",\n      \"measurement_technique\": \"vibrating sample magnetometry\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"SANS perpendicular geometry\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\",\n        \"facility_2\"\n      ],\n      \"dataset_description\": \"Small-angle neutron scattering (SANS) measurements in perpendicular scattering geometry (magnetic field perpendicular to incident beam) at fields between 0.1 T and 10 T (ANSTO) and 0.1 T and 6.7 T (ILL).\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"SANS parallel geometry\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_2\"\n      ],\n      \"dataset_description\": \"Small-angle neutron scattering (SANS) measurements in parallel scattering geometry (magnetic field parallel to incident beam) at the D33 instrument.\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_27b_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 84491,
+    "output_tokens": 2486,
+    "latency_ms": 124543.26
+  },
+  "warnings": []
+}

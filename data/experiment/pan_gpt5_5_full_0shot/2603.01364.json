@@ -1,0 +1,449 @@
+{
+  "document_id": "2603.01364",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Probing Coordination Environments in Buried Oxides of Aluminum Josephson Junctions by Resonant X-ray Reflectivity",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, California 94550, USA"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Department of Physics, Applied Physics, Stanford University, Stanford, California 94305"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA"
+        },
+        {
+          "id": "aff_5",
+          "label": "5",
+          "text": "E.L. Ginzton Laboratory, Stanford University, Stanford, California 94305"
+        },
+        {
+          "id": "aff_6",
+          "label": "6",
+          "text": "Linac Coherent Light Source, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA"
+        },
+        {
+          "id": "aff_7",
+          "label": "7",
+          "text": "Department of Applied Physics, Stanford University, Stanford, California 94305"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Paul Corbae",
+          "orcid": null,
+          "email": "pjcorbae@slac.stanford.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Alex Abelson",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Shivani Srivastava",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Heemin Lee",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Bevin Huang",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Lyrik R-J Lee",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Davis B. Rash",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "Cheng-Tai Kuo",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_9",
+          "full_name": "Donghui Lu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_10",
+          "full_name": "Mihir Pendharkar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4",
+            "aff_5"
+          ]
+        },
+        {
+          "id": "author_11",
+          "full_name": "Loren D. Alegria",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_12",
+          "full_name": "Tian T. Li",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_13",
+          "full_name": "Keith G. Ray",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_14",
+          "full_name": "Shannon P. Harvey",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_15",
+          "full_name": "Apurva Mehta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_16",
+          "full_name": "David I. Schuster",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_7",
+            "aff_5",
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_17",
+          "full_name": "Vincenzo Lordi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_18",
+          "full_name": "Paul B. Welander",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_19",
+          "full_name": "Jun-Sik Lee",
+          "orcid": null,
+          "email": "jslee@slac.stanford.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "Decoherence remains a critical obstacle to achieving high-fidelity, scalable superconducting qubits, with the tunnel barrier of Josephson junctions a key source of loss. Here we apply resonant X- ray reflectivity to non-destructively probe the electronic structure of buried layers in Al/AlO _x_ /Al Josephson junctions. At the Al _K_ -edge, energy-dependent modulations in the reflectivity maps enable Kramers–Kronig–constrained extraction of the layer-resolved atomic scattering factors. The analysis reveals that the barrier coordination evolves from more tetrahedral toward predominantly octahedral character with increasing oxidation pressure. At the interfaces, the lower metal–oxide boundary is comparatively under-coordinated and disordered relative to the upper interface. Comparison with simulated X-ray absorption spectra identifies the dominant coordination motifs within the oxide and its interfaces, providing depth-resolved structural insight that constrains microscopic models of two-level system formation. These results link growth conditions, local coordination environments, and junction electronic properties, demonstrating resonant X-ray reflectivity as a powerful tool for probing the microscopic materials properties of Josephson junctions and providing a materials-level framework for mitigating decoherence in superconducting qubits.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "U.S. DOE, Office of Science, Office of Basic Energy Sciences",
+          "grant_id": "Contract No. DE-AC02-76SF00515"
+        },
+        {
+          "funder": "U.S. Department of Energy",
+          "grant_id": "Contract DE-AC52-07NA27344"
+        },
+        {
+          "funder": "Air Force Office of Scientific Research",
+          "grant_id": "award number FA9550-23-1-0692"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Methods",
+        "Results",
+        "Discussion",
+        "Conclusion"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Beamline 13-3 of the Stanford Synchrotron Radiation Lightsource"
+      },
+      {
+        "id": "facility_2",
+        "name": "SSRL"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Sample A",
+        "sample_description": "Oxidation condition was 15 minutes at 4.5 Torr O2 with junction thickness 0.8 nm.",
+        "chemical_composition": "Al/AlO _x_ /Al",
+        "sample_state": "blanket films",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Sample B",
+        "sample_description": "Oxidation condition was 15 minutes at 45 Torr O2 with junction thickness 1.7 nm.",
+        "chemical_composition": "Al/AlO _x_ /Al",
+        "sample_state": "blanket films",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "Sample C",
+        "sample_description": "Oxidation condition was 15 minutes at 45 Torr O2, then 3 rounds of 1 nm Al at 0.1 nm_·_s_−_1, 15 minutes at 45 Torr O2 with junction thickness 4.8 nm.",
+        "chemical_composition": "Al/AlO _x_ /Al",
+        "sample_state": "blanket films",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_4",
+        "sample_name": "small-area junctions",
+        "sample_description": "Patterned with electron beam lithography for dc transport measurements.",
+        "chemical_composition": "Al/AlO _x_ /Al",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "RXR",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Specular reflectivity was measured as a function of out-of-plane momentum transfer with photon energies spanning 1540 eV to 1590 eV, corresponding to the Al _K_ -edge.",
+        "measurement_technique": "RXR",
+        "measurement_mode": [
+          "EnergyScan",
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "XRR",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Reflectivity scans were collected at non-resonant photon energies of 1548 and 524 eV for each growth condition to determine the underlying layer structure.",
+        "measurement_technique": "XRR",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "XAS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "XAS spectra were acquired in total electron yield (TEY) mode and converted to _f_ 2 and KK transformed to obtain _f_ 1 for resonant reflectivity modeling.",
+        "measurement_technique": "XAS",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_4",
+        "dataset_name": "EELS",
+        "sample_refs": [
+          "sample_2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "EELS measurements were performed at the Al _L_ 2 _,_ 3 and O _K_ edges for Sample B.",
+        "measurement_technique": "EELS",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_5",
+        "dataset_name": "currentvoltage measurements",
+        "sample_refs": [
+          "sample_4"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Currentvoltage ( _I − V_ ) measurements were performed on patterned shadow-evaporated Josephson junctions and fitted to the Simmons tunneling model.",
+        "measurement_technique": "currentvoltage measurements",
+        "measurement_mode": [
+          "OtherScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_6",
+        "dataset_name": "TEM",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Cross-sectional TEM images resolved the ultrathin AlO _x_ tunnel barrier between the Al electrodes and interface structure of the AlO _x_ barrier layer.",
+        "measurement_technique": "TEM",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_7",
+        "dataset_name": "SEM",
+        "sample_refs": [
+          "sample_4"
+        ],
+        "facility_refs": [],
+        "dataset_description": "A falsecolored SEM image showed a typical Josephson junction with the top electrode in purple and base electrode in red.",
+        "measurement_technique": "SEM",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Probing Coordination Environments in Buried Oxides of Aluminum Josephson Junctions by Resonant X-ray Reflectivity\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, California 94550, USA\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Department of Physics, Applied Physics, Stanford University, Stanford, California 94305\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA\"\n      },\n      {\n        \"id\": \"aff_5\",\n        \"label\": \"5\",\n        \"text\": \"E.L. Ginzton Laboratory, Stanford University, Stanford, California 94305\"\n      },\n      {\n        \"id\": \"aff_6\",\n        \"label\": \"6\",\n        \"text\": \"Linac Coherent Light Source, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025, USA\"\n      },\n      {\n        \"id\": \"aff_7\",\n        \"label\": \"7\",\n        \"text\": \"Department of Applied Physics, Stanford University, Stanford, California 94305\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Paul Corbae\",\n        \"orcid\": null,\n        \"email\": \"pjcorbae@slac.stanford.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Alex Abelson\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Shivani Srivastava\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Heemin Lee\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Bevin Huang\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Lyrik R-J Lee\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Davis B. Rash\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"Cheng-Tai Kuo\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_9\",\n        \"full_name\": \"Donghui Lu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_10\",\n        \"full_name\": \"Mihir Pendharkar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\",\n          \"aff_5\"\n        ]\n      },\n      {\n        \"id\": \"author_11\",\n        \"full_name\": \"Loren D. Alegria\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_12\",\n        \"full_name\": \"Tian T. Li\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_13\",\n        \"full_name\": \"Keith G. Ray\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_14\",\n        \"full_name\": \"Shannon P. Harvey\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_15\",\n        \"full_name\": \"Apurva Mehta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_6\"\n        ]\n      },\n      {\n        \"id\": \"author_16\",\n        \"full_name\": \"David I. Schuster\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_7\",\n          \"aff_5\",\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_17\",\n        \"full_name\": \"Vincenzo Lordi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_18\",\n        \"full_name\": \"Paul B. Welander\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_19\",\n        \"full_name\": \"Jun-Sik Lee\",\n        \"orcid\": null,\n        \"email\": \"jslee@slac.stanford.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"Decoherence remains a critical obstacle to achieving high-fidelity, scalable superconducting qubits, with the tunnel barrier of Josephson junctions a key source of loss. Here we apply resonant X- ray reflectivity to non-destructively probe the electronic structure of buried layers in Al/AlO _x_ /Al Josephson junctions. At the Al _K_ -edge, energy-dependent modulations in the reflectivity maps enable Kramers–Kronig–constrained extraction of the layer-resolved atomic scattering factors. The analysis reveals that the barrier coordination evolves from more tetrahedral toward predominantly octahedral character with increasing oxidation pressure. At the interfaces, the lower metal–oxide boundary is comparatively under-coordinated and disordered relative to the upper interface. Comparison with simulated X-ray absorption spectra identifies the dominant coordination motifs within the oxide and its interfaces, providing depth-resolved structural insight that constrains microscopic models of two-level system formation. These results link growth conditions, local coordination environments, and junction electronic properties, demonstrating resonant X-ray reflectivity as a powerful tool for probing the microscopic materials properties of Josephson junctions and providing a materials-level framework for mitigating decoherence in superconducting qubits.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"U.S. DOE, Office of Science, Office of Basic Energy Sciences\",\n        \"grant_id\": \"Contract No. DE-AC02-76SF00515\"\n      },\n      {\n        \"funder\": \"U.S. Department of Energy\",\n        \"grant_id\": \"Contract DE-AC52-07NA27344\"\n      },\n      {\n        \"funder\": \"Air Force Office of Scientific Research\",\n        \"grant_id\": \"award number FA9550-23-1-0692\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Methods\",\n      \"Results\",\n      \"Discussion\",\n      \"Conclusion\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Beamline 13-3 of the Stanford Synchrotron Radiation Lightsource\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"SSRL\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Sample A\",\n      \"sample_description\": \"Oxidation condition was 15 minutes at 4.5 Torr O2 with junction thickness 0.8 nm.\",\n      \"chemical_composition\": \"Al/AlO _x_ /Al\",\n      \"sample_state\": \"blanket films\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Sample B\",\n      \"sample_description\": \"Oxidation condition was 15 minutes at 45 Torr O2 with junction thickness 1.7 nm.\",\n      \"chemical_composition\": \"Al/AlO _x_ /Al\",\n      \"sample_state\": \"blanket films\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"Sample C\",\n      \"sample_description\": \"Oxidation condition was 15 minutes at 45 Torr O2, then 3 rounds of 1 nm Al at 0.1 nm_·_s_−_1, 15 minutes at 45 Torr O2 with junction thickness 4.8 nm.\",\n      \"chemical_composition\": \"Al/AlO _x_ /Al\",\n      \"sample_state\": \"blanket films\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_4\",\n      \"sample_name\": \"small-area junctions\",\n      \"sample_description\": \"Patterned with electron beam lithography for dc transport measurements.\",\n      \"chemical_composition\": \"Al/AlO _x_ /Al\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"RXR\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Specular reflectivity was measured as a function of out-of-plane momentum transfer with photon energies spanning 1540 eV to 1590 eV, corresponding to the Al _K_ -edge.\",\n      \"measurement_technique\": \"RXR\",\n      \"measurement_mode\": [\n        \"EnergyScan\",\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"XRR\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Reflectivity scans were collected at non-resonant photon energies of 1548 and 524 eV for each growth condition to determine the underlying layer structure.\",\n      \"measurement_technique\": \"XRR\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"XAS\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"XAS spectra were acquired in total electron yield (TEY) mode and converted to _f_ 2 and KK transformed to obtain _f_ 1 for resonant reflectivity modeling.\",\n      \"measurement_technique\": \"XAS\",\n      \"measurement_mode\": [\n        \"EnergyScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_4\",\n      \"dataset_name\": \"EELS\",\n      \"sample_refs\": [\n        \"sample_2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"EELS measurements were performed at the Al _L_ 2 _,_ 3 and O _K_ edges for Sample B.\",\n      \"measurement_technique\": \"EELS\",\n      \"measurement_mode\": [\n        \"EnergyScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_5\",\n      \"dataset_name\": \"currentvoltage measurements\",\n      \"sample_refs\": [\n        \"sample_4\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Currentvoltage ( _I − V_ ) measurements were performed on patterned shadow-evaporated Josephson junctions and fitted to the Simmons tunneling model.\",\n      \"measurement_technique\": \"currentvoltage measurements\",\n      \"measurement_mode\": [\n        \"OtherScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_6\",\n      \"dataset_name\": \"TEM\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Cross-sectional TEM images resolved the ultrathin AlO _x_ tunnel barrier between the Al electrodes and interface structure of the AlO _x_ barrier layer.\",\n      \"measurement_technique\": \"TEM\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_7\",\n      \"dataset_name\": \"SEM\",\n      \"sample_refs\": [\n        \"sample_4\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"A falsecolored SEM image showed a typical Josephson junction with the top electrode in purple and base electrode in red.\",\n      \"measurement_technique\": \"SEM\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 19996,
+    "output_tokens": 3426,
+    "latency_ms": 26528.36
+  },
+  "warnings": []
+}

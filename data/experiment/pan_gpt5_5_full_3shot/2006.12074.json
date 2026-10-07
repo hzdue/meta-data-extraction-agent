@@ -1,0 +1,138 @@
+{
+  "document_id": "2006.12074",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Institute for Materials Research, Tohoku University, Katahira, Sendai 980-8577, Japan"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Research Center for Neutron Science and Technology, Comprehensive Research Organization for Science and Society, Tokai, Ibaraki 319-1106, Japan"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Masaki Fujita",
+          "orcid": null,
+          "email": "fujita@imr.tohoku.ac.jp",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Kazuhiko Ikeuchi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Ryoichi Kajimoto",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Mitsutaka Nakamura",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        }
+      ],
+      "abstract": "In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": "Journal of the Physical Society of Japan",
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Grant-in-Aid for Scientific Research (A)",
+          "grant_id": "16H02125"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Materials and Life Science Experimental Facility"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Sr3Ir2O7",
+        "sample_description": "Approximately 500 single crystals with a maximum size of 2 mm × 2 mm × 1.5 mm were assembled on aluminum plates such that the crystallographic c-axis is perpendicular to each plate.",
+        "chemical_composition": "Sr3Ir2O7",
+        "sample_state": "single crystals",
+        "sample_mass": "2.1 grams",
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "inelastic neutron scattering",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "INS measurements were performed on 4 SEASONS using 250 meV incident neutron energy with a chopper frequency of 250 Hz, collecting signals for two days under 300 kW beam power operation at 6 K.",
+        "measurement_technique": "inelastic neutron scattering",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Institute for Materials Research, Tohoku University, Katahira, Sendai 980-8577, Japan\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Research Center for Neutron Science and Technology, Comprehensive Research Organization for Science and Society, Tokai, Ibaraki 319-1106, Japan\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Masaki Fujita\",\n        \"orcid\": null,\n        \"email\": \"fujita@imr.tohoku.ac.jp\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Kazuhiko Ikeuchi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Ryoichi Kajimoto\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Mitsutaka Nakamura\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      }\n    ],\n    \"abstract\": \"In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": \"Journal of the Physical Society of Japan\",\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Grant-in-Aid for Scientific Research (A)\",\n        \"grant_id\": \"16H02125\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Materials and Life Science Experimental Facility\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Sr3Ir2O7\",\n      \"sample_description\": \"Approximately 500 single crystals with a maximum size of 2 mm × 2 mm × 1.5 mm were assembled on aluminum plates such that the crystallographic c-axis is perpendicular to each plate.\",\n      \"chemical_composition\": \"Sr3Ir2O7\",\n      \"sample_state\": \"single crystals\",\n      \"sample_mass\": \"2.1 grams\",\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"inelastic neutron scattering\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"INS measurements were performed on 4 SEASONS using 250 meV incident neutron energy with a chopper frequency of 250 Hz, collecting signals for two days under 300 kW beam power operation at 6 K.\",\n      \"measurement_technique\": \"inelastic neutron scattering\",\n      \"measurement_mode\": [\n        \"EnergyScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 70076,
+    "output_tokens": 1025,
+    "latency_ms": 9776.69
+  },
+  "warnings": []
+}

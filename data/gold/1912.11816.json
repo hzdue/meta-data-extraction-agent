@@ -1,0 +1,131 @@
+{
+  "bibliographic": {
+    "title": "Experimental observation of third-order effect in magnetic small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Donetsk Institute for Physics and Technology, R. Luxembourg str. 72, 83114 Donetsk, Ukraine"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Institute for Numerical Mathematics RAS, 8 Gubkina str., 119991 Moscow GSP-1, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Department of Materials Science and Engineering, Monash University, Clayton, Victoria 3800, Australia"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Konstantin L. Metlov",
+        "orcid": null,
+        "email": "metlov@fti.dn.ua",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kiyonori Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "A recent theory [Metlov and Michels, Phys. Rev. B 91, 054404 (2015)] predicts a qualitatively new effect in the magnetic small-angle neutron scattering (SANS) cross section of statistically-isotropic disordered ferromagnetic media. The effect is due to the third-order terms in the amplitude of the inhomogeneities. Here, its existence is demonstrated both numerically via large-scale micromagnetic simulations and analyzed experimentally in a two-phase iron-based nanocomposite. The previous model is extended to an arbitrary spatial defect profile, which allows us to describe the experimental field dependence of the third-order SANS effect quantitatively.",
+    "keywords": [
+      "neutron scattering",
+      "small-angle neutron scattering",
+      "magnetic materials",
+      "micromagnetism",
+      "non-collinear magnetic structures"
+    ],
+    "doi": null,
+    "arxiv_id": "1912.11816",
+    "url": null,
+    "publication_date": "2020-06-17",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "RSF 16-11-10349"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. SUMMARY OF PREVIOUS RESULTS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NANOPERM",
+      "sample_description": "Two-phase Fe-based alloy with Fe nanoparticles embedded in an amorphous magnetic matrix.",
+      "chemical_composition": "(Fe0.985Co0.015)89Zr7B3",
+      "sample_state": "nanocomposite",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "small-angle neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "An existing experimental data set from the two-phase Fe-based alloy NANOPERM.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

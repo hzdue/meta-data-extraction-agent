@@ -1,0 +1,1344 @@
+{
+  "n_papers": 30,
+  "metrics": {
+    "bibliographic.title": "rouge_l",
+    "bibliographic.subtitle": "rouge_l",
+    "bibliographic.abstract": "rouge_l",
+    "bibliographic.doi": "normalized_exact",
+    "bibliographic.arxiv_id": "normalized_exact",
+    "bibliographic.url": "normalized_exact",
+    "bibliographic.publication_date": "exact",
+    "bibliographic.venue": "normalized_exact",
+    "bibliographic.publisher": "normalized_exact",
+    "bibliographic.language": "exact",
+    "bibliographic.keywords": "set_f1",
+    "bibliographic.affiliations": "entity",
+    "bibliographic.affiliations.attrs.label": "normalized_exact",
+    "bibliographic.affiliations.attrs.text": "rouge_l",
+    "bibliographic.authors": "entity",
+    "bibliographic.authors.attrs.full_name": "normalized_exact",
+    "bibliographic.authors.attrs.orcid": "normalized_exact",
+    "bibliographic.authors.attrs.email": "normalized_exact",
+    "bibliographic.authors.attrs.is_corresponding": "exact",
+    "bibliographic.authors.attrs.affiliation_refs": "reference",
+    "bibliographic.funding": "entity",
+    "bibliographic.funding.attrs.funder": "rouge_l",
+    "bibliographic.funding.attrs.grant_id": "normalized_exact",
+    "document_overview.section_headings": "ordered_set_f1",
+    "document_overview.has_references": "exact",
+    "document_overview.has_figures": "exact",
+    "document_overview.has_tables": "exact",
+    "facilities": "entity",
+    "facilities.attrs.name": "rouge_l",
+    "samples": "entity",
+    "samples.attrs.sample_name": "rouge_l",
+    "samples.attrs.chemical_composition": "normalized_exact",
+    "samples.attrs.sample_state": "normalized_exact",
+    "samples.attrs.sample_mass": "normalized_exact",
+    "samples.attrs.sample_description": "rouge_l",
+    "samples.attrs.supplier_or_creator": "rouge_l",
+    "datasets": "entity",
+    "datasets.attrs.dataset_name": "rouge_l",
+    "datasets.attrs.measurement_technique": "rouge_l",
+    "datasets.attrs.dataset_description": "rouge_l",
+    "datasets.attrs.measurement_mode": "set_f1",
+    "datasets.attrs.purpose": "exact",
+    "datasets.attrs.sample_refs": "reference",
+    "datasets.attrs.facility_refs": "reference"
+  },
+  "benchmark_statistics": {
+    "Corpus and annotation": {
+      "Papers": 40,
+      "Calibration papers": 10,
+      "Evaluation papers": 30,
+      "Working annotations": 90
+    },
+    "Repeated entities": {
+      "Affiliations": 179,
+      "Authors": 308,
+      "Funding items": 104,
+      "Facilities": 57,
+      "Samples": 127,
+      "Datasets": 118
+    },
+    "Paper-local reference edges": {
+      "Author--affiliation": 354,
+      "Dataset--sample": 321,
+      "Dataset--facility": 73
+    }
+  },
+  "iaa": {
+    "headline": [
+      {
+        "outcome": "Affiliations",
+        "path": "bibliographic.affiliations",
+        "agreement": 1.0,
+        "matched": 133,
+        "unmatched": 0
+      },
+      {
+        "outcome": "Authors",
+        "path": "bibliographic.authors",
+        "agreement": 1.0,
+        "matched": 228,
+        "unmatched": 0
+      },
+      {
+        "outcome": "Funding",
+        "path": "bibliographic.funding",
+        "agreement": 0.888888888888889,
+        "matched": 60,
+        "unmatched": 15
+      },
+      {
+        "outcome": "Facilities",
+        "path": "facilities",
+        "agreement": 0.7532467532467534,
+        "matched": 29,
+        "unmatched": 19
+      },
+      {
+        "outcome": "Samples",
+        "path": "samples",
+        "agreement": 0.8452380952380952,
+        "matched": 71,
+        "unmatched": 26
+      },
+      {
+        "outcome": "Datasets",
+        "path": "datasets",
+        "agreement": 0.7931034482758621,
+        "matched": 69,
+        "unmatched": 36
+      }
+    ],
+    "fields": {
+      "bibliographic.title": {
+        "score": 0.9572871572871573,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.subtitle": {
+        "score": 1.0,
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.abstract": {
+        "score": 0.9956203320165995,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.doi": {
+        "score": 1.0,
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.arxiv_id": {
+        "score": 1.0,
+        "support": [
+          14,
+          30
+        ]
+      },
+      "bibliographic.url": {
+        "score": 1.0,
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.publication_date": {
+        "score": 0.9,
+        "support": [
+          17,
+          30
+        ]
+      },
+      "bibliographic.venue": {
+        "score": 1.0,
+        "support": [
+          17,
+          30
+        ]
+      },
+      "bibliographic.publisher": {
+        "score": 1.0,
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.language": {
+        "score": 1.0,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.keywords": {
+        "score": 0.975609756097561
+      },
+      "bibliographic.affiliations": {
+        "score": 1.0
+      },
+      "bibliographic.affiliations.attrs.label": {
+        "score": 0.9624060150375939,
+        "support": [
+          126,
+          133
+        ]
+      },
+      "bibliographic.affiliations.attrs.text": {
+        "score": 0.9971771820856489,
+        "support": [
+          133,
+          133
+        ]
+      },
+      "bibliographic.authors": {
+        "score": 1.0
+      },
+      "bibliographic.authors.attrs.full_name": {
+        "score": 0.9956140350877193,
+        "support": [
+          228,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.orcid": {
+        "score": 1.0,
+        "support": [
+          0,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.email": {
+        "score": 1.0,
+        "support": [
+          31,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.is_corresponding": {
+        "score": 0.9868421052631579,
+        "support": [
+          228,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.affiliation_refs": {
+        "score": 1.0
+      },
+      "bibliographic.funding": {
+        "score": 0.888888888888889
+      },
+      "bibliographic.funding.attrs.funder": {
+        "score": 0.8370634920634921,
+        "support": [
+          60,
+          60
+        ]
+      },
+      "bibliographic.funding.attrs.grant_id": {
+        "score": 0.9,
+        "support": [
+          60,
+          60
+        ]
+      },
+      "document_overview.section_headings": {
+        "score": 0.9694323144104803,
+        "order_score": 1.0
+      },
+      "document_overview.has_references": {
+        "score": 1.0,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "document_overview.has_figures": {
+        "score": 1.0,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "document_overview.has_tables": {
+        "score": 1.0,
+        "support": [
+          30,
+          30
+        ]
+      },
+      "facilities": {
+        "score": 0.7532467532467534
+      },
+      "facilities.attrs.name": {
+        "score": 0.7760536398467434,
+        "support": [
+          29,
+          29
+        ]
+      },
+      "samples": {
+        "score": 0.8452380952380952
+      },
+      "samples.attrs.sample_name": {
+        "score": 0.7397414791780988,
+        "support": [
+          71,
+          71
+        ]
+      },
+      "samples.attrs.chemical_composition": {
+        "score": 0.8169014084507042,
+        "support": [
+          61,
+          71
+        ]
+      },
+      "samples.attrs.sample_state": {
+        "score": 0.7183098591549296,
+        "support": [
+          61,
+          71
+        ]
+      },
+      "samples.attrs.sample_mass": {
+        "score": 0.9859154929577465,
+        "support": [
+          1,
+          71
+        ]
+      },
+      "samples.attrs.sample_description": {
+        "score": 0.1800889453243614,
+        "support": [
+          71,
+          71
+        ]
+      },
+      "samples.attrs.supplier_or_creator": {
+        "score": 0.8450704225352113,
+        "support": [
+          51,
+          71
+        ]
+      },
+      "datasets": {
+        "score": 0.7931034482758621
+      },
+      "datasets.attrs.dataset_name": {
+        "score": 0.6930579082752996,
+        "support": [
+          69,
+          69
+        ]
+      },
+      "datasets.attrs.measurement_technique": {
+        "score": 0.8637336093857833,
+        "support": [
+          69,
+          69
+        ]
+      },
+      "datasets.attrs.dataset_description": {
+        "score": 0.3612814682314982,
+        "support": [
+          69,
+          69
+        ]
+      },
+      "datasets.attrs.measurement_mode": {
+        "score": 0.7
+      },
+      "datasets.attrs.purpose": {
+        "score": 0.9565217391304348,
+        "support": [
+          69,
+          69
+        ]
+      },
+      "datasets.attrs.sample_refs": {
+        "score": 0.8553054662379421
+      },
+      "datasets.attrs.facility_refs": {
+        "score": 0.8139534883720931
+      }
+    }
+  },
+  "zero_shot": {
+    "models": [
+      "GPT-5.5",
+      "GPT-4o",
+      "Mistral Large 3",
+      "Gemma 4 31B",
+      "Qwen3.5 27B",
+      "Qwen3.5 9B",
+      "Qwen3.5 4B"
+    ],
+    "headline": [
+      {
+        "outcome": "Affiliations",
+        "path": "bibliographic.affiliations",
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "outcome": "Authors",
+        "path": "bibliographic.authors",
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "outcome": "Funding",
+        "path": "bibliographic.funding",
+        "scores": [
+          0.9538461538461539,
+          0.9253731343283583,
+          0.9117647058823529,
+          0.9448818897637795,
+          0.9531249999999999,
+          0.9014084507042254,
+          0.8099173553719009
+        ]
+      },
+      {
+        "outcome": "Facilities",
+        "path": "facilities",
+        "scores": [
+          0.5454545454545454,
+          0.891566265060241,
+          0.7346938775510206,
+          0.8604651162790696,
+          0.7692307692307693,
+          0.7826086956521738,
+          0.7435897435897437
+        ]
+      },
+      {
+        "outcome": "Samples",
+        "path": "samples",
+        "scores": [
+          0.8,
+          0.7770700636942676,
+          0.8651685393258426,
+          0.8636363636363636,
+          0.8372093023255814,
+          0.7831325301204821,
+          0.7388535031847134
+        ]
+      },
+      {
+        "outcome": "Datasets",
+        "path": "datasets",
+        "scores": [
+          0.8323699421965318,
+          0.609271523178808,
+          0.65625,
+          0.7783783783783784,
+          0.8135593220338984,
+          0.73224043715847,
+          0.6363636363636364
+        ]
+      }
+    ],
+    "fields": {
+      "bibliographic.title": {
+        "scores": [
+          0.9938490214352284,
+          0.9918803418803418,
+          0.9952380952380953,
+          0.9896049896049897,
+          0.9896049896049897,
+          0.9917417417417417,
+          0.9933333333333334
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.subtitle": {
+        "scores": [
+          0.9666666666666667,
+          0.9666666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.abstract": {
+        "scores": [
+          0.9762033666478632,
+          0.9867350454712327,
+          0.9824815830398416,
+          0.9729392230680194,
+          0.9741703342944099,
+          0.9795423838977495,
+          0.9773596027019004
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.doi": {
+        "scores": [
+          1.0,
+          0.9666666666666667,
+          1.0,
+          0.9666666666666667,
+          1.0,
+          0.9666666666666667,
+          1.0
+        ],
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.arxiv_id": {
+        "scores": [
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333,
+          0.5333333333333333
+        ],
+        "support": [
+          14,
+          30
+        ]
+      },
+      "bibliographic.url": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.publication_date": {
+        "scores": [
+          0.8,
+          0.7666666666666667,
+          0.6666666666666666,
+          0.8,
+          0.8,
+          0.7666666666666667,
+          0.8
+        ],
+        "support": [
+          17,
+          30
+        ]
+      },
+      "bibliographic.venue": {
+        "scores": [
+          0.5666666666666667,
+          0.5666666666666667,
+          0.6,
+          0.5666666666666667,
+          0.5666666666666667,
+          0.5666666666666667,
+          0.6666666666666666
+        ],
+        "support": [
+          17,
+          30
+        ]
+      },
+      "bibliographic.publisher": {
+        "scores": [
+          1.0,
+          0.9333333333333333,
+          0.9333333333333333,
+          0.9666666666666667,
+          0.9666666666666667,
+          0.9333333333333333,
+          0.9666666666666667
+        ],
+        "support": [
+          0,
+          30
+        ]
+      },
+      "bibliographic.language": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9666666666666667,
+          1.0
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "bibliographic.keywords": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.975609756097561,
+          0.9090909090909092
+        ]
+      },
+      "bibliographic.affiliations": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "bibliographic.affiliations.attrs.label": {
+        "scores": [
+          1.0,
+          0.9774436090225563,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9699248120300752
+        ],
+        "support": [
+          131,
+          133
+        ]
+      },
+      "bibliographic.affiliations.attrs.text": {
+        "scores": [
+          0.9985230934479054,
+          0.9972251116513088,
+          0.998560687432868,
+          0.9992597323424391,
+          0.9985230934479054,
+          0.9985230934479054,
+          0.9985230934479054
+        ],
+        "support": [
+          133,
+          133
+        ]
+      },
+      "bibliographic.authors": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "bibliographic.authors.attrs.full_name": {
+        "scores": [
+          1.0,
+          0.9912280701754386,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          228,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.orcid": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          0,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.email": {
+        "scores": [
+          0.9956140350877193,
+          0.9956140350877193,
+          0.9956140350877193,
+          0.9956140350877193,
+          0.9956140350877193,
+          0.9912280701754386,
+          0.9780701754385965
+        ],
+        "support": [
+          31,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.is_corresponding": {
+        "scores": [
+          0.9912280701754386,
+          0.9912280701754386,
+          1.0,
+          0.9824561403508771,
+          1.0,
+          0.9824561403508771,
+          0.9649122807017544
+        ],
+        "support": [
+          228,
+          228
+        ]
+      },
+      "bibliographic.authors.attrs.affiliation_refs": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9942196531791908,
+          0.9961389961389961
+        ]
+      },
+      "bibliographic.funding": {
+        "scores": [
+          0.9538461538461539,
+          0.9253731343283583,
+          0.9117647058823529,
+          0.9448818897637795,
+          0.9531249999999999,
+          0.9014084507042254,
+          0.8099173553719009
+        ]
+      },
+      "bibliographic.funding.attrs.funder": {
+        "scores": [
+          0.8717416096448355,
+          0.8334497491755557,
+          0.8216127062901256,
+          0.8923340548340549,
+          0.8850814940978875,
+          0.8288207278832279,
+          0.8181360023196759
+        ],
+        "support": [
+          64,
+          64
+        ]
+      },
+      "bibliographic.funding.attrs.grant_id": {
+        "scores": [
+          0.6935483870967742,
+          0.8548387096774194,
+          0.7903225806451613,
+          0.85,
+          0.7704918032786885,
+          0.875,
+          0.8775510204081632
+        ],
+        "support": [
+          64,
+          64
+        ]
+      },
+      "document_overview.section_headings": {
+        "scores": [
+          0.9446808510638297,
+          0.7628865979381442,
+          0.6596491228070175,
+          0.9491525423728814,
+          0.9694323144104803,
+          0.6345609065155807,
+          0.7100977198697068
+        ],
+        "order_scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "document_overview.has_references": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "document_overview.has_figures": {
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "document_overview.has_tables": {
+        "scores": [
+          1.0,
+          1.0,
+          0.9666666666666667,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "support": [
+          30,
+          30
+        ]
+      },
+      "facilities": {
+        "scores": [
+          0.5454545454545454,
+          0.891566265060241,
+          0.7346938775510206,
+          0.8604651162790696,
+          0.7692307692307693,
+          0.7826086956521738,
+          0.7435897435897437
+        ]
+      },
+      "facilities.attrs.name": {
+        "scores": [
+          0.8200091575091575,
+          0.7466210966210967,
+          0.8060360753988205,
+          0.8155119655119655,
+          0.8554761904761905,
+          0.7670400587067253,
+          0.811663049594084
+        ],
+        "support": [
+          37,
+          37
+        ]
+      },
+      "samples": {
+        "scores": [
+          0.8,
+          0.7770700636942676,
+          0.8651685393258426,
+          0.8636363636363636,
+          0.8372093023255814,
+          0.7831325301204821,
+          0.7388535031847134
+        ]
+      },
+      "samples.attrs.sample_name": {
+        "scores": [
+          0.7883597883597884,
+          0.8397736143637783,
+          0.7342815914244485,
+          0.8539578111946532,
+          0.8835978835978836,
+          0.772014652014652,
+          0.7826217843459223
+        ],
+        "support": [
+          77,
+          77
+        ]
+      },
+      "samples.attrs.chemical_composition": {
+        "scores": [
+          0.75,
+          0.6885245901639344,
+          0.6883116883116883,
+          0.6447368421052632,
+          0.6111111111111112,
+          0.6153846153846154,
+          0.6551724137931034
+        ],
+        "support": [
+          63,
+          77
+        ]
+      },
+      "samples.attrs.sample_state": {
+        "scores": [
+          0.4861111111111111,
+          0.4426229508196721,
+          0.5324675324675324,
+          0.6578947368421053,
+          0.6666666666666666,
+          0.5692307692307692,
+          0.5517241379310345
+        ],
+        "support": [
+          67,
+          77
+        ]
+      },
+      "samples.attrs.sample_mass": {
+        "scores": [
+          0.9444444444444444,
+          0.8524590163934426,
+          0.987012987012987,
+          0.9473684210526315,
+          0.9861111111111112,
+          0.9538461538461539,
+          0.9655172413793104
+        ],
+        "support": [
+          1,
+          77
+        ]
+      },
+      "samples.attrs.sample_description": {
+        "scores": [
+          0.4027258937723148,
+          0.2401045861410499,
+          0.27970772108506853,
+          0.4438729991170515,
+          0.3062919306347486,
+          0.32609618579506466,
+          0.2606007920409543
+        ],
+        "support": [
+          57,
+          77
+        ]
+      },
+      "samples.attrs.supplier_or_creator": {
+        "scores": [
+          0.8462962962962962,
+          0.7896174863387978,
+          0.6748917748917749,
+          0.7807017543859649,
+          0.8472222222222222,
+          0.7472527472527473,
+          0.7383367139959431
+        ],
+        "support": [
+          58,
+          77
+        ]
+      },
+      "datasets": {
+        "scores": [
+          0.8323699421965318,
+          0.609271523178808,
+          0.65625,
+          0.7783783783783784,
+          0.8135593220338984,
+          0.73224043715847,
+          0.6363636363636364
+        ]
+      },
+      "datasets.attrs.dataset_name": {
+        "scores": [
+          0.7172228234728234,
+          0.5763818307296568,
+          0.7232036922513113,
+          0.7217472342472342,
+          0.7319384319384319,
+          0.701770368934548,
+          0.5104021828511625
+        ],
+        "support": [
+          72,
+          72
+        ]
+      },
+      "datasets.attrs.measurement_technique": {
+        "scores": [
+          0.747357041107041,
+          0.9025879917184265,
+          0.8712773998488285,
+          0.8856150793650793,
+          0.9495039682539682,
+          0.862686567164179,
+          0.8394557823129252
+        ],
+        "support": [
+          72,
+          72
+        ]
+      },
+      "datasets.attrs.dataset_description": {
+        "scores": [
+          0.4439644694055131,
+          0.2767713368828554,
+          0.37109907149915605,
+          0.3329660748021951,
+          0.3898349801068251,
+          0.33292267263413355,
+          0.4120125200112739
+        ],
+        "support": [
+          72,
+          72
+        ]
+      },
+      "datasets.attrs.measurement_mode": {
+        "scores": [
+          0.7515923566878981,
+          0.47500000000000003,
+          0.4628099173553719,
+          0.5899280575539567,
+          0.6814814814814815,
+          0.3333333333333333,
+          0.4948453608247423
+        ]
+      },
+      "datasets.attrs.purpose": {
+        "scores": [
+          1.0,
+          1.0,
+          0.9841269841269841,
+          1.0,
+          0.9583333333333334,
+          1.0,
+          1.0
+        ],
+        "support": [
+          72,
+          72
+        ]
+      },
+      "datasets.attrs.sample_refs": {
+        "scores": [
+          0.7427055702917772,
+          0.8115942028985507,
+          0.8486842105263157,
+          0.8313953488372093,
+          0.831858407079646,
+          0.6934984520123838,
+          0.8017621145374448
+        ]
+      },
+      "datasets.attrs.facility_refs": {
+        "scores": [
+          0.5,
+          0.9090909090909091,
+          0.7674418604651163,
+          0.8505747126436782,
+          0.7710843373493976,
+          0.8085106382978723,
+          0.746268656716418
+        ]
+      }
+    }
+  },
+  "instruction_effects": [
+    {
+      "outcome": "Affiliations",
+      "path": "bibliographic.affiliations",
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "outcome": "Authors",
+      "path": "bibliographic.authors",
+      "deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "outcome": "Funding",
+      "path": "bibliographic.funding",
+      "deltas": [
+        0.0,
+        0.006854615809839815,
+        0.02941176470588236,
+        0.0,
+        -0.008115310077519422,
+        0.02997987927565393,
+        -0.04722550177095619
+      ]
+    },
+    {
+      "outcome": "Facilities",
+      "path": "facilities",
+      "deltas": [
+        -0.15179316096747286,
+        -0.019826140003050163,
+        -0.0488112770881548,
+        -0.05519753432334007,
+        0.05183946488294333,
+        0.1159420289855071,
+        0.15384615384615397
+      ]
+    },
+    {
+      "outcome": "Samples",
+      "path": "samples",
+      "deltas": [
+        0.07868852459016407,
+        0.1770700636942676,
+        0.046455089033444974,
+        0.04492291334396603,
+        0.042028579434015056,
+        0.022396333801463886,
+        0.05498253544277798
+      ]
+    },
+    {
+      "outcome": "Datasets",
+      "path": "datasets",
+      "deltas": [
+        0.07447520535442653,
+        0.20927152317880793,
+        0.16444672131147542,
+        0.12361647361647365,
+        0.25910387648934385,
+        0.21153037798687235,
+        0.08214676889375683
+      ]
+    }
+  ],
+  "few_shot": {
+    "models": [
+      "GPT-5.5",
+      "Qwen3.5 27B",
+      "Qwen3.5 9B",
+      "Qwen3.5 4B"
+    ],
+    "shots": [
+      0,
+      1,
+      3
+    ],
+    "outcomes": [
+      {
+        "outcome": "Affiliations",
+        "path": "bibliographic.affiliations",
+        "deltas": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "outcome": "Authors",
+        "path": "bibliographic.authors",
+        "deltas": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "outcome": "Funding",
+        "path": "bibliographic.funding",
+        "deltas": [
+          [
+            0.0,
+            -0.014452214452214451,
+            -0.004941044357102853
+          ],
+          [
+            0.0,
+            0.0,
+            0.01562500000000011
+          ],
+          [
+            0.0,
+            -0.04633598693610941,
+            -0.009100758396533126
+          ],
+          [
+            0.0,
+            -0.00991735537190086,
+            0.031352485897940374
+          ]
+        ]
+      },
+      {
+        "outcome": "Facilities",
+        "path": "facilities",
+        "deltas": [
+          [
+            0.0,
+            -0.021645021645021578,
+            0.10570824524312894
+          ],
+          [
+            0.0,
+            -0.11133603238866407,
+            -0.08502024291497978
+          ],
+          [
+            0.0,
+            -0.08493427704752265,
+            -0.04451345755693581
+          ],
+          [
+            0.0,
+            0.0064102564102561654,
+            -0.15384615384615397
+          ]
+        ]
+      },
+      {
+        "outcome": "Samples",
+        "path": "samples",
+        "deltas": [
+          [
+            0.0,
+            0.05869565217391315,
+            0.060335195530726304
+          ],
+          [
+            0.0,
+            0.03779069767441856,
+            -0.02064125498830338
+          ],
+          [
+            0.0,
+            -0.014839847193652944,
+            0.047276826604664035
+          ],
+          [
+            0.0,
+            0.043197778866568504,
+            0.07985994710768418
+          ]
+        ]
+      },
+      {
+        "outcome": "Datasets",
+        "path": "datasets",
+        "deltas": [
+          [
+            0.0,
+            0.014688881332879933,
+            0.07239196256537295
+          ],
+          [
+            0.0,
+            0.005154128258499369,
+            0.024764031259514763
+          ],
+          [
+            0.0,
+            0.007643955905113797,
+            0.029123199205166483
+          ],
+          [
+            0.0,
+            0.12664214398318452,
+            0.06883867577509195
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+\section*{Limitations}
+\label{sec:limitations}
+
+\textbf{Benchmark scope.}
+The benchmark is designed for diagnostic coverage rather than statistical
+representativeness. Its 40 papers were purposively selected from arXiv to span
+diverse PaN techniques and reporting practices, so the observed difficulty
+patterns and model results should be interpreted in the context of this
+benchmark rather than as representative estimates of performance across PaN
+literature.
+
+\textbf{Entity representation.}
+The gold records adopt a single set of conventions for entity identity and
+granularity. When the publication permits more than one reasonable
+representation, such as different facility levels or different groupings of
+measurements into datasets, scores reflect both whether a system finds the
+relevant information and whether it organizes that information according to
+the benchmark's entity boundaries.
+
+\textbf{Alignment generalizability.}
+The entity-alignment protocol is benchmark-specific. Its identity criteria
+and accepted forms were developed from gold records, source PDFs,
+annotation disagreements, and inspection of unmatched model outputs.
+Added paper-specific forms require support from the source publication
+and gold records, but this does not eliminate the risk of adapting the
+protocol to the evaluated outputs. Its applicability to other corpora
+or schemas has not been evaluated.
+
+\textbf{Experimental scope.}
+Each condition uses one extraction per paper, so the reported values are
+single-run point estimates and do not characterize run-to-run generation
+variability. The few-shot analysis uses one fixed set of demonstrations,
+so differences between shot conditions cannot be attributed to the number
+of demonstrations independently of exemplar choice.
+
+\textbf{Input representation.}
+All model conditions operate on parsed document text rather than page images,
+and some layout-dependent information can be lost during parsing. A targeted
+audit found cases in which arXiv identifiers, publication dates, and venue
+information printed in rotated margin text were discarded by the parser while
+remaining accessible to annotators inspecting the PDFs. Performance on such
+fields can therefore partly reflect differences in input access rather than
+extraction ability.

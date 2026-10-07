@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "schema_name": "generic_scientific_document_core_metadata",
+    "schema_version": "1.1.0",
+    "description": "Domain-agnostic field-definition schema for core bibliographic and high-level structural metadata from scientific documents. [variant: instructions removed by scripts/strip_instructions.py]",
+    "design_principles": [
+      "Constraints are used only where they improve normalization without harming extraction quality.",
+      "Most fields remain unconstrained to preserve robustness for LLM-based extraction.",
+      "The schema defines target metadata fields only; response formatting and provenance are handled separately."
+    ]
+  },
+  "bibliographic": {
+    "title": {
+      "description": "Main title of the scientific document itself.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "subtitle": {
+      "description": "Subtitle of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "affiliations": {
+      "description": "Institutional affiliations associated with document authors.",
+      "type": "list[affiliation]",
+      "cardinality": {
+        "min": 0,
+        "max": 100
+      },
+      "item_schema": {
+        "id": {
+          "type": "string",
+          "description": "Stable local affiliation identifier."
+        },
+        "label": {
+          "type": "string|null",
+          "description": "Local marker used in the document, such as a superscript number, letter, or symbol."
+        },
+        "text": {
+          "type": "string",
+          "description": "Affiliation text as given in the document."
+        }
+      }
+    },
+    "authors": {
+      "description": "Authors of the scientific document in document order.",
+      "type": "list[author]",
+      "cardinality": {
+        "min": 0,
+        "max": 100
+      },
+      "item_schema": {
+        "id": {
+          "type": "string",
+          "description": "Stable local author identifier."
+        },
+        "full_name": {
+          "type": "string",
+          "description": "Full author name as presented in the document."
+        },
+        "orcid": {
+          "type": "string|null",
+          "description": "ORCID identifier if explicitly given.",
+          "constraints": {
+            "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+          }
+        },
+        "email": {
+          "type": "string|null",
+          "description": "Author email if explicitly given."
+        },
+        "is_corresponding": {
+          "type": "boolean",
+          "description": "Whether the author is explicitly marked as a corresponding author."
+        },
+        "affiliation_refs": {
+          "type": "list[string]",
+          "description": "References linking the author to affiliations."
+        }
+      }
+    },
+    "abstract": {
+      "description": "Main abstract of the scientific document.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "keywords": {
+      "description": "Explicit author-provided or publisher-provided keywords.",
+      "type": "list[string]",
+      "cardinality": {
+        "min": 0,
+        "max": 50
+      }
+    },
+    "doi": {
+      "description": "DOI of the document itself, if explicitly given.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      },
+      "constraints": {
+        "pattern": "^10\\.\\d{4,9}/\\S+$"
+      }
+    },
+    "arxiv_id": {
+      "description": "arXiv identifier of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "url": {
+      "description": "Canonical URL of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "publication_date": {
+      "description": "Publication date of the document in the most precise form available.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "venue": {
+      "description": "Primary scholarly venue or container of the document, such as a journal, conference, workshop, proceedings venue, or repository.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "publisher": {
+      "description": "Publisher or issuing organization of the document.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "language": {
+      "description": "Primary language of the document content.",
+      "type": "string|null",
+      "cardinality": {
+        "min": 0,
+        "max": 1
+      },
+      "constraints": {
+        "format": "ISO 639-1 two-letter code, e.g. en, fr, de."
+      }
+    },
+    "funding": {
+      "description": "Funding information explicitly stated in the document, restricted to entries with both an identifiable funder and an explicit grant or award identifier.",
+      "type": "list[funding_item]",
+      "cardinality": {
+        "min": 0,
+        "max": 50
+      },
+      "item_schema": {
+        "funder": {
+          "type": "string",
+          "description": "Funding organization name associated with the grant."
+        },
+        "grant_id": {
+          "type": "string",
+          "description": "Grant or award identifier explicitly given in the document."
+        }
+      }
+    }
+  },
+  "document_overview": {
+    "section_headings": {
+      "description": "Top-level headings of the main scientific body in reading order.",
+      "type": "list[string]",
+      "cardinality": {
+        "min": 0,
+        "max": 200
+      }
+    },
+    "has_references": {
+      "description": "Whether the document contains a references or bibliography section.",
+      "type": "boolean"
+    },
+    "has_figures": {
+      "description": "Whether the document contains one or more figures.",
+      "type": "boolean"
+    },
+    "has_tables": {
+      "description": "Whether the document contains one or more tables.",
+      "type": "boolean"
+    }
+  }
+}

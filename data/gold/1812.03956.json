@@ -1,0 +1,159 @@
+{
+  "bibliographic": {
+    "title": "X-ray reflectivity with a twist: quantitative time-resolved X-ray reflectivity using monochromatic synchrotron radiation",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Cornell High Energy Synchrotron Source, Cornell University, Ithaca, NY 14853"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Science and Engineering, Johns Hopkins University, Baltimore, MD 21218"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Howie Joress",
+        "orcid": null,
+        "email": "hj335@cornell.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Shane Arlington",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Timothy P. Weihs",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joel D. Brock",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Arthur R. Woll",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We have developed an improved method of time-resolved x-ray reflectivity (XRR) using monochromatic synchrotron radiation. Our method utilizes a polycapillary x-ray optic to create a range of incident angles and an area detector to collect the specular reflections. By rotating the sample normal out of the plane of the incident fan, we can separate the surface diffuse scatter from the reflectivity signal, greatly improving the quality of the XRR spectra compared to previous implementations. We demonstrate the time-resolved capabilities of this system, with temporal resolution as low as 10 ms, by measuring XRR during the annealing of Al/Ni nano-scale multilayers and use this information to extract the activation energy for interdiffusion in this system.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "1812.03956",
+    "url": null,
+    "publication_date": "2018-12-11",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1332208"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Cornell High Energy Synchrotron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "trilayer film",
+      "sample_description": "containing nominally 200 Å of Mo, 200 Å of B4C, and a capping layer of 67 Å of Mo.",
+      "chemical_composition": "Mo/B4C/Mo",
+      "sample_state": "trilayer film",
+      "sample_mass": null,
+      "supplier_or_creator": "optics group of the Advanced Photon Source"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "10 bilayer thick Al/Ni ML film on SiC",
+      "sample_description": "The films were grown from an Al 1100 alloy target and a Ni target with 7 wt% V on 6H-SiC wafers with a on-axis c-plane surface",
+      "chemical_composition": "Al/Ni",
+      "sample_state": "multilayer film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "qXRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "qXRR measurements performed primarily at CHESS G3 station on both samples and time-resolved qXRR measurements from Al/Ni multilayer heating from room temperature to above 575 K.",
+      "measurement_technique": "quick X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan",
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Parratt XRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Parratt reflectivity measurements taken at CHESS G2 with the diffraction measurement done in the vertical direction.",
+      "measurement_technique": "Parratt XRR",
+      "measurement_mode": [],
+      "purpose": "reference"
+    }
+  ]
+}

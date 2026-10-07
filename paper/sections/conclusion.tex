@@ -1,0 +1,23 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced a publication-derived benchmark of 40 PaN papers, with reconciled 
+gold records and a two-layer schema for generic and experimental metadata. 
+Its entity-aware evaluation aligns entities and remaps output-local identifiers, 
+separating entity recovery from conditional attribute and reference quality.
+
+Both annotators and models generally recover paper-level fields, authors,
+and affiliations more consistently than facilities, samples, and datasets. 
+PaN annotation disagreements frequently concern entity identity and granularity. 
+No model leads all three PaN collections, and higher entity recovery does not 
+necessarily imply higher conditional attribute or reference quality. Detailed field 
+instructions improve dataset and sample recovery across all evaluated models, but 
+their effects on facilities are model-dependent. Within the Qwen3.5 family, the 
+association between model size and entity recovery depends on the entity
+type, while fixed demonstrations produce heterogeneous and sometimes
+non-monotonic changes. Together, these findings motivate reporting entity
+recovery, attribute quality, and reference quality separately instead of
+collapsing them into a benchmark-wide score.
+
+We release the schema, gold records, scoring protocol, and evaluation code to 
+support further study of these distinct extraction challenges.

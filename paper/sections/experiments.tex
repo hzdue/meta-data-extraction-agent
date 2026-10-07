@@ -1,0 +1,170 @@
+\section{Experiments}
+\label{sec:experiments}
+
+\subsection{Experimental Setup}
+\label{sec:experimental-setup}
+
+Table~\ref{tab:experimental-matrix} summarizes the seven evaluated models and
+prompting conditions. GPT-5.5 and GPT-4o provide proprietary API-served
+reference points, while Mistral Large 3, Gemma 4, and Qwen3.5 provide coverage
+of three open-weight model families
+\citep{openai2026gpt55,openai2024gpt4o,mistral2025mistral3,
+gemmateam2026gemma4,qwenteam2026qwen35}.
+The Qwen3.5 4B, 9B, and 27B models form the only within-family size series.
+
+\input{tables/experimental_matrix}
+
+We use zero-shot extraction with the designed generic and PaN schemas,
+including their detailed field instructions, as the baseline setting. To
+assess the contribution of these instructions, we compare against an
+ablation in which the per-field \texttt{instructions} arrays are removed.
+We further examine whether examples provide additional benefit by
+evaluating one-shot and three-shot prompting for GPT-5.5 and the three
+Qwen3.5 models, using fixed demonstrations drawn from the calibration set.
+
+All conditions use a common text-to-JSON extraction pipeline. PDFs are
+converted to Markdown-like text with \texttt{pymupdf4llm}, and models receive
+the extracted document text together with the schemas and a common extraction
+template. Detailed pipeline and serving settings are reported in
+Appendix~\ref{app:reproducibility}.
+
+\subsection{Annotation Agreement}
+\label{sec:annotation-agreement}
+
+We measure agreement between two independent annotations of each of the 30
+evaluation papers using the entity-aware protocol from
+Section~\ref{sec:evaluation}. For funding, samples, and datasets, correspondence 
+is established through reconciled gold identities. Entity F1 is symmetric under 
+annotator-role reversal. Table~\ref{tab:iaa-recovery} reports entity-level agreement 
+for the six entity collections. Agreement is perfect for authors and affiliations, 
+whose identities  have direct textual anchors in the publication, and remains high 
+but imperfect for funding. Agreement is lower for facilities, samples, and datasets, 
+where  annotators must additionally decide whether different mentions, states, or 
+measurements constitute the same entity or distinct entities.
+
+\input{tables/iaa_recovery}
+
+Inspection of unmatched entity records helps explain these differences in
+agreement. Funding disagreements mainly reflect decisions about 
+whether reported sources of support should be included as funding entities. 
+For the PaN collections, the dominant differences concern entity granularity:
+representing facilities at the host-facility or instrument/beamline level,
+distinguishing sample preparations, treatments, or states, and combining
+versus splitting related measurements into dataset entities.
+
+Field-level agreement also varies after entity alignment, with particularly
+low agreement for free-text sample and dataset descriptions. The complete
+profile is reported in Table~\ref{tab:appendix-iaa}.
+\input{tables/zero_shot_recovery}
+\input{tables/instruction_effects}
+
+\subsection{Baseline Results}
+\label{sec:baseline-results}
+
+Table~\ref{tab:zero-shot-recovery} reports entity recovery for the seven
+full-instruction zero-shot conditions.
+Generic metadata are generally extracted consistently across models: author and
+affiliation entity recovery is 1.000 for every model, while title, abstract,
+author-name, and affiliation-label scores are all close to one
+(Table~\ref{tab:appendix-zero-shot}). Funding entity recovery also remains
+comparatively strong, although its attribute scores are less uniform. In
+contrast, PaN entity recovery is lower and more variable across facilities,
+samples, and datasets.
+
+This contrast may partly reflect how the target metadata are represented in
+the publication. Titles, abstracts, authors, and affiliations are typically
+localized and explicitly delimited, making their extraction closer to
+transcription. Funding has distinctive lexical anchors such as grant
+identifiers, but still requires decisions about inclusion and funder--grant
+attribution. Facilities, samples, and datasets often require entities to
+be constructed from distributed mentions, including decisions about facility
+hierarchy, prepared sample variants, and distinct measurement campaigns.
+Similar identity and granularity decisions also account for many of the
+annotation disagreements observed in
+Section~\ref{sec:annotation-agreement}. 
+
+Within the PaN layer, relative model performance depends on the entity type.
+GPT-4o achieves the highest facility recovery, while the leading
+sample results for Mistral and Gemma are close, and GPT-5.5
+achieves the highest dataset recovery. Within the Qwen3.5 series, recovery
+increases from 4B to 9B to 27B for samples and datasets, whereas facility 
+recovery peaks at 9B. This suggests that the association between model size 
+and recovery depends on the entity type rather than following a uniform pattern 
+across PaN extraction.
+
+Higher entity recovery does not necessarily correspond to higher quality on
+aligned entities. Table~\ref{tab:appendix-zero-shot} reports the corresponding
+conditional attribute and reference scores. GPT-4o has the highest facility
+entity F1 but the lowest aligned facility-name score (0.747). A stronger
+contrast appears for datasets: GPT-5.5 has the highest dataset recovery but,
+among its aligned datasets, the lowest dataset--facility reference F1 (0.500),
+whereas GPT-4o has substantially lower dataset recovery (0.609) but the highest
+conditional dataset--facility reference F1 (0.909). These results show
+that entity recovery and conditional attribute and reference quality capture
+different aspects of model performance, although the conditional scores are 
+computed on model-specific aligned subsets and reference scores additionally 
+depend on recovery of the referenced entities.
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth]{figures/few_shot.pdf}
+  \caption{Effect of fixed demonstrations on entity recovery for the four
+  tested models on the 30 evaluation papers, shown as the change in entity F1
+  relative to each model's own zero-shot condition (positive values indicate
+  higher recovery with demonstrations). Entity F1 for authors and affiliations
+  is 1.000 in every condition, so these collections are omitted.}
+  \label{fig:few-shot}
+\end{figure*}
+
+\subsection{Instruction Ablation}
+\label{sec:instruction-ablation}
+
+Table~\ref{tab:instruction-effects} reports the difference in entity F1
+between the full-instruction and no-instruction conditions. Detailed instructions
+consistently yield higher measured recovery for samples and datasets: dataset
+F1 increases by 0.074--0.259 across all seven models, and sample F1 by
+0.022--0.177. Author and affiliation recovery is 1.000 with and without
+instructions and is therefore unaffected, while funding changes little and in
+both directions ($-0.047$ to $+0.030$). Facility recovery shows a different
+pattern: instructions reduce F1 for GPT-5.5, GPT-4o, Mistral, and Gemma, but
+increase it for all three Qwen3.5 models.
+
+The dataset gains reflect higher recall for six models and
+fewer false positives for five. With instructions, six models gain 3--23
+dataset true positives; GPT-5.5 retains the same number of true positives and
+reduces false positives by 17. False positives are unchanged for Gemma and
+increase by one for GPT-4o.
+
+Paired-output inspection suggests that the facility differences partly reflect
+how each model's naming and selection behavior interacts with the benchmark's
+facility--instrument boundary. The facility instruction requests the specific
+facility rather than an umbrella institution, for example PETRA III rather
+than DESY, but does not explicitly define the boundary between facilities and
+their subordinate instruments or beamlines. For GPT-5.5, Mistral, and Gemma,
+instructed outputs often retain an instrument or beamline while omitting the
+facility-level name used in the reconciled gold, resulting in fewer recovered
+facilities. GPT-4o loses no gold-facility matches; its small F1 decrease comes
+from gaining one true positive but three false positives. For all three
+Qwen3.5 models, false positives decrease, although their true-positive changes
+differ by model. Because the ablation removes the complete instruction bundle
+and uses one extraction per paper, these patterns are post hoc explanations
+rather than effects isolated to an individual instruction.
+
+\subsection{Few-Shot Demonstrations}
+\label{sec:few-shot}
+
+Figure~\ref{fig:few-shot} compares zero-, one-, and three-shot conditions for
+GPT-5.5 and the three Qwen3.5 models. Dataset
+recovery shows the most consistent three-shot improvement: relative to
+zero-shot, entity F1 increases for all four models by 0.025--0.072. Sample
+recovery also increases for three of the four models, whereas facility recovery
+varies across models and shot counts.
+
+Recovery does not improve monotonically with additional demonstrations.
+One-shot and three-shot conditions can move recovery in different directions,
+with no consistent ordering across entity types or models. For example,
+Qwen3.5 4B dataset F1 rises from 0.636 in zero-shot to 0.763 in one-shot before
+decreasing to 0.705 in three-shot, while its sample F1 increases from 0.739 to
+0.782 and 0.819. Because only one fixed, ordered set of demonstrations was tested, 
+these comparisons characterize the tested prompt configurations and do not isolate 
+shot count from exemplar choice.

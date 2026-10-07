@@ -1,0 +1,30 @@
+domain_name: photon_and_neutron
+schemas:
+  - generic.json
+  - photon_and_neutron.json
+
+parser:
+  type: pdf
+
+extractor:
+  shot_mode: few_shot
+  few_shot:
+    example_ids:
+      - "2309.13729"
+      - "2104.10884"
+      - "2304.08002"
+
+validator: {}
+
+llm:
+  provider: openai_compatible
+  model: Qwen/Qwen3.5-4B
+  base_url: http://localhost:8001/v1
+  api_key_env: QWEN_API_KEY
+  temperature: 0.0
+  max_tokens: 12288
+  max_doc_chars: 400000
+
+tracker:
+  type: local
+  output_dir: data/experiment

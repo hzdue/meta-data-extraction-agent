@@ -1,0 +1,328 @@
+{
+  "bibliographic": {
+    "title": "X-ray linear dichroic ptychography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA 90095, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Bioengineering, University of California, Los Angeles, CA 90095, USA."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "JILA and Department of Physics , University of Colorado and National Institute of Standards and Technology (NIST), Boulder, CO 80309, USA."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, Materials Science and Engineering, Chemistry, and Geoscience, University of Wisconsin, Madison, Wisconsin 53706, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yuan Hung Lo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jihan Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Arjun Rana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Drew Morrill",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Christian Gentry",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Bjoern Enders",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Young-Sang Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Chang-Yu Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "David Shapiro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Roger Falcone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Henry Kapteyn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Margaret Murnane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Pupa U. P. A. Gilbert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Jianwei Miao",
+        "orcid": null,
+        "email": "miao@physics.ucla.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Biominerals such as seashells, corals skeletons, bone, and enamel are optically anisotropic crystalline materials with unique nano- and micro-scale organization that translates into exceptional macroscopic mechanical properties, providing inspiration for engineering new and superior biomimetic structures. Here we use particles of Seriatopora aculeata coral skeleton as a model and demonstrate, for the first time, x-ray linear dichroic ptychography. We map the aragonite (CaCO3) crystal c-axis orientations in coral skeleton with 35 nm spatial resolution. Linear dichroic phase imaging at the O K-edge energy shows strong polarization-dependent contrast and reveals the presence of both narrow (< 35°) and wide (> 35°) c-axis angular spread in sub-micrometer coral particles. These x-ray ptychography results were corroborated using 4D scanning transmission electron nano-diffraction on the same particles. Evidence of co-oriented but disconnected corallite sub-domains indicates jagged crystal boundaries consistent with formation by amorphous nanoparticle attachment. Looking forward, we anticipate that x-ray linear dichroic ptychography can be applied to study nano-crystallites, interfaces, nucleation and mineral growth of optically anisotropic materials with sub-ten nanometers spatial resolution in three dimensions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "STROBE: A National Science Foundation Science & Technology Center",
+        "grant_id": "DMR 1548924"
+      },
+      {
+        "funder": "Department of Energy",
+        "grant_id": "DE-SC0010378"
+      },
+      {
+        "funder": "DOE-BES-CSGB-Geosciences grant",
+        "grant_id": "DE-FG02-07ER15899"
+      },
+      {
+        "funder": "NSF-BMAT grant",
+        "grant_id": "DMR-1603192"
+      },
+      {
+        "funder": "Office of Science, Office of Basic Energy Sciences, US Department of Energy",
+        "grant_id": "DE-AC02-05CH11231"
+      },
+      {
+        "funder": "Department of Energy National Nuclear Security Administration Stewardship Science Graduate Fellowship program",
+        "grant_id": "DENA0003864"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "MATERIALS AND METHODS",
+      "RESULTS",
+      "DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National Center for Electron Microscopy"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Seriatopora aculeata coral skeleton",
+      "sample_description": "A ~1cm long nubbin broken off from the cleaned coral skeleton, fractured into micrometer-sized grains.",
+      "chemical_composition": "CaCO3",
+      "sample_state": "particles",
+      "sample_mass": null,
+      "supplier_or_creator": "Tropical Fish World, El Cerrito, CA"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray linear dichroic ptychography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Soft X-ray ptychographic microscopy measurements performed at COSMIC using square-grid scan points, four linear polarizations, and two X-ray energies.",
+      "measurement_technique": "X-ray linear dichroic ptychography",
+      "measurement_mode": [
+        "PositionScan",
+        "PolarizationScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "STXM-XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "STXM-XAS measured at beamline 7.0.1.2 with grid scan, energies spanning the entire O K-edge from 525 to 555 eV, and four x-ray linear polarizations.",
+      "measurement_technique": "Scanning transmission x-ray microscopy with x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "PositionScan",
+        "EnergyScan",
+        "PolarizationScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PEEM-PIC mapping",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "PIC maps were acquired using the PEEM-3 instrument on beamline 11.0.1.1; for each PIC map, a stack of 19 PEEM images were acquired on-peak at the O K-edge π* energy as the linear polarization from the undulator was rotated from 0° to 90° in 5° increments.",
+      "measurement_technique": "x-ray photoemission electron microscopy",
+      "measurement_mode": [
+        "PolarizationScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "4D-STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "4D-STEM diffraction data taken on Orius CCD with a camera length of 300 mm using a convergence angle ~0.51mrad, with 64 × 64 square grid scan positions.",
+      "measurement_technique": "Scanning nano-diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "electron tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Electron tomography data collected at the National Center for Electron Microscopy and reconstructed using GENFIRE.",
+      "measurement_technique": "electron tomography",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "Thermal expansion of FeWO4 (Ferberite) and FeWO4:Fe2WO6 (7:1): a comparative X-ray and neutron diffraction study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble cedex 9, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut de Ciència dels Materials de la Universitat de València, Apartado de Correos 2085, E-46071 València, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Unidad de Difracción de Rayos X, Centro de asistencia a la Investigación de Técnicas Químicas, Universidad Complutense de Madrid, Madrid, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Departamento de Física, Instituto Universitario de estudios Avanzados en Física Atómica, Molecular y Fotónica (IUDEA), MALTA Consolider Team, Universidad de La Laguna, La Laguna, Tenerife, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Departamento de Física Aplicada-ICMUV, MALTA Consolider Team, Universitat de Valencia, Dr Moliner 50, Burjassot, Valencia, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "O. Fabelo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L. Cañadillas-Delgado",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "D. Vie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "E. Matesanz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Gonzalez-Platas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. Errandonea",
+        "orcid": null,
+        "email": "daniel.errandonea@uv.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The thermal expansion of natural FeWO4 (ferberite) and synthetic FeWO4:Fe2WO6 (7:1) was investigated over the 2–1123 K temperature range combining single-crystal and powder X-ray diffraction together with neutron powder diffraction. High-precision lattice parameters were obtained for both samples. The temperature dependence of the unit-cell volume was analysed using physically based thermodynamic models, including the Kroll and Berman approaches as implemented in EoSFit7. All datasets are well reproduced within their respective temperature intervals. However, significant differences are observed between the behavior of ferberite and FeWO4:Fe2WO6, which has a ~40% smaller thermal expansion coefficient and a reduced reference volume. Possible origins, including microstructural and phase-coexistence effects, are discussed. The results provide a comprehensive description of the thermal expansion behavior of FeWO4 across a wide temperature range.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Agencia Canaria de Investigación, Innovación y Sociedad de la Información",
+        "grant_id": "ProID2024010034"
+      },
+      {
+        "funder": "Fondo Europeo de Desarrollo Regional",
+        "grant_id": "ProID2024010034"
+      },
+      {
+        "funder": "NICIU/AEI/10.13039/501100011033",
+        "grant_id": "PID2024-158791NB-I00"
+      },
+      {
+        "funder": "Ministerio de Ciencia, Innovación y Universidades",
+        "grant_id": "PID2022-138076NB-C41"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1.- Introduction",
+      "2.- Experimental details",
+      "3.- Results and discussion",
+      "4.- Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "Universidad Complutense de Madrid"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FeWO4",
+      "sample_description": "Natural ferberite consisted of large single crystals, which were subsequently ground to prepare polycrystalline samples.",
+      "chemical_composition": "FeWO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "Monte Cambillaya mining district, La Paz, Bolivia"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FeWO4:Fe2WO6",
+      "sample_description": "Two-phase mixture of FeWO4 (ca. 88%) and Fe2WO6 (ca. 12%) synthesized by co-precipitation.",
+      "chemical_composition": "FeWO4:Fe2WO6 (7:1)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent SC-XRD data collected on the dual-source Bruker D8 diffractometer using silver radiation with a wavelength of λ = 0.56086 Å.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "X-ray diffraction measurements on the powdered ferberite sample and synthetic FeWO4 using an X'Pert diffractometer equipped with Cu Kα radiation and an X'Celerator detector.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction data collected on the high-counting-efficiency D20 diffractometer in high-resolution mode.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

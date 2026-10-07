@@ -1,0 +1,156 @@
+{
+  "document_id": "2001.00707",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Neutron diffraction and ab initio studies on the fully compensated ferrimagnetic characteristics of Mn2V1-xCoxGa Heusler alloys",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Department of Physics, Indian Institute of Technology Madras, Chennai-600036, India."
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Saha Institute of nuclear physics, Bidhannagar, Kolkata, West Bengal-700064."
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Defense Metallurgical Research Laboratory, Kanchanbagh (PO), Hyderabad-500058, India."
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "UGC-DAE Consortium for Scientific Research, Mumbai Center, R-5 shed, BARC, Trombay, Mumbai-400085, India."
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "P V Midhunlal",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "C Venkatesh",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "J Arout Chelvane",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "P D Babu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "N Harish Kumar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "Neutron diffraction and ab initio studies were carried out on Mn2V1-xCoxGa (x=0, 0.25, 0.5, 0.75, 1) Heusler alloys which exhibits high TC fully compensated ferrimagnetic characteristic for x=0.5. A combined analysis of neutron diffraction and ab initio calculations revealed the crystal structure and magnetic configuration which could not be determined from the X-ray diffraction and magnetic measurements. As reported earlier, Rietveld refinement of neutron diffraction data confirmed L21 structure for Mn2VGa and Xa structure for Mn2CoGa. The alloys with x=0.25 and 0.5 possess L21 structure with Mn(C)-Co disorder. As the Co concentration reaches 0.75, a structural transition has been observed from disordered L21 to disordered Xa. Detailed ab initio studies also confirmed this structural transition. The reason for the magnetic moment compensation in Mn2V1-xCoxGa was identified to be different from that of the earlier reported fully compensated ferrimagnet (MnCo)VGa. With the help of neutron diffraction and ab initio studies, it is identified that the disordered L21 structure with antiparallel coupling between the ferromagnetically aligned magnetic moments of (Mn(A)-Mn(C)) and (V-Co) atom pairs enables the compensation in Mn2V1-xCoxGa.",
+      "keywords": [
+        "Compensated ferrimagnets",
+        "high Curie temperature",
+        "Neutron diffraction",
+        "ab initio studies"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Experimental & Computational details",
+        "Results & discussion",
+        "Conclusions",
+        "Acknowledgement",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Dhruva reactor"
+      }
+    ],
+    "samples": [],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "neutron diffraction",
+        "sample_refs": [],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Room temperature neutron diffraction (ND) measurements were carried out at a wavelength of 1.48 Å using the position-sensitive detector based focusing crystal diffractometer PD-3 installed by the UGC-DAE CSR Mumbai Centre at the Dhruva reactor, Trombay.",
+        "measurement_technique": "neutron diffraction",
+        "measurement_mode": [],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "ab initio calculations",
+        "sample_refs": [],
+        "facility_refs": [],
+        "dataset_description": "Spin-polarized band structure calculations were carried out for the Mn2V1-xCoxGa (x= 0, 0.25, 0.5, 0.75, 1) Heusler alloys using full-potential linearized augmented plane wave method (FP-LAPW) implemented in WIEN2k code.",
+        "measurement_technique": "ab initio calculations",
+        "measurement_mode": [],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Neutron diffraction and ab initio studies on the fully compensated ferrimagnetic characteristics of Mn2V1-xCoxGa Heusler alloys\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, Indian Institute of Technology Madras, Chennai-600036, India.\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Saha Institute of nuclear physics, Bidhannagar, Kolkata, West Bengal-700064.\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Defense Metallurgical Research Laboratory, Kanchanbagh (PO), Hyderabad-500058, India.\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"UGC-DAE Consortium for Scientific Research, Mumbai Center, R-5 shed, BARC, Trombay, Mumbai-400085, India.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"P V Midhunlal\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"C Venkatesh\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"J Arout Chelvane\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"P D Babu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"N Harish Kumar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"Neutron diffraction and ab initio studies were carried out on Mn2V1-xCoxGa (x=0, 0.25, 0.5, 0.75, 1) Heusler alloys which exhibits high TC fully compensated ferrimagnetic characteristic for x=0.5. A combined analysis of neutron diffraction and ab initio calculations revealed the crystal structure and magnetic configuration which could not be determined from the X-ray diffraction and magnetic measurements. As reported earlier, Rietveld refinement of neutron diffraction data confirmed L21 structure for Mn2VGa and Xa structure for Mn2CoGa. The alloys with x=0.25 and 0.5 possess L21 structure with Mn(C)-Co disorder. As the Co concentration reaches 0.75, a structural transition has been observed from disordered L21 to disordered Xa. Detailed ab initio studies also confirmed this structural transition. The reason for the magnetic moment compensation in Mn2V1-xCoxGa was identified to be different from that of the earlier reported fully compensated ferrimagnet (MnCo)VGa. With the help of neutron diffraction and ab initio studies, it is identified that the disordered L21 structure with antiparallel coupling between the ferromagnetically aligned magnetic moments of (Mn(A)-Mn(C)) and (V-Co) atom pairs enables the compensation in Mn2V1-xCoxGa.\",\n    \"keywords\": [\n      \"Compensated ferrimagnets\",\n      \"high Curie temperature\",\n      \"Neutron diffraction\",\n      \"ab initio studies\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Experimental & Computational details\",\n      \"Results & discussion\",\n      \"Conclusions\",\n      \"Acknowledgement\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Dhruva reactor\"\n    }\n  ],\n  \"samples\": [],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"neutron diffraction\",\n      \"sample_refs\": [],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Room temperature neutron diffraction (ND) measurements were carried out at a wavelength of 1.48 Å using the position-sensitive detector based focusing crystal diffractometer PD-3 installed by the UGC-DAE CSR Mumbai Centre at the Dhruva reactor, Trombay.\",\n      \"measurement_technique\": \"neutron diffraction\",\n      \"measurement_mode\": [],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"ab initio calculations\",\n      \"sample_refs\": [],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Spin-polarized band structure calculations were carried out for the Mn2V1-xCoxGa (x= 0, 0.25, 0.5, 0.75, 1) Heusler alloys using full-potential linearized augmented plane wave method (FP-LAPW) implemented in WIEN2k code.\",\n      \"measurement_technique\": \"ab initio calculations\",\n      \"measurement_mode\": [],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_4b_full_1shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 42574,
+    "output_tokens": 1517,
+    "latency_ms": 14772.87
+  },
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    Setting & Value \\
+    \midrule
+    \multicolumn{2}{@{}l}{\textit{Document input}} \\
+    PDF-to-text & \texttt{pymupdf4llm} 1.27.2.2 \\
+    \addlinespace
+    \multicolumn{2}{@{}l}{\textit{Decoding}} \\
+    Temperature & 0 \\
+    Reasoning / thinking & Disabled \\
+    Max output tokens & 12{,}288 \\
+    Runs per condition & 1 \\
+    \addlinespace
+    \multicolumn{2}{@{}l}{\textit{Local serving (Gemma 4, Qwen3.5)}} \\
+    Engine & vLLM 0.24.0 \\
+    GPU & NVIDIA A100 80GB \\
+    \addlinespace
+    \multicolumn{2}{@{}l}{\textit{Hosted serving (GPT-5.5, GPT-4o, Mistral)}} \\
+    Access & OpenAI-compatible gateway \\
+    \bottomrule
+  \end{tabular}
+  \caption{Fixed pipeline settings applied to all 22 conditions.
+  Per-model serving mode and the pinned model
+  snapshots are listed in Table~\ref{tab:experimental-matrix}.}
+  \label{tab:setup}
+\end{table}

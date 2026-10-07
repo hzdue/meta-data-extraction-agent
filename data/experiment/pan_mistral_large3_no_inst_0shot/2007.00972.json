@@ -1,0 +1,294 @@
+{
+  "document_id": "2007.00972",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Synthesis and Characterization of Strontium Doped Barium Titanates using Neutron Diffraction Technique",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Institute of Nuclear Science and Technology, Bangladesh Atomic Energy Commission, GPO Box No. 3787, Dhaka-1000, Bangladesh"
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Department of Nuclear Engineering, University of Dhaka, Dhaka, Bangladesh"
+        },
+        {
+          "id": "aff3",
+          "label": "3",
+          "text": "Bangladesh Atomic Energy Commission, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "I. B. Elius",
+          "orcid": null,
+          "email": "iftakhar.elius@gmail.com",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "B. M. Asif",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "J. Maudood",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "T. K. Datta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "A. K. M. Zakaria",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "S. Hossain",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "M. S. Aktar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth8",
+          "full_name": "I. Kamal",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        }
+      ],
+      "abstract": "In the present study, structural changes due to gradual doping of Sr in BaTiO3 were investigated by both x-ray and neutron powder diffraction techniques. Ba1-xSrxTiO3 (x=0.0, 0.5 and 1.0) samples were synthesized by PVA evaporation method and purity was confirmed by x-ray diffraction experiment. After that, neutron diffraction experiments were carried out and diffraction data were analyzed by Rietveld least-square data refinement method using the computer program RIETAN-2000 and FullProf to determine various crystallographic structural parameters. The cation and anion position coordinates were also determined from the data refinement method which confirmed that Ba and Sr atoms possess tetrahedral A site and Ti atoms possess octahedral B site for all three samples BaTiO3, Ba0.5Sr0.5TiO3, and SrTiO3, respectively. Moreover, the lattice parameter values indicate, Ba1-xSrxTiO3 structure undergoes a phase transition from tetragonal to cubic somewhere before x=0.5. The concurrences between observed and calculated profiles were excellent and well consistent with the previously reported values. Furthermore, MEM based analysis was done for charge density measurement.",
+      "keywords": [
+        "Neutron diffraction",
+        "Barium titanate",
+        "PVA evaporation method",
+        "X-ray diffraction",
+        "ferroelectric materials"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2019",
+      "venue": "NUCLEAR SCIENCE AND APPLICATIONS",
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Experimental",
+        "2.1 Sample preparation",
+        "2.2 Data collection and refinement",
+        "Results and Discussion",
+        "Conclusion",
+        "Acknowledgement",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "Savar Neutron Diffractometer (SAND) facility at the radial beam port-II of the TRIGA Mark-II research reactor (BTRR) of BAEC, AERE, Savar"
+      },
+      {
+        "id": "fac2",
+        "name": "Phillips PW 3040 X’Pert Pro x-ray diffractometer at Atomic Energy Centre (AECD) of BAEC, Dhaka"
+      },
+      {
+        "id": "fac3",
+        "name": "Institute of Nuclear Science and Technology (INST) of Atomic Energy Research Establishment (AERE), Savar, Dhaka"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "BaTiO3",
+        "sample_description": "Barium titanate sample with x=0.0 in Ba1-xSrxTiO3",
+        "chemical_composition": "BaTiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India"
+      },
+      {
+        "id": "sample2",
+        "sample_name": "Ba0.5Sr0.5TiO3",
+        "sample_description": "Strontium doped barium titanate sample with x=0.5 in Ba1-xSrxTiO3",
+        "chemical_composition": "Ba0.5Sr0.5TiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India"
+      },
+      {
+        "id": "sample3",
+        "sample_name": "SrTiO3",
+        "sample_description": "Strontium titanate sample with x=1.0 in Ba1-xSrxTiO3",
+        "chemical_composition": "SrTiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "Neutron diffraction data for BaTiO3",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Neutron diffraction patterns of BaTiO3 refined using FullProf software",
+        "measurement_technique": "Neutron diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset2",
+        "dataset_name": "Neutron diffraction data for Ba0.5Sr0.5TiO3",
+        "sample_refs": [
+          "sample2"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Neutron diffraction patterns of Ba0.5Sr0.5TiO3 refined using FullProf software",
+        "measurement_technique": "Neutron diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset3",
+        "dataset_name": "Neutron diffraction data for SrTiO3",
+        "sample_refs": [
+          "sample3"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Neutron diffraction patterns of SrTiO3 refined using FullProf software",
+        "measurement_technique": "Neutron diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset4",
+        "dataset_name": "X-ray diffraction data for BaTiO3",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac2"
+        ],
+        "dataset_description": "X-ray diffraction pattern of BaTiO3",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset5",
+        "dataset_name": "X-ray diffraction data for Ba0.5Sr0.5TiO3",
+        "sample_refs": [
+          "sample2"
+        ],
+        "facility_refs": [
+          "fac2"
+        ],
+        "dataset_description": "X-ray diffraction pattern of Ba0.5Sr0.5TiO3",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset6",
+        "dataset_name": "X-ray diffraction data for SrTiO3",
+        "sample_refs": [
+          "sample3"
+        ],
+        "facility_refs": [
+          "fac2"
+        ],
+        "dataset_description": "X-ray diffraction pattern of SrTiO3",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Synthesis and Characterization of Strontium Doped Barium Titanates using Neutron Diffraction Technique\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Institute of Nuclear Science and Technology, Bangladesh Atomic Energy Commission, GPO Box No. 3787, Dhaka-1000, Bangladesh\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Department of Nuclear Engineering, University of Dhaka, Dhaka, Bangladesh\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"3\",\n        \"text\": \"Bangladesh Atomic Energy Commission, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"I. B. Elius\",\n        \"orcid\": null,\n        \"email\": \"iftakhar.elius@gmail.com\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"B. M. Asif\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"J. Maudood\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"T. K. Datta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"A. K. M. Zakaria\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff3\"]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"S. Hossain\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"M. S. Aktar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth8\",\n        \"full_name\": \"I. Kamal\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff3\"]\n      }\n    ],\n    \"abstract\": \"In the present study, structural changes due to gradual doping of Sr in BaTiO3 were investigated by both x-ray and neutron powder diffraction techniques. Ba1-xSrxTiO3 (x=0.0, 0.5 and 1.0) samples were synthesized by PVA evaporation method and purity was confirmed by x-ray diffraction experiment. After that, neutron diffraction experiments were carried out and diffraction data were analyzed by Rietveld least-square data refinement method using the computer program RIETAN-2000 and FullProf to determine various crystallographic structural parameters. The cation and anion position coordinates were also determined from the data refinement method which confirmed that Ba and Sr atoms possess tetrahedral A site and Ti atoms possess octahedral B site for all three samples BaTiO3, Ba0.5Sr0.5TiO3, and SrTiO3, respectively. Moreover, the lattice parameter values indicate, Ba1-xSrxTiO3 structure undergoes a phase transition from tetragonal to cubic somewhere before x=0.5. The concurrences between observed and calculated profiles were excellent and well consistent with the previously reported values. Furthermore, MEM based analysis was done for charge density measurement.\",\n    \"keywords\": [\n      \"Neutron diffraction\",\n      \"Barium titanate\",\n      \"PVA evaporation method\",\n      \"X-ray diffraction\",\n      \"ferroelectric materials\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2019\",\n    \"venue\": \"NUCLEAR SCIENCE AND APPLICATIONS\",\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Experimental\",\n      \"2.1 Sample preparation\",\n      \"2.2 Data collection and refinement\",\n      \"Results and Discussion\",\n      \"Conclusion\",\n      \"Acknowledgement\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"Savar Neutron Diffractometer (SAND) facility at the radial beam port-II of the TRIGA Mark-II research reactor (BTRR) of BAEC, AERE, Savar\"\n    },\n    {\n      \"id\": \"fac2\",\n      \"name\": \"Phillips PW 3040 X’Pert Pro x-ray diffractometer at Atomic Energy Centre (AECD) of BAEC, Dhaka\"\n    },\n    {\n      \"id\": \"fac3\",\n      \"name\": \"Institute of Nuclear Science and Technology (INST) of Atomic Energy Research Establishment (AERE), Savar, Dhaka\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"BaTiO3\",\n      \"sample_description\": \"Barium titanate sample with x=0.0 in Ba1-xSrxTiO3\",\n      \"chemical_composition\": \"BaTiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India\"\n    },\n    {\n      \"id\": \"sample2\",\n      \"sample_name\": \"Ba0.5Sr0.5TiO3\",\n      \"sample_description\": \"Strontium doped barium titanate sample with x=0.5 in Ba1-xSrxTiO3\",\n      \"chemical_composition\": \"Ba0.5Sr0.5TiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India\"\n    },\n    {\n      \"id\": \"sample3\",\n      \"sample_name\": \"SrTiO3\",\n      \"sample_description\": \"Strontium titanate sample with x=1.0 in Ba1-xSrxTiO3\",\n      \"chemical_composition\": \"SrTiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Synthesized using Ba(NO3)2 (99% pure), Sr(NO3)2 (98% pure) and TiO2 (99% pure) powders from Sigma Aldrich, India\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"Neutron diffraction data for BaTiO3\",\n      \"sample_refs\": [\"sample1\"],\n      \"facility_refs\": [\"fac1\"],\n      \"dataset_description\": \"Neutron diffraction patterns of BaTiO3 refined using FullProf software\",\n      \"measurement_technique\": \"Neutron diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset2\",\n      \"dataset_name\": \"Neutron diffraction data for Ba0.5Sr0.5TiO3\",\n      \"sample_refs\": [\"sample2\"],\n      \"facility_refs\": [\"fac1\"],\n      \"dataset_description\": \"Neutron diffraction patterns of Ba0.5Sr0.5TiO3 refined using FullProf software\",\n      \"measurement_technique\": \"Neutron diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset3\",\n      \"dataset_name\": \"Neutron diffraction data for SrTiO3\",\n      \"sample_refs\": [\"sample3\"],\n      \"facility_refs\": [\"fac1\"],\n      \"dataset_description\": \"Neutron diffraction patterns of SrTiO3 refined using FullProf software\",\n      \"measurement_technique\": \"Neutron diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset4\",\n      \"dataset_name\": \"X-ray diffraction data for BaTiO3\",\n      \"sample_refs\": [\"sample1\"],\n      \"facility_refs\": [\"fac2\"],\n      \"dataset_description\": \"X-ray diffraction pattern of BaTiO3\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset5\",\n      \"dataset_name\": \"X-ray diffraction data for Ba0.5Sr0.5TiO3\",\n      \"sample_refs\": [\"sample2\"],\n      \"facility_refs\": [\"fac2\"],\n      \"dataset_description\": \"X-ray diffraction pattern of Ba0.5Sr0.5TiO3\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset6\",\n      \"dataset_name\": \"X-ray diffraction data for SrTiO3\",\n      \"sample_refs\": [\"sample3\"],\n      \"facility_refs\": [\"fac2\"],\n      \"dataset_description\": \"X-ray diffraction pattern of SrTiO3\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_mistral_large3_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 11697,
+    "output_tokens": 2360,
+    "latency_ms": 38828.69
+  },
+  "warnings": []
+}

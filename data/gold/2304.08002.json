@@ -1,0 +1,297 @@
+{
+  "bibliographic": {
+    "title": "Morphology of Buried Interfaces in Ion-Assisted Magnetron Sputter-Deposited 11B4C-Containing Ni/Ti Multilayer Neutron Optics Investigated by Grazing-Incidence Small-Angle Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics, Chemistry, and Biology, IFM, Linköping University, SE-581 83 Linköping, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg 22607, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sjoerd Stendahl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Naureen Ghafoor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Matthias Schwartzkopf",
+        "orcid": "0000-0002-2115-9286",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anton Zubayer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jens Birch",
+        "orcid": "0000-0002-8469-5983",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fredrik Eriksson",
+        "orcid": "0000-0003-2982-5914",
+        "email": "fredrik.eriksson@liu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Multilayer neutron optics require precise control of interface morphology for optimal performance. In this work, we investigate the effects of different growth conditions on the interface morphology of Ni/Ti-based multilayers, with a focus on incorporating low-neutron-absorbing 11B4C and using different ion assistance schemes. Grazing-incidence small-angle X-ray scattering was used to probe the structural and morphological details of buried interfaces, revealing that the layers become more strongly correlated and the interfaces form mounds with increasing amounts of 11B4C. Applying high flux ion assistance during growth can reduce mound formation but lead to interface mixing, while a high flux modulated ion assistance scheme with an initial buffer layer grown at low ion energy and the top layer at higher ion energy prevents intermixing. The optimal condition was found to be adding 26.0 atom % 11B4C combined with high flux modulated ion assistance. A multilayer with a period of 48.2 Å and 100 periods was grown under these conditions, and coupled fitting to neutron and X-ray reflectivity data revealed an average interface width of only 2.7 Å, a significant improvement over the current state-of-the-art commercial Ni/Ti multilayers. Overall, our study demonstrates that the addition of 11B4C and the use of high flux modulated ion assistance during growth can significantly improve the interface morphology of Ni/Ti multilayers, leading to improved neutron optics performance.",
+    "keywords": [
+      "neutron optics",
+      "Ni/Ti",
+      "multilayer",
+      "ion-assisted magnetron sputter deposition",
+      "grazing-incidence small-angle X-ray scattering",
+      "GISAXS",
+      "interface morphology",
+      "neutron reflectivity",
+      "X-ray reflectivity"
+    ],
+    "doi": "10.1021/acsami.4c01457",
+    "arxiv_id": null,
+    "url": "https://doi.org/10.1021/acsami.4c01457",
+    "publication_date": "2024-04-15",
+    "venue": "ACS Applied Materials & Interfaces",
+    "publisher": "American Chemical Society",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2019-04837"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2019-00191"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2021-00357"
+      },
+      {
+        "funder": "Swedish Government Strategic Research Area in Materials Science on Advanced Functional Materials (AFM) at Linköping University",
+        "grant_id": "SFO Mat LiU No. 2009 00971"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL DETAILS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_3",
+      "name": "Tandem Laboratory at Uppsala University"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni/Ti, 11.8 atom % 11B + C, N = 50, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 11.8 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ni/Ti, 26.0 atom % 11B + C, N = 50, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 26.0 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ni/Ti, 30.7 atom % 11B + C, N = 50, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 30.7 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Ni/Ti, 34.4 atom % 11B + C, N = 50, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 34.4 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ni/Ti, 41.2 atom % 11B + C, N = 50, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 41.2 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "pure Ni/Ti, N = 100, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Ni/Ti, 26.0 atom % 11B + C, N = 100, modulated ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 26.0 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Ni/Ti, 26.0 atom % 11B + C, N = 100, constant ion assistance",
+      "sample_description": "Multilayer with a nominal period of 48 Å and a nominal layer thickness ratio of 0.5.",
+      "chemical_composition": "Ni/Ti, 26.0 atom % 11B + C",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "GISAXS measurements at beamline P03 using a fixed incidence angle of 0.4°, wavelength 0.96 Å, a PILATUS 2M detector, with a 1 s exposure time at every Δy = 0.5 mm across the sample surface.",
+      "measurement_technique": "grazing-incidence small-angle X-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectivity measurements using a Panalytical Empyrean diffractometer with a Cu X-ray tube; measured in the range 0−10° 2θ with a step size of 0.01°/step and a collection time of 0.88 s per step.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron reflectivity",
+      "sample_refs": [
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron reflectivity measurements using SuperADAM with a wavelength of 5.23 Å and sample-to-detector distance of 150 cm.",
+      "measurement_technique": "neutron reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "ToF-ERDA",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Data measured using a primary beam of 127I8+ with an energy of 36 MeV at an incident angle of 67.5° relative to the surface normal; analyzed using Potku software to determine the atomic concentrations. ",
+      "measurement_technique": "time-of-flight elastic recoil detection analysis",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

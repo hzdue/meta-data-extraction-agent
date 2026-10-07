@@ -1,0 +1,172 @@
+{
+  "document_id": "2005.01985",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Mechanism of pressure induced amorphization of SnI4: a combined X-ray diffraction – X-ray absorption spectroscopy study",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Synchrotron SOLEIL, L’Orme des Merisiers, St Aubin BP48, 91192 Gif sur Yvette Cedex"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie - CNRS UMR 7590, Sorbonne Université, 4 Place Jussieu, 75005 Paris"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Geodynamics Research Center, Ehime University, 2–5 Bunkyo-cho, Matsuyama 790-8577, Japan"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Earth-Life Science Institute, Tokyo Institute of Technology, Tokyo 152-8500, Japan"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Emiliano Fonda",
+          "orcid": null,
+          "email": "fonda@synchrotron-soleil.fr",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Alain Polian",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Toru Shinmei",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Tetsuo Irifune",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3",
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Jean-Paul Itié",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "We have studied the amorphization process of SnI4 up to 26.8GPa with unprecedented experimental details by combining Sn and I K edge X-ray absorption spectroscopy and powder X-ray diffraction. Standards and reverse Monte Carlo extended X-ray absorption fine structure (EXAFS) refinements confirm that the SnI4 tetrahedron is a fundamental structural unit that is preserved through the crystalline phase-I to crystalline phase-II transition about 7 to 10GPa and then in the amorphous phase that appears above 20GPa. Up to now unexploited Iodine EXAFS reveals to be extremely informative and confirms the formation of iodine iodine short bonds close to 2.85Å in the amorphous phase at 26.8 GPa. A coordination number increase of Sn in the crystalline phase-II appears to be excluded, while the deformation of the tetrahedral units proceeds through a flattening that keeps the average I-Sn-I angle close to 109.5°. Moreover, we put in evidence the impact of pressure on the Sn near edge structure under competing geometrical and electronic effects.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "INTRODUCTION",
+        "EXPERIMENTAL",
+        "RESULTS AND DISCUSSION",
+        "CONCLUDING REMARKS"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "SAMBA beamline"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "SnI4",
+        "sample_description": null,
+        "chemical_composition": "SnI4",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "EXAFS spectra",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "EXAFS spectra have been measured at the Sn K-edge (29.2 keV) and at the I K-edge (33.169 keV) in transmission mode with two Ar filled ionization chambers as a function of pressure up to 26.8GPa.",
+        "measurement_technique": "X-ray absorption spectroscopy",
+        "measurement_mode": [
+          "EnergyScan",
+          "PressureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "Diffraction patterns",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Diffraction patterns have been measured at 29 keV (200 eV below Sn K edge) with a Rayonix MARCCD large area detector placed after the sample at each pressure step.",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "PressureScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Mechanism of pressure induced amorphization of SnI4: a combined X-ray diffraction – X-ray absorption spectroscopy study\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Synchrotron SOLEIL, L’Orme des Merisiers, St Aubin BP48, 91192 Gif sur Yvette Cedex\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie - CNRS UMR 7590, Sorbonne Université, 4 Place Jussieu, 75005 Paris\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Geodynamics Research Center, Ehime University, 2–5 Bunkyo-cho, Matsuyama 790-8577, Japan\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Earth-Life Science Institute, Tokyo Institute of Technology, Tokyo 152-8500, Japan\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Emiliano Fonda\",\n        \"orcid\": null,\n        \"email\": \"fonda@synchrotron-soleil.fr\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Alain Polian\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Toru Shinmei\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Tetsuo Irifune\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\",\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Jean-Paul Itié\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"We have studied the amorphization process of SnI4 up to 26.8GPa with unprecedented experimental details by combining Sn and I K edge X-ray absorption spectroscopy and powder X-ray diffraction. Standards and reverse Monte Carlo extended X-ray absorption fine structure (EXAFS) refinements confirm that the SnI4 tetrahedron is a fundamental structural unit that is preserved through the crystalline phase-I to crystalline phase-II transition about 7 to 10GPa and then in the amorphous phase that appears above 20GPa. Up to now unexploited Iodine EXAFS reveals to be extremely informative and confirms the formation of iodine iodine short bonds close to 2.85Å in the amorphous phase at 26.8 GPa. A coordination number increase of Sn in the crystalline phase-II appears to be excluded, while the deformation of the tetrahedral units proceeds through a flattening that keeps the average I-Sn-I angle close to 109.5°. Moreover, we put in evidence the impact of pressure on the Sn near edge structure under competing geometrical and electronic effects.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"INTRODUCTION\",\n      \"EXPERIMENTAL\",\n      \"RESULTS AND DISCUSSION\",\n      \"CONCLUDING REMARKS\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"SAMBA beamline\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"SnI4\",\n      \"sample_description\": null,\n      \"chemical_composition\": \"SnI4\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"EXAFS spectra\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"EXAFS spectra have been measured at the Sn K-edge (29.2 keV) and at the I K-edge (33.169 keV) in transmission mode with two Ar filled ionization chambers as a function of pressure up to 26.8GPa.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy\",\n      \"measurement_mode\": [\n        \"EnergyScan\",\n        \"PressureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"Diffraction patterns\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Diffraction patterns have been measured at 29 keV (200 eV below Sn K edge) with a Rayonix MARCCD large area detector placed after the sample at each pressure step.\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\n        \"PressureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_full_1shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 35950,
+    "output_tokens": 1365,
+    "latency_ms": 11601.36
+  },
+  "warnings": []
+}

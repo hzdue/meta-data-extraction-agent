@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{2.5pt}
+  \begin{tabular}{@{}p{0.19\textwidth}rrrrrrr@{}}
+    \toprule
+    Entity collection & GPT-5.5 & GPT-4o & Mistral & Gemma & Qwen 27B & Qwen 9B & Qwen 4B \\
+    \midrule
+    Affiliations & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+    Authors & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 & 1.000 \\
+    Funding & 0.954 & 0.925 & 0.912 & 0.945 & 0.953 & 0.901 & 0.810 \\
+    Facilities & 0.545 & 0.892 & 0.735 & 0.860 & 0.769 & 0.783 & 0.744 \\
+    Samples & 0.800 & 0.777 & 0.865 & 0.864 & 0.837 & 0.783 & 0.739 \\
+    Datasets & 0.832 & 0.609 & 0.656 & 0.778 & 0.814 & 0.732 & 0.636 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Full-instruction zero-shot entity recovery for the six
+  entity collections on the 30 evaluation papers. All values
+  are entity F1.}
+  \label{tab:zero-shot-recovery}
+\end{table*}

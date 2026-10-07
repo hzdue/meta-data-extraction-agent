@@ -1,0 +1,200 @@
+{
+  "document_id": "2407.20626",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Electronic structure and resonant inelastic x-ray scattering in Ta2NiSe5",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "G. V. Kurdyumov Institute for Metal Physics of the N.A.S. of Ukraine, 36 Academician Vernadsky Boulevard, UA-03142 Kyiv, Ukraine"
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Max-Planck-Institute for Solid State Research, Heisenbergstrasse 1, 70569 Stuttgart, Germany"
+        },
+        {
+          "id": "aff3",
+          "label": "3",
+          "text": "Synchrotron Radiation Research Center, National Institutes for Quantum Science and Technology, Sayo, Hyogo 679-5148, Japan"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "D.A. Kukusta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "L.V. Bekenov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "A.N. Yaresko",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "K. Ishii",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "T. Takayama",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "H. Takagi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "V.N. Antonov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1",
+            "aff2"
+          ]
+        }
+      ],
+      "abstract": "We study the electronic structure of Ta2NiSe5 in its low-temperature semiconducting phase, using resonant inelastic x-ray scattering (RIXS) at the Ta L3 edge. We also investigate the electronic properties of Ta2NiSe5 within the density-functional theory (DFT) using the generalized gradient approximation in the framework of the fully relativistic spin-polarized Dirac linear muffin-tin orbital band-structure method. While ARPES, dc transport, and optical measurements indicate that Ta2NiSe5 is a small band-gap semiconductor, DFT gives a metallic nonmagnetic solution in Ta2NiSe5. To obtain the semiconducting ground state in Ta2NiSe5 we use a self-interaction-like correction procedure by introducing an orbital-dependent potential Vl into the Hamiltonian. We investigate theoretically the x-ray absorption spectroscopy (XAS) and RIXS spectra at the Ni and Ta L3 edges and analyze the spectra in terms of interband transitions. We also investigate the RIXS spectra as a function of momentum transfer vector Q and incident photon energy.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2024-12-23",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "I. INTRODUCTION",
+        "II. EXPERIMENTAL AND COMPUTATIONAL DETAILS",
+        "III. ELECTRONIC STRUCTURE",
+        "IV. X-RAY ABSORPTION SPECTRA",
+        "V. RIXS SPECTRA",
+        "VI. CONCLUSIONS"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "BL11XU SPring-8"
+      }
+    ],
+    "samples": [
+      {
+        "id": "samp1",
+        "sample_name": "Ta2NiSe5",
+        "sample_description": "Transition-metal chalcogenide with a quasi-one-dimensional chain structure. At critical temperature Tc = 328 K, undergoes a second-order structural phase transition from an orthorhombic to monoclinic phase.",
+        "chemical_composition": "Ta2NiSe5",
+        "sample_state": "Low-temperature semiconducting phase (monoclinic structure, space group C12/c1)",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ds1",
+        "dataset_name": "RIXS at Ta L3 edge",
+        "sample_refs": [
+          "samp1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Resonant inelastic x-ray scattering (RIXS) measurements at the Ta L3 edge performed at low temperature (~10 K).",
+        "measurement_technique": "Resonant inelastic x-ray scattering (RIXS)",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds2",
+        "dataset_name": "RIXS at Ni L3 edge",
+        "sample_refs": [
+          "samp1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Theoretical investigation of RIXS spectra at the Ni L3 edge, analyzed as a function of momentum transfer vector Q and incident photon energy.",
+        "measurement_technique": "Resonant inelastic x-ray scattering (RIXS)",
+        "measurement_mode": [
+          "EnergyScan",
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds3",
+        "dataset_name": "XAS at Ni and Ta L3 edges",
+        "sample_refs": [
+          "samp1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Theoretical and experimental x-ray absorption spectroscopy (XAS) spectra at the Ni and Ta L3 edges.",
+        "measurement_technique": "X-ray absorption spectroscopy (XAS)",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Electronic structure and resonant inelastic x-ray scattering in Ta2NiSe5\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"G. V. Kurdyumov Institute for Metal Physics of the N.A.S. of Ukraine, 36 Academician Vernadsky Boulevard, UA-03142 Kyiv, Ukraine\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Max-Planck-Institute for Solid State Research, Heisenbergstrasse 1, 70569 Stuttgart, Germany\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"3\",\n        \"text\": \"Synchrotron Radiation Research Center, National Institutes for Quantum Science and Technology, Sayo, Hyogo 679-5148, Japan\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"D.A. Kukusta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"L.V. Bekenov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"A.N. Yaresko\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"K. Ishii\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff3\"]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"T. Takayama\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"H. Takagi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"V.N. Antonov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\", \"aff2\"]\n      }\n    ],\n    \"abstract\": \"We study the electronic structure of Ta2NiSe5 in its low-temperature semiconducting phase, using resonant inelastic x-ray scattering (RIXS) at the Ta L3 edge. We also investigate the electronic properties of Ta2NiSe5 within the density-functional theory (DFT) using the generalized gradient approximation in the framework of the fully relativistic spin-polarized Dirac linear muffin-tin orbital band-structure method. While ARPES, dc transport, and optical measurements indicate that Ta2NiSe5 is a small band-gap semiconductor, DFT gives a metallic nonmagnetic solution in Ta2NiSe5. To obtain the semiconducting ground state in Ta2NiSe5 we use a self-interaction-like correction procedure by introducing an orbital-dependent potential Vl into the Hamiltonian. We investigate theoretically the x-ray absorption spectroscopy (XAS) and RIXS spectra at the Ni and Ta L3 edges and analyze the spectra in terms of interband transitions. We also investigate the RIXS spectra as a function of momentum transfer vector Q and incident photon energy.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2024-12-23\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"I. INTRODUCTION\",\n      \"II. EXPERIMENTAL AND COMPUTATIONAL DETAILS\",\n      \"III. ELECTRONIC STRUCTURE\",\n      \"IV. X-RAY ABSORPTION SPECTRA\",\n      \"V. RIXS SPECTRA\",\n      \"VI. CONCLUSIONS\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"BL11XU SPring-8\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"samp1\",\n      \"sample_name\": \"Ta2NiSe5\",\n      \"sample_description\": \"Transition-metal chalcogenide with a quasi-one-dimensional chain structure. At critical temperature Tc = 328 K, undergoes a second-order structural phase transition from an orthorhombic to monoclinic phase.\",\n      \"chemical_composition\": \"Ta2NiSe5\",\n      \"sample_state\": \"Low-temperature semiconducting phase (monoclinic structure, space group C12/c1)\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"ds1\",\n      \"dataset_name\": \"RIXS at Ta L3 edge\",\n      \"sample_refs\": [\"samp1\"],\n      \"facility_refs\": [\"fac1\"],\n      \"dataset_description\": \"Resonant inelastic x-ray scattering (RIXS) measurements at the Ta L3 edge performed at low temperature (~10 K).\",\n      \"measurement_technique\": \"Resonant inelastic x-ray scattering (RIXS)\",\n      \"measurement_mode\": [\"EnergyScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds2\",\n      \"dataset_name\": \"RIXS at Ni L3 edge\",\n      \"sample_refs\": [\"samp1\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Theoretical investigation of RIXS spectra at the Ni L3 edge, analyzed as a function of momentum transfer vector Q and incident photon energy.\",\n      \"measurement_technique\": \"Resonant inelastic x-ray scattering (RIXS)\",\n      \"measurement_mode\": [\"EnergyScan\", \"AngleScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds3\",\n      \"dataset_name\": \"XAS at Ni and Ta L3 edges\",\n      \"sample_refs\": [\"samp1\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Theoretical and experimental x-ray absorption spectroscopy (XAS) spectra at the Ni and Ta L3 edges.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (XAS)\",\n      \"measurement_mode\": [\"EnergyScan\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_mistral_large3_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 18806,
+    "output_tokens": 1594,
+    "latency_ms": 24568.78
+  },
+  "warnings": []
+}

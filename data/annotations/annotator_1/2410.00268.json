@@ -1,0 +1,254 @@
+{
+  "bibliographic": {
+    "title": "Operando Ultrafast Damage-free Diffraction-Enhanced X-ray Absorption Spectroscopy for Chemical Reactivity of Polymer in Solvents",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "The Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, University of California, Berkeley, Berkeley, CA, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Zhengxing Peng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Antoine Lainé",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ka Chon Ng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mutian Hua",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Brett A. Helms",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Miquel B. Salmeron",
+        "orcid": null,
+        "email": "mbsalmeron@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Cheng Wang",
+        "orcid": null,
+        "email": "cwang2@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Chemical recycling of plastics to its constituent monomers is a promising solution to develop a sustainable circular plastic economy. An in-situ X-ray absorption spectra (XAS) characterization is an important way to understand the deconstruction process. However, radiation damage, and long acquisition time, prevent such characterization for fast chemical process. Here, we present a novel experimental technique, which we name Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS), where the plastic material is supported on a graphene layer covering a periodic pattern of holes in a perforated Si3N4 membrane. The XAS is obtained by measuring the energy-dependent intensity of the X-ray diffracted beams going through the plastic film over the holes in the Si3N4 membrane. Our method decreases beam damage by orders of magnitude while providing good signal/noise ratio data. We demonstrate the suppression of beam damage with samples of polymethyl methacrylate (PMMA) and the operando characterization of polymer deconstruction process in acid with polydiketoenamine (PDK). This proof-of-concept of the DE-XAS technique shows its great potential for studying fast chemical processes, picoseconds to nanoseconds, using fast CCD detectors with short readout time. We believe the DE-XAS technique offers opportunities for studies of chemical reactions, e.g., photoresist, and many others.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division",
+        "grant_id": "DE-AC02-05CH11231"
+      },
+      {
+        "funder": "Inorganic/Organic Nanocomposites Program",
+        "grant_id": "KC3104"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experiment and Results",
+      "Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PMMA",
+      "sample_description": "Polymethyl methacrylate (PMMA) spin-coated on the graphene covered substrate from a solution of 0.5%wt PMMA dissolved in toluene.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PDK",
+      "sample_description": "Polydiketoenamine (PDK) spin-coated on the graphene covered substrate with dilute precursor solution prepared by dissolving 10 mg of di-topic triketone monomer and 9.4 mg of tri-topic amine monomer triamine in 1 g of THF.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DKE",
+      "sample_description": "Diketoenamine (DKE), a small-molecule analogue of the PDK elastomers.",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Regular XAS data collected at the Beamline 11.0.1.2; outcoming X-rays were collected with a photodiode (Advanced Photonix).",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DE-XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "DE-XAS data collected at the Beamline 11.0.1.2 in vacuum on a 2D charge coupled device cooled to −45 °C (Princeton Instrument PI-MTE).",
+      "measurement_technique": "diffraction-enhanced X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "1H NMR",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "1H Nuclear Magnetic Resonance Spectroscopy data collected using a Bruker Avance II at 500 MHz; Chemical shifts are reported in δ (ppm) relative to the residual solvent peak: CDCl3: 7.26 for 1H.",
+      "measurement_technique": "nuclear magnetic resonance spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "in situ XAS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-situ XAS for DKE deconstruction in HCl at 60 °C; collected at the Beamline 11.0.1.2; outcoming X-rays were collected with a photodiode (Advanced Photonix)",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "in situ DE-XAS",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-situ DE-XAS for DKE and PDK deconstruction in HCl at 60 °C.",
+      "measurement_technique": "diffraction-enhanced X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "document_id": "2203.07170",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "In situ study of zinc peroxide decomposition to zinc oxide by X-ray absorption spectroscopy and reverse Monte-Carlo simulations",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": null,
+          "text": "Institute of Solid State Physics, University of Latvia, Kengaraga street 8, LV-1063 Riga, Latvia"
+        },
+        {
+          "id": "aff_2",
+          "label": null,
+          "text": "MAX IV Laboratory, Lund University, PO BOX 118, SE-22100 Lund, Sweden"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Alexei Kuzmin",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Inga Pudza",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Konstantin Klementiev",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        }
+      ],
+      "abstract": "The Zn K-edge X-ray absorption spectroscopy has been used to investigate in situ the decomposition of zinc peroxide (ZnO2) to zinc oxide (ZnO). Principal component and linear combination analyses of the EXAFS spectra have been employed to identify the phase composition of the oxide upon heating to 900 °C. Only the ZnO2 phase has been found up to 180 °C, whereas only the nanocrystalline ZnO phase has occurred above 250 °C. Detailed structural information on the temperature dependence of the local environment of zinc atoms has been obtained using the reverse Monte Carlo simulations. A strong increase of disorder has been found upon approaching the decomposition temperature, evidenced by the broadening of Zn–O and Zn–Zn pair distribution functions and related mean-square relative displacements.",
+      "keywords": [
+        "EXAFS",
+        "phase transition",
+        "reverse Monte Carlo method",
+        "X-ray absorption spectroscopy",
+        "ZnO",
+        "ZnO2"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "European Union's Horizon 2020 Framework Programme",
+          "grant_id": "H2020-WIDESPREAD-01-2016-2017-TeamingPhase2"
+        },
+        {
+          "funder": "European Union's Horizon 2020 Framework Programme",
+          "grant_id": "739508"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1 Introduction",
+        "2 Data Analysis",
+        "3 Results and Discussion",
+        "4 Conclusions",
+        "5 Experimental"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "MAX IV Laboratory"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Nanocrystalline ZnO2",
+        "sample_description": "Crystallite size of about 22 nm, obtained from reference [29].",
+        "chemical_composition": "ZnO2",
+        "sample_state": "nanocrystalline powder",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Commercial polycrystalline wurtzite-type ZnO",
+        "sample_description": "99.99% purity.",
+        "chemical_composition": "ZnO",
+        "sample_state": "polycrystalline powder",
+        "sample_mass": null,
+        "supplier_or_creator": "Alfa Aesar"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "in situ Zn K-edge X-ray absorption spectroscopy",
+        "sample_refs": [
+          "sample_1",
+          "sample_2"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Temperature-dependent Zn K-edge XANES and EXAFS spectra collected in transmission mode on the BALDER beamline from 20 to 900 °C in a nitrogen atmosphere to study the decomposition of ZnO2 to ZnO.",
+        "measurement_technique": "X-ray absorption spectroscopy",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"In situ study of zinc peroxide decomposition to zinc oxide by X-ray absorption spectroscopy and reverse Monte-Carlo simulations\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": null,\n        \"text\": \"Institute of Solid State Physics, University of Latvia, Kengaraga street 8, LV-1063 Riga, Latvia\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": null,\n        \"text\": \"MAX IV Laboratory, Lund University, PO BOX 118, SE-22100 Lund, Sweden\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Alexei Kuzmin\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Inga Pudza\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Konstantin Klementiev\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      }\n    ],\n    \"abstract\": \"The Zn K-edge X-ray absorption spectroscopy has been used to investigate in situ the decomposition of zinc peroxide (ZnO2) to zinc oxide (ZnO). Principal component and linear combination analyses of the EXAFS spectra have been employed to identify the phase composition of the oxide upon heating to 900 °C. Only the ZnO2 phase has been found up to 180 °C, whereas only the nanocrystalline ZnO phase has occurred above 250 °C. Detailed structural information on the temperature dependence of the local environment of zinc atoms has been obtained using the reverse Monte Carlo simulations. A strong increase of disorder has been found upon approaching the decomposition temperature, evidenced by the broadening of Zn–O and Zn–Zn pair distribution functions and related mean-square relative displacements.\",\n    \"keywords\": [\n      \"EXAFS\",\n      \"phase transition\",\n      \"reverse Monte Carlo method\",\n      \"X-ray absorption spectroscopy\",\n      \"ZnO\",\n      \"ZnO2\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"European Union's Horizon 2020 Framework Programme\",\n        \"grant_id\": \"H2020-WIDESPREAD-01-2016-2017-TeamingPhase2\"\n      },\n      {\n        \"funder\": \"European Union's Horizon 2020 Framework Programme\",\n        \"grant_id\": \"739508\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1 Introduction\",\n      \"2 Data Analysis\",\n      \"3 Results and Discussion\",\n      \"4 Conclusions\",\n      \"5 Experimental\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"MAX IV Laboratory\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Nanocrystalline ZnO2\",\n      \"sample_description\": \"Crystallite size of about 22 nm, obtained from reference [29].\",\n      \"chemical_composition\": \"ZnO2\",\n      \"sample_state\": \"nanocrystalline powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Commercial polycrystalline wurtzite-type ZnO\",\n      \"sample_description\": \"99.99% purity.\",\n      \"chemical_composition\": \"ZnO\",\n      \"sample_state\": \"polycrystalline powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Alfa Aesar\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"in situ Zn K-edge X-ray absorption spectroscopy\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Temperature-dependent Zn K-edge XANES and EXAFS spectra collected in transmission mode on the BALDER beamline from 20 to 900 °C in a nitrogen atmosphere to study the decomposition of ZnO2 to ZnO.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_full_1shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 39801,
+    "output_tokens": 1306,
+    "latency_ms": 19528.72
+  },
+  "warnings": []
+}

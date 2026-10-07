@@ -1,0 +1,22 @@
+\begin{table*}[!t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}p{0.18\textwidth}rrrrrrr@{}}
+    \toprule
+    Entity collection & GPT-5.5 & GPT-4o & Mistral & Gemma & Qwen 27B & Qwen 9B & Qwen 4B \\
+    \midrule
+    Affiliations & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 \\
+    Authors & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 & +0.000 \\
+    Funding & +0.000 & +0.007 & +0.029 & +0.000 & -0.008 & +0.030 & -0.047 \\
+    Facilities & -0.152 & -0.020 & -0.049 & -0.055 & +0.052 & +0.116 & +0.154 \\
+    Samples & +0.079 & +0.177 & +0.046 & +0.045 & +0.042 & +0.022 & +0.055 \\
+    Datasets & +0.074 & +0.209 & +0.164 & +0.124 & +0.259 & +0.212 & +0.082 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Effect of detailed field instructions on entity recovery
+  for the six entity collections on the 30 evaluation papers,
+  reported as full-instruction minus no-instruction entity F1.
+  Positive values favor the full instructions.}
+  \label{tab:instruction-effects}
+\end{table*}

@@ -1,0 +1,27 @@
+\begin{table*}[t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{6pt}
+  \begin{tabular}{@{}p{0.26\textwidth}p{0.26\textwidth}ccc@{}}
+    \toprule
+    & & \multicolumn{2}{c}{Zero-shot} & Few-shot \\
+    \cmidrule(lr){3-4}
+    Model snapshot & Access / serving & Full & No inst. & Shots \\
+    \midrule
+    GPT-5.5 (2026-04-23) & Proprietary; gateway & \checkmark & \checkmark & 1, 3 \\
+    GPT-4o (2024-11-20) & Proprietary; gateway & \checkmark & \checkmark & --- \\
+    Mistral Large 3 (2512) & Open-weight; gateway & \checkmark & \checkmark & --- \\
+    Gemma 4 31B IT & Open-weight; local vLLM & \checkmark & \checkmark & --- \\
+    Qwen3.5 27B & Open-weight; local vLLM & \checkmark & \checkmark & 1, 3 \\
+    Qwen3.5 9B & Open-weight; local vLLM & \checkmark & \checkmark & 1, 3 \\
+    Qwen3.5 4B & Open-weight; local vLLM & \checkmark & \checkmark & 1, 3 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Model and condition coverage. All seven snapshots are run
+  zero-shot under both the full-instruction and no-instruction variants;
+  four are additionally run with fixed one- and three-example prompts
+  with full field instructions. In the reported evaluation, all 22 conditions
+  are scored on the same 30 evaluation papers, yielding 660 paper-level
+  extractions.}
+  \label{tab:experimental-matrix}
+\end{table*}

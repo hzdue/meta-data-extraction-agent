@@ -1,0 +1,65 @@
+\section{Related Work}
+\label{sec:related-work}
+
+\subsection{Metadata Extraction from Scientific Publications}
+
+Metadata extraction from scientific publications is closely related to
+document-level scientific information extraction. SciREX introduced
+document-level extraction of salient entities and n-ary relations from
+scientific articles \citep{jain2020scirex}, while SciER provides fine-grained
+entity and relation annotations over full-text scientific publications
+\citep{zhang2024scier}.
+
+Related work has also considered the extraction of richer structured records
+from scientific publications. Ghosh et al. study schema-based reconstruction
+of curated materials-science datasets from full manuscripts
+\citep{ghosh2024reliable}, while MatViX addresses multimodal structured
+extraction across text, tables, and figures
+\citep{khalighinejad2025matvix}. Closest to our setting, MOLE formulates
+schema-driven metadata extraction from complete scientific documents
+\citep{alyafeai2025mole}.
+
+\subsection{Evaluation of Structured Extraction}
+
+Structured extraction often requires different notions of correctness for
+different fields. MOLE evaluates scientific metadata according to schema
+answer type \citep{alyafeai2025mole}, while ExtractBench assigns field-level
+metrics according to schema semantics \citep{ferguson2026extractbench}.
+
+Repeated structured objects introduce an additional correspondence problem:
+predicted and gold objects must be aligned before their contents can be
+compared. Ghosh et al. use domain-specific criteria followed by greedy
+matching to align extracted and gold rows in materials-science datasets
+\citep{ghosh2024reliable}. MatViX instead aligns predicted and gold samples
+through maximum bipartite matching before evaluating their properties
+\citep{khalighinejad2025matvix}. ExtractBench uses LLM-based semantic alignment
+for unordered object arrays and recursively evaluates the contents of matched
+objects \citep{ferguson2026extractbench}.
+
+Like prior structured-extraction evaluations, our evaluation must first align
+predicted entities with gold entities. This is complicated by
+publication-specific naming and entity boundaries, particularly for samples 
+and datasets. We therefore use benchmark-specific alignment criteria
+supported by evidence in the source PDFs.
+
+\subsection{PaN Metadata and Research Data Management}
+
+FAIR data management is an established priority in the photon and neutron
+community, with metadata playing a central role in making experimental data
+findable and reusable \citep{murphy2025fair}. NeXus provides
+a widely used structured data format for neutron, X-ray, and muon experiments
+\citep{konnecke2015nexus}, while the ExPaNDS project developed recommendations
+for FAIR PaN data management and associated metadata practices
+\citep{expands2022fair}.
+
+PaNET provides a taxonomy of experimental techniques for photon and neutron
+science \citep{collins2021panontologies}. Recent work proposes extending PaNET
+with logical definitions to support automated reasoning and improve data
+discovery \citep{tan2025panet}. DAPHNE4NFDI further provides recommendations
+for metadata capture and specification spanning bibliographic/administrative and
+experimental metadata \citep{lohstroh2025daphne}.
+
+These efforts primarily address metadata representation, capture,
+interoperability, and management across the experimental lifecycle. Our
+setting considers the experimental context that can be recovered from scientific 
+publications.

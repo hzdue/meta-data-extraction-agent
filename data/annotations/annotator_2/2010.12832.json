@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "X-ray tomography investigation of cyclically sheared granular materials",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics and Astronomy, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai 200240, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Materials Genome Initiative Center, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yi Xing",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jie Zheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jindong Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yixin Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Wei Pan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jie Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yujie Wang",
+        "orcid": null,
+        "email": "yujiewang@sjtu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "We perform combined X-ray tomography and shear force measurements on a cyclically sheared granular system with highly transient behaviors, and obtain the evolution of microscopic structures and the macroscopic shear force during the shear cycle. We explain the macroscopic behaviors of the system based on microscopic processes, including the particle level structural rearrangement and frictional contact variation. Specifically, we show how contact friction can induce large structural fluctuations and cause significant shear dilatancy effect for granular materials, and we also construct an empirical constitutive relationship for the macroscopic shear force.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11974240"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11675110"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "U1738120"
+      },
+      {
+        "funder": "Shanghai Science and Technology Commission",
+        "grant_id": "19XD1402100"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "bi-disperse smooth plastic beads",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "granular packing",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Tomography measurements tracking the evolution of microscopic particle structures and configurations during cyclic shear.",
+      "measurement_technique": "X-ray tomography",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "shear force measurement",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Macroscopic shear force measurements recorded throughout the cyclic shear process to capture force evolution over the shear cycle.",
+      "measurement_technique": "shear force measurement",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

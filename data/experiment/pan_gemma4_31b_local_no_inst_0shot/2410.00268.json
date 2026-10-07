@@ -1,0 +1,258 @@
+{
+  "document_id": "2410.00268",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Operando Ultrafast Damage-free Diffraction-Enhanced X-ray Absorption Spectroscopy for Chemical Reactivity of Polymer in Solvents",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+        },
+        {
+          "id": "aff3",
+          "label": "3",
+          "text": "The Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+        },
+        {
+          "id": "aff4",
+          "label": "4",
+          "text": "Department of Materials Science and Engineering, University of California, Berkeley, Berkeley, CA, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "Zhengxing Peng",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1",
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "Antoine Lainé",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "Ka Chon Ng",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "Mutian Hua",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "Brett A. Helms",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1",
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "Miquel B. Salmeron",
+          "orcid": null,
+          "email": "mbsalmeron@lbl.gov",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1",
+            "aff4"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "Cheng Wang",
+          "orcid": null,
+          "email": "cwang2@lbl.gov",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1",
+            "aff2"
+          ]
+        }
+      ],
+      "abstract": "Chemical recycling of plastics to its constituent monomers is a promising solution to develop a sustainable circular plastic economy. An in-situ X-ray absorption spectra (XAS) characterization is an important way to understand the deconstruction process. However, radiation damage, and long acquisition time, prevent such characterization for fast chemical process. Here, we present a novel experimental technique, which we name DiffractionEnhanced X-ray Absorption Spectroscopy (DE-XAS), where the plastic material is supported on a graphene layer covering a periodic pattern of holes in a perforated Si3N4 membrane. The XAS is obtained by measuring the energy-dependent intensity of the X-ray diffracted beams going through the plastic film over the holes in the Si3N4 membrane. Our method decreases beam damage by orders of magnitude while providing good signal/noise ratio data. We demonstrate the suppression of beam damage with samples of polymethyl methacrylate (PMMA) and the operando characterization of polymer deconstruction process in acid with polydiketoenamine (PDK). This proof-of-concept of the DE-XAS technique shows its great potential for studying fast chemical processes, picoseconds to nanoseconds, using fast CCD detectors with short readout time. We believe the DE-XAS technique offers opportunities for studies of chemical reactions, e.g. , photoresist, and many others.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division",
+          "grant_id": "DE-AC0205-CH11231"
+        },
+        {
+          "funder": "Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy",
+          "grant_id": "DE-AC02-05CH11231"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Experiment and Results",
+        "Summary",
+        "Supporting Information",
+        "Acknowledgements",
+        "References",
+        "Methods",
+        "Data processing for DE-XAS"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "Advanced Light Source Beamline 11.0.1.2"
+      }
+    ],
+    "samples": [
+      {
+        "id": "samp1",
+        "sample_name": "polymethyl methacrylate (PMMA)",
+        "sample_description": "30 nm thin film",
+        "chemical_composition": "PMMA",
+        "sample_state": "thin film",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "samp2",
+        "sample_name": "polydiketoenamine (PDK)",
+        "sample_description": "100 nm thin film",
+        "chemical_composition": "PDK",
+        "sample_state": "thin film",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "samp3",
+        "sample_name": "diketoenamine (DKE)",
+        "sample_description": "small molecule analogue of the PDK elastomers",
+        "chemical_composition": "DKE",
+        "sample_state": "liquid solution in HCl",
+        "sample_mass": "5 mg",
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ds1",
+        "dataset_name": "Regular XAS of PMMA",
+        "sample_refs": [
+          "samp1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Regular XAS of PMMA in transmission mode with the energy range of the carbon K edge (270-320 eV)",
+        "measurement_technique": "X-ray absorption spectroscopy (XAS)",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds2",
+        "dataset_name": "DE-XAS of PMMA",
+        "sample_refs": [
+          "samp1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Diffraction-Enhanced X-ray Absorption Spectroscopy of PMMA",
+        "measurement_technique": "Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds3",
+        "dataset_name": "In situ DE-XAS of DKE",
+        "sample_refs": [
+          "samp3"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "In situ DE-XAS for DKE deconstruction in HCl at 60 ℃",
+        "measurement_technique": "Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)",
+        "measurement_mode": [
+          "EnergyScan",
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds4",
+        "dataset_name": "In situ DE-XAS of PDK",
+        "sample_refs": [
+          "samp2"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "In situ DE-XAS for PDK deconstruction in HCl at 60 ℃",
+        "measurement_technique": "Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)",
+        "measurement_mode": [
+          "EnergyScan",
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Operando Ultrafast Damage-free Diffraction-Enhanced X-ray Absorption Spectroscopy for Chemical Reactivity of Polymer in Solvents\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"3\",\n        \"text\": \"The Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA\"\n      },\n      {\n        \"id\": \"aff4\",\n        \"label\": \"4\",\n        \"text\": \"Department of Materials Science and Engineering, University of California, Berkeley, Berkeley, CA, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"Zhengxing Peng\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\",\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"Antoine Lainé\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"Ka Chon Ng\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"Mutian Hua\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"Brett A. Helms\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\",\n          \"aff3\"\n        ]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"Miquel B. Salmeron\",\n        \"orcid\": null,\n        \"email\": \"mbsalmeron@lbl.gov\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff1\",\n          \"aff4\"\n        ]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"Cheng Wang\",\n        \"orcid\": null,\n        \"email\": \"cwang2@lbl.gov\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff1\",\n          \"aff2\"\n        ]\n      }\n    ],\n    \"abstract\": \"Chemical recycling of plastics to its constituent monomers is a promising solution to develop a sustainable circular plastic economy. An in-situ X-ray absorption spectra (XAS) characterization is an important way to understand the deconstruction process. However, radiation damage, and long acquisition time, prevent such characterization for fast chemical process. Here, we present a novel experimental technique, which we name DiffractionEnhanced X-ray Absorption Spectroscopy (DE-XAS), where the plastic material is supported on a graphene layer covering a periodic pattern of holes in a perforated Si3N4 membrane. The XAS is obtained by measuring the energy-dependent intensity of the X-ray diffracted beams going through the plastic film over the holes in the Si3N4 membrane. Our method decreases beam damage by orders of magnitude while providing good signal/noise ratio data. We demonstrate the suppression of beam damage with samples of polymethyl methacrylate (PMMA) and the operando characterization of polymer deconstruction process in acid with polydiketoenamine (PDK). This proof-of-concept of the DE-XAS technique shows its great potential for studying fast chemical processes, picoseconds to nanoseconds, using fast CCD detectors with short readout time. We believe the DE-XAS technique offers opportunities for studies of chemical reactions, e.g. , photoresist, and many others.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division\",\n        \"grant_id\": \"DE-AC0205-CH11231\"\n      },\n      {\n        \"funder\": \"Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy\",\n        \"grant_id\": \"DE-AC02-05CH11231\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Experiment and Results\",\n      \"Summary\",\n      \"Supporting Information\",\n      \"Acknowledgements\",\n      \"References\",\n      \"Methods\",\n      \"Data processing for DE-XAS\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"Advanced Light Source Beamline 11.0.1.2\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"samp1\",\n      \"sample_name\": \"polymethyl methacrylate (PMMA)\",\n      \"sample_description\": \"30 nm thin film\",\n      \"chemical_composition\": \"PMMA\",\n      \"sample_state\": \"thin film\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    },\n    {\n      \"id\": \"samp2\",\n      \"sample_name\": \"polydiketoenamine (PDK)\",\n      \"sample_description\": \"100 nm thin film\",\n      \"chemical_composition\": \"PDK\",\n      \"sample_state\": \"thin film\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    },\n    {\n      \"id\": \"samp3\",\n      \"sample_name\": \"diketoenamine (DKE)\",\n      \"sample_description\": \"small molecule analogue of the PDK elastomers\",\n      \"chemical_composition\": \"DKE\",\n      \"sample_state\": \"liquid solution in HCl\",\n      \"sample_mass\": \"5 mg\",\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"ds1\",\n      \"dataset_name\": \"Regular XAS of PMMA\",\n      \"sample_refs\": [\n        \"samp1\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Regular XAS of PMMA in transmission mode with the energy range of the carbon K edge (270-320 eV)\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (XAS)\",\n      \"measurement_mode\": [\n        \"EnergyScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds2\",\n      \"dataset_name\": \"DE-XAS of PMMA\",\n      \"sample_refs\": [\n        \"samp1\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Diffraction-Enhanced X-ray Absorption Spectroscopy of PMMA\",\n      \"measurement_technique\": \"Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)\",\n      \"measurement_mode\": [\n        \"EnergyScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds3\",\n      \"dataset_name\": \"In situ DE-XAS of DKE\",\n      \"sample_refs\": [\n        \"samp3\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"In situ DE-XAS for DKE deconstruction in HCl at 60 ℃\",\n      \"measurement_technique\": \"Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)\",\n      \"measurement_mode\": [\n        \"EnergyScan\",\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds4\",\n      \"dataset_name\": \"In situ DE-XAS of PDK\",\n      \"sample_refs\": [\n        \"samp2\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"In situ DE-XAS for PDK deconstruction in HCl at 60 ℃\",\n      \"measurement_technique\": \"Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS)\",\n      \"measurement_mode\": [\n        \"EnergyScan\",\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 11268,
+    "output_tokens": 2253,
+    "latency_ms": 105105.29
+  },
+  "warnings": []
+}

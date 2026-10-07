@@ -1,0 +1,220 @@
+{
+  "bibliographic": {
+    "title": "X-ray Absorption Spectroscopy Study of La1−ySryCo1−xNbxO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Technology Delhi, Hauz Khas, New Delhi-110016, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Atomic and Molecular Physics Division, Bhabha Atomic Research Centre, Mumbai-400085, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Beamline Development and Application Section, Physics Group, Bhabha Atomic Research Centre, Mumbai-400085, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Rishabh Shukla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ajay Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ravi Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. N. Jha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "R. S. Dhaka",
+        "orcid": null,
+        "email": "rsdhaka@physics.iitd.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We use x-ray absorption spectroscopy to investigate the local structure and electronic properties of bulk La1−ySryCo1−xNbxO3 (y = 2x as LSCNO and y = 0 as LCNO) samples. The x-ray absorption near-edge spectra (XANES) of LSCNO at Co K-edge affirm the valence state of Co in 3+. However, in the case of the LCNO, a subtle variation in the valence state of Co ions from 3+ to 2+ is evident with Nb substitution. The detailed analysis of the Fourier transform (FT) of the extended x-ray absorption fine structure (EXAFS) for the LSCNO samples exhibit the two groups of the bond-lengths owing to the Jahn-Teller (JT) distortion in the CoO6 octahedra, which manifest that the Co3+ ions exist in the intermediate spin-state (t5 2ge1 g) at room temperature. However, we find that the JT distortion is not present in LCNO samples for x >0.025 due to an increase in the high-spin Co2+/Co3+ ions accompanied by the Nb–induced structural transformation. Intriguingly, the La L3-edge spectra for the LSCNO samples exhibit that the La ions exist in the trivalent state and the local disorder around La atoms decreases with Sr and Nb substitution. Interestingly, the simulated FT of the EXAFS spectra at the La L3-edge demonstrates the three groups of La–O bond lengths, which exhibit a monotonous change with Sr and Nb substitution. Moreover, the XANES measured at Sr and Nb K-edges confirm their oxidation state to be in 2+ and 5+, respectively.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "2104.10884",
+    "url": null,
+    "publication_date": "2021-04-23",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SERB-DST",
+        "grant_id": "ECR/2015/000159"
+      },
+      {
+        "funder": "CRS project",
+        "grant_id": "CSR-IC-ISUM-36/CRS-319/2019-20/1371"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Indus–2 synchrotron source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LCO x = 0",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 2x, x = 0)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LSCNO x = 0.025",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 2x, x = 0.025)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LSCNO x = 0.05",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 2x, x = 0.05)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "LSCNO x = 0.10",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 2x, x = 0.10)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "LSCNO x = 0.15",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 2x, x = 0.15)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "LCNO x = 0.025",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 0, x = 0.025)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "LCNO x = 0.05",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 0, x = 0.05)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "LCNO x = 0.10",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 0, x = 0.10)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "LCNO x = 0.15",
+      "sample_description": "Synthesized by the conventional solid-state method.",
+      "chemical_composition": "La1−ySryCo1−xNbxO3 (y = 0, x = 0.15)",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Hard x-ray absorption spectroscopy measurements at room temperature to record element-specific absorption edges (Co K, La L, Sr, and Nb K) in the transmission mode.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

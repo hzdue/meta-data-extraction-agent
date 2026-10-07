@@ -1,0 +1,53 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Scientific publications contain rich information beyond conventional
+bibliographic metadata. For experimental studies, this includes information
+about the measurements and experimental conditions underlying the reported
+results. Much of this information, however, remains embedded in publications
+rather than available as structured metadata. Recovering it could support
+scientific discovery, reuse, reproducibility, and research data management.
+
+This experimental information is often relational. A paper may describe
+multiple samples, measurement datasets, and facilities, each with its own
+attributes and links to other entities. Recovering such a record therefore
+requires more than extracting isolated values: a system must identify the
+entities reported in the paper, distinguish them at the appropriate scientific
+granularity, and recover the links among them.
+
+Photon and neutron science provides a useful setting for studying this
+metadata extraction problem. FAIR data management and the capture and
+interlinking of experimental metadata are established priorities across the
+PaN community
+\citep{murphy2025fair,expands2022fair,lohstroh2025daphne}.
+
+Recent work has demonstrated the potential of schema-guided LLMs for
+extracting metadata from scientific publications \citep{alyafeai2025mole},
+while structured-extraction benchmarks have introduced field-sensitive metrics
+and semantic alignment for evaluating heterogeneous structured outputs
+\citep{ferguson2026extractbench}. However, publication-derived experimental
+records containing repeated scientific entities and cross-entity references
+remain comparatively underexplored.
+
+To study this problem, we introduce a 40-paper benchmark for
+publication-derived PaN metadata extraction. A two-layer schema combines
+generic publication metadata with domain-specific experimental metadata,
+representing facilities, samples, and measurement datasets as repeated
+entities, with dataset records referencing their associated facilities and
+samples. Ten papers formed the calibration set used to refine the schema,
+field instructions, and annotation protocol. The remaining 30 formed the
+evaluation set used for pairwise annotation agreement and all reported model 
+comparisons.
+
+We develop a benchmark-specific entity-aware evaluation methodology. It 
+aligns predicted and gold entities, separates entity recovery from attribute 
+quality among aligned entities, and remaps output-local identifiers before 
+scoring cross-entity references.
+
+We evaluate seven LLMs on the 30 evaluation papers. In the full-instruction 
+zero-shot baseline, author and affiliation recovery is consistently high, 
+whereas recovery of facilities, samples, and datasets is lower and model-dependent. 
+In the instruction-ablation comparison, detailed field instructions yield higher 
+sample and dataset recovery across all seven models. Patterns for model size and 
+few-shot demonstrations are less uniform. Higher entity recovery does not necessarily 
+correspond to higher conditional attribute or reference quality.

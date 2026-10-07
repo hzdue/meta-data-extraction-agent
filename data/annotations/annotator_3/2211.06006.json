@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Grace L. Causer",
+        "orcid": null,
+        "email": "grace.causer@tum.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Alfonso Chacon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "André Heinemann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Christian Pfleiderer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "2211.06006",
+    "url": null,
+    "publication_date": "2022-11-14",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "TRR80 (From Electronic Correlations to Functionality, Project No. 107745057, Project F7)"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "SPP 2137 (Skyrmionics) under grant PF393/19 (project-id 403191981)"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "Germany’s Excellence Strategy EXC-2111 (Project No. 390814868)"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "Advanced Grants No. 291079 (TOPFIT)"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "Advanced Grants No. 788031 (ExQuiSid)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Description of SANS Geometries",
+      "3 Long-Wavelength Magnetic Modulations",
+      "4 Experimental Results and Discussion",
+      "5 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRM II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnSi single crystal",
+      "sample_description": "A high-quality MnSi single crystal was polished mirror-flat into a disk with approximate dimensions of 25 x 15 x 3 mm3.",
+      "chemical_composition": "MnSi",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "transmission SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Transmission SANS data were collected on MnSi in the helical, conical, skyrmion lattice, and fluctuation-disordered phases using rocking scans and specified temperature and magnetic-field conditions.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "near-surface SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Near-surface SANS data were collected in reflection mode above the critical angle of MnSi at αi = 0.3° under equivalent temperature and magnetic-field conditions.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

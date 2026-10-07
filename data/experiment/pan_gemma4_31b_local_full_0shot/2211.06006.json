@@ -1,0 +1,183 @@
+{
+  "document_id": "2211.06006",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany."
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Grace L. Causer",
+          "orcid": null,
+          "email": "grace.causer@tum.de",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Alfonso Chacon",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Andr´e Heinemann",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Christian Pfleiderer",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_3",
+            "aff_4"
+          ]
+        }
+      ],
+      "abstract": "Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2022-11-14",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Deutsche Forschungsgemeinschaft",
+          "grant_id": "TRR80 (From Electronic Correlations to Functionality, Project No. 107745057, Project F7)"
+        },
+        {
+          "funder": "Deutsche Forschungsgemeinschaft",
+          "grant_id": "SPP 2137 (Skyrmionics) under grant PF393/19 (project-id 403191981)"
+        },
+        {
+          "funder": "Munich Center for Quantum Science and Technology",
+          "grant_id": "EXC-2111 (Project No. 390814868)"
+        },
+        {
+          "funder": "European Research Council",
+          "grant_id": "Advanced Grants No. 291079 (TOPFIT)"
+        },
+        {
+          "funder": "European Research Council",
+          "grant_id": "Advanced Grants No. 788031 (ExQuiSid)"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1 Introduction",
+        "2 Description of SANS Geometries",
+        "3 Long-Wavelength Magnetic Modulations",
+        "4 Experimental Results and Discussion",
+        "5 Conclusions"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "SANS-1 beamline at the FRM II"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "MnSi single crystal",
+        "sample_description": "High-quality single crystal polished mirror-flat into the shape of a disk.",
+        "chemical_composition": "MnSi",
+        "sample_state": "single crystal",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "transmission SANS",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Measurements of helical, conical, skyrmion, and fluctuation-disordered phases of MnSi in transmission geometry.",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "near-surface SANS",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Measurements of MnSi phases in reflection mode above the critical angle at an incidence angle of 0.3 degrees.",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Grace L. Causer\",\n        \"orcid\": null,\n        \"email\": \"grace.causer@tum.de\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Alfonso Chacon\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Andr´e Heinemann\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Christian Pfleiderer\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_3\",\n          \"aff_4\"\n        ]\n      }\n    ],\n    \"abstract\": \"Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2022-11-14\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft\",\n        \"grant_id\": \"TRR80 (From Electronic Correlations to Functionality, Project No. 107745057, Project F7)\"\n      },\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft\",\n        \"grant_id\": \"SPP 2137 (Skyrmionics) under grant PF393/19 (project-id 403191981)\"\n      },\n      {\n        \"funder\": \"Munich Center for Quantum Science and Technology\",\n        \"grant_id\": \"EXC-2111 (Project No. 390814868)\"\n      },\n      {\n        \"funder\": \"European Research Council\",\n        \"grant_id\": \"Advanced Grants No. 291079 (TOPFIT)\"\n      },\n      {\n        \"funder\": \"European Research Council\",\n        \"grant_id\": \"Advanced Grants No. 788031 (ExQuiSid)\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1 Introduction\",\n      \"2 Description of SANS Geometries\",\n      \"3 Long-Wavelength Magnetic Modulations\",\n      \"4 Experimental Results and Discussion\",\n      \"5 Conclusions\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"SANS-1 beamline at the FRM II\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"MnSi single crystal\",\n      \"sample_description\": \"High-quality single crystal polished mirror-flat into the shape of a disk.\",\n      \"chemical_composition\": \"MnSi\",\n      \"sample_state\": \"single crystal\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"transmission SANS\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Measurements of helical, conical, skyrmion, and fluctuation-disordered phases of MnSi in transmission geometry.\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"near-surface SANS\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Measurements of MnSi phases in reflection mode above the critical angle at an incidence angle of 0.3 degrees.\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 22467,
+    "output_tokens": 1645,
+    "latency_ms": 89443.63
+  },
+  "warnings": []
+}

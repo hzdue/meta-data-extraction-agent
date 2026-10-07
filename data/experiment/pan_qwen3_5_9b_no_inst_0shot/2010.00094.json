@@ -1,0 +1,234 @@
+{
+  "document_id": "2010.00094",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Local and electronic structure of Sr1-xGdxTiO3 probed by X-ray absorption spectroscopy",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Institute of Geosciences and Exact Sciences, São Paulo State University – Unesp, Rio Claro, SP, Brazil."
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Federal University of Alfenas – Unifal-MG, Alfenas, MG, Brazil"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "Alexandre Mesquita",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "Elio Thizay Magnavita Oliveira",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "Hugo Bonette de Carvalho",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        }
+      ],
+      "abstract": "Gadolinium-doped strontium titanate (Sr1- _x_ Gd _x_ TiO3) is a typical perovskite structure material which has been studied due their thermomechanical, termoelectrical and electrochemical properties. In this study, local and electronic structure of Sr1- _x_ Gd _x_ TiO3 samples were analyzed through X-ray absorption spectroscopy measurements. The results obtained with the adjustment of extended X-ray absorption fine structure (EXAFS) spectra at Sr K-edge show that crystallographic model of _Pm-3m_ space group is consistent with local structure around Sr atoms, as expected. This same analysis also reveals an increasing of the Debye-Waller as a function of the Gd content in some shells, which is associated with disorder induced by Sr vacancies due to the heterovalent Gd incorporation. EXAFS spectra at Gd LIII-edge for Sr1- _x_ Gd _x_ TiO3 samples indicates regular GdO12 dodecahedra without displacement of Gd atoms from centrosymmetric position. A disorder was also identified in the shells beyond the first 12 O neighbors in which neither the crystallographic cubic structure of the SrTiO3 nor the orthorhombic structure of the GdTiO3 fits well. X-ray absorption near edge spectroscopy (XANES) spectrum at Ti LIII,II-edges shows an asymmetric peak because of the splitting between the _eg_ orbitals of 3 _d_ band for SrTiO3 sample. The addition of Gd atoms to SrTiO3 structure cause an enlargement of this peak and this split is associated with a small displacement of Ti atoms from their centrosymmetric position. Several features of the XANES spectra at O k-edge for Sr1- _x_ Gd _x_ TiO3 samples are affected by the increase of Gd concentration. According to our calculated projected density of states, these transitions are related to a reduction in the number of unoccupied O 2 _p_ - Ti 3 _d_ states caused by the split of Ti 3 _d_ band. Moreover, these XANES spectra also show a dependence of the increasing of the hybridization between O 2 _p_ and Gd 5 _d_ 4 _f_ 6 _s_ states.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "pt",
+      "funding": [
+        {
+          "funder": "Brazilian Centre for Research in Energy and Materials (CNPEM)",
+          "grant_id": "20180277"
+        },
+        {
+          "funder": "Brazilian Centre for Research in Energy and Materials (CNPEM)",
+          "grant_id": "20180459"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1. Introduction",
+        "1. Experimental procedure",
+        "2. Results and discussions",
+        "4. Conclusions",
+        "5. Acknowledgements",
+        "6. References:"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "LNLS (National Synchrotron Light Laboratory)"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "SGTO_0",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.0 (0 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      },
+      {
+        "id": "sample2",
+        "sample_name": "SGTO_6",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.06 (6 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      },
+      {
+        "id": "sample3",
+        "sample_name": "SGTO_12",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.12 (12 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      },
+      {
+        "id": "sample4",
+        "sample_name": "SGTO_18",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.18 (18 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      },
+      {
+        "id": "sample5",
+        "sample_name": "SGTO_24",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.24 (24 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      },
+      {
+        "id": "sample6",
+        "sample_name": "SGTO_30",
+        "sample_description": "Sr1-xGdxTiO3 with x = 0.30 (30 at.% Gd)",
+        "sample_state": "ceramic powder",
+        "supplier_or_creator": "prepared by the polymeric precursor method"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "Sr K-edge EXAFS",
+        "sample_refs": [
+          "sample1",
+          "sample2",
+          "sample3",
+          "sample4",
+          "sample5",
+          "sample6"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Extended X-ray absorption fine structure spectra at Sr K-edge collected in transmission mode at XAFS2 beam line.",
+        "measurement_technique": "X-ray absorption spectroscopy (EXAFS)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset2",
+        "dataset_name": "Gd LIII-edge EXAFS",
+        "sample_refs": [
+          "sample2",
+          "sample3",
+          "sample4",
+          "sample5",
+          "sample6"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "Extended X-ray absorption fine structure spectra at Gd LIII-edge collected in transmission mode at XAFS2 beam line.",
+        "measurement_technique": "X-ray absorption spectroscopy (EXAFS)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset3",
+        "dataset_name": "Ti LIII,II-edge XANES",
+        "sample_refs": [
+          "sample1",
+          "sample2",
+          "sample3",
+          "sample4",
+          "sample5",
+          "sample6"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "X-ray absorption near edge structure spectra at Ti LIII,II-edges measured at room temperature with electron-yield mode at PGM beamline.",
+        "measurement_technique": "X-ray absorption spectroscopy (XANES)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset4",
+        "dataset_name": "O K-edge XANES",
+        "sample_refs": [
+          "sample1",
+          "sample2",
+          "sample3",
+          "sample4",
+          "sample5",
+          "sample6"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "X-ray absorption near edge structure spectra at O K-edges measured at room temperature with electron-yield mode at PGM beamline.",
+        "measurement_technique": "X-ray absorption spectroscopy (XANES)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Local and electronic structure of Sr1-xGdxTiO3 probed by X-ray absorption spectroscopy\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Institute of Geosciences and Exact Sciences, São Paulo State University – Unesp, Rio Claro, SP, Brazil.\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Federal University of Alfenas – Unifal-MG, Alfenas, MG, Brazil\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"Alexandre Mesquita\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"Elio Thizay Magnavita Oliveira\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"Hugo Bonette de Carvalho\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      }\n    ],\n    \"abstract\": \"Gadolinium-doped strontium titanate (Sr1- _x_ Gd _x_ TiO3) is a typical perovskite structure material which has been studied due their thermomechanical, termoelectrical and electrochemical properties. In this study, local and electronic structure of Sr1- _x_ Gd _x_ TiO3 samples were analyzed through X-ray absorption spectroscopy measurements. The results obtained with the adjustment of extended X-ray absorption fine structure (EXAFS) spectra at Sr K-edge show that crystallographic model of _Pm-3m_ space group is consistent with local structure around Sr atoms, as expected. This same analysis also reveals an increasing of the Debye-Waller as a function of the Gd content in some shells, which is associated with disorder induced by Sr vacancies due to the heterovalent Gd incorporation. EXAFS spectra at Gd LIII-edge for Sr1- _x_ Gd _x_ TiO3 samples indicates regular GdO12 dodecahedra without displacement of Gd atoms from centrosymmetric position. A disorder was also identified in the shells beyond the first 12 O neighbors in which neither the crystallographic cubic structure of the SrTiO3 nor the orthorhombic structure of the GdTiO3 fits well. X-ray absorption near edge spectroscopy (XANES) spectrum at Ti LIII,II-edges shows an asymmetric peak because of the splitting between the _eg_ orbitals of 3 _d_ band for SrTiO3 sample. The addition of Gd atoms to SrTiO3 structure cause an enlargement of this peak and this split is associated with a small displacement of Ti atoms from their centrosymmetric position. Several features of the XANES spectra at O k-edge for Sr1- _x_ Gd _x_ TiO3 samples are affected by the increase of Gd concentration. According to our calculated projected density of states, these transitions are related to a reduction in the number of unoccupied O 2 _p_ - Ti 3 _d_ states caused by the split of Ti 3 _d_ band. Moreover, these XANES spectra also show a dependence of the increasing of the hybridization between O 2 _p_ and Gd 5 _d_ 4 _f_ 6 _s_ states.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"pt\",\n    \"funding\": [\n      {\n        \"funder\": \"Brazilian Centre for Research in Energy and Materials (CNPEM)\",\n        \"grant_id\": \"20180277\"\n      },\n      {\n        \"funder\": \"Brazilian Centre for Research in Energy and Materials (CNPEM)\",\n        \"grant_id\": \"20180459\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1. Introduction\",\n      \"1. Experimental procedure\",\n      \"2. Results and discussions\",\n      \"4. Conclusions\",\n      \"5. Acknowledgements\",\n      \"6. References:\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"LNLS (National Synchrotron Light Laboratory)\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"SGTO_0\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.0 (0 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    },\n    {\n      \"id\": \"sample2\",\n      \"sample_name\": \"SGTO_6\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.06 (6 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    },\n    {\n      \"id\": \"sample3\",\n      \"sample_name\": \"SGTO_12\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.12 (12 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    },\n    {\n      \"id\": \"sample4\",\n      \"sample_name\": \"SGTO_18\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.18 (18 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    },\n    {\n      \"id\": \"sample5\",\n      \"sample_name\": \"SGTO_24\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.24 (24 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    },\n    {\n      \"id\": \"sample6\",\n      \"sample_name\": \"SGTO_30\",\n      \"sample_description\": \"Sr1-xGdxTiO3 with x = 0.30 (30 at.% Gd)\",\n      \"sample_state\": \"ceramic powder\",\n      \"supplier_or_creator\": \"prepared by the polymeric precursor method\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"Sr K-edge EXAFS\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\",\n        \"sample3\",\n        \"sample4\",\n        \"sample5\",\n        \"sample6\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Extended X-ray absorption fine structure spectra at Sr K-edge collected in transmission mode at XAFS2 beam line.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (EXAFS)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset2\",\n      \"dataset_name\": \"Gd LIII-edge EXAFS\",\n      \"sample_refs\": [\n        \"sample2\",\n        \"sample3\",\n        \"sample4\",\n        \"sample5\",\n        \"sample6\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"Extended X-ray absorption fine structure spectra at Gd LIII-edge collected in transmission mode at XAFS2 beam line.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (EXAFS)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset3\",\n      \"dataset_name\": \"Ti LIII,II-edge XANES\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\",\n        \"sample3\",\n        \"sample4\",\n        \"sample5\",\n        \"sample6\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"X-ray absorption near edge structure spectra at Ti LIII,II-edges measured at room temperature with electron-yield mode at PGM beamline.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (XANES)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset4\",\n      \"dataset_name\": \"O K-edge XANES\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\",\n        \"sample3\",\n        \"sample4\",\n        \"sample5\",\n        \"sample6\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"X-ray absorption near edge structure spectra at O K-edges measured at room temperature with electron-yield mode at PGM beamline.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy (XANES)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 19333,
+    "output_tokens": 2374,
+    "latency_ms": 29705.62
+  },
+  "warnings": []
+}

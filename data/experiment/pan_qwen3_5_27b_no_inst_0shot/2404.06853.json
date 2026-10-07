@@ -1,0 +1,279 @@
+{
+  "document_id": "2404.06853",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Revealing mechanism of pore defect formation in laser directed energy deposition of aluminum alloy via in-situ synchrotron X-ray imaging",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_a",
+          "label": "a",
+          "text": "Institute of High Energy Physics, Chinese Academy of Sciences, Beijing, China"
+        },
+        {
+          "id": "aff_b",
+          "label": "b",
+          "text": "University of Chinese Academy of Sciences, Beijing, People's Republic of China"
+        },
+        {
+          "id": "aff_c",
+          "label": "c",
+          "text": "3D Printing Research and Engineering Technology Center, Beijing Institute of Aeronautical Materials, Beijing, China"
+        },
+        {
+          "id": "aff_d",
+          "label": "d",
+          "text": "School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu, Sichuan, People's Republic of China"
+        },
+        {
+          "id": "aff_e",
+          "label": "e",
+          "text": "Institute of Fluid Physics, China Academy of Engineering Physics, Mianyang, Sichuan, China"
+        },
+        {
+          "id": "aff_f",
+          "label": "f",
+          "text": "Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, China"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth_1",
+          "full_name": "Wei. Liu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_c"
+          ]
+        },
+        {
+          "id": "auth_2",
+          "full_name": "Yuxiao Li",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_a"
+          ]
+        },
+        {
+          "id": "auth_3",
+          "full_name": "Chunxia Yao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_a"
+          ]
+        },
+        {
+          "id": "auth_4",
+          "full_name": "Dongsheng Zhang",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_a",
+            "aff_b"
+          ]
+        },
+        {
+          "id": "auth_5",
+          "full_name": "Darui Sun",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_a"
+          ]
+        },
+        {
+          "id": "auth_6",
+          "full_name": "Sen Chen",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_e"
+          ]
+        },
+        {
+          "id": "auth_7",
+          "full_name": "Yu Wu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_c"
+          ]
+        },
+        {
+          "id": "auth_8",
+          "full_name": "Jun Wang",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_f"
+          ]
+        },
+        {
+          "id": "auth_9",
+          "full_name": "Lei Lu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_d"
+          ]
+        },
+        {
+          "id": "auth_10",
+          "full_name": "Sheng-Nian Luo",
+          "orcid": null,
+          "email": "sluo@swjtu.edu.cn",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_d"
+          ]
+        },
+        {
+          "id": "auth_11",
+          "full_name": "Ye Tao",
+          "orcid": null,
+          "email": "taoy@ihep.ac.cn",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_a"
+          ]
+        },
+        {
+          "id": "auth_12",
+          "full_name": "Bingbing Zhang",
+          "orcid": null,
+          "email": "zhangbb@ihep.ac.cn",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_a",
+            "aff_b"
+          ]
+        }
+      ],
+      "abstract": "Laser metal additive manufacturing technology is capable of producing components with complex geometries and compositions that cannot be realized by conventional manufacturing methods. However, a large number of pores generated during the additive manufacturing process greatly affect the mechanical properties of the additively manufactured parts, and the mechanism of such pore generation has not been revealed by direct observation clearly. Here, we report the mechanism of pore generation in the laser direct energy deposition process as revealed by in-situ high-speed high-resolution synchrotron X-ray imaging. We found that dissolution and re-precipitation of external gases and precipitation of metal vapors are the two main mechanisms of pore formation. We further explored the effects of different process parameters on the generation of pores and optimized the process to suppress pore generation. This work provides important insights into the formation of porosity defects during laser metal additive manufacturing, and can provide guidance for related process optimization.",
+      "keywords": [
+        "synchrotron X-ray imaging",
+        "directed energy deposition",
+        "porosity defect",
+        "aluminum alloy"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "April 11, 2024",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "Abstract",
+        "1. Introduction",
+        "2. Results",
+        "Experimental setup and ex-situ tomography characterisation",
+        "In situ synchrotron X-ray imaging during the DED process",
+        "3. Discussion",
+        "Pore deformation mechanism.",
+        "Data availability",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac_1",
+        "name": "Beijing Synchrotron Radiation Facility"
+      },
+      {
+        "id": "fac_2",
+        "name": "Shanghai Synchrotron Radiation Facility"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Al2024 alloy",
+        "sample_description": "Bare plate with 0.6 mm thickness used for laser directed energy deposition experiments.",
+        "chemical_composition": "Al2024",
+        "sample_state": "bare plate",
+        "sample_mass": null,
+        "supplier_or_creator": "Beijing Institute of Aeronautical Materials"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ds_1",
+        "dataset_name": "In-situ synchrotron X-ray imaging of DED process",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "fac_1"
+        ],
+        "dataset_description": "High-speed high-resolution synchrotron X-ray imaging of the laser direct energy deposition process to observe pore formation and evolution.",
+        "measurement_technique": "synchrotron X-ray imaging",
+        "measurement_mode": [
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds_2",
+        "dataset_name": "Ex-situ X-ray computed tomography",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "fac_2"
+        ],
+        "dataset_description": "X-ray computed tomography (CT) analysis of the formed sample to quantify pore characteristics.",
+        "measurement_technique": "X-ray computed tomography",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds_3",
+        "dataset_name": "SEM and EDS analysis",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Scanning electron microscope (SEM) and energy dispersive spectroscopy (EDS) characterization of slices against formed specimens to analyze elemental composition of pores.",
+        "measurement_technique": "scanning electron microscope and energy dispersive spectroscopy",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Revealing mechanism of pore defect formation in laser directed energy deposition of aluminum alloy via in-situ synchrotron X-ray imaging\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_a\",\n        \"label\": \"a\",\n        \"text\": \"Institute of High Energy Physics, Chinese Academy of Sciences, Beijing, China\"\n      },\n      {\n        \"id\": \"aff_b\",\n        \"label\": \"b\",\n        \"text\": \"University of Chinese Academy of Sciences, Beijing, People's Republic of China\"\n      },\n      {\n        \"id\": \"aff_c\",\n        \"label\": \"c\",\n        \"text\": \"3D Printing Research and Engineering Technology Center, Beijing Institute of Aeronautical Materials, Beijing, China\"\n      },\n      {\n        \"id\": \"aff_d\",\n        \"label\": \"d\",\n        \"text\": \"School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu, Sichuan, People's Republic of China\"\n      },\n      {\n        \"id\": \"aff_e\",\n        \"label\": \"e\",\n        \"text\": \"Institute of Fluid Physics, China Academy of Engineering Physics, Mianyang, Sichuan, China\"\n      },\n      {\n        \"id\": \"aff_f\",\n        \"label\": \"f\",\n        \"text\": \"Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai, China\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth_1\",\n        \"full_name\": \"Wei. Liu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_c\"]\n      },\n      {\n        \"id\": \"auth_2\",\n        \"full_name\": \"Yuxiao Li\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_a\"]\n      },\n      {\n        \"id\": \"auth_3\",\n        \"full_name\": \"Chunxia Yao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_a\"]\n      },\n      {\n        \"id\": \"auth_4\",\n        \"full_name\": \"Dongsheng Zhang\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_a\", \"aff_b\"]\n      },\n      {\n        \"id\": \"auth_5\",\n        \"full_name\": \"Darui Sun\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_a\"]\n      },\n      {\n        \"id\": \"auth_6\",\n        \"full_name\": \"Sen Chen\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_e\"]\n      },\n      {\n        \"id\": \"auth_7\",\n        \"full_name\": \"Yu Wu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_c\"]\n      },\n      {\n        \"id\": \"auth_8\",\n        \"full_name\": \"Jun Wang\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_f\"]\n      },\n      {\n        \"id\": \"auth_9\",\n        \"full_name\": \"Lei Lu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_d\"]\n      },\n      {\n        \"id\": \"auth_10\",\n        \"full_name\": \"Sheng-Nian Luo\",\n        \"orcid\": null,\n        \"email\": \"sluo@swjtu.edu.cn\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_d\"]\n      },\n      {\n        \"id\": \"auth_11\",\n        \"full_name\": \"Ye Tao\",\n        \"orcid\": null,\n        \"email\": \"taoy@ihep.ac.cn\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_a\"]\n      },\n      {\n        \"id\": \"auth_12\",\n        \"full_name\": \"Bingbing Zhang\",\n        \"orcid\": null,\n        \"email\": \"zhangbb@ihep.ac.cn\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_a\", \"aff_b\"]\n      }\n    ],\n    \"abstract\": \"Laser metal additive manufacturing technology is capable of producing components with complex geometries and compositions that cannot be realized by conventional manufacturing methods. However, a large number of pores generated during the additive manufacturing process greatly affect the mechanical properties of the additively manufactured parts, and the mechanism of such pore generation has not been revealed by direct observation clearly. Here, we report the mechanism of pore generation in the laser direct energy deposition process as revealed by in-situ high-speed high-resolution synchrotron X-ray imaging. We found that dissolution and re-precipitation of external gases and precipitation of metal vapors are the two main mechanisms of pore formation. We further explored the effects of different process parameters on the generation of pores and optimized the process to suppress pore generation. This work provides important insights into the formation of porosity defects during laser metal additive manufacturing, and can provide guidance for related process optimization.\",\n    \"keywords\": [\n      \"synchrotron X-ray imaging\",\n      \"directed energy deposition\",\n      \"porosity defect\",\n      \"aluminum alloy\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"April 11, 2024\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Abstract\",\n      \"1. Introduction\",\n      \"2. Results\",\n      \"Experimental setup and ex-situ tomography characterisation\",\n      \"In situ synchrotron X-ray imaging during the DED process\",\n      \"3. Discussion\",\n      \"Pore deformation mechanism.\",\n      \"Data availability\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac_1\",\n      \"name\": \"Beijing Synchrotron Radiation Facility\"\n    },\n    {\n      \"id\": \"fac_2\",\n      \"name\": \"Shanghai Synchrotron Radiation Facility\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Al2024 alloy\",\n      \"sample_description\": \"Bare plate with 0.6 mm thickness used for laser directed energy deposition experiments.\",\n      \"chemical_composition\": \"Al2024\",\n      \"sample_state\": \"bare plate\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Beijing Institute of Aeronautical Materials\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"ds_1\",\n      \"dataset_name\": \"In-situ synchrotron X-ray imaging of DED process\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [\"fac_1\"],\n      \"dataset_description\": \"High-speed high-resolution synchrotron X-ray imaging of the laser direct energy deposition process to observe pore formation and evolution.\",\n      \"measurement_technique\": \"synchrotron X-ray imaging\",\n      \"measurement_mode\": [\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds_2\",\n      \"dataset_name\": \"Ex-situ X-ray computed tomography\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [\"fac_2\"],\n      \"dataset_description\": \"X-ray computed tomography (CT) analysis of the formed sample to quantify pore characteristics.\",\n      \"measurement_technique\": \"X-ray computed tomography\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds_3\",\n      \"dataset_name\": \"SEM and EDS analysis\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Scanning electron microscope (SEM) and energy dispersive spectroscopy (EDS) characterization of slices against formed specimens to analyze elemental composition of pores.\",\n      \"measurement_technique\": \"scanning electron microscope and energy dispersive spectroscopy\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_27b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 13131,
+    "output_tokens": 2155,
+    "latency_ms": 79681.68
+  },
+  "warnings": []
+}

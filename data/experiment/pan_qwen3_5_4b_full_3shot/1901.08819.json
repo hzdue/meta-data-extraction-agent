@@ -1,0 +1,144 @@
+{
+  "document_id": "1901.08819",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Polarized neutron reflectometry study from iron oxide nanoparticles monolayer",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "a",
+          "text": "B. P. Konstantinov Petersburg Nuclear Physics Institute, National Research Center \"Kurchatov Institute\", 188300 Gatchina, Russia"
+        },
+        {
+          "id": "aff_2",
+          "label": "b",
+          "text": "RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan"
+        },
+        {
+          "id": "aff_3",
+          "label": "c",
+          "text": "European Synchrotron Radiation Facility, 71, Avenue des Martyrs, CS40220, F-38043 Grenoble Cedex 9, France"
+        },
+        {
+          "id": "aff_4",
+          "label": "d",
+          "text": "Department of Physics and Astronomy, Uppsala University, Box 516, 751 20, Uppsala, Sweden"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "V. Ukleev",
+          "orcid": null,
+          "email": "ukleev@lns.pnpi.spb.ru",
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "I. Snigireva",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "A. Vorobiev",
+          "orcid": null,
+          "email": "avorobiev@ill.fr",
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3",
+            "aff_4"
+          ]
+        }
+      ],
+      "abstract": "We report on the polarized neutron reflectometry investigation of monolayer of magnetic iron oxide nanoparticles assembled by the Langmuir-Schaefer method. After deposition onto a solid substrate the polarized neutron reflectometry measurements in the external magnetic field were carried out. Thickness, density, roughness and in-depth resolved magnetization profile of the resulted layer were obtained from accurate fitting routine.",
+      "keywords": [
+        "Magnetic nanoparticles",
+        "polarized neutron reflectometry",
+        "Langmuir film"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2019-01-28",
+      "venue": "Surfaces and Interfaces",
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Russian Foundation for Basic Research",
+          "grant_id": "14-2201113-ofi m"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Materials and methods",
+        "Results and discussion",
+        "Conclusion"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Super ADAM"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "iron oxide nanoparticles monolayer",
+        "sample_description": "Assembled by the Langmuir-Schaefer method on a silicon substrate coated with gold and titanium.",
+        "chemical_composition": "Fe3O4/Fe2O3",
+        "sample_state": "monolayer",
+        "sample_mass": null,
+        "supplier_or_creator": "purchased"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "polarized neutron reflectometry",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "PNR measurements in external magnetic field B = 500 mT applied parallel or anti-parallel to incoming neutron polarization.",
+        "measurement_technique": "polarized neutron reflectometry",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Polarized neutron reflectometry study from iron oxide nanoparticles monolayer\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"a\",\n        \"text\": \"B. P. Konstantinov Petersburg Nuclear Physics Institute, National Research Center \\\"Kurchatov Institute\\\", 188300 Gatchina, Russia\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"b\",\n        \"text\": \"RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"c\",\n        \"text\": \"European Synchrotron Radiation Facility, 71, Avenue des Martyrs, CS40220, F-38043 Grenoble Cedex 9, France\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"d\",\n        \"text\": \"Department of Physics and Astronomy, Uppsala University, Box 516, 751 20, Uppsala, Sweden\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"V. Ukleev\",\n        \"orcid\": null,\n        \"email\": \"ukleev@lns.pnpi.spb.ru\",\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"I. Snigireva\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"A. Vorobiev\",\n        \"orcid\": null,\n        \"email\": \"avorobiev@ill.fr\",\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\",\n          \"aff_4\"\n        ]\n      }\n    ],\n    \"abstract\": \"We report on the polarized neutron reflectometry investigation of monolayer of magnetic iron oxide nanoparticles assembled by the Langmuir-Schaefer method. After deposition onto a solid substrate the polarized neutron reflectometry measurements in the external magnetic field were carried out. Thickness, density, roughness and in-depth resolved magnetization profile of the resulted layer were obtained from accurate fitting routine.\",\n    \"keywords\": [\n      \"Magnetic nanoparticles\",\n      \"polarized neutron reflectometry\",\n      \"Langmuir film\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2019-01-28\",\n    \"venue\": \"Surfaces and Interfaces\",\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Russian Foundation for Basic Research\",\n        \"grant_id\": \"14-2201113-ofi m\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Materials and methods\",\n      \"Results and discussion\",\n      \"Conclusion\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Super ADAM\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"iron oxide nanoparticles monolayer\",\n      \"sample_description\": \"Assembled by the Langmuir-Schaefer method on a silicon substrate coated with gold and titanium.\",\n      \"chemical_composition\": \"Fe3O4/Fe2O3\",\n      \"sample_state\": \"monolayer\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"purchased\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"polarized neutron reflectometry\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"PNR measurements in external magnetic field B = 500 mT applied parallel or anti-parallel to incoming neutron polarization.\",\n      \"measurement_technique\": \"polarized neutron reflectometry\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_4b_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 77054,
+    "output_tokens": 1167,
+    "latency_ms": 16067.68
+  },
+  "warnings": []
+}

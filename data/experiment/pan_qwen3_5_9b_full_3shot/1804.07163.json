@@ -1,0 +1,323 @@
+{
+  "document_id": "1804.07163",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Insights into the Interactions between Surfactin, Betaines and PAM: Surface Tension, Small-Angle Neutron Scattering and Small-Angle X-ray Scattering Study",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "†",
+          "text": "Shanghai Key Laboratory of Functional Materials Chemistry and State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, People's Republic of China"
+        },
+        {
+          "id": "aff_2",
+          "label": "‡",
+          "text": "Wigner Research Centre for Physics, Institute for Solid State Physics and Optics, Budapest 1525 POB 49, Hungary"
+        },
+        {
+          "id": "aff_3",
+          "label": "§",
+          "text": "Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Institute of Materials Research, Max-Planck-Strasse 1, 21502 Geesthacht, Germany"
+        },
+        {
+          "id": "aff_4",
+          "label": "+",
+          "text": "Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Institute of Polymer Research, Max-Planck-Strasse 1, 21502 Geesthacht, Germany"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Jingwen Xiao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Fang Liu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Vasil M. Garamus",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "László Almásy",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Ulrich A. Handge",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Regine Willumeit",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Bozhong Mu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "Aihua Zou",
+          "orcid": null,
+          "email": "aihuazou@ecust.edu.cn",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "The interactions between neutral polymer polyacrylamide (PAM) and the biosurfactant Surfactin and four betaines, N-dodecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (SDDAB), N-tetradecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (STDAB), N-hexadecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (SHDAB), and N-dodecyl-N,N-dimethyl-2-ammonio-acetate (C12BE), in phosphate buffer solution (PBS) have been studied by surface tension measurements, small-angle neutron scattering (SANS), small-angle X-ray scattering (SAXS) and rheological experiments. It has been confirmed that the length of alkyl chain is a key parameter of interaction between betaines and PAM. Differences in scattering contrast between X-ray and neutrons for surfactants and PAM molecules provide the opportunity to follow separately the changes of structure of PAM and surfactant aggregates. At concentrations of betaines higher than CMC (critical micelle concentration) and C2 (CMC of surfactant with the presence of polymer), spherical micelles are formed in betaines and betaines/PAM solutions. Transition from spherical to rod-like aggregates (micelles) has been observed in solutions of Surfactin and Surfactin/SDDAB (αSurfactin = 0.67 (molar fraction)) with addition of 0.8 wt% of PAM. The conformation change of PAM molecules only can be observed for Surfactin/SDDAB/PAM system in PBS. Viscosity values follow the structural changes suggested from scattering measurements i.e., gradually increases for mixtures PAM → Surfactin/PAM → Surfactin/SDDAB/PAM in PBS.",
+      "keywords": [],
+      "doi": "10.1021/la405000x",
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2014-05-12",
+      "venue": "Langmuir",
+      "publisher": "American Chemical Society",
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Alexander von Humboldt Foundation",
+          "grant_id": null
+        },
+        {
+          "funder": "Chinese National Natural Science Foundation",
+          "grant_id": "201003047"
+        },
+        {
+          "funder": "Fundamental Research Funds for the Central Universities",
+          "grant_id": null
+        },
+        {
+          "funder": "European Commission",
+          "grant_id": "283883-NMI3"
+        },
+        {
+          "funder": "National Development Agency (NDA) of Hungary",
+          "grant_id": "KMR12-1-2012-0226"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1. Introduction",
+        "2. Materials and Methods",
+        "3. Results and Discussion",
+        "4. Conclusions"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Budapest Neutron Centre"
+      },
+      {
+        "id": "facility_2",
+        "name": "PETRA III"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "PAM 0.8 wt%",
+        "sample_description": "Polyacrylamide solution in 10 mM PBS, pH 7.4.",
+        "chemical_composition": "PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "SDDAB/PAM",
+        "sample_description": "SDDAB mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "SDDAB/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "STDAB/PAM",
+        "sample_description": "STDAB mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "STDAB/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_4",
+        "sample_name": "SHDAB/PAM",
+        "sample_description": "SHDAB mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "SHDAB/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_5",
+        "sample_name": "C12BE/PAM",
+        "sample_description": "C12BE mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "C12BE/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_6",
+        "sample_name": "Surfactin/PAM",
+        "sample_description": "Surfactin mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "Surfactin/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_7",
+        "sample_name": "Surfactin/SDDAB/PAM",
+        "sample_description": "Surfactin/SDDAB mixture (αSurfactin=0.67) mixed with 0.8 wt% PAM in PBS.",
+        "chemical_composition": "Surfactin/SDDAB/PAM",
+        "sample_state": "solution",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "Surface Tension",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3",
+          "sample_4",
+          "sample_5",
+          "sample_6",
+          "sample_7"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Surface tension measurements at 25 °C using a Wilhelmy small platinum plate to determine CAC, CMC, and C2 values.",
+        "measurement_technique": "surface tension",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "SANS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3",
+          "sample_4",
+          "sample_5",
+          "sample_6",
+          "sample_7"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Small-angle neutron scattering measurements on the Yellow Submarine instrument at the BNC in Budapest, Hungary, with q ranging from 0.09 to 3.1 nm-1 at 25 °C.",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "SAXS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_6",
+          "sample_7"
+        ],
+        "facility_refs": [
+          "facility_2"
+        ],
+        "dataset_description": "Small-angle X-ray scattering experiments at the P12 BioSAXS beamline of EMBL at PETRA III, DESY, Hamburg, with q ranging from 0.1 to 4 nm-1 at 25 °C.",
+        "measurement_technique": "small-angle X-ray scattering",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_4",
+        "dataset_name": "Rheology",
+        "sample_refs": [
+          "sample_1",
+          "sample_6",
+          "sample_7"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Steady-state shear viscosity measurements at 30 °C using a Couette geometry to determine flow curves.",
+        "measurement_technique": "rheology",
+        "measurement_mode": [
+          "ShearRateScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Insights into the Interactions between Surfactin, Betaines and PAM: Surface Tension, Small-Angle Neutron Scattering and Small-Angle X-ray Scattering Study\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"†\",\n        \"text\": \"Shanghai Key Laboratory of Functional Materials Chemistry and State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, People's Republic of China\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"‡\",\n        \"text\": \"Wigner Research Centre for Physics, Institute for Solid State Physics and Optics, Budapest 1525 POB 49, Hungary\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"§\",\n        \"text\": \"Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Institute of Materials Research, Max-Planck-Strasse 1, 21502 Geesthacht, Germany\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"+\",\n        \"text\": \"Helmholtz-Zentrum Geesthacht, Centre for Materials and Coastal Research, Institute of Polymer Research, Max-Planck-Strasse 1, 21502 Geesthacht, Germany\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Jingwen Xiao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Fang Liu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Vasil M. Garamus\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"László Almásy\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Ulrich A. Handge\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Regine Willumeit\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Bozhong Mu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"Aihua Zou\",\n        \"orcid\": null,\n        \"email\": \"aihuazou@ecust.edu.cn\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"The interactions between neutral polymer polyacrylamide (PAM) and the biosurfactant Surfactin and four betaines, N-dodecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (SDDAB), N-tetradecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (STDAB), N-hexadecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate (SHDAB), and N-dodecyl-N,N-dimethyl-2-ammonio-acetate (C12BE), in phosphate buffer solution (PBS) have been studied by surface tension measurements, small-angle neutron scattering (SANS), small-angle X-ray scattering (SAXS) and rheological experiments. It has been confirmed that the length of alkyl chain is a key parameter of interaction between betaines and PAM. Differences in scattering contrast between X-ray and neutrons for surfactants and PAM molecules provide the opportunity to follow separately the changes of structure of PAM and surfactant aggregates. At concentrations of betaines higher than CMC (critical micelle concentration) and C2 (CMC of surfactant with the presence of polymer), spherical micelles are formed in betaines and betaines/PAM solutions. Transition from spherical to rod-like aggregates (micelles) has been observed in solutions of Surfactin and Surfactin/SDDAB (αSurfactin = 0.67 (molar fraction)) with addition of 0.8 wt% of PAM. The conformation change of PAM molecules only can be observed for Surfactin/SDDAB/PAM system in PBS. Viscosity values follow the structural changes suggested from scattering measurements i.e., gradually increases for mixtures PAM → Surfactin/PAM → Surfactin/SDDAB/PAM in PBS.\",\n    \"keywords\": [],\n    \"doi\": \"10.1021/la405000x\",\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2014-05-12\",\n    \"venue\": \"Langmuir\",\n    \"publisher\": \"American Chemical Society\",\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Alexander von Humboldt Foundation\",\n        \"grant_id\": null\n      },\n      {\n        \"funder\": \"Chinese National Natural Science Foundation\",\n        \"grant_id\": \"201003047\"\n      },\n      {\n        \"funder\": \"Fundamental Research Funds for the Central Universities\",\n        \"grant_id\": null\n      },\n      {\n        \"funder\": \"European Commission\",\n        \"grant_id\": \"283883-NMI3\"\n      },\n      {\n        \"funder\": \"National Development Agency (NDA) of Hungary\",\n        \"grant_id\": \"KMR12-1-2012-0226\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1. Introduction\",\n      \"2. Materials and Methods\",\n      \"3. Results and Discussion\",\n      \"4. Conclusions\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Budapest Neutron Centre\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"PETRA III\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"PAM 0.8 wt%\",\n      \"sample_description\": \"Polyacrylamide solution in 10 mM PBS, pH 7.4.\",\n      \"chemical_composition\": \"PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"SDDAB/PAM\",\n      \"sample_description\": \"SDDAB mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"SDDAB/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"STDAB/PAM\",\n      \"sample_description\": \"STDAB mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"STDAB/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_4\",\n      \"sample_name\": \"SHDAB/PAM\",\n      \"sample_description\": \"SHDAB mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"SHDAB/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_5\",\n      \"sample_name\": \"C12BE/PAM\",\n      \"sample_description\": \"C12BE mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"C12BE/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_6\",\n      \"sample_name\": \"Surfactin/PAM\",\n      \"sample_description\": \"Surfactin mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"Surfactin/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_7\",\n      \"sample_name\": \"Surfactin/SDDAB/PAM\",\n      \"sample_description\": \"Surfactin/SDDAB mixture (αSurfactin=0.67) mixed with 0.8 wt% PAM in PBS.\",\n      \"chemical_composition\": \"Surfactin/SDDAB/PAM\",\n      \"sample_state\": \"solution\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"Surface Tension\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\",\n        \"sample_4\",\n        \"sample_5\",\n        \"sample_6\",\n        \"sample_7\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Surface tension measurements at 25 °C using a Wilhelmy small platinum plate to determine CAC, CMC, and C2 values.\",\n      \"measurement_technique\": \"surface tension\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"SANS\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\",\n        \"sample_4\",\n        \"sample_5\",\n        \"sample_6\",\n        \"sample_7\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Small-angle neutron scattering measurements on the Yellow Submarine instrument at the BNC in Budapest, Hungary, with q ranging from 0.09 to 3.1 nm-1 at 25 °C.\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"SAXS\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_6\",\n        \"sample_7\"\n      ],\n      \"facility_refs\": [\n        \"facility_2\"\n      ],\n      \"dataset_description\": \"Small-angle X-ray scattering experiments at the P12 BioSAXS beamline of EMBL at PETRA III, DESY, Hamburg, with q ranging from 0.1 to 4 nm-1 at 25 °C.\",\n      \"measurement_technique\": \"small-angle X-ray scattering\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_4\",\n      \"dataset_name\": \"Rheology\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_6\",\n        \"sample_7\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Steady-state shear viscosity measurements at 30 °C using a Couette geometry to determine flow curves.\",\n      \"measurement_technique\": \"rheology\",\n      \"measurement_mode\": [\n        \"ShearRateScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 86702,
+    "output_tokens": 3154,
+    "latency_ms": 51391.45
+  },
+  "warnings": []
+}

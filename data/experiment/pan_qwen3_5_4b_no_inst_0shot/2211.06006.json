@@ -1,0 +1,137 @@
+{
+  "document_id": "2211.06006",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "affiliation_1",
+          "label": "1",
+          "text": "Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany"
+        },
+        {
+          "id": "affiliation_2",
+          "label": "2",
+          "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany"
+        },
+        {
+          "id": "affiliation_3",
+          "label": "3",
+          "text": "Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany"
+        },
+        {
+          "id": "affiliation_4",
+          "label": "4",
+          "text": "Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Grace L. Causer",
+          "orcid": null,
+          "email": "grace.causer@tum.de",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Alfonso Chacon",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "André Heinemann",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Christian Pfleiderer",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "abstract": "Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2022-11-14",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)",
+          "grant_id": "TRR80"
+        },
+        {
+          "funder": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)",
+          "grant_id": "SPP 2137"
+        },
+        {
+          "funder": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)",
+          "grant_id": "MCQST"
+        },
+        {
+          "funder": "European Research Council (ERC)",
+          "grant_id": "291079"
+        },
+        {
+          "funder": "European Research Council (ERC)",
+          "grant_id": "788031"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Description of SANS Geometries",
+        "Long-Wavelength Magnetic Modulations",
+        "Experimental Results and Discussion",
+        "Conclusions",
+        "Acknowledgements",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [],
+    "samples": [],
+    "datasets": []
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"affiliation_1\",\n        \"label\": \"1\",\n        \"text\": \"Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"affiliation_2\",\n        \"label\": \"2\",\n        \"text\": \"Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany\"\n      },\n      {\n        \"id\": \"affiliation_3\",\n        \"label\": \"3\",\n        \"text\": \"Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"affiliation_4\",\n        \"label\": \"4\",\n        \"text\": \"Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Grace L. Causer\",\n        \"orcid\": null,\n        \"email\": \"grace.causer@tum.de\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Alfonso Chacon\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"André Heinemann\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Christian Pfleiderer\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\",\n          \"3\",\n          \"4\"\n        ]\n      }\n    ],\n    \"abstract\": \"Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2022-11-14\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)\",\n        \"grant_id\": \"TRR80\"\n      },\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)\",\n        \"grant_id\": \"SPP 2137\"\n      },\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)\",\n        \"grant_id\": \"MCQST\"\n      },\n      {\n        \"funder\": \"European Research Council (ERC)\",\n        \"grant_id\": \"291079\"\n      },\n      {\n        \"funder\": \"European Research Council (ERC)\",\n        \"grant_id\": \"788031\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Description of SANS Geometries\",\n      \"Long-Wavelength Magnetic Modulations\",\n      \"Experimental Results and Discussion\",\n      \"Conclusions\",\n      \"Acknowledgements\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [],\n  \"samples\": [],\n  \"datasets\": []\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_4b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 17623,
+    "output_tokens": 1172,
+    "latency_ms": 9742.03
+  },
+  "warnings": []
+}

@@ -1,0 +1,314 @@
+{
+  "document_id": "2202.11658",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "The honeycomb and hyperhoneycomb polymorphs of IrI3",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "a",
+          "text": "Department of Chemistry, Princeton University, Princeton, NJ 08544, United States"
+        },
+        {
+          "id": "aff2",
+          "label": "b",
+          "text": "Princeton Institute for the Science and Technology of Materials, Princeton University, Princeton, NJ 08544, United States"
+        },
+        {
+          "id": "aff3",
+          "label": "c",
+          "text": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, NJ 08854, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "Danrui Ni",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "Kasey P. Devlin",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "Guangming Cheng",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "Xin Gui",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "Weiwei Xie",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "Nan Yao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "Robert J. Cava",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        }
+      ],
+      "abstract": "The synthesis of IrI3 at high pressure in its layered honeycomb polymorph is reported. Its crystal structure is refined by single crystal X-ray diffraction. Faults in the honeycomb layer stacking are observed by single crystal diffraction, synchrotron powder diffraction, and transmission electron microscopy. A previously unreported “hyperhoneycomb” polymorph of IrI3 (-IrI3), is also described - Its structure in space group F _ddd_ is determined by single crystal XRD. Both materials are highly-resistive diamagnetic semiconductors, consistent with a low spin _d_[6] configuration for Ir(III). The two- and three-dimensional Ir arrays in these polymorphs of IrI3 are analogous to those found in the _α-_ and _β-_ polymorphs of Li2IrO3, although the Ir electron configurations are different.",
+      "keywords": [
+        "Iridium triiodide",
+        "Honeycomb structure",
+        "hyperhoneycomb structure",
+        "synchrotron diffraction",
+        "transmission electron microscopy",
+        "high pressure synthesis"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Gordon and Betty Moore foundation, EPiQS initiative",
+          "grant_id": "GBMF-9066"
+        },
+        {
+          "funder": "U.S. DOE-BES",
+          "grant_id": "DE-SC0022156"
+        },
+        {
+          "funder": "US Department of Energy, Office of Science, Office of Basic Energy Sciences",
+          "grant_id": "DE-AC02-06CH11357"
+        },
+        {
+          "funder": "National Science Foundation (NSF)-MRSEC program",
+          "grant_id": "DMR-2011750"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Abstract",
+        "Keywords",
+        "Introduction",
+        "Results and Discussion",
+        "Conclusion",
+        "Acknowledgements",
+        "Experimental",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "Beamline 11-BM at the Advanced Photon Source at Argonne National Laboratory"
+      },
+      {
+        "id": "fac2",
+        "name": "Princeton University’s Imaging and Analysis Center"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "α-IrI3",
+        "sample_description": "Monoclinic layered honeycomb structure IrI3 obtained by quench cooling from 700 or 800 °C.",
+        "chemical_composition": "IrI3",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared by a solid-state high pressure synthesis method from stoichiometric elemental iridium (Alfa Aesar 99.9%) and iodine (Alfa Aesar 99.99+%, resublimed for purification)"
+      },
+      {
+        "id": "sample2",
+        "sample_name": "β-IrI3",
+        "sample_description": "Orthorhombic IrI3 phase formed in high proportion by cooling at 50 °C/min from 800 °C, or either slowly cooling or quenching from 900 °C.",
+        "chemical_composition": "IrI3",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared by a solid-state high pressure synthesis method from stoichiometric elemental iridium (Alfa Aesar 99.9%) and iodine (Alfa Aesar 99.99+%, resublimed for purification)"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "Single Crystal X-ray Diffraction",
+        "sample_refs": [
+          "sample1",
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "SCXRD data collected on small crystals of α-IrI3 and β-IrI3 for crystal structure refinement.",
+        "measurement_technique": "Single Crystal X-ray Diffraction (SCXRD)",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset2",
+        "dataset_name": "Laboratory powder X-ray diffraction",
+        "sample_refs": [
+          "sample1",
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Laboratory PXRD patterns collected and Le Bail fitted for α-IrI3 and β-IrI3 samples.",
+        "measurement_technique": "Laboratory powder X-ray diffraction (PXRD)",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset3",
+        "dataset_name": "High-resolution synchrotron powder diffraction",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "High-resolution synchrotron powder diffraction data acquired for α-IrI3 showing asymmetric peak shapes characteristic of stacking faults.",
+        "measurement_technique": "high-resolution synchrotron powder diffraction",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset4",
+        "dataset_name": "Transmission electron microscopy",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac2"
+        ],
+        "dataset_description": "TEM imaging and atomic-resolution high-angle annular dark-field scanning transmission electron microscopy imaging performed to characterize stacking faults and atomic stacking in α-IrI3.",
+        "measurement_technique": "Transmission electron microscopy (TEM) imaging and atomic-resolution high-angle annular dark-field scanning transmission electron microscopy imaging",
+        "measurement_mode": [
+          "PositionScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset5",
+        "dataset_name": "Temperature-dependent Magnetization",
+        "sample_refs": [
+          "sample1",
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Temperature-dependent Magnetization (M) data collected from 1.8 to 300 K under an applied field of 0.1 Tesla.",
+        "measurement_technique": "Temperature-dependent Magnetization (M)",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset6",
+        "dataset_name": "Field-dependent magnetization",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Field-dependent magnetization measurements of polycrystalline α-IrI3 powder from -9 T to 9 T at two different temperatures.",
+        "measurement_technique": "field-dependent magnetization measurements",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset7",
+        "dataset_name": "Resistivity measurements",
+        "sample_refs": [
+          "sample1",
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Resistivity measured from 260 to 300 K on an as-made dense piece of α-IrI3 and from 270 to 300 K on an as-made dense sample dominated by β-IrI3.",
+        "measurement_technique": "Resistivity measurements",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset8",
+        "dataset_name": "Diffuse reflectance",
+        "sample_refs": [
+          "sample1",
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Diffuse reflectance data collected at ambient temperature on polycrystalline α- and β-IrI3-dominated samples and transferred to pseudo absorbance using Kubelka-Munk theory.",
+        "measurement_technique": "diffuse reflectance",
+        "measurement_mode": [
+          "WavelengthScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"The honeycomb and hyperhoneycomb polymorphs of IrI3\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"a\",\n        \"text\": \"Department of Chemistry, Princeton University, Princeton, NJ 08544, United States\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"b\",\n        \"text\": \"Princeton Institute for the Science and Technology of Materials, Princeton University, Princeton, NJ 08544, United States\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"c\",\n        \"text\": \"Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, NJ 08854, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"Danrui Ni\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"Kasey P. Devlin\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"Guangming Cheng\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"Xin Gui\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"Weiwei Xie\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff3\"\n        ]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"Nan Yao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"Robert J. Cava\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      }\n    ],\n    \"abstract\": \"The synthesis of IrI3 at high pressure in its layered honeycomb polymorph is reported. Its crystal structure is refined by single crystal X-ray diffraction. Faults in the honeycomb layer stacking are observed by single crystal diffraction, synchrotron powder diffraction, and transmission electron microscopy. A previously unreported “hyperhoneycomb” polymorph of IrI3 (-IrI3), is also described - Its structure in space group F _ddd_ is determined by single crystal XRD. Both materials are highly-resistive diamagnetic semiconductors, consistent with a low spin _d_[6] configuration for Ir(III). The two- and three-dimensional Ir arrays in these polymorphs of IrI3 are analogous to those found in the _α-_ and _β-_ polymorphs of Li2IrO3, although the Ir electron configurations are different.\",\n    \"keywords\": [\n      \"Iridium triiodide\",\n      \"Honeycomb structure\",\n      \"hyperhoneycomb structure\",\n      \"synchrotron diffraction\",\n      \"transmission electron microscopy\",\n      \"high pressure synthesis\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Gordon and Betty Moore foundation, EPiQS initiative\",\n        \"grant_id\": \"GBMF-9066\"\n      },\n      {\n        \"funder\": \"U.S. DOE-BES\",\n        \"grant_id\": \"DE-SC0022156\"\n      },\n      {\n        \"funder\": \"US Department of Energy, Office of Science, Office of Basic Energy Sciences\",\n        \"grant_id\": \"DE-AC02-06CH11357\"\n      },\n      {\n        \"funder\": \"National Science Foundation (NSF)-MRSEC program\",\n        \"grant_id\": \"DMR-2011750\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Abstract\",\n      \"Keywords\",\n      \"Introduction\",\n      \"Results and Discussion\",\n      \"Conclusion\",\n      \"Acknowledgements\",\n      \"Experimental\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"Beamline 11-BM at the Advanced Photon Source at Argonne National Laboratory\"\n    },\n    {\n      \"id\": \"fac2\",\n      \"name\": \"Princeton University’s Imaging and Analysis Center\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"α-IrI3\",\n      \"sample_description\": \"Monoclinic layered honeycomb structure IrI3 obtained by quench cooling from 700 or 800 °C.\",\n      \"chemical_composition\": \"IrI3\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared by a solid-state high pressure synthesis method from stoichiometric elemental iridium (Alfa Aesar 99.9%) and iodine (Alfa Aesar 99.99+%, resublimed for purification)\"\n    },\n    {\n      \"id\": \"sample2\",\n      \"sample_name\": \"β-IrI3\",\n      \"sample_description\": \"Orthorhombic IrI3 phase formed in high proportion by cooling at 50 °C/min from 800 °C, or either slowly cooling or quenching from 900 °C.\",\n      \"chemical_composition\": \"IrI3\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared by a solid-state high pressure synthesis method from stoichiometric elemental iridium (Alfa Aesar 99.9%) and iodine (Alfa Aesar 99.99+%, resublimed for purification)\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"Single Crystal X-ray Diffraction\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"SCXRD data collected on small crystals of α-IrI3 and β-IrI3 for crystal structure refinement.\",\n      \"measurement_technique\": \"Single Crystal X-ray Diffraction (SCXRD)\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset2\",\n      \"dataset_name\": \"Laboratory powder X-ray diffraction\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Laboratory PXRD patterns collected and Le Bail fitted for α-IrI3 and β-IrI3 samples.\",\n      \"measurement_technique\": \"Laboratory powder X-ray diffraction (PXRD)\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset3\",\n      \"dataset_name\": \"High-resolution synchrotron powder diffraction\",\n      \"sample_refs\": [\n        \"sample1\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"High-resolution synchrotron powder diffraction data acquired for α-IrI3 showing asymmetric peak shapes characteristic of stacking faults.\",\n      \"measurement_technique\": \"high-resolution synchrotron powder diffraction\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset4\",\n      \"dataset_name\": \"Transmission electron microscopy\",\n      \"sample_refs\": [\n        \"sample1\"\n      ],\n      \"facility_refs\": [\n        \"fac2\"\n      ],\n      \"dataset_description\": \"TEM imaging and atomic-resolution high-angle annular dark-field scanning transmission electron microscopy imaging performed to characterize stacking faults and atomic stacking in α-IrI3.\",\n      \"measurement_technique\": \"Transmission electron microscopy (TEM) imaging and atomic-resolution high-angle annular dark-field scanning transmission electron microscopy imaging\",\n      \"measurement_mode\": [\n        \"PositionScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset5\",\n      \"dataset_name\": \"Temperature-dependent Magnetization\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Temperature-dependent Magnetization (M) data collected from 1.8 to 300 K under an applied field of 0.1 Tesla.\",\n      \"measurement_technique\": \"Temperature-dependent Magnetization (M)\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset6\",\n      \"dataset_name\": \"Field-dependent magnetization\",\n      \"sample_refs\": [\n        \"sample1\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Field-dependent magnetization measurements of polycrystalline α-IrI3 powder from -9 T to 9 T at two different temperatures.\",\n      \"measurement_technique\": \"field-dependent magnetization measurements\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset7\",\n      \"dataset_name\": \"Resistivity measurements\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Resistivity measured from 260 to 300 K on an as-made dense piece of α-IrI3 and from 270 to 300 K on an as-made dense sample dominated by β-IrI3.\",\n      \"measurement_technique\": \"Resistivity measurements\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset8\",\n      \"dataset_name\": \"Diffuse reflectance\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Diffuse reflectance data collected at ambient temperature on polycrystalline α- and β-IrI3-dominated samples and transferred to pseudo absorbance using Kubelka-Munk theory.\",\n      \"measurement_technique\": \"diffuse reflectance\",\n      \"measurement_mode\": [\n        \"WavelengthScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 12200,
+    "output_tokens": 2447,
+    "latency_ms": 24568.37
+  },
+  "warnings": []
+}

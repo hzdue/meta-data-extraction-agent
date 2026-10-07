@@ -1,0 +1,171 @@
+{
+  "document_id": "2001.02706",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Magnetic correlations in the disordered ferromagnetic alloy Ni-V revealed with small angle neutron scattering",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Department of Physics, Kent State University, Kent OH 44242, USA"
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "National Institute of Standards and Technologies, NIST Center of Neutron Research, Gaithersburg MD 20899, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "A. Schroeder",
+          "orcid": null,
+          "email": "aschroe2@kent.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "S. Bhattarai",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "A. Gebretsadik",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "H. Adawi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "J.-G. Lussier",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "K. L. Krycka",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        }
+      ],
+      "abstract": "We present small angle neutron scattering (SANS) data collected on polycrystalline Ni1−xVx samples with x ≥ 0.10 with confirmed random atomic distribution. We aim to determine the relevant length scales of magnetic correlations in ferromagnetic samples with low critical temperatures Tc that show signs of magnetic inhomogeneities in magnetization and µSR data. The SANS study reveals signatures of long-range order and coexistence of short-range magnetic correlations in this randomly disordered ferromagnetic alloy. We show the advantages of a polarization analysis in identifying the main magnetic contributions from the dominating nuclear scattering.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2020-01-10",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Gordon and Betty Moore Foundation",
+          "grant_id": "GBMF5305"
+        },
+        {
+          "funder": "DOE Office of Science",
+          "grant_id": null
+        },
+        {
+          "funder": "National Science Foundation",
+          "grant_id": "DMR-1508249"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Experimental Methods",
+        "Results and Discussion",
+        "Conclusion"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "GPSANS, HFIR, Oak Ridge National Lab"
+      },
+      {
+        "id": "fac2",
+        "name": "NG7SANS, NCNR, NIST"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "Ni0.90V0.10",
+        "sample_description": "Polycrystalline sample with random atomic distribution",
+        "chemical_composition": "Ni0.90V0.10",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "SANS data for Ni0.90V0.10",
+        "sample_refs": [
+          "sample1"
+        ],
+        "facility_refs": [
+          "fac1",
+          "fac2"
+        ],
+        "dataset_description": "SANS data collected to measure magnetic cluster sizes and their effect on static order in Ni0.90V0.10.",
+        "measurement_technique": "Small Angle Neutron Scattering (SANS)",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Magnetic correlations in the disordered ferromagnetic alloy Ni-V revealed with small angle neutron scattering\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, Kent State University, Kent OH 44242, USA\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"National Institute of Standards and Technologies, NIST Center of Neutron Research, Gaithersburg MD 20899, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"A. Schroeder\",\n        \"orcid\": null,\n        \"email\": \"aschroe2@kent.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"S. Bhattarai\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"A. Gebretsadik\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"H. Adawi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"J.-G. Lussier\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"K. L. Krycka\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      }\n    ],\n    \"abstract\": \"We present small angle neutron scattering (SANS) data collected on polycrystalline Ni1−xVx samples with x ≥ 0.10 with confirmed random atomic distribution. We aim to determine the relevant length scales of magnetic correlations in ferromagnetic samples with low critical temperatures Tc that show signs of magnetic inhomogeneities in magnetization and µSR data. The SANS study reveals signatures of long-range order and coexistence of short-range magnetic correlations in this randomly disordered ferromagnetic alloy. We show the advantages of a polarization analysis in identifying the main magnetic contributions from the dominating nuclear scattering.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2020-01-10\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Gordon and Betty Moore Foundation\",\n        \"grant_id\": \"GBMF5305\"\n      },\n      {\n        \"funder\": \"DOE Office of Science\",\n        \"grant_id\": null\n      },\n      {\n        \"funder\": \"National Science Foundation\",\n        \"grant_id\": \"DMR-1508249\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Experimental Methods\",\n      \"Results and Discussion\",\n      \"Conclusion\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"GPSANS, HFIR, Oak Ridge National Lab\"\n    },\n    {\n      \"id\": \"fac2\",\n      \"name\": \"NG7SANS, NCNR, NIST\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"Ni0.90V0.10\",\n      \"sample_description\": \"Polycrystalline sample with random atomic distribution\",\n      \"chemical_composition\": \"Ni0.90V0.10\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"SANS data for Ni0.90V0.10\",\n      \"sample_refs\": [\"sample1\"],\n      \"facility_refs\": [\"fac1\", \"fac2\"],\n      \"dataset_description\": \"SANS data collected to measure magnetic cluster sizes and their effect on static order in Ni0.90V0.10.\",\n      \"measurement_technique\": \"Small Angle Neutron Scattering (SANS)\",\n      \"measurement_mode\": [\"TemperatureScan\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt4o_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 8994,
+    "output_tokens": 1095,
+    "latency_ms": 4538.78
+  },
+  "warnings": []
+}

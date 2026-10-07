@@ -1,0 +1,292 @@
+{
+  "document_id": "1907.00342",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "The X-ray photoelectron and Co K-Edge absorption spectra of Ba2CoWO6",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Department of Physics, T.M. Bhagalpur University, Bhagalpur-812007, Bihar"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Variable Energy Cyclotron Center (VECC), DAE, 1/AF Bidhannagar, Kolkata, India 700064"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Homi Bhabha National Institute, Mumbai, India 400094"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "UGC-DAE-CSR, Indore-Madhya Pradesh-452017, India"
+        },
+        {
+          "id": "aff_5",
+          "label": "5",
+          "text": "Department of Physics, NIT Jamshedpur, Jamshedpur, India"
+        },
+        {
+          "id": "aff_6",
+          "label": "6",
+          "text": "Bhabha Atomic Research Center (BARC), Trombay, Mumbai, India 400085"
+        },
+        {
+          "id": "aff_7",
+          "label": "7",
+          "text": "S N Bose Institute, Kolkata, India -700106"
+        },
+        {
+          "id": "aff_8",
+          "label": "8",
+          "text": "Bose Institute, 93/1, APC Road, Kolkata, India 700009"
+        },
+        {
+          "id": "aff_9",
+          "label": "9",
+          "text": "IFW Dresden, Helmholtzstr. 20, 01069 Dresden, Germany"
+        },
+        {
+          "id": "aff_10",
+          "label": "10",
+          "text": "Dresden Center for Computational Materials Science (DCMS), TU Dresden, 01062 Dresden, Germany"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Dhiraj Jha",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "A. K. Himanshu",
+          "orcid": null,
+          "email": "akhimanshu@gmail.com",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_2",
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Bijay K Singh",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Dinesh Shukla",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Uday Kuma",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_5"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Ravi Kumar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Kaustava Bhattacharyya",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "A. B. Shinde",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_9",
+          "full_name": "P. S. R. Krishna",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_10",
+          "full_name": "Alo Dutta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_7"
+          ]
+        },
+        {
+          "id": "author_11",
+          "full_name": "T. P. Sinha",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_8"
+          ]
+        },
+        {
+          "id": "author_12",
+          "full_name": "Rajyavardhan Ray",
+          "orcid": null,
+          "email": "r.ray@ifw-dresden.de",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_9",
+            "aff_10"
+          ]
+        }
+      ],
+      "abstract": "The structural and electronic properties of cubic double perovskite BaCoWO6 have been investigated using the X- ray photoelectron spectroscopy (XPS) and X-ray absorption spectroscopy (XAS) . While Extended X-ray Absorption Fine structure (EXAFS)  studies provide structural information regarding the local environment of Co in Ba2CoWO6, the combined XPS and Co-K edge XAS spectra of Ba2CoWO6 (using Co-foil as a reference) elucidate the electronic properties. We find that the oxidation states for Co, Ba and W can be unambiguously assigned to +2, +2 and +6, respectively.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Methods",
+        "Results and discussion",
+        "A. X-ray photoelectron spectroscopy (XPS):",
+        "B. Extended X-ray Absorption fine  Structure (EXAFS):"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Indus-2 Synchrotron Source"
+      },
+      {
+        "id": "facility_2",
+        "name": "Raja Ramanna Centre for Advanced Technology (RRCAT)"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Ba2CoWO6",
+        "sample_description": "Cubic double perovskite synthesized using solid state reactions with stoichiometric mixtures of BaCO3, CoO and WO3 heated at 1200 °C for eight hours.",
+        "chemical_composition": "Ba2CoWO6",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "X-ray photoelectron spectroscopy (XPS)",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "XPS spectra of Ba2CoWO6 in the energy window of 0–900 eV, including core level spectra of Co 2p, Ba 3d, and W 4f states.",
+        "measurement_technique": "X-ray photoelectron spectroscopy",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "X-ray absorption spectroscopy (XAS)",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "Co K-edge XAS measurements of Ba2CoWO6 in both transmission and fluorescence modes, including EXAFS data analysis.",
+        "measurement_technique": "X-ray absorption spectroscopy",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "Extended X-ray Absorption Fine Structure (EXAFS)",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "EXAFS data analysis of Ba2CoWO6 at Co K-edge to determine local structure and coordination environments.",
+        "measurement_technique": "Extended X-ray Absorption Fine Structure",
+        "measurement_mode": [
+          "EnergyScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"The X-ray photoelectron and Co K-Edge absorption spectra of Ba2CoWO6\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, T.M. Bhagalpur University, Bhagalpur-812007, Bihar\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Variable Energy Cyclotron Center (VECC), DAE, 1/AF Bidhannagar, Kolkata, India 700064\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Homi Bhabha National Institute, Mumbai, India 400094\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"UGC-DAE-CSR, Indore-Madhya Pradesh-452017, India\"\n      },\n      {\n        \"id\": \"aff_5\",\n        \"label\": \"5\",\n        \"text\": \"Department of Physics, NIT Jamshedpur, Jamshedpur, India\"\n      },\n      {\n        \"id\": \"aff_6\",\n        \"label\": \"6\",\n        \"text\": \"Bhabha Atomic Research Center (BARC), Trombay, Mumbai, India 400085\"\n      },\n      {\n        \"id\": \"aff_7\",\n        \"label\": \"7\",\n        \"text\": \"S N Bose Institute, Kolkata, India -700106\"\n      },\n      {\n        \"id\": \"aff_8\",\n        \"label\": \"8\",\n        \"text\": \"Bose Institute, 93/1, APC Road, Kolkata, India 700009\"\n      },\n      {\n        \"id\": \"aff_9\",\n        \"label\": \"9\",\n        \"text\": \"IFW Dresden, Helmholtzstr. 20, 01069 Dresden, Germany\"\n      },\n      {\n        \"id\": \"aff_10\",\n        \"label\": \"10\",\n        \"text\": \"Dresden Center for Computational Materials Science (DCMS), TU Dresden, 01062 Dresden, Germany\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Dhiraj Jha\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_1\"]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"A. K. Himanshu\",\n        \"orcid\": null,\n        \"email\": \"akhimanshu@gmail.com\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_2\", \"aff_3\"]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Bijay K Singh\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_1\"]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Dinesh Shukla\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_4\"]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Uday Kuma\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_5\"]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Ravi Kumar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_6\"]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Kaustava Bhattacharyya\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_6\"]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"A. B. Shinde\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_6\"]\n      },\n      {\n        \"id\": \"author_9\",\n        \"full_name\": \"P. S. R. Krishna\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_6\"]\n      },\n      {\n        \"id\": \"author_10\",\n        \"full_name\": \"Alo Dutta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_7\"]\n      },\n      {\n        \"id\": \"author_11\",\n        \"full_name\": \"T. P. Sinha\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_8\"]\n      },\n      {\n        \"id\": \"author_12\",\n        \"full_name\": \"Rajyavardhan Ray\",\n        \"orcid\": null,\n        \"email\": \"r.ray@ifw-dresden.de\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_9\", \"aff_10\"]\n      }\n    ],\n    \"abstract\": \"The structural and electronic properties of cubic double perovskite BaCoWO6 have been investigated using the X- ray photoelectron spectroscopy (XPS) and X-ray absorption spectroscopy (XAS) . While Extended X-ray Absorption Fine structure (EXAFS)  studies provide structural information regarding the local environment of Co in Ba2CoWO6, the combined XPS and Co-K edge XAS spectra of Ba2CoWO6 (using Co-foil as a reference) elucidate the electronic properties. We find that the oxidation states for Co, Ba and W can be unambiguously assigned to +2, +2 and +6, respectively.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Methods\",\n      \"Results and discussion\",\n      \"A. X-ray photoelectron spectroscopy (XPS):\",\n      \"B. Extended X-ray Absorption fine  Structure (EXAFS):\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Indus-2 Synchrotron Source\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"Raja Ramanna Centre for Advanced Technology (RRCAT)\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Ba2CoWO6\",\n      \"sample_description\": \"Cubic double perovskite synthesized using solid state reactions with stoichiometric mixtures of BaCO3, CoO and WO3 heated at 1200 °C for eight hours.\",\n      \"chemical_composition\": \"Ba2CoWO6\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"X-ray photoelectron spectroscopy (XPS)\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"XPS spectra of Ba2CoWO6 in the energy window of 0–900 eV, including core level spectra of Co 2p, Ba 3d, and W 4f states.\",\n      \"measurement_technique\": \"X-ray photoelectron spectroscopy\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"X-ray absorption spectroscopy (XAS)\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"Co K-edge XAS measurements of Ba2CoWO6 in both transmission and fluorescence modes, including EXAFS data analysis.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy\",\n      \"measurement_mode\": [\"EnergyScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"Extended X-ray Absorption Fine Structure (EXAFS)\",\n      \"sample_refs\": [\"sample_1\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"EXAFS data analysis of Ba2CoWO6 at Co K-edge to determine local structure and coordination environments.\",\n      \"measurement_technique\": \"Extended X-ray Absorption Fine Structure\",\n      \"measurement_mode\": [\"EnergyScan\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_mistral_large3_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 13602,
+    "output_tokens": 2156,
+    "latency_ms": 40071.25
+  },
+  "warnings": []
+}

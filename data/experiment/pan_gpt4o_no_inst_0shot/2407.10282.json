@@ -1,0 +1,239 @@
+{
+  "document_id": "2407.10282",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "High-speed synchrotron X-ray imaging of melt pool dynamics during ultrasonic melt processing",
+      "subtitle": "of Al6061",
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Engineering Science and Mechanics, The Pennsylvania State University, 212 Earth and Engineering Sciences Building, University Park, 16802, PA, USA."
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Materials Science and Engineering, University of Virginia, Wilsdorf Hall, 395 McCormick Road, Charlottesville, 22904, Virginia, USA."
+        },
+        {
+          "id": "aff3",
+          "label": "3",
+          "text": "X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, IL, 60439, USA."
+        },
+        {
+          "id": "aff4",
+          "label": "4",
+          "text": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, CA, USA."
+        },
+        {
+          "id": "aff5",
+          "label": "5",
+          "text": "Applied Research Laboratory, The Pennsylvania State University, 230 Innovation Blvd, University Park, 16802, PA, USA."
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "Lovejoy Mutswatiwa",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "Lauren Katch",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "Nathan John Kizer",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "Judith Anne Todd",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "Tao Sun",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "Samuel James Clark",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "Kamel Fezzaa",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth8",
+          "full_name": "Jordan Lum",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff4"
+          ]
+        },
+        {
+          "id": "auth9",
+          "full_name": "David Matthew Stobbe",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff4"
+          ]
+        },
+        {
+          "id": "auth10",
+          "full_name": "Griffin Jones",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff5"
+          ]
+        },
+        {
+          "id": "auth11",
+          "full_name": "Kenneth Charles Meinert Jr.",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff5"
+          ]
+        },
+        {
+          "id": "auth12",
+          "full_name": "Andrea Paola Argüelles",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth13",
+          "full_name": "Christopher Micheal Kube",
+          "orcid": null,
+          "email": "kube@psu.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        }
+      ],
+      "abstract": "Ultrasonic processing of solidifying metals in additive manufacturing can provide grain refinement and advantageous mechanical properties. However, the specific physical mechanisms of microstructural refinement relevant to laser-based additive manufacturing have not been directly observed because of sub-millimeter length scales and rapid solidification rates associated with melt pools. Here, high-speed synchrotron X-ray imaging is used to observe the effect of ultrasonic vibration directly on melt pool dynamics and solidification of Al6061 alloy. The high temporal and spatial resolution enabled direct observation of cavitation effects driven by a 20.2 kHz ultrasonic source. We utilized multiphysics simulations to validate the postulated connection between ultrasonic treatment and solidification. The X-ray results show a decrease in melt pool and keyhole depth fluctuations during melting and promotion of pore migration toward the melt pool surface with applied sonication. Additionally, the simulation results reveal increased localized melt pool flow velocity, cooling rates, and thermal gradients with applied sonication. This work shows how ultrasonic treatment can impact melt pools and its potential for improving part quality.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": null,
+      "funding": [
+        {
+          "funder": "U.S. Department of Energy (DOE)",
+          "grant_id": "DE-AC02-06CH11357"
+        },
+        {
+          "funder": "Lawrence Livermore National Laboratory",
+          "grant_id": "DE-AC52-07NA27344"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Abstract",
+        "Introduction",
+        "Results",
+        "Influence of ultrasonic treatment on melt pool geometry and dynamics",
+        "Multiphysics modeling of melt pool dynamics and solidification in ultrasound-assisted AM",
+        "Discussion",
+        "Methods",
+        "Acknowledgments",
+        "Author contributions",
+        "Data availability",
+        "Competing interests",
+        "Additional Information",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "Advanced Photon Source, Argonne National Laboratory"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "Al6061",
+        "sample_description": "Al6061 alloy samples with a length of 20 mm, a height of 12 mm, and a thickness of 1.5 mm.",
+        "chemical_composition": null,
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": []
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"High-speed synchrotron X-ray imaging of melt pool dynamics during ultrasonic melt processing\",\n    \"subtitle\": \"of Al6061\",\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Engineering Science and Mechanics, The Pennsylvania State University, 212 Earth and Engineering Sciences Building, University Park, 16802, PA, USA.\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Materials Science and Engineering, University of Virginia, Wilsdorf Hall, 395 McCormick Road, Charlottesville, 22904, Virginia, USA.\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"3\",\n        \"text\": \"X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, IL, 60439, USA.\"\n      },\n      {\n        \"id\": \"aff4\",\n        \"label\": \"4\",\n        \"text\": \"Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, CA, USA.\"\n      },\n      {\n        \"id\": \"aff5\",\n        \"label\": \"5\",\n        \"text\": \"Applied Research Laboratory, The Pennsylvania State University, 230 Innovation Blvd, University Park, 16802, PA, USA.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"Lovejoy Mutswatiwa\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"Lauren Katch\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"Nathan John Kizer\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"Judith Anne Todd\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"Tao Sun\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff2\"]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"Samuel James Clark\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff3\"]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"Kamel Fezzaa\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff3\"]\n      },\n      {\n        \"id\": \"auth8\",\n        \"full_name\": \"Jordan Lum\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff4\"]\n      },\n      {\n        \"id\": \"auth9\",\n        \"full_name\": \"David Matthew Stobbe\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff4\"]\n      },\n      {\n        \"id\": \"auth10\",\n        \"full_name\": \"Griffin Jones\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff5\"]\n      },\n      {\n        \"id\": \"auth11\",\n        \"full_name\": \"Kenneth Charles Meinert Jr.\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff5\"]\n      },\n      {\n        \"id\": \"auth12\",\n        \"full_name\": \"Andrea Paola Argüelles\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff1\"]\n      },\n      {\n        \"id\": \"auth13\",\n        \"full_name\": \"Christopher Micheal Kube\",\n        \"orcid\": null,\n        \"email\": \"kube@psu.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff1\"]\n      }\n    ],\n    \"abstract\": \"Ultrasonic processing of solidifying metals in additive manufacturing can provide grain refinement and advantageous mechanical properties. However, the specific physical mechanisms of microstructural refinement relevant to laser-based additive manufacturing have not been directly observed because of sub-millimeter length scales and rapid solidification rates associated with melt pools. Here, high-speed synchrotron X-ray imaging is used to observe the effect of ultrasonic vibration directly on melt pool dynamics and solidification of Al6061 alloy. The high temporal and spatial resolution enabled direct observation of cavitation effects driven by a 20.2 kHz ultrasonic source. We utilized multiphysics simulations to validate the postulated connection between ultrasonic treatment and solidification. The X-ray results show a decrease in melt pool and keyhole depth fluctuations during melting and promotion of pore migration toward the melt pool surface with applied sonication. Additionally, the simulation results reveal increased localized melt pool flow velocity, cooling rates, and thermal gradients with applied sonication. This work shows how ultrasonic treatment can impact melt pools and its potential for improving part quality.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": null,\n    \"funding\": [\n      {\n        \"funder\": \"U.S. Department of Energy (DOE)\",\n        \"grant_id\": \"DE-AC02-06CH11357\"\n      },\n      {\n        \"funder\": \"Lawrence Livermore National Laboratory\",\n        \"grant_id\": \"DE-AC52-07NA27344\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Abstract\",\n      \"Introduction\",\n      \"Results\",\n      \"Influence of ultrasonic treatment on melt pool geometry and dynamics\",\n      \"Multiphysics modeling of melt pool dynamics and solidification in ultrasound-assisted AM\",\n      \"Discussion\",\n      \"Methods\",\n      \"Acknowledgments\",\n      \"Author contributions\",\n      \"Data availability\",\n      \"Competing interests\",\n      \"Additional Information\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"Advanced Photon Source, Argonne National Laboratory\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"Al6061\",\n      \"sample_description\": \"Al6061 alloy samples with a length of 20 mm, a height of 12 mm, and a thickness of 1.5 mm.\",\n      \"chemical_composition\": null,\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": []\n}",
+  "provenance": {
+    "config_name": "pan_gpt4o_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 16891,
+    "output_tokens": 1639,
+    "latency_ms": 8292.61
+  },
+  "warnings": []
+}

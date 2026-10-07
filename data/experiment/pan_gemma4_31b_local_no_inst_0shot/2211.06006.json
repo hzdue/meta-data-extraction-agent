@@ -1,0 +1,206 @@
+{
+  "document_id": "2211.06006",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany."
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth_1",
+          "full_name": "Grace L. Causer",
+          "orcid": null,
+          "email": "grace.causer@tum.de",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "auth_2",
+          "full_name": "Alfonso Chacon",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "auth_3",
+          "full_name": "Andr´e Heinemann",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "auth_4",
+          "full_name": "Christian Pfleiderer",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_3",
+            "aff_4"
+          ]
+        }
+      ],
+      "abstract": "Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "November 14, 2022",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)",
+          "grant_id": "TRR80 (Project No. 107745057, Project F7)"
+        },
+        {
+          "funder": "Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)",
+          "grant_id": "SPP 2137 (grant PF393/19, project-id 403191981)"
+        },
+        {
+          "funder": "excellence cluster MCQST",
+          "grant_id": "EXC-2111 (Project No. 390814868)"
+        },
+        {
+          "funder": "European Research Council (ERC)",
+          "grant_id": "Advanced Grants No. 291079 (TOPFIT)"
+        },
+        {
+          "funder": "European Research Council (ERC)",
+          "grant_id": "Advanced Grants No. 788031 (ExQuiSid)"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1 Introduction",
+        "2 Description of SANS Geometries",
+        "2.1 Transmission SANS",
+        "2.2 Near-Surface SANS",
+        "2.3 Grazing-Incidence SANS",
+        "3 Long-Wavelength Magnetic Modulations",
+        "3.1 Magnetic Phases of B20 MnSi",
+        "3.2 Equations of Long-Wavelength Magnetic Order",
+        "3.2.1 Helical Order",
+        "3.2.2 Conical Order",
+        "3.2.3 Skyrmion Lattice Order",
+        "4 Experimental Results and Discussion",
+        "4.1 Experimental Neutron Scattering Patterns",
+        "4.2 Calculated Neutron Scattering Patterns of a Thin Film",
+        "5 Conclusions",
+        "6 Acknowledgements",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "fac_1",
+        "name": "SANS-1 beamline at the FRM II, Munich"
+      }
+    ],
+    "samples": [
+      {
+        "id": "samp_1",
+        "sample_name": "MnSi single crystal",
+        "sample_description": "high-quality MnSi single crystal prepared by the Czochralski method, polished mirror-flat into the shape of a disk",
+        "chemical_composition": "MnSi",
+        "sample_state": "bulk single crystal",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "samp_2",
+        "sample_name": "MnSi thin film (calculated)",
+        "sample_description": "single-domain sample of MnSi exhibiting a bulk helical wavelength of 180 A[˚] and a thickness of 1000 A[˚] along the z-axis",
+        "chemical_composition": "MnSi",
+        "sample_state": "thin film",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ds_1",
+        "dataset_name": "Transmission SANS MnSi",
+        "sample_refs": [
+          "samp_1"
+        ],
+        "facility_refs": [
+          "fac_1"
+        ],
+        "dataset_description": "Neutrons transmitted through a high-quality MnSi single crystal in helical, conical, skyrmion, and fluctuation-disordered phases.",
+        "measurement_technique": "transmission SANS",
+        "measurement_mode": [
+          "TemperatureScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "ds_2",
+        "dataset_name": "Near-Surface SANS MnSi",
+        "sample_refs": [
+          "samp_1"
+        ],
+        "facility_refs": [
+          "fac_1"
+        ],
+        "dataset_description": "Neutrons reflected from the surface of a high-quality MnSi single crystal at an incidence angle of αi = 0.3.",
+        "measurement_technique": "near-surface SANS",
+        "measurement_mode": [
+          "TemperatureScan",
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Small-angle neutron scattering of long-wavelength magnetic modulations in reduced sample dimensions\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Physik-Department, Technical University of Munich, James-Franck-Straße 1, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Heinz Maier-Leibnitz Zentrum (MLZ), Technical University of Munich, Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Centre for QuantumEngineering (ZQE), Technical University of Munich, D-85748 Garching, Germany\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Munich Center for Quantum Science and Technology (MCQST), Technical University of Munich, D-85748 Garching, Germany.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth_1\",\n        \"full_name\": \"Grace L. Causer\",\n        \"orcid\": null,\n        \"email\": \"grace.causer@tum.de\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"auth_2\",\n        \"full_name\": \"Alfonso Chacon\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"auth_3\",\n        \"full_name\": \"Andr´e Heinemann\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"auth_4\",\n        \"full_name\": \"Christian Pfleiderer\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_3\",\n          \"aff_4\"\n        ]\n      }\n    ],\n    \"abstract\": \"Magnetic small-angle neutron scattering (SANS) is ideally suited to provide direct, reciprocal-space information of long-wavelength magnetic modulations, such as helicoids, solitons, merons, or skyrmions. SANS of such structures in thin films or micro-structured bulk materials is strongly limited by the tiny scattering volume vis a vis the prohibitively large background scattering by the substrate and support structures. Considering near-surface scattering closely above the critical angle of reflection, where unwanted signal contributions due to substrate or support structures becomes very small, we establish equivalent scattering patterns of the helical, conical, skyrmion lattice, and fluctuation-disordered phases in a polished bulk sample of MnSi between conventional transmission and near-surface SANS geometries. This motivates the prediction of a complete repository of scattering patterns expected for thin films in the near-surface SANS geometry for each orientation of the magnetic order with respect to the scattering plane.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"November 14, 2022\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)\",\n        \"grant_id\": \"TRR80 (Project No. 107745057, Project F7)\"\n      },\n      {\n        \"funder\": \"Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)\",\n        \"grant_id\": \"SPP 2137 (grant PF393/19, project-id 403191981)\"\n      },\n      {\n        \"funder\": \"excellence cluster MCQST\",\n        \"grant_id\": \"EXC-2111 (Project No. 390814868)\"\n      },\n      {\n        \"funder\": \"European Research Council (ERC)\",\n        \"grant_id\": \"Advanced Grants No. 291079 (TOPFIT)\"\n      },\n      {\n        \"funder\": \"European Research Council (ERC)\",\n        \"grant_id\": \"Advanced Grants No. 788031 (ExQuiSid)\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1 Introduction\",\n      \"2 Description of SANS Geometries\",\n      \"2.1 Transmission SANS\",\n      \"2.2 Near-Surface SANS\",\n      \"2.3 Grazing-Incidence SANS\",\n      \"3 Long-Wavelength Magnetic Modulations\",\n      \"3.1 Magnetic Phases of B20 MnSi\",\n      \"3.2 Equations of Long-Wavelength Magnetic Order\",\n      \"3.2.1 Helical Order\",\n      \"3.2.2 Conical Order\",\n      \"3.2.3 Skyrmion Lattice Order\",\n      \"4 Experimental Results and Discussion\",\n      \"4.1 Experimental Neutron Scattering Patterns\",\n      \"4.2 Calculated Neutron Scattering Patterns of a Thin Film\",\n      \"5 Conclusions\",\n      \"6 Acknowledgements\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac_1\",\n      \"name\": \"SANS-1 beamline at the FRM II, Munich\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"samp_1\",\n      \"sample_name\": \"MnSi single crystal\",\n      \"sample_description\": \"high-quality MnSi single crystal prepared by the Czochralski method, polished mirror-flat into the shape of a disk\",\n      \"chemical_composition\": \"MnSi\",\n      \"sample_state\": \"bulk single crystal\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    },\n    {\n      \"id\": \"samp_2\",\n      \"sample_name\": \"MnSi thin film (calculated)\",\n      \"sample_description\": \"single-domain sample of MnSi exhibiting a bulk helical wavelength of 180 A[˚] and a thickness of 1000 A[˚] along the z-axis\",\n      \"chemical_composition\": \"MnSi\",\n      \"sample_state\": \"thin film\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"ds_1\",\n      \"dataset_name\": \"Transmission SANS MnSi\",\n      \"sample_refs\": [\n        \"samp_1\"\n      ],\n      \"facility_refs\": [\n        \"fac_1\"\n      ],\n      \"dataset_description\": \"Neutrons transmitted through a high-quality MnSi single crystal in helical, conical, skyrmion, and fluctuation-disordered phases.\",\n      \"measurement_technique\": \"transmission SANS\",\n      \"measurement_mode\": [\n        \"TemperatureScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"ds_2\",\n      \"dataset_name\": \"Near-Surface SANS MnSi\",\n      \"sample_refs\": [\n        \"samp_1\"\n      ],\n      \"facility_refs\": [\n        \"fac_1\"\n      ],\n      \"dataset_description\": \"Neutrons reflected from the surface of a high-quality MnSi single crystal at an incidence angle of αi = 0.3.\",\n      \"measurement_technique\": \"near-surface SANS\",\n      \"measurement_mode\": [\n        \"TemperatureScan\",\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 17520,
+    "output_tokens": 1946,
+    "latency_ms": 98333.14
+  },
+  "warnings": []
+}

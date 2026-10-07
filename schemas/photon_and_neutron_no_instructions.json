@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "schema_name": "photon_and_neutron_metadata",
+    "schema_version": "1.1.0",
+    "extends": "generic_scientific_document_core_metadata",
+    "description": "Domain-specific field-definition schema for metadata from scientific documents in the photon and neutron (PaN) science domain. Extends the generic core schema with PaN-specific fields that are plausibly extractable from scientific publications. [variant: instructions removed by scripts/strip_instructions.py]",
+    "design_principles": [
+      "Follows the DAPHNE4NFDI classification for field selection where appropriate for publication-extractable metadata.",
+      "Bibliographic and document-structure fields already covered by the generic schema are not repeated.",
+      "Constraints are used only where they improve normalization without harming extraction quality.",
+      "Most fields remain unconstrained to preserve robustness for LLM-based extraction.",
+      "The schema defines target metadata fields only; response formatting and provenance are handled separately."
+    ]
+  },
+  "facilities": {
+    "description": "Named facilities where experimental measurements reported in the document were performed.",
+    "type": "list[facility]",
+    "cardinality": {
+      "min": 0,
+      "max": 20
+    },
+    "item_schema": {
+      "id": {
+        "type": "string",
+        "description": "Stable local facility identifier."
+      },
+      "name": {
+        "type": "string",
+        "description": "Facility name as stated in the document."
+      }
+    }
+  },
+  "samples": {
+    "description": "Samples studied through experimental measurements reported or reanalyzed in the document. A sample entry can represent a single specimen or a measured group when only the group is identified by the document.",
+    "type": "list[sample]",
+    "cardinality": {
+      "min": 0,
+      "max": 50
+    },
+    "item_schema": {
+      "id": {
+        "type": "string",
+        "description": "Stable local sample identifier."
+      },
+      "sample_name": {
+        "type": "string",
+        "description": "Name, label, or concise identifying phrase for the sample."
+      },
+      "sample_description": {
+        "type": "string|null",
+        "description": "Short free-text description of sample-defining details not captured by other sample fields."
+      },
+      "chemical_composition": {
+        "type": "string|null",
+        "description": "Chemical composition or chemical identifier stated for the sample."
+      },
+      "sample_state": {
+        "type": "string|null",
+        "description": "Physical state or form of the sample as written in the document."
+      },
+      "sample_mass": {
+        "type": "string|null",
+        "description": "Mass of the sample as stated in the document, including value and unit."
+      },
+      "supplier_or_creator": {
+        "type": "string|null",
+        "description": "Short statement of where the sample came from, if explicitly stated in the document."
+      }
+    }
+  },
+  "datasets": {
+    "description": "Experimental measurement datasets reported or reanalyzed in the document, grouped by experimental technique and distinct measurement campaign rather than by downstream analysis outputs.",
+    "type": "list[dataset]",
+    "cardinality": {
+      "min": 0,
+      "max": 50
+    },
+    "item_schema": {
+      "id": {
+        "type": "string",
+        "description": "Stable local dataset identifier for this dataset."
+      },
+      "dataset_name": {
+        "type": "string",
+        "description": "Short label identifying this dataset within the document."
+      },
+      "sample_refs": {
+        "type": "list[string]",
+        "description": "References to sample identifiers in the samples list for samples measured in this dataset."
+      },
+      "facility_refs": {
+        "type": "list[string]",
+        "description": "References to facility identifiers in the facilities list for facilities used in this dataset."
+      },
+      "dataset_description": {
+        "type": "string|null",
+        "description": "Brief free-text description of what was measured in this dataset."
+      },
+      "measurement_technique": {
+        "type": "string",
+        "description": "The named experimental measurement technique that produced this dataset, as written in the document."
+      },
+      "measurement_mode": {
+        "type": "list[string]",
+        "description": "Major variable or variables varied during this dataset.",
+        "constraints": {
+          "allowed_values": [
+            "Snapshot",
+            "EnergyScan",
+            "WavelengthScan",
+            "FrequencyScan",
+            "AngleScan",
+            "TimeScan",
+            "TemperatureScan",
+            "PressureScan",
+            "MagneticFieldScan",
+            "PolarizationScan",
+            "PositionScan",
+            "CompositionScan",
+            "pHScan",
+            "OtherScan"
+          ]
+        }
+      },
+      "purpose": {
+        "type": "string|null",
+        "description": "Role of this dataset in the study.",
+        "constraints": {
+          "allowed_values": [
+            "measurement",
+            "reference",
+            "background",
+            "calibration"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "document_id": "2202.11658",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "The honeycomb and hyperhoneycomb polymorphs of IrI3",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "a",
+          "label": "a",
+          "text": "Department of Chemistry, Princeton University, Princeton, NJ 08544, United States"
+        },
+        {
+          "id": "b",
+          "label": "b",
+          "text": "Princeton Institute for the Science and Technology of Materials, Princeton University, Princeton, NJ 08544, United States"
+        },
+        {
+          "id": "c",
+          "label": "c",
+          "text": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, NJ 08854, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "1",
+          "full_name": "Danrui Ni",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "a"
+          ]
+        },
+        {
+          "id": "2",
+          "full_name": "Kasey P. Devlin",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "a"
+          ]
+        },
+        {
+          "id": "3",
+          "full_name": "Guangming Cheng",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "b"
+          ]
+        },
+        {
+          "id": "4",
+          "full_name": "Xin Gui",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "a"
+          ]
+        },
+        {
+          "id": "5",
+          "full_name": "Weiwei Xie",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "c"
+          ]
+        },
+        {
+          "id": "6",
+          "full_name": "Nan Yao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "b"
+          ]
+        },
+        {
+          "id": "7",
+          "full_name": "Robert J. Cava",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "a"
+          ]
+        }
+      ],
+      "abstract": "The synthesis of IrI3 at high pressure in its layered honeycomb polymorph is reported. Its crystal structure is refined by single crystal X-ray diffraction. Faults in the honeycomb layer stacking are observed by single crystal diffraction, synchrotron powder diffraction, and transmission electron microscopy. A previously unreported “hyperhoneycomb” polymorph of IrI3 (β-IrI3), is also described - Its structure in space group F ddd is determined by single crystal XRD. Both materials are highly-resistive diamagnetic semiconductors, consistent with a low spin d[6] configuration for Ir(III). The two- and three-dimensional Ir arrays in these polymorphs of IrI3 are analogous to those found in the α- and β- polymorphs of Li2IrO3, although the Ir electron configurations are different.",
+      "keywords": [
+        "Iridium triiodide",
+        "Honeycomb structure",
+        "hyperhoneycomb structure",
+        "synchrotron diffraction",
+        "transmission electron microscopy",
+        "high pressure synthesis"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Gordon and Betty Moore foundation, EPiQS initiative",
+          "grant_id": "GBMF-9066"
+        },
+        {
+          "funder": "U.S. DOE-BES",
+          "grant_id": "DE-SC0022156"
+        },
+        {
+          "funder": "US Department of Energy, Office of Science, Office of Basic Energy Sciences",
+          "grant_id": "DE-AC02-06CH11357"
+        },
+        {
+          "funder": "National Science Foundation (NSF)-MRSEC program",
+          "grant_id": "DMR-2011750"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Results and Discussion",
+        "Conclusion",
+        "Acknowledgements",
+        "Experimental",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "1",
+        "name": "Advanced Photon Source at Argonne National Laboratory"
+      },
+      {
+        "id": "2",
+        "name": "Princeton University’s Imaging and Analysis Center"
+      }
+    ],
+    "samples": [
+      {
+        "id": "1",
+        "sample_name": "α-IrI3",
+        "sample_description": "Monoclinic honeycomb layered polymorph of IrI3 with stacking faults",
+        "chemical_composition": "IrI3",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "Synthesized from stoichiometric elemental iridium and iodine by high pressure synthesis"
+      },
+      {
+        "id": "2",
+        "sample_name": "β-IrI3",
+        "sample_description": "Orthorhombic hyperhoneycomb polymorph of IrI3",
+        "chemical_composition": "IrI3",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "Synthesized from stoichiometric elemental iridium and iodine by high pressure synthesis"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "1",
+        "dataset_name": "Single crystal X-ray diffraction of α-IrI3",
+        "sample_refs": [
+          "1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Crystal structure refinement of α-IrI3 in space group C 2/m",
+        "measurement_technique": "Single crystal X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "2",
+        "dataset_name": "Synchrotron powder diffraction of α-IrI3",
+        "sample_refs": [
+          "1"
+        ],
+        "facility_refs": [
+          "1"
+        ],
+        "dataset_description": "High-resolution synchrotron powder diffraction data showing asymmetric peak shapes indicative of stacking faults",
+        "measurement_technique": "Synchrotron powder diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "3",
+        "dataset_name": "Transmission electron microscopy of α-IrI3",
+        "sample_refs": [
+          "1"
+        ],
+        "facility_refs": [
+          "2"
+        ],
+        "dataset_description": "Electron diffraction and high-resolution scanning transmission electron microscopy images showing stacking faults",
+        "measurement_technique": "Transmission electron microscopy",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "4",
+        "dataset_name": "Single crystal X-ray diffraction of β-IrI3",
+        "sample_refs": [
+          "2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Crystal structure refinement of β-IrI3 in space group Fddd",
+        "measurement_technique": "Single crystal X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "5",
+        "dataset_name": "Magnetic susceptibility measurements of α- and β-IrI3",
+        "sample_refs": [
+          "1",
+          "2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Temperature- and field-dependent magnetic susceptibility measurements",
+        "measurement_technique": "Vibrating sample magnetometer",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "6",
+        "dataset_name": "Resistivity measurements of α- and β-IrI3",
+        "sample_refs": [
+          "1",
+          "2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Resistivity measurements from 260 to 300 K",
+        "measurement_technique": "Resistivity measurement",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "7",
+        "dataset_name": "Diffuse reflectance measurements of α- and β-IrI3",
+        "sample_refs": [
+          "1",
+          "2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Diffuse reflectance measurements for optical band gap determination",
+        "measurement_technique": "UV-VIS-NIR spectrometry",
+        "measurement_mode": [
+          "WavelengthScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "8",
+        "dataset_name": "DFT electronic band structure calculations of α- and β-IrI3",
+        "sample_refs": [
+          "1",
+          "2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Electronic band structures and density of states calculations with and without spin-orbit coupling",
+        "measurement_technique": "Density functional theory calculations",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"The honeycomb and hyperhoneycomb polymorphs of IrI3\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"a\",\n        \"label\": \"a\",\n        \"text\": \"Department of Chemistry, Princeton University, Princeton, NJ 08544, United States\"\n      },\n      {\n        \"id\": \"b\",\n        \"label\": \"b\",\n        \"text\": \"Princeton Institute for the Science and Technology of Materials, Princeton University, Princeton, NJ 08544, United States\"\n      },\n      {\n        \"id\": \"c\",\n        \"label\": \"c\",\n        \"text\": \"Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, NJ 08854, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"1\",\n        \"full_name\": \"Danrui Ni\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"a\"]\n      },\n      {\n        \"id\": \"2\",\n        \"full_name\": \"Kasey P. Devlin\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"a\"]\n      },\n      {\n        \"id\": \"3\",\n        \"full_name\": \"Guangming Cheng\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"b\"]\n      },\n      {\n        \"id\": \"4\",\n        \"full_name\": \"Xin Gui\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"a\"]\n      },\n      {\n        \"id\": \"5\",\n        \"full_name\": \"Weiwei Xie\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"c\"]\n      },\n      {\n        \"id\": \"6\",\n        \"full_name\": \"Nan Yao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"b\"]\n      },\n      {\n        \"id\": \"7\",\n        \"full_name\": \"Robert J. Cava\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"a\"]\n      }\n    ],\n    \"abstract\": \"The synthesis of IrI3 at high pressure in its layered honeycomb polymorph is reported. Its crystal structure is refined by single crystal X-ray diffraction. Faults in the honeycomb layer stacking are observed by single crystal diffraction, synchrotron powder diffraction, and transmission electron microscopy. A previously unreported “hyperhoneycomb” polymorph of IrI3 (β-IrI3), is also described - Its structure in space group F ddd is determined by single crystal XRD. Both materials are highly-resistive diamagnetic semiconductors, consistent with a low spin d[6] configuration for Ir(III). The two- and three-dimensional Ir arrays in these polymorphs of IrI3 are analogous to those found in the α- and β- polymorphs of Li2IrO3, although the Ir electron configurations are different.\",\n    \"keywords\": [\n      \"Iridium triiodide\",\n      \"Honeycomb structure\",\n      \"hyperhoneycomb structure\",\n      \"synchrotron diffraction\",\n      \"transmission electron microscopy\",\n      \"high pressure synthesis\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Gordon and Betty Moore foundation, EPiQS initiative\",\n        \"grant_id\": \"GBMF-9066\"\n      },\n      {\n        \"funder\": \"U.S. DOE-BES\",\n        \"grant_id\": \"DE-SC0022156\"\n      },\n      {\n        \"funder\": \"US Department of Energy, Office of Science, Office of Basic Energy Sciences\",\n        \"grant_id\": \"DE-AC02-06CH11357\"\n      },\n      {\n        \"funder\": \"National Science Foundation (NSF)-MRSEC program\",\n        \"grant_id\": \"DMR-2011750\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Results and Discussion\",\n      \"Conclusion\",\n      \"Acknowledgements\",\n      \"Experimental\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"Advanced Photon Source at Argonne National Laboratory\"\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"Princeton University’s Imaging and Analysis Center\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"1\",\n      \"sample_name\": \"α-IrI3\",\n      \"sample_description\": \"Monoclinic honeycomb layered polymorph of IrI3 with stacking faults\",\n      \"chemical_composition\": \"IrI3\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Synthesized from stoichiometric elemental iridium and iodine by high pressure synthesis\"\n    },\n    {\n      \"id\": \"2\",\n      \"sample_name\": \"β-IrI3\",\n      \"sample_description\": \"Orthorhombic hyperhoneycomb polymorph of IrI3\",\n      \"chemical_composition\": \"IrI3\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Synthesized from stoichiometric elemental iridium and iodine by high pressure synthesis\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"1\",\n      \"dataset_name\": \"Single crystal X-ray diffraction of α-IrI3\",\n      \"sample_refs\": [\"1\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Crystal structure refinement of α-IrI3 in space group C 2/m\",\n      \"measurement_technique\": \"Single crystal X-ray diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"2\",\n      \"dataset_name\": \"Synchrotron powder diffraction of α-IrI3\",\n      \"sample_refs\": [\"1\"],\n      \"facility_refs\": [\"1\"],\n      \"dataset_description\": \"High-resolution synchrotron powder diffraction data showing asymmetric peak shapes indicative of stacking faults\",\n      \"measurement_technique\": \"Synchrotron powder diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"3\",\n      \"dataset_name\": \"Transmission electron microscopy of α-IrI3\",\n      \"sample_refs\": [\"1\"],\n      \"facility_refs\": [\"2\"],\n      \"dataset_description\": \"Electron diffraction and high-resolution scanning transmission electron microscopy images showing stacking faults\",\n      \"measurement_technique\": \"Transmission electron microscopy\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"4\",\n      \"dataset_name\": \"Single crystal X-ray diffraction of β-IrI3\",\n      \"sample_refs\": [\"2\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Crystal structure refinement of β-IrI3 in space group Fddd\",\n      \"measurement_technique\": \"Single crystal X-ray diffraction\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"5\",\n      \"dataset_name\": \"Magnetic susceptibility measurements of α- and β-IrI3\",\n      \"sample_refs\": [\"1\", \"2\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Temperature- and field-dependent magnetic susceptibility measurements\",\n      \"measurement_technique\": \"Vibrating sample magnetometer\",\n      \"measurement_mode\": [\"TemperatureScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"6\",\n      \"dataset_name\": \"Resistivity measurements of α- and β-IrI3\",\n      \"sample_refs\": [\"1\", \"2\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Resistivity measurements from 260 to 300 K\",\n      \"measurement_technique\": \"Resistivity measurement\",\n      \"measurement_mode\": [\"TemperatureScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"7\",\n      \"dataset_name\": \"Diffuse reflectance measurements of α- and β-IrI3\",\n      \"sample_refs\": [\"1\", \"2\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Diffuse reflectance measurements for optical band gap determination\",\n      \"measurement_technique\": \"UV-VIS-NIR spectrometry\",\n      \"measurement_mode\": [\"WavelengthScan\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"8\",\n      \"dataset_name\": \"DFT electronic band structure calculations of α- and β-IrI3\",\n      \"sample_refs\": [\"1\", \"2\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Electronic band structures and density of states calculations with and without spin-orbit coupling\",\n      \"measurement_technique\": \"Density functional theory calculations\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_mistral_large3_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 12991,
+    "output_tokens": 2183,
+    "latency_ms": 33133.02
+  },
+  "warnings": []
+}

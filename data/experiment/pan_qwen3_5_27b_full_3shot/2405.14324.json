@@ -1,0 +1,232 @@
+{
+  "document_id": "2405.14324",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Magnetic microstructure of nanocrystalline Fe-Nb-B alloys as seen by small-angle neutron and X-ray scattering",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Department of Physics and Materials Science, University of Luxembourg, 162A avenue de la Faiencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Department of Materials Science and Engineering, Monash University, Clayton, VIC 3800, Australia"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Venus Rai",
+          "orcid": null,
+          "email": "venus.rai@uni.lu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Ivan Titov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Michael P. Adams",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Kiyonori Suzuki",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Joachim Kohlbrecher",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Andreas Michels",
+          "orcid": null,
+          "email": "andreas.michels@uni.lu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "We have investigated the magnetic microstructure of two-phase Fe-Nb-B based Nanoperm alloys using unpolarized small-angle neutron scattering (SANS) and small-angle X-ray scattering (SAXS). Our SANS analysis reveals a significantly large magnetic scattering contribution due to spin misalignment, primarily originating from the substantial jump in the longitudinal magnetization at the interfaces between the particles and the matrix. The magnetic scattering exhibits an angular anisotropy that resembles a clover-leaf-type pattern, consistent with the predictions of micromagnetic SANS theory. Analysis of the one-dimensional SANS data yields values for the exchange-stiffness constant and the average anisotropy and magnetostatic fields. The micromagnetic correlation lengths for all three samples exhibit a similar field variation with sizes ranging between about 10 − 35 nm. We also find that the nuclear and magnetic residual scattering component of the SANS cross section exhibits a similar q dependency as the SAXS data. These findings further validate the applicability of the micromagnetic SANS theory, and the mesoscopic information obtained is important for the advancement of the soft magnetic properties of this class of material.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "National Research Fund of Luxembourg",
+          "grant_id": "AFR Grant No. 15639149"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "I. INTRODUCTION",
+        "II. EXPERIMENTAL",
+        "III. MAGNETIC SANS THEORY",
+        "IV. RESULTS AND DISCUSSION",
+        "V. SUMMARY AND CONCLUSION"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Swiss Spallation Neutron Source"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Fe87B13",
+        "sample_description": "Nanoperm alloy prepared by rapid solidification followed by ultra-rapid annealing at 753 K for 0.5 sec.",
+        "chemical_composition": "Fe87B13",
+        "sample_state": "nanocrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Fe85Nb6B9",
+        "sample_description": "Nanoperm alloy prepared by rapid solidification followed by tube annealing at 898 K for 30 min.",
+        "chemical_composition": "Fe85Nb6B9",
+        "sample_state": "nanocrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "Fe80Nb6B14",
+        "sample_description": "Nanoperm alloy prepared by rapid solidification followed by tube annealing at 898 K for 30 min.",
+        "chemical_composition": "Fe80Nb6B14",
+        "sample_state": "nanocrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "SANS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Unpolarized SANS measurements performed at the SANS-I instrument using a mean neutron wavelength of 6 Å, with an external magnetic field applied up to 9 T perpendicular to the beam.",
+        "measurement_technique": "small-angle neutron scattering",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "SAXS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Small-angle X-ray scattering measurements using an Anton Paar SAXSpoint 5.0 instrument with monochromatic X-rays of wavelength 0.154 nm.",
+        "measurement_technique": "small-angle X-ray scattering",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "magnetization",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Room temperature magnetization measurements performed using a vibrating sample magnetometer with a 14 T superconducting magnet.",
+        "measurement_technique": "vibrating sample magnetometry",
+        "measurement_mode": [
+          "MagneticFieldScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_4",
+        "dataset_name": "XRD",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Wide-angle X-ray diffraction measurements performed in a Bruker D8 DISCOVER diffractometer using Cu-Kα radiation.",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Magnetic microstructure of nanocrystalline Fe-Nb-B alloys as seen by small-angle neutron and X-ray scattering\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics and Materials Science, University of Luxembourg, 162A avenue de la Faiencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Department of Materials Science and Engineering, Monash University, Clayton, VIC 3800, Australia\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Venus Rai\",\n        \"orcid\": null,\n        \"email\": \"venus.rai@uni.lu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Ivan Titov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Michael P. Adams\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Kiyonori Suzuki\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Joachim Kohlbrecher\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Andreas Michels\",\n        \"orcid\": null,\n        \"email\": \"andreas.michels@uni.lu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"We have investigated the magnetic microstructure of two-phase Fe-Nb-B based Nanoperm alloys using unpolarized small-angle neutron scattering (SANS) and small-angle X-ray scattering (SAXS). Our SANS analysis reveals a significantly large magnetic scattering contribution due to spin misalignment, primarily originating from the substantial jump in the longitudinal magnetization at the interfaces between the particles and the matrix. The magnetic scattering exhibits an angular anisotropy that resembles a clover-leaf-type pattern, consistent with the predictions of micromagnetic SANS theory. Analysis of the one-dimensional SANS data yields values for the exchange-stiffness constant and the average anisotropy and magnetostatic fields. The micromagnetic correlation lengths for all three samples exhibit a similar field variation with sizes ranging between about 10 − 35 nm. We also find that the nuclear and magnetic residual scattering component of the SANS cross section exhibits a similar q dependency as the SAXS data. These findings further validate the applicability of the micromagnetic SANS theory, and the mesoscopic information obtained is important for the advancement of the soft magnetic properties of this class of material.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"National Research Fund of Luxembourg\",\n        \"grant_id\": \"AFR Grant No. 15639149\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"I. INTRODUCTION\",\n      \"II. EXPERIMENTAL\",\n      \"III. MAGNETIC SANS THEORY\",\n      \"IV. RESULTS AND DISCUSSION\",\n      \"V. SUMMARY AND CONCLUSION\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Swiss Spallation Neutron Source\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Fe87B13\",\n      \"sample_description\": \"Nanoperm alloy prepared by rapid solidification followed by ultra-rapid annealing at 753 K for 0.5 sec.\",\n      \"chemical_composition\": \"Fe87B13\",\n      \"sample_state\": \"nanocrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Fe85Nb6B9\",\n      \"sample_description\": \"Nanoperm alloy prepared by rapid solidification followed by tube annealing at 898 K for 30 min.\",\n      \"chemical_composition\": \"Fe85Nb6B9\",\n      \"sample_state\": \"nanocrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"Fe80Nb6B14\",\n      \"sample_description\": \"Nanoperm alloy prepared by rapid solidification followed by tube annealing at 898 K for 30 min.\",\n      \"chemical_composition\": \"Fe80Nb6B14\",\n      \"sample_state\": \"nanocrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"SANS\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Unpolarized SANS measurements performed at the SANS-I instrument using a mean neutron wavelength of 6 Å, with an external magnetic field applied up to 9 T perpendicular to the beam.\",\n      \"measurement_technique\": \"small-angle neutron scattering\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"SAXS\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Small-angle X-ray scattering measurements using an Anton Paar SAXSpoint 5.0 instrument with monochromatic X-rays of wavelength 0.154 nm.\",\n      \"measurement_technique\": \"small-angle X-ray scattering\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"magnetization\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Room temperature magnetization measurements performed using a vibrating sample magnetometer with a 14 T superconducting magnet.\",\n      \"measurement_technique\": \"vibrating sample magnetometry\",\n      \"measurement_mode\": [\n        \"MagneticFieldScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_4\",\n      \"dataset_name\": \"XRD\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Wide-angle X-ray diffraction measurements performed in a Bruker D8 DISCOVER diffractometer using Cu-Kα radiation.\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_27b_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 86054,
+    "output_tokens": 2110,
+    "latency_ms": 110975.52
+  },
+  "warnings": []
+}

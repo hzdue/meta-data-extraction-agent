@@ -1,0 +1,261 @@
+{
+  "document_id": "1909.08292",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Neutron diffraction and magnetic properties of Co2Cr1−xTixAl Heusler alloys",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Department of Physics, Indian Institute of Technology Delhi, Hauz Khas, New Delhi-110016, India"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "School of Physics, The University of New South Wales, Kensington, 2052 NSW, Sydney, Australia"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation (ANSTO), New Illawarra Road, Lucas Heights NSW 2234, Australia"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "UGC-DAE Consortium for Scientific Research, Trombay, Mumbai-400085 India."
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Priyanka Nehla",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Yousef Kareri",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Guru Dutt Gupt",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "James Hester",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "P. D. Babu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Clemens Ulrich",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "R. S. Dhaka",
+          "orcid": null,
+          "email": "rsdhaka@physics.iitd.ac.in",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "We report the structural, magnetic, and magnetocaloric properties of Co2Cr1 −x Ti x Al ( x = 0– 0.5) Heusler alloys for spintronic and magnetic refrigerator applications. Room temperature X-ray diffraction and neutron diffraction patterns along with Rietveld refinements confirm that the samples are of single phase and possess a cubic structure. Interestingly, magnetic susceptibly measurements indicate a second order phase transition from paramagnetic to ferromagnetic where the Curie temperature (TC) of Co2CrAl increases from 330 K to 445 K with Ti substitution. Neutron powder diffraction data of the x = 0 sample across the magnetic phase transition taken in a large temperature range confirm the structural stability and exclude the possibility of antiferromagnetic ordering. The saturation magnetization of the x = 0 sample is found to be 8000 emu/mol (1.45 µ B/ f.u. ) at 5 K, which is in good agreement with the value (1.35 ± 0.05 µ B/ f.u. ) obtained from the Rietveld analysis of the neutron powder diffraction pattern measured at temperature of 4 K. By analysing the temperature dependence of the neutron data of the x = 0 sample, we find that the change in the intensity of the most intense Bragg peak (220) is consistent with the magnetization behavior with temperature. Furthermore, an enhancement of change in the magnetic entropy and relative cooling power values has been observed for the x = 0.25 sample. Interestingly, the critical behavior analysis across the second order magnetic phase transition and extracted exponents ( β ≈ 0.496, γ ≈ 1.348, and δ ≈ 3.71 for the x = 0.25 sample) suggest the presence of long-range ordering, which deviates towards 3D Heisenberg type interactions above TC, consistent with the interaction range value σ .",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2019-09-19",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "BRNS",
+          "grant_id": "34/20/12/2015/BRNS"
+        },
+        {
+          "funder": "department of science & technology (DST), India",
+          "grant_id": "IA/INDO-AUST/F19/2017/1887"
+        },
+        {
+          "funder": "Australian Research Council (ARC)",
+          "grant_id": "DP160100545"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "INTRODUCTION",
+        "EXPERIMENTAL DETAILS",
+        "RESULTS AND DISCUSSION",
+        "CONCLUSIONS"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "OPAL research reactor"
+      },
+      {
+        "id": "facility_2",
+        "name": "WOMBAT"
+      },
+      {
+        "id": "facility_3",
+        "name": "ECHIDNA"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Co2Cr1−xTixAl x=0",
+        "sample_description": null,
+        "chemical_composition": "Co2CrAl",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Co2Cr1−xTixAl x=0.25",
+        "sample_description": null,
+        "chemical_composition": "Co2Cr0.75Ti0.25Al",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "Co2Cr1−xTixAl x=0.5",
+        "sample_description": null,
+        "chemical_composition": "Co2Cr0.5Ti0.5Al",
+        "sample_state": "polycrystalline",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "powder XRD",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Room temperature X-ray diffraction measurements to determine structural phase and cubic structure.",
+        "measurement_technique": "powder X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "magnetization measurements",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Magnetic susceptibility and isothermal magnetization measurements to study phase transitions and saturation magnetization.",
+        "measurement_technique": "magnetization measurements",
+        "measurement_mode": [
+          "TemperatureScan",
+          "OtherScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "neutron powder diffraction (ECHIDNA)",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_3"
+        ],
+        "dataset_description": "High resolution neutron powder diffraction measurements at 170 K, 300 K, and 400 K.",
+        "measurement_technique": "neutron powder diffraction",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_4",
+        "dataset_name": "neutron powder diffraction (WOMBAT)",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_2"
+        ],
+        "dataset_description": "High intensity neutron powder diffraction data recorded from 4 K to 531 K across the magnetic phase transition.",
+        "measurement_technique": "neutron powder diffraction",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Neutron diffraction and magnetic properties of Co2Cr1−xTixAl Heusler alloys\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, Indian Institute of Technology Delhi, Hauz Khas, New Delhi-110016, India\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"School of Physics, The University of New South Wales, Kensington, 2052 NSW, Sydney, Australia\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation (ANSTO), New Illawarra Road, Lucas Heights NSW 2234, Australia\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"UGC-DAE Consortium for Scientific Research, Trombay, Mumbai-400085 India.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Priyanka Nehla\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Yousef Kareri\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Guru Dutt Gupt\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"James Hester\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"P. D. Babu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Clemens Ulrich\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"R. S. Dhaka\",\n        \"orcid\": null,\n        \"email\": \"rsdhaka@physics.iitd.ac.in\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"We report the structural, magnetic, and magnetocaloric properties of Co2Cr1 −x Ti x Al ( x = 0– 0.5) Heusler alloys for spintronic and magnetic refrigerator applications. Room temperature X-ray diffraction and neutron diffraction patterns along with Rietveld refinements confirm that the samples are of single phase and possess a cubic structure. Interestingly, magnetic susceptibly measurements indicate a second order phase transition from paramagnetic to ferromagnetic where the Curie temperature (TC) of Co2CrAl increases from 330 K to 445 K with Ti substitution. Neutron powder diffraction data of the x = 0 sample across the magnetic phase transition taken in a large temperature range confirm the structural stability and exclude the possibility of antiferromagnetic ordering. The saturation magnetization of the x = 0 sample is found to be 8000 emu/mol (1.45 µ B/ f.u. ) at 5 K, which is in good agreement with the value (1.35 ± 0.05 µ B/ f.u. ) obtained from the Rietveld analysis of the neutron powder diffraction pattern measured at temperature of 4 K. By analysing the temperature dependence of the neutron data of the x = 0 sample, we find that the change in the intensity of the most intense Bragg peak (220) is consistent with the magnetization behavior with temperature. Furthermore, an enhancement of change in the magnetic entropy and relative cooling power values has been observed for the x = 0.25 sample. Interestingly, the critical behavior analysis across the second order magnetic phase transition and extracted exponents ( β ≈ 0.496, γ ≈ 1.348, and δ ≈ 3.71 for the x = 0.25 sample) suggest the presence of long-range ordering, which deviates towards 3D Heisenberg type interactions above TC, consistent with the interaction range value σ .\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2019-09-19\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"BRNS\",\n        \"grant_id\": \"34/20/12/2015/BRNS\"\n      },\n      {\n        \"funder\": \"department of science & technology (DST), India\",\n        \"grant_id\": \"IA/INDO-AUST/F19/2017/1887\"\n      },\n      {\n        \"funder\": \"Australian Research Council (ARC)\",\n        \"grant_id\": \"DP160100545\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"INTRODUCTION\",\n      \"EXPERIMENTAL DETAILS\",\n      \"RESULTS AND DISCUSSION\",\n      \"CONCLUSIONS\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"OPAL research reactor\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"WOMBAT\"\n    },\n    {\n      \"id\": \"facility_3\",\n      \"name\": \"ECHIDNA\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Co2Cr1−xTixAl x=0\",\n      \"sample_description\": null,\n      \"chemical_composition\": \"Co2CrAl\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Co2Cr1−xTixAl x=0.25\",\n      \"sample_description\": null,\n      \"chemical_composition\": \"Co2Cr0.75Ti0.25Al\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"Co2Cr1−xTixAl x=0.5\",\n      \"sample_description\": null,\n      \"chemical_composition\": \"Co2Cr0.5Ti0.5Al\",\n      \"sample_state\": \"polycrystalline\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"powder XRD\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Room temperature X-ray diffraction measurements to determine structural phase and cubic structure.\",\n      \"measurement_technique\": \"powder X-ray diffraction\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"magnetization measurements\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Magnetic susceptibility and isothermal magnetization measurements to study phase transitions and saturation magnetization.\",\n      \"measurement_technique\": \"magnetization measurements\",\n      \"measurement_mode\": [\n        \"TemperatureScan\",\n        \"OtherScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"neutron powder diffraction (ECHIDNA)\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_3\"\n      ],\n      \"dataset_description\": \"High resolution neutron powder diffraction measurements at 170 K, 300 K, and 400 K.\",\n      \"measurement_technique\": \"neutron powder diffraction\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_4\",\n      \"dataset_name\": \"neutron powder diffraction (WOMBAT)\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_2\"\n      ],\n      \"dataset_description\": \"High intensity neutron powder diffraction data recorded from 4 K to 531 K across the magnetic phase transition.\",\n      \"measurement_technique\": \"neutron powder diffraction\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 26467,
+    "output_tokens": 2441,
+    "latency_ms": 128064.26
+  },
+  "warnings": []
+}

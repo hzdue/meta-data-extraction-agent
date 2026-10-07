@@ -1,0 +1,238 @@
+{
+  "document_id": "2302.02010",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Identifying f-electron symmetries of UTe2 with O-edge resonant inelastic X-ray scattering",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Department of Physics, New York University, New York, New York 10003, USA"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "School of Physics, Southeast University, Nanjing 211189, China."
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Department of Physics, Washington University in St. Louis, St. Louis, MO 63130, USA"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Quantum Materials Center, Department of Physics, University of Maryland, College Park, MD 20742, USA"
+        },
+        {
+          "id": "aff_5",
+          "label": "5",
+          "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA"
+        },
+        {
+          "id": "aff_6",
+          "label": "6",
+          "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Shouzheng Liu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Yishuai Xu",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Erica C. Kotta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Lin Miao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Sheng Ran",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Johnpierre Paglione",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Nicholas P. Butch",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_5",
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "Jonathan D. Denlinger",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_9",
+          "full_name": "Yi-De Chuang",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_6"
+          ]
+        },
+        {
+          "id": "author_10",
+          "full_name": "L. Andrew Wray",
+          "orcid": null,
+          "email": "lawray@nyu.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "The recent discovery of spin-triplet superconductivity emerging from a non-magnetic parent state in UTe2 has stimulated great interest in the underlying mechanism of Cooper pairing. Experimental characterization of short-range electronic and magnetic correlations is vital to understanding these phenomena. Here we use resonant inelastic X-ray scattering (RIXS), X-ray absorption spectroscopy (XAS), and atomic multiplet-based modeling to shed light on the active debate between 5 f[2] 6 d[1] - based models with singlet crystal field states versus 5 f[3] -based models that predict atomic Kramers doublets and much greater 5 f itinerancy. The XAS and RIXS data are found to agree strongly with predictions for an 5 f[2] 6 d[1] -like valence electron configuration with weak intra-dimer magnetic correlations, and provide new context for interpreting recent investigations of the electronic structure and superconducting pairing mechanism.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2023-02-07",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "National Science Foundation",
+          "grant_id": "DMR2105081"
+        },
+        {
+          "funder": "Department of Energy",
+          "grant_id": "DESC-0019154"
+        },
+        {
+          "funder": "Gordon and Betty Moore Foundation EPiQS Initiative",
+          "grant_id": "GBMF9071"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Advanced Light Source"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "UTe2",
+        "sample_description": "Large ~1 mm3 samples cleaved in situ along the [011] surface.",
+        "chemical_composition": "UTe2",
+        "sample_state": "bulk",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "X-ray absorption spectroscopy",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "XAS measurements at the uranium O-edge performed at different temperatures with horizontal and vertical incident photon polarization.",
+        "measurement_technique": "X-ray absorption spectroscopy",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "resonant inelastic X-ray scattering",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "RIXS measurements at the uranium O-edge to observe final states and excitation energies of J=2 and J=5 features.",
+        "measurement_technique": "resonant inelastic X-ray scattering",
+        "measurement_mode": [
+          "TemperatureScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Identifying f-electron symmetries of UTe2 with O-edge resonant inelastic X-ray scattering\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, New York University, New York, New York 10003, USA\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"School of Physics, Southeast University, Nanjing 211189, China.\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Department of Physics, Washington University in St. Louis, St. Louis, MO 63130, USA\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Quantum Materials Center, Department of Physics, University of Maryland, College Park, MD 20742, USA\"\n      },\n      {\n        \"id\": \"aff_5\",\n        \"label\": \"5\",\n        \"text\": \"NIST Center for Neutron Research, National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, MD 20899, USA\"\n      },\n      {\n        \"id\": \"aff_6\",\n        \"label\": \"6\",\n        \"text\": \"Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Shouzheng Liu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Yishuai Xu\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Erica C. Kotta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Lin Miao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Sheng Ran\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Johnpierre Paglione\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Nicholas P. Butch\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_5\",\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"Jonathan D. Denlinger\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_6\"\n        ]\n      },\n      {\n        \"id\": \"author_9\",\n        \"full_name\": \"Yi-De Chuang\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_6\"\n        ]\n      },\n      {\n        \"id\": \"author_10\",\n        \"full_name\": \"L. Andrew Wray\",\n        \"orcid\": null,\n        \"email\": \"lawray@nyu.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"The recent discovery of spin-triplet superconductivity emerging from a non-magnetic parent state in UTe2 has stimulated great interest in the underlying mechanism of Cooper pairing. Experimental characterization of short-range electronic and magnetic correlations is vital to understanding these phenomena. Here we use resonant inelastic X-ray scattering (RIXS), X-ray absorption spectroscopy (XAS), and atomic multiplet-based modeling to shed light on the active debate between 5 f[2] 6 d[1] - based models with singlet crystal field states versus 5 f[3] -based models that predict atomic Kramers doublets and much greater 5 f itinerancy. The XAS and RIXS data are found to agree strongly with predictions for an 5 f[2] 6 d[1] -like valence electron configuration with weak intra-dimer magnetic correlations, and provide new context for interpreting recent investigations of the electronic structure and superconducting pairing mechanism.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2023-02-07\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"National Science Foundation\",\n        \"grant_id\": \"DMR2105081\"\n      },\n      {\n        \"funder\": \"Department of Energy\",\n        \"grant_id\": \"DESC-0019154\"\n      },\n      {\n        \"funder\": \"Gordon and Betty Moore Foundation EPiQS Initiative\",\n        \"grant_id\": \"GBMF9071\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Advanced Light Source\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"UTe2\",\n      \"sample_description\": \"Large ~1 mm3 samples cleaved in situ along the [011] surface.\",\n      \"chemical_composition\": \"UTe2\",\n      \"sample_state\": \"bulk\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"X-ray absorption spectroscopy\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"XAS measurements at the uranium O-edge performed at different temperatures with horizontal and vertical incident photon polarization.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"resonant inelastic X-ray scattering\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"RIXS measurements at the uranium O-edge to observe final states and excitation energies of J=2 and J=5 features.\",\n      \"measurement_technique\": \"resonant inelastic X-ray scattering\",\n      \"measurement_mode\": [\n        \"TemperatureScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_gemma4_31b_local_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 15726,
+    "output_tokens": 1973,
+    "latency_ms": 97270.14
+  },
+  "warnings": []
+}

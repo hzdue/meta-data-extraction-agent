@@ -1,0 +1,81 @@
+\begin{table*}[t]
+  \centering
+  \footnotesize
+  \setlength{\tabcolsep}{6pt}
+  \begin{tabular}{@{}p{0.34\textwidth}p{0.18\textwidth}r@{}}
+    \toprule
+     & Metric & Agreement \\
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Paper-level fields}} \\
+    Title & ROUGE-L & 0.957 \\
+    Subtitle$^{\dagger}$ & ROUGE-L & 1.000 \\
+    Abstract & ROUGE-L & 0.996 \\
+    DOI$^{\dagger}$ & Normalized exact & 1.000 \\
+    arXiv ID & Normalized exact & 1.000 \\
+    URL$^{\dagger}$ & Normalized exact & 1.000 \\
+    Publication date & Exact & 0.900 \\
+    Venue & Normalized exact & 1.000 \\
+    Publisher$^{\dagger}$ & Normalized exact & 1.000 \\
+    Language & Exact & 1.000 \\
+    Keywords & Set F1 & 0.976 \\
+    Section-heading content & Set F1 & 0.969 \\
+    Section-heading order & Kendall $\tau$ & 1.000 \\
+    Has references & Exact & 1.000 \\
+    Has figures & Exact & 1.000 \\
+    Has tables & Exact & 1.000 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Affiliations}} \\
+    Affiliation entities & Entity F1 & 1.000 \\
+    Affiliation label & Normalized exact & 0.962 \\
+    Affiliation text & ROUGE-L & 0.997 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Authors}} \\
+    Author entities & Entity F1 & 1.000 \\
+    Author full name & Normalized exact & 0.996 \\
+    Author ORCID$^{\dagger}$ & Normalized exact & 1.000 \\
+    Author email & Normalized exact & 1.000 \\
+    Corresponding-author flag & Exact & 0.987 \\
+    Author--affiliation refs & Reference F1 & 1.000 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Funding}} \\
+    Funding entities & Entity F1 & 0.889 \\
+    Funder & ROUGE-L & 0.837 \\
+    Grant ID & Normalized exact & 0.900 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Facilities}} \\
+    Facility entities & Entity F1 & 0.753 \\
+    Facility name & ROUGE-L & 0.776 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Samples}} \\
+    Sample entities & Entity F1 & 0.845 \\
+    Sample name & ROUGE-L & 0.740 \\
+    Chemical composition & Normalized exact & 0.817 \\
+    Sample state & Normalized exact & 0.718 \\
+    Sample mass$^{\ddagger}$ & Normalized exact & 0.986 \\
+    Sample description & ROUGE-L & 0.180 \\
+    Supplier / creator & ROUGE-L & 0.845 \\
+    \addlinespace
+    \midrule
+    \multicolumn{3}{@{}l}{\textit{Datasets}} \\
+    Dataset entities & Entity F1 & 0.793 \\
+    Dataset name & ROUGE-L & 0.693 \\
+    Measurement technique & ROUGE-L & 0.864 \\
+    Dataset description & ROUGE-L & 0.361 \\
+    Measurement mode & Set F1 & 0.700 \\
+    Dataset purpose & Exact & 0.957 \\
+    Dataset--sample refs & Reference F1 & 0.855 \\
+    Dataset--facility refs & Reference F1 & 0.814 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Complete pairwise annotation agreement on the 30
+  evaluation papers. Attribute and reference rows are
+  conditional on aligned parents. A $^{\dagger}$ marks a field with
+  no non-null support and a $^{\ddagger}$ one with at most 10\%
+  non-null support.}
+  \label{tab:appendix-iaa}
+\end{table*}

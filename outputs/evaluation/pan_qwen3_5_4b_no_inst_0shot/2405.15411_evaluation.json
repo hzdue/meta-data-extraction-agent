@@ -1,0 +1,393 @@
+{
+  "gold": "data\\gold\\2405.15411.json",
+  "pred": "data\\experiment\\pan_qwen3_5_4b_no_inst_0shot\\2405.15411.json",
+  "plan": "D:\\git\\meta-data-extraction-release\\configs\\evaluation_metrics.yaml",
+  "evaluator": {
+    "plan_file": "D:\\git\\meta-data-extraction-release\\configs\\evaluation_metrics.yaml",
+    "plan_version": "1.1.3",
+    "alignment_helper_version": "1.1.3",
+    "schema_versions_declared": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "schema_versions_actual": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "schema_version_mismatch": false
+  },
+  "identity_sources": {
+    "bibliographic.funding": {
+      "path": "data\\gold\\2405.15411.json"
+    },
+    "samples": {
+      "path": "data\\gold\\2405.15411.json"
+    },
+    "datasets": {
+      "path": "data\\gold\\2405.15411.json"
+    }
+  },
+  "fields": {
+    "bibliographic.title": {
+      "score": 1.0
+    },
+    "bibliographic.subtitle": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.abstract": {
+      "score": 0.9424460431654677
+    },
+    "bibliographic.doi": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.arxiv_id": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.url": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.publication_date": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.venue": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.publisher": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.language": {
+      "score": 1.0
+    },
+    "bibliographic.keywords": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "bibliographic.affiliations": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 6,
+      "n_gold": 6,
+      "match_stages": [
+        {
+          "pred": "a",
+          "gold": "aff_1",
+          "stage": "similarity"
+        },
+        {
+          "pred": "b",
+          "gold": "aff_2",
+          "stage": "similarity"
+        },
+        {
+          "pred": "c",
+          "gold": "aff_3",
+          "stage": "similarity"
+        },
+        {
+          "pred": "d",
+          "gold": "aff_4",
+          "stage": "similarity"
+        },
+        {
+          "pred": "e",
+          "gold": "aff_5",
+          "stage": "similarity"
+        },
+        {
+          "pred": "f",
+          "gold": "aff_6",
+          "stage": "similarity"
+        }
+      ]
+    },
+    "bibliographic.affiliations.attrs.label": {
+      "mean_score": 1.0,
+      "n_pairs": 6,
+      "n_pairs_non_null": 6
+    },
+    "bibliographic.affiliations.attrs.text": {
+      "mean_score": 1.0,
+      "n_pairs": 6,
+      "n_pairs_non_null": 6
+    },
+    "bibliographic.authors": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 9,
+      "n_gold": 9,
+      "match_stages": [
+        {
+          "pred": "1",
+          "gold": "author_1",
+          "stage": "similarity"
+        },
+        {
+          "pred": "2",
+          "gold": "author_2",
+          "stage": "similarity"
+        },
+        {
+          "pred": "3",
+          "gold": "author_3",
+          "stage": "similarity"
+        },
+        {
+          "pred": "4",
+          "gold": "author_4",
+          "stage": "similarity"
+        },
+        {
+          "pred": "5",
+          "gold": "author_5",
+          "stage": "similarity"
+        },
+        {
+          "pred": "6",
+          "gold": "author_6",
+          "stage": "similarity"
+        },
+        {
+          "pred": "7",
+          "gold": "author_7",
+          "stage": "similarity"
+        },
+        {
+          "pred": "8",
+          "gold": "author_8",
+          "stage": "similarity"
+        },
+        {
+          "pred": "9",
+          "gold": "author_9",
+          "stage": "similarity"
+        }
+      ]
+    },
+    "bibliographic.authors.attrs.full_name": {
+      "mean_score": 1.0,
+      "n_pairs": 9,
+      "n_pairs_non_null": 9
+    },
+    "bibliographic.authors.attrs.orcid": {
+      "mean_score": 1.0,
+      "n_pairs": 9,
+      "n_pairs_non_null": 0
+    },
+    "bibliographic.authors.attrs.email": {
+      "mean_score": 1.0,
+      "n_pairs": 9,
+      "n_pairs_non_null": 1
+    },
+    "bibliographic.authors.attrs.is_corresponding": {
+      "mean_score": 1.0,
+      "n_pairs": 9,
+      "n_pairs_non_null": 9
+    },
+    "bibliographic.authors.attrs.affiliation_refs": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pairs": 9
+    },
+    "bibliographic.funding": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 1,
+      "n_gold": 1,
+      "match_stages": [
+        {
+          "pred": {
+            "grant_id": "SA-89/2021",
+            "funder": "ELKH (E\u00f6tv\u00f6s Lor\u00e1nd Research Network, present name: HUNREN)"
+          },
+          "gold": {
+            "grant_id": "SA-89/2021",
+            "funder": "E\u00f6tv\u00f6s Lor\u00e1nd Research Network"
+          },
+          "stage": "grant"
+        }
+      ]
+    },
+    "bibliographic.funding.attrs.funder": {
+      "mean_score": 0.6666666666666666,
+      "n_pairs": 1,
+      "n_pairs_non_null": 1
+    },
+    "bibliographic.funding.attrs.grant_id": {
+      "mean_score": 1.0,
+      "n_pairs": 1,
+      "n_pairs_non_null": 1
+    },
+    "document_overview.section_headings": {
+      "tp": 5,
+      "fp": 2,
+      "fn": 0,
+      "f1": 0.8333333333333333,
+      "order": 1.0
+    },
+    "document_overview.has_references": {
+      "score": 1.0
+    },
+    "document_overview.has_figures": {
+      "score": 1.0
+    },
+    "document_overview.has_tables": {
+      "score": 1.0
+    },
+    "facilities": {
+      "tp": 1,
+      "fp": 2,
+      "fn": 2,
+      "f1": 0.3333333333333333,
+      "n_pred": 3,
+      "n_gold": 3,
+      "match_stages": [
+        {
+          "pred": "2",
+          "gold": "facility_2",
+          "stage": "raw_exact"
+        }
+      ]
+    },
+    "facilities.attrs.name": {
+      "mean_score": 1.0,
+      "n_pairs": 1,
+      "n_pairs_non_null": 1
+    },
+    "samples": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 3,
+      "n_gold": 3,
+      "match_stages": [
+        {
+          "pred": "1",
+          "gold": "sample_1",
+          "stage": "exact_name"
+        },
+        {
+          "pred": "2",
+          "gold": "sample_2",
+          "stage": "exact_name"
+        },
+        {
+          "pred": "3",
+          "gold": "sample_3",
+          "stage": "exact_name"
+        }
+      ]
+    },
+    "samples.attrs.sample_name": {
+      "mean_score": 1.0,
+      "n_pairs": 3,
+      "n_pairs_non_null": 3
+    },
+    "samples.attrs.chemical_composition": {
+      "mean_score": 1.0,
+      "n_pairs": 3,
+      "n_pairs_non_null": 3
+    },
+    "samples.attrs.sample_state": {
+      "mean_score": 0.0,
+      "n_pairs": 3,
+      "n_pairs_non_null": 3
+    },
+    "samples.attrs.sample_mass": {
+      "mean_score": 1.0,
+      "n_pairs": 3,
+      "n_pairs_non_null": 0
+    },
+    "samples.attrs.sample_description": {
+      "mean_score": 0.2222222222222222,
+      "n_pairs": 3,
+      "n_pairs_non_null": 3
+    },
+    "samples.attrs.supplier_or_creator": {
+      "mean_score": 0.0,
+      "n_pairs": 3,
+      "n_pairs_non_null": 3
+    },
+    "datasets": {
+      "tp": 2,
+      "fp": 3,
+      "fn": 1,
+      "f1": 0.5,
+      "n_pred": 5,
+      "n_gold": 3,
+      "match_stages": [
+        {
+          "pred": "1",
+          "gold": "dataset_1",
+          "stage": "technique_and_name"
+        },
+        {
+          "pred": "2",
+          "gold": "dataset_2",
+          "stage": "technique_and_name"
+        }
+      ],
+      "alignment_abstentions": {
+        "pred_dataset_technique_collision": 3
+      }
+    },
+    "datasets.attrs.dataset_name": {
+      "mean_score": 0.0,
+      "n_pairs": 2,
+      "n_pairs_non_null": 2
+    },
+    "datasets.attrs.measurement_technique": {
+      "mean_score": 1.0,
+      "n_pairs": 2,
+      "n_pairs_non_null": 2
+    },
+    "datasets.attrs.dataset_description": {
+      "mean_score": 0.1852631578947368,
+      "n_pairs": 2,
+      "n_pairs_non_null": 2
+    },
+    "datasets.attrs.measurement_mode": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "f1": 0.0,
+      "n_pairs": 2
+    },
+    "datasets.attrs.purpose": {
+      "mean_score": 1.0,
+      "n_pairs": 2,
+      "n_pairs_non_null": 2
+    },
+    "datasets.attrs.sample_refs": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pairs": 2
+    },
+    "datasets.attrs.facility_refs": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 1,
+      "f1": 0.5,
+      "n_pairs": 2
+    }
+  }
+}

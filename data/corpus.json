@@ -1,0 +1,248 @@
+{
+  "annotation_pairs": {
+    "batch_a": [
+      "annotator_1",
+      "annotator_2"
+    ],
+    "batch_b": [
+      "annotator_1",
+      "annotator_3"
+    ],
+    "batch_c": [
+      "annotator_2",
+      "annotator_3"
+    ]
+  },
+  "papers": [
+    {
+      "arxiv_id": "1804.07163",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "1806.08116",
+      "stratum": "multi_technique",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "1811.10341",
+      "stratum": "multi_technique",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "1812.03956",
+      "stratum": "reflectometry",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "1901.08819",
+      "stratum": "reflectometry",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "1907.00342",
+      "stratum": "multi_technique",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "1909.08292",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "1912.11816",
+      "stratum": "small_angle_scattering",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2001.00707",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2001.02706",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2005.01985",
+      "stratum": "spectroscopy",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "2006.12074",
+      "stratum": "methods_light",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "2007.00972",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2009.01093",
+      "stratum": "imaging_tomography",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2009.12925",
+      "stratum": "methods_light",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2010.00094",
+      "stratum": "spectroscopy",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2010.02965",
+      "stratum": "spectroscopy",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2010.12832",
+      "stratum": "imaging_tomography",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "2011.13326",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "2104.10884",
+      "stratum": "spectroscopy",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2105.04167",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2202.11658",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2203.07170",
+      "stratum": "spectroscopy",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2209.06540",
+      "stratum": "multi_technique",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2211.06006",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2212.04169",
+      "stratum": "spectroscopy",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2302.02010",
+      "stratum": "methods_light",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2304.08002",
+      "stratum": "small_angle_scattering",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2309.13729",
+      "stratum": "diffraction",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2404.06853",
+      "stratum": "imaging_tomography",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2405.14324",
+      "stratum": "small_angle_scattering",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2405.15411",
+      "stratum": "multi_technique",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2407.10282",
+      "stratum": "imaging_tomography",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2407.20626",
+      "stratum": "methods_light",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2410.00268",
+      "stratum": "multi_technique",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    },
+    {
+      "arxiv_id": "2501.08122",
+      "stratum": "reflectometry",
+      "split": "evaluation",
+      "annotation_batch": "batch_b"
+    },
+    {
+      "arxiv_id": "2503.18475",
+      "stratum": "diffraction",
+      "split": "calibration"
+    },
+    {
+      "arxiv_id": "2601.16215",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2603.01364",
+      "stratum": "reflectometry",
+      "split": "evaluation",
+      "annotation_batch": "batch_c"
+    },
+    {
+      "arxiv_id": "2605.14792",
+      "stratum": "diffraction",
+      "split": "evaluation",
+      "annotation_batch": "batch_a"
+    }
+  ]
+}

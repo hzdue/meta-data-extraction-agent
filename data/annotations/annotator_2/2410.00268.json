@@ -1,0 +1,257 @@
+{
+  "bibliographic": {
+    "title": "Operando Ultrafast Damage-free Diffraction-Enhanced X-ray Absorption Spectroscopy for Chemical Reactivity of Polymer in Solvents",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "The Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, University of California, Berkeley, Berkeley, CA, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Zhengxing Peng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Antoine Lainé",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ka Chon Ng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mutian Hua",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Brett A. Helms",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Miquel B. Salmeron",
+        "orcid": null,
+        "email": "mbsalmeron@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Cheng Wang",
+        "orcid": null,
+        "email": "cwang2@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Chemical recycling of plastics to its constituent monomers is a promising solution to develop a sustainable circular plastic economy. An in-situ X-ray absorption spectra (XAS) characterization is an important way to understand the deconstruction process. However, radiation damage, and long acquisition time, prevent such characterization for fast chemical process. Here, we present a novel experimental technique, which we name Diffraction-Enhanced X-ray Absorption Spectroscopy (DE-XAS), where the plastic material is supported on a graphene layer covering a periodic pattern of holes in a perforated Si3N4 membrane. The XAS is obtained by measuring the energy-dependent intensity of the X-ray diffracted beams going through the plastic film over the holes in the Si3N4 membrane. Our method decreases beam damage by orders of magnitude while providing good signal/noise ratio data. We demonstrate the suppression of beam damage with samples of polymethyl methacrylate (PMMA) and the operando characterization of polymer deconstruction process in acid with polydiketoenamine (PDK). This proof-of-concept of the DE-XAS technique shows its great potential for studying fast chemical processes, picoseconds to nanoseconds, using fast CCD detectors with short readout time. We believe the DE-XAS technique offers opportunities for studies of chemical reactions, e.g., photoresist, and many others.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division",
+        "grant_id": "DE-AC02-05-CH11231"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-05CH11231"
+      },
+      {
+        "funder": "Inorganic/Organic Nanocomposites Program",
+        "grant_id": "KC3104"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experiment and Results",
+      "Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PMMA",
+      "sample_description": "PMMA is used as a model system, since it is vulernable to beam irradiation.",
+      "chemical_composition": "polymethyl methacrylate",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PDK",
+      "sample_description": "PDK is a circular polymer used to investigate acidolysis and radiation damage during X-ray absorption spectroscopy measurements.",
+      "chemical_composition": "polydiketoenamine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DKE",
+      "sample_description": "Small molecule analogue of PDK elastomers dissolved in HCl solution, used as a model system for operando characterization of acidolysis.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": "5 mg",
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Regular transmission XAS of PMMA and PDK thin films on non-perforated Si3N4 membranes at the carbon K edge (270–320 eV), acquired to benchmark against DE-XAS and demonstrate radiation damage on both materials.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DE-XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Diffraction-enhanced XAS of PMMA and PDK thin films at the carbon K edge using the hexagonally perforated gold-coated Si3N4 substrate, demonstrating damage suppression with 6000× lower beam dose compared to regular XAS.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "NMR",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": " NMR monitoring of DKE deconstruction used to determine a pseudo first-order deconstruction rate constant.",
+      "measurement_technique": "nuclear magnetic resonance spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "in situ X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Regular in situ transmission XAS of DKE  monitoring the carbon K edge over time to track the acidolysis deconstruction process.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "in situ DE-XAS",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ diffraction-enhanced XAS of DKE and PDK to monitor the carbon K edge over time to quantify acidolysis deconstruction rates.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

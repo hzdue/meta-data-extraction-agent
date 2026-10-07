@@ -1,0 +1,264 @@
+{
+  "bibliographic": {
+    "title": "The honeycomb and hyperhoneycomb polymorphs of IrI3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Chemistry, Princeton University, Princeton, NJ 08544, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Princeton Institute for the Science and Technology of Materials, Princeton University, Princeton, NJ 08544, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, NJ 08854, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Danrui Ni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kasey P. Devlin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Guangming Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Xin Gui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Weiwei Xie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Nan Yao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Robert J. Cava",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The synthesis of IrI3 at high pressure in its layered honeycomb polymorph is reported. Its crystal structure is refined by single crystal X-ray diffraction. Faults in the honeycomb layer stacking are observed by single crystal diffraction, synchrotron powder diffraction, and transmission electron microscopy. A previously unreported \"hyperhoneycomb\" polymorph of IrI3 (β-IrI3), is also described - Its structure in space group Fddd is determined by single crystal XRD. Both materials are highly-resistive diamagnetic semiconductors, consistent with a low spin d6 configuration for Ir(III). The two- and three-dimensional Ir arrays in these polymorphs of IrI3 are analogous to those found in the α- and β- polymorphs of Li2IrO3, although the Ir electron configurations are different.",
+    "keywords": [
+      "Iridium triiodide",
+      "Honeycomb structure",
+      "hyperhoneycomb structure",
+      "synchrotron diffraction",
+      "transmission electron microscopy",
+      "high pressure synthesis"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation",
+        "grant_id": "GBMF-9066"
+      },
+      {
+        "funder": "U.S. DOE-BES",
+        "grant_id": "DE-SC0022156"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2011750"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussion",
+      "Conclusion",
+      "Experimental"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-IrI3",
+      "sample_description": "Monoclinic layered honeycomb structure IrI3 obtained by quench cooling from 700 or 800 °C by a solid-state high pressure synthesis method.",
+      "chemical_composition": "IrI3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "β-IrI3",
+      "sample_description": "Hyperhoneycomb polymorph of IrI3 obtained by cooling at 50 °C/min from 800 °C or either slowly cooling or quenching from 900 °C by a solid-state high pressure synthesis method.",
+      "chemical_composition": "IrI3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SCXRD measured on small crystals picked from the polycrystalline α- and β-IrI3 products, collected on a Bruker D8 Quest Eco using graphite-monochromated Mo Kα radiation (λ = 0.71073 Å).",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "laboratory powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Laboratory powder X-ray diffraction patternscollected using a Bruker D8 Advance Eco with Cu Kα radiation (λ = 1.5418 Å).",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "synchrotron powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution synchrotron powder X-ray diffraction data acquired at Beamline 11-BM at a wavelength of 0.4582 Å.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron diffraction and atomic-resolution STEM imaging acquired on a Titan Cubed Themis 300 double Cs-corrected scanning/transmission electron microscope.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "magnetic susceptibility measurement",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature- and field-dependent magnetization data collected on a Quantum Design PPMS (Dynacool) under an applied field of 0.1 Tesla (T), using a vibrating sample magnetometer (VSM) option.",
+      "measurement_technique": "magnetic susceptibility measurement",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "resistivity measurement",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Resistivity measurements of a dense polycrystalline piece of α-IrI3 and an as-made dense piece containing around 80% β-IrI3, measured on a QD PPMS Dynacool with platinum wires attached to samples using DuPont 4922N silver paint.",
+      "measurement_technique": "resistivity measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "diffuse reflectance measurement",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Diffuse reflectance data collected at ambient temperature on a Cary 5000i UV-VIS-NIR spectrometer equipped with an internal DRA-2500 integrating sphere.",
+      "measurement_technique": "diffuse reflectance measurement",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

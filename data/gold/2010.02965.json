@@ -1,0 +1,339 @@
+{
+  "bibliographic": {
+    "title": "New insights into the mechanism of graphene oxide and radionuclide interaction through vacancy defects",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Lomonosov Moscow State University, Leninskie Gory, Moscow 119991, Russia."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Research Centre “Kurchatov Institute”, Moscow, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Rossendorf Beamline at ESRF – The European Synchrotron, CS40220, 38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Helmholtz Zentrum Dresden-Rossendorf (HZDR), Institute of Resource Ecology, PO Box 510119, 01314 Dresden, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Chemistry, Smalley-Curl Institute and Nanocarbon Center, PO Box 1892, MS-100 Houston, Texas, 77251, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Materials Science and Nano Engineering, Rice University, 6100 Main St, Houston, Texas, 77005, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, Umeå University, S-90187, Umeå, Sweden."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Anastasiia S. Kuzenkova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anna Yu. Romanchuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alexander L. Trigub",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Konstantin I. Maslakov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexander V. Egorov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Lucia Amidani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Carter Kittrell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Kristina O. Kvashnina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "James M. Tour",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Alexandr V. Talyzin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Stepan N. Kalmykov",
+        "orcid": null,
+        "email": "stepan@radio.chem.msu.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The sorption of U(VI), Am(III)/Eu(III) and Cs(I) radionuclides by graphene oxides (GOs) synthesized by Hummers's, Brodie's and Tour's methods was studied through a combination of batch experiments with characterization by microscopic and spectroscopic techniques such as XPS, ATR-FTIR, HERFD-XANES, EXAFS and HRTEM. Remarkably different sorption capacity and affinity of radionuclides was found towards GOs synthesized by Hummers's and Brodie's methods reflecting different structure and oxidation state of these materials. Mechanism underlying GO - radionuclide interaction is determined using variety of experimental techniques. For the first time it is shown here that GO - radionuclides interaction takes place on the small holes or vacancy defects in the GO sheets. Mechanism of GO's interaction with radionuclides was analyzed and specific functional groups responsible for this interaction were identified. Therefore, a new strategy to produce improved materials with high capacity for radionuclides suggests the use perforated and highly defected GO with a larger proportion of carboxylic functional groups.",
+    "keywords": [
+      "graphene oxide",
+      "sorption",
+      "radionuclides",
+      "vacancy defects",
+      "uranium",
+      "americium"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "14-13-01279"
+      },
+      {
+        "funder": "European Union Horizon 2020 research and innovation program",
+        "grant_id": "No. 696656"
+      },
+      {
+        "funder": "European Union Horizon 2020 research and innovation program",
+        "grant_id": "No. 785219"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "N 759696 (acronym TOP)"
+      },
+      {
+        "funder": "Air Force Office of Scientific Research",
+        "grant_id": "FA9550-14-1-0111"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. EXPERIMENTAL",
+      "3. RESULTS AND DISCUSSION",
+      "4. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BGO",
+      "sample_description": "Graphene oxide produced by Brodie's method using 5 g of small flake graphite.",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "HGO",
+      "sample_description": "Graphene oxide produced by Hummers's method.",
+      "chemical_composition": "CAS No.: 7782-42-5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "ACS Materials"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "TGO",
+      "sample_description": "Graphene oxide produced by Tour's method.",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Zonko LLC, USA"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "batch sorption experiments",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "The sorption of U(VI), Am(III), and Cs(I) radionuclides by graphene oxides, measured using liquid-scintillation spectroscopy and universal radiometric complex ORTEC DSPec50.",
+      "measurement_technique": "batch sorption experiments",
+      "measurement_mode": [
+        "pHScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPS spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XPS spectra acquired on an Axis Ultra DLD spectrometer with a monochromatic Al Kα radiation (hν = 1486.6 eV, 150 W), with pass energy of 160 eV for survey spectra and 40 eV for high-resolution scans.",
+      "measurement_technique": "X-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ATR-FTIR spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ATR-FTIR spectra obtained using a PLATINUM, a single reflection horizontal ATR accessory from Bruker Technologies, equipped with a diamond crystal; for each sample, 256 scans were recorded under vacuum in the MIR region (4000-400 cm-1) with a resolution of 4 cm-1.",
+      "measurement_technique": "attenuated total reflection fourier-transform infrared spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EXAFS spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "U L3-edge and Eu L2-edge EXAFS spectra collected at Rossendorf Beamline BM20, up to k = 10 A-1 with a typical acquisition times of 20 min per spectrum.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "HERFD-XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "U L3-edge HERFD-XANES data were recorded at Rossendorf Beamline BM20 using an X-ray emission spectrometer; the maximum intensity of the U LIII emission line was recorded as a function of incident energy.",
+      "measurement_technique": "high-energy resolution fluorescence detected X-Ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "HRTEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "HRTEM images were obtained with an aberration-corrected JEOL 2100F at 200 kV. Diffraction images and EDX data were obtained in scanning transmission electron mode with HAADF and JED 2300 detectors.",
+      "measurement_technique": "high resolution transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

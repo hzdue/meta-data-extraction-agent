@@ -1,0 +1,22 @@
+\begin{abstract}
+Scientific papers contain valuable metadata about experimental facilities,
+samples, measurement datasets, and their relationships, but this information
+is distributed across the publication rather than reported in a single
+structured form. We introduce a publication-derived benchmark for structured
+metadata extraction from 40 photon and neutron (PaN) science papers, with
+reconciled gold records under a two-layer schema covering generic
+publication and PaN experimental metadata. To account for repeated entities
+and cross-entity references expressed through output-local identifiers, 
+we develop an entity-aware evaluation protocol that aligns predicted and 
+gold entities, scores attributes on aligned pairs, and remaps local identifiers 
+before scoring references.
+
+We evaluate seven large language models (LLMs) on the 30-paper evaluation set in
+zero-shot and instruction-ablation settings, with additional within-family scaling and
+few-shot analyses. Generic metadata are recovered more consistently than
+facilities, samples, and datasets, whose annotation disagreements frequently
+concern entity identity and granularity. Detailed field instructions yield higher 
+sample and dataset recovery across all models, while the effects of model size 
+and few-shot demonstrations are less uniform. Higher entity recovery does not 
+necessarily correspond to higher conditional attribute or reference quality.
+\end{abstract}

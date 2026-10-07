@@ -1,0 +1,446 @@
+{
+  "bibliographic": {
+    "title": "Structural changes in Ti1-xAlxN coatings during turning: A XANES and EXAFS study of worn tools",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Nanostructured Materials, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Seco Tools AB, 737 82 Fagersta, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "MAX IV Laboratory, Lund University, SE-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Thin Film Physics, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L. Rogström",
+        "orcid": null,
+        "email": "lina.rogstrom@liu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. Moreno",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. Andersson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Johansson-Jõesaar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Odén",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "K. Klementiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L.-Å. Näslund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Magnuson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Structural changes in Ti1-xAlxN coated tool inserts used for turning in 316L stainless steel were investigated by XANES, EXAFS, EDS, and STEM. For coarse-grained fcc-structured Ti1-xAlxN coatings, with 0≤x≤0.62, the XANES spectrum changes with Al-content. XANES Ti 1s line-scans across the rake face of the worn samples reveals that TiN-enriched domains have formed during turning in Ti0.47Al0.53N and Ti0.38Al0.62N samples as a result of spinodal decomposition. The XANES spectra reveal the locations on the tool in which the most TiN-rich domains have formed, indicating which part of the tool-chip contact area that experienced the highest temperature during turning. Changes in the pre-edge features in the XANES spectra reveal that structural changes occur also in the w-TiAlN phase in fine-grained Ti0.38Al0.62N during turning. EDS shows that Cr and Fe from the steel adhere to the tool rake face during machining. Cr 1s and Fe 1s XANES show that Cr is oxidized in the end of the contact length while the adhered Fe retains in the same fcc-structure as that of the 316L stainless steel.",
+    "keywords": [
+      "TiAlN",
+      "XAS",
+      "XANES",
+      "Metal cutting",
+      "Hard coatings"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022",
+    "venue": "Applied Surface Science",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Governmental Agency for Innovation Systems",
+        "grant_id": "2018-04417"
+      },
+      {
+        "funder": "Swedish Governmental Agency for Innovation Systems",
+        "grant_id": "2016-05156"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details",
+      "3. Results and discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "MAX IV Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "as-deposited TiN coating",
+      "sample_description": "Coating on cobalt-toughened tungsten carbide inserts in the as-deposited condition.",
+      "chemical_composition": "TiN",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "as-deposited Ti0.77Al0.23N coating",
+      "sample_description": "Coating on cobalt-toughened tungsten carbide inserts in the as-deposited condition.",
+      "chemical_composition": "Ti0.77Al0.23N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "as-deposited Ti0.47Al0.53N coating",
+      "sample_description": "Coating on cobalt-toughened tungsten carbide inserts in the as-deposited condition.",
+      "chemical_composition": "Ti0.47Al0.53N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "as-deposited Ti0.38Al0.62N coating",
+      "sample_description": "Coating on cobalt-toughened tungsten carbide inserts in the as-deposited condition.",
+      "chemical_composition": "Ti0.38Al0.62N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "as-deposited Ti0.38Al0.62N-FG coating",
+      "sample_description": "Fine-grained coating on cobalt-toughened tungsten carbide inserts in the as-deposited condition.",
+      "chemical_composition": "Ti0.38Al0.62N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "worn TiN coated insert",
+      "sample_description": "Coated insert after 1 min of longitudinal turning in 316L stainless steel.",
+      "chemical_composition": "TiN",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "worn Ti0.77Al0.23N coated insert",
+      "sample_description": "Coated insert after 1 min of longitudinal turning in 316L stainless steel.",
+      "chemical_composition": "Ti0.77Al0.23N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "worn Ti0.47Al0.53N coated insert",
+      "sample_description": "Coated insert after 1 min of longitudinal turning in 316L stainless steel.",
+      "chemical_composition": "Ti0.47Al0.53N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "worn Ti0.38Al0.62N coated insert",
+      "sample_description": "Coated insert after 1 min of longitudinal turning in 316L stainless steel.",
+      "chemical_composition": "Ti0.38Al0.62N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "worn Ti0.38Al0.62N-FG coated insert",
+      "sample_description": "Fine-grained coated insert after 1 min of longitudinal turning in 316L stainless steel.",
+      "chemical_composition": "Ti0.38Al0.62N",
+      "sample_state": "coating",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "MS-TiN reference coating",
+      "sample_description": "Magnetron sputtered single-crystal TiN reference coating grown on MgO (111) substrate from a Ti target in an Ar/N2 gas mixture.",
+      "chemical_composition": "TiN",
+      "sample_state": "single crystal coating",
+      "sample_mass": null,
+      "supplier_or_creator": "Janella Salamania"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "MS-Ti0.35Al0.65N reference coating",
+      "sample_description": "Magnetron sputtered single-crystal fcc-Ti0.35Al0.65N reference coating grown on MgO (001) substrate from a Ti0.35Al0.65 target in an Ar/N2 gas mixture.",
+      "chemical_composition": "Ti0.35Al0.65N",
+      "sample_state": "single crystal coating",
+      "sample_mass": null,
+      "supplier_or_creator": "Janella Salamania"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "bulk Ti metal reference",
+      "sample_description": "6 µm thick Ti metal foil used for energy calibration and as a Ti metal reference.",
+      "chemical_composition": "Ti",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "316L stainless steel reference",
+      "sample_description": "Steel workpiece reference measured for Fe and Cr XANES comparison.",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_15",
+      "sample_name": "bulk Fe metal reference",
+      "sample_description": "Bulk Fe metal reference sample measured for Fe 1s XANES comparison.",
+      "chemical_composition": "Fe",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_16",
+      "sample_name": "bulk Cr metal reference",
+      "sample_description": "Bulk Cr metal reference sample measured for Cr 1s XANES comparison.",
+      "chemical_composition": "Cr",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11",
+        "sample_12",
+        "sample_13",
+        "sample_14",
+        "sample_15",
+        "sample_16"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ti 1s, Fe 1s, and Cr 1s XANES spectra collected in fluorescence yield mode using a 7-element SDD detector at the Balder beamline, including Ti 1s line scans across the rake face of worn inserts and reference spectra.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "EnergyScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4",
+        "sample_8",
+        "sample_9",
+        "sample_11",
+        "sample_12"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ti 1s EXAFS measured for selected reference, as-deposited, and worn coatings to obtain Ti-N, Ti-Ti, and Ti-Al scattering path information.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Bragg-Brentano XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD in Bragg-Brentano configuration used to determine phase content and extract lattice parameters from the fcc-111 diffraction peak.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "grazing incidence XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "GIXRD diffractograms of the as-deposited coatings to compare fcc-Ti(Al)N and w-AlN phase features.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SEM imaging of worn coated inserts to locate rake-face wear and XAS measurement positions.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "EDS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EDS determined coating chemical composition and produced elemental maps showing adhered Fe and Cr species on worn rake faces.",
+      "measurement_technique": "energy dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "STEM",
+      "sample_refs": [
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "STEM elemental contrast micrographs from crater-region lamellas of worn Ti0.47Al0.53N and Ti0.38Al0.62N coatings.",
+      "measurement_technique": "scanning transmission electron spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

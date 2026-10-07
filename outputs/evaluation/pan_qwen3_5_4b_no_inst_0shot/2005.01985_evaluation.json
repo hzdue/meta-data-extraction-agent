@@ -1,0 +1,277 @@
+{
+  "gold": "data\\gold\\2005.01985.json",
+  "pred": "data\\experiment\\pan_qwen3_5_4b_no_inst_0shot\\2005.01985.json",
+  "plan": "D:\\git\\meta-data-extraction-release\\configs\\evaluation_metrics.yaml",
+  "evaluator": {
+    "plan_file": "D:\\git\\meta-data-extraction-release\\configs\\evaluation_metrics.yaml",
+    "plan_version": "1.1.3",
+    "alignment_helper_version": "1.1.3",
+    "schema_versions_declared": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "schema_versions_actual": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "schema_version_mismatch": false
+  },
+  "identity_sources": {
+    "bibliographic.funding": {
+      "path": "data\\gold\\2005.01985.json"
+    },
+    "samples": {
+      "path": "data\\gold\\2005.01985.json"
+    },
+    "datasets": {
+      "path": "data\\gold\\2005.01985.json"
+    }
+  },
+  "fields": {
+    "bibliographic.title": {
+      "score": 1.0
+    },
+    "bibliographic.subtitle": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.abstract": {
+      "score": 1.0
+    },
+    "bibliographic.doi": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.arxiv_id": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.url": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.publication_date": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.venue": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.publisher": {
+      "score": 1.0,
+      "gold_null": true
+    },
+    "bibliographic.language": {
+      "score": 1.0
+    },
+    "bibliographic.keywords": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0
+    },
+    "bibliographic.affiliations": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 4,
+      "n_gold": 4,
+      "match_stages": [
+        {
+          "pred": "aff1",
+          "gold": "aff_1",
+          "stage": "similarity"
+        },
+        {
+          "pred": "aff2",
+          "gold": "aff_2",
+          "stage": "similarity"
+        },
+        {
+          "pred": "aff3",
+          "gold": "aff_3",
+          "stage": "similarity"
+        },
+        {
+          "pred": "aff4",
+          "gold": "aff_4",
+          "stage": "similarity"
+        }
+      ]
+    },
+    "bibliographic.affiliations.attrs.label": {
+      "mean_score": 1.0,
+      "n_pairs": 4,
+      "n_pairs_non_null": 4
+    },
+    "bibliographic.affiliations.attrs.text": {
+      "mean_score": 1.0,
+      "n_pairs": 4,
+      "n_pairs_non_null": 4
+    },
+    "bibliographic.authors": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 5,
+      "n_gold": 5,
+      "match_stages": [
+        {
+          "pred": "auth1",
+          "gold": "author_1",
+          "stage": "similarity"
+        },
+        {
+          "pred": "auth2",
+          "gold": "author_2",
+          "stage": "similarity"
+        },
+        {
+          "pred": "auth3",
+          "gold": "author_3",
+          "stage": "similarity"
+        },
+        {
+          "pred": "auth4",
+          "gold": "author_4",
+          "stage": "similarity"
+        },
+        {
+          "pred": "auth5",
+          "gold": "author_5",
+          "stage": "similarity"
+        }
+      ]
+    },
+    "bibliographic.authors.attrs.full_name": {
+      "mean_score": 1.0,
+      "n_pairs": 5,
+      "n_pairs_non_null": 5
+    },
+    "bibliographic.authors.attrs.orcid": {
+      "mean_score": 1.0,
+      "n_pairs": 5,
+      "n_pairs_non_null": 0
+    },
+    "bibliographic.authors.attrs.email": {
+      "mean_score": 1.0,
+      "n_pairs": 5,
+      "n_pairs_non_null": 1
+    },
+    "bibliographic.authors.attrs.is_corresponding": {
+      "mean_score": 1.0,
+      "n_pairs": 5,
+      "n_pairs_non_null": 5
+    },
+    "bibliographic.authors.attrs.affiliation_refs": {
+      "tp": 0,
+      "fp": 7,
+      "fn": 7,
+      "f1": 0.0,
+      "n_pairs": 5
+    },
+    "bibliographic.funding": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "f1": 1.0,
+      "n_pred": 0,
+      "n_gold": 0,
+      "match_stages": []
+    },
+    "bibliographic.funding.attrs.funder": {
+      "n_pairs": 0
+    },
+    "bibliographic.funding.attrs.grant_id": {
+      "n_pairs": 0
+    },
+    "document_overview.section_headings": {
+      "tp": 4,
+      "fp": 2,
+      "fn": 0,
+      "f1": 0.8,
+      "order": 1.0
+    },
+    "document_overview.has_references": {
+      "score": 1.0
+    },
+    "document_overview.has_figures": {
+      "score": 1.0
+    },
+    "document_overview.has_tables": {
+      "score": 1.0
+    },
+    "facilities": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "f1": 0.0,
+      "n_pred": 0,
+      "n_gold": 1,
+      "match_stages": []
+    },
+    "facilities.attrs.name": {
+      "n_pairs": 0
+    },
+    "samples": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "f1": 0.0,
+      "n_pred": 0,
+      "n_gold": 1,
+      "match_stages": []
+    },
+    "samples.attrs.sample_name": {
+      "n_pairs": 0
+    },
+    "samples.attrs.chemical_composition": {
+      "n_pairs": 0
+    },
+    "samples.attrs.sample_state": {
+      "n_pairs": 0
+    },
+    "samples.attrs.sample_mass": {
+      "n_pairs": 0
+    },
+    "samples.attrs.sample_description": {
+      "n_pairs": 0
+    },
+    "samples.attrs.supplier_or_creator": {
+      "n_pairs": 0
+    },
+    "datasets": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2,
+      "f1": 0.0,
+      "n_pred": 0,
+      "n_gold": 2,
+      "match_stages": []
+    },
+    "datasets.attrs.dataset_name": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.measurement_technique": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.dataset_description": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.measurement_mode": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.purpose": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.sample_refs": {
+      "n_pairs": 0
+    },
+    "datasets.attrs.facility_refs": {
+      "n_pairs": 0
+    }
+  }
+}

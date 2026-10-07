@@ -1,0 +1,216 @@
+{
+  "document_id": "2007.00972",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Synthesis and Characterization of Strontium Doped Barium Titanates using Neutron Diffraction Technique",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Institute of Nuclear Science and Technology, Bangladesh Atomic Energy Commission, GPO Box No. 3787, Dhaka-1000, Bangladesh"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Department of Nuclear Engineering, University of Dhaka, Dhaka, Bangladesh"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Bangladesh Atomic Energy Commission, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "I. B. Elius",
+          "orcid": null,
+          "email": "iftakhar.elius@gmail.com",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "B. M. Asif",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "J. Maudood",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "T. K. Datta",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "A. K. M. Zakaria",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "S. Hossain",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "M. S. Aktar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "I. Kamal",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        }
+      ],
+      "abstract": "In the present study, structural changes due to gradual doping of Sr in BaTiO3 were investigated by both x-ray and neutron powder diffraction techniques. Ba1-xSrxTiO3 (x=0.0, 0.5 and 1.0) samples were synthesized by PVA evaporation method and purity was confirmed by x-ray diffraction experiment. After that, neutron diffraction experiments were carried out and diffraction data were analyzed by Rietveld least-square data refinement method using the computer program RIETAN-2000 and FullProf to determine various crystallographic structural parameters. The cation and anion position coordinates were also determined from the data refinement method which confirmed that Ba and Sr atoms possess tetrahedral A site and Ti atoms possess octahedral B site for all three samples BaTiO3, Ba0.5Sr0.5TiO3, and SrTiO3, respectively. Moreover, the lattice parameter values indicate, Ba1-xSrxTiO3 structure undergoes a phase transition from tetragonal to cubic somewhere before x=0.5. The concurrences between observed and calculated profiles were excellent and well consistent with the previously reported values. Furthermore, MEM based analysis was done for charge density measurement.",
+      "keywords": [
+        "Neutron diffraction",
+        "Barium titanate",
+        "PVA evaporation method",
+        "X-ray diffraction",
+        "ferroelectric materials"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2019",
+      "venue": "Nuclear Science and Applications",
+      "publisher": null,
+      "language": "en",
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [
+        "1. Introduction",
+        "2. Experimental",
+        "3. Results and Discussion",
+        "4. Conclusion"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Savar Neutron Diffractometer (SAND)"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "BaTiO3",
+        "sample_description": "Synthesized by PVA evaporation method using high purity Ba(NO3)2, TiO2 powders.",
+        "chemical_composition": "BaTiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Ba0.5Sr0.5TiO3",
+        "sample_description": "Synthesized by PVA evaporation method using high purity Ba(NO3)2, Sr(NO3)2, TiO2 powders.",
+        "chemical_composition": "Ba0.5Sr0.5TiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "SrTiO3",
+        "sample_description": "Synthesized by PVA evaporation method using high purity Sr(NO3)2, TiO2 powders.",
+        "chemical_composition": "SrTiO3",
+        "sample_state": "powder",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "X-ray diffraction",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [],
+        "dataset_description": "XRD patterns recorded within an angular range of 2θ = 20°~70° using a Phillips PW 3040 X'Pert Pro x-ray diffractometer with Cu(Kα) radiation.",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "Neutron diffraction",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Neutron diffraction measurements performed at Savar Neutron Diffractometer (SAND) facility located at the radial beam port-II of the TRIGA Mark-II research reactor (BTRR) of BAEC, AERE, Savar. Data analyzed by Rietveld least-square refinement method using RIETAN-2000 and FullProf.",
+        "measurement_technique": "neutron diffraction",
+        "measurement_mode": [],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Synthesis and Characterization of Strontium Doped Barium Titanates using Neutron Diffraction Technique\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Institute of Nuclear Science and Technology, Bangladesh Atomic Energy Commission, GPO Box No. 3787, Dhaka-1000, Bangladesh\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Department of Nuclear Engineering, University of Dhaka, Dhaka, Bangladesh\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Bangladesh Atomic Energy Commission, Agargaon, Sher-e-Bangla Nagar, Dhaka-1207\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"I. B. Elius\",\n        \"orcid\": null,\n        \"email\": \"iftakhar.elius@gmail.com\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"B. M. Asif\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"J. Maudood\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"T. K. Datta\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"A. K. M. Zakaria\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"S. Hossain\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"M. S. Aktar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"I. Kamal\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      }\n    ],\n    \"abstract\": \"In the present study, structural changes due to gradual doping of Sr in BaTiO3 were investigated by both x-ray and neutron powder diffraction techniques. Ba1-xSrxTiO3 (x=0.0, 0.5 and 1.0) samples were synthesized by PVA evaporation method and purity was confirmed by x-ray diffraction experiment. After that, neutron diffraction experiments were carried out and diffraction data were analyzed by Rietveld least-square data refinement method using the computer program RIETAN-2000 and FullProf to determine various crystallographic structural parameters. The cation and anion position coordinates were also determined from the data refinement method which confirmed that Ba and Sr atoms possess tetrahedral A site and Ti atoms possess octahedral B site for all three samples BaTiO3, Ba0.5Sr0.5TiO3, and SrTiO3, respectively. Moreover, the lattice parameter values indicate, Ba1-xSrxTiO3 structure undergoes a phase transition from tetragonal to cubic somewhere before x=0.5. The concurrences between observed and calculated profiles were excellent and well consistent with the previously reported values. Furthermore, MEM based analysis was done for charge density measurement.\",\n    \"keywords\": [\n      \"Neutron diffraction\",\n      \"Barium titanate\",\n      \"PVA evaporation method\",\n      \"X-ray diffraction\",\n      \"ferroelectric materials\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2019\",\n    \"venue\": \"Nuclear Science and Applications\",\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": []\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1. Introduction\",\n      \"2. Experimental\",\n      \"3. Results and Discussion\",\n      \"4. Conclusion\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Savar Neutron Diffractometer (SAND)\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"BaTiO3\",\n      \"sample_description\": \"Synthesized by PVA evaporation method using high purity Ba(NO3)2, TiO2 powders.\",\n      \"chemical_composition\": \"BaTiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Ba0.5Sr0.5TiO3\",\n      \"sample_description\": \"Synthesized by PVA evaporation method using high purity Ba(NO3)2, Sr(NO3)2, TiO2 powders.\",\n      \"chemical_composition\": \"Ba0.5Sr0.5TiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"SrTiO3\",\n      \"sample_description\": \"Synthesized by PVA evaporation method using high purity Sr(NO3)2, TiO2 powders.\",\n      \"chemical_composition\": \"SrTiO3\",\n      \"sample_state\": \"powder\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"X-ray diffraction\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"XRD patterns recorded within an angular range of 2θ = 20°~70° using a Phillips PW 3040 X'Pert Pro x-ray diffractometer with Cu(Kα) radiation.\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"Neutron diffraction\",\n      \"sample_refs\": [\n        \"sample_1\",\n        \"sample_2\",\n        \"sample_3\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Neutron diffraction measurements performed at Savar Neutron Diffractometer (SAND) facility located at the radial beam port-II of the TRIGA Mark-II research reactor (BTRR) of BAEC, AERE, Savar. Data analyzed by Rietveld least-square refinement method using RIETAN-2000 and FullProf.\",\n      \"measurement_technique\": \"neutron diffraction\",\n      \"measurement_mode\": [],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_full_1shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 37637,
+    "output_tokens": 2002,
+    "latency_ms": 27755.12
+  },
+  "warnings": []
+}

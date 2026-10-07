@@ -1,0 +1,684 @@
+version: '1.1.3'
+artifact_type: curated entity alignment helpers
+scope: Source-grounded identity aliases and paper-specific forms used only for entity alignment
+entities:
+  bibliographic.funding:
+    aliases:
+    - alias: DOE
+      canonical_name: Department of Energy
+    - alias: ERC
+      canonical_name: European Research Council
+    - alias: IBS
+      canonical_name: Institute for Basic Science
+  samples:
+    aliases:
+    - alias: GO
+      canonical_name: graphene oxide
+    - alias: PMMA
+      canonical_name: polymethyl methacrylate
+    curated_forms:
+      '1901.08819':
+        sample_1:
+          accepted_name_forms:
+          - iron oxide MNP
+          - iron oxide nanoparticles monolayer
+          - iron oxide MNPs monolayer
+          - monolayer of magnetic iron oxide nanoparticles
+          accepted_composition_forms:
+          - Fe3O4/Fe2O3
+      '1909.08292':
+        sample_1:
+          accepted_name_forms:
+          - Co2Cr1-xTixAl x=0
+          - Co2CrAl
+          accepted_composition_forms:
+          - Co2Cr1-xTixAl x=0
+          - Co2CrAl
+        sample_2:
+          accepted_name_forms:
+          - Co2Cr1-xTixAl x=0.25
+          - Co2Cr0.75Ti0.25Al
+          accepted_composition_forms:
+          - Co2Cr1-xTixAl x=0.25
+          - Co2Cr0.75Ti0.25Al
+        sample_3:
+          accepted_name_forms:
+          - Co2Cr1-xTixAl x=0.5
+          - Co2Cr0.5Ti0.5Al
+          accepted_composition_forms:
+          - Co2Cr1-xTixAl x=0.5
+          - Co2Cr0.5Ti0.5Al
+      '2001.00707':
+        sample_1:
+          accepted_name_forms:
+          - Mn2V1-xCoxGa x=0
+          - Mn2VGa
+          accepted_composition_forms:
+          - Mn2V1-xCoxGa x=0
+          - Mn2VGa
+        sample_2:
+          accepted_name_forms:
+          - Mn2V1-xCoxGa x=0.25
+          - Mn2V0.75Co0.25Ga
+          accepted_composition_forms:
+          - Mn2V1-xCoxGa x=0.25
+          - Mn2V0.75Co0.25Ga
+        sample_3:
+          accepted_name_forms:
+          - Mn2V1-xCoxGa x=0.5
+          - Mn2V0.5Co0.5Ga
+          accepted_composition_forms:
+          - Mn2V1-xCoxGa x=0.5
+          - Mn2V0.5Co0.5Ga
+        sample_4:
+          accepted_name_forms:
+          - Mn2V1-xCoxGa x=0.75
+          - Mn2V0.25Co0.75Ga
+          accepted_composition_forms:
+          - Mn2V1-xCoxGa x=0.75
+          - Mn2V0.25Co0.75Ga
+        sample_5:
+          accepted_name_forms:
+          - Mn2V1-xCoxGa x=1
+          - Mn2CoGa
+          accepted_composition_forms:
+          - Mn2V1-xCoxGa x=1
+          - Mn2CoGa
+      '2007.00972':
+        sample_1:
+          accepted_name_forms:
+          - BaTiO3
+          - Ba1-xSrxTiO3 x=0.0
+          accepted_composition_forms:
+          - BaTiO3
+          - Ba1-xSrxTiO3 x=0.0
+        sample_2:
+          accepted_name_forms:
+          - Ba0.5Sr0.5TiO3
+          - Ba1-xSrxTiO3 x=0.5
+          accepted_composition_forms:
+          - Ba0.5Sr0.5TiO3
+          - Ba1-xSrxTiO3 x=0.5
+        sample_3:
+          accepted_name_forms:
+          - SrTiO3
+          - Ba1-xSrxTiO3 x=1.0
+          accepted_composition_forms:
+          - SrTiO3
+          - Ba1-xSrxTiO3 x=1.0
+      '2009.01093':
+        sample_1:
+          accepted_name_forms:
+          - Seriatopora aculeata coral skeleton particles
+          accepted_composition_forms:
+          - CaCO3
+          - aragonite (CaCO3)
+      '2010.00094':
+        sample_1:
+          accepted_name_forms:
+          - STO
+          - SGTO x=0.0
+          - SGTO0
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.0
+          - SrTiO3
+        sample_2:
+          accepted_name_forms:
+          - SGTO6
+          - SGTO x=0.06
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.06
+          - Sr0.94Gd0.06TiO3
+        sample_3:
+          accepted_name_forms:
+          - SGTO12
+          - SGTO x=0.12
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.12
+          - Sr0.88Gd0.12TiO3
+        sample_4:
+          accepted_name_forms:
+          - SGTO18
+          - SGTO x=0.18
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.18
+          - Sr0.82Gd0.18TiO3
+        sample_5:
+          accepted_name_forms:
+          - SGTO24
+          - SGTO x=0.24
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.24
+          - Sr0.76Gd0.24TiO3
+        sample_6:
+          accepted_name_forms:
+          - SGTO30
+          - SGTO x=0.30
+          accepted_composition_forms:
+          - Sr1-xGdxTiO3 x=0.30
+          - Sr0.70Gd0.30TiO3
+      '2010.12832':
+        sample_1:
+          accepted_name_forms:
+          - granular system consists of bi-disperse plastic beads
+      '2501.08122':
+        sample_1:
+          accepted_name_forms:
+          - single-layer CoFeB thin film
+          - thin CoFeB film
+          accepted_composition_forms:
+          - CoFeB
+        sample_2:
+          accepted_name_forms:
+          - CoFeB / Mo (51 Å) bilayer
+          - thick HM layer
+          - CoFeB / Mo (thick)
+          accepted_composition_forms:
+          - Co40Fe40B20/Mo
+        sample_3:
+          accepted_name_forms:
+          - CoFeB / Mo (5 Å) bilayer
+          - thin HM layer
+          - CoFeB / Mo (thin)
+          accepted_composition_forms:
+          - Co40Fe40B20/Mo
+        sample_4:
+          accepted_name_forms:
+          - CoFeB / Mo (5 Å) / Si trilayer
+          accepted_composition_forms:
+          - Co40Fe40B20/Mo/Si
+      '2605.14792':
+        sample_2:
+          accepted_name_forms:
+          - synthetic FeWO4
+          accepted_composition_forms:
+          - FeWO4:Fe2WO6
+      '2603.01364':
+        sample_1:
+          accepted_name_forms:
+          - A
+        sample_2:
+          accepted_name_forms:
+          - B
+        sample_3:
+          accepted_name_forms:
+          - C
+  datasets:
+    generic_name_terms:
+    - data
+    - dataset
+    - experiment
+    - measurement
+    - result
+    - study
+    aliases:
+    - alias: dsc
+      canonical_name: differential scanning calorimetry
+    - alias: ebsd
+      canonical_name: electron backscattered diffraction
+    - alias: eds
+      canonical_name: energy dispersive spectroscopy
+    - alias: erda
+      canonical_name: elastic recoil detection analysis
+    - alias: exafs
+      canonical_name: extended x-ray absorption fine structure
+    - alias: gisaxs
+      canonical_name: grazing-incidence small-angle x-ray scattering
+    - alias: herfd
+      canonical_name: high-energy-resolution fluorescence detection
+    - alias: ins
+      canonical_name: inelastic neutron scattering
+    - alias: nd
+      canonical_name: neutron diffraction
+    - alias: nmr
+      canonical_name: nuclear magnetic resonance
+    - alias: pnr
+      canonical_name: polarized neutron reflectometry
+    - alias: pxrd
+      canonical_name: powder x-ray diffraction
+    - alias: rixs
+      canonical_name: resonant inelastic x-ray scattering
+    - alias: rxr
+      canonical_name: resonant x-ray reflectivity
+    - alias: sans
+      canonical_name: small-angle neutron scattering
+    - alias: saxs
+      canonical_name: small-angle x-ray scattering
+    - alias: scxrd
+      canonical_name: single crystal x-ray diffraction
+    - alias: stxm
+      canonical_name: scanning transmission x-ray microscopy
+    - alias: stxm-xas
+      canonical_name: scanning transmission x-ray microscopy with x-ray absorption spectroscopy
+    - alias: tem
+      canonical_name: transmission electron microscopy
+    - alias: tga
+      canonical_name: thermogravimetric analysis
+    - alias: vsm
+      canonical_name: vibrating sample magnetometry
+    - alias: x-peem
+      canonical_name: x-ray photoemission electron microscopy
+    - alias: xanes
+      canonical_name: x-ray absorption near-edge structure
+    - alias: xas
+      canonical_name: x-ray absorption spectroscopy
+    - alias: xps
+      canonical_name: x-ray photoelectron spectroscopy
+    - alias: xrd
+      canonical_name: x-ray diffraction
+    - alias: xrr
+      canonical_name: x-ray reflectivity
+    curated_forms:
+      '1804.07163':
+        dataset_1:
+          accepted_technique_forms:
+          - surface tension measurement
+        dataset_4:
+          accepted_technique_forms:
+          - rheological experiment
+          - rotational rheometry
+          accepted_name_forms:
+          - rheological experiment
+      '1811.10341':
+        dataset_3:
+          accepted_technique_forms:
+          - X-ray absorption spectroscopy
+          - Ge K-edge X-ray absorption spectroscopy
+          - Ge K-edge EXAFS
+      '1812.03956':
+        dataset_1:
+          accepted_technique_forms:
+          - qXRR
+          - X-ray reflectivity
+          accepted_name_forms:
+          - XRR during the annealing
+        dataset_2:
+          accepted_technique_forms:
+          - X-ray reflectivity
+      '1901.08819':
+        dataset_1:
+          accepted_technique_forms:
+          - neutron reflectometry
+      '1909.08292':
+        dataset_1:
+          accepted_technique_forms:
+          - X-ray diffraction
+          - powder XRD measurement
+        dataset_2:
+          accepted_technique_forms:
+          - magnetization measurement
+          accepted_name_forms:
+          - isothermal magnetization measurement
+        dataset_3:
+          accepted_technique_forms:
+          - neutron diffraction
+          accepted_name_forms:
+          - WOMBAT
+          - High intensity neutron powder diffraction
+          - WOMBAT neutron diffraction
+          - high intensity neutron diffraction
+        dataset_4:
+          accepted_technique_forms:
+          - neutron diffraction
+          accepted_name_forms:
+          - ECHIDNA
+          - high resolution neutron powder diffraction
+          - ECHIDNA neutron diffraction
+      '2005.01985':
+        dataset_1:
+          accepted_technique_forms:
+          - X-ray diffraction
+      '2009.01093':
+        dataset_1:
+          accepted_technique_forms:
+          - ptychography
+          - X-ray ptychography
+        dataset_2:
+          accepted_technique_forms:
+          - STXM-XAS
+          - scanning transmission X-ray microscopy
+        dataset_3:
+          accepted_technique_forms:
+          - PEEM
+          - photoemission electron microscopy
+          - PEEM-PIC mapping
+        dataset_4:
+          accepted_technique_forms:
+          - 4D-STEM
+          - scanning nano-diffraction
+          - Scanning nano-diffraction (4D-STEM)
+          - 4D scanning transmission electron nano-diffraction
+      '2010.02965':
+        dataset_1:
+          accepted_technique_forms:
+          - batch sorption
+        dataset_3:
+          accepted_technique_forms:
+          - ATR-FTIR
+        dataset_5:
+          accepted_technique_forms:
+          - HERFD-XANES
+        dataset_6:
+          accepted_technique_forms:
+          - HRTEM
+      '2011.13326':
+        dataset_2:
+          accepted_technique_forms:
+          - vibrating sample magnetometry
+      '2105.04167':
+        dataset_1:
+          accepted_technique_forms:
+          - vibrating sample magnetometer
+          - VSM
+          - vibrating sample magnetometer (VSM)
+        dataset_2:
+          accepted_name_forms:
+          - QUOKKA
+          - ANSTO
+        dataset_3:
+          accepted_name_forms:
+          - D33
+          - ILL
+      '2202.11658':
+        dataset_2:
+          accepted_technique_forms:
+          - laboratory powder X-ray diffraction
+          accepted_name_forms:
+          - laboratory PXRD
+          - laboratory powder diffraction
+        dataset_3:
+          accepted_technique_forms:
+          - synchrotron powder diffraction
+          - high-resolution synchrotron powder diffraction
+          accepted_name_forms:
+          - synchrotron PXRD
+          - high-resolution synchrotron PXRD
+        dataset_4:
+          accepted_technique_forms:
+          - electron diffraction / scanning transmission electron microscopy
+          accepted_name_forms:
+          - electron microscopy and diffraction
+        dataset_5:
+          accepted_technique_forms:
+          - magnetization measurements
+          - Vibrating sample magnetometer
+          accepted_name_forms:
+          - magnetization
+        dataset_6:
+          accepted_technique_forms:
+          - resistivity
+          - resistivity measurements
+          accepted_name_forms:
+          - resistivity
+        dataset_7:
+          accepted_technique_forms:
+          - diffuse reflectance
+          - diffuse reflectance spectroscopy
+          accepted_name_forms:
+          - diffuse reflectance
+      '2203.07170':
+        dataset_1:
+          accepted_name_forms:
+          - Zn K-edge X-ray absorption spectroscopy
+          - Zn K-edge X-ray absorption experiments
+          accepted_technique_forms:
+          - Zn K-edge X-ray absorption spectroscopy
+          - Zn K-edge X-ray absorption experiments
+      '2209.06540':
+        dataset_3:
+          accepted_technique_forms:
+          - Ge K-edge EXAFS
+        dataset_2:
+          accepted_name_forms:
+          - high energy X-ray diffraction
+          accepted_technique_forms:
+          - High energy X-ray diffraction
+      '2211.06006':
+        dataset_1:
+          accepted_name_forms:
+          - transmission SANS
+          accepted_technique_forms:
+          - transmission SANS
+        dataset_2:
+          accepted_name_forms:
+          - near-surface SANS
+          - NS-SANS
+          accepted_technique_forms:
+          - Near-surface small-angle neutron scattering (NS-SANS)
+          - near-surface SANS
+      '2212.04169':
+        dataset_3:
+          accepted_name_forms:
+          - Bragg-Brentano XRD
+        dataset_4:
+          accepted_name_forms:
+          - grazing incidence XRD
+          - GI XRD
+          - GIXRD
+        dataset_5:
+          accepted_technique_forms:
+          - SEM
+        dataset_6:
+          accepted_technique_forms:
+          - EDS
+        dataset_7:
+          accepted_technique_forms:
+          - STEM
+          - scanning transmission electron microscopy
+      '2309.13729':
+        dataset_1:
+          accepted_technique_forms:
+          - synchrotron powder X-ray diffraction
+          accepted_name_forms:
+          - in situ PXRD
+          - in situ synchrotron PXRD
+        dataset_2:
+          accepted_name_forms:
+          - ex situ PXRD
+          - ex situ powder X-ray diffraction
+        dataset_3:
+          accepted_technique_forms:
+          - NPD
+          - neutron diffraction
+          - neutron powder diffraction (NPD)
+        dataset_4:
+          accepted_technique_forms:
+          - vibrating sample magnetometer
+          - VSM
+      '2404.06853':
+        dataset_1:
+          accepted_technique_forms:
+          - X-ray imaging
+          - in situ synchrotron X-ray imaging
+        dataset_2:
+          accepted_technique_forms:
+          - computed tomography
+          - X-ray computed tomography
+          - X-ray computed tomography (CT)
+          accepted_name_forms:
+          - CT
+          - X-ray CT
+        dataset_3:
+          accepted_technique_forms:
+          - SEM/EDS
+          - scanning electron microscope and energy dispersive spectroscopy
+          - scanning electron microscope (SEM) and energy dispersive spectroscopy (EDS)
+          accepted_name_forms:
+          - SEM and EDS
+          - SEM/EDS
+          - scanning electron microscopy and energy dispersive spectroscopy
+      '2405.14324':
+        dataset_2:
+          accepted_technique_forms:
+          - X-ray diffraction
+        dataset_4:
+          accepted_technique_forms:
+          - magnetization
+          - vibrating sample magnetometry
+          - vibrating sample magnetometer
+        dataset_1:
+          accepted_name_forms:
+          - unpolarized SANS
+          accepted_technique_forms:
+          - unpolarized SANS
+      '2405.15411':
+        dataset_3:
+          accepted_technique_forms:
+          - extended X-ray absorption spectroscopy
+          - EXAFS
+          - extended X-ray absorption spectroscopy (EXAFS)
+        dataset_2:
+          accepted_name_forms:
+          - high energy X-ray diffraction
+      '2407.10282':
+        dataset_1:
+          accepted_technique_forms:
+          - synchrotron X-ray imaging
+          - X-ray imaging
+          - high-speed X-ray imaging
+        dataset_3:
+          accepted_technique_forms:
+          - electron backscatter diffraction
+          - EBSD
+          accepted_name_forms:
+          - electron backscatter diffraction
+          - EBSD
+      '2407.20626':
+        dataset_1:
+          accepted_name_forms:
+          - RIXS at the Ta L3 edge
+          - Ta L3 RIXS
+      '2410.00268':
+        dataset_1:
+          accepted_name_forms:
+          - XAS
+          - regular XAS
+        dataset_2:
+          accepted_name_forms:
+          - DE-XAS
+          - diffraction-enhanced XAS
+        dataset_4:
+          accepted_name_forms:
+          - in situ XAS
+          - regular in situ XAS
+        dataset_5:
+          accepted_name_forms:
+          - in situ DE-XAS
+        dataset_3:
+          accepted_technique_forms:
+          - Nuclear Magnetic Resonance Spectroscopy (NMR)
+      '2503.18475':
+        dataset_1:
+          accepted_technique_forms:
+          - thermogravimetric analysis and differential scanning calorimetry
+        dataset_2:
+          accepted_name_forms:
+          - PXRD
+          - powder XRD
+        dataset_3:
+          accepted_technique_forms:
+          - synchrotron X-ray diffraction
+          accepted_name_forms:
+          - synchrotron PXRD
+          - high-resolution synchrotron PXRD
+        dataset_4:
+          accepted_name_forms:
+          - moderate-field NMR
+        dataset_5:
+          accepted_name_forms:
+          - high-field NMR
+        dataset_6:
+          accepted_name_forms:
+          - 35Cl VT-NMR
+          - VT-35Cl NMR
+          - variable-temperature 35Cl NMR
+      '2601.16215':
+        dataset_1:
+          accepted_technique_forms:
+          - powder X-ray diffraction
+        dataset_3:
+          accepted_technique_forms:
+          - vibrating sample magnetometry
+          - vibrating sample magnetometer
+        dataset_5:
+          accepted_technique_forms:
+          - neutron diffraction
+      '2603.01364':
+        dataset_4:
+          accepted_technique_forms:
+          - EELS
+        dataset_5:
+          accepted_technique_forms:
+          - current-voltage measurement
+          - I-V measurement
+          - current-voltage characterization
+          - Current-voltage (I-V) measurements
+          accepted_name_forms:
+          - current-voltage
+          - I-V
+          - dc transport measurements
+          - Current-voltage (I-V) measurements
+      '2605.14792':
+        dataset_1:
+          accepted_technique_forms:
+          - single-crystal diffraction
+          - SC-XRD
+          - X-ray single-crystal diffraction
+          - single-crystal diffraction (SC-XRD)
+          accepted_name_forms:
+          - single-crystal diffraction
+          - SC-XRD
+        dataset_2:
+          accepted_technique_forms:
+          - X-ray diffraction
+          - powder X-ray diffraction
+      '2501.08122':
+        dataset_1:
+          accepted_technique_forms:
+          - polarized neutron reflectivity
+  facilities:
+    aliases:
+    - alias: llb
+      canonical_name: laboratoire léon brillouin
+    - alias: ill
+      canonical_name: institut laue-langevin
+    - alias: esrf
+      canonical_name: european synchrotron radiation facility
+    - alias: ansto
+      canonical_name: australian nuclear science and technology organisation
+    - alias: bnc
+      canonical_name: budapest neutron centre
+    - alias: hfir
+      canonical_name: high flux isotope reactor
+    - alias: ncnr
+      canonical_name: nist center for neutron research
+    - alias: ssrl
+      canonical_name: stanford synchrotron radiation lightsource
+    - alias: aps
+      canonical_name: advanced photon source
+    - alias: als
+      canonical_name: advanced light source
+    - alias: sinq
+      canonical_name: swiss spallation neutron source
+    - alias: mlf
+      canonical_name: materials and life science experimental facility
+    - alias: bsrf
+      canonical_name: beijing synchrotron radiation facility
+    - alias: ssrf
+      canonical_name: shanghai synchrotron radiation facility
+    - alias: chess
+      canonical_name: cornell high energy synchrotron source
+    - alias: nhmfl
+      canonical_name: national high magnetic field laboratory
+    - alias: lnls
+      canonical_name: brazilian synchrotron light laboratory
+    - alias: national synchrotron light laboratory
+      canonical_name: brazilian synchrotron light laboratory
+    - alias: aecd
+      canonical_name: atomic energy centre of baec, dhaka
+    - alias: max iv
+      canonical_name: max iv laboratory
+    - alias: soleil
+      canonical_name: synchrotron soleil
+    - alias: national ultrahigh-field nmr facility for solids, ottawa, canada
+      canonical_name: national ultrahigh field nmr facility for solids

@@ -1,0 +1,309 @@
+{
+  "document_id": "2209.06540",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Short range order and topology of binary Ge-S glasses",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff1",
+          "label": "1",
+          "text": "Wigner Research Centre for Physics, Institute for Solid State Physics and Optics, Konkoly Thege út 29-33., H-1121 Budapest, Hungary"
+        },
+        {
+          "id": "aff2",
+          "label": "2",
+          "text": "Diamond Light Source Ltd., Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK"
+        },
+        {
+          "id": "aff3",
+          "label": "3",
+          "text": "Center of Materials and Nanotechnologies (CEMNAT), Faculty of Chemical Technology, University of Pardubice, Legions Square 565, 530 02 Pardubice, Czech Republic"
+        },
+        {
+          "id": "aff4",
+          "label": "4",
+          "text": "Department of General and Inorganic Chemistry, Faculty of Chemical Technology, University of Pardubice, Studentska 573, 532 10 Pardubice, Czech Republic"
+        },
+        {
+          "id": "aff5",
+          "label": "5",
+          "text": "IFW Dresden, Institute for Complex Materials, Helmholtzstr. 20, 01069 Dresden, Germany"
+        },
+        {
+          "id": "aff6",
+          "label": "6",
+          "text": "ISIS Facility, Rutherford Appleton Laboratory, Didcot OX11 0QX, United Kingdom"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth1",
+          "full_name": "I. Pethes",
+          "orcid": null,
+          "email": "pethes.ildiko@wigner.hu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth2",
+          "full_name": "P. Jóvári",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth3",
+          "full_name": "S. Michalik",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff2"
+          ]
+        },
+        {
+          "id": "auth4",
+          "full_name": "T. Wagner",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3",
+            "aff4"
+          ]
+        },
+        {
+          "id": "auth5",
+          "full_name": "V. Prokop",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        },
+        {
+          "id": "auth6",
+          "full_name": "I. Kaban",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff5"
+          ]
+        },
+        {
+          "id": "auth7",
+          "full_name": "D. Száraz",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff1"
+          ]
+        },
+        {
+          "id": "auth8",
+          "full_name": "A. Hannon",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff6"
+          ]
+        },
+        {
+          "id": "auth9",
+          "full_name": "M. Krbal",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff3"
+          ]
+        }
+      ],
+      "abstract": "Short range order and topology of Ge _x_ S100- _x_ glasses over a broad composition range (20 ≤ _x_ ≤ 42 in at%) was investigated by neutron diffraction, X-ray diffraction, and Ge K-edge extended X-ray absorption fine structure (EXAFS) measurements. The experimental data sets were fitted simultaneously in the framework of the reverse Monte Carlo simulation method. It was found that both constituents (Ge and S) satisfy the Mott-rule in all investigated glasses: Ge and S atoms have 4 and 2 neighbours, respectively. The structure of these glasses can be described with the chemically ordered network model: Ge-S bonds are preferred; S-S bonds are present only in S-rich glasses. Dedicated simulations showed that Ge-Ge bonds are necessary in Ge-rich glasses. Connections between Ge atoms (such as edge-sharing GeS4/2 tetrahedra) in stoichiometric and S-rich glasses were analysed. The frequency of primitive rings was also calculated.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "ELKH (Eötvös Loránd Research Network)",
+          "grant_id": "SA89/2021"
+        },
+        {
+          "funder": "Czech Science Foundation",
+          "grant_id": "20-23392J"
+        },
+        {
+          "funder": "Ministry of Education, Youth and Sports",
+          "grant_id": "LM2018103"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Abstract",
+        "1. Introduction",
+        "2. Experimental",
+        "3. Reverse Monte Carlo simulation",
+        "4. Results and discussion",
+        "4.1. Fitting of the experimental data",
+        "4.2. The structure of Ge33S67",
+        "4.3. The structure of Ge20S80 and Ge25S75",
+        "4.4. The structure of S-poor Ge42S58",
+        "4.5. Medium range order and topology analysis",
+        "5. Conclusions",
+        "Acknowledgment",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac1",
+        "name": "GEM diffractometer of Rutherford Appleton Laboratory (UK)"
+      },
+      {
+        "id": "fac2",
+        "name": "Joint Engineering, Environmental and Processing (I12-JEEP) beamline"
+      },
+      {
+        "id": "fac3",
+        "name": "Diamond Light Source Ltd."
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample1",
+        "sample_name": "Ge20S80",
+        "sample_description": "Ge _x_ S100- _x_ glass",
+        "chemical_composition": "Ge20S80",
+        "sample_state": "glass",
+        "sample_mass": null,
+        "supplier_or_creator": "A total of 10 g of elements with 5N purity was placed into a quartz ampoule, evacuated to 10[-3] Pa, and subsequently sealed."
+      },
+      {
+        "id": "sample2",
+        "sample_name": "Ge25S75",
+        "sample_description": "Ge _x_ S100- _x_ glass",
+        "chemical_composition": "Ge25S75",
+        "sample_state": "glass",
+        "sample_mass": null,
+        "supplier_or_creator": "Details of sample preparation and data collection can be found in Refs. [26] and [28]."
+      },
+      {
+        "id": "sample3",
+        "sample_name": "Ge33S67",
+        "sample_description": "Ge _x_ S100- _x_ glass",
+        "chemical_composition": "Ge33S67",
+        "sample_state": "glass",
+        "sample_mass": null,
+        "supplier_or_creator": "A total of 10 g of elements with 5N purity was placed into a quartz ampoule, evacuated to 10[-3] Pa, and subsequently sealed."
+      },
+      {
+        "id": "sample4",
+        "sample_name": "Ge42S58",
+        "sample_description": "Ge _x_ S100- _x_ glass",
+        "chemical_composition": "Ge42S58",
+        "sample_state": "glass",
+        "sample_mass": null,
+        "supplier_or_creator": "Details of sample preparation and data collection can be found in Refs. [26] and [28]."
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset1",
+        "dataset_name": "Neutron diffraction data of Ge20S80 and Ge33S67",
+        "sample_refs": [
+          "sample1",
+          "sample3"
+        ],
+        "facility_refs": [
+          "fac1"
+        ],
+        "dataset_description": "The neutron diffraction measurement of Ge20S80 and Ge33S67 was carried out at the GEM diffractometer of Rutherford Appleton Laboratory (UK).",
+        "measurement_technique": "neutron diffraction",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset2",
+        "dataset_name": "High energy X-ray diffraction data of Ge20S80 and Ge33S67",
+        "sample_refs": [
+          "sample1",
+          "sample3"
+        ],
+        "facility_refs": [
+          "fac2",
+          "fac3"
+        ],
+        "dataset_description": "High energy X-ray diffraction data of Ge20S80 and Ge33S67 were collected on the Joint Engineering, Environmental and Processing (I12-JEEP) beamline at Diamond Light Source Ltd., the United Kingdom.",
+        "measurement_technique": "High energy X-ray diffraction",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset3",
+        "dataset_name": "ND, XRD data of Ge25S75",
+        "sample_refs": [
+          "sample2"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Ge25S75 was also modelled in the present study using previously published data.",
+        "measurement_technique": "ND, XRD",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset4",
+        "dataset_name": "ND, XRD, Ge EXAFS data of Ge42S58",
+        "sample_refs": [
+          "sample4"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Ge42S58 was also modelled in the present study using previously published data; fitted datasets were ND, XRD, Ge EXAFS.",
+        "measurement_technique": "ND, XRD, Ge EXAFS",
+        "measurement_mode": [
+          "EnergyScan",
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Short range order and topology of binary Ge-S glasses\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff1\",\n        \"label\": \"1\",\n        \"text\": \"Wigner Research Centre for Physics, Institute for Solid State Physics and Optics, Konkoly Thege út 29-33., H-1121 Budapest, Hungary\"\n      },\n      {\n        \"id\": \"aff2\",\n        \"label\": \"2\",\n        \"text\": \"Diamond Light Source Ltd., Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK\"\n      },\n      {\n        \"id\": \"aff3\",\n        \"label\": \"3\",\n        \"text\": \"Center of Materials and Nanotechnologies (CEMNAT), Faculty of Chemical Technology, University of Pardubice, Legions Square 565, 530 02 Pardubice, Czech Republic\"\n      },\n      {\n        \"id\": \"aff4\",\n        \"label\": \"4\",\n        \"text\": \"Department of General and Inorganic Chemistry, Faculty of Chemical Technology, University of Pardubice, Studentska 573, 532 10 Pardubice, Czech Republic\"\n      },\n      {\n        \"id\": \"aff5\",\n        \"label\": \"5\",\n        \"text\": \"IFW Dresden, Institute for Complex Materials, Helmholtzstr. 20, 01069 Dresden, Germany\"\n      },\n      {\n        \"id\": \"aff6\",\n        \"label\": \"6\",\n        \"text\": \"ISIS Facility, Rutherford Appleton Laboratory, Didcot OX11 0QX, United Kingdom\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth1\",\n        \"full_name\": \"I. Pethes\",\n        \"orcid\": null,\n        \"email\": \"pethes.ildiko@wigner.hu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth2\",\n        \"full_name\": \"P. Jóvári\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth3\",\n        \"full_name\": \"S. Michalik\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff2\"\n        ]\n      },\n      {\n        \"id\": \"auth4\",\n        \"full_name\": \"T. Wagner\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff3\",\n          \"aff4\"\n        ]\n      },\n      {\n        \"id\": \"auth5\",\n        \"full_name\": \"V. Prokop\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff3\"\n        ]\n      },\n      {\n        \"id\": \"auth6\",\n        \"full_name\": \"I. Kaban\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff5\"\n        ]\n      },\n      {\n        \"id\": \"auth7\",\n        \"full_name\": \"D. Száraz\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff1\"\n        ]\n      },\n      {\n        \"id\": \"auth8\",\n        \"full_name\": \"A. Hannon\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff6\"\n        ]\n      },\n      {\n        \"id\": \"auth9\",\n        \"full_name\": \"M. Krbal\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff3\"\n        ]\n      }\n    ],\n    \"abstract\": \"Short range order and topology of Ge _x_ S100- _x_ glasses over a broad composition range (20 ≤ _x_ ≤ 42 in at%) was investigated by neutron diffraction, X-ray diffraction, and Ge K-edge extended X-ray absorption fine structure (EXAFS) measurements. The experimental data sets were fitted simultaneously in the framework of the reverse Monte Carlo simulation method. It was found that both constituents (Ge and S) satisfy the Mott-rule in all investigated glasses: Ge and S atoms have 4 and 2 neighbours, respectively. The structure of these glasses can be described with the chemically ordered network model: Ge-S bonds are preferred; S-S bonds are present only in S-rich glasses. Dedicated simulations showed that Ge-Ge bonds are necessary in Ge-rich glasses. Connections between Ge atoms (such as edge-sharing GeS4/2 tetrahedra) in stoichiometric and S-rich glasses were analysed. The frequency of primitive rings was also calculated.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"ELKH (Eötvös Loránd Research Network)\",\n        \"grant_id\": \"SA89/2021\"\n      },\n      {\n        \"funder\": \"Czech Science Foundation\",\n        \"grant_id\": \"20-23392J\"\n      },\n      {\n        \"funder\": \"Ministry of Education, Youth and Sports\",\n        \"grant_id\": \"LM2018103\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Abstract\",\n      \"1. Introduction\",\n      \"2. Experimental\",\n      \"3. Reverse Monte Carlo simulation\",\n      \"4. Results and discussion\",\n      \"4.1. Fitting of the experimental data\",\n      \"4.2. The structure of Ge33S67\",\n      \"4.3. The structure of Ge20S80 and Ge25S75\",\n      \"4.4. The structure of S-poor Ge42S58\",\n      \"4.5. Medium range order and topology analysis\",\n      \"5. Conclusions\",\n      \"Acknowledgment\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac1\",\n      \"name\": \"GEM diffractometer of Rutherford Appleton Laboratory (UK)\"\n    },\n    {\n      \"id\": \"fac2\",\n      \"name\": \"Joint Engineering, Environmental and Processing (I12-JEEP) beamline\"\n    },\n    {\n      \"id\": \"fac3\",\n      \"name\": \"Diamond Light Source Ltd.\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample1\",\n      \"sample_name\": \"Ge20S80\",\n      \"sample_description\": \"Ge _x_ S100- _x_ glass\",\n      \"chemical_composition\": \"Ge20S80\",\n      \"sample_state\": \"glass\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"A total of 10 g of elements with 5N purity was placed into a quartz ampoule, evacuated to 10[-3] Pa, and subsequently sealed.\"\n    },\n    {\n      \"id\": \"sample2\",\n      \"sample_name\": \"Ge25S75\",\n      \"sample_description\": \"Ge _x_ S100- _x_ glass\",\n      \"chemical_composition\": \"Ge25S75\",\n      \"sample_state\": \"glass\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Details of sample preparation and data collection can be found in Refs. [26] and [28].\"\n    },\n    {\n      \"id\": \"sample3\",\n      \"sample_name\": \"Ge33S67\",\n      \"sample_description\": \"Ge _x_ S100- _x_ glass\",\n      \"chemical_composition\": \"Ge33S67\",\n      \"sample_state\": \"glass\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"A total of 10 g of elements with 5N purity was placed into a quartz ampoule, evacuated to 10[-3] Pa, and subsequently sealed.\"\n    },\n    {\n      \"id\": \"sample4\",\n      \"sample_name\": \"Ge42S58\",\n      \"sample_description\": \"Ge _x_ S100- _x_ glass\",\n      \"chemical_composition\": \"Ge42S58\",\n      \"sample_state\": \"glass\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"Details of sample preparation and data collection can be found in Refs. [26] and [28].\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset1\",\n      \"dataset_name\": \"Neutron diffraction data of Ge20S80 and Ge33S67\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample3\"\n      ],\n      \"facility_refs\": [\n        \"fac1\"\n      ],\n      \"dataset_description\": \"The neutron diffraction measurement of Ge20S80 and Ge33S67 was carried out at the GEM diffractometer of Rutherford Appleton Laboratory (UK).\",\n      \"measurement_technique\": \"neutron diffraction\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset2\",\n      \"dataset_name\": \"High energy X-ray diffraction data of Ge20S80 and Ge33S67\",\n      \"sample_refs\": [\n        \"sample1\",\n        \"sample3\"\n      ],\n      \"facility_refs\": [\n        \"fac2\",\n        \"fac3\"\n      ],\n      \"dataset_description\": \"High energy X-ray diffraction data of Ge20S80 and Ge33S67 were collected on the Joint Engineering, Environmental and Processing (I12-JEEP) beamline at Diamond Light Source Ltd., the United Kingdom.\",\n      \"measurement_technique\": \"High energy X-ray diffraction\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset3\",\n      \"dataset_name\": \"ND, XRD data of Ge25S75\",\n      \"sample_refs\": [\n        \"sample2\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Ge25S75 was also modelled in the present study using previously published data.\",\n      \"measurement_technique\": \"ND, XRD\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset4\",\n      \"dataset_name\": \"ND, XRD, Ge EXAFS data of Ge42S58\",\n      \"sample_refs\": [\n        \"sample4\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Ge42S58 was also modelled in the present study using previously published data; fitted datasets were ND, XRD, Ge EXAFS.\",\n      \"measurement_technique\": \"ND, XRD, Ge EXAFS\",\n      \"measurement_mode\": [\n        \"EnergyScan\",\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_gpt5.5_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 15829,
+    "output_tokens": 2487,
+    "latency_ms": 21041.34
+  },
+  "warnings": []
+}

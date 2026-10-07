@@ -1,0 +1,175 @@
+{
+  "document_id": "2001.02706",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Magnetic correlations in the disordered ferromagnetic alloy Ni-V revealed with small angle neutron scattering",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "affiliation_1",
+          "label": "1",
+          "text": "Department of Physics, Kent State University, Kent OH 44242, USA"
+        },
+        {
+          "id": "affiliation_2",
+          "label": "2",
+          "text": "National Institute of Standards and Technologies, NIST Center of Neutron Research, Gaithersburg MD 20899, USA"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "A. Schroeder",
+          "orcid": null,
+          "email": "aschroe2@kent.edu",
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1",
+            "a"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "S. Bhattarai",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "A Gebretsadik",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1",
+            "b"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "H. Adawi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "J.-G. Lussier",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "K. L. Krycka",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        }
+      ],
+      "abstract": "We present small angle neutron scattering (SANS) data collected on polycrystalline Ni1 _−x_ V _x_ samples with _x ≥_ 0 _._ 10 with confirmed random atomic distribution. We aim to determine the relevant length scales of magnetic correlations in ferromagnetic samples with low critical temperatures _Tc_ that show signs of magnetic inhomogeneities in magnetization and _µ_ SR data. The SANS study reveals signatures of long-range order and coexistence of short-range magnetic correlations in this randomly disordered ferromagnetic alloy. We show the advantages of a polarization analysis in identifying the main magnetic contributions from the dominating nuclear scattering.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2020-01-10",
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Center for High Resolution Neutron Scattering",
+          "grant_id": "DMR-1508249"
+        },
+        {
+          "funder": "QuantEmX grant from ICAM",
+          "grant_id": null
+        },
+        {
+          "funder": "Gordon and Betty Moore Foundation",
+          "grant_id": "GBMF5305"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Formation of ferromagnetism in metals",
+        "For this study",
+        "First SANS studies of Ni1 _−x_ V _x_",
+        "Encouraged by these promising findings",
+        "We cannot use the total non spin flip data",
+        "Collecting SANS data with and without polarization analysis"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "GPSANS, HFIR, Oak Ridge National Lab"
+      },
+      {
+        "id": "facility_2",
+        "name": "NG7SANS, NCNR, NIST"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Ni0.90V0.10",
+        "sample_description": "polycrystalline samples with confirmed random atomic distribution",
+        "chemical_composition": "Ni1 _−x_ V _x_ with x = 0.10",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "SANS data collected on polycrystalline Ni1 _−x_ V _x_ samples",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "SANS data collected on polycrystalline Ni1 _−x_ V _x_ samples with x >= 0.10 with confirmed random atomic distribution",
+        "measurement_technique": "small angle neutron scattering (SANS)",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Magnetic correlations in the disordered ferromagnetic alloy Ni-V revealed with small angle neutron scattering\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"affiliation_1\",\n        \"label\": \"1\",\n        \"text\": \"Department of Physics, Kent State University, Kent OH 44242, USA\"\n      },\n      {\n        \"id\": \"affiliation_2\",\n        \"label\": \"2\",\n        \"text\": \"National Institute of Standards and Technologies, NIST Center of Neutron Research, Gaithersburg MD 20899, USA\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"A. Schroeder\",\n        \"orcid\": null,\n        \"email\": \"aschroe2@kent.edu\",\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\",\n          \"a\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"S. Bhattarai\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"A Gebretsadik\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\",\n          \"b\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"H. Adawi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"J.-G. Lussier\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"K. L. Krycka\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      }\n    ],\n    \"abstract\": \"We present small angle neutron scattering (SANS) data collected on polycrystalline Ni1 _−x_ V _x_ samples with _x ≥_ 0 _._ 10 with confirmed random atomic distribution. We aim to determine the relevant length scales of magnetic correlations in ferromagnetic samples with low critical temperatures _Tc_ that show signs of magnetic inhomogeneities in magnetization and _µ_ SR data. The SANS study reveals signatures of long-range order and coexistence of short-range magnetic correlations in this randomly disordered ferromagnetic alloy. We show the advantages of a polarization analysis in identifying the main magnetic contributions from the dominating nuclear scattering.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2020-01-10\",\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Center for High Resolution Neutron Scattering\",\n        \"grant_id\": \"DMR-1508249\"\n      },\n      {\n        \"funder\": \"QuantEmX grant from ICAM\",\n        \"grant_id\": null\n      },\n      {\n        \"funder\": \"Gordon and Betty Moore Foundation\",\n        \"grant_id\": \"GBMF5305\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Formation of ferromagnetism in metals\",\n      \"For this study\",\n      \"First SANS studies of Ni1 _−x_ V _x_\",\n      \"Encouraged by these promising findings\",\n      \"We cannot use the total non spin flip data\",\n      \"Collecting SANS data with and without polarization analysis\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"GPSANS, HFIR, Oak Ridge National Lab\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"NG7SANS, NCNR, NIST\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Ni0.90V0.10\",\n      \"sample_description\": \"polycrystalline samples with confirmed random atomic distribution\",\n      \"chemical_composition\": \"Ni1 _−x_ V _x_ with x = 0.10\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"SANS data collected on polycrystalline Ni1 _−x_ V _x_ samples\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\",\n        \"facility_2\"\n      ],\n      \"dataset_description\": \"SANS data collected on polycrystalline Ni1 _−x_ V _x_ samples with x >= 0.10 with confirmed random atomic distribution\",\n      \"measurement_technique\": \"small angle neutron scattering (SANS)\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_4b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 9694,
+    "output_tokens": 1433,
+    "latency_ms": 10958.91
+  },
+  "warnings": []
+}

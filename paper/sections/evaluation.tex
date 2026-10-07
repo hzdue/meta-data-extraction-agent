@@ -1,0 +1,112 @@
+\section{Entity-Aware Evaluation}
+\label{sec:evaluation}
+
+\subsection{Evaluation Framework}
+\label{sec:evaluation-framework}
+
+Evaluation follows the structure and semantics of the target schema. Different
+metadata fields require different evaluation metrics: constrained values use
+exact or normalized-exact match, free text and wording-sensitive names use
+ROUGE-L, and unordered lists use set F1. The metric columns in
+Tables~\ref{tab:appendix-iaa} and~\ref{tab:appendix-zero-shot} identify the
+metric applied to every scored schema field.
+
+Paper-level fields can be evaluated directly against their gold values,
+whereas entity collections first require correspondence between
+predicted and gold entities. Our evaluation therefore separates three
+outcomes: entity recovery, attribute quality among aligned entities, and
+reference quality among aligned entities. Because these outcomes
+have different meanings and supports, we report them separately rather than
+constructing a schema-wide average.
+
+
+\subsection{Entity Alignment}
+\label{sec:entity-alignment}
+
+The six entity collections require one-to-one alignment:
+affiliations, authors, funding, facilities, samples, and datasets.
+
+For authors and affiliations, each record provides a direct textual alignment
+key: \texttt{full\_name} for authors and \texttt{text} for affiliations.
+After normalization, predicted--gold pairs with token-overlap F1 of at least
+0.5 are considered candidate matches. Hungarian assignment then selects a
+one-to-one matching that maximizes the number of correspondences, with total
+similarity used to break ties.
+
+Facilities, funding, samples, and datasets require collection-specific
+alignment because their identifying fields can vary in wording and because
+similar records may correspond to distinct entities rather than the same one.
+For these collections, the evaluator uses the following fields as the primary
+basis for alignment: facility \texttt{name}; funding \texttt{grant\_id} and
+\texttt{funder}; sample \texttt{sample\_name} and
+\texttt{chemical\_composition}; and dataset \texttt{dataset\_name} and
+\texttt{measurement\_technique}. Where necessary, these fields are
+supplemented with reviewed alternative forms grounded in the source PDF and
+entity distinctions recorded during reconciliation. Alternative forms allow
+different wording to denote the same entity, whereas entity distinctions
+prevent related but separate records from being collapsed. The original field
+values are retained for subsequent attribute scoring.
+
+The matching criteria are applied in collection-specific stages. Facilities
+are matched by exact name, then by reviewed alternative names for the same
+facility, and then by unambiguous complete name containment. For example,
+``ESRF'' can correspond to ``European Synchrotron Radiation Facility'' when
+the paper defines the acronym, whereas an instrument or beamline named without 
+its host facility does not match the facility. Funding records are matched
+primarily by normalized grant identifier, with funder information used to 
+distinguish records where needed.
+
+Samples are aligned by their names and compositions in the same staged way: first an exact
+sample-name match; then a composition that matches and uniquely identifies a
+gold sample within the paper; then, among samples of the same composition, 
+a match based on distinguishing name words, such as ``with'' sonication versus 
+``without'' sonication, or explicit values such as temperature, thickness, or concentration; 
+finally, remaining samples are matched when one name contains all words
+of the other, as in ``MnSi'' and ``MnSi single crystal'', unless their
+reported compositions disagree or another gold sample is an equally
+supported match. 
+
+Datasets are aligned similarly using their names and measurement techniques: 
+first by the same name with a compatible measurement technique; then by a name that uniquely 
+identifies a gold dataset within the paper; then, among datasets sharing a technique, by 
+distinguishing words in their names; and finally by technique alone, when the technique identifies 
+a single gold dataset and matches only one remaining eligible prediction.
+
+Within each collection, later stages are applied only to entities left
+unmatched by earlier stages. Matches follow the collection-specific
+criteria above and preserve one-to-one correspondence.
+
+\subsection{Scoring and Aggregation}
+\label{sec:scoring-aggregation}
+
+Paper-level fields are scored directly against their gold values using the
+field-specific metrics listed in Tables~\ref{tab:appendix-iaa}
+and~\ref{tab:appendix-zero-shot}. Scalar paper-level scores are averaged
+across papers, while count-based paper-level F1 metrics are micro-aggregated
+by pooling true positives, false positives, and false negatives before
+computing F1. Section-heading content is scored with set F1; the relative order
+of headings is reported only as an appendix diagnostic using Kendall's
+$\tau$.
+
+For entity collections, the one-to-one alignment
+(Section~\ref{sec:entity-alignment}) determines entity recovery. Aligned
+predicted--gold pairs count as true positives, unmatched predictions as false
+positives, and unmatched gold entities as false negatives. Entity F1 is
+micro-aggregated across the corpus by pooling these counts before computing
+F1, so entity-dense papers contribute proportionally.
+
+Attribute metrics are applied only to aligned entity pairs and therefore
+measure attribute quality conditional on entity recovery. Scalar attribute
+scores are averaged over aligned pairs, while count-based attribute F1 metrics
+are micro-aggregated by pooling counts across aligned pairs and papers. Because
+the aligned set depends on recovery, conditional attribute scores should be
+interpreted together with the corresponding collection's entity F1.
+
+Cross-entity references are scored after predicted output-local identifiers
+are remapped through the established entity alignments. For example, if
+predicted \texttt{sample\_7} aligns with gold \texttt{sample\_2}, a reference
+to \texttt{sample\_7} is evaluated as a reference to
+\texttt{sample\_2}. Reference F1 is micro-aggregated across the corpus by
+pooling reference true positives, false positives, and false negatives over
+aligned parent entities. Reference F1 is therefore conditional and should be
+interpreted together with the corresponding parent collection's entity F1.

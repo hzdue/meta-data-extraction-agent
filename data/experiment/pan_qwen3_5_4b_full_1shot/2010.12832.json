@@ -1,0 +1,179 @@
+{
+  "document_id": "2010.12832",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "X-ray tomography investigation of cyclically sheared granular materials",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "School of Physics and Astronomy, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai 200240, China"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Materials Genome Initiative Center, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Yi Xing",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Jie Zheng",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Jindong Li",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Yixin Cao",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Wei Pan",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Jie Zhang",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Yujie Wang",
+          "orcid": null,
+          "email": "yujiewang@sjtu.edu.cn",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1",
+            "aff_3"
+          ]
+        }
+      ],
+      "abstract": "We perform combined X-ray tomography and shear force measurements on a cyclically sheared granular system with highly transient behaviors, and obtain the evolution of microscopic structures and the macroscopic shear force during the shear cycle. We explain the macroscopic behaviors of the system based on microscopic processes, including the particle level structural rearrangement and frictional contact variation. Specifically, we show how contact friction can induce large structural fluctuations and cause significant shear dilatancy effect for granular materials, and we also construct an empirical constitutive relationship for the macroscopic shear force.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "National Natural Science Foundation of China",
+          "grant_id": "11974240"
+        },
+        {
+          "funder": "National Natural Science Foundation of China",
+          "grant_id": "11675110"
+        },
+        {
+          "funder": "National Natural Science Foundation of China",
+          "grant_id": "U1738120"
+        },
+        {
+          "funder": "Shanghai Science and Technology Commission",
+          "grant_id": "19XD1402100"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Experimental setup",
+        "Imaging processing and in-house particle tracking algorithm",
+        "Calculation of the net topological rearrangement number curve Ntopo"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [],
+    "samples": [],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "X-ray tomography",
+        "sample_refs": [],
+        "facility_refs": [],
+        "dataset_description": "X-ray tomography scan performed after each shear step through a medical CT scanner (UEG Medical Imaging Equip. Co. Ltd.) with 0.2 mm spatial resolution.",
+        "measurement_technique": "X-ray tomography",
+        "measurement_mode": [
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "Shear force measurement",
+        "sample_refs": [],
+        "facility_refs": [],
+        "dataset_description": "Shear force measured at a frequency of 0.23s^-1 with an accuracy of 0.1N using a force sensor (IMADA ZTS-50N) connecting the motor and the stage.",
+        "measurement_technique": "vibrating sample magnetometry",
+        "measurement_mode": [
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"X-ray tomography investigation of cyclically sheared granular materials\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"School of Physics and Astronomy, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai 200240, China\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Materials Genome Initiative Center, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Yi Xing\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Jie Zheng\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Jindong Li\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Yixin Cao\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Wei Pan\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Jie Zhang\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Yujie Wang\",\n        \"orcid\": null,\n        \"email\": \"yujiewang@sjtu.edu.cn\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\",\n          \"aff_3\"\n        ]\n      }\n    ],\n    \"abstract\": \"We perform combined X-ray tomography and shear force measurements on a cyclically sheared granular system with highly transient behaviors, and obtain the evolution of microscopic structures and the macroscopic shear force during the shear cycle. We explain the macroscopic behaviors of the system based on microscopic processes, including the particle level structural rearrangement and frictional contact variation. Specifically, we show how contact friction can induce large structural fluctuations and cause significant shear dilatancy effect for granular materials, and we also construct an empirical constitutive relationship for the macroscopic shear force.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"National Natural Science Foundation of China\",\n        \"grant_id\": \"11974240\"\n      },\n      {\n        \"funder\": \"National Natural Science Foundation of China\",\n        \"grant_id\": \"11675110\"\n      },\n      {\n        \"funder\": \"National Natural Science Foundation of China\",\n        \"grant_id\": \"U1738120\"\n      },\n      {\n        \"funder\": \"Shanghai Science and Technology Commission\",\n        \"grant_id\": \"19XD1402100\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Experimental setup\",\n      \"Imaging processing and in-house particle tracking algorithm\",\n      \"Calculation of the net topological rearrangement number curve Ntopo\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [],\n  \"samples\": [],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"X-ray tomography\",\n      \"sample_refs\": [],\n      \"facility_refs\": [],\n      \"dataset_description\": \"X-ray tomography scan performed after each shear step through a medical CT scanner (UEG Medical Imaging Equip. Co. Ltd.) with 0.2 mm spatial resolution.\",\n      \"measurement_technique\": \"X-ray tomography\",\n      \"measurement_mode\": [\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"Shear force measurement\",\n      \"sample_refs\": [],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Shear force measured at a frequency of 0.23s^-1 with an accuracy of 0.1N using a force sensor (IMADA ZTS-50N) connecting the motor and the stage.\",\n      \"measurement_technique\": \"vibrating sample magnetometry\",\n      \"measurement_mode\": [\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_4b_full_1shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 37900,
+    "output_tokens": 1446,
+    "latency_ms": 13738.6
+  },
+  "warnings": []
+}

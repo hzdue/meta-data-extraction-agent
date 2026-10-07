@@ -1,0 +1,86 @@
+\section{Benchmark Corpus}
+\label{app:corpus}
+
+The benchmark comprises the 40 photon and neutron science papers listed below,
+ordered by arXiv identifier. Each entry links to the public arXiv record.
+
+\input{tables/corpus}
+
+\section{Schema}
+\label{app:schema}
+
+The extraction target is defined by a two-layer schema: a generic layer and a PaN
+layer. Every field carries a description and a type; top-level fields also declare
+a cardinality, and most fields carry an \texttt{instructions} array defining inclusion,
+normalization, or entity-granularity decisions. Repeated entities define an
+\texttt{item\_schema} for their subfields. Figure~\ref{fig:schema-excerpt} shows
+two representative excerpts: the paper-level \texttt{title} field and the
+\texttt{samples} entity. The complete set of \emph{scored} fields is enumerated
+in the field-level results (Tables~\ref{tab:appendix-iaa} and~\ref{tab:appendix-zero-shot});
+the full per-field definitions appear only in the released schema. The no-instruction
+variants used in the instruction ablation (Section~\ref{sec:instruction-ablation}) simply
+remove the \texttt{instructions} arrays.
+
+\input{tables/schema_excerpt}
+
+\section{Prompt Template}
+\label{app:prompt}
+
+All conditions use a single text-to-JSON prompt. The document is converted to
+Markdown-like text and inserted together with the schema and an output
+skeleton; the model returns one JSON object. Figure~\ref{fig:prompt-template}
+shows the zero-shot template.
+
+\input{tables/prompt_template}
+
+\section{Reproducibility Details}
+\label{app:reproducibility}
+
+All 660 extractions included in the reported evaluation use one text-to-JSON
+pipeline under the fixed settings in Table~\ref{tab:setup}. Each of the 22
+conditions contains exactly one extraction per target paper, so all reported
+scores are single-run point estimates without seed averaging. The seven model
+snapshots are pinned to the versions in
+Table~\ref{tab:experimental-matrix}.
+
+\input{tables/reproducibility}
+
+The schema, prompt template, reconciled gold records, scoring plan, alignment
+helper, and evaluation code are released with the benchmark.
+
+
+\section{Complete Field-Level Results}
+\label{app:complete-results}
+
+This appendix reports the complete field-level evaluation results. Section
+headings have separate rows for content recovery and relative order; all other
+fields appear once. The metric used for each row is shown in the tables.
+Fields with no or very few non-null gold values are flagged
+($^{\dagger}$/$^{\ddagger}$). Their scores are reported for completeness but
+are not interpreted.
+
+The three F1 variants use the same formula but differ in how matches are
+determined: set F1 uses exact matching after normalization, entity F1 uses the
+one-to-one alignment described in Section~\ref{sec:entity-alignment}, and
+reference F1 is computed after predicted output-local identifiers are remapped
+through that alignment.
+
+Table~\ref{tab:appendix-iaa} reports the complete pairwise annotation agreement
+results for the 30-paper evaluation set.
+
+\input{tables/appendix_iaa}
+
+Table~\ref{tab:appendix-zero-shot} reports the complete field-level results for
+all seven models under the full-instruction zero-shot setting on the 30-paper
+evaluation set.
+
+Three paper-level fields marked $^{\S}$ are affected by the PDF-to-text
+conversion: arXiv ID, publication date, and venue. On affected papers, the
+relevant evidence appears only in the rotated first-page arXiv stamp, which
+\texttt{pymupdf4llm} omits from the model input. Most notably, the arXiv-ID
+score of 0.533 reflects null--null agreement on 16 papers and no successful
+recovery on the 14 papers with non-null gold values. Scores for these fields
+therefore partly reflect unavailable input evidence rather than model
+extraction alone.
+
+\input{tables/appendix_zero_shot}

@@ -1,0 +1,164 @@
+{
+  "document_id": "2006.12074",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Institute for Materials Research, Tohoku University, Katahira, Sendai 980-8577, Japan"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Research Center for Neutron Science and Technology, Comprehensive Research Organization for Science and Society, Tokai, Ibaraki 319-1106, Japan"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Masaki Fujita",
+          "orcid": null,
+          "email": "fujita@imr.tohoku.ac.jp",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Kazuhiko Ikeuchi",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Ryoichi Kajimoto",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Mitsutaka Nakamura",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        }
+      ],
+      "abstract": "In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": "Journal of the Physical Society of Japan",
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Japan Society for the Promotion of Science",
+          "grant_id": "16H02125"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement",
+        "In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.",
+        "Iridate oxides, Sr2IrO4 and Sr3Ir2O7, are Mott insulators with spin-orbit entangled magnetic state bearing the effective total angular moment, J eff = 1/2.[1–3)] A new root for high-transition-temperature (high- T c) superconductivity is expected for iridate oxides.[4,5)] Accordingly, their magnetic excitations has received significant attention analogous to the spin dynamics of high- T c cuprate oxides. Resonant inelastic X-ray scattering (RIXS) is a powerful tool used to investigate magnetic excitations owing to its accessibility to high-energy regions even for small samples. The excitations of Sr2IrO4 and Sr3Ir2O7 comprise a single magnon branch below 300 meV and a novel high magnetic mode (spin-orbit exciton with J eff = 3/2) approximately 600 meV.[1–3)]",
+        "Inelastic neutron scattering (INS) that directly measures the dynamical structure factor, S( Q , ℏω), in the momentum ( Q ) and energy (ℏω) spaces is also an indispensable method for investigating spin dynamics. For cuprate oxides, INS provides a considerable amount of valuable information on magnetic excitations such as hourglass-shaped excitations[6,7)] and resonance excitations[8,9)] in the superconducting phase. In addition, f( Q ) determined after the evaluation of S( Q , ℏω) can yield information on orbital character[10)] and spin-orbit entangled excitations in iridate oxides. Herein, f( Q ) is the magnetic form factor that is a Fourier transform of spin density distribution in real space. However, INS measurement of iridium oxides is challenging owing to the significant neutron absorption cross-section of the iridium nuclei. Report of excitations exceeding 100 meV in iridate oxides by INS is scarce following our review of literature, whereas observation below ∼40 meV was recently achieved for monolayer Sr2IrO4.[11)] In this short note, we present an INS investigation of bilayer Sr3Ir2O7. By using high-energy neutrons with a reduced absorption effect, we observed a magnon branch existing between ∼80 meV and ∼ 180 meV, and verified the consistency in dispersion with that obtained by RIXS.",
+        "For the experiment, we prepared single crystals by the fluxmethod. The maximum size of the crystals was 2 mm × 2 mm × 1.5 mm. Approximately 500 crystals with a total mass of 2.1 grams were assembled on aluminum plates (with 0.1 mm thickness) such that the crystallographic c -axis is perpendicular to each plate. We performed INS measurements on 4 SEASONS at the Materials and Life Science Experimental Facility (MLF) at J-PARC, Japan. A 250 meV incident neutron energy ( E i) was selected to determine the magnon excitations below 200 meV. This E i with a chopper frequency of 250 Hz provided an energy resolution (∆ E ) of 12.6 meV at ℏω = 150 meV, which is better than ∆ E of ∼30 meV in RIXS measurements.[1–3)] The signals were collected for two days under 300 kW beam power operation at 6 K, that is significantly below the magnetic ordering temperature (∼280 K).[12)] To minimize the absorption effect, the crystals were placed with the c -axis parallel to the incident neutron beam. In this study, we use the tetragonal notation to describe the Miller index.",
+        "Figure 1 shows the spectra along the k -direction through (0.5, ± 0.5) corresponding to the antiferromagnetic (AF) zone center (ZC). An arch-shaped signal centered at k = 0 is observed in Fig. 1 (a). The spectra sliced at ℏω = 180 meV with an energy band of ± 10 meV (Fig. 1 (b)) shows a broad peak at k = 0. In decreasing ℏω, the signal splits into two peaks that are symmetric around k = 0, and the distance between the peaks increases. Thus, the dispersive branch was successfully detected by neutron scattering measurements with sufficient beam flux. The peak positions at ℏω = 80 meV are close to ZC (Fig. 1 (e)), and no visible magnetic signal below 70 meV was observed, indicating the existence of a large energy gap in the spin excitations.",
+        "From the figure, the scattering intensity for | k | > 0.5 is weak or absent, leading to the asymmetric spectra with respect to ZC ( k = ± 0.5). Although the cause of the intensity unbalance is unknown, f( Q ) can be damped rapidly against Q compared to that for cuprate oxides, owing to the extended nature of the 5 d orbitals. In fact, in the neighborhood of (1.5, 1.5), which is ZC with a large | Q | value, the magnon branch was not observed. Thus, the intensity unbalance could be due to a particular f( Q ), and determining the intensity distribution via further INS with the quantitative analysis can yield information on the orbital character.",
+        "To determine the gap energy at the AF zone boundary (ZB), we sliced the spectra at (0.25, 0.25) along the energy direction. (See Fig. 2.) For the comparison INS spectra at (0.90, 0.10), wherein the magnetic structure factor is weak, is shown as the background. The intensity around 100 meV is higher at (0.25, 0.25) than that at (0.90, 0.10). From the difference in the intensities at the two positions, the peak-energy in the spectra at (0.25, 0.25) was evaluated to be 107(8) meV. This energy is consistent with the results reported in RIXS.[3)] Note that the peaks at ∼170 meV are independent of Q and were observed even in the measurement without the crystals. Thus, this signal is background from outside the sample.",
+        "In Fig. 3, the momentum dependence of the peak-position and intensity are presented. The open (closed) circles represent the results obtained from the constant-momentum (constant-energy) spectra. The horizontal (vertical) bars for the open (closed) circles are the sliced momentum (energy) width of the spectra, and the vertical (horizontal) bars represent the evaluated peak-width in energy (momentum) in fullwidth at half-maximum. The peak positions follow a gray line representing the dispersion relation determined by RIXS. Figure 3 (b) shows the bare INS intensity that is not corrected with |f( Q )|[2] and the absorption coefficient depending on ℏω. Accordingly, the values have systematic ambiguities against the Q position. However, the overall trend including the intensity maximum (minimum) around ZC (ZB) can be compared with the results of RIXS.",
+        "From these results, we conclude the feasibility of the INS measurements on excitations in iridate oxides and that INS and RIXS detected identical excitations in the iridate oxides, as in the case of La2CuO4.[13)] Although we did not measure the spin-orbit exciton found at ∼600 meV, the present results inspire a future investigation of this excitation by neutron scattering. INS measurement with polarization analysis can extract information such as the fluctuating component of spins, interference of spin and lattice dynamics and the orbital characters. The present experiment is foundational for such studies on iridium oxides, especially carrier doped compounds.",
+        "In summary, we performed INS measurement on Sr3Ir2O7, and successfully, observed the excitations between ∼80 meV and ∼180 meV. The peak positions agree well with the dispersion of a single magnon observed using RIXS. Therefore, the high energy neutrons aids in the investigation of the magnetic excitations of iridate oxides in the region of a hundred meV.",
+        "The authors acknowledge K. Ishii and K. Tomiyasu for their useful remarks. The experiments at the Materials and Life Science Experimental Facility at J-PARC were performed under a user program (Proposal No. 2013A0052). M.F. is supported by a Grant-in-Aid for Scientific Research (A) (16H02125).",
+        "B. J. Kim, Hosub Jin, S. J. Moon, J.-Y. Kim, B.-G. Park, C. S. Leem, Jaejun Yu, T. W. Noh, C. Kim, S.-J. Oh, J.-H. Park, V. Durairaj, G. Cao, and E. Rotenberg, Phys. Rev. Lett. 101 , 076402 (2008).",
+        "B. J. Kim, H. Ohsumi, T. Komesu, S. Sakai, T. Morita, H. Takagi, and T. Arima, Science 323 , 1329 (2009).",
+        "Jungho Kim, A. H. Said, D. Casa, M. H. Upton, T. Gog, M. Daghofer, G. Jackeli, J. van den Brink, G. Khaliullin, and B. J. Kim, Phys. Rev. Lett. 109 , 157402 (2012).",
+        "Fa Wang and T. Senthil, Phys. Rev. Lett. 106 , 136402 (2011).",
+        "H. Watanabe, T. Shirakawa, and S. Yunoki, Phys. Rev. Lett. 110 , 027002 (2013).",
+        "M. Arai, T. Nishijima, Y. Endoh, T. Egami, S. Tajima, K. Tomimoto, Y. Shiohara, M. Takahashi, A. Garrett, and S. M. Bennington, Phys. Rev. Lett. 83 , 608 (1999).",
+        "J. M. Tranquada, H. Woo, T. G. Perring, H. Goka, G. D. Gu, G. Xu, M. Fujita, and K. Yamada, Nature 429 , 534 (2004).",
+        "J. Rossat-Mignod, L. P. Regnault, C. Vettier, P. Bourges, P. Burlet, J. Bossy, J. Y. Henry, and G. Lapertot, Physica C 185-189 , 86 (1991).",
+        "H.A.Mook, M.Yethiraj, G.Aeppli, T.E.Mason, and T.Armstrong, Phys. Rev. Lett. 70 , 3490 (1993).",
+        "Y. Itoh and J. Akimitsu, J. Phys. Soc. Jpn. 40 , 1333 (1976).",
+        "S. Calder, D. M. Pajerowski, M. B. Stone, and A. F. May, Phys. Rev. B 98 , 220402(R) (2018).",
+        "G. Cao, Y. Xin, C. S. Alexander, J. E. Crow, P. Schlottmann, M. K. Crawford, R. L. Harlow, and W. Marshall, Phys. Rev. B 66 , 214412 (2002).",
+        "L. Braicovich, J. van den Brink, V. Bisogni, M. Moretti Sala, L. J. P. Ament, N. B. Brookes, G. M. De Luca, M. Salluzzo, T. Schmitt, V. N. Strocov, and G. Ghiringhelli, Phys. Rev. Lett. 104 , 077002 (2010)."
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Materials and Life Science Experimental Facility (MLF) at J-PARC"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Sr3Ir2O7 single crystals",
+        "sample_description": "Single crystals prepared by the flux method, maximum size 2 mm × 2 mm × 1.5 mm, total mass 2.1 grams.",
+        "chemical_composition": "Sr3Ir2O7",
+        "sample_state": "single crystal",
+        "sample_mass": "2.1 grams",
+        "supplier_or_creator": "prepared in house"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "INS spectra of Sr3Ir2O7",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Inelastic neutron scattering measurement of magnetic excitations between 80 meV and 180 meV.",
+        "measurement_technique": "inelastic neutron scattering",
+        "measurement_mode": [
+          "AngleScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Institute for Materials Research, Tohoku University, Katahira, Sendai 980-8577, Japan\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Research Center for Neutron Science and Technology, Comprehensive Research Organization for Science and Society, Tokai, Ibaraki 319-1106, Japan\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Masaki Fujita\",\n        \"orcid\": null,\n        \"email\": \"fujita@imr.tohoku.ac.jp\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Kazuhiko Ikeuchi\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Ryoichi Kajimoto\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Mitsutaka Nakamura\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      }\n    ],\n    \"abstract\": \"In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": \"Journal of the Physical Society of Japan\",\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Japan Society for the Promotion of Science\",\n        \"grant_id\": \"16H02125\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Magnetic excitations of Sr3Ir2O7 observed by inelastic neutron scattering measurement\",\n      \"In this short note, we report on the first inelastic neutron scattering (INS) study on high-energy magnetic excitations in Sr3Ir2O7. We observed excitations between ∼80 meV and ∼180 meV. The peak position of the excitations is consistent with the dispersion of a single magnon determined by resonant inelastic X-ray scattering (RIXS) measurement. Thus, our results demonstrate the feasibility of INS for iridates, which has a large neutron absorption cross-section.\",\n      \"Iridate oxides, Sr2IrO4 and Sr3Ir2O7, are Mott insulators with spin-orbit entangled magnetic state bearing the effective total angular moment, J eff = 1/2.[1–3)] A new root for high-transition-temperature (high- T c) superconductivity is expected for iridate oxides.[4,5)] Accordingly, their magnetic excitations has received significant attention analogous to the spin dynamics of high- T c cuprate oxides. Resonant inelastic X-ray scattering (RIXS) is a powerful tool used to investigate magnetic excitations owing to its accessibility to high-energy regions even for small samples. The excitations of Sr2IrO4 and Sr3Ir2O7 comprise a single magnon branch below 300 meV and a novel high magnetic mode (spin-orbit exciton with J eff = 3/2) approximately 600 meV.[1–3)]\",\n      \"Inelastic neutron scattering (INS) that directly measures the dynamical structure factor, S( Q , ℏω), in the momentum ( Q ) and energy (ℏω) spaces is also an indispensable method for investigating spin dynamics. For cuprate oxides, INS provides a considerable amount of valuable information on magnetic excitations such as hourglass-shaped excitations[6,7)] and resonance excitations[8,9)] in the superconducting phase. In addition, f( Q ) determined after the evaluation of S( Q , ℏω) can yield information on orbital character[10)] and spin-orbit entangled excitations in iridate oxides. Herein, f( Q ) is the magnetic form factor that is a Fourier transform of spin density distribution in real space. However, INS measurement of iridium oxides is challenging owing to the significant neutron absorption cross-section of the iridium nuclei. Report of excitations exceeding 100 meV in iridate oxides by INS is scarce following our review of literature, whereas observation below ∼40 meV was recently achieved for monolayer Sr2IrO4.[11)] In this short note, we present an INS investigation of bilayer Sr3Ir2O7. By using high-energy neutrons with a reduced absorption effect, we observed a magnon branch existing between ∼80 meV and ∼ 180 meV, and verified the consistency in dispersion with that obtained by RIXS.\",\n      \"For the experiment, we prepared single crystals by the fluxmethod. The maximum size of the crystals was 2 mm × 2 mm × 1.5 mm. Approximately 500 crystals with a total mass of 2.1 grams were assembled on aluminum plates (with 0.1 mm thickness) such that the crystallographic c -axis is perpendicular to each plate. We performed INS measurements on 4 SEASONS at the Materials and Life Science Experimental Facility (MLF) at J-PARC, Japan. A 250 meV incident neutron energy ( E i) was selected to determine the magnon excitations below 200 meV. This E i with a chopper frequency of 250 Hz provided an energy resolution (∆ E ) of 12.6 meV at ℏω = 150 meV, which is better than ∆ E of ∼30 meV in RIXS measurements.[1–3)] The signals were collected for two days under 300 kW beam power operation at 6 K, that is significantly below the magnetic ordering temperature (∼280 K).[12)] To minimize the absorption effect, the crystals were placed with the c -axis parallel to the incident neutron beam. In this study, we use the tetragonal notation to describe the Miller index.\",\n      \"Figure 1 shows the spectra along the k -direction through (0.5, ± 0.5) corresponding to the antiferromagnetic (AF) zone center (ZC). An arch-shaped signal centered at k = 0 is observed in Fig. 1 (a). The spectra sliced at ℏω = 180 meV with an energy band of ± 10 meV (Fig. 1 (b)) shows a broad peak at k = 0. In decreasing ℏω, the signal splits into two peaks that are symmetric around k = 0, and the distance between the peaks increases. Thus, the dispersive branch was successfully detected by neutron scattering measurements with sufficient beam flux. The peak positions at ℏω = 80 meV are close to ZC (Fig. 1 (e)), and no visible magnetic signal below 70 meV was observed, indicating the existence of a large energy gap in the spin excitations.\",\n      \"From the figure, the scattering intensity for | k | > 0.5 is weak or absent, leading to the asymmetric spectra with respect to ZC ( k = ± 0.5). Although the cause of the intensity unbalance is unknown, f( Q ) can be damped rapidly against Q compared to that for cuprate oxides, owing to the extended nature of the 5 d orbitals. In fact, in the neighborhood of (1.5, 1.5), which is ZC with a large | Q | value, the magnon branch was not observed. Thus, the intensity unbalance could be due to a particular f( Q ), and determining the intensity distribution via further INS with the quantitative analysis can yield information on the orbital character.\",\n      \"To determine the gap energy at the AF zone boundary (ZB), we sliced the spectra at (0.25, 0.25) along the energy direction. (See Fig. 2.) For the comparison INS spectra at (0.90, 0.10), wherein the magnetic structure factor is weak, is shown as the background. The intensity around 100 meV is higher at (0.25, 0.25) than that at (0.90, 0.10). From the difference in the intensities at the two positions, the peak-energy in the spectra at (0.25, 0.25) was evaluated to be 107(8) meV. This energy is consistent with the results reported in RIXS.[3)] Note that the peaks at ∼170 meV are independent of Q and were observed even in the measurement without the crystals. Thus, this signal is background from outside the sample.\",\n      \"In Fig. 3, the momentum dependence of the peak-position and intensity are presented. The open (closed) circles represent the results obtained from the constant-momentum (constant-energy) spectra. The horizontal (vertical) bars for the open (closed) circles are the sliced momentum (energy) width of the spectra, and the vertical (horizontal) bars represent the evaluated peak-width in energy (momentum) in fullwidth at half-maximum. The peak positions follow a gray line representing the dispersion relation determined by RIXS. Figure 3 (b) shows the bare INS intensity that is not corrected with |f( Q )|[2] and the absorption coefficient depending on ℏω. Accordingly, the values have systematic ambiguities against the Q position. However, the overall trend including the intensity maximum (minimum) around ZC (ZB) can be compared with the results of RIXS.\",\n      \"From these results, we conclude the feasibility of the INS measurements on excitations in iridate oxides and that INS and RIXS detected identical excitations in the iridate oxides, as in the case of La2CuO4.[13)] Although we did not measure the spin-orbit exciton found at ∼600 meV, the present results inspire a future investigation of this excitation by neutron scattering. INS measurement with polarization analysis can extract information such as the fluctuating component of spins, interference of spin and lattice dynamics and the orbital characters. The present experiment is foundational for such studies on iridium oxides, especially carrier doped compounds.\",\n      \"In summary, we performed INS measurement on Sr3Ir2O7, and successfully, observed the excitations between ∼80 meV and ∼180 meV. The peak positions agree well with the dispersion of a single magnon observed using RIXS. Therefore, the high energy neutrons aids in the investigation of the magnetic excitations of iridate oxides in the region of a hundred meV.\",\n      \"The authors acknowledge K. Ishii and K. Tomiyasu for their useful remarks. The experiments at the Materials and Life Science Experimental Facility at J-PARC were performed under a user program (Proposal No. 2013A0052). M.F. is supported by a Grant-in-Aid for Scientific Research (A) (16H02125).\",\n      \"B. J. Kim, Hosub Jin, S. J. Moon, J.-Y. Kim, B.-G. Park, C. S. Leem, Jaejun Yu, T. W. Noh, C. Kim, S.-J. Oh, J.-H. Park, V. Durairaj, G. Cao, and E. Rotenberg, Phys. Rev. Lett. 101 , 076402 (2008).\",\n      \"B. J. Kim, H. Ohsumi, T. Komesu, S. Sakai, T. Morita, H. Takagi, and T. Arima, Science 323 , 1329 (2009).\",\n      \"Jungho Kim, A. H. Said, D. Casa, M. H. Upton, T. Gog, M. Daghofer, G. Jackeli, J. van den Brink, G. Khaliullin, and B. J. Kim, Phys. Rev. Lett. 109 , 157402 (2012).\",\n      \"Fa Wang and T. Senthil, Phys. Rev. Lett. 106 , 136402 (2011).\",\n      \"H. Watanabe, T. Shirakawa, and S. Yunoki, Phys. Rev. Lett. 110 , 027002 (2013).\",\n      \"M. Arai, T. Nishijima, Y. Endoh, T. Egami, S. Tajima, K. Tomimoto, Y. Shiohara, M. Takahashi, A. Garrett, and S. M. Bennington, Phys. Rev. Lett. 83 , 608 (1999).\",\n      \"J. M. Tranquada, H. Woo, T. G. Perring, H. Goka, G. D. Gu, G. Xu, M. Fujita, and K. Yamada, Nature 429 , 534 (2004).\",\n      \"J. Rossat-Mignod, L. P. Regnault, C. Vettier, P. Bourges, P. Burlet, J. Bossy, J. Y. Henry, and G. Lapertot, Physica C 185-189 , 86 (1991).\",\n      \"H.A.Mook, M.Yethiraj, G.Aeppli, T.E.Mason, and T.Armstrong, Phys. Rev. Lett. 70 , 3490 (1993).\",\n      \"Y. Itoh and J. Akimitsu, J. Phys. Soc. Jpn. 40 , 1333 (1976).\",\n      \"S. Calder, D. M. Pajerowski, M. B. Stone, and A. F. May, Phys. Rev. B 98 , 220402(R) (2018).\",\n      \"G. Cao, Y. Xin, C. S. Alexander, J. E. Crow, P. Schlottmann, M. K. Crawford, R. L. Harlow, and W. Marshall, Phys. Rev. B 66 , 214412 (2002).\",\n      \"L. Braicovich, J. van den Brink, V. Bisogni, M. Moretti Sala, L. J. P. Ament, N. B. Brookes, G. M. De Luca, M. Salluzzo, T. Schmitt, V. N. Strocov, and G. Ghiringhelli, Phys. Rev. Lett. 104 , 077002 (2010).\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Materials and Life Science Experimental Facility (MLF) at J-PARC\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Sr3Ir2O7 single crystals\",\n      \"sample_description\": \"Single crystals prepared by the flux method, maximum size 2 mm × 2 mm × 1.5 mm, total mass 2.1 grams.\",\n      \"chemical_composition\": \"Sr3Ir2O7\",\n      \"sample_state\": \"single crystal\",\n      \"sample_mass\": \"2.1 grams\",\n      \"supplier_or_creator\": \"prepared in house\"\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"INS spectra of Sr3Ir2O7\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Inelastic neutron scattering measurement of magnetic excitations between 80 meV and 180 meV.\",\n      \"measurement_technique\": \"inelastic neutron scattering\",\n      \"measurement_mode\": [\n        \"AngleScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 11505,
+    "output_tokens": 4052,
+    "latency_ms": 48148.02
+  },
+  "warnings": []
+}

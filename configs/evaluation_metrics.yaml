@@ -1,0 +1,82 @@
+version: 1.1.3
+
+schema_versions:
+  generic.json: 1.1.0
+  photon_and_neutron.json: 1.1.0
+
+scoring_plan:
+  bibliographic.title:            { metric: rouge_l }
+  bibliographic.subtitle:         { metric: rouge_l }
+  bibliographic.abstract:         { metric: rouge_l }
+  bibliographic.doi:              { metric: normalized_exact }
+  bibliographic.arxiv_id:         { metric: normalized_exact }
+  bibliographic.url:              { metric: normalized_exact }
+  bibliographic.publication_date: { metric: exact }
+  bibliographic.venue:            { metric: normalized_exact, normalizer: casefold }
+  bibliographic.publisher:        { metric: normalized_exact, normalizer: casefold }
+  bibliographic.language:         { metric: exact }
+  bibliographic.keywords:         { metric: set_f1, normalizer: casefold }
+
+  bibliographic.affiliations:
+    metric: entity
+    key_attrs: [text]
+    tau: 0.5
+    attrs:
+      label: { metric: normalized_exact }
+      text:  { metric: rouge_l }
+
+  bibliographic.authors:
+    metric: entity
+    key_attrs: [full_name]
+    key_normalizer: author_name_typography
+    tau: 0.5
+    attrs:
+      full_name:        { metric: normalized_exact, normalizer: author_name_typography }
+      orcid:            { metric: normalized_exact }
+      email:            { metric: normalized_exact }
+      is_corresponding: { metric: exact }
+      affiliation_refs: { metric: reference, target: bibliographic.affiliations }
+
+  bibliographic.funding:
+    metric: entity
+    matcher: funding_registry
+    attrs:
+      funder:   { metric: rouge_l }
+      grant_id: { metric: normalized_exact, normalizer: strip_id_prefix }
+
+  document_overview.section_headings:
+    metric: ordered_set_f1
+    normalizer: casefold
+  document_overview.has_references: { metric: exact }
+  document_overview.has_figures:    { metric: exact }
+  document_overview.has_tables:     { metric: exact }
+
+  facilities:
+    metric: entity
+    matcher: facility_staged
+    tau: 1.0
+    attrs:
+      name: { metric: rouge_l }
+
+  samples:
+    metric: entity
+    matcher: sample_registry
+    attrs:
+      sample_name:          { metric: rouge_l, normalizer: sample_formula_formatting }
+      chemical_composition: { metric: normalized_exact, normalizer: sample_formula_formatting }
+      sample_state:         { metric: normalized_exact, normalizer: casefold }
+      sample_mass:          { metric: normalized_exact }
+      sample_description:   { metric: rouge_l }
+      supplier_or_creator:  { metric: rouge_l }
+
+  datasets:
+    metric: entity
+    matcher: dataset_registry
+    attrs:
+      dataset_name:          { metric: rouge_l }
+      measurement_technique: { metric: rouge_l }
+      dataset_description:   { metric: rouge_l }
+      measurement_mode:      { metric: set_f1 }
+      purpose:               { metric: exact }
+      sample_refs:           { metric: reference, target: samples }
+      facility_refs:         { metric: reference, target: facilities }

@@ -1,0 +1,65 @@
+\begin{figure*}[t]
+\textbf{Paper-level field} (\texttt{bibliographic.title}):
+\begin{lstlisting}[style=codeblock]
+{
+  "title": {
+    "description": "Main title of the scientific document itself.",
+    "type": "string|null",
+    "cardinality": {
+      "min": 0,
+      "max": 1
+    },
+    "instructions": [
+      "Copy the document title verbatim as printed on the first page or running header. Preserve casing and punctuation."
+    ]
+  }
+}
+\end{lstlisting}
+\textbf{Entity with sub-schema} (\texttt{samples}, abridged):
+\begin{lstlisting}[style=codeblock]
+{
+  "samples": {
+    "description": "Samples studied through experimental measurements reported or reanalyzed in the document. A sample entry can represent a single specimen or a measured group when only the group is identified by the document.",
+    "type": "list[sample]",
+    "cardinality": {
+      "min": 0,
+      "max": 50
+    },
+    "instructions": [
+      "Follow this decision routine to determine sample entries.",
+      "..."
+    ],
+    "item_schema": {
+      "id": {
+        "type": "string",
+        "description": "Stable local sample identifier.",
+        "instructions": [
+          "Assign IDs in sequence: sample_1, sample_2, sample_3, etc.",
+          "..."
+        ]
+      },
+      "sample_name": {
+        "type": "string",
+        "description": "Name, label, or concise identifying phrase for the sample.",
+        "instructions": [
+          "Follow this decision routine to extract sample_name.",
+          "..."
+        ]
+      },
+      "...": "5 further subfields: sample_description, chemical_composition, sample_state, sample_mass, supplier_or_creator"
+    }
+  }
+}
+\end{lstlisting}
+  \caption{Two excerpts from the released two-layer schema: a paper-level
+  field shown in full, and an entity collection with
+  its \texttt{item\_schema} of subfields. Each field carries a
+  \texttt{description} and \texttt{type}; top-level fields also declare
+  a \texttt{cardinality}, and most fields carry an \texttt{instructions}
+  array (removed by the no-instruction ablation of
+  Section~\ref{sec:instruction-ablation}). The \texttt{samples} entry is
+  abridged: long instruction routines and the remaining subfields are
+  elided (marked \texttt{...}), and the complete schema with all
+  per-field definitions ships with the benchmark.}
+  \label{fig:schema-excerpt}
+\end{figure*}

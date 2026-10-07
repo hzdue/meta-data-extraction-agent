@@ -1,0 +1,379 @@
+{
+  "document_id": "2212.04169",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Structural changes in Ti1-xAlxN coatings during turning: A XANES and EXAFS study of worn tools",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Nanostructured Materials, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden"
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Seco Tools AB, 737 82 Fagersta, Sweden"
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "MAX IV Laboratory, Lund University, SE-221 00 Lund, Sweden"
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Thin Film Physics, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "L. Rogström",
+          "orcid": null,
+          "email": "lina.rogstrom@liu.se",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "M. Moreno",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "J. Andersson",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "M. Johansson-Jõesaar",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "M. Odén",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "K. Klementiev",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "L.-Å. Näslund",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "M. Magnuson",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        }
+      ],
+      "abstract": "Structural changes in Ti1-xAlxN coated tool inserts used for turning in 316L stainless steel were investigated by XANES, EXAFS, EDS, and STEM. For coarse-grained fcc-structured Ti1-xAlxN coatings, with 0≤x≤0.62, the XANES spectrum changes with Al-content. XANES Ti 1 s line-scans across the rake face of the worn samples reveals that TiN-enriched domains have formed during turning in Ti0.47Al0.53N and Ti0.38Al0.62N samples as a result of spinodal decomposition. The XANES spectra reveal the locations on the tool in which the most TiN-rich domains have formed, indicating which part of the tool-chip contact area that experienced the highest temperature during turning. Changes in the pre-edge features in the XANES spectra reveal that structural changes occur also in the w-TiAlN phase in fine-grained Ti0.38Al0.62N during turning. EDS shows that Cr and Fe from the steel adhere to the tool rake face during machining. Cr 1 s and Fe 1 s XANES show that Cr is oxidized in the end of the contact length while the adhered Fe retains in the same fcc-structure as that of the 316L stainless steel.",
+      "keywords": [
+        "TiAlN",
+        "XAS",
+        "XANES",
+        "Metal cutting",
+        "Hard coatings"
+      ],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": "2022",
+      "venue": "Applied Surface Science",
+      "publisher": "Elsevier",
+      "language": "en",
+      "funding": [
+        {
+          "funder": "Swedish Governmental Agency for Innovation Systems (Vinnova)",
+          "grant_id": "2018-04417"
+        },
+        {
+          "funder": "VINNOVA",
+          "grant_id": "2016-05156"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1. Introduction",
+        "2. Experimental details",
+        "2.1. Sample deposition and cutting tests",
+        "2.2. XANES and EXAFS",
+        "2.3. Microstructural characterization",
+        "3. Results and discussion",
+        "4. Conclusion"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "MAX IV Laboratory"
+      },
+      {
+        "id": "facility_2",
+        "name": "Balder beamline"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "TiN",
+        "sample_description": "Coarse-grained fcc-structured TiN coating.",
+        "chemical_composition": "TiN",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Ti0.77Al0.23N",
+        "sample_description": "Coarse-grained fcc-structured Ti0.77Al0.23N coating.",
+        "chemical_composition": "Ti0.77Al0.23N",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_3",
+        "sample_name": "Ti0.47Al0.53N",
+        "sample_description": "Coarse-grained fcc-structured Ti0.47Al0.53N coating.",
+        "chemical_composition": "Ti0.47Al0.53N",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_4",
+        "sample_name": "Ti0.38Al0.62N",
+        "sample_description": "Coarse-grained fcc-structured Ti0.38Al0.62N coating.",
+        "chemical_composition": "Ti0.38Al0.62N",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_5",
+        "sample_name": "Ti0.38Al0.62N - FG",
+        "sample_description": "Fine-grained Ti0.38Al0.62N coating with a mixture of fcc and wurtzite phases.",
+        "chemical_composition": "Ti0.38Al0.62N",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_6",
+        "sample_name": "MS-TiN",
+        "sample_description": "Magnetron sputtered single crystal reference TiN coating.",
+        "chemical_composition": "TiN",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_7",
+        "sample_name": "MS-Ti0.35Al0.65N",
+        "sample_description": "Magnetron sputtered single crystal reference fcc-Ti0.35Al0.65N coating.",
+        "chemical_composition": "Ti0.35Al0.65N",
+        "sample_state": "coating",
+        "sample_mass": null,
+        "supplier_or_creator": "prepared in house"
+      },
+      {
+        "id": "sample_8",
+        "sample_name": "316L stainless steel",
+        "sample_description": "Workpiece material used for turning tests.",
+        "chemical_composition": null,
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "Ti 1s XANES",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3",
+          "sample_4",
+          "sample_5"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "XANES spectra at the Ti 1s-edge measured across the rake face of worn Ti1-xAlxN coated tools to identify structural changes during turning.",
+        "measurement_technique": "XANES",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "Ti 1s EXAFS",
+        "sample_refs": [
+          "sample_1",
+          "sample_3",
+          "sample_4"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "EXAFS data at the Ti 1s absorption edge to determine interatomic distances in as-deposited and worn Ti1-xAlxN coatings.",
+        "measurement_technique": "EXAFS",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "Cr 1s XANES",
+        "sample_refs": [
+          "sample_1",
+          "sample_3"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "XANES spectra at the Cr 1s-edge to study oxidation states of adhered Cr from the workpiece material.",
+        "measurement_technique": "XANES",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_4",
+        "dataset_name": "Fe 1s XANES",
+        "sample_refs": [
+          "sample_1",
+          "sample_3"
+        ],
+        "facility_refs": [
+          "facility_1",
+          "facility_2"
+        ],
+        "dataset_description": "XANES spectra at the Fe 1s-edge to study the structure of adhered Fe from the workpiece material.",
+        "measurement_technique": "XANES",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_5",
+        "dataset_name": "EDS",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3",
+          "sample_4",
+          "sample_5"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Energy dispersive X-ray spectroscopy to determine elemental composition and distribution on the tool rake face.",
+        "measurement_technique": "EDS",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_6",
+        "dataset_name": "STEM",
+        "sample_refs": [
+          "sample_3",
+          "sample_4"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Scanning transmission electron microscopy to observe microstructural changes and spinodal decomposition in the crater region.",
+        "measurement_technique": "STEM",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_7",
+        "dataset_name": "XRD",
+        "sample_refs": [
+          "sample_1",
+          "sample_2",
+          "sample_3",
+          "sample_4",
+          "sample_5"
+        ],
+        "facility_refs": [],
+        "dataset_description": "X-ray diffraction to determine phase content and lattice parameters of as-deposited coatings.",
+        "measurement_technique": "XRD",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "```json\n{\n  \"bibliographic\": {\n    \"title\": \"Structural changes in Ti1-xAlxN coatings during turning: A XANES and EXAFS study of worn tools\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Nanostructured Materials, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Seco Tools AB, 737 82 Fagersta, Sweden\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"MAX IV Laboratory, Lund University, SE-221 00 Lund, Sweden\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Thin Film Physics, Dept. Physics, Chemistry and Biology (IFM), Linköping University, 581 83 Linköping, Sweden\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"L. Rogström\",\n        \"orcid\": null,\n        \"email\": \"lina.rogstrom@liu.se\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\"aff_1\"]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"M. Moreno\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_1\"]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"J. Andersson\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_2\"]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"M. Johansson-Jõesaar\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_2\"]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"M. Odén\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_1\"]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"K. Klementiev\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_3\"]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"L.-Å. Näslund\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_4\"]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"M. Magnuson\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\"aff_4\"]\n      }\n    ],\n    \"abstract\": \"Structural changes in Ti1-xAlxN coated tool inserts used for turning in 316L stainless steel were investigated by XANES, EXAFS, EDS, and STEM. For coarse-grained fcc-structured Ti1-xAlxN coatings, with 0≤x≤0.62, the XANES spectrum changes with Al-content. XANES Ti 1 s line-scans across the rake face of the worn samples reveals that TiN-enriched domains have formed during turning in Ti0.47Al0.53N and Ti0.38Al0.62N samples as a result of spinodal decomposition. The XANES spectra reveal the locations on the tool in which the most TiN-rich domains have formed, indicating which part of the tool-chip contact area that experienced the highest temperature during turning. Changes in the pre-edge features in the XANES spectra reveal that structural changes occur also in the w-TiAlN phase in fine-grained Ti0.38Al0.62N during turning. EDS shows that Cr and Fe from the steel adhere to the tool rake face during machining. Cr 1 s and Fe 1 s XANES show that Cr is oxidized in the end of the contact length while the adhered Fe retains in the same fcc-structure as that of the 316L stainless steel.\",\n    \"keywords\": [\n      \"TiAlN\",\n      \"XAS\",\n      \"XANES\",\n      \"Metal cutting\",\n      \"Hard coatings\"\n    ],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": \"2022\",\n    \"venue\": \"Applied Surface Science\",\n    \"publisher\": \"Elsevier\",\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"Swedish Governmental Agency for Innovation Systems (Vinnova)\",\n        \"grant_id\": \"2018-04417\"\n      },\n      {\n        \"funder\": \"VINNOVA\",\n        \"grant_id\": \"2016-05156\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1. Introduction\",\n      \"2. Experimental details\",\n      \"2.1. Sample deposition and cutting tests\",\n      \"2.2. XANES and EXAFS\",\n      \"2.3. Microstructural characterization\",\n      \"3. Results and discussion\",\n      \"4. Conclusion\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"MAX IV Laboratory\"\n    },\n    {\n      \"id\": \"facility_2\",\n      \"name\": \"Balder beamline\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"TiN\",\n      \"sample_description\": \"Coarse-grained fcc-structured TiN coating.\",\n      \"chemical_composition\": \"TiN\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_2\",\n      \"sample_name\": \"Ti0.77Al0.23N\",\n      \"sample_description\": \"Coarse-grained fcc-structured Ti0.77Al0.23N coating.\",\n      \"chemical_composition\": \"Ti0.77Al0.23N\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_3\",\n      \"sample_name\": \"Ti0.47Al0.53N\",\n      \"sample_description\": \"Coarse-grained fcc-structured Ti0.47Al0.53N coating.\",\n      \"chemical_composition\": \"Ti0.47Al0.53N\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_4\",\n      \"sample_name\": \"Ti0.38Al0.62N\",\n      \"sample_description\": \"Coarse-grained fcc-structured Ti0.38Al0.62N coating.\",\n      \"chemical_composition\": \"Ti0.38Al0.62N\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_5\",\n      \"sample_name\": \"Ti0.38Al0.62N - FG\",\n      \"sample_description\": \"Fine-grained Ti0.38Al0.62N coating with a mixture of fcc and wurtzite phases.\",\n      \"chemical_composition\": \"Ti0.38Al0.62N\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_6\",\n      \"sample_name\": \"MS-TiN\",\n      \"sample_description\": \"Magnetron sputtered single crystal reference TiN coating.\",\n      \"chemical_composition\": \"TiN\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_7\",\n      \"sample_name\": \"MS-Ti0.35Al0.65N\",\n      \"sample_description\": \"Magnetron sputtered single crystal reference fcc-Ti0.35Al0.65N coating.\",\n      \"chemical_composition\": \"Ti0.35Al0.65N\",\n      \"sample_state\": \"coating\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": \"prepared in house\"\n    },\n    {\n      \"id\": \"sample_8\",\n      \"sample_name\": \"316L stainless steel\",\n      \"sample_description\": \"Workpiece material used for turning tests.\",\n      \"chemical_composition\": null,\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"Ti 1s XANES\",\n      \"sample_refs\": [\"sample_1\", \"sample_2\", \"sample_3\", \"sample_4\", \"sample_5\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"XANES spectra at the Ti 1s-edge measured across the rake face of worn Ti1-xAlxN coated tools to identify structural changes during turning.\",\n      \"measurement_technique\": \"XANES\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"Ti 1s EXAFS\",\n      \"sample_refs\": [\"sample_1\", \"sample_3\", \"sample_4\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"EXAFS data at the Ti 1s absorption edge to determine interatomic distances in as-deposited and worn Ti1-xAlxN coatings.\",\n      \"measurement_technique\": \"EXAFS\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"Cr 1s XANES\",\n      \"sample_refs\": [\"sample_1\", \"sample_3\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"XANES spectra at the Cr 1s-edge to study oxidation states of adhered Cr from the workpiece material.\",\n      \"measurement_technique\": \"XANES\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_4\",\n      \"dataset_name\": \"Fe 1s XANES\",\n      \"sample_refs\": [\"sample_1\", \"sample_3\"],\n      \"facility_refs\": [\"facility_1\", \"facility_2\"],\n      \"dataset_description\": \"XANES spectra at the Fe 1s-edge to study the structure of adhered Fe from the workpiece material.\",\n      \"measurement_technique\": \"XANES\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_5\",\n      \"dataset_name\": \"EDS\",\n      \"sample_refs\": [\"sample_1\", \"sample_2\", \"sample_3\", \"sample_4\", \"sample_5\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Energy dispersive X-ray spectroscopy to determine elemental composition and distribution on the tool rake face.\",\n      \"measurement_technique\": \"EDS\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_6\",\n      \"dataset_name\": \"STEM\",\n      \"sample_refs\": [\"sample_3\", \"sample_4\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Scanning transmission electron microscopy to observe microstructural changes and spinodal decomposition in the crater region.\",\n      \"measurement_technique\": \"STEM\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_7\",\n      \"dataset_name\": \"XRD\",\n      \"sample_refs\": [\"sample_1\", \"sample_2\", \"sample_3\", \"sample_4\", \"sample_5\"],\n      \"facility_refs\": [],\n      \"dataset_description\": \"X-ray diffraction to determine phase content and lattice parameters of as-deposited coatings.\",\n      \"measurement_technique\": \"XRD\",\n      \"measurement_mode\": [\"Snapshot\"],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}\n```",
+  "provenance": {
+    "config_name": "pan_mistral_large3_full_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 21756,
+    "output_tokens": 3039,
+    "latency_ms": 41032.33
+  },
+  "warnings": []
+}

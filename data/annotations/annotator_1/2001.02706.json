@@ -1,0 +1,156 @@
+{
+  "bibliographic": {
+    "title": "Magnetic correlations in the disordered ferromagnetic alloy Ni-V revealed with small angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Kent State University, Kent OH 44242, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Institute of Standards and Technologies, NIST Center of Neutron Research, Gaithersburg MD 20899, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Schroeder",
+        "orcid": null,
+        "email": "aschroe2@kent.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S. Bhattarai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A Gebretsadik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "H. Adawi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J.-G. Lussier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "K. L. Krycka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We present small angle neutron scattering (SANS) data collected on polycrystalline Ni1-xVx samples with x ≥ 0.10 with confirmed random atomic distribution. We aim to determine the relevant length scales of magnetic correlations in ferromagnetic samples with low critical temperatures Tc that show signs of magnetic inhomogeneities in magnetization and μSR data. The SANS study reveals signatures of long-range order and coexistence of short-range magnetic correlations in this randomly disordered ferromagnetic alloy. We show the advantages of a polarization analysis in identifying the main magnetic contributions from the dominating nuclear scattering.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "2001.02706",
+    "url": null,
+    "publication_date": "2020-01-10",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Institute of Standards and Technology",
+        "grant_id": "DMR-1508249"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1508249"
+      },
+      {
+        "funder": "ICAM",
+        "grant_id": "QuantEmX grant"
+      },
+      {
+        "funder": "Gordon and Betty Moore Foundation",
+        "grant_id": "GBMF5305"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "HFIR"
+    },
+    {
+      "id": "facility_2",
+      "name": "NCNR"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni0.90V0.10",
+      "sample_description": "Polycrystalline sample wrapped in Al foil and mounted on Al- sample holder framed with Cd-mask and connected to the cold plate of the cryostat.",
+      "chemical_composition": "Ni0.90V0.10",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "SANS data collected at the GPSANS instrument at HFIR and the NG7SANS instrument at NCNR, with neutron wavelengths 0.55 nm and 0.75 nm over Q = (0.06–1) nm-1.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan",
+        "PolarizationScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

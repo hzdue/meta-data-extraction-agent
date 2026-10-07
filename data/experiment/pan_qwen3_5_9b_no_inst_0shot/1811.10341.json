@@ -1,0 +1,296 @@
+{
+  "document_id": "1811.10341",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "Local order in binary Ge-Te glasses – an experimental study",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff-1",
+          "label": "1",
+          "text": "Wigner Research Centre for Physics, Institute for Solid State Physics, H-1525 Budapest, POB 49, Hungary"
+        },
+        {
+          "id": "aff-2",
+          "label": "2",
+          "text": "Institut Charles Gerhardt, UMR 5253 CNRS, CC1503, Université de Montpellier, Pl. E. Bataillon, F-34095 Montpellier cedex 5, France"
+        },
+        {
+          "id": "aff-3",
+          "label": "3",
+          "text": "IFW Dresden, Institute for Complex Materials, 01171 Helmholtzstr. 20, 01069 Dresden, Germany"
+        },
+        {
+          "id": "aff-4",
+          "label": "4",
+          "text": "Diamond Light Source Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK"
+        },
+        {
+          "id": "aff-5",
+          "label": "5",
+          "text": "Laboratoire Léon Brillouin, CEA-Saclay 91191 Gif sur Yvette Cedex France"
+        },
+        {
+          "id": "aff-6",
+          "label": "6",
+          "text": "Deutsches Elektronen Synchrotron DESY, Notkestrasse 85, D-22603 Hamburg, Germany"
+        }
+      ],
+      "authors": [
+        {
+          "id": "auth-1",
+          "full_name": "P. Jóvári",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "auth-2",
+          "full_name": "A. Piarristeguy",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        },
+        {
+          "id": "auth-3",
+          "full_name": "A. Pradel",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "2"
+          ]
+        },
+        {
+          "id": "auth-4",
+          "full_name": "I. Pethes",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "1"
+          ]
+        },
+        {
+          "id": "auth-5",
+          "full_name": "I. Kaban",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "3"
+          ]
+        },
+        {
+          "id": "auth-6",
+          "full_name": "S. Michalik",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "4"
+          ]
+        },
+        {
+          "id": "auth-7",
+          "full_name": "J. Darpentigny",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "5"
+          ]
+        },
+        {
+          "id": "auth-8",
+          "full_name": "R. Chernikov",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "6"
+          ]
+        }
+      ],
+      "abstract": "The structure of Ge _x_ Te100- _x_ ( _x_ = 14.5, 18.7, 23.6) glasses prepared by twin roller quenching technique was investigated by neutron diffraction, X-ray diffraction and Ge-K-edge X-ray absorption spectroscopy measurements. Large scale structural models were obtained for each composition by fitting the experimental datasets in the framework of the reverse Monte Carlo technique. It was found that the majority of Ge and Te atoms satisfy the 8-N rule. Simulation results indicate that Ge-Ge bonding is not significant for _x_ = 14.5 and 18.7. The shape and position of the first peak of the Ge-Ge partial pair correlation function evidence the presence of corner sharing tetrahedra already in compositions ( _x_ = 14.5 and 18.7) where ’sharing’ of a Te atom by two Ge atoms could be avoided due to the low concentration of Ge.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": null,
+      "funding": [
+        {
+          "funder": "Agence Nationale de la Recherche (ANR)",
+          "grant_id": "ANR-11-BS08-0012"
+        },
+        {
+          "funder": "NKFIH (National Research, Development and Innovation Office)",
+          "grant_id": "SNN 116198"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "1. Introduction",
+        "2. Experimental",
+        "3. Simulation",
+        "4. Results and discussion",
+        "4.1. Ge-Ge bonds in Ge-Te glasses",
+        "4.2. Short range order parameters",
+        "4.3 Comparison with theoretical results",
+        "4.4. Corner sharing tetrahedra in Ge-Te glasses",
+        "Conclusions",
+        "Acknowledgements",
+        "References"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": true
+    },
+    "facilities": [
+      {
+        "id": "fac-1",
+        "name": "7C2 liquid and amorphous diffractometer"
+      },
+      {
+        "id": "fac-2",
+        "name": "LLB (Saclay, France)"
+      },
+      {
+        "id": "fac-3",
+        "name": "Joint Engineering, Environmental and Processing (I12-JEEP) beamline"
+      },
+      {
+        "id": "fac-4",
+        "name": "Diamond Light Source Ltd"
+      },
+      {
+        "id": "fac-5",
+        "name": "beamline P65 of PETRA III synchrotron storage ring"
+      },
+      {
+        "id": "fac-6",
+        "name": "PETRA III"
+      },
+      {
+        "id": "fac-7",
+        "name": "ORPHÉE reactor, Laboratoire Léon Brillouin, CEA-Saclay, France"
+      },
+      {
+        "id": "fac-8",
+        "name": "DESY"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample-1",
+        "sample_name": "Ge14.5Te85.5",
+        "sample_description": "Binary Ge-Te glass prepared by twin roller quenching technique",
+        "chemical_composition": "Ge14.5Te85.5",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "sample-2",
+        "sample_name": "Ge18.7Te81.3",
+        "sample_description": "Binary Ge-Te glass prepared by twin roller quenching technique",
+        "chemical_composition": "Ge18.7Te81.3",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "sample-3",
+        "sample_name": "Ge23.6Te76.4",
+        "sample_description": "Binary Ge-Te glass prepared by twin roller quenching technique",
+        "chemical_composition": "Ge23.6Te76.4",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset-1",
+        "dataset_name": "Neutron diffraction data",
+        "sample_refs": [
+          "sample-1",
+          "sample-2",
+          "sample-3"
+        ],
+        "facility_refs": [
+          "fac-1",
+          "fac-2"
+        ],
+        "dataset_description": "Neutron diffraction data collected at the 7C2 liquid and amorphous diffractometer of LLB (Saclay, France) for Ge-Te glasses.",
+        "measurement_technique": "Neutron diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset-2",
+        "dataset_name": "X-ray diffraction data",
+        "sample_refs": [
+          "sample-1",
+          "sample-2",
+          "sample-3"
+        ],
+        "facility_refs": [
+          "fac-3",
+          "fac-4"
+        ],
+        "dataset_description": "X-ray diffraction data collected at the I12-JEEP beamline at Diamond Light Source Ltd (UK) for Ge-Te glasses.",
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset-3",
+        "dataset_name": "Ge K-edge EXAFS data",
+        "sample_refs": [
+          "sample-1",
+          "sample-2",
+          "sample-3"
+        ],
+        "facility_refs": [
+          "fac-5",
+          "fac-6"
+        ],
+        "dataset_description": "Ge K-edge EXAFS data collected at beamline P65 of PETRA III synchrotron storage ring (Hamburg, Germany) for Ge-Te glasses.",
+        "measurement_technique": "X-ray absorption spectroscopy",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"Local order in binary Ge-Te glasses – an experimental study\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff-1\",\n        \"label\": \"1\",\n        \"text\": \"Wigner Research Centre for Physics, Institute for Solid State Physics, H-1525 Budapest, POB 49, Hungary\"\n      },\n      {\n        \"id\": \"aff-2\",\n        \"label\": \"2\",\n        \"text\": \"Institut Charles Gerhardt, UMR 5253 CNRS, CC1503, Université de Montpellier, Pl. E. Bataillon, F-34095 Montpellier cedex 5, France\"\n      },\n      {\n        \"id\": \"aff-3\",\n        \"label\": \"3\",\n        \"text\": \"IFW Dresden, Institute for Complex Materials, 01171 Helmholtzstr. 20, 01069 Dresden, Germany\"\n      },\n      {\n        \"id\": \"aff-4\",\n        \"label\": \"4\",\n        \"text\": \"Diamond Light Source Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK\"\n      },\n      {\n        \"id\": \"aff-5\",\n        \"label\": \"5\",\n        \"text\": \"Laboratoire Léon Brillouin, CEA-Saclay 91191 Gif sur Yvette Cedex France\"\n      },\n      {\n        \"id\": \"aff-6\",\n        \"label\": \"6\",\n        \"text\": \"Deutsches Elektronen Synchrotron DESY, Notkestrasse 85, D-22603 Hamburg, Germany\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"auth-1\",\n        \"full_name\": \"P. Jóvári\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"auth-2\",\n        \"full_name\": \"A. Piarristeguy\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      },\n      {\n        \"id\": \"auth-3\",\n        \"full_name\": \"A. Pradel\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"2\"\n        ]\n      },\n      {\n        \"id\": \"auth-4\",\n        \"full_name\": \"I. Pethes\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"1\"\n        ]\n      },\n      {\n        \"id\": \"auth-5\",\n        \"full_name\": \"I. Kaban\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"3\"\n        ]\n      },\n      {\n        \"id\": \"auth-6\",\n        \"full_name\": \"S. Michalik\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"4\"\n        ]\n      },\n      {\n        \"id\": \"auth-7\",\n        \"full_name\": \"J. Darpentigny\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"5\"\n        ]\n      },\n      {\n        \"id\": \"auth-8\",\n        \"full_name\": \"R. Chernikov\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"6\"\n        ]\n      }\n    ],\n    \"abstract\": \"The structure of Ge _x_ Te100- _x_ ( _x_ = 14.5, 18.7, 23.6) glasses prepared by twin roller quenching technique was investigated by neutron diffraction, X-ray diffraction and Ge-K-edge X-ray absorption spectroscopy measurements. Large scale structural models were obtained for each composition by fitting the experimental datasets in the framework of the reverse Monte Carlo technique. It was found that the majority of Ge and Te atoms satisfy the 8-N rule. Simulation results indicate that Ge-Ge bonding is not significant for _x_ = 14.5 and 18.7. The shape and position of the first peak of the Ge-Ge partial pair correlation function evidence the presence of corner sharing tetrahedra already in compositions ( _x_ = 14.5 and 18.7) where ’sharing’ of a Te atom by two Ge atoms could be avoided due to the low concentration of Ge.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": null,\n    \"funding\": [\n      {\n        \"funder\": \"Agence Nationale de la Recherche (ANR)\",\n        \"grant_id\": \"ANR-11-BS08-0012\"\n      },\n      {\n        \"funder\": \"NKFIH (National Research, Development and Innovation Office)\",\n        \"grant_id\": \"SNN 116198\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"1. Introduction\",\n      \"2. Experimental\",\n      \"3. Simulation\",\n      \"4. Results and discussion\",\n      \"4.1. Ge-Ge bonds in Ge-Te glasses\",\n      \"4.2. Short range order parameters\",\n      \"4.3 Comparison with theoretical results\",\n      \"4.4. Corner sharing tetrahedra in Ge-Te glasses\",\n      \"Conclusions\",\n      \"Acknowledgements\",\n      \"References\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": true\n  },\n  \"facilities\": [\n    {\n      \"id\": \"fac-1\",\n      \"name\": \"7C2 liquid and amorphous diffractometer\"\n    },\n    {\n      \"id\": \"fac-2\",\n      \"name\": \"LLB (Saclay, France)\"\n    },\n    {\n      \"id\": \"fac-3\",\n      \"name\": \"Joint Engineering, Environmental and Processing (I12-JEEP) beamline\"\n    },\n    {\n      \"id\": \"fac-4\",\n      \"name\": \"Diamond Light Source Ltd\"\n    },\n    {\n      \"id\": \"fac-5\",\n      \"name\": \"beamline P65 of PETRA III synchrotron storage ring\"\n    },\n    {\n      \"id\": \"fac-6\",\n      \"name\": \"PETRA III\"\n    },\n    {\n      \"id\": \"fac-7\",\n      \"name\": \"ORPHÉE reactor, Laboratoire Léon Brillouin, CEA-Saclay, France\"\n    },\n    {\n      \"id\": \"fac-8\",\n      \"name\": \"DESY\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample-1\",\n      \"sample_name\": \"Ge14.5Te85.5\",\n      \"sample_description\": \"Binary Ge-Te glass prepared by twin roller quenching technique\",\n      \"chemical_composition\": \"Ge14.5Te85.5\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    },\n    {\n      \"id\": \"sample-2\",\n      \"sample_name\": \"Ge18.7Te81.3\",\n      \"sample_description\": \"Binary Ge-Te glass prepared by twin roller quenching technique\",\n      \"chemical_composition\": \"Ge18.7Te81.3\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    },\n    {\n      \"id\": \"sample-3\",\n      \"sample_name\": \"Ge23.6Te76.4\",\n      \"sample_description\": \"Binary Ge-Te glass prepared by twin roller quenching technique\",\n      \"chemical_composition\": \"Ge23.6Te76.4\",\n      \"sample_state\": null,\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset-1\",\n      \"dataset_name\": \"Neutron diffraction data\",\n      \"sample_refs\": [\n        \"sample-1\",\n        \"sample-2\",\n        \"sample-3\"\n      ],\n      \"facility_refs\": [\n        \"fac-1\",\n        \"fac-2\"\n      ],\n      \"dataset_description\": \"Neutron diffraction data collected at the 7C2 liquid and amorphous diffractometer of LLB (Saclay, France) for Ge-Te glasses.\",\n      \"measurement_technique\": \"Neutron diffraction\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset-2\",\n      \"dataset_name\": \"X-ray diffraction data\",\n      \"sample_refs\": [\n        \"sample-1\",\n        \"sample-2\",\n        \"sample-3\"\n      ],\n      \"facility_refs\": [\n        \"fac-3\",\n        \"fac-4\"\n      ],\n      \"dataset_description\": \"X-ray diffraction data collected at the I12-JEEP beamline at Diamond Light Source Ltd (UK) for Ge-Te glasses.\",\n      \"measurement_technique\": \"X-ray diffraction\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset-3\",\n      \"dataset_name\": \"Ge K-edge EXAFS data\",\n      \"sample_refs\": [\n        \"sample-1\",\n        \"sample-2\",\n        \"sample-3\"\n      ],\n      \"facility_refs\": [\n        \"fac-5\",\n        \"fac-6\"\n      ],\n      \"dataset_description\": \"Ge K-edge EXAFS data collected at beamline P65 of PETRA III synchrotron storage ring (Hamburg, Germany) for Ge-Te glasses.\",\n      \"measurement_technique\": \"X-ray absorption spectroscopy\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_9b_no_inst_0shot",
+    "prompt_version": "1.1.0",
+    "schemas": {
+      "generic_no_instructions.json": "1.1.0",
+      "photon_and_neutron_no_instructions.json": "1.1.0"
+    },
+    "input_tokens": 14019,
+    "output_tokens": 2592,
+    "latency_ms": 31485.34
+  },
+  "warnings": []
+}

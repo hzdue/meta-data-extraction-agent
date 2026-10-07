@@ -1,0 +1,271 @@
+{
+  "document_id": "2407.10282",
+  "domain_name": "photon_and_neutron",
+  "output": {
+    "bibliographic": {
+      "title": "High-speed synchrotron X-ray imaging of melt pool dynamics during ultrasonic melt processing of Al6061",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": "1",
+          "text": "Engineering Science and Mechanics, The Pennsylvania State University, 212 Earth and Engineering Sciences Building, University Park, 16802, PA, USA."
+        },
+        {
+          "id": "aff_2",
+          "label": "2",
+          "text": "Materials Science and Engineering, University of Virginia, Wilsdorf Hall, 395 McCormick Road, Charlottesville, 22904, Virginia, USA."
+        },
+        {
+          "id": "aff_3",
+          "label": "3",
+          "text": "X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, IL, 60439, USA."
+        },
+        {
+          "id": "aff_4",
+          "label": "4",
+          "text": "Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, CA, USA."
+        },
+        {
+          "id": "aff_5",
+          "label": "5",
+          "text": "Applied Research Laboratory, The Pennsylvania State University, 230 Innovation Blvd, University Park, 16802, PA, USA."
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "Lovejoy Mutswatiwa",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_2",
+          "full_name": "Lauren Katch",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_3",
+          "full_name": "Nathan John Kizer",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_4",
+          "full_name": "Judith Anne Todd",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_5",
+          "full_name": "Tao Sun",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_2"
+          ]
+        },
+        {
+          "id": "author_6",
+          "full_name": "Samuel James Clark",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_7",
+          "full_name": "Kamel Fezzaa",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_3"
+          ]
+        },
+        {
+          "id": "author_8",
+          "full_name": "Jordan Lum",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_9",
+          "full_name": "David Matthew Stobbe",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_4"
+          ]
+        },
+        {
+          "id": "author_10",
+          "full_name": "Griffin Jones",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_5"
+          ]
+        },
+        {
+          "id": "author_11",
+          "full_name": "Kenneth Charles Meinert Jr.",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_5"
+          ]
+        },
+        {
+          "id": "author_12",
+          "full_name": "Andrea Paola Argüelles",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        },
+        {
+          "id": "author_13",
+          "full_name": "Christopher Micheal Kube",
+          "orcid": null,
+          "email": "kube@psu.edu",
+          "is_corresponding": true,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": "Ultrasonic processing of solidifying metals in additive manufacturing can provide grain refinement and advantageous mechanical properties. However, the specific physical mechanisms of microstructural refinement relevant to laser-based additive manufacturing have not been directly observed because of sub-millimeter length scales and rapid solidification rates associated with melt pools. Here, high-speed synchrotron X-ray imaging is used to observe the effect of ultrasonic vibration directly on melt pool dynamics and solidification of Al6061 alloy. The high temporal and spatial resolution enabled direct observation of cavitation effects driven by a 20.2 kHz ultrasonic source. We utilized multiphysics simulations to validate the postulated connection between ultrasonic treatment and solidification. The X-ray results show a decrease in melt pool and keyhole depth fluctuations during melting and promotion of pore migration toward the melt pool surface with applied sonication. Additionally, the simulation results reveal increased localized melt pool flow velocity, cooling rates, and thermal gradients with applied sonication. This work shows how ultrasonic treatment can impact melt pools and its potential for improving part quality.",
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": "en",
+      "funding": [
+        {
+          "funder": "US DOE LLNL-LDRD",
+          "grant_id": "23-ERD-009"
+        }
+      ]
+    },
+    "document_overview": {
+      "section_headings": [
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Methods"
+      ],
+      "has_references": true,
+      "has_figures": true,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Advanced Photon Source"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Al6061",
+        "sample_description": "Al6061 alloy samples with a length of 20 mm, a height of 12 mm, and a thickness of 1.5 mm.",
+        "chemical_composition": "Al6061",
+        "sample_state": "bulk",
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "high-speed synchrotron X-ray imaging",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": "Single-pulse X-ray images collected at a rate of 50 kHz with a spatial resolution of 2 µm/pixel to observe melt pool dynamics, cavitation bubble dynamics, and solidification.",
+        "measurement_technique": "X-ray imaging",
+        "measurement_mode": [
+          "TimeScan"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_2",
+        "dataset_name": "X-ray computed tomography",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "X-ray computed tomography scan conducted with a Zeiss Xradia Versa 620 CT system using a source accelerating voltage of 80 kV and a voxel size of 1.5 µm to characterize the final solidification structure.",
+        "measurement_technique": "X-ray computed tomography",
+        "measurement_mode": [
+          "Snapshot"
+        ],
+        "purpose": "measurement"
+      },
+      {
+        "id": "dataset_3",
+        "dataset_name": "electron backscattered diffraction",
+        "sample_refs": [
+          "sample_1"
+        ],
+        "facility_refs": [],
+        "dataset_description": "Electron backscattered diffraction patterns obtained using an Oxford scanning electron microscope with a 1.5-micron step size to analyze microstructures and crystallographic orientations.",
+        "measurement_technique": "electron backscattered diffraction",
+        "measurement_mode": [
+          "PositionScan"
+        ],
+        "purpose": "measurement"
+      }
+    ]
+  },
+  "raw_output": "{\n  \"bibliographic\": {\n    \"title\": \"High-speed synchrotron X-ray imaging of melt pool dynamics during ultrasonic melt processing of Al6061\",\n    \"subtitle\": null,\n    \"affiliations\": [\n      {\n        \"id\": \"aff_1\",\n        \"label\": \"1\",\n        \"text\": \"Engineering Science and Mechanics, The Pennsylvania State University, 212 Earth and Engineering Sciences Building, University Park, 16802, PA, USA.\"\n      },\n      {\n        \"id\": \"aff_2\",\n        \"label\": \"2\",\n        \"text\": \"Materials Science and Engineering, University of Virginia, Wilsdorf Hall, 395 McCormick Road, Charlottesville, 22904, Virginia, USA.\"\n      },\n      {\n        \"id\": \"aff_3\",\n        \"label\": \"3\",\n        \"text\": \"X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, IL, 60439, USA.\"\n      },\n      {\n        \"id\": \"aff_4\",\n        \"label\": \"4\",\n        \"text\": \"Lawrence Livermore National Laboratory, 7000 East Ave, Livermore, 94550, CA, USA.\"\n      },\n      {\n        \"id\": \"aff_5\",\n        \"label\": \"5\",\n        \"text\": \"Applied Research Laboratory, The Pennsylvania State University, 230 Innovation Blvd, University Park, 16802, PA, USA.\"\n      }\n    ],\n    \"authors\": [\n      {\n        \"id\": \"author_1\",\n        \"full_name\": \"Lovejoy Mutswatiwa\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_2\",\n        \"full_name\": \"Lauren Katch\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_3\",\n        \"full_name\": \"Nathan John Kizer\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_4\",\n        \"full_name\": \"Judith Anne Todd\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_5\",\n        \"full_name\": \"Tao Sun\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_2\"\n        ]\n      },\n      {\n        \"id\": \"author_6\",\n        \"full_name\": \"Samuel James Clark\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_7\",\n        \"full_name\": \"Kamel Fezzaa\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_3\"\n        ]\n      },\n      {\n        \"id\": \"author_8\",\n        \"full_name\": \"Jordan Lum\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_9\",\n        \"full_name\": \"David Matthew Stobbe\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_4\"\n        ]\n      },\n      {\n        \"id\": \"author_10\",\n        \"full_name\": \"Griffin Jones\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_5\"\n        ]\n      },\n      {\n        \"id\": \"author_11\",\n        \"full_name\": \"Kenneth Charles Meinert Jr.\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_5\"\n        ]\n      },\n      {\n        \"id\": \"author_12\",\n        \"full_name\": \"Andrea Paola Argüelles\",\n        \"orcid\": null,\n        \"email\": null,\n        \"is_corresponding\": false,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      },\n      {\n        \"id\": \"author_13\",\n        \"full_name\": \"Christopher Micheal Kube\",\n        \"orcid\": null,\n        \"email\": \"kube@psu.edu\",\n        \"is_corresponding\": true,\n        \"affiliation_refs\": [\n          \"aff_1\"\n        ]\n      }\n    ],\n    \"abstract\": \"Ultrasonic processing of solidifying metals in additive manufacturing can provide grain refinement and advantageous mechanical properties. However, the specific physical mechanisms of microstructural refinement relevant to laser-based additive manufacturing have not been directly observed because of sub-millimeter length scales and rapid solidification rates associated with melt pools. Here, high-speed synchrotron X-ray imaging is used to observe the effect of ultrasonic vibration directly on melt pool dynamics and solidification of Al6061 alloy. The high temporal and spatial resolution enabled direct observation of cavitation effects driven by a 20.2 kHz ultrasonic source. We utilized multiphysics simulations to validate the postulated connection between ultrasonic treatment and solidification. The X-ray results show a decrease in melt pool and keyhole depth fluctuations during melting and promotion of pore migration toward the melt pool surface with applied sonication. Additionally, the simulation results reveal increased localized melt pool flow velocity, cooling rates, and thermal gradients with applied sonication. This work shows how ultrasonic treatment can impact melt pools and its potential for improving part quality.\",\n    \"keywords\": [],\n    \"doi\": null,\n    \"arxiv_id\": null,\n    \"url\": null,\n    \"publication_date\": null,\n    \"venue\": null,\n    \"publisher\": null,\n    \"language\": \"en\",\n    \"funding\": [\n      {\n        \"funder\": \"US DOE LLNL-LDRD\",\n        \"grant_id\": \"23-ERD-009\"\n      }\n    ]\n  },\n  \"document_overview\": {\n    \"section_headings\": [\n      \"Introduction\",\n      \"Results\",\n      \"Discussion\",\n      \"Methods\"\n    ],\n    \"has_references\": true,\n    \"has_figures\": true,\n    \"has_tables\": false\n  },\n  \"facilities\": [\n    {\n      \"id\": \"facility_1\",\n      \"name\": \"Advanced Photon Source\"\n    }\n  ],\n  \"samples\": [\n    {\n      \"id\": \"sample_1\",\n      \"sample_name\": \"Al6061\",\n      \"sample_description\": \"Al6061 alloy samples with a length of 20 mm, a height of 12 mm, and a thickness of 1.5 mm.\",\n      \"chemical_composition\": \"Al6061\",\n      \"sample_state\": \"bulk\",\n      \"sample_mass\": null,\n      \"supplier_or_creator\": null\n    }\n  ],\n  \"datasets\": [\n    {\n      \"id\": \"dataset_1\",\n      \"dataset_name\": \"high-speed synchrotron X-ray imaging\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [\n        \"facility_1\"\n      ],\n      \"dataset_description\": \"Single-pulse X-ray images collected at a rate of 50 kHz with a spatial resolution of 2 µm/pixel to observe melt pool dynamics, cavitation bubble dynamics, and solidification.\",\n      \"measurement_technique\": \"X-ray imaging\",\n      \"measurement_mode\": [\n        \"TimeScan\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_2\",\n      \"dataset_name\": \"X-ray computed tomography\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"X-ray computed tomography scan conducted with a Zeiss Xradia Versa 620 CT system using a source accelerating voltage of 80 kV and a voxel size of 1.5 µm to characterize the final solidification structure.\",\n      \"measurement_technique\": \"X-ray computed tomography\",\n      \"measurement_mode\": [\n        \"Snapshot\"\n      ],\n      \"purpose\": \"measurement\"\n    },\n    {\n      \"id\": \"dataset_3\",\n      \"dataset_name\": \"electron backscattered diffraction\",\n      \"sample_refs\": [\n        \"sample_1\"\n      ],\n      \"facility_refs\": [],\n      \"dataset_description\": \"Electron backscattered diffraction patterns obtained using an Oxford scanning electron microscope with a 1.5-micron step size to analyze microstructures and crystallographic orientations.\",\n      \"measurement_technique\": \"electron backscattered diffraction\",\n      \"measurement_mode\": [\n        \"PositionScan\"\n      ],\n      \"purpose\": \"measurement\"\n    }\n  ]\n}",
+  "provenance": {
+    "config_name": "pan_qwen3.5_27b_full_3shot",
+    "prompt_version": "1.2.0",
+    "schemas": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "input_tokens": 87204,
+    "output_tokens": 2314,
+    "latency_ms": 119497.36
+  },
+  "warnings": []
+}
