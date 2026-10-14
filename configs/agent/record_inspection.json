@@ -1,0 +1,117 @@
+{
+  "mode": "synthetic_offline",
+  "run_id": "m06-20261007-patch-v1",
+  "source": {
+    "path": "tests/agent/fixtures/m06_source.md",
+    "sha256": "a7f2c455d3f1cb10a47c6e3865bbc4e0bd6e288ce8ff6bae1b72fab8eb619996"
+  },
+  "record": {
+    "path": "tests/agent/fixtures/m06_record.json",
+    "sha256": "3d320cd9b8e9d59e5b8decc82d6354b357d8f688af7bf01acbce7aefe8d127db"
+  },
+  "schema_names": [
+    "generic.json",
+    "photon_and_neutron.json"
+  ],
+  "targets": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "spans": [
+        {
+          "start": 110,
+          "end": 287
+        },
+        {
+          "start": 288,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "spans": [
+        {
+          "start": 110,
+          "end": 287
+        },
+        {
+          "start": 288,
+          "end": 462
+        }
+      ]
+    }
+  ],
+  "before_response": {
+    "path": "tests/agent/fixtures/m06_before_response.json",
+    "sha256": "fa22367fa8050f8185fa950a0932d6ed6d5ccdebbdb1bc22c1dced2c47840ab7"
+  },
+  "patch": {
+    "expected_revision": "revision:09c4b6412d9cdbfd608cdd40341d8c5e5960a5af5a72e7b30400583726372c83",
+    "operations": [
+      {
+        "op": "replace_scalar",
+        "path": "/datasets/0/dataset_description",
+        "expected_value_json": "\"Measured at 500 K.\"",
+        "replacement_value_json": "\"Measured at 300 K.\""
+      },
+      {
+        "op": "replace_scalar",
+        "path": "/datasets/0/sample_refs/0",
+        "expected_value_json": "\"sample_2\"",
+        "replacement_value_json": "\"sample_1\""
+      }
+    ],
+    "provenance": "synthetic_fixture",
+    "summary": "Invented correction of preparation/acquisition confusion and a swapped sample attachment."
+  },
+  "patch_policy": {
+    "accept_model_judgments": true,
+    "max_operations": 2
+  },
+  "after_targets": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "spans": [
+        {
+          "start": 110,
+          "end": 287
+        },
+        {
+          "start": 288,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "spans": [
+        {
+          "start": 110,
+          "end": 287
+        },
+        {
+          "start": 288,
+          "end": 462
+        }
+      ]
+    },
+    {
+      "path": "/datasets/0/facility_refs/0",
+      "spans": [
+        {
+          "start": 110,
+          "end": 287
+        },
+        {
+          "start": 288,
+          "end": 462
+        }
+      ]
+    }
+  ],
+  "after_response": {
+    "path": "tests/agent/fixtures/m06_after_response.json",
+    "sha256": "3baf0db01b96da5ffb55d807c5f3533b62a0d65bc0a9ae28373e3d64abc7f0e2"
+  },
+  "raw_retention": "retain"
+}

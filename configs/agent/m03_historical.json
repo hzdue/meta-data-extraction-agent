@@ -1,0 +1,71 @@
+{
+  "version": "m03-split-1",
+  "experiment_id": "m03-e03-historical",
+  "description": "Offline scorer reproducibility on one preselected historical publication; no inference or runtime tuning.",
+  "primary_outcome": "Exact semantic parity with each released per-document report, excluding only file-path provenance.",
+  "variants": [
+    "pan_gpt4o_full_0shot",
+    "pan_gpt4o_no_inst_0shot"
+  ],
+  "publications": [
+    {
+      "publication_id": "1804.07163",
+      "aliases": [],
+      "derived_from": null,
+      "split": "historical",
+      "data_kind": "natural",
+      "sources": [],
+      "gold": {
+        "path": "data/gold/1804.07163.json",
+        "sha256": "ebb99e39e2c4606c6a551cbcd5b849ee964c0809c365a3cc74a56471d9794a73"
+      },
+      "identity_gold": null,
+      "predictions": [
+        {
+          "variant": "pan_gpt4o_full_0shot",
+          "status": "ready",
+          "artifact": {
+            "path": "data/experiment/pan_gpt4o_full_0shot/1804.07163.json",
+            "sha256": "968d301289b65134fc22f1b92f418c6b5e7740b556a6b9bfaf905a085ae3af0c"
+          },
+          "sidecar": null,
+          "reference_report": {
+            "path": "outputs/evaluation/pan_gpt4o_full_0shot/1804.07163_evaluation.json",
+            "sha256": "b06ff85800621223c645ffc905a48dacce8193d4260647570d49e87140b738ce"
+          },
+          "failure_code": null,
+          "execution_mode": "unknown",
+          "request_count": null,
+          "input_tokens": null,
+          "output_tokens": null,
+          "latency_ms": null,
+          "cost": null
+        },
+        {
+          "variant": "pan_gpt4o_no_inst_0shot",
+          "status": "ready",
+          "artifact": {
+            "path": "data/experiment/pan_gpt4o_no_inst_0shot/1804.07163.json",
+            "sha256": "2873ee98cd289e3eb8869d44f95bb98def622e8b12fbd034a47d692b2a27e191"
+          },
+          "sidecar": null,
+          "reference_report": {
+            "path": "outputs/evaluation/pan_gpt4o_no_inst_0shot/1804.07163_evaluation.json",
+            "sha256": "66564fb0bfc8d8e20c7fc83ed46237f05c615a1b111f65f600dbaf9e1503b998"
+          },
+          "failure_code": null,
+          "execution_mode": "unknown",
+          "request_count": null,
+          "input_tokens": null,
+          "output_tokens": null,
+          "latency_ms": null,
+          "cost": null
+        }
+      ],
+      "alignment_status": "frozen_historical",
+      "blocked_collections": []
+    }
+  ],
+  "split_notes": "Selected by metadata before scoring. Both variants are one publication, not independent papers. Corpus registry data/corpus.json SHA256 0af897afeb96f48b0dbdd81cbbbaac4bf035471cc5624f0f07d58d5fc5171816 contains 10 calibration and 30 historical evaluation publications. No calibration predictions exist. Undeclared preprint/duplicate identity requires curator review.",
+  "held_out_policy": "Historical replay only. No future-held-out gold authorized; never use these offline judgments to tune a supposedly frozen extraction method."
+}

@@ -1,0 +1,97 @@
+{
+  "bibliographic": {
+    "title": "Synthetic M06 attachment study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Synthetic Institute"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Example",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": null,
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": null,
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": false,
+    "has_figures": false,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Synthetic Beam Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sample A",
+      "sample_description": "Annealed at 500 K before measurement.",
+      "chemical_composition": "CaCO3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sample B",
+      "sample_description": "Annealed at 700 K before measurement.",
+      "chemical_composition": "CaCO3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Dataset A",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measured at 500 K.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": null
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Dataset B",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measured at 100 K.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": null
+    }
+  ]
+}

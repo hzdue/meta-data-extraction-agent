@@ -1,0 +1,29 @@
+{
+  "mode": "synthetic_offline",
+  "run_id": "m07-20261007-fixed-v1",
+  "policy": "fixed",
+  "seed": {
+    "path": "configs/agent/record_inspection.json",
+    "sha256": "55b06250c3c6ec06d8e720b82d6271054d1897a42fa98f9f9bc0562f1b8e8852"
+  },
+  "checker_responses": [
+    {
+      "path": "tests/agent/fixtures/m07_checker_before.json",
+      "sha256": "fa22367fa8050f8185fa950a0932d6ed6d5ccdebbdb1bc22c1dced2c47840ab7"
+    },
+    {
+      "path": "tests/agent/fixtures/m07_checker_after.json",
+      "sha256": "8bbd29633d5e736fa55e06d8a16afa94cdb8ec00d4244110579733ef43d53599"
+    }
+  ],
+  "policy_responses": [],
+  "budget": {
+    "total_actions": 12,
+    "per_issue_actions": 5,
+    "max_model_calls": 8,
+    "no_progress_limit": 2,
+    "timeout_seconds": 120,
+    "unknown_usage": "allow_bounded_calls"
+  },
+  "raw_retention": "hash_only"
+}

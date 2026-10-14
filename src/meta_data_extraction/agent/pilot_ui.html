@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publication metadata · Local pilot</title>
+<style>
+:root{color-scheme:light;font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172c38;background:#f2f5f5}*{box-sizing:border-box}body{margin:0}header{background:#143644;color:#fff;padding:30px max(24px,calc((100vw - 1140px)/2))}header p{color:#d4e2e5;max-width:790px;margin:10px 0 0}.eyebrow{font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:#a4dcce}h1{font-size:30px;font-weight:650;letter-spacing:-.025em;margin:9px 0}h2{font-size:20px;line-height:1.3;margin:0 0 16px}h3{font-size:17px;margin:0 0 9px}p{margin:8px 0 16px}main{max-width:1188px;margin:0 auto;padding:24px}.card{background:#fff;border:1px solid #d5dfe1;border-radius:12px;padding:23px;margin-bottom:20px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.grid .card{margin:0}.badge{display:inline-block;padding:3px 10px;border-radius:20px;background:#d4eee4;color:#164e3c;font-size:12px;font-weight:650;letter-spacing:.03em}.subtle{color:#536871;font-size:14px}.field{display:flex;flex-direction:column;gap:6px;flex:1;min-width:140px}label{font-size:14px;font-weight:600}.row{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin-top:14px}input,select,textarea{font:inherit;padding:10px 12px;border:1px solid #a8bbc1;border-radius:6px;width:100%;background:#fff;color:inherit}textarea{font-family:ui-monospace,Consolas,monospace;font-size:13px;min-height:230px;resize:vertical}input[type=checkbox]{width:18px;height:18px;flex-shrink:0;accent-color:#226852}button{font:inherit;font-size:14px;font-weight:600;border:1px solid #226852;border-radius:6px;padding:11px 15px;background:#226852;color:white;cursor:pointer}button.secondary{background:#fff;color:#214651;border-color:#9bb0b7}button:disabled{opacity:.45;cursor:default}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #e2a74f;outline-offset:3px}.notice{padding:13px 16px;border-left:4px solid #c7933e;background:#fff8e9;margin:18px 0}.status{min-height:48px;padding:12px 16px;margin:20px 0;background:#e5eeef;border-radius:7px}.error{background:#fbe8e5;color:#872d21}.case{border-top:1px solid #d7e1e3;padding-top:20px;margin-top:20px}.case:first-child{border-top:0;padding-top:0}.case-heading{display:flex;gap:11px;align-items:start;margin-bottom:12px}.case-heading label{font-size:16px}.fact{background:#f1f6f5;padding:13px 15px;border-radius:6px;overflow-wrap:anywhere}.passage{margin:12px 0;padding:14px 17px;background:#fbfaf5;border-left:3px solid #b8aa7b;white-space:pre-wrap;overflow-wrap:anywhere}.caption{font-size:12px;color:#576a72;overflow-wrap:anywhere}details{margin:15px 0}summary{cursor:pointer;font-weight:600;font-size:14px}pre{font:12px/1.6 ui-monospace,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;padding:13px;background:#f3f5f6;border-radius:5px;max-height:450px;overflow:auto}.check-label{display:flex;align-items:start;gap:10px;font-weight:400}.stack{margin-top:20px}.hidden{display:none}footer{font-size:13px;color:#5b7078;padding:8px 0 28px}.fact strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}.two{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}@media(max-width:780px){.grid,.two{grid-template-columns:1fr}header{padding:25px 24px}main{padding:18px}.card{padding:19px}h1{font-size:26px}}
+</style>
+</head>
+<body>
+<header><div class="eyebrow">Publication metadata · Local pilot</div><h1>Review the evidence, then decide.</h1><span class="badge">Synthetic example · No live model calls</span><p>Explore one invented publication, inspect its metadata and evidence, and record an explicit review decision. Your review is saved locally and can be resumed.</p></header>
+<main>
+<div class="grid">
+<section class="card"><h2>1. Connect to your local service</h2><p class="subtle">Enter the access token configured by the operator. It stays in this page’s memory until you disconnect or close the page.</p><div class="row"><div class="field"><label for="token">Access token</label><input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your local access token"></div><button id="connect">Connect</button><button id="disconnect" class="secondary" disabled>Disconnect</button></div></section>
+<section class="card"><h2>2. Open the example</h2><p class="subtle">Use the same name to resume an interrupted run. Each new name creates a separate local run; the service allows eight. Names begin with m10- and use lowercase letters, numbers or dashes.</p><div class="row"><div class="field"><label for="run">Run name</label><input id="run" value="m10-example-1" autocomplete="off" spellcheck="false" maxlength="64"></div><button id="start" disabled>Start / resume</button><button id="refresh" class="secondary" disabled>Refresh</button></div></section>
+</div>
+<div id="message" class="status" role="status" aria-live="polite">Connect to begin. No document upload or external service is enabled.</div>
+<section id="review-section" class="card hidden"><div class="row"><div class="field"><h2>3. Inspect the current record</h2><p id="review-summary" class="subtle"></p></div><button id="export" class="secondary" disabled>Save current record + review</button></div><p class="notice">A pending case is not approved. Displayed passages may cover only part of the source. Reviewer identities are self-declared; this pilot does not authenticate expert credentials.</p><div id="cases"></div><details><summary>Run bindings, warnings and review history</summary><pre id="review-metadata"></pre></details></section>
+<section id="decision-section" class="card hidden"><h2>4. Record your decision</h2><p class="subtle">Select the cases above. Leaving a case unresolved records your uncertainty without changing the publication metadata.</p><div class="row"><div class="field"><label for="reviewer">Your reviewer name or identifier</label><input id="reviewer" autocomplete="off" maxlength="200"></div><div class="field"><label for="provenance">Review provenance</label><select id="provenance"><option value="">Choose explicitly…</option value="user_supplied">My own supplied judgment</option><option value="simulated">Simulated test response</option></select></div></div><div class="field stack"><label for="rationale">Reason for your decision</label><input id="rationale" maxlength="2000" placeholder="Explain what remains uncertain or why a decision is justified"></div><div class="row"><button id="unresolved" disabled>Mark selected cases unresolved</button></div><details><summary>Advanced: approve or edit with an explicit evidence response</summary><p class="subtle">Approval and edits require exact assertion values and source evidence, including specimen/facility attachments. This prototype uses a JSON editor for those decisions. No approval, patch or attestation is filled in for you. Inspect candidate corrections and evidence bindings above, then author the response.</p><button id="prepare" class="secondary" disabled>Prepare revision and case fields</button><div class="field stack"><label for="response">Explicit review response</label><textarea id="response" spellcheck="false" placeholder="Prepare the binding fields, then author outcome, proposal and attestations."></textarea></div><label class="check-label stack"><input id="confirm-response" type="checkbox">I have inspected the evidence and intend to submit this exact response.</label><div class="row"><button id="submit" disabled>Submit explicit JSON response</button></div></details></section>
+<footer>Single-user local prototype · Supplied synthetic evidence only · Unknown support remains unknown · No catalog publication or cloud export</footer>
+</main>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+let accessToken = "", current = null, activeRun = "", busy = false;
+const pretty = value => JSON.stringify(value, null, 2);
+const readable = value => String(value || "unknown").replaceAll("_", " ");
+function message(text, error=false) { $("message").textContent=text; $("message").classList.toggle("error",error); }
+function enabled() {
+  const connected=Boolean(accessToken), ready=connected && Boolean(current) && !busy;
+  for (const id of ["start","refresh"]) $(id).disabled=!connected||busy;
+  for (const id of ["export","unresolved","prepare","submit"]) $(id).disabled=!ready;
+  $("connect").disabled=busy; $("disconnect").disabled=!connected||busy;
+}
+const errors={authentication_required:"The access token was rejected. Connect again with the configured token.",stale_state:"The record changed. Refresh and inspect the current revision before resubmitting.",stale_revision:"The record changed. Refresh before making a new decision.",run_not_found:"This run does not exist yet. Start it first.",review_not_ready:"The run has not reached review. Use Start / resume to continue.",pending_review_required:"The run has not reached review. Use Start / resume to continue.",incomplete_run:"This run is interrupted. Use Start / resume to continue its saved workflow.",pilot_busy:"Another operation holds this single-user service. Wait for it to finish, then refresh.",run_limit:"The bundle’s eight-run limit has been reached.",storage_limit:"The local storage budget has been reached. Contact the operator before continuing.",export_pending_after_commit:"The response was saved but its export is incomplete. Refresh and use Save current record + review to recover it.",attestation_scope_mismatch:"The response needs evidence for every selected assertion and its required attachments.",bundle_invalid:"The service could not verify its isolated bundle. Contact the operator."};
+async function api(path,method="GET",body=null) {
+  const headers={Authorization:"Bearer "+accessToken};
+  if(body!==null) headers["Content-Type"]="application/json";
+  const response=await fetch(path,{method,headers,body:body===null?null:JSON.stringify(body),credentials:"omit",cache:"no-store",redirect:"error"});
+  const value=await response.json();
+  if(!response.ok) throw new Error(errors[value.error]||("The operation was rejected ("+String(value.error||"unknown_error")+"). Refresh to inspect the saved state."));
+  return value;
+}
+async function action(callback) {
+  if(busy) return;
+  busy=true;enabled();
+  try {await callback();} catch(error) {message(error.message||"The service could not be reached. Your saved review remains on disk.",true);}
+  finally {busy=false;enabled();}
+}
+function el(tag,text,className) {const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(className)node.className=className;return node;}
+function detail(parent,title,value) {const node=el("details");node.append(el("summary",title),el("pre",pretty(value)));parent.append(node);}
+function selected() {return [...document.querySelectorAll(".case-choice:checked")].map(item=>item.value);}
+function render(view) {
+  current=view;
+  $("review-section").classList.remove("hidden");$("decision-section").classList.remove("hidden");
+  const pending=view.cases.filter(item=>item.status==="pending").length;
+  $("review-summary").textContent=view.run_id+" · "+readable(view.status)+" · "+pending+" pending case"+(pending===1?"":"s")+" · "+view.decisions+" recorded decision"+(view.decisions===1?"":"s");
+  const list=$("cases");list.replaceChildren();
+  view.cases.forEach((item,index)=>{
+    const card=el("article",undefined,"case"),heading=el("div",undefined,"case-heading");
+    const input=el("input");input.type="checkbox";input.id="case-"+index;input.className="case-choice";input.value=item.case_id;input.disabled=item.status!=="pending";
+    const label=el("label","Case "+(index+1)+" · "+readable(item.status));label.htmlFor=input.id;heading.append(input,label);card.append(heading);
+    card.append(el("p",item.uncertainty.summary));
+    const columns=el("div",undefined,"two"),left=el("div"),right=el("div");
+    const fact=el("div",undefined,"fact");fact.append(el("strong","Current value"),el("div",typeof item.value==="string"?item.value:pretty(item.value)));left.append(fact);
+    left.append(el("p","Uncertainty: "+readable(item.uncertainty.diagnosis)+". Numerical confidence is unavailable.","subtle"));
+    right.append(el("h3","Linked specimen and facility records"));
+    if(item.linked_entities.length) right.append(el("pre",pretty(item.linked_entities.map(value=>value.record))));
+    else right.append(el("p","No linked records are recorded for this case.","subtle"));
+    columns.append(left,right);card.append(columns,el("h3","Publication evidence"));
+    if(!item.passages.length)card.append(el("p","No source passage is available for this case.","subtle"));
+    item.passages.forEach(passage=>{card.append(el("blockquote",passage.text,"passage"));detail(card,"Source region and hash",passage.evidence);});
+    detail(card,"Current entity, assertion and relation bindings",{path:item.path,revision:item.record_revision,entity:item.entity_record,relationships:item.relationships});
+    if(item.candidate_corrections.length) detail(card,"Candidate corrections — not applied or approved",{corrections:item.candidate_corrections,revision_status:item.candidate_revision_status,linked_records:item.candidate_linked_entities});
+    if(item.definitions.length) detail(card,"Standards guidance — not publication evidence",item.definitions);
+    list.append(card);
+  });
+  const metadata={...view};delete metadata.cases;$("review-metadata").textContent=pretty(metadata);enabled();
+}
+async function inspect(run) {
+  current=null;activeRun="";$("review-section").classList.add("hidden");$("decision-section").classList.add("hidden");enabled();
+  const status=await api("/runs/"+encodeURIComponent(run));
+  if(!status.state_id) {current=null;$("review-section").classList.add("hidden");$("decision-section").classList.add("hidden");message("Run is "+readable(status.workflow_status||status.status)+". Use Start / resume to continue the saved workflow.");return;}
+  const view=await api("/runs/"+encodeURIComponent(run)+"/review");
+  if(view.run_id!==run)throw new Error("The returned review belongs to a different run. Contact the operator.");
+  activeRun=run;render(view);
+  message("Loaded the saved review. Inspect the evidence and select cases before recording a decision.");
+}
+function binding() {
+  const cases=selected(),reviewer=$("reviewer").value.trim(),provenance=$("provenance").value,rationale=$("rationale").value.trim();
+  if(!cases.length)throw new Error("Select at least one pending case.");
+  if(!reviewer||!provenance||!rationale)throw new Error("Supply your reviewer identifier, an explicit provenance and the reason for your decision.");
+  return {version:"m08-response-1",idempotency_key:crypto.randomUUID(),expected_state_id:current.state_id,expected_revision:current.record_revision,case_ids:cases,outcome:"",provenance,reviewer_id:reviewer,rationale,proposal:null,attestations:[]};
+}
+$("connect").addEventListener("click",()=>action(async()=>{accessToken=$("token").value;$("token").value="";try{await api("/health");message("Connected to the local synthetic pilot. Start the example or open an existing run.");}catch(error){accessToken="";throw error;}}));
+$("disconnect").addEventListener("click",()=>{accessToken="";current=null;activeRun="";$("token").value="";$("cases").replaceChildren();$("review-metadata").textContent="";$("response").value="";$("reviewer").value="";$("rationale").value="";$("review-section").classList.add("hidden");$("decision-section").classList.add("hidden");message("Disconnected. The token has been cleared from page memory; the saved review remains local.");enabled();});
+$("run").addEventListener("input",()=>{if($("run").value.trim()!==activeRun){current=null;activeRun="";$("review-section").classList.add("hidden");$("decision-section").classList.add("hidden");$("response").value="";$("confirm-response").checked=false;enabled();}});
+$("start").addEventListener("click",()=>action(async()=>{const run=$("run").value.trim();current=null;activeRun="";$("review-section").classList.add("hidden");$("decision-section").classList.add("hidden");await api("/runs","POST",{run_id:run});await inspect(run);}));
+$("refresh").addEventListener("click",()=>action(async()=>{await inspect($("run").value.trim());}));
+$("unresolved").addEventListener("click",()=>action(async()=>{const response=binding();response.outcome="unresolved";await api("/runs/"+encodeURIComponent(activeRun)+"/review","POST",response);await inspect(activeRun);message("Recorded the selected cases as unresolved. Publication metadata was not changed.");}));
+$("prepare").addEventListener("click",()=>action(async()=>{$("response").value=pretty(binding());$("confirm-response").checked=false;message("Prepared revision and case fields only. Author the outcome and any patch or evidence attestations explicitly.");}));
+$("submit").addEventListener("click",()=>action(async()=>{if(!$("confirm-response").checked)throw new Error("Confirm that you intend to submit the exact response.");let response;try{response=JSON.parse($("response").value);}catch{throw new Error("The response is not valid JSON.");}await api("/runs/"+encodeURIComponent(activeRun)+"/review","POST",response);$("confirm-response").checked=false;await inspect(activeRun);message("Your explicit response is saved. The current review state is shown above.");}));
+$("export").addEventListener("click",()=>action(async()=>{const value=await api("/runs/"+encodeURIComponent(activeRun)+"/export","POST",{expected_state_id:current.state_id});const url=URL.createObjectURL(new Blob([pretty(value)+"\n"],{type:"application/json"}));const link=el("a");link.href=url;link.download=activeRun+"-review-export.json";document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);message("Saved the canonical record and review sidecar together. Pending and unresolved states are preserved.");}));
+</script>
+</body>
+</html>

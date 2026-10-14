@@ -1,0 +1,25 @@
+{
+  "mode": "offline",
+  "run_id": "m04-20261007-bound-v1",
+  "resource_spec": "configs/agent/panet_resource.json",
+  "source": "tests/agent/fixtures/m02_source.md",
+  "source_sha256": "f7d74f3626ccc42a80bd91f30c34007cbf9fc691930125955a0266e554109e13",
+  "families": [
+    "http://purl.org/pan-science/PaNET/PaNET01030",
+    "http://purl.org/pan-science/PaNET/PaNET01124"
+  ],
+  "candidate_limit": 5,
+  "mentions": [
+    {
+      "original_expression": "X-ray diffraction",
+      "start": 228,
+      "end": 245,
+      "context_start": 0,
+      "context_end": 345,
+      "context_use": "current_study",
+      "assertion_path": "/datasets/0/measurement_technique"
+    }
+  ],
+  "record_sidecar": "runs/agent/m02-20261007-evidence-v1/sidecar.json",
+  "record_sidecar_sha256": "27b5e008c62cc1c1a6c2a94a84b48c3a8176b3fc5ab346449d9cc47ba67005f6"
+}

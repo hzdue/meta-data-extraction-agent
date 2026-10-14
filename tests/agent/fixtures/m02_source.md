@@ -1,0 +1,1 @@
+Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.

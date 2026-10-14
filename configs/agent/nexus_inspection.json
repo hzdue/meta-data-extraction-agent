@@ -1,0 +1,118 @@
+{
+  "mode": "offline",
+  "run_id": "m05-20261007-inspection-v1",
+  "resource_spec": "configs/agent/nexus_resource.json",
+  "schema_names": [
+    "generic.json",
+    "photon_and_neutron.json"
+  ],
+  "mappings": [
+    {
+      "mapping_key": "sample-mass",
+      "canonical_field": "/samples/*/sample_mass",
+      "semantic_role": "specimen_mass",
+      "relation": "partial",
+      "target_class": "NXsample",
+      "target_path": "mass",
+      "target_role": "specimen_mass",
+      "scope": "Proposed semantic context only for the mass of a measured specimen. The inherited value is source text with a unit; NXDL numeric type and dimensions do not replace it.",
+      "expected_units": "NX_MASS"
+    },
+    {
+      "mapping_key": "composition",
+      "canonical_field": "/samples/*/chemical_composition",
+      "semantic_role": "composition",
+      "relation": "partial",
+      "target_class": "NXsample",
+      "target_path": "chemical_formula",
+      "target_role": "composition",
+      "scope": "Chemical-formula definition is narrower than inherited source composition or chemical identifier text. Preserve printed composition; do not apply CIF normalization."
+    },
+    {
+      "mapping_key": "sample-form",
+      "canonical_field": "/samples/*/sample_state",
+      "semantic_role": "sample_form",
+      "relation": "partial",
+      "target_class": "NXsample",
+      "target_path": "physical_form",
+      "target_role": "sample_form",
+      "scope": "Possible physical-form context only. The inherited field concerns initial preparation or supply; the standard definition alone does not establish that temporal role."
+    },
+    {
+      "mapping_key": "acquisition-temperature",
+      "canonical_field": "/datasets/*/dataset_description",
+      "semantic_role": "acquisition_temperature",
+      "relation": "partial",
+      "target_class": "NXsample",
+      "target_path": "temperature",
+      "target_role": "acquisition_temperature",
+      "scope": "Only the acquisition-temperature aspect of dataset description, when supported by a publication. Never use a preparation temperature or make a new canonical field.",
+      "expected_units": "NX_TEMPERATURE"
+    },
+    {
+      "mapping_key": "preparation-temperature",
+      "canonical_field": "/samples/*/sample_description",
+      "semantic_role": "preparation_temperature",
+      "relation": "no_match",
+      "scope": "No preparation-specific temperature definition selected in this small NXDL subset. Do not reuse the acquisition-temperature target or convert the description into a temperature field.",
+      "expected_units": "NX_TEMPERATURE"
+    },
+    {
+      "mapping_key": "sample-origin",
+      "canonical_field": "/samples/*/supplier_or_creator",
+      "semantic_role": "sample_origin",
+      "relation": "no_match",
+      "scope": "No suitable supplier-or-creator mapping selected in this limited NXDL subset."
+    }
+  ],
+  "definitions": [
+    {
+      "class_name": "NXsample",
+      "field_path": "temperature"
+    },
+    {
+      "class_name": "NXbeam",
+      "field_path": "incident_wavelength"
+    },
+    {
+      "class_name": "NXmonopd",
+      "field_path": "NXentry/NXinstrument/NXdetector/data"
+    }
+  ],
+  "quantity_checks": [
+    {
+      "raw_expression": "25.0 °C",
+      "value_text": "25.0",
+      "from_unit": "°C",
+      "to_unit": "K",
+      "role": "preparation_temperature",
+      "unit_category": "NX_TEMPERATURE"
+    },
+    {
+      "raw_expression": "300.0 K",
+      "value_text": "300.0",
+      "from_unit": "K",
+      "to_unit": "°C",
+      "role": "acquisition_temperature",
+      "unit_category": "NX_TEMPERATURE"
+    },
+    {
+      "raw_expression": null,
+      "value_text": null,
+      "from_unit": null,
+      "to_unit": "K",
+      "role": "acquisition_temperature",
+      "unit_category": "NX_TEMPERATURE"
+    },
+    {
+      "raw_expression": "5 kg",
+      "value_text": "5",
+      "from_unit": "kg",
+      "to_unit": "K",
+      "role": "acquisition_temperature",
+      "unit_category": "NX_TEMPERATURE"
+    }
+  ],
+  "reviews_path": null,
+  "reviews_sha256": null
+}

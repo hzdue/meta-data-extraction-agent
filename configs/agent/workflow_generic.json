@@ -1,0 +1,42 @@
+{
+  "mode": "synthetic_offline",
+  "run_id": "m07-20261007-generic-v1",
+  "policy": "generic_llm",
+  "seed": {
+    "path": "configs/agent/record_inspection.json",
+    "sha256": "55b06250c3c6ec06d8e720b82d6271054d1897a42fa98f9f9bc0562f1b8e8852"
+  },
+  "checker_responses": [
+    {
+      "path": "tests/agent/fixtures/m07_checker_before.json",
+      "sha256": "fa22367fa8050f8185fa950a0932d6ed6d5ccdebbdb1bc22c1dced2c47840ab7"
+    },
+    {
+      "path": "tests/agent/fixtures/m07_checker_after.json",
+      "sha256": "8bbd29633d5e736fa55e06d8a16afa94cdb8ec00d4244110579733ef43d53599"
+    }
+  ],
+  "policy_responses": [
+    {
+      "path": "tests/agent/fixtures/m07_policy_retrieve.json",
+      "sha256": "fb2e7edb8bbda15f0d9de5cabccb0a8cc3034d1ebdfed32ccba0104914d5b40e"
+    },
+    {
+      "path": "tests/agent/fixtures/m07_policy_propose.json",
+      "sha256": "d390cb68e5e2367f67a38629c78c8016323aad467da26f6af4aa26e628394bd4"
+    },
+    {
+      "path": "tests/agent/fixtures/m07_policy_finish.json",
+      "sha256": "93d8511dc2a18f3ae2892d80377d35378499f364f19b7a375988e3622aefebc8"
+    }
+  ],
+  "budget": {
+    "total_actions": 12,
+    "per_issue_actions": 5,
+    "max_model_calls": 8,
+    "no_progress_limit": 2,
+    "timeout_seconds": 120,
+    "unknown_usage": "allow_bounded_calls"
+  },
+  "raw_retention": "hash_only"
+}

@@ -1,0 +1,124 @@
+{
+  "judgments": [
+    {
+      "path": "/datasets/0/facility_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "verdict": "contradicted",
+      "diagnosis": "wrong_sample",
+      "summary": "Invented diagnostic judgment: the source assigns Dataset A to Sample A at 300 K.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/1/facility_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/1/sample_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/dataset_description",
+      "verdict": "contradicted",
+      "diagnosis": "preparation_acquisition_confusion",
+      "summary": "Invented diagnostic judgment: the source assigns Dataset A to Sample A at 300 K.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/measurement_technique",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/1/dataset_description",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/1/measurement_technique",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/dataset_name",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/1/dataset_name",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/samples/0/chemical_composition",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/samples/0/sample_description",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: this selected field is supported by the supplied source.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    }
+  ]
+}

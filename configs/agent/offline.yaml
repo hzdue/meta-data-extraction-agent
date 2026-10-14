@@ -1,0 +1,8 @@
+# Synthetic input only. Run from the checkout root; use a fresh run_id each time.
+mode: offline
+run_id: m00-smoke
+sources:
+  - tests/agent/fixtures/synthetic_source.md
+schemas:
+  - generic.json
+  - photon_and_neutron.json

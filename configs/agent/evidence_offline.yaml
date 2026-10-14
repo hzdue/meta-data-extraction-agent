@@ -1,0 +1,8 @@
+# M01 synthetic source set; no model or benchmark inputs.
+mode: offline
+run_id: m01-evidence
+sources:
+  - tests/agent/fixtures/evidence_source.md
+schemas:
+  - generic.json
+  - photon_and_neutron.json

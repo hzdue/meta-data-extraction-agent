@@ -1,0 +1,296 @@
+{
+  "version": "m03-evaluator-1",
+  "evaluator_id": "evaluator:cbe498a1a8ce3552f3f1bb93fa577656e6feda7b39d518c0ed01b61f8dad52ef",
+  "files": [
+    {
+      "path": "src/meta_data_extraction/evaluation.py",
+      "sha256": "3bcb9f4d1de8eee1a850f1ea63cd83c70d0f70552cb7df77765fd0dcc366a5a9"
+    },
+    {
+      "path": "src/meta_data_extraction/alignment.py",
+      "sha256": "1f76750410a94172a93e0d50f555502b3082654cae37e58a09d273bc118abaf6"
+    },
+    {
+      "path": "src/meta_data_extraction/normalization.py",
+      "sha256": "cf7ca16b418da1a19990987c59f29d915bc1c3a70d4ba24b01bf4bbcdb58194d"
+    },
+    {
+      "path": "src/meta_data_extraction/config_validation.py",
+      "sha256": "f1264e8d47592c8708733d88d2450002566cb90827c75b6e677608b3e4620dbc"
+    },
+    {
+      "path": "src/meta_data_extraction/utils.py",
+      "sha256": "20cba24d28f223f7d074c2dc54cf51e9942ebcb2034f615b99c7a271ea3baebd"
+    },
+    {
+      "path": "src/meta_data_extraction/offline/scoring.py",
+      "sha256": "6793f5e0454b5894318284ae3ca99b6da9f3175088c1a4cf915ccaf9d630dec5"
+    },
+    {
+      "path": "configs/evaluation_metrics.yaml",
+      "sha256": "705f0e6813e2f740d81ad10f0be16ac58a1ccf976e55a8f55d4956f257b53792"
+    },
+    {
+      "path": "configs/alignment_helper.yaml",
+      "sha256": "71ae08c3e31f790f76885a9341f5f7516b97ea7f36f3ec13215d39626410b241"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "57ab3a7a8e41524ffb4c43069a1e32ae500c8a31495bfffc1573901991d21c24"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "5aae35c8ec94aa78854dab769ad45570668dc55c6a8ac23277e89b7f5618d22a"
+    },
+    {
+      "path": "schemas/generic.json",
+      "sha256": "7cc7a487c4a7133459d387d45f8b158657c0ffd9824b77df84bdf25416ada258"
+    },
+    {
+      "path": "schemas/photon_and_neutron.json",
+      "sha256": "e075c4929e41c8d1971c763f33f58dee24d7baae2132de516e37f202eef3fe4a"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.4"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.13.2"
+    }
+  ],
+  "field_metrics": [
+    {
+      "field": "bibliographic.abstract",
+      "metric": "rouge_l",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.affiliations",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.affiliations.attrs.label",
+      "metric": "normalized_exact",
+      "parent_entity": "bibliographic.affiliations"
+    },
+    {
+      "field": "bibliographic.affiliations.attrs.text",
+      "metric": "rouge_l",
+      "parent_entity": "bibliographic.affiliations"
+    },
+    {
+      "field": "bibliographic.arxiv_id",
+      "metric": "normalized_exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.authors",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.authors.attrs.affiliation_refs",
+      "metric": "reference",
+      "parent_entity": "bibliographic.authors"
+    },
+    {
+      "field": "bibliographic.authors.attrs.email",
+      "metric": "normalized_exact",
+      "parent_entity": "bibliographic.authors"
+    },
+    {
+      "field": "bibliographic.authors.attrs.full_name",
+      "metric": "normalized_exact",
+      "parent_entity": "bibliographic.authors"
+    },
+    {
+      "field": "bibliographic.authors.attrs.is_corresponding",
+      "metric": "exact",
+      "parent_entity": "bibliographic.authors"
+    },
+    {
+      "field": "bibliographic.authors.attrs.orcid",
+      "metric": "normalized_exact",
+      "parent_entity": "bibliographic.authors"
+    },
+    {
+      "field": "bibliographic.doi",
+      "metric": "normalized_exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.funding",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.funding.attrs.funder",
+      "metric": "rouge_l",
+      "parent_entity": "bibliographic.funding"
+    },
+    {
+      "field": "bibliographic.funding.attrs.grant_id",
+      "metric": "normalized_exact",
+      "parent_entity": "bibliographic.funding"
+    },
+    {
+      "field": "bibliographic.keywords",
+      "metric": "set_f1",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.language",
+      "metric": "exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.publication_date",
+      "metric": "exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.publisher",
+      "metric": "normalized_exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.subtitle",
+      "metric": "rouge_l",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.title",
+      "metric": "rouge_l",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.url",
+      "metric": "normalized_exact",
+      "parent_entity": null
+    },
+    {
+      "field": "bibliographic.venue",
+      "metric": "normalized_exact",
+      "parent_entity": null
+    },
+    {
+      "field": "datasets",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "datasets.attrs.dataset_description",
+      "metric": "rouge_l",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.dataset_name",
+      "metric": "rouge_l",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.facility_refs",
+      "metric": "reference",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.measurement_mode",
+      "metric": "set_f1",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.measurement_technique",
+      "metric": "rouge_l",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.purpose",
+      "metric": "exact",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "datasets.attrs.sample_refs",
+      "metric": "reference",
+      "parent_entity": "datasets"
+    },
+    {
+      "field": "document_overview.has_figures",
+      "metric": "exact",
+      "parent_entity": null
+    },
+    {
+      "field": "document_overview.has_references",
+      "metric": "exact",
+      "parent_entity": null
+    },
+    {
+      "field": "document_overview.has_tables",
+      "metric": "exact",
+      "parent_entity": null
+    },
+    {
+      "field": "document_overview.section_headings",
+      "metric": "ordered_set_f1",
+      "parent_entity": null
+    },
+    {
+      "field": "facilities",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "facilities.attrs.name",
+      "metric": "rouge_l",
+      "parent_entity": "facilities"
+    },
+    {
+      "field": "samples",
+      "metric": "entity",
+      "parent_entity": null
+    },
+    {
+      "field": "samples.attrs.chemical_composition",
+      "metric": "normalized_exact",
+      "parent_entity": "samples"
+    },
+    {
+      "field": "samples.attrs.sample_description",
+      "metric": "rouge_l",
+      "parent_entity": "samples"
+    },
+    {
+      "field": "samples.attrs.sample_mass",
+      "metric": "normalized_exact",
+      "parent_entity": "samples"
+    },
+    {
+      "field": "samples.attrs.sample_name",
+      "metric": "rouge_l",
+      "parent_entity": "samples"
+    },
+    {
+      "field": "samples.attrs.sample_state",
+      "metric": "normalized_exact",
+      "parent_entity": "samples"
+    },
+    {
+      "field": "samples.attrs.supplier_or_creator",
+      "metric": "rouge_l",
+      "parent_entity": "samples"
+    }
+  ],
+  "python_version": "3.13.7",
+  "metadata_json": "{\"alignment_helper_version\":\"1.1.3\",\"plan_file\":\"configs/evaluation_metrics.yaml\",\"plan_version\":\"1.1.3\",\"schema_version_mismatch\":false,\"schema_versions_actual\":{\"generic.json\":\"1.1.0\",\"photon_and_neutron.json\":\"1.1.0\"},\"schema_versions_declared\":{\"generic.json\":\"1.1.0\",\"photon_and_neutron.json\":\"1.1.0\"}}"
+}

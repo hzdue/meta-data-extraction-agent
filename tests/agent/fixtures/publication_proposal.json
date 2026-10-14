@@ -1,0 +1,14 @@
+{
+  "status": "proposed",
+  "summary": "Invented proposal: correct Dataset A temperature and sample attachment.",
+  "operations": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "replacement": "Measured at 300 K."
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "replacement": "sample_1"
+    }
+  ]
+}

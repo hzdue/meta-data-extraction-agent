@@ -1,0 +1,45 @@
+{
+  "version": "m09-study-spec-1",
+  "scope": "synthetic_repair_policy",
+  "authorized_mode": "synthetic_offline",
+  "description": "Frozen synthetic repair-policy mechanics with identical supplied evidence/tools and no standards guidance.",
+  "primary_outcome": "Inherited datasets.attrs.sample_refs F1 at each common cap, separately reporting supported fields and all processing outcomes. Engineering only.",
+  "counting_policy": "Score the last valid canonical record, including budget-exhausted workflows. Keep every planned cell visible; missing predictions are unprocessed. Repeats and variants remain one parent publication. Unknown costs/tokens stay unknown.",
+  "evaluation_protocol_sha256": "f5b2d2d0b96d74bf17da85c6dc9777a682cae65b927bac5087fdb40b53a70a3e",
+  "publications": [
+    {
+      "publication_id": "synthetic-m06-parent",
+      "split": "calibration",
+      "data_kind": "synthetic",
+      "identity_policy": "one_record_per_parent_publication_no_derivative_rows",
+      "derived_from": null,
+      "workflows": {
+        "fixed": {
+          "path": "configs/agent/workflow_fixed.json",
+          "sha256": "fc0258bee3cd864080addc1b4c5dc1d14f1b690c04e7ce4eec60d7bc1f32cc03"
+        },
+        "issue_aware": {
+          "path": "configs/agent/workflow_issue_aware.json",
+          "sha256": "32a26ab43163e95417b4e6ba8551d1fc1fc7fa07b656ddaa5f890d4f8709e67f"
+        },
+        "generic_llm": {
+          "path": "configs/agent/workflow_generic.json",
+          "sha256": "8a4e57e8ebdf207bccfa964a6e2616f02779f0b10312f9e3d798525208e99102"
+        }
+      }
+    }
+  ],
+  "variants": [
+    "fixed",
+    "issue_aware",
+    "generic_llm"
+  ],
+  "caps": [
+    2,
+    5
+  ],
+  "repeats": 1,
+  "max_total_model_calls": 21,
+  "seed_policy": "deterministic_mock",
+  "provider_nondeterminism": "not_represented"
+}

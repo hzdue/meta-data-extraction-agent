@@ -1,0 +1,32 @@
+{
+  "judgments": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "The source reports Dataset A acquisition at 300 K.",
+      "evidence_indices": [
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "The source explicitly attaches Dataset A to Sample A.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/facility_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "The source identifies Synthetic Beam Source for Dataset A.",
+      "evidence_indices": [
+        1
+      ]
+    }
+  ]
+}

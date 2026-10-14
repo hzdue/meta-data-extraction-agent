@@ -1,0 +1,22 @@
+{
+  "mode": "synthetic_offline",
+  "run_id": "m06-20261007-dangling-v1",
+  "source": {
+    "path": "tests/agent/fixtures/m06_source.md",
+    "sha256": "a7f2c455d3f1cb10a47c6e3865bbc4e0bd6e288ce8ff6bae1b72fab8eb619996"
+  },
+  "record": {
+    "path": "tests/agent/fixtures/m06_dangling.json",
+    "sha256": "ddc509616850b0e4702dad5997900b929425dc44173da943105e510dfdaf4c2a"
+  },
+  "schema_names": [
+    "generic.json",
+    "photon_and_neutron.json"
+  ],
+  "targets": [],
+  "before_response": null,
+  "patch": null,
+  "after_targets": [],
+  "after_response": null,
+  "raw_retention": "hash_only"
+}

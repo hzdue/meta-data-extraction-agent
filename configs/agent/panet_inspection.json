@@ -1,0 +1,62 @@
+{
+  "mode": "offline",
+  "run_id": "m04-20261007-lookup-v1",
+  "resource_spec": "configs/agent/panet_resource.json",
+  "source": "tests/agent/fixtures/m04_techniques.md",
+  "source_sha256": "075398fa6b43d768584f027dacde54f3db226348e67eba557d9d030166e18eee",
+  "families": [
+    "http://purl.org/pan-science/PaNET/PaNET01030",
+    "http://purl.org/pan-science/PaNET/PaNET01124"
+  ],
+  "candidate_limit": 5,
+  "mentions": [
+    {
+      "original_expression": "x-ray powder diffraction",
+      "start": 147,
+      "end": 171,
+      "context_start": 95,
+      "context_end": 178,
+      "context_use": "current_study"
+    },
+    {
+      "original_expression": "XPD",
+      "start": 198,
+      "end": 201,
+      "context_start": 180,
+      "context_end": 252,
+      "context_use": "related_work"
+    },
+    {
+      "original_expression": "powder diffraction",
+      "start": 286,
+      "end": 304,
+      "context_start": 254,
+      "context_end": 335,
+      "context_use": "current_study"
+    },
+    {
+      "original_expression": "SAS",
+      "start": 392,
+      "end": 395,
+      "context_start": 337,
+      "context_end": 397,
+      "context_use": "current_study"
+    },
+    {
+      "original_expression": "neutron powder diffraction",
+      "start": 433,
+      "end": 459,
+      "context_start": 399,
+      "context_end": 492,
+      "context_use": "uncertain"
+    },
+    {
+      "original_expression": "wobblefluxoscopy",
+      "start": 520,
+      "end": 536,
+      "context_start": 494,
+      "context_end": 589,
+      "context_use": "current_study"
+    }
+  ]
+}

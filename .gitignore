@@ -21,6 +21,9 @@ data/processed/
 tmp/
 static/
 
+# Isolated agent runs (sources, diagnostics, and checkpoints stay local)
+/runs/agent/
+
 # Local logs
 *.log
 

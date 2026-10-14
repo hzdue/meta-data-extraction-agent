@@ -1,0 +1,24 @@
+{
+  "judgments": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "verdict": "contradicted",
+      "diagnosis": "preparation_acquisition_confusion",
+      "summary": "500 K describes preparation of Sample A; Dataset A acquisition occurred at 300 K.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "verdict": "contradicted",
+      "diagnosis": "wrong_sample",
+      "summary": "The source attaches Dataset A to Sample A, not Sample B; equal composition does not make the specimens identical.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    }
+  ]
+}

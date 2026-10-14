@@ -1,0 +1,46 @@
+{
+  "mode": "synthetic_offline",
+  "run_id": "m08-20261007-pending-v1",
+  "policy": "generic_llm",
+  "seed": {
+    "path": "configs/agent/record_inspection.json",
+    "sha256": "55b06250c3c6ec06d8e720b82d6271054d1897a42fa98f9f9bc0562f1b8e8852"
+  },
+  "checker_responses": [
+    {
+      "path": "tests/agent/fixtures/m07_checker_before.json",
+      "sha256": "fa22367fa8050f8185fa950a0932d6ed6d5ccdebbdb1bc22c1dced2c47840ab7"
+    },
+    {
+      "path": "tests/agent/fixtures/m07_checker_after.json",
+      "sha256": "8bbd29633d5e736fa55e06d8a16afa94cdb8ec00d4244110579733ef43d53599"
+    }
+  ],
+  "policy_responses": [
+    {
+      "path": "tests/agent/fixtures/m08_policy_retrieve_description.json",
+      "sha256": "fb2e7edb8bbda15f0d9de5cabccb0a8cc3034d1ebdfed32ccba0104914d5b40e"
+    },
+    {
+      "path": "tests/agent/fixtures/m08_policy_review_description.json",
+      "sha256": "4c541d0efeda4ce468796cce5172c8d6d64976701b11ea059afdd8dd2fc3f07c"
+    },
+    {
+      "path": "tests/agent/fixtures/m08_policy_retrieve_attachment.json",
+      "sha256": "00674451c631a6a8c56a7807a83738b74ada3a604db387aa93d7b0092e7e258a"
+    },
+    {
+      "path": "tests/agent/fixtures/m08_policy_review_attachment.json",
+      "sha256": "621cbf3bef1c17bcd313463a993822a6511c0cf2fc32bc080c26ac3738201a3f"
+    }
+  ],
+  "budget": {
+    "total_actions": 12,
+    "per_issue_actions": 5,
+    "max_model_calls": 8,
+    "no_progress_limit": 2,
+    "timeout_seconds": 120,
+    "unknown_usage": "allow_bounded_calls"
+  },
+  "raw_retention": "hash_only"
+}

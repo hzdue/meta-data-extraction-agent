@@ -1,0 +1,32 @@
+{
+  "judgments": [
+    {
+      "path": "/datasets/0/dataset_description",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: Dataset A acquisition is explicitly 300 K.",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "path": "/datasets/0/facility_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: Dataset A is attached to Synthetic Beam Source.",
+      "evidence_indices": [
+        0
+      ]
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "verdict": "supported",
+      "diagnosis": "supported",
+      "summary": "Invented diagnostic judgment: Dataset A measures Sample A; preparation context distinguishes the same-composition specimens.",
+      "evidence_indices": [
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Invented one-document M02 demonstration. No model or network access.
+mode: offline
+run_id: m02-20261007-evidence-v1
+sources:
+  - tests/agent/fixtures/m02_source.md
+schemas:
+  - generic.json
+  - photon_and_neutron.json

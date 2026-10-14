@@ -1,0 +1,39 @@
+{
+  "version": "publication-run-1",
+  "run_id": "m10-publication-v1",
+  "mode": "mock",
+  "source": {
+    "path": "tests/agent/fixtures/publication_source.md",
+    "sha256": "a7f2c455d3f1cb10a47c6e3865bbc4e0bd6e288ce8ff6bae1b72fab8eb619996"
+  },
+  "split": "synthetic",
+  "policy": "issue_aware",
+  "max_calls": 5,
+  "max_targets": 12,
+  "allow_automatic_patches": true,
+  "generate_proposal": true,
+  "raw_retention": "hash_only",
+  "unknown_usage": "allow_bounded_calls",
+  "mock_responses": [
+    {
+      "path": "tests/agent/fixtures/publication_extraction.json",
+      "sha256": "d46d4bb4e007264ba1fc5b9918195bf9a57a6166d8e4109c7f035ab8794a3560"
+    },
+    {
+      "path": "tests/agent/fixtures/publication_check.json",
+      "sha256": "f4f310bbe4728d2c779bbc3e47f1d5ed548c18dbd01c03b682a5874167502f82"
+    },
+    {
+      "path": "tests/agent/fixtures/publication_proposal.json",
+      "sha256": "b69efee706df4e8919424bde6024cb38eb2aa7b08fe8c0124ea7a205a87230a4"
+    },
+    {
+      "path": "tests/agent/fixtures/publication_before.json",
+      "sha256": "fa22367fa8050f8185fa950a0932d6ed6d5ccdebbdb1bc22c1dced2c47840ab7"
+    },
+    {
+      "path": "tests/agent/fixtures/publication_after.json",
+      "sha256": "8bbd29633d5e736fa55e06d8a16afa94cdb8ec00d4244110579733ef43d53599"
+    }
+  ]
+}

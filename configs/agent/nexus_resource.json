@@ -1,0 +1,29 @@
+{
+  "kind": "authentic",
+  "commit": "0ad0f784950eefea5675e725d2ecb10a5f83e8ad",
+  "release": "v2026.01",
+  "files": [
+    {
+      "path": "runs/agent/m05-20261007-nexus-v1/NXsample.nxdl.xml",
+      "sha256": "3de15da384c1611cfbf5f230beb127ccfd7b5612026e46e74fc61181cbbe747a",
+      "source_url": "https://raw.githubusercontent.com/nexusformat/definitions/0ad0f784950eefea5675e725d2ecb10a5f83e8ad/base_classes/NXsample.nxdl.xml"
+    },
+    {
+      "path": "runs/agent/m05-20261007-nexus-v1/NXbeam.nxdl.xml",
+      "sha256": "f180db9ea264fb9534f8022db2444f25f85e1e09d00be884cc9eff2273983682",
+      "source_url": "https://raw.githubusercontent.com/nexusformat/definitions/0ad0f784950eefea5675e725d2ecb10a5f83e8ad/base_classes/NXbeam.nxdl.xml"
+    },
+    {
+      "path": "runs/agent/m05-20261007-nexus-v1/NXmonopd.nxdl.xml",
+      "sha256": "9abfdea918c72c129912e7069dbe4fa9e72159f5a23fefe66f203b4d8e406616",
+      "source_url": "https://raw.githubusercontent.com/nexusformat/definitions/0ad0f784950eefea5675e725d2ecb10a5f83e8ad/applications/NXmonopd.nxdl.xml"
+    }
+  ],
+  "license_name": "LGPL-3.0-or-later",
+  "license_url": "https://raw.githubusercontent.com/nexusformat/definitions/0ad0f784950eefea5675e725d2ecb10a5f83e8ad/LGPL.txt",
+  "license_file": {
+    "path": "runs/agent/m05-20261007-nexus-v1/LGPL.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "source_url": "https://raw.githubusercontent.com/nexusformat/definitions/0ad0f784950eefea5675e725d2ecb10a5f83e8ad/LGPL.txt"
+  }
+}

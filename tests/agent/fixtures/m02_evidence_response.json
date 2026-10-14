@@ -1,0 +1,214 @@
+{
+  "output": {
+    "bibliographic": {
+      "title": "Synthetic diffraction study",
+      "subtitle": null,
+      "affiliations": [
+        {
+          "id": "aff_1",
+          "label": null,
+          "text": "Synthetic Institute"
+        }
+      ],
+      "authors": [
+        {
+          "id": "author_1",
+          "full_name": "A. Example",
+          "orcid": null,
+          "email": null,
+          "is_corresponding": false,
+          "affiliation_refs": [
+            "aff_1"
+          ]
+        }
+      ],
+      "abstract": null,
+      "keywords": [],
+      "doi": null,
+      "arxiv_id": null,
+      "url": null,
+      "publication_date": null,
+      "venue": null,
+      "publisher": null,
+      "language": null,
+      "funding": []
+    },
+    "document_overview": {
+      "section_headings": [],
+      "has_references": false,
+      "has_figures": false,
+      "has_tables": false
+    },
+    "facilities": [
+      {
+        "id": "facility_1",
+        "name": "Synthetic Beam Source"
+      }
+    ],
+    "samples": [
+      {
+        "id": "sample_1",
+        "sample_name": "Sample A",
+        "sample_description": null,
+        "chemical_composition": "CaCO3",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      },
+      {
+        "id": "sample_2",
+        "sample_name": "Sample B",
+        "sample_description": null,
+        "chemical_composition": "CaCO3",
+        "sample_state": null,
+        "sample_mass": null,
+        "supplier_or_creator": null
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dataset_1",
+        "dataset_name": "Dataset A",
+        "sample_refs": [
+          "sample_1",
+          "sample_2"
+        ],
+        "facility_refs": [
+          "facility_1"
+        ],
+        "dataset_description": null,
+        "measurement_technique": "X-ray diffraction",
+        "measurement_mode": [],
+        "purpose": null
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "path": "/bibliographic/title",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/bibliographic/affiliations/0/text",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/bibliographic/authors/0/full_name",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/bibliographic/authors/0/is_corresponding",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/bibliographic/authors/0/affiliation_refs/0",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/document_overview/has_references",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/document_overview/has_figures",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/document_overview/has_tables",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/facilities/0/name",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/samples/0/sample_name",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/samples/0/chemical_composition",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/samples/1/sample_name",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/samples/1/chemical_composition",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/datasets/0/dataset_name",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/datasets/0/sample_refs/0",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/datasets/0/sample_refs/1",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/datasets/0/facility_refs/0",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    },
+    {
+      "path": "/datasets/0/measurement_technique",
+      "region_id": "aed6a68a27c6e639f3023b2884e04915f7ce44d7d81cf9aabdbacefbd50bf6ea",
+      "start": 0,
+      "end": 346,
+      "quotation": "Synthetic diffraction study. A. Example works at Synthetic Institute and is not a corresponding author. Sample A and Sample B are distinct specimens, both with the stated composition CaCO3. Dataset A measures both samples using X-ray diffraction at Synthetic Beam Source. This synthetic document explicitly has no references, figures, or tables.\n"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": "m03-split-1",
+  "experiment_id": "m03-fixed-output-synthetic",
+  "description": "Engineering integration of the two completed M02 mock exports; invented expected values, not measured extraction.",
+  "primary_outcome": "Both new fixed-run exports score without overwriting released files; compare per-field outputs with explicit support.",
+  "variants": [
+    "inherited",
+    "evidence"
+  ],
+  "publications": [
+    {
+      "publication_id": "synthetic-m02",
+      "aliases": [],
+      "derived_from": null,
+      "split": "calibration",
+      "data_kind": "synthetic",
+      "sources": [
+        {
+          "path": "tests/agent/fixtures/m02_source.md",
+          "sha256": "f7d74f3626ccc42a80bd91f30c34007cbf9fc691930125955a0266e554109e13"
+        }
+      ],
+      "gold": {
+        "path": "tests/offline/fixtures/m02_expected.json",
+        "sha256": "754865b8b71db50de099f1e5e641acca3901867bdaffba970865e6fa6fb66ef0"
+      },
+      "identity_gold": null,
+      "predictions": [
+        {
+          "variant": "inherited",
+          "status": "ready",
+          "artifact": {
+            "path": "runs/agent/m02-20261007-inherited-v1/canonical.json",
+            "sha256": "0c23a64c3212a6acb1ed03766f952fe07650120c87736b4a26ccaaa11fd77dcd"
+          },
+          "sidecar": {
+            "path": "runs/agent/m02-20261007-inherited-v1/sidecar.json",
+            "sha256": "865d05179382e0e720ecae3b1fc6203b9a463f2de0db6cd87bade0a09d9a9213"
+          },
+          "reference_report": null,
+          "failure_code": null,
+          "execution_mode": "mock",
+          "request_count": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "latency_ms": null,
+          "cost": null
+        },
+        {
+          "variant": "evidence",
+          "status": "ready",
+          "artifact": {
+            "path": "runs/agent/m02-20261007-evidence-v1/canonical.json",
+            "sha256": "0c23a64c3212a6acb1ed03766f952fe07650120c87736b4a26ccaaa11fd77dcd"
+          },
+          "sidecar": {
+            "path": "runs/agent/m02-20261007-evidence-v1/sidecar.json",
+            "sha256": "27b5e008c62cc1c1a6c2a94a84b48c3a8176b3fc5ab346449d9cc47ba67005f6"
+          },
+          "reference_report": null,
+          "failure_code": null,
+          "execution_mode": "mock",
+          "request_count": 0,
+          "input_tokens": null,
+          "output_tokens": null,
+          "latency_ms": null,
+          "cost": null
+        }
+      ],
+      "alignment_status": "synthetic",
+      "blocked_collections": []
+    }
+  ],
+  "split_notes": "Invented facts and deterministic responses are one synthetic publication, separate from all natural results.",
+  "held_out_policy": "No natural/final-held-out gold is used or authorized by this synthetic fixture."
+}
