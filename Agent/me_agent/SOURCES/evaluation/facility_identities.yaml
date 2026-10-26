@@ -1,0 +1,76 @@
+version: '1.0'
+source: 40-paper corpus gold, annotations, and PDF-validated same-institution names
+scope: facility identities for evaluation alignment
+
+# Facility identity aliases. Used by the
+# `facility_alias` normalizer inside the facilities *alignment key* only
+# (evaluation_metrics_v0.5). Value scoring (facilities.attrs.name) is
+# untouched: an aligned acronym/full-name pair still surfaces its
+# wording difference in the attribute score.
+#
+# Curation rule (task 9b decision, 2026-07-14): acronym <-> full name of
+# the SAME institution only. Beamline/instrument <-> host facility pairs
+# (e.g. SANS-1 <-> FRM II, BALDER <-> MAX IV) are deliberately NOT
+# bridged: the annotation guideline treats naming level as a genuine
+# ambiguity, and bridging it is a semantics decision, not normalization.
+# PaNET-based technique normalization was evaluated and deferred (only
+# 23/149 corpus technique strings exactly match a PaNET label; see
+# docs/_alias_worksheet.md).
+#
+# Grounding: every entry's institution appears in the corpus
+# (docs/_alias_worksheet.md §2). Expansion is applied casefolded on
+# word boundaries; multi-word keys are matched as phrases.
+#
+# PDF validation (2026-07-14): every alias was checked against the raw
+# text of all 40 corpus PDFs: acronym matched case-sensitively on word
+# boundaries, full name matched casefolded. Comment scheme per entry:
+#   defined in:  papers where acronym AND full name co-occur (strongest
+#                evidence, i.e. the paper itself defines the acronym)
+#   acro / full: papers with only one of the two forms
+#   fires on:    papers whose gold/annotation facility *name strings*
+#                contain the acronym (i.e. where the normalizer can
+#                affect IAA/gold-side alignment today; all other entries
+#                exist only for robustness to model outputs)
+# Comments are documentation only, the evaluator reads just the
+# key/value pairs.
+
+version: '1.0'
+source: 40-paper corpus gold, annotations, and PDF-validated same-institution names
+scope: facility identities for evaluation alignment
+aliases:
+  # defined in 1806.08116, 1811.10341, 2405.15411 · fires on 1811.10341
+  llb: laboratoire léon brillouin
+  # defined in 2105.04167, 2501.08122, 2605.14792 · full only: 1901.08819, 2304.08002
+  ill: institut laue-langevin
+  # defined in 2010.02965 · acro only: 2407.20626 · full only: 1901.08819
+  esrf: european synchrotron radiation facility
+  # defined in 1909.08292, 2105.04167
+  ansto: australian nuclear science and technology organisation
+  # defined in 1804.07163 · fires on 1804.07163
+  bnc: budapest neutron centre
+  # defined in 2001.02706 · fires on 2001.02706
+  hfir: high flux isotope reactor
+  # acro only: 2001.02706 · full only: 2302.02010 (no same-paper
+  # definition, but both forms attested in corpus) · fires on 2001.02706
+  ncnr: nist center for neutron research
+  # defined in 2603.01364
+  ssrl: stanford synchrotron radiation lightsource
+  # defined in 2503.18475 · full only:
+  # 1812.03956, 2202.11658, 2407.10282
+  aps: advanced photon source
+  # defined in 2009.01093, 2302.02010 · full only: 2410.00268, 2503.18475
+  als: advanced light source
+  # defined in 2309.13729
+  sinq: swiss spallation neutron source
+  # defined in 2006.12074
+  mlf: materials and life science experimental facility
+  # defined in 2404.06853
+  bsrf: beijing synchrotron radiation facility
+  # defined in 2404.06853
+  ssrf: shanghai synchrotron radiation facility
+  # defined in 1812.03956
+  chess: cornell high energy synchrotron source
+  # defined in 2503.18475
+  nhmfl: national high magnetic field laboratory
+  # defined in 2010.00094 · fires on experiment outputs for 2010.00094
+  lnls: brazilian synchrotron light laboratory

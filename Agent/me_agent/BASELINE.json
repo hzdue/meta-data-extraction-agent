@@ -1,0 +1,158 @@
+{
+  "source_commit": "152217aaaf4456a333f958e502eed082812e1445",
+  "source_tag": "baseline-gpu3-87p70",
+  "repair_version": "pan-agent-risk-refinement-gpu3-v1",
+  "files": {
+    "extract.py": {
+      "upstream_sha256": "8057e9bc902329962ef8c2452ba74a041ca84de2b64b9c0f43b5bfacdcfb5353",
+      "package_sha256": "759d0db51c342655465d01e4e8bc2dd726d2b00cc50ca9476becdb443d17f231"
+    },
+    "run.sh": {
+      "upstream_sha256": "b1b51eff52d22dc43094d56480fad979bf7ce236b277c1dbb97351fb33477fc1",
+      "package_sha256": "6fecfae51d9a6f7085f72328e43ecb9a23d3b35f24988ec55e875bf5e673e0f9"
+    },
+    "qwen30_papers.txt": {
+      "upstream_sha256": "5922e7da3674e76a91d19c5a079c11e1ee8851701193e2f69fc2de54848492df",
+      "package_sha256": "5922e7da3674e76a91d19c5a079c11e1ee8851701193e2f69fc2de54848492df"
+    },
+    "SOURCES/schemas/generic.json": {
+      "upstream_sha256": "65de4ebe9ead60294b8d8bffde51459490349626d75b4b346d6b0312b5e7237f",
+      "package_sha256": "7cc7a487c4a7133459d387d45f8b158657c0ffd9824b77df84bdf25416ada258"
+    },
+    "SOURCES/schemas/photon_and_neutron.json": {
+      "upstream_sha256": "47188e1af26aba75f0441e51b4b4227321a5c5c7e7c6ad21b700873590418a34",
+      "package_sha256": "e075c4929e41c8d1971c763f33f58dee24d7baae2132de516e37f202eef3fe4a"
+    },
+    "SOURCES/schemas/prompt_template.md": {
+      "upstream_sha256": "72b98a719265415486880ad9dda5050765df0c33caed95cef0bc92190100f619",
+      "package_sha256": "86cadac42e2b3c61ff3efec1c704537c54015c0f0c5df604820f0e6ade341b59"
+    },
+    "SOURCES/evaluation/alignment_helper.yaml": {
+      "upstream_sha256": "79f4f6f52a47d250c93fcaee07abbf289186a1572a62ab04062b3f466d4c4cdc",
+      "package_sha256": "79f4f6f52a47d250c93fcaee07abbf289186a1572a62ab04062b3f466d4c4cdc"
+    },
+    "SOURCES/evaluation/dataset_identities.yaml": {
+      "upstream_sha256": "bab0f36422de3eec4308c5483c4be0959aadfa14e5b9137439d7038f9f2df91a",
+      "package_sha256": "bab0f36422de3eec4308c5483c4be0959aadfa14e5b9137439d7038f9f2df91a"
+    },
+    "SOURCES/evaluation/evaluation_metrics.yaml": {
+      "upstream_sha256": "6ba3b1e6c15b04d959b278cd6c5c55debeba65ae1602f2fa7cc439ede9fca808",
+      "package_sha256": "6ba3b1e6c15b04d959b278cd6c5c55debeba65ae1602f2fa7cc439ede9fca808"
+    },
+    "SOURCES/evaluation/facility_identities.yaml": {
+      "upstream_sha256": "3406ae24c60493c730dc2061c8f0a4bab8ac5fd4be75bfee06e874961b387500",
+      "package_sha256": "3406ae24c60493c730dc2061c8f0a4bab8ac5fd4be75bfee06e874961b387500"
+    },
+    "SOURCES/evaluation/funding_identities.yaml": {
+      "upstream_sha256": "9fd8b31f8b71ab24aa694154704fc091ce26ca05ff82acb13941cfd5b58c39be",
+      "package_sha256": "9fd8b31f8b71ab24aa694154704fc091ce26ca05ff82acb13941cfd5b58c39be"
+    },
+    "SOURCES/evaluation/meta_data_extraction/__init__.py": {
+      "upstream_sha256": "3ebbb4065141012142168ecc70776886d2a452d80c3c3c1b19fc94665136fd5c",
+      "package_sha256": "3ebbb4065141012142168ecc70776886d2a452d80c3c3c1b19fc94665136fd5c"
+    },
+    "SOURCES/evaluation/meta_data_extraction/alignment.py": {
+      "upstream_sha256": "665a6f557d006ffa56b26252ab70d827ac22c1196941d3eebb7e39ef1e123899",
+      "package_sha256": "665a6f557d006ffa56b26252ab70d827ac22c1196941d3eebb7e39ef1e123899"
+    },
+    "SOURCES/evaluation/meta_data_extraction/config_validation.py": {
+      "upstream_sha256": "5f4a5f03ea7c89db1b74f475a6c69dc1f5c13d3eb5064ec1e6e4a2c90bf35e1f",
+      "package_sha256": "5f4a5f03ea7c89db1b74f475a6c69dc1f5c13d3eb5064ec1e6e4a2c90bf35e1f"
+    },
+    "SOURCES/evaluation/meta_data_extraction/evaluation.py": {
+      "upstream_sha256": "c04d97b3295971595d64dce8bfc26ee501a2a91133c7dde35a357490959af9bb",
+      "package_sha256": "c04d97b3295971595d64dce8bfc26ee501a2a91133c7dde35a357490959af9bb"
+    },
+    "SOURCES/evaluation/meta_data_extraction/normalization.py": {
+      "upstream_sha256": "ecc3d9d3b4cff813ab6cfe5f3f22a0fbcf583adac71ff262be9bcec7bab9d9ef",
+      "package_sha256": "ecc3d9d3b4cff813ab6cfe5f3f22a0fbcf583adac71ff262be9bcec7bab9d9ef"
+    },
+    "SOURCES/evaluation/meta_data_extraction/utils.py": {
+      "upstream_sha256": "d2be66275ace6fa06e442c7ff358fba8adf2a26d362e3b4ac4b63dd8dcdd7d93",
+      "package_sha256": "d2be66275ace6fa06e442c7ff358fba8adf2a26d362e3b4ac4b63dd8dcdd7d93"
+    },
+    "SOURCES/evaluation/sample_identities.yaml": {
+      "upstream_sha256": "b5d5a586b7ac2a2397f2e251cccaa62dc81b66d9f9c1c07eaed51a1777e2803c",
+      "package_sha256": "b5d5a586b7ac2a2397f2e251cccaa62dc81b66d9f9c1c07eaed51a1777e2803c"
+    },
+    "tests/test_gpu3_promotion.py": {
+      "upstream_sha256": "5da438cb5fef4e61191c4536f6fc757107db822d4c8e3f86e440b93d7fc18b9d",
+      "package_sha256": "5da438cb5fef4e61191c4536f6fc757107db822d4c8e3f86e440b93d7fc18b9d"
+    },
+    "tests/test_main_repair_cache.py": {
+      "upstream_sha256": "2f40e23583228d5a9577c3ceb8b5298af205378fb3a006b4d0984e33a46da1e5",
+      "package_sha256": "2f40e23583228d5a9577c3ceb8b5298af205378fb3a006b4d0984e33a46da1e5"
+    },
+    "tests/test_pan_fact_repair.py": {
+      "upstream_sha256": "c1b73a02dc1ab9a9a9187071909a2b5a5fa6a84f6a2f316ecb144e06b479750e",
+      "package_sha256": "c1b73a02dc1ab9a9a9187071909a2b5a5fa6a84f6a2f316ecb144e06b479750e"
+    },
+    "tests/test_pan_fact_v15.py": {
+      "upstream_sha256": "610edf50495e4ea3ea51bc914be33fb7cf4aaa0e653534b1cc37ba19998d4871",
+      "package_sha256": "610edf50495e4ea3ea51bc914be33fb7cf4aaa0e653534b1cc37ba19998d4871"
+    },
+    "tests/test_pan_inventory.py": {
+      "upstream_sha256": "8a61ab1417520a4652a58084567f24cc86bbd265abeb346870f73a7c08004539",
+      "package_sha256": "8a61ab1417520a4652a58084567f24cc86bbd265abeb346870f73a7c08004539"
+    },
+    "tests/test_pan_measurement.py": {
+      "upstream_sha256": "ba4f614a4bf2625de6eda02df3f011e69fb1aee2dbcf351efbf041b0c59625c5",
+      "package_sha256": "ba4f614a4bf2625de6eda02df3f011e69fb1aee2dbcf351efbf041b0c59625c5"
+    },
+    "tests/test_pan_repair.py": {
+      "upstream_sha256": "716d7e442d92a0f559d164a30e105e522b479f3c1c645ee628a457be644661b3",
+      "package_sha256": "2f31ce91db706cc6f20a092f5b9c8f2dc77d0c36ebf949924dd38e23ddc62ca8"
+    },
+    "tests/test_pan_repair_v12.py": {
+      "upstream_sha256": "8b8a729eeb0b6c1ed9c203d65ca9eb08a588daf2771c11b7be09919a830ead35",
+      "package_sha256": "8b8a729eeb0b6c1ed9c203d65ca9eb08a588daf2771c11b7be09919a830ead35"
+    },
+    "tests/test_pan_repair_v16.py": {
+      "upstream_sha256": "2a88087ce01d72eecdcc210dc44f3c73356f302cd6ec4eae8c3600ac6000f2a6",
+      "package_sha256": "2a88087ce01d72eecdcc210dc44f3c73356f302cd6ec4eae8c3600ac6000f2a6"
+    },
+    "tests/test_pan_repair_v17.py": {
+      "upstream_sha256": "492767e25f28994497e5176276c6c9b4d6a73a01ecefed9582c32941aec216bd",
+      "package_sha256": "492767e25f28994497e5176276c6c9b4d6a73a01ecefed9582c32941aec216bd"
+    },
+    "tests/test_pan_repair_v18.py": {
+      "upstream_sha256": "880a35007943c4b28c83cb3079706399200760a4f23e18931ecb5c28799ff853",
+      "package_sha256": "880a35007943c4b28c83cb3079706399200760a4f23e18931ecb5c28799ff853"
+    },
+    "tests/test_pan_repair_v19.py": {
+      "upstream_sha256": "d007178de4cc9557289cdc379efe1cedcb550842f0b4ec5e10c8f4af7facd3d7",
+      "package_sha256": "d007178de4cc9557289cdc379efe1cedcb550842f0b4ec5e10c8f4af7facd3d7"
+    },
+    "tests/test_single_gpu_run.py": {
+      "upstream_sha256": "2342a55474fd0100d9306c3c5d4566a0e248a938bee0beae9277c74a7abf0299",
+      "package_sha256": "2342a55474fd0100d9306c3c5d4566a0e248a938bee0beae9277c74a7abf0299"
+    }
+  },
+  "packaging_changes": [
+    "Replaced historical module/shell headers with concise descriptions.",
+    "Set launcher defaults to one-GPU Gemma baseline on the 30-paper list.",
+    "Pinned observed vLLM server version; no complete server dependency lock available.",
+    "Updated the launcher-default assertion in one test from Qwen to Gemma; inference functions unchanged.",
+    "Schema/template JSON content matches the baseline; preserved measured raw CRLF bytes and disabled Git newline conversion for schemas to keep cache fingerprints valid."
+  ],
+  "algorithm_changes": [],
+  "verification": {
+    "offline_tests": {
+      "total": 238,
+      "passed": 235,
+      "skipped": 3
+    },
+    "python_cli_help": "passed",
+    "bash_syntax": "passed",
+    "inference_ast_equal_except_module_docstring": true,
+    "saved_transaction_replay": {
+      "papers": 30,
+      "transactions": 33,
+      "skipped_transactions": 0,
+      "entity_output_mismatches": 0
+    },
+    "gpu_inference_run": false,
+    "artifact_scan": "No raw PDFs, credentials matching common token/private-key patterns, bytecode, service logs or runtime databases copied.",
+    "all_measured_schema_fingerprints_match": true
+  }
+}

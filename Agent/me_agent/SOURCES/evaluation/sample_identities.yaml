@@ -1,0 +1,2696 @@
+version: '1.2'
+source: data/assignments.json + data/gold/<arxiv_id>.json + grounded_forms below
+scope: paper-specific sample identities for evaluation alignment
+aliases:
+  go: graphene oxide
+  pmma: polymethyl methacrylate
+alias_grounding:
+  go:
+  - '2010.02965'
+  pmma:
+  - '2410.00268'
+grounded_forms:
+- arxiv_id: '1901.08819'
+  gold_id: sample_1
+  accepted_name_forms:
+  - iron oxide MNP
+  - iron oxide nanoparticles monolayer
+  - iron oxide MNPs monolayer
+  accepted_composition_forms:
+  - Fe3O4/Fe2O3
+  grounding: &id006
+    pdf_pages:
+    - 1
+    - 2
+    evidence: The paper studies an iron-oxide nanoparticle monolayer and describes a magnetite Fe3O4 core with a
+      maghemite Fe2O3 shell.
+- arxiv_id: '2010.12832'
+  gold_id: sample_1
+  accepted_name_forms:
+  - granular system consists of bi-disperse plastic beads
+  grounding: &id009
+    pdf_pages:
+    - 3
+    evidence: The paper identifies its sole sample as a granular system consisting of bi-disperse smooth plastic
+      beads with 5 and 6 mm diameters.
+- arxiv_id: '1909.08292'
+  gold_id: sample_1
+  accepted_name_forms:
+  - Co2Cr1-xTixAl (x=0)
+  - Co2CrAl (x=0)
+  accepted_composition_forms:
+  - Co2CrAl
+  grounding: &id001
+    pdf_pages:
+    - 2
+    - 3
+    evidence: The paper defines the Co2Cr1-xTixAl series at x=0, 0.25, and 0.5.
+- arxiv_id: '1909.08292'
+  gold_id: sample_2
+  accepted_name_forms:
+  - Co2Cr1-xTixAl (x=0.25)
+  - Co2Cr0.75Ti0.25Al (x=0.25)
+  accepted_composition_forms:
+  - Co2Cr0.75Ti0.25Al
+  grounding: *id001
+- arxiv_id: '1909.08292'
+  gold_id: sample_3
+  accepted_name_forms:
+  - Co2Cr1-xTixAl (x=0.5)
+  - Co2Cr0.5Ti0.5Al (x=0.5)
+  accepted_composition_forms:
+  - Co2Cr0.5Ti0.5Al
+  grounding: *id001
+- arxiv_id: '2001.00707'
+  gold_id: sample_1
+  accepted_name_forms:
+  - Mn2V1-xCoxGa (x=0)
+  accepted_composition_forms:
+  - Mn2VGa
+  grounding: &id002
+    pdf_pages:
+    - 1
+    - 3
+    - 5
+    evidence: The paper defines Mn2V1-xCoxGa samples at x=0, 0.25, 0.5, 0.75, and 1 and identifies the end members
+      Mn2VGa and Mn2CoGa.
+- arxiv_id: '2001.00707'
+  gold_id: sample_2
+  accepted_name_forms:
+  - Mn2V1-xCoxGa (x=0.25)
+  accepted_composition_forms:
+  - Mn2V0.75Co0.25Ga
+  grounding: *id002
+- arxiv_id: '2001.00707'
+  gold_id: sample_3
+  accepted_name_forms:
+  - Mn2V1-xCoxGa (x=0.5)
+  accepted_composition_forms:
+  - Mn2V0.5Co0.5Ga
+  grounding: *id002
+- arxiv_id: '2001.00707'
+  gold_id: sample_4
+  accepted_name_forms:
+  - Mn2V1-xCoxGa (x=0.75)
+  accepted_composition_forms:
+  - Mn2V0.25Co0.75Ga
+  grounding: *id002
+- arxiv_id: '2001.00707'
+  gold_id: sample_5
+  accepted_name_forms:
+  - Mn2V1-xCoxGa (x=1)
+  accepted_composition_forms:
+  - Mn2CoGa
+  grounding: *id002
+- arxiv_id: '2009.01093'
+  gold_id: sample_1
+  accepted_name_forms:
+  - Seriatopora aculeata coral skeleton particles
+  accepted_composition_forms:
+  - aragonite (CaCO3)
+  grounding: &id007
+    pdf_pages:
+    - 1
+    - 4
+    evidence: The paper explicitly describes particles of Seriatopora aculeata coral skeleton as aragonite CaCO3.
+- arxiv_id: '2010.00094'
+  gold_id: sample_1
+  accepted_name_forms:
+  - SGTO x=0.0
+  - SGTO0
+  accepted_composition_forms:
+  - SrTiO3
+  grounding: &id003
+    pdf_pages:
+    - 3
+    - 18
+    - 19
+    evidence: The paper defines Sr1-xGdxTiO3 at x=0.0, 0.06, 0.12, 0.18, 0.24, and 0.30 and states that samples
+      are labeled SGTOx.
+- arxiv_id: '2010.00094'
+  gold_id: sample_2
+  accepted_name_forms:
+  - SGTO x=0.06
+  accepted_composition_forms:
+  - Sr0.94Gd0.06TiO3
+  grounding: *id003
+- arxiv_id: '2010.00094'
+  gold_id: sample_3
+  accepted_name_forms:
+  - SGTO x=0.12
+  accepted_composition_forms:
+  - Sr0.88Gd0.12TiO3
+  grounding: *id003
+- arxiv_id: '2010.00094'
+  gold_id: sample_4
+  accepted_name_forms:
+  - SGTO x=0.18
+  accepted_composition_forms:
+  - Sr0.82Gd0.18TiO3
+  grounding: *id003
+- arxiv_id: '2010.00094'
+  gold_id: sample_5
+  accepted_name_forms:
+  - SGTO x=0.24
+  accepted_composition_forms:
+  - Sr0.76Gd0.24TiO3
+  grounding: *id003
+- arxiv_id: '2010.00094'
+  gold_id: sample_6
+  accepted_name_forms:
+  - SGTO x=0.30
+  accepted_composition_forms:
+  - Sr0.70Gd0.30TiO3
+  grounding: *id003
+- arxiv_id: '2309.13729'
+  gold_id: sample_2
+  accepted_composition_forms:
+  - CoFe2O4/Co-Fe alloy
+  grounding: &id004
+    pdf_pages:
+    - 1
+    - 2
+    - 3
+    evidence: The paper describes the temperature-treated products as CoFe2O4 hard phase / Co-Fe alloy soft phase
+      nanocomposites.
+- arxiv_id: '2309.13729'
+  gold_id: sample_3
+  accepted_composition_forms:
+  - CoFe2O4/Co-Fe alloy
+  grounding: *id004
+- arxiv_id: '2309.13729'
+  gold_id: sample_4
+  accepted_composition_forms:
+  - CoFe2O4/Co-Fe alloy
+  grounding: *id004
+- arxiv_id: '2501.08122'
+  gold_id: sample_1
+  accepted_name_forms:
+  - single-layer CoFeB thin film
+  - thin CoFeB film
+  accepted_composition_forms:
+  - CoFeB
+  grounding: &id005
+    pdf_pages:
+    - 2
+    - 4
+    - 5
+    - 6
+    - 7
+    evidence: The paper states that CoFeB films use a Co40Fe40B20 target and distinguishes the single layer, 51-A
+      Mo bilayer, 5-A Mo bilayer, and 5-A Mo/Si trilayer.
+- arxiv_id: '2501.08122'
+  gold_id: sample_2
+  accepted_name_forms:
+  - CoFeB / Mo (51 Å) bilayer
+  accepted_composition_forms:
+  - Co40Fe40B20/Mo
+  grounding: *id005
+- arxiv_id: '2501.08122'
+  gold_id: sample_3
+  accepted_name_forms:
+  - CoFeB / Mo (5 Å) bilayer
+  accepted_composition_forms:
+  - Co40Fe40B20/Mo
+  grounding: *id005
+- arxiv_id: '2501.08122'
+  gold_id: sample_4
+  accepted_name_forms:
+  - CoFeB / Mo (5 Å) / Si trilayer
+  accepted_composition_forms:
+  - Co40Fe40B20/Mo/Si
+  grounding: *id005
+- arxiv_id: '2605.14792'
+  gold_id: sample_2
+  accepted_name_forms:
+  - synthetic FeWO4
+  accepted_composition_forms:
+  - FeWO4:Fe2WO6
+  grounding: &id022
+    pdf_pages:
+    - 1
+    - 3
+    evidence: The paper explicitly defines synthetic FeWO4 as the laboratory-synthesized 7:1 FeWO4:Fe2WO6 two-phase
+      composite.
+papers:
+  '1804.07163':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: PAM
+    gold_chemical_composition: null
+    normalized_name: pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Surfactin
+    gold_chemical_composition: null
+    normalized_name: surfactin
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - surfactin
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: SDDAB
+    gold_chemical_composition: N-dodecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate
+    normalized_name: sddab
+    normalized_composition: n-dodecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sddab
+    accepted_composition_forms:
+    - n-dodecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: STDAB
+    gold_chemical_composition: N-tetradecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate
+    normalized_name: stdab
+    normalized_composition: n-tetradecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - stdab
+    accepted_composition_forms:
+    - n-tetradecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: SHDAB
+    gold_chemical_composition: N-hexadecyl-N,N-dimethyl-3-ammonio-1-propanesulfonate
+    normalized_name: shdab
+    normalized_composition: n-hexadecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - shdab
+    accepted_composition_forms:
+    - n-hexadecyl-n,n-dimethyl-3-ammonio-1-propanesulfonate
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 6
+    gold_id: sample_6
+    gold_sample_name: C12BE
+    gold_chemical_composition: N-dodecyl-N,N-dimethyl-2-ammonio-acetate
+    normalized_name: c12be
+    normalized_composition: n-dodecyl-n,n-dimethyl-2-ammonio-acetate
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - c12be
+    accepted_composition_forms:
+    - n-dodecyl-n,n-dimethyl-2-ammonio-acetate
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 7
+    gold_id: sample_7
+    gold_sample_name: Surfactin/SDDAB
+    gold_chemical_composition: null
+    normalized_name: surfactin/sddab
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - surfactin/sddab
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 8
+    gold_id: sample_8
+    gold_sample_name: Surfactin/PAM
+    gold_chemical_composition: null
+    normalized_name: surfactin/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - surfactin/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 9
+    gold_id: sample_9
+    gold_sample_name: SDDAB/PAM
+    gold_chemical_composition: null
+    normalized_name: sddab/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - sddab/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 10
+    gold_id: sample_10
+    gold_sample_name: STDAB/PAM
+    gold_chemical_composition: null
+    normalized_name: stdab/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - stdab/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 11
+    gold_id: sample_11
+    gold_sample_name: SHDAB/PAM
+    gold_chemical_composition: null
+    normalized_name: shdab/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - shdab/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 12
+    gold_id: sample_12
+    gold_sample_name: C12BE/PAM
+    gold_chemical_composition: null
+    normalized_name: c12be/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - c12be/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 13
+    gold_id: sample_13
+    gold_sample_name: Surfactin/SDDAB/PAM
+    gold_chemical_composition: null
+    normalized_name: surfactin/sddab/pam
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - surfactin/sddab/pam
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  '1806.08116':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ge22Ga3Sb10S65
+    gold_chemical_composition: Ge22Ga3Sb10S65
+    normalized_name: ge22ga3sb10s65
+    normalized_composition: ge22ga3sb10s65
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge22ga3sb10s65
+    accepted_composition_forms:
+    - ge22ga3sb10s65
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ge15Ga10Sb10S65
+    gold_chemical_composition: Ge15Ga10Sb10S65
+    normalized_name: ge15ga10sb10s65
+    normalized_composition: ge15ga10sb10s65
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge15ga10sb10s65
+    accepted_composition_forms:
+    - ge15ga10sb10s65
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '1811.10341':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ge14.5Te85.5
+    gold_chemical_composition: Ge14.5Te85.5
+    normalized_name: ge14.5te85.5
+    normalized_composition: ge14.5te85.5
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge14.5te85.5
+    accepted_composition_forms:
+    - ge14.5te85.5
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ge18.7Te81.3
+    gold_chemical_composition: Ge18.7Te81.3
+    normalized_name: ge18.7te81.3
+    normalized_composition: ge18.7te81.3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge18.7te81.3
+    accepted_composition_forms:
+    - ge18.7te81.3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Ge23.6Te76.4
+    gold_chemical_composition: Ge23.6Te76.4
+    normalized_name: ge23.6te76.4
+    normalized_composition: ge23.6te76.4
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge23.6te76.4
+    accepted_composition_forms:
+    - ge23.6te76.4
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '1812.03956':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: trilayer film
+    gold_chemical_composition: Mo/B4C/Mo
+    normalized_name: trilayer film
+    normalized_composition: mo/b4c/mo
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - trilayer film
+    accepted_composition_forms:
+    - mo/b4c/mo
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: 10 bilayer thick Al/Ni ML film on SiC
+    gold_chemical_composition: Al/Ni
+    normalized_name: 10 bilayer thick al/ni ml film on sic
+    normalized_composition: al/ni
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - 10 bilayer thick al/ni ml film on sic
+    accepted_composition_forms:
+    - al/ni
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '1901.08819':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: iron oxide MNPs
+    gold_chemical_composition: Fe2O3
+    normalized_name: iron oxide mnps
+    normalized_composition: fe2o3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - iron oxide mnps
+    - iron oxide mnp
+    - iron oxide nanoparticles monolayer
+    - iron oxide mnps monolayer
+    accepted_composition_forms:
+    - fe2o3
+    - fe3o4/fe2o3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id006
+  '1907.00342':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ba2CoWO6
+    gold_chemical_composition: Ba2CoWO6
+    normalized_name: ba2cowo6
+    normalized_composition: ba2cowo6
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ba2cowo6
+    accepted_composition_forms:
+    - ba2cowo6
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '1909.08292':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Co2Cr1−xTixAl x=0
+    gold_chemical_composition: Co2Cr1−xTixAl x=0
+    normalized_name: co2cr1-xtixal x=0
+    normalized_composition: co2cr1-xtixal x=0
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - co2cr1-xtixal x=0
+    - co2cr1-xtixal (x=0)
+    - co2cral (x=0)
+    accepted_composition_forms:
+    - co2cr1-xtixal x=0
+    - co2cral
+    variant_identity:
+      variables:
+        x:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id001
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Co2Cr1−xTixAl x=0.25
+    gold_chemical_composition: Co2Cr1−xTixAl x=0.25
+    normalized_name: co2cr1-xtixal x=0.25
+    normalized_composition: co2cr1-xtixal x=0.25
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - co2cr1-xtixal x=0.25
+    - co2cr1-xtixal (x=0.25)
+    - co2cr0.75ti0.25al (x=0.25)
+    accepted_composition_forms:
+    - co2cr1-xtixal x=0.25
+    - co2cr0.75ti0.25al
+    variant_identity:
+      variables:
+        x:
+        - '0.25'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id001
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Co2Cr1−xTixAl x=0.5
+    gold_chemical_composition: Co2Cr1−xTixAl x=0.5
+    normalized_name: co2cr1-xtixal x=0.5
+    normalized_composition: co2cr1-xtixal x=0.5
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - co2cr1-xtixal x=0.5
+    - co2cr1-xtixal (x=0.5)
+    - co2cr0.5ti0.5al (x=0.5)
+    accepted_composition_forms:
+    - co2cr1-xtixal x=0.5
+    - co2cr0.5ti0.5al
+    variant_identity:
+      variables:
+        x:
+        - '0.5'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id001
+  '1912.11816':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: NANOPERM
+    gold_chemical_composition: (Fe0.985Co0.015)89Zr7B3
+    normalized_name: nanoperm
+    normalized_composition: (fe0.985co0.015)89zr7b3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - nanoperm
+    accepted_composition_forms:
+    - (fe0.985co0.015)89zr7b3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2001.00707':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Mn2V1-xCoxGa x=0
+    gold_chemical_composition: Mn2V1-xCoxGa x=0
+    normalized_name: mn2v1-xcoxga x=0
+    normalized_composition: mn2v1-xcoxga x=0
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mn2v1-xcoxga x=0
+    - mn2v1-xcoxga (x=0)
+    accepted_composition_forms:
+    - mn2v1-xcoxga x=0
+    - mn2vga
+    variant_identity:
+      variables:
+        x:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id002
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Mn2V1-xCoxGa x=0.25
+    gold_chemical_composition: Mn2V1-xCoxGa x=0.25
+    normalized_name: mn2v1-xcoxga x=0.25
+    normalized_composition: mn2v1-xcoxga x=0.25
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mn2v1-xcoxga x=0.25
+    - mn2v1-xcoxga (x=0.25)
+    accepted_composition_forms:
+    - mn2v1-xcoxga x=0.25
+    - mn2v0.75co0.25ga
+    variant_identity:
+      variables:
+        x:
+        - '0.25'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id002
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Mn2V1-xCoxGa x=0.5
+    gold_chemical_composition: Mn2V1-xCoxGa x=0.5
+    normalized_name: mn2v1-xcoxga x=0.5
+    normalized_composition: mn2v1-xcoxga x=0.5
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mn2v1-xcoxga x=0.5
+    - mn2v1-xcoxga (x=0.5)
+    accepted_composition_forms:
+    - mn2v1-xcoxga x=0.5
+    - mn2v0.5co0.5ga
+    variant_identity:
+      variables:
+        x:
+        - '0.5'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id002
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: Mn2V1-xCoxGa x=0.75
+    gold_chemical_composition: Mn2V1-xCoxGa x=0.75
+    normalized_name: mn2v1-xcoxga x=0.75
+    normalized_composition: mn2v1-xcoxga x=0.75
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mn2v1-xcoxga x=0.75
+    - mn2v1-xcoxga (x=0.75)
+    accepted_composition_forms:
+    - mn2v1-xcoxga x=0.75
+    - mn2v0.25co0.75ga
+    variant_identity:
+      variables:
+        x:
+        - '0.75'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id002
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: Mn2V1-xCoxGa x=1
+    gold_chemical_composition: Mn2V1-xCoxGa x=1
+    normalized_name: mn2v1-xcoxga x=1
+    normalized_composition: mn2v1-xcoxga x=1
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mn2v1-xcoxga x=1
+    - mn2v1-xcoxga (x=1)
+    accepted_composition_forms:
+    - mn2v1-xcoxga x=1
+    - mn2coga
+    variant_identity:
+      variables:
+        x:
+        - '1'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id002
+  '2001.02706':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ni0.90V0.10
+    gold_chemical_composition: Ni0.90V0.10
+    normalized_name: ni0.90v0.10
+    normalized_composition: ni0.90v0.10
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ni0.90v0.10
+    accepted_composition_forms:
+    - ni0.90v0.10
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2005.01985':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: SnI4
+    gold_chemical_composition: SnI4
+    normalized_name: sni4
+    normalized_composition: sni4
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sni4
+    accepted_composition_forms:
+    - sni4
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2006.12074':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Sr3Ir2O7
+    gold_chemical_composition: Sr3Ir2O7
+    normalized_name: sr3ir2o7
+    normalized_composition: sr3ir2o7
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sr3ir2o7
+    accepted_composition_forms:
+    - sr3ir2o7
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2007.00972':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: BaTiO3
+    gold_chemical_composition: BaTiO3
+    normalized_name: batio3
+    normalized_composition: batio3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - batio3
+    accepted_composition_forms:
+    - batio3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ba0.5Sr0.5TiO3
+    gold_chemical_composition: Ba0.5Sr0.5TiO3
+    normalized_name: ba0.5sr0.5tio3
+    normalized_composition: ba0.5sr0.5tio3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ba0.5sr0.5tio3
+    accepted_composition_forms:
+    - ba0.5sr0.5tio3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: SrTiO3
+    gold_chemical_composition: SrTiO3
+    normalized_name: srtio3
+    normalized_composition: srtio3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - srtio3
+    accepted_composition_forms:
+    - srtio3
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2009.01093':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Seriatopora aculeata coral skeleton
+    gold_chemical_composition: CaCO3
+    normalized_name: seriatopora aculeata coral skeleton
+    normalized_composition: caco3
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - seriatopora aculeata coral skeleton
+    - seriatopora aculeata coral skeleton particles
+    accepted_composition_forms:
+    - caco3
+    - aragonite (caco3)
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id007
+  '2009.12925':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: LCO001
+    gold_chemical_composition: La2CuO4
+    normalized_name: lco001
+    normalized_composition: la2cuo4
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - lco001
+    accepted_composition_forms:
+    - la2cuo4
+    variant_identity: {}
+    name_discriminators:
+    - lco001
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id008
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: LCO100
+    gold_chemical_composition: La2CuO4
+    normalized_name: lco100
+    normalized_composition: la2cuo4
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - lco100
+    accepted_composition_forms:
+    - la2cuo4
+    variant_identity: {}
+    name_discriminators:
+    - lco100
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id008
+  '2010.00094':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: STO
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.0
+    normalized_name: sto
+    normalized_composition: sr1-xgdxtio3 x=0.0
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sto
+    - sgto x=0.0
+    - sgto0
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.0
+    - srtio3
+    variant_identity:
+      variables:
+        x:
+        - '0.0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: SGTO6
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.06
+    normalized_name: sgto6
+    normalized_composition: sr1-xgdxtio3 x=0.06
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sgto6
+    - sgto x=0.06
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.06
+    - sr0.94gd0.06tio3
+    variant_identity:
+      variables:
+        x:
+        - '0.06'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: SGTO12
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.12
+    normalized_name: sgto12
+    normalized_composition: sr1-xgdxtio3 x=0.12
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sgto12
+    - sgto x=0.12
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.12
+    - sr0.88gd0.12tio3
+    variant_identity:
+      variables:
+        x:
+        - '0.12'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: SGTO18
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.18
+    normalized_name: sgto18
+    normalized_composition: sr1-xgdxtio3 x=0.18
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sgto18
+    - sgto x=0.18
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.18
+    - sr0.82gd0.18tio3
+    variant_identity:
+      variables:
+        x:
+        - '0.18'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: SGTO24
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.24
+    normalized_name: sgto24
+    normalized_composition: sr1-xgdxtio3 x=0.24
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sgto24
+    - sgto x=0.24
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.24
+    - sr0.76gd0.24tio3
+    variant_identity:
+      variables:
+        x:
+        - '0.24'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  - gold_entity_index: 6
+    gold_id: sample_6
+    gold_sample_name: SGTO30
+    gold_chemical_composition: Sr1−xGdxTiO3 x=0.30
+    normalized_name: sgto30
+    normalized_composition: sr1-xgdxtio3 x=0.30
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - sgto30
+    - sgto x=0.30
+    accepted_composition_forms:
+    - sr1-xgdxtio3 x=0.30
+    - sr0.70gd0.30tio3
+    variant_identity:
+      variables:
+        x:
+        - '0.30'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id003
+  '2010.02965':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: BGO
+    gold_chemical_composition: null
+    normalized_name: bgo
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - bgo
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: HGO
+    gold_chemical_composition: 'CAS No.: 7782-42-5'
+    normalized_name: hgo
+    normalized_composition: cas no.:7782-42-5
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - hgo
+    accepted_composition_forms:
+    - cas no.:7782-42-5
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: TGO
+    gold_chemical_composition: null
+    normalized_name: tgo
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - tgo
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  '2010.12832':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: bi-disperse smooth plastic beads
+    gold_chemical_composition: null
+    normalized_name: bi-disperse smooth plastic beads
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - bi-disperse smooth plastic beads
+    - granular system consists of bi-disperse plastic beads
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+    grounding: *id009
+  '2011.13326':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: FeNP10
+    gold_chemical_composition: Fe3O4
+    normalized_name: fenp10
+    normalized_composition: fe3o4
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - fenp10
+    accepted_composition_forms:
+    - fe3o4
+    variant_identity: {}
+    name_discriminators:
+    - fenp10
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id010
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: FeNP20
+    gold_chemical_composition: Fe3O4
+    normalized_name: fenp20
+    normalized_composition: fe3o4
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - fenp20
+    accepted_composition_forms:
+    - fe3o4
+    variant_identity: {}
+    name_discriminators:
+    - fenp20
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id010
+  '2104.10884':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: LCO x = 0
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 2x, x = 0)
+    normalized_name: lco x=0
+    normalized_composition: la1-ysryco1-xnbxo3 (y=2x, x=0)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lco x=0
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=2x, x=0)
+    variant_identity:
+      variables:
+        x:
+        - '0'
+        y:
+        - '2'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: LSCNO x = 0.025
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 2x, x = 0.025)
+    normalized_name: lscno x=0.025
+    normalized_composition: la1-ysryco1-xnbxo3 (y=2x, x=0.025)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lscno x=0.025
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=2x, x=0.025)
+    variant_identity:
+      variables:
+        x:
+        - '0.025'
+        y:
+        - '2'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: LSCNO x = 0.05
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 2x, x = 0.05)
+    normalized_name: lscno x=0.05
+    normalized_composition: la1-ysryco1-xnbxo3 (y=2x, x=0.05)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lscno x=0.05
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=2x, x=0.05)
+    variant_identity:
+      variables:
+        x:
+        - '0.05'
+        y:
+        - '2'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: LSCNO x = 0.10
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 2x, x = 0.10)
+    normalized_name: lscno x=0.10
+    normalized_composition: la1-ysryco1-xnbxo3 (y=2x, x=0.10)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lscno x=0.10
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=2x, x=0.10)
+    variant_identity:
+      variables:
+        x:
+        - '0.10'
+        y:
+        - '2'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: LSCNO x = 0.15
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 2x, x = 0.15)
+    normalized_name: lscno x=0.15
+    normalized_composition: la1-ysryco1-xnbxo3 (y=2x, x=0.15)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lscno x=0.15
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=2x, x=0.15)
+    variant_identity:
+      variables:
+        x:
+        - '0.15'
+        y:
+        - '2'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 6
+    gold_id: sample_6
+    gold_sample_name: LCNO x = 0.025
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 0, x = 0.025)
+    normalized_name: lcno x=0.025
+    normalized_composition: la1-ysryco1-xnbxo3 (y=0, x=0.025)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lcno x=0.025
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=0, x=0.025)
+    variant_identity:
+      variables:
+        x:
+        - '0.025'
+        y:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 7
+    gold_id: sample_7
+    gold_sample_name: LCNO x = 0.05
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 0, x = 0.05)
+    normalized_name: lcno x=0.05
+    normalized_composition: la1-ysryco1-xnbxo3 (y=0, x=0.05)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lcno x=0.05
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=0, x=0.05)
+    variant_identity:
+      variables:
+        x:
+        - '0.05'
+        y:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 8
+    gold_id: sample_8
+    gold_sample_name: LCNO x = 0.10
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 0, x = 0.10)
+    normalized_name: lcno x=0.10
+    normalized_composition: la1-ysryco1-xnbxo3 (y=0, x=0.10)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lcno x=0.10
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=0, x=0.10)
+    variant_identity:
+      variables:
+        x:
+        - '0.10'
+        y:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 9
+    gold_id: sample_9
+    gold_sample_name: LCNO x = 0.15
+    gold_chemical_composition: La1−ySryCo1−xNbxO3 (y = 0, x = 0.15)
+    normalized_name: lcno x=0.15
+    normalized_composition: la1-ysryco1-xnbxo3 (y=0, x=0.15)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - lcno x=0.15
+    accepted_composition_forms:
+    - la1-ysryco1-xnbxo3 (y=0, x=0.15)
+    variant_identity:
+      variables:
+        x:
+        - '0.15'
+        y:
+        - '0'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2105.04167':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: HPT-Ni
+    gold_chemical_composition: Ni
+    normalized_name: hpt-ni
+    normalized_composition: ni
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - hpt-ni
+    accepted_composition_forms:
+    - ni
+    variant_identity: {}
+    name_discriminators:
+    - hpt
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id011
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: nd-Ni
+    gold_chemical_composition: Ni
+    normalized_name: nd-ni
+    normalized_composition: ni
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - nd-ni
+    accepted_composition_forms:
+    - ni
+    variant_identity: {}
+    name_discriminators:
+    - nd
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id011
+  '2202.11658':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: α-IrI3
+    gold_chemical_composition: IrI3
+    normalized_name: α-iri3
+    normalized_composition: iri3
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - α-iri3
+    accepted_composition_forms:
+    - iri3
+    variant_identity: {}
+    name_discriminators:
+    - α
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id012
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: β-IrI3
+    gold_chemical_composition: IrI3
+    normalized_name: β-iri3
+    normalized_composition: iri3
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - β-iri3
+    accepted_composition_forms:
+    - iri3
+    variant_identity: {}
+    name_discriminators:
+    - β
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id012
+  '2203.07170':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: ZnO2
+    gold_chemical_composition: ZnO2
+    normalized_name: zno2
+    normalized_composition: zno2
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - zno2
+    accepted_composition_forms:
+    - zno2
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: ZnO
+    gold_chemical_composition: ZnO
+    normalized_name: zno
+    normalized_composition: zno
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - zno
+    accepted_composition_forms:
+    - zno
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2209.06540':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ge20S80
+    gold_chemical_composition: Ge20S80
+    normalized_name: ge20s80
+    normalized_composition: ge20s80
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge20s80
+    accepted_composition_forms:
+    - ge20s80
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ge25S75
+    gold_chemical_composition: Ge25S75
+    normalized_name: ge25s75
+    normalized_composition: ge25s75
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge25s75
+    accepted_composition_forms:
+    - ge25s75
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Ge33S67
+    gold_chemical_composition: Ge33S67
+    normalized_name: ge33s67
+    normalized_composition: ge33s67
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge33s67
+    accepted_composition_forms:
+    - ge33s67
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: Ge42S58
+    gold_chemical_composition: Ge42S58
+    normalized_name: ge42s58
+    normalized_composition: ge42s58
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge42s58
+    accepted_composition_forms:
+    - ge42s58
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2211.06006':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: MnSi
+    gold_chemical_composition: MnSi
+    normalized_name: mnsi
+    normalized_composition: mnsi
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - mnsi
+    accepted_composition_forms:
+    - mnsi
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2212.04169':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: as-deposited TiN coating
+    gold_chemical_composition: TiN
+    normalized_name: as-deposited tin coating
+    normalized_composition: tin
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_4
+    accepted_name_forms:
+    - as-deposited tin coating
+    accepted_composition_forms:
+    - tin
+    variant_identity: {}
+    name_discriminators:
+    - as
+    - coating
+    - deposited
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id014
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: as-deposited Ti0.77Al0.23N coating
+    gold_chemical_composition: Ti0.77Al0.23N
+    normalized_name: as-deposited ti0.77al0.23n coating
+    normalized_composition: ti0.77al0.23n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_3
+    accepted_name_forms:
+    - as-deposited ti0.77al0.23n coating
+    accepted_composition_forms:
+    - ti0.77al0.23n
+    variant_identity: {}
+    name_discriminators:
+    - as
+    - coating
+    - deposited
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id015
+    - sample_name
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: as-deposited Ti0.47Al0.53N coating
+    gold_chemical_composition: Ti0.47Al0.53N
+    normalized_name: as-deposited ti0.47al0.53n coating
+    normalized_composition: ti0.47al0.53n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_2
+    accepted_name_forms:
+    - as-deposited ti0.47al0.53n coating
+    accepted_composition_forms:
+    - ti0.47al0.53n
+    variant_identity: {}
+    name_discriminators:
+    - as
+    - coating
+    - deposited
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id016
+    - sample_name
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: as-deposited Ti0.38Al0.62N coating
+    gold_chemical_composition: Ti0.38Al0.62N
+    normalized_name: as-deposited ti0.38al0.62n coating
+    normalized_composition: ti0.38al0.62n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - as-deposited ti0.38al0.62n coating
+    accepted_composition_forms:
+    - ti0.38al0.62n
+    variant_identity: {}
+    name_discriminators:
+    - as
+    - coating
+    - deposited
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id013
+    - sample_name
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: as-deposited Ti0.38Al0.62N-FG coating
+    gold_chemical_composition: Ti0.38Al0.62N
+    normalized_name: as-deposited ti0.38al0.62n-fg coating
+    normalized_composition: ti0.38al0.62n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - as-deposited ti0.38al0.62n-fg coating
+    accepted_composition_forms:
+    - ti0.38al0.62n
+    variant_identity: {}
+    name_discriminators:
+    - as
+    - coating
+    - deposited
+    - fg
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id013
+  - gold_entity_index: 6
+    gold_id: sample_6
+    gold_sample_name: worn TiN coated insert
+    gold_chemical_composition: TiN
+    normalized_name: worn tin coated insert
+    normalized_composition: tin
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_4
+    accepted_name_forms:
+    - worn tin coated insert
+    accepted_composition_forms:
+    - tin
+    variant_identity: {}
+    name_discriminators:
+    - coated
+    - insert
+    - worn
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id014
+  - gold_entity_index: 7
+    gold_id: sample_7
+    gold_sample_name: worn Ti0.77Al0.23N coated insert
+    gold_chemical_composition: Ti0.77Al0.23N
+    normalized_name: worn ti0.77al0.23n coated insert
+    normalized_composition: ti0.77al0.23n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_3
+    accepted_name_forms:
+    - worn ti0.77al0.23n coated insert
+    accepted_composition_forms:
+    - ti0.77al0.23n
+    variant_identity: {}
+    name_discriminators:
+    - coated
+    - insert
+    - worn
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id015
+  - gold_entity_index: 8
+    gold_id: sample_8
+    gold_sample_name: worn Ti0.47Al0.53N coated insert
+    gold_chemical_composition: Ti0.47Al0.53N
+    normalized_name: worn ti0.47al0.53n coated insert
+    normalized_composition: ti0.47al0.53n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_2
+    accepted_name_forms:
+    - worn ti0.47al0.53n coated insert
+    accepted_composition_forms:
+    - ti0.47al0.53n
+    variant_identity: {}
+    name_discriminators:
+    - coated
+    - insert
+    - worn
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id016
+  - gold_entity_index: 9
+    gold_id: sample_9
+    gold_sample_name: worn Ti0.38Al0.62N coated insert
+    gold_chemical_composition: Ti0.38Al0.62N
+    normalized_name: worn ti0.38al0.62n coated insert
+    normalized_composition: ti0.38al0.62n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - worn ti0.38al0.62n coated insert
+    accepted_composition_forms:
+    - ti0.38al0.62n
+    variant_identity: {}
+    name_discriminators:
+    - coated
+    - insert
+    - worn
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id013
+  - gold_entity_index: 10
+    gold_id: sample_10
+    gold_sample_name: worn Ti0.38Al0.62N-FG coated insert
+    gold_chemical_composition: Ti0.38Al0.62N
+    normalized_name: worn ti0.38al0.62n-fg coated insert
+    normalized_composition: ti0.38al0.62n
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - worn ti0.38al0.62n-fg coated insert
+    accepted_composition_forms:
+    - ti0.38al0.62n
+    variant_identity: {}
+    name_discriminators:
+    - coated
+    - fg
+    - insert
+    - worn
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id013
+  - gold_entity_index: 11
+    gold_id: sample_11
+    gold_sample_name: MS-TiN reference coating
+    gold_chemical_composition: TiN
+    normalized_name: ms-tin reference coating
+    normalized_composition: tin
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_4
+    accepted_name_forms:
+    - ms-tin reference coating
+    accepted_composition_forms:
+    - tin
+    variant_identity: {}
+    name_discriminators:
+    - coating
+    - ms
+    - reference
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id014
+  - gold_entity_index: 12
+    gold_id: sample_12
+    gold_sample_name: MS-Ti0.35Al0.65N reference coating
+    gold_chemical_composition: Ti0.35Al0.65N
+    normalized_name: ms-ti0.35al0.65n reference coating
+    normalized_composition: ti0.35al0.65n
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ms-ti0.35al0.65n reference coating
+    accepted_composition_forms:
+    - ti0.35al0.65n
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 13
+    gold_id: sample_13
+    gold_sample_name: bulk Ti metal reference
+    gold_chemical_composition: Ti
+    normalized_name: bulk ti metal reference
+    normalized_composition: ti
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - bulk ti metal reference
+    accepted_composition_forms:
+    - ti
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 14
+    gold_id: sample_14
+    gold_sample_name: 316L stainless steel reference
+    gold_chemical_composition: null
+    normalized_name: 316l stainless steel reference
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - 316l stainless steel reference
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 15
+    gold_id: sample_15
+    gold_sample_name: bulk Fe metal reference
+    gold_chemical_composition: Fe
+    normalized_name: bulk fe metal reference
+    normalized_composition: fe
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - bulk fe metal reference
+    accepted_composition_forms:
+    - fe
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 16
+    gold_id: sample_16
+    gold_sample_name: bulk Cr metal reference
+    gold_chemical_composition: Cr
+    normalized_name: bulk cr metal reference
+    normalized_composition: cr
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - bulk cr metal reference
+    accepted_composition_forms:
+    - cr
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2302.02010':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: UTe2
+    gold_chemical_composition: UTe2
+    normalized_name: ute2
+    normalized_composition: ute2
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ute2
+    accepted_composition_forms:
+    - ute2
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2304.08002':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ni/Ti, 11.8 atom % 11B + C, N = 50, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 11.8 atom % 11B + C
+    normalized_name: ni/ti, 11.8 atom%11b+c, n=50, modulated ion assistance
+    normalized_composition: ni/ti, 11.8 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ni/ti, 11.8 atom%11b+c, n=50, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 11.8 atom%11b+c
+    variant_identity:
+      counts:
+      - '50'
+      concentrations:
+      - 11.8atom%
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ni/Ti, 26.0 atom % 11B + C, N = 50, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 26.0 atom % 11B + C
+    normalized_name: ni/ti, 26.0 atom%11b+c, n=50, modulated ion assistance
+    normalized_composition: ni/ti, 26.0 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - ni/ti, 26.0 atom%11b+c, n=50, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 26.0 atom%11b+c
+    variant_identity:
+      counts:
+      - '50'
+      concentrations:
+      - 26.0atom%
+    name_discriminators:
+    - '50'
+    - modulated
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id017
+    - sample_name
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Ni/Ti, 30.7 atom % 11B + C, N = 50, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 30.7 atom % 11B + C
+    normalized_name: ni/ti, 30.7 atom%11b+c, n=50, modulated ion assistance
+    normalized_composition: ni/ti, 30.7 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ni/ti, 30.7 atom%11b+c, n=50, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 30.7 atom%11b+c
+    variant_identity:
+      counts:
+      - '50'
+      concentrations:
+      - 30.7atom%
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: Ni/Ti, 34.4 atom % 11B + C, N = 50, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 34.4 atom % 11B + C
+    normalized_name: ni/ti, 34.4 atom%11b+c, n=50, modulated ion assistance
+    normalized_composition: ni/ti, 34.4 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ni/ti, 34.4 atom%11b+c, n=50, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 34.4 atom%11b+c
+    variant_identity:
+      counts:
+      - '50'
+      concentrations:
+      - 34.4atom%
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 5
+    gold_id: sample_5
+    gold_sample_name: Ni/Ti, 41.2 atom % 11B + C, N = 50, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 41.2 atom % 11B + C
+    normalized_name: ni/ti, 41.2 atom%11b+c, n=50, modulated ion assistance
+    normalized_composition: ni/ti, 41.2 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ni/ti, 41.2 atom%11b+c, n=50, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 41.2 atom%11b+c
+    variant_identity:
+      counts:
+      - '50'
+      concentrations:
+      - 41.2atom%
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 6
+    gold_id: sample_6
+    gold_sample_name: pure Ni/Ti, N = 100, modulated ion assistance
+    gold_chemical_composition: Ni/Ti
+    normalized_name: pure ni/ti, n=100, modulated ion assistance
+    normalized_composition: ni/ti
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - pure ni/ti, n=100, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti
+    variant_identity:
+      counts:
+      - '100'
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 7
+    gold_id: sample_7
+    gold_sample_name: Ni/Ti, 26.0 atom % 11B + C, N = 100, modulated ion assistance
+    gold_chemical_composition: Ni/Ti, 26.0 atom % 11B + C
+    normalized_name: ni/ti, 26.0 atom%11b+c, n=100, modulated ion assistance
+    normalized_composition: ni/ti, 26.0 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - ni/ti, 26.0 atom%11b+c, n=100, modulated ion assistance
+    accepted_composition_forms:
+    - ni/ti, 26.0 atom%11b+c
+    variant_identity:
+      counts:
+      - '100'
+      concentrations:
+      - 26.0atom%
+    name_discriminators:
+    - '100'
+    - modulated
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id017
+  - gold_entity_index: 8
+    gold_id: sample_8
+    gold_sample_name: Ni/Ti, 26.0 atom % 11B + C, N = 100, constant ion assistance
+    gold_chemical_composition: Ni/Ti, 26.0 atom % 11B + C
+    normalized_name: ni/ti, 26.0 atom%11b+c, n=100, constant ion assistance
+    normalized_composition: ni/ti, 26.0 atom%11b+c
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - ni/ti, 26.0 atom%11b+c, n=100, constant ion assistance
+    accepted_composition_forms:
+    - ni/ti, 26.0 atom%11b+c
+    variant_identity:
+      counts:
+      - '100'
+      concentrations:
+      - 26.0atom%
+    name_discriminators:
+    - '100'
+    - constant
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id017
+  '2309.13729':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: CoFe2O4 nanopowders
+    gold_chemical_composition: CoFe2O4
+    normalized_name: cofe2o4 nanopowders
+    normalized_composition: cofe2o4
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - cofe2o4 nanopowders
+    accepted_composition_forms:
+    - cofe2o4
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: CoFe2O4/Co-Fe nanocomposite 350 °C
+    gold_chemical_composition: CoFe2O4/Co-Fe
+    normalized_name: cofe2o4/co-fe nanocomposite 350 °c
+    normalized_composition: cofe2o4/co-fe
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - cofe2o4/co-fe nanocomposite 350 °c
+    accepted_composition_forms:
+    - cofe2o4/co-fe
+    - cofe2o4/co-fe alloy
+    variant_identity:
+      temperatures:
+      - 350°c
+    name_discriminators:
+    - '350'
+    alignment_requirement: composition_and_temperatures_or_exact_name
+    required_discriminators: &id018
+    - temperatures
+    grounding: *id004
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: CoFe2O4/Co-Fe nanocomposite 400 °C
+    gold_chemical_composition: CoFe2O4/Co-Fe
+    normalized_name: cofe2o4/co-fe nanocomposite 400 °c
+    normalized_composition: cofe2o4/co-fe
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - cofe2o4/co-fe nanocomposite 400 °c
+    accepted_composition_forms:
+    - cofe2o4/co-fe
+    - cofe2o4/co-fe alloy
+    variant_identity:
+      temperatures:
+      - 400°c
+    name_discriminators:
+    - '400'
+    alignment_requirement: composition_and_temperatures_or_exact_name
+    required_discriminators: *id018
+    grounding: *id004
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: CoFe2O4/Co-Fe nanocomposite 450 °C
+    gold_chemical_composition: CoFe2O4/Co-Fe
+    normalized_name: cofe2o4/co-fe nanocomposite 450 °c
+    normalized_composition: cofe2o4/co-fe
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - cofe2o4/co-fe nanocomposite 450 °c
+    accepted_composition_forms:
+    - cofe2o4/co-fe
+    - cofe2o4/co-fe alloy
+    variant_identity:
+      temperatures:
+      - 450°c
+    name_discriminators:
+    - '450'
+    alignment_requirement: composition_and_temperatures_or_exact_name
+    required_discriminators: *id018
+    grounding: *id004
+  '2404.06853':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Al2024 alloy
+    gold_chemical_composition: null
+    normalized_name: al2024 alloy
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - al2024 alloy
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  '2405.14324':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Fe87B13
+    gold_chemical_composition: Fe87B13
+    normalized_name: fe87b13
+    normalized_composition: fe87b13
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - fe87b13
+    accepted_composition_forms:
+    - fe87b13
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Fe85Nb6B9
+    gold_chemical_composition: Fe85Nb6B9
+    normalized_name: fe85nb6b9
+    normalized_composition: fe85nb6b9
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - fe85nb6b9
+    accepted_composition_forms:
+    - fe85nb6b9
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Fe80Nb6B14
+    gold_chemical_composition: Fe80Nb6B14
+    normalized_name: fe80nb6b14
+    normalized_composition: fe80nb6b14
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - fe80nb6b14
+    accepted_composition_forms:
+    - fe80nb6b14
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2405.15411':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ge6Sb6Te88
+    gold_chemical_composition: Ge6Sb6Te88
+    normalized_name: ge6sb6te88
+    normalized_composition: ge6sb6te88
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge6sb6te88
+    accepted_composition_forms:
+    - ge6sb6te88
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Ge9Sb9Te82
+    gold_chemical_composition: Ge9Sb9Te82
+    normalized_name: ge9sb9te82
+    normalized_composition: ge9sb9te82
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge9sb9te82
+    accepted_composition_forms:
+    - ge9sb9te82
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Ge13Sb13Te74
+    gold_chemical_composition: Ge13Sb13Te74
+    normalized_name: ge13sb13te74
+    normalized_composition: ge13sb13te74
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ge13sb13te74
+    accepted_composition_forms:
+    - ge13sb13te74
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2407.10282':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Al6061 without sonication
+    gold_chemical_composition: Al6061
+    normalized_name: al6061 without sonication
+    normalized_composition: al6061
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - al6061 without sonication
+    accepted_composition_forms:
+    - al6061
+    variant_identity: {}
+    name_discriminators:
+    - without
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id019
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Al6061 with sonication
+    gold_chemical_composition: Al6061
+    normalized_name: al6061 with sonication
+    normalized_composition: al6061
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - al6061 with sonication
+    accepted_composition_forms:
+    - al6061
+    variant_identity: {}
+    name_discriminators:
+    - with
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id019
+  '2407.20626':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Ta2NiSe5
+    gold_chemical_composition: Ta2NiSe5
+    normalized_name: ta2nise5
+    normalized_composition: ta2nise5
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ta2nise5
+    accepted_composition_forms:
+    - ta2nise5
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2410.00268':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: PMMA
+    gold_chemical_composition: null
+    normalized_name: polymethyl methacrylate
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - polymethyl methacrylate
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: PDK
+    gold_chemical_composition: null
+    normalized_name: pdk
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - pdk
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: DKE
+    gold_chemical_composition: null
+    normalized_name: dke
+    normalized_composition: null
+    name_is_unique: true
+    composition_is_unique: null
+    composition_group: null
+    accepted_name_forms:
+    - dke
+    accepted_composition_forms: []
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: exact_name
+    required_discriminators: []
+  '2501.08122':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: CoFeB film
+    gold_chemical_composition: Co40Fe40B20
+    normalized_name: cofeb film
+    normalized_composition: co40fe40b20
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - cofeb film
+    - single-layer cofeb thin film
+    - thin cofeb film
+    accepted_composition_forms:
+    - co40fe40b20
+    - cofeb
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id005
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: CoFeB / Mo (51 Å)
+    gold_chemical_composition: CoFeB/Mo
+    normalized_name: cofeb/mo (51 å)
+    normalized_composition: cofeb/mo
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - cofeb/mo (51 å)
+    - cofeb/mo (51 å) bilayer
+    accepted_composition_forms:
+    - cofeb/mo
+    - co40fe40b20/mo
+    variant_identity:
+      thicknesses:
+      - 51å
+    name_discriminators:
+    - '51'
+    alignment_requirement: composition_and_thicknesses_or_exact_name
+    required_discriminators: &id020
+    - thicknesses
+    grounding: *id005
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: CoFeB / Mo (5 Å)
+    gold_chemical_composition: CoFeB/Mo
+    normalized_name: cofeb/mo (5 å)
+    normalized_composition: cofeb/mo
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - cofeb/mo (5 å)
+    - cofeb/mo (5 å) bilayer
+    accepted_composition_forms:
+    - cofeb/mo
+    - co40fe40b20/mo
+    variant_identity:
+      thicknesses:
+      - 5å
+    name_discriminators:
+    - '5'
+    alignment_requirement: composition_and_thicknesses_or_exact_name
+    required_discriminators: *id020
+    grounding: *id005
+  - gold_entity_index: 4
+    gold_id: sample_4
+    gold_sample_name: CoFeB / Mo (5 Å) / Si
+    gold_chemical_composition: CoFeB/Mo/Si
+    normalized_name: cofeb/mo (5 å)/si
+    normalized_composition: cofeb/mo/si
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - cofeb/mo (5 å)/si
+    - cofeb/mo (5 å)/si trilayer
+    accepted_composition_forms:
+    - cofeb/mo/si
+    - co40fe40b20/mo/si
+    variant_identity:
+      thicknesses:
+      - 5å
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id005
+  '2503.18475':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: NaCl:urea∙H2O
+    gold_chemical_composition: NaCl:urea∙H2O
+    normalized_name: nacl:urea·h2o
+    normalized_composition: nacl:urea·h2o
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - nacl:urea·h2o
+    accepted_composition_forms:
+    - nacl:urea·h2o
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: CsCl:urea
+    gold_chemical_composition: CsCl:urea
+    normalized_name: cscl:urea
+    normalized_composition: cscl:urea
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - cscl:urea
+    accepted_composition_forms:
+    - cscl:urea
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: LiCl:urea
+    gold_chemical_composition: LiCl:urea
+    normalized_name: licl:urea
+    normalized_composition: licl:urea
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - licl:urea
+    accepted_composition_forms:
+    - licl:urea
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2601.16215':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Fe4Nb2O9
+    gold_chemical_composition: Fe4Nb2O9
+    normalized_name: fe4nb2o9
+    normalized_composition: fe4nb2o9
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - fe4nb2o9
+    accepted_composition_forms:
+    - fe4nb2o9
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  '2603.01364':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: Sample A
+    gold_chemical_composition: Al/AlOx/Al
+    normalized_name: sample a
+    normalized_composition: al/alox/al
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - sample a
+    accepted_composition_forms:
+    - al/alox/al
+    variant_identity: {}
+    name_discriminators:
+    - a
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: &id021
+    - sample_name
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: Sample B
+    gold_chemical_composition: Al/AlOx/Al
+    normalized_name: sample b
+    normalized_composition: al/alox/al
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - sample b
+    accepted_composition_forms:
+    - al/alox/al
+    variant_identity: {}
+    name_discriminators:
+    - b
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id021
+  - gold_entity_index: 3
+    gold_id: sample_3
+    gold_sample_name: Sample C
+    gold_chemical_composition: Al/AlOx/Al
+    normalized_name: sample c
+    normalized_composition: al/alox/al
+    name_is_unique: true
+    composition_is_unique: false
+    composition_group: composition_group_1
+    accepted_name_forms:
+    - sample c
+    accepted_composition_forms:
+    - al/alox/al
+    variant_identity: {}
+    name_discriminators:
+    - c
+    alignment_requirement: composition_and_variant_or_exact_name
+    required_discriminators: *id021
+  '2605.14792':
+  - gold_entity_index: 1
+    gold_id: sample_1
+    gold_sample_name: ferberite
+    gold_chemical_composition: FeWO4
+    normalized_name: ferberite
+    normalized_composition: fewo4
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - ferberite
+    accepted_composition_forms:
+    - fewo4
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+  - gold_entity_index: 2
+    gold_id: sample_2
+    gold_sample_name: FeWO4:Fe2WO6
+    gold_chemical_composition: FeWO4:Fe2WO6 (7:1)
+    normalized_name: fewo4:fe2wo6
+    normalized_composition: fewo4:fe2wo6 (7:1)
+    name_is_unique: true
+    composition_is_unique: true
+    composition_group: null
+    accepted_name_forms:
+    - fewo4:fe2wo6
+    - synthetic fewo4
+    accepted_composition_forms:
+    - fewo4:fe2wo6 (7:1)
+    - fewo4:fe2wo6
+    variant_identity: {}
+    name_discriminators: []
+    alignment_requirement: unique_composition_or_exact_name
+    required_discriminators: []
+    grounding: *id022

@@ -1,0 +1,497 @@
+{
+  "source_run": "repair_gpu3_v1_retry2",
+  "model": "google/gemma-4-31B-it",
+  "paper_count": 30,
+  "metric": "mean over papers of mean(facilities F1, samples F1, datasets F1)",
+  "seed_pan_mean": 0.8599649979649979,
+  "final_pan_mean": 0.8769664902998237,
+  "final_entity_f1": {
+    "facilities": 0.9022222222222223,
+    "samples": 0.9295970695970696,
+    "datasets": 0.7990801790801791
+  },
+  "repair_tokens": 10923228,
+  "note": "Measured prior run, not a new package execution. Corpus has been used for development; not held-out generalization.",
+  "papers": [
+    {
+      "paper_id": "1804.07163",
+      "seed_entity_f1": {
+        "facilities": 0.4,
+        "samples": 0.9600000000000001,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 0.9230769230769231,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.7866666666666667,
+      "final_pan_mean": 0.8632478632478633,
+      "repair_tokens": 824162
+    },
+    {
+      "paper_id": "1811.10341",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.8571428571428571,
+        "datasets": 0.8571428571428571
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 0.9047619047619048,
+      "repair_tokens": 612664
+    },
+    {
+      "paper_id": "1901.08819",
+      "seed_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.8888888888888888,
+      "final_pan_mean": 0.8888888888888888,
+      "repair_tokens": 226705
+    },
+    {
+      "paper_id": "1907.00342",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.6666666666666666,
+        "datasets": 0.3333333333333333
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.6666666666666666,
+        "datasets": 0.5714285714285715
+      },
+      "seed_pan_mean": 0.6666666666666666,
+      "final_pan_mean": 0.746031746031746,
+      "repair_tokens": 266298
+    },
+    {
+      "paper_id": "1909.08292",
+      "seed_entity_f1": {
+        "facilities": 0.5,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 0.4,
+        "samples": 1.0,
+        "datasets": 0.888888888888889
+      },
+      "seed_pan_mean": 0.8333333333333334,
+      "final_pan_mean": 0.762962962962963,
+      "repair_tokens": 621049
+    },
+    {
+      "paper_id": "2001.00707",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.6666666666666666
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.8888888888888888,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 552552
+    },
+    {
+      "paper_id": "2001.02706",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.6666666666666666,
+        "datasets": 0.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.6666666666666666,
+        "datasets": 0.4
+      },
+      "seed_pan_mean": 0.5555555555555556,
+      "final_pan_mean": 0.6888888888888889,
+      "repair_tokens": 141225
+    },
+    {
+      "paper_id": "2005.01985",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.4
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.4
+      },
+      "seed_pan_mean": 0.8,
+      "final_pan_mean": 0.8,
+      "repair_tokens": 104193
+    },
+    {
+      "paper_id": "2006.12074",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 97074
+    },
+    {
+      "paper_id": "2007.00972",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 280323
+    },
+    {
+      "paper_id": "2010.00094",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.0
+      },
+      "seed_pan_mean": 0.6666666666666666,
+      "final_pan_mean": 0.6666666666666666,
+      "repair_tokens": 349469
+    },
+    {
+      "paper_id": "2010.12832",
+      "seed_entity_f1": {
+        "facilities": 0.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 0.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.6666666666666666,
+      "final_pan_mean": 0.6666666666666666,
+      "repair_tokens": 74124
+    },
+    {
+      "paper_id": "2011.13326",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.8
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.8,
+        "datasets": 0.6666666666666666
+      },
+      "seed_pan_mean": 0.9333333333333333,
+      "final_pan_mean": 0.8222222222222222,
+      "repair_tokens": 349134
+    },
+    {
+      "paper_id": "2105.04167",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.3333333333333333
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.3333333333333333
+      },
+      "seed_pan_mean": 0.7777777777777778,
+      "final_pan_mean": 0.7777777777777778,
+      "repair_tokens": 231178
+    },
+    {
+      "paper_id": "2202.11658",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.8571428571428571
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.8571428571428571
+      },
+      "seed_pan_mean": 0.9523809523809523,
+      "final_pan_mean": 0.9523809523809523,
+      "repair_tokens": 576834
+    },
+    {
+      "paper_id": "2203.07170",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 171194
+    },
+    {
+      "paper_id": "2209.06540",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 548145
+    },
+    {
+      "paper_id": "2211.06006",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 125283
+    },
+    {
+      "paper_id": "2212.04169",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.32,
+        "datasets": 0.16666666666666666
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.3076923076923077,
+        "datasets": 0.42857142857142855
+      },
+      "seed_pan_mean": 0.4955555555555555,
+      "final_pan_mean": 0.5787545787545787,
+      "repair_tokens": 1026182
+    },
+    {
+      "paper_id": "2302.02010",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 165797
+    },
+    {
+      "paper_id": "2404.06853",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.6666666666666666,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 0.8888888888888888,
+      "repair_tokens": 211342
+    },
+    {
+      "paper_id": "2405.14324",
+      "seed_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.8888888888888888,
+      "final_pan_mean": 0.8888888888888888,
+      "repair_tokens": 632264
+    },
+    {
+      "paper_id": "2405.15411",
+      "seed_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 0.5
+      },
+      "final_entity_f1": {
+        "facilities": 0.6666666666666666,
+        "samples": 1.0,
+        "datasets": 0.5
+      },
+      "seed_pan_mean": 0.7222222222222222,
+      "final_pan_mean": 0.7222222222222222,
+      "repair_tokens": 451905
+    },
+    {
+      "paper_id": "2407.10282",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 0.0,
+        "datasets": 0.8571428571428571
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 0.6190476190476191,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 371987
+    },
+    {
+      "paper_id": "2407.20626",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.4
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.5
+      },
+      "seed_pan_mean": 0.8,
+      "final_pan_mean": 0.8333333333333334,
+      "repair_tokens": 256533
+    },
+    {
+      "paper_id": "2410.00268",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.7692307692307693
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.7692307692307693
+      },
+      "seed_pan_mean": 0.9230769230769231,
+      "final_pan_mean": 0.9230769230769231,
+      "repair_tokens": 288078
+    },
+    {
+      "paper_id": "2501.08122",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 196378
+    },
+    {
+      "paper_id": "2601.16215",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.8000000000000002
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 0.8000000000000002
+      },
+      "seed_pan_mean": 0.9333333333333333,
+      "final_pan_mean": 0.9333333333333333,
+      "repair_tokens": 312787
+    },
+    {
+      "paper_id": "2603.01364",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 493156
+    },
+    {
+      "paper_id": "2605.14792",
+      "seed_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "final_entity_f1": {
+        "facilities": 1.0,
+        "samples": 1.0,
+        "datasets": 1.0
+      },
+      "seed_pan_mean": 1.0,
+      "final_pan_mean": 1.0,
+      "repair_tokens": 365213
+    }
+  ]
+}

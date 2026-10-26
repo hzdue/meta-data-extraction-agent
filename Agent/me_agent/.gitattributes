@@ -1,0 +1,5 @@
+*.sh text eol=lf
+*.py text eol=lf
+.gitattributes text eol=lf
+# Preserve measured schema bytes: cache identity includes raw SHA256.
+SOURCES/schemas/* -text

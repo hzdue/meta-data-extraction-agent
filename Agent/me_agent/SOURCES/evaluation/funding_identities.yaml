@@ -1,0 +1,650 @@
+version: '1.0'
+source: data/assignments.json + data/gold/<arxiv_id>.json
+scope: paper-specific funding identities for evaluation alignment
+aliases:
+  doe: department of energy
+  erc: european research council
+  anl: argonne national laboratory
+  ibs: institute for basic science
+alias_grounding:
+  doe:
+  - '2503.18475'
+  erc:
+  - '2010.02965'
+  - '2211.06006'
+  - '2503.18475'
+  anl:
+  - '2503.18475'
+  ibs:
+  - '2601.16215'
+papers:
+  '1804.07163':
+  - gold_entity_index: 1
+    gold_grant_id: '201003047'
+    base_grant_ids:
+    - '201003047'
+    canonical_funder: Chinese National Natural Science Foundation
+  - gold_entity_index: 2
+    gold_grant_id: N 283883-NMI3
+    base_grant_ids:
+    - '283883'
+    - 283883nmi3
+    canonical_funder: European Commission
+  - gold_entity_index: 3
+    gold_grant_id: KMR12-1-2012-0226
+    base_grant_ids:
+    - kmr12
+    - kmr12120120226
+    canonical_funder: National Development Agency of Hungary
+  '1806.08116':
+  - gold_entity_index: 1
+    gold_grant_id: ANR-15-CE39-0007
+    base_grant_ids:
+    - anr15ce390007
+    canonical_funder: ADEME, the French Environment and Energy Management Agency
+  - gold_entity_index: 2
+    gold_grant_id: SNN 116198
+    base_grant_ids:
+    - '116198'
+    - snn116198
+    canonical_funder: National Research, Development and Innovation Office (NKFIH) of Hungary
+  '1811.10341':
+  - gold_entity_index: 1
+    gold_grant_id: ANR-11-BS08-0012
+    base_grant_ids:
+    - anr11bs080012
+    canonical_funder: Agence Nationale de la Recherche
+  - gold_entity_index: 2
+    gold_grant_id: SNN 116198
+    base_grant_ids:
+    - '116198'
+    - snn116198
+    canonical_funder: National Research, Development and Innovation Office
+  '1812.03956':
+  - gold_entity_index: 1
+    gold_grant_id: DMR-1332208
+    base_grant_ids:
+    - '1332208'
+    - dmr1332208
+    canonical_funder: National Science Foundation
+  '1901.08819':
+  - gold_entity_index: 1
+    gold_grant_id: 14-22-01113-ofi m
+    base_grant_ids:
+    - '01113'
+    - 142201113ofi
+    canonical_funder: Russian Foundation for Basic Research
+  '1907.00342': []
+  '1909.08292':
+  - gold_entity_index: 1
+    gold_grant_id: 34/20/12/2015/BRNS
+    base_grant_ids:
+    - 3420122015brns
+    canonical_funder: BRNS
+  - gold_entity_index: 2
+    gold_grant_id: IA/INDO-AUST/F-19/2017/1887
+    base_grant_ids:
+    - iaindoaustf1920171887
+    canonical_funder: Department of Science & Technology
+  - gold_entity_index: 3
+    gold_grant_id: Discovery Grant DP160100545
+    base_grant_ids:
+    - dp160100545
+    canonical_funder: Australian Research Council
+  '1912.11816':
+  - gold_entity_index: 1
+    gold_grant_id: RSF 16-11-10349
+    base_grant_ids:
+    - '10349'
+    - '161110349'
+    canonical_funder: Russian Science Foundation
+  '2001.00707': []
+  '2001.02706':
+  - gold_entity_index: 1
+    gold_grant_id: DMR-1508249
+    base_grant_ids:
+    - '1508249'
+    - dmr1508249
+    canonical_funder: Center for High Resolution Neutron Scattering
+  - gold_entity_index: 2
+    gold_grant_id: GBMF5305
+    base_grant_ids:
+    - gbmf5305
+    canonical_funder: Gordon and Betty Moore Foundation
+  '2005.01985': []
+  '2006.12074':
+  - gold_entity_index: 1
+    gold_grant_id: 16H02125
+    base_grant_ids:
+    - 16h02125
+    canonical_funder: Grant-in-Aid for Scientific Research (A)
+  '2007.00972': []
+  '2009.01093':
+  - gold_entity_index: 1
+    gold_grant_id: DMR 1548924
+    base_grant_ids:
+    - '1548924'
+    - dmr1548924
+    canonical_funder: 'STROBE: A National Science Foundation Science & Technology Center'
+  - gold_entity_index: 2
+    gold_grant_id: DE-SC0010378
+    base_grant_ids:
+    - desc0010378
+    - sc0010378
+    canonical_funder: Department of Energy
+  - gold_entity_index: 3
+    gold_grant_id: DE-FG02-07ER15899
+    base_grant_ids:
+    - 07er15899
+    - defg0207er15899
+    canonical_funder: DOE-BES-CSGB-Geosciences grant
+  - gold_entity_index: 4
+    gold_grant_id: DMR-1603192
+    base_grant_ids:
+    - '1603192'
+    - dmr1603192
+    canonical_funder: NSF-BMAT grant
+  - gold_entity_index: 5
+    gold_grant_id: DE-AC02-05CH11231
+    base_grant_ids:
+    - 05ch11231
+    - deac0205ch11231
+    canonical_funder: Office of Science, Office of Basic Energy Sciences, US Department of Energy
+  - gold_entity_index: 6
+    gold_grant_id: DENA0003864
+    base_grant_ids:
+    - dena0003864
+    canonical_funder: Department of Energy National Nuclear Security Administration Stewardship Science
+      Graduate Fellowship program
+  '2009.12925':
+  - gold_entity_index: 1
+    gold_grant_id: EP/L015544/1
+    base_grant_ids:
+    - epl0155441
+    - l015544
+    canonical_funder: Engineering and Physical Sciences Research Council (EPSRC) Centre for Doctoral Training
+      in Condensed Matter Physics (CDT-CMP)
+  - gold_entity_index: 2
+    gold_grant_id: EP/R011141/1
+    base_grant_ids:
+    - epr0111411
+    - r011141
+    canonical_funder: Engineering and Physical Sciences Research Council (EPSRC) Centre for Doctoral Training
+      in Condensed Matter Physics (CDT-CMP)
+  '2010.00094': []
+  '2010.02965':
+  - gold_entity_index: 1
+    gold_grant_id: 14-13-01279
+    base_grant_ids:
+    - 01279
+    - '141301279'
+    canonical_funder: Russian Science Foundation
+  - gold_entity_index: 2
+    gold_grant_id: No. 696656
+    base_grant_ids:
+    - '696656'
+    canonical_funder: European Union Horizon 2020 research and innovation program
+  - gold_entity_index: 3
+    gold_grant_id: No. 785219
+    base_grant_ids:
+    - '785219'
+    canonical_funder: European Union Horizon 2020 research and innovation program
+  - gold_entity_index: 4
+    gold_grant_id: N 759696 (acronym TOP)
+    base_grant_ids:
+    - '759696'
+    canonical_funder: European Research Council
+  - gold_entity_index: 5
+    gold_grant_id: FA9550-14-1-0111
+    base_grant_ids:
+    - fa9550
+    - fa95501410111
+    canonical_funder: Air Force Office of Scientific Research
+  '2010.12832':
+  - gold_entity_index: 1
+    gold_grant_id: '11974240'
+    base_grant_ids:
+    - '11974240'
+    canonical_funder: National Natural Science Foundation of China
+  - gold_entity_index: 2
+    gold_grant_id: '11675110'
+    base_grant_ids:
+    - '11675110'
+    canonical_funder: National Natural Science Foundation of China
+  - gold_entity_index: 3
+    gold_grant_id: U1738120
+    base_grant_ids:
+    - u1738120
+    canonical_funder: National Natural Science Foundation of China
+  - gold_entity_index: 4
+    gold_grant_id: 19XD1402100
+    base_grant_ids:
+    - 19xd1402100
+    canonical_funder: Shanghai Science and Technology Commission
+  '2011.13326': []
+  '2104.10884':
+  - gold_entity_index: 1
+    gold_grant_id: ECR/2015/000159
+    base_grant_ids:
+    - 000159
+    - ecr2015000159
+    canonical_funder: SERB-DST
+  - gold_entity_index: 2
+    gold_grant_id: CSR-IC-ISUM-36/CRS-319/2019-20/1371
+    base_grant_ids:
+    - csricisum36crs3192019201371
+    canonical_funder: CRS project
+  '2105.04167':
+  - gold_entity_index: 1
+    gold_grant_id: RSF 21-11-00325
+    base_grant_ids:
+    - '00325'
+    - '211100325'
+    canonical_funder: Russian Science Foundation
+  - gold_entity_index: 2
+    gold_grant_id: 19K05102
+    base_grant_ids:
+    - 19k05102
+    canonical_funder: KAKENHI
+  - gold_entity_index: 3
+    gold_grant_id: JPMJSK1511
+    base_grant_ids:
+    - jpmjsk1511
+    canonical_funder: Japan Science and Technology Agency
+  - gold_entity_index: 4
+    gold_grant_id: '15563'
+    base_grant_ids:
+    - '15563'
+    canonical_funder: General User Program for Neutron Scattering Experiments, Institute for Solid State
+      Physics, the University of Tokyo
+  - gold_entity_index: 5
+    gold_grant_id: '16554'
+    base_grant_ids:
+    - '16554'
+    canonical_funder: General User Program for Neutron Scattering Experiments, Institute for Solid State
+      Physics, the University of Tokyo
+  - gold_entity_index: 6
+    gold_grant_id: '16566'
+    base_grant_ids:
+    - '16566'
+    canonical_funder: General User Program for Neutron Scattering Experiments, Institute for Solid State
+      Physics, the University of Tokyo
+  '2202.11658':
+  - gold_entity_index: 1
+    gold_grant_id: GBMF-9066
+    base_grant_ids:
+    - gbmf9066
+    canonical_funder: Gordon and Betty Moore Foundation
+  - gold_entity_index: 2
+    gold_grant_id: DE-SC0022156
+    base_grant_ids:
+    - desc0022156
+    - sc0022156
+    canonical_funder: U.S. DOE-BES
+  - gold_entity_index: 3
+    gold_grant_id: DE-AC02-06CH11357
+    base_grant_ids:
+    - 06ch11357
+    - deac0206ch11357
+    canonical_funder: U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences
+  - gold_entity_index: 4
+    gold_grant_id: DMR-2011750
+    base_grant_ids:
+    - '2011750'
+    - dmr2011750
+    canonical_funder: National Science Foundation
+  '2203.07170':
+  - gold_entity_index: 1
+    gold_grant_id: 1.1.1.1/20/A/060
+    base_grant_ids:
+    - 111120a060
+    canonical_funder: European Regional Development Fund
+  - gold_entity_index: 2
+    gold_grant_id: '739508'
+    base_grant_ids:
+    - '739508'
+    canonical_funder: European Union Horizon 2020 Framework Programme H2020-WIDESPREAD-01-2016-2017-TeamingPhase2
+  '2209.06540':
+  - gold_entity_index: 1
+    gold_grant_id: SA89/2021
+    base_grant_ids:
+    - sa892021
+    canonical_funder: Eötvös Loránd Research Network
+  - gold_entity_index: 2
+    gold_grant_id: 20-23392J
+    base_grant_ids:
+    - 2023392j
+    - 23392j
+    canonical_funder: Czech Science Foundation
+  - gold_entity_index: 3
+    gold_grant_id: LM2018103
+    base_grant_ids:
+    - lm2018103
+    canonical_funder: Ministry of Education, Youth and Sports
+  '2211.06006':
+  - gold_entity_index: 1
+    gold_grant_id: TRR80 (From Electronic Correlations to Functionality, Project No. 107745057, Project
+      F7)
+    base_grant_ids:
+    - '107745057'
+    - trr80
+    canonical_funder: Deutsche Forschungsgemeinschaft
+  - gold_entity_index: 2
+    gold_grant_id: SPP 2137 (Skyrmionics) under grant PF393/19 (project-id 403191981)
+    base_grant_ids:
+    - '403191981'
+    - id403191981
+    - pf393
+    - pf39319
+    - spp2137
+    canonical_funder: Deutsche Forschungsgemeinschaft
+  - gold_entity_index: 3
+    gold_grant_id: Germany's Excellence Strategy EXC-2111 (Project No. 390814868)
+    base_grant_ids:
+    - '390814868'
+    - exc2111
+    canonical_funder: Deutsche Forschungsgemeinschaft
+  - gold_entity_index: 4
+    gold_grant_id: Advanced Grants No. 291079 (TOPFIT)
+    base_grant_ids:
+    - '291079'
+    canonical_funder: European Research Council
+  - gold_entity_index: 5
+    gold_grant_id: Advanced Grants No. 788031 (ExQuiSid)
+    base_grant_ids:
+    - '788031'
+    canonical_funder: European Research Council
+  '2212.04169':
+  - gold_entity_index: 1
+    gold_grant_id: 2018-04417
+    base_grant_ids:
+    - '04417'
+    - '201804417'
+    canonical_funder: Swedish Governmental Agency for Innovation Systems
+  - gold_entity_index: 2
+    gold_grant_id: 2016-05156
+    base_grant_ids:
+    - '05156'
+    - '201605156'
+    canonical_funder: Swedish Governmental Agency for Innovation Systems
+  '2302.02010':
+  - gold_entity_index: 1
+    gold_grant_id: DE-AC02-05CH11231
+    base_grant_ids:
+    - 05ch11231
+    - deac0205ch11231
+    canonical_funder: U.S. DOE Office of Science
+  - gold_entity_index: 2
+    gold_grant_id: DMR-2105081
+    base_grant_ids:
+    - '2105081'
+    - dmr2105081
+    canonical_funder: National Science Foundation
+  - gold_entity_index: 3
+    gold_grant_id: DE-SC-0019154
+    base_grant_ids:
+    - 0019154
+    - desc0019154
+    canonical_funder: Department of Energy
+  - gold_entity_index: 4
+    gold_grant_id: GBMF9071
+    base_grant_ids:
+    - gbmf9071
+    canonical_funder: Gordon and Betty Moore Foundation EPiQS Initiative
+  '2304.08002':
+  - gold_entity_index: 1
+    gold_grant_id: 2019-04837
+    base_grant_ids:
+    - 04837
+    - '201904837'
+    canonical_funder: Swedish Research Council
+  - gold_entity_index: 2
+    gold_grant_id: 2019-00191
+    base_grant_ids:
+    - 00191
+    - '201900191'
+    canonical_funder: Swedish Research Council
+  - gold_entity_index: 3
+    gold_grant_id: 2021-00357
+    base_grant_ids:
+    - '00357'
+    - '202100357'
+    canonical_funder: Swedish Research Council
+  - gold_entity_index: 4
+    gold_grant_id: SFO Mat LiU No. 2009 00971
+    base_grant_ids:
+    - 00971
+    canonical_funder: Swedish Government Strategic Research Area in Materials Science on Advanced Functional
+      Materials (AFM) at Linköping University
+  '2309.13729':
+  - gold_entity_index: 1
+    gold_grant_id: FP7-SMALL-310516
+    base_grant_ids:
+    - '310516'
+    - fp7small310516
+    canonical_funder: European Commission
+  - gold_entity_index: 2
+    gold_grant_id: H2020-NMBP-2016-720853
+    base_grant_ids:
+    - '720853'
+    - h2020
+    - h2020nmbp2016720853
+    canonical_funder: European Commission
+  - gold_entity_index: 3
+    gold_grant_id: DNRF-93
+    base_grant_ids:
+    - dnrf93
+    canonical_funder: Danish National Research Foundation
+  - gold_entity_index: 4
+    gold_grant_id: NMI3-II Grant 283883
+    base_grant_ids:
+    - '283883'
+    - nmi3ii
+    canonical_funder: European Union’s Seventh Framework Programme
+  '2404.06853': []
+  '2405.14324':
+  - gold_entity_index: 1
+    gold_grant_id: AFR Grant No. 15639149
+    base_grant_ids:
+    - '15639149'
+    canonical_funder: National Research Fund of Luxembourg
+  '2405.15411':
+  - gold_entity_index: 1
+    gold_grant_id: SA-89/2021
+    base_grant_ids:
+    - sa892021
+    canonical_funder: Eötvös Loránd Research Network
+  '2407.10282':
+  - gold_entity_index: 1
+    gold_grant_id: DE-AC02-06CH11357
+    base_grant_ids:
+    - 06ch11357
+    - deac0206ch11357
+    canonical_funder: U.S. Department of Energy Office of Science
+  - gold_entity_index: 2
+    gold_grant_id: DE-AC52-07NA27344
+    base_grant_ids:
+    - 07na27344
+    - deac5207na27344
+    canonical_funder: U.S. Department of Energy
+  - gold_entity_index: 3
+    gold_grant_id: LLNL-LDRD 23-ERD-009
+    base_grant_ids:
+    - 23erd009
+    canonical_funder: U.S. Department of Energy
+  '2407.20626': []
+  '2410.00268':
+  - gold_entity_index: 1
+    gold_grant_id: DE-AC02-05CH11231
+    base_grant_ids:
+    - 05ch11231
+    - deac0205ch11231
+    canonical_funder: U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials
+      Sciences and Engineering Division
+  - gold_entity_index: 2
+    gold_grant_id: KC3104
+    base_grant_ids:
+    - kc3104
+    canonical_funder: Inorganic/Organic Nanocomposites Program
+  '2501.08122':
+  - gold_entity_index: 1
+    gold_grant_id: FZWM-2024-0011
+    base_grant_ids:
+    - fzwm20240011
+    canonical_funder: Ministry of Science and Higher Education of the Russian Federation
+  '2503.18475':
+  - gold_entity_index: 1
+    gold_grant_id: DMR-1644779
+    base_grant_ids:
+    - '1644779'
+    - dmr1644779
+    canonical_funder: National Science Foundation Cooperative Agreement
+  - gold_entity_index: 2
+    gold_grant_id: DMR-2128556
+    base_grant_ids:
+    - '2128556'
+    - dmr2128556
+    canonical_funder: National Science Foundation Cooperative Agreement
+  - gold_entity_index: 3
+    gold_grant_id: DE-AC02-06CH11357
+    base_grant_ids:
+    - 06ch11357
+    - deac0206ch11357
+    canonical_funder: U.S. Department of Energy Office of Science
+  - gold_entity_index: 4
+    gold_grant_id: DE-AC02-05CH11231
+    base_grant_ids:
+    - 05ch11231
+    - deac0205ch11231
+    canonical_funder: U.S. Department of Energy Office of Science
+  - gold_entity_index: 5
+    gold_grant_id: SIONA,C14/22/099
+    base_grant_ids:
+    - c1422099
+    canonical_funder: KULeuven
+  - gold_entity_index: 6
+    gold_grant_id: 834134 (WATUSO)
+    base_grant_ids:
+    - '834134'
+    canonical_funder: European Research Council
+  - gold_entity_index: 7
+    gold_grant_id: V401721N
+    base_grant_ids:
+    - v401721n
+    canonical_funder: FWO
+  - gold_entity_index: 8
+    gold_grant_id: AKUL/13/21
+    base_grant_ids:
+    - akul1321
+    canonical_funder: Hercules Foundation
+  - gold_entity_index: 9
+    gold_grant_id: I001321N
+    base_grant_ids:
+    - i001321n
+    canonical_funder: Flemish Government
+  - gold_entity_index: 10
+    gold_grant_id: AH.2016.134
+    base_grant_ids:
+    - ah2016134
+    canonical_funder: Department EWI via the Hermes Fund
+  - gold_entity_index: 11
+    gold_grant_id: RGPIN-2017-06467
+    base_grant_ids:
+    - '06467'
+    - rgpin201706467
+    canonical_funder: NSERC Discovery Grant
+  '2601.16215':
+  - gold_entity_index: 1
+    gold_grant_id: IBS-R011-Y3
+    base_grant_ids:
+    - ibsr011y3
+    canonical_funder: Institute for Basic Science
+  - gold_entity_index: 2
+    gold_grant_id: IBS-R034-Y1
+    base_grant_ids:
+    - ibsr034y1
+    canonical_funder: Institute for Basic Science
+  - gold_entity_index: 3
+    gold_grant_id: DE-FG02-07ER46382
+    base_grant_ids:
+    - 07er46382
+    - defg0207er46382
+    canonical_funder: DOE
+  - gold_entity_index: 4
+    gold_grant_id: RS-2021-NR058241
+    base_grant_ids:
+    - nr058241
+    - rs2021nr058241
+    canonical_funder: National Research Foundation of Korea
+  - gold_entity_index: 5
+    gold_grant_id: RS-2022-NR069338
+    base_grant_ids:
+    - nr069338
+    - rs2022nr069338
+    canonical_funder: National Research Foundation of Korea
+  - gold_entity_index: 6
+    gold_grant_id: RS-2024-00442775
+    base_grant_ids:
+    - '00442775'
+    - rs202400442775
+    canonical_funder: National Research Foundation of Korea
+  - gold_entity_index: 7
+    gold_grant_id: 2021R1C1C1010429
+    base_grant_ids:
+    - 2021r1c1c1010429
+    canonical_funder: National Research Foundation of Korea
+  - gold_entity_index: 8
+    gold_grant_id: 2023M3K5A1094813
+    base_grant_ids:
+    - 2023m3k5a1094813
+    canonical_funder: National Research Foundation of Korea
+  - gold_entity_index: 9
+    gold_grant_id: RS-2025-00515360
+    base_grant_ids:
+    - '00515360'
+    - rs202500515360
+    canonical_funder: National Research Foundation of Korea
+  '2603.01364':
+  - gold_entity_index: 1
+    gold_grant_id: DE-AC02-76SF00515
+    base_grant_ids:
+    - 76sf00515
+    - deac0276sf00515
+    canonical_funder: U.S. DOE, Office of Science, Office of Basic Energy Sciences
+  - gold_entity_index: 2
+    gold_grant_id: DE-AC52-07NA27344
+    base_grant_ids:
+    - 07na27344
+    - deac5207na27344
+    canonical_funder: U.S. Department of Energy
+  - gold_entity_index: 3
+    gold_grant_id: FA9550-23-1-0692
+    base_grant_ids:
+    - fa9550
+    - fa95502310692
+    canonical_funder: Air Force Office of Scientific Research
+  '2605.14792':
+  - gold_entity_index: 1
+    gold_grant_id: ProID2024010034
+    base_grant_ids:
+    - proid2024010034
+    canonical_funder: Agencia Canaria de Investigación, Innovación y Sociedad de la Información
+  - gold_entity_index: 2
+    gold_grant_id: ProID2024010034
+    base_grant_ids:
+    - proid2024010034
+    canonical_funder: Fondo Europeo de Desarrollo Regional
+  - gold_entity_index: 3
+    gold_grant_id: PID2024-158791NB-I00
+    base_grant_ids:
+    - 158791nb
+    - pid2024
+    - pid2024158791nbi00
+    canonical_funder: NICIU/AEI/10.13039/501100011033
+  - gold_entity_index: 4
+    gold_grant_id: PID2022-138076NB-C41
+    base_grant_ids:
+    - 138076nb
+    - pid2022
+    - pid2022138076nbc41
+    canonical_funder: Ministerio de Ciencia, Innovación y Universidades

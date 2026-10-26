@@ -1,0 +1,36 @@
+# Day 13 - 30-paper Qwen baseline overlap set
+# Verified source: metadata-extraction-release/data/corpus.json (split=evaluation)
+# Exact overlap: outputs/evaluation/pan_qwen3_5_9b_full_0shot (30 papers)
+# Format: paper_id split complexity
+# Use with: PAPER_LIST=qwen30_papers.txt BATCH_SPLIT=all ./run.sh
+
+1804.07163 baseline30 baseline
+1811.10341 baseline30 baseline
+1901.08819 baseline30 baseline
+1907.00342 baseline30 baseline
+1909.08292 baseline30 baseline
+2001.00707 baseline30 baseline
+2001.02706 baseline30 baseline
+2005.01985 baseline30 baseline
+2006.12074 baseline30 baseline
+2007.00972 baseline30 baseline
+2010.00094 baseline30 baseline
+2010.12832 baseline30 baseline
+2011.13326 baseline30 baseline
+2105.04167 baseline30 baseline
+2202.11658 baseline30 baseline
+2203.07170 baseline30 baseline
+2209.06540 baseline30 baseline
+2211.06006 baseline30 baseline
+2212.04169 baseline30 baseline
+2302.02010 baseline30 baseline
+2404.06853 baseline30 baseline
+2405.14324 baseline30 baseline
+2405.15411 baseline30 baseline
+2407.10282 baseline30 baseline
+2407.20626 baseline30 baseline
+2410.00268 baseline30 baseline
+2501.08122 baseline30 baseline
+2601.16215 baseline30 baseline
+2603.01364 baseline30 baseline
+2605.14792 baseline30 baseline

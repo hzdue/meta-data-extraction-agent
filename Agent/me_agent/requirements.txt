@@ -1,0 +1,16 @@
+# Runtime dependency declaration, not a complete lockfile.
+# vLLM version verified in the measured GPU3 server log.
+pypdf
+PyMuPDF==1.28.2
+pymupdf4llm
+openai>=2.8.0
+vllm==0.22.1
+mcp==2.2.0
+langgraph==1.2.12
+langgraph-checkpoint-sqlite==3.1.1
+arize-phoenix==20.12.0
+arize-phoenix-otel==0.17.1
+openinference-instrumentation-openai==0.1.60
+PyYAML
+numpy
+scipy

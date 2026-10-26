@@ -1,0 +1,2912 @@
+version: '1.1'
+source: data/assignments.json + data/gold/<arxiv_id>.json + grounded_forms below
+scope: paper-specific dataset identities for evaluation alignment
+aliases:
+  dsc: differential scanning calorimetry
+  ebsd: electron backscattered diffraction
+  eds: energy dispersive spectroscopy
+  erda: elastic recoil detection analysis
+  exafs: extended x-ray absorption fine structure
+  gisaxs: grazing-incidence small-angle x-ray scattering
+  herfd: high-energy-resolution fluorescence detection
+  ins: inelastic neutron scattering
+  mas: magic-angle spinning
+  nd: neutron diffraction
+  nmr: nuclear magnetic resonance
+  pnr: polarized neutron reflectometry
+  pxrd: powder x-ray diffraction
+  rixs: resonant inelastic x-ray scattering
+  rxr: resonant x-ray reflectivity
+  sans: small-angle neutron scattering
+  saxs: small-angle x-ray scattering
+  scxrd: single crystal x-ray diffraction
+  stxm: scanning transmission x-ray microscopy
+  stxm-xas: scanning transmission x-ray microscopy with x-ray absorption spectroscopy
+  tem: transmission electron microscopy
+  tga: thermogravimetric analysis
+  vsm: vibrating sample magnetometry
+  x-peem: x-ray photoemission electron microscopy
+  xanes: x-ray absorption near-edge structure
+  xas: x-ray absorption spectroscopy
+  xps: x-ray photoelectron spectroscopy
+  xrd: x-ray diffraction
+  xrr: x-ray reflectivity
+alias_grounding:
+  dsc:
+  - '2503.18475'
+  ebsd:
+  - '2407.10282'
+  eds:
+  - '2404.06853'
+  - '2212.04169'
+  erda:
+  - '2304.08002'
+  exafs:
+  - '1806.08116'
+  - '1907.00342'
+  - '2005.01985'
+  gisaxs:
+  - '2304.08002'
+  herfd:
+  - '2010.02965'
+  ins:
+  - '2006.12074'
+  - '2302.02010'
+  mas:
+  - '2503.18475'
+  nd:
+  - '1806.08116'
+  - '2001.00707'
+  nmr:
+  - '2410.00268'
+  pnr:
+  - '2501.08122'
+  pxrd:
+  - '2202.11658'
+  - '2309.13729'
+  rixs:
+  - '2006.12074'
+  - '2009.12925'
+  - '2407.20626'
+  rxr:
+  - '2603.01364'
+  sans:
+  - '1804.07163'
+  - '2001.02706'
+  - '2105.04167'
+  saxs:
+  - '1804.07163'
+  - '2011.13326'
+  scxrd:
+  - '2202.11658'
+  stxm:
+  - '2009.01093'
+  stxm-xas:
+  - '2009.01093'
+  tem:
+  - '2009.01093'
+  - '2603.01364'
+  tga:
+  - '2203.07170'
+  - '2503.18475'
+  vsm:
+  - '2105.04167'
+  - '2309.13729'
+  x-peem:
+  - '2009.01093'
+  xanes:
+  - '2005.01985'
+  - '2010.00094'
+  xas:
+  - '1907.00342'
+  - '2005.01985'
+  - '2302.02010'
+  xps:
+  - '1907.00342'
+  xrd:
+  - '1806.08116'
+  - '2001.00707'
+  - '2212.04169'
+  xrr:
+  - '1812.03956'
+grounded_forms:
+- arxiv_id: '1909.08292'
+  gold_id: dataset_3
+  name_compatible_technique_forms:
+  - neutron diffraction
+  accepted_name_forms:
+  - WOMBAT
+  - neutron diffraction WOMBAT
+  grounding: &id009
+    pdf_pages:
+    - 2
+    evidence: The PDF identifies WOMBAT as the high-intensity neutron diffractometer.
+- arxiv_id: '1909.08292'
+  gold_id: dataset_4
+  name_compatible_technique_forms:
+  - neutron diffraction
+  accepted_name_forms:
+  - ECHIDNA
+  - neutron diffraction ECHIDNA
+  grounding: &id010
+    pdf_pages:
+    - 2
+    - 3
+    evidence: The PDF identifies ECHIDNA as the high-resolution neutron diffractometer.
+- arxiv_id: '2105.04167'
+  gold_id: dataset_2
+  accepted_name_forms:
+  - SANS QUOKKA
+  - QUOKKA
+  - ANSTO
+  grounding: &id023
+    pdf_pages:
+    - 3
+    evidence: The PDF states that these SANS experiments used QUOKKA at ANSTO.
+- arxiv_id: '2105.04167'
+  gold_id: dataset_3
+  accepted_name_forms:
+  - SANS D33
+  - D33
+  - ILL
+  grounding: &id024
+    pdf_pages:
+    - 3
+    evidence: The PDF states that the additional SANS experiments used D33 at ILL.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_2
+  name_compatible_technique_forms:
+  - laboratory powder X-ray diffraction (PXRD)
+  accepted_name_forms:
+  - laboratory PXRD
+  - laboratory powder diffraction
+  grounding: &id025
+    pdf_pages:
+    - 7
+    evidence: The PDF explicitly describes laboratory PXRD collected with a Bruker instrument.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - synchrotron powder diffraction
+  accepted_name_forms:
+  - synchrotron PXRD
+  - high-resolution synchrotron PXRD
+  - synchrotron powder diffraction
+  grounding: &id026
+    pdf_pages:
+    - 7
+    evidence: The PDF separately describes high-resolution synchrotron powder diffraction.
+- arxiv_id: '2211.06006'
+  gold_id: dataset_1
+  accepted_name_forms:
+  - transmission SANS
+  grounding: &id032
+    pdf_pages:
+    - 4
+    - 5
+    evidence: The PDF distinguishes conventional transmission SANS from near-surface SANS.
+- arxiv_id: '2211.06006'
+  gold_id: dataset_2
+  accepted_name_forms:
+  - near-surface SANS
+  - NS-SANS
+  grounding: &id033
+    pdf_pages:
+    - 3
+    - 5
+    evidence: The PDF defines near-surface SANS and its NS-SANS abbreviation.
+- arxiv_id: '2212.04169'
+  gold_id: dataset_3
+  accepted_name_forms:
+  - Bragg-Brentano XRD
+  - XRD Bragg-Brentano
+  grounding: &id034
+    pdf_pages:
+    - 4
+    evidence: The PDF identifies the Bragg-Brentano XRD configuration.
+- arxiv_id: '2212.04169'
+  gold_id: dataset_4
+  accepted_name_forms:
+  - grazing incidence XRD
+  - GI XRD
+  - GIXRD
+  grounding: &id035
+    pdf_pages:
+    - 4
+    - 5
+    evidence: The PDF names the grazing-incidence configuration and later labels its data GIXRD.
+- arxiv_id: '2309.13729'
+  gold_id: dataset_1
+  name_compatible_technique_forms:
+  - synchrotron powder X-ray diffraction
+  accepted_name_forms:
+  - in situ PXRD
+  - in situ synchrotron PXRD
+  grounding: &id039
+    pdf_pages:
+    - 1
+    - 3
+    evidence: The PDF describes time-resolved in-situ synchrotron PXRD measurements.
+- arxiv_id: '2309.13729'
+  gold_id: dataset_2
+  accepted_name_forms:
+  - ex situ PXRD
+  - ex situ powder X-ray diffraction
+  grounding: &id040
+    pdf_pages:
+    - 1
+    - 6
+    evidence: The PDF separately describes ex-situ PXRD used in joint refinements.
+- arxiv_id: '2410.00268'
+  gold_id: dataset_2
+  name_compatible_technique_forms:
+  - X-ray absorption spectroscopy
+  accepted_name_forms:
+  - DE-XAS
+  - diffraction-enhanced XAS
+  grounding: &id050
+    pdf_pages:
+    - 1
+    - 4
+    evidence: The PDF defines diffraction-enhanced X-ray absorption spectroscopy as DE-XAS.
+- arxiv_id: '2410.00268'
+  gold_id: dataset_5
+  name_compatible_technique_forms:
+  - X-ray absorption spectroscopy
+  accepted_name_forms:
+  - in situ DE-XAS
+  grounding: &id052
+    pdf_pages:
+    - 7
+    - 8
+    evidence: The PDF explicitly contrasts in-situ DE-XAS with regular in-situ XAS.
+- arxiv_id: '2410.00268'
+  gold_id: dataset_1
+  accepted_name_forms:
+  - XAS
+  - regular XAS
+  grounding: &id049
+    pdf_pages:
+    - 13
+    evidence: The PDF calls the comparison measurement regular XAS.
+- arxiv_id: '2410.00268'
+  gold_id: dataset_4
+  accepted_name_forms:
+  - in situ XAS
+  - regular in situ XAS
+  grounding: &id051
+    pdf_pages:
+    - 7
+    - 8
+    evidence: The PDF explicitly describes the regular in-situ XAS measurement.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_2
+  accepted_name_forms:
+  - PXRD
+  - powder XRD
+  grounding: &id054
+    pdf_pages:
+    - 8
+    evidence: The PDF describes the laboratory powder X-ray diffraction measurements as PXRD.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - synchrotron X-ray diffraction
+  accepted_name_forms:
+  - synchrotron PXRD
+  - high-resolution synchrotron PXRD
+  grounding: &id055
+    pdf_pages:
+    - 8
+    evidence: The PDF separately describes high-resolution synchrotron PXRD.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_4
+  accepted_name_forms:
+  - moderate-field NMR
+  grounding: &id056
+    pdf_pages:
+    - 9
+    evidence: The PDF identifies the 9.4 T measurements as moderate-field NMR.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_5
+  accepted_name_forms:
+  - high-field NMR
+  grounding: &id057
+    pdf_pages:
+    - 9
+    evidence: The PDF identifies the 21.1 T measurements as high-field NMR.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_6
+  accepted_name_forms:
+  - 35Cl VT-NMR
+  - VT-35Cl NMR
+  - variable-temperature 35Cl NMR
+  grounding: &id058
+    pdf_pages:
+    - 11
+    evidence: The PDF defines the variable-temperature chlorine-35 measurements as 35Cl VT-NMR.
+- arxiv_id: '1804.07163'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - surface tension measurement
+  grounding: &id001
+    pdf_pages:
+    - 7
+    evidence: The PDF describes measurements of surface tension.
+- arxiv_id: '1812.03956'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - qXRR
+  - X-ray reflectivity
+  accepted_name_forms:
+  - XRR during the annealing
+  grounding: &id004
+    pdf_pages:
+    - 2
+    evidence: The PDF defines qXRR as its quick X-ray reflectivity method.
+- arxiv_id: '1812.03956'
+  gold_id: dataset_2
+  accepted_technique_forms:
+  - X-ray reflectivity
+  grounding: &id005
+    pdf_pages:
+    - 2
+    - 5
+    evidence: The PDF identifies the conventional comparison as Parratt XRR.
+- arxiv_id: '1909.08292'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - X-ray diffraction
+  grounding: &id007
+    pdf_pages:
+    - 2
+    evidence: The PDF describes the measurement as powder XRD.
+- arxiv_id: '2005.01985'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - X-ray diffraction
+  grounding: &id011
+    pdf_pages:
+    - 5
+    evidence: The PDF describes the powder diffraction measurement.
+- arxiv_id: '2009.01093'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - ptychography
+  - X-ray ptychography
+  grounding: &id012
+    pdf_pages:
+    - 6
+    evidence: The PDF identifies the method as X-ray linear-dichroic ptychography.
+- arxiv_id: '2009.01093'
+  gold_id: dataset_2
+  name_compatible_technique_forms:
+  - X-ray absorption spectroscopy
+  accepted_technique_forms:
+  - STXM-XAS
+  - scanning transmission X-ray microscopy
+  grounding: &id013
+    pdf_pages:
+    - 7
+    evidence: The PDF defines the combined STXM-XAS measurement.
+- arxiv_id: '2009.01093'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - PEEM
+  - photoemission electron microscopy
+  - PEEM-PIC mapping
+  - polarization-dependent imaging contrast mapping
+  accepted_name_forms:
+  - PIC maps
+  grounding: &id014
+    pdf_pages:
+    - 9
+    evidence: The PDF describes PEEM polarization-dependent imaging contrast mapping.
+- arxiv_id: '2009.01093'
+  gold_id: dataset_4
+  name_compatible_technique_forms:
+  - scanning transmission electron microscopy
+  - 4D scanning transmission electron microscopy
+  accepted_technique_forms:
+  - 4D-STEM
+  - scanning nano-diffraction
+  grounding: &id015
+    pdf_pages:
+    - 9
+    evidence: The PDF explicitly labels the scanning nano-diffraction data 4D-STEM.
+- arxiv_id: '2010.02965'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - batch sorption
+  grounding: &id017
+    pdf_pages:
+    - 4
+    evidence: The PDF describes the batch sorption experiments.
+- arxiv_id: '2010.02965'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - ATR-FTIR
+  grounding: &id018
+    pdf_pages:
+    - 5
+    evidence: The PDF explicitly identifies the spectra as ATR-FTIR.
+- arxiv_id: '2010.02965'
+  gold_id: dataset_5
+  accepted_technique_forms:
+  - HERFD-XANES
+  grounding: &id019
+    pdf_pages:
+    - 6
+    evidence: The PDF describes the high-energy-resolution fluorescence-detected spectra.
+- arxiv_id: '2010.02965'
+  gold_id: dataset_6
+  accepted_technique_forms:
+  - HRTEM
+  grounding: &id020
+    pdf_pages:
+    - 6
+    evidence: The PDF explicitly identifies the images as HRTEM.
+- arxiv_id: '2011.13326'
+  gold_id: dataset_2
+  accepted_technique_forms:
+  - vibrating sample magnetometry
+  grounding: &id021
+    pdf_pages:
+    - 1
+    evidence: The PDF states that magnetic moments were measured using a vibrating sample magnetometer.
+- arxiv_id: '2105.04167'
+  gold_id: dataset_1
+  name_compatible_technique_forms:
+  - vibrating sample magnetometer (VSM)
+  accepted_technique_forms:
+  - vibrating sample magnetometer
+  - VSM
+  grounding: &id022
+    pdf_pages:
+    - 3
+    evidence: The PDF defines the VSM magnetization measurement.
+- arxiv_id: '2209.06540'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - Ge K-edge EXAFS
+  grounding: &id031
+    pdf_pages:
+    - 7
+    evidence: The PDF explicitly identifies Ge K-edge EXAFS data.
+- arxiv_id: '2309.13729'
+  gold_id: dataset_3
+  name_compatible_technique_forms:
+  - neutron powder diffraction (NPD)
+  accepted_technique_forms:
+  - NPD
+  - neutron diffraction
+  grounding: &id041
+    pdf_pages:
+    - 3
+    evidence: The PDF identifies the ex-situ neutron powder diffraction data as NPD.
+- arxiv_id: '2309.13729'
+  gold_id: dataset_4
+  accepted_technique_forms:
+  - vibrating sample magnetometer
+  - VSM
+  grounding: &id042
+    pdf_pages:
+    - 3
+    evidence: The PDF states that magnetization curves used a VSM.
+- arxiv_id: '2404.06853'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - X-ray imaging
+  grounding: &id043
+    pdf_pages:
+    - 2
+    evidence: The PDF describes imaging with a high-energy synchrotron X-ray beam and high-speed camera.
+- arxiv_id: '2405.14324'
+  gold_id: dataset_4
+  accepted_technique_forms:
+  - magnetization
+  - vibrating sample magnetometry
+  grounding: &id045
+    pdf_pages:
+    - 2
+    evidence: The PDF describes magnetization measurements made with a vibrating sample magnetometer.
+- arxiv_id: '2405.15411'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - extended X-ray absorption spectroscopy
+  - EXAFS
+  grounding: &id046
+    pdf_pages:
+    - 5
+    evidence: The PDF explicitly identifies the measurements as K-edge EXAFS.
+- arxiv_id: '2407.10282'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - synchrotron X-ray imaging
+  - X-ray imaging
+  grounding: &id047
+    pdf_pages:
+    - 6
+    evidence: The PDF describes high-speed images acquired with synchrotron X-rays.
+- arxiv_id: '2601.16215'
+  gold_id: dataset_1
+  accepted_technique_forms:
+  - powder X-ray diffraction
+  grounding: &id059
+    pdf_pages:
+    - 2
+    evidence: The PDF explicitly describes room-temperature powder X-ray diffraction.
+- arxiv_id: '2601.16215'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - vibrating sample magnetometry
+  - vibrating sample magnetometer
+  grounding: &id060
+    pdf_pages:
+    - 2
+    evidence: The PDF states that magnetization data were collected with a vibrating sample magnetometer.
+- arxiv_id: '2601.16215'
+  gold_id: dataset_5
+  accepted_technique_forms:
+  - neutron diffraction
+  grounding: &id061
+    pdf_pages:
+    - 2
+    evidence: The PDF identifies the measurement as time-of-flight neutron diffraction.
+- arxiv_id: '2603.01364'
+  gold_id: dataset_4
+  accepted_technique_forms:
+  - EELS
+  grounding: &id062
+    pdf_pages:
+    - 7
+    evidence: The PDF explicitly identifies the measurements as EELS.
+- arxiv_id: '2603.01364'
+  gold_id: dataset_5
+  accepted_technique_forms:
+  - current-voltage measurement
+  grounding: &id063
+    pdf_pages:
+    - 8
+    evidence: The PDF describes current-voltage measurements.
+- arxiv_id: '2605.14792'
+  gold_id: dataset_2
+  accepted_technique_forms:
+  - X-ray diffraction
+  - powder X-ray diffraction
+  grounding: &id064
+    pdf_pages:
+    - 4
+    evidence: The PDF describes X-ray diffraction of powdered samples.
+- arxiv_id: '1804.07163'
+  gold_id: dataset_4
+  name_compatible_technique_forms:
+  - rotational rheometry
+  - rheological experiments
+  accepted_technique_forms:
+  - rheological experiment
+  accepted_name_forms:
+  - rheological experiment
+  grounding: &id002
+    pdf_pages:
+    - 8
+    evidence: The PDF titles and describes this measurement as a rheological experiment.
+- arxiv_id: '1909.08292'
+  gold_id: dataset_2
+  accepted_technique_forms:
+  - magnetization measurement
+  accepted_name_forms:
+  - isothermal magnetization measurement
+  grounding: &id008
+    pdf_pages:
+    - 2
+    evidence: The PDF explicitly describes magnetization measurements made with a PPMS.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_4
+  name_compatible_technique_forms:
+  - transmission electron microscopy imaging and atomic-resolution high-angle annular dark-field scanning transmission
+    electron microscopy imaging
+  accepted_technique_forms:
+  - electron diffraction / scanning transmission electron microscopy
+  accepted_name_forms:
+  - electron microscopy and diffraction
+  grounding: &id027
+    pdf_pages:
+    - 5
+    - 7
+    evidence: The PDF groups TEM electron diffraction and scanning/transmission electron microscopy characterization.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_5
+  accepted_technique_forms:
+  - magnetization measurements
+  accepted_name_forms:
+  - magnetization
+  grounding: &id028
+    pdf_pages:
+    - 4
+    - 7
+    evidence: The paper reports temperature-dependent magnetization as magnetic susceptibility M/H.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_6
+  name_compatible_technique_forms:
+  - resistivity
+  accepted_technique_forms:
+  - resistivity measurements
+  accepted_name_forms:
+  - resistivity
+  grounding: &id029
+    pdf_pages:
+    - 7
+    evidence: The PDF explicitly describes resistivity measurements.
+- arxiv_id: '2202.11658'
+  gold_id: dataset_7
+  name_compatible_technique_forms:
+  - diffuse reflectance spectroscopy
+  accepted_technique_forms:
+  - diffuse reflectance
+  accepted_name_forms:
+  - diffuse reflectance
+  grounding: &id030
+    pdf_pages:
+    - 7
+    evidence: The PDF explicitly describes collection of diffuse-reflectance data.
+- arxiv_id: '2407.10282'
+  gold_id: dataset_3
+  accepted_technique_forms:
+  - electron backscatter diffraction
+  - EBSD
+  accepted_name_forms:
+  - electron backscatter diffraction
+  - EBSD
+  grounding: &id048
+    pdf_pages:
+    - 24
+    evidence: The PDF identifies the method as EBSD and describes electron-backscattered diffraction patterns.
+- arxiv_id: '1811.10341'
+  gold_id: dataset_3
+  name_compatible_technique_forms:
+  - X-ray absorption spectroscopy
+  - Ge K-edge X-ray absorption spectroscopy
+  - Ge K-edge EXAFS
+  grounding: &id003
+    pdf_pages:
+    - 5
+    evidence: The PDF identifies the exact named dataset as Ge K-edge EXAFS
+    a region of the X-ray absorption measurement.: null
+- arxiv_id: '1901.08819'
+  gold_id: dataset_1
+  name_compatible_technique_forms:
+  - neutron reflectometry
+  grounding: &id006
+    pdf_pages:
+    - 2
+    evidence: The PDF describes the exact named measurement as polarized neutron reflectometry.
+- arxiv_id: '2009.01093'
+  gold_id: dataset_5
+  name_compatible_technique_forms:
+  - scanning transmission electron microscopy
+  grounding: &id016
+    pdf_pages:
+    - 9
+    evidence: The PDF describes electron tomography in the 4D-STEM and electron-tomography section.
+- arxiv_id: '2212.04169'
+  gold_id: dataset_5
+  name_compatible_technique_forms:
+  - SEM
+  grounding: &id036
+    pdf_pages:
+    - 4
+    evidence: The PDF explicitly identifies scanning electron microscopy as SEM.
+- arxiv_id: '2212.04169'
+  gold_id: dataset_6
+  name_compatible_technique_forms:
+  - EDS
+  grounding: &id037
+    pdf_pages:
+    - 4
+    evidence: The PDF explicitly identifies energy-dispersive spectroscopy as EDS.
+- arxiv_id: '2212.04169'
+  gold_id: dataset_7
+  name_compatible_technique_forms:
+  - STEM
+  - scanning transmission electron spectroscopy
+  grounding: &id038
+    pdf_pages:
+    - 2
+    - 4
+    - 5
+    evidence: The PDF uses scanning transmission electron spectroscopy in its introduction, then describes the same
+      STEM campaign as HAADF-STEM imaging and scanning transmission electron microscopy.
+- arxiv_id: '2405.14324'
+  gold_id: dataset_2
+  name_compatible_technique_forms:
+  - X-ray diffraction
+  grounding: &id044
+    pdf_pages:
+    - 2
+    evidence: The PDF identifies the exact named wide-angle X-ray diffraction measurement.
+- arxiv_id: '2503.18475'
+  gold_id: dataset_1
+  name_compatible_technique_forms:
+  - thermal analysis
+  - thermogravimetric analysis
+  - thermogravimetric analysis and differential scanning calorimetry
+  grounding: &id053
+    pdf_pages:
+    - 7
+    evidence: The PDF describes the exact named TGA/DSC thermal-analysis measurements.
+papers:
+  '1804.07163':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: surface tension
+    gold_dataset_name: surface tension
+    normalized_technique: surface tension
+    normalized_name: surface tension
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - surface tension
+    - surface tension measurement
+    accepted_name_forms:
+    - surface tension
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id001
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: SANS
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: small-angle X-ray scattering
+    gold_dataset_name: SAXS
+    normalized_technique: small angle x ray scattering
+    normalized_name: small angle x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle x ray scattering
+    accepted_name_forms:
+    - small angle x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: rheology
+    gold_dataset_name: rheology
+    normalized_technique: rheology
+    normalized_name: rheology
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - rheology
+    - rheological experiment
+    accepted_name_forms:
+    - rheology
+    - rheological experiment
+    name_compatible_technique_forms:
+    - rotational rheometry
+    - rheological experiments
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id002
+  '1806.08116':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: neutron diffraction
+    gold_dataset_name: ND
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: XRD
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: EXAFS
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: extended x ray absorption fine structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    accepted_name_forms:
+    - extended x ray absorption fine structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '1811.10341':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: neutron diffraction
+    gold_dataset_name: neutron diffraction
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: X-ray diffraction
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: Ge K-edge EXAFS
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: ge k edge extended x ray absorption fine structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    accepted_name_forms:
+    - ge k edge extended x ray absorption fine structure
+    name_compatible_technique_forms:
+    - x ray absorption spectroscopy
+    - ge k edge x ray absorption spectroscopy
+    - ge k edge extended x ray absorption fine structure
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id003
+  '1812.03956':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: quick X-ray reflectivity
+    gold_dataset_name: qXRR
+    normalized_technique: quick x ray reflectivity
+    normalized_name: qxrr
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - quick x ray reflectivity
+    - qxrr
+    - x ray reflectivity
+    accepted_name_forms:
+    - qxrr
+    - x ray reflectivity during the annealing
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id004
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: Parratt XRR
+    gold_dataset_name: Parratt XRR
+    normalized_technique: parratt x ray reflectivity
+    normalized_name: parratt x ray reflectivity
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - parratt x ray reflectivity
+    - x ray reflectivity
+    accepted_name_forms:
+    - parratt x ray reflectivity
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id005
+  '1901.08819':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: polarized neutron reflectometry
+    gold_dataset_name: PNR
+    normalized_technique: polarized neutron reflectometry
+    normalized_name: polarized neutron reflectometry
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - polarized neutron reflectometry
+    accepted_name_forms:
+    - polarized neutron reflectometry
+    name_compatible_technique_forms:
+    - neutron reflectometry
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id006
+  '1907.00342':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray photoelectron spectroscopy
+    gold_dataset_name: X-ray photoelectron spectroscopy
+    normalized_technique: x ray photoelectron spectroscopy
+    normalized_name: x ray photoelectron spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray photoelectron spectroscopy
+    accepted_name_forms:
+    - x ray photoelectron spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: X-ray diffraction
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: Co K-edge X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: co k edge x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - co k edge x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '1909.08292':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: powder X-ray diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: powder x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - powder x ray diffraction
+    - x ray diffraction
+    accepted_name_forms:
+    - powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id007
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: magnetization
+    gold_dataset_name: magnetization
+    normalized_technique: magnetization
+    normalized_name: magnetization
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - magnetization
+    - magnetization measurement
+    accepted_name_forms:
+    - magnetization
+    - isothermal magnetization measurement
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id008
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: neutron powder diffraction
+    gold_dataset_name: neutron powder diffraction (WOMBAT)
+    normalized_technique: neutron powder diffraction
+    normalized_name: neutron powder diffraction wombat
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - neutron powder diffraction
+    accepted_name_forms:
+    - neutron powder diffraction wombat
+    - wombat
+    - neutron diffraction wombat
+    name_compatible_technique_forms:
+    - neutron diffraction
+    name_discriminators:
+    - wombat
+    name_discriminator_forms:
+    - - wombat
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id009
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: neutron powder diffraction
+    gold_dataset_name: neutron powder diffraction (ECHIDNA)
+    normalized_technique: neutron powder diffraction
+    normalized_name: neutron powder diffraction echidna
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - neutron powder diffraction
+    accepted_name_forms:
+    - neutron powder diffraction echidna
+    - echidna
+    - neutron diffraction echidna
+    name_compatible_technique_forms:
+    - neutron diffraction
+    name_discriminators:
+    - echidna
+    name_discriminator_forms:
+    - - echidna
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id010
+  '1912.11816':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: small-angle neutron scattering
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2001.00707':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: neutron diffraction
+    gold_dataset_name: neutron diffraction
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2001.02706':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: small angle neutron scattering
+    gold_dataset_name: Small angle neutron scattering
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2005.01985':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: powder X-ray diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: powder x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - powder x ray diffraction
+    - x ray diffraction
+    accepted_name_forms:
+    - powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id011
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2006.12074':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: inelastic neutron scattering
+    gold_dataset_name: inelastic neutron scattering
+    normalized_technique: inelastic neutron scattering
+    normalized_name: inelastic neutron scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - inelastic neutron scattering
+    accepted_name_forms:
+    - inelastic neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2007.00972':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: X-ray diffraction
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: Neutron diffraction
+    gold_dataset_name: Neutron diffraction
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2009.01093':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray linear dichroic ptychography
+    gold_dataset_name: X-ray linear dichroic ptychography
+    normalized_technique: x ray linear dichroic ptychography
+    normalized_name: x ray linear dichroic ptychography
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray linear dichroic ptychography
+    - ptychography
+    - x ray ptychography
+    accepted_name_forms:
+    - x ray linear dichroic ptychography
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id012
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: Scanning transmission x-ray microscopy with x-ray absorption spectroscopy
+    gold_dataset_name: STXM-XAS
+    normalized_technique: scanning transmission x ray microscopy with x ray absorption spectroscopy
+    normalized_name: scanning transmission x ray microscopy with x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - scanning transmission x ray microscopy with x ray absorption spectroscopy
+    - scanning transmission x ray microscopy
+    accepted_name_forms:
+    - scanning transmission x ray microscopy with x ray absorption spectroscopy
+    name_compatible_technique_forms:
+    - x ray absorption spectroscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id013
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: x-ray photoemission electron microscopy
+    gold_dataset_name: PEEM-PIC mapping
+    normalized_technique: x ray photoemission electron microscopy
+    normalized_name: peem pic mapping
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray photoemission electron microscopy
+    - peem
+    - photoemission electron microscopy
+    - peem pic mapping
+    - polarization dependent imaging contrast mapping
+    accepted_name_forms:
+    - peem pic mapping
+    - pic maps
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id014
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: Scanning nano-diffraction
+    gold_dataset_name: 4D-STEM
+    normalized_technique: scanning nano diffraction
+    normalized_name: 4d stem
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - scanning nano diffraction
+    - 4d stem
+    accepted_name_forms:
+    - 4d stem
+    name_compatible_technique_forms:
+    - scanning transmission electron microscopy
+    - 4d scanning transmission electron microscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id015
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: electron tomography
+    gold_dataset_name: electron tomography
+    normalized_technique: electron tomography
+    normalized_name: electron tomography
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - electron tomography
+    accepted_name_forms:
+    - electron tomography
+    name_compatible_technique_forms:
+    - scanning transmission electron microscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id016
+  '2009.12925':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: resonant inelastic X-ray scattering
+    gold_dataset_name: RIXS
+    normalized_technique: resonant inelastic x ray scattering
+    normalized_name: resonant inelastic x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - resonant inelastic x ray scattering
+    accepted_name_forms:
+    - resonant inelastic x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2010.00094':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2010.02965':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: batch sorption experiments
+    gold_dataset_name: batch sorption experiments
+    normalized_technique: batch sorption experiments
+    normalized_name: batch sorption experiments
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - batch sorption experiments
+    - batch sorption
+    accepted_name_forms:
+    - batch sorption experiments
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id017
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray photoelectron spectroscopy
+    gold_dataset_name: XPS spectra
+    normalized_technique: x ray photoelectron spectroscopy
+    normalized_name: x ray photoelectron spectroscopy spectra
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray photoelectron spectroscopy
+    accepted_name_forms:
+    - x ray photoelectron spectroscopy spectra
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: attenuated total reflection fourier-transform infrared spectroscopy
+    gold_dataset_name: ATR-FTIR spectra
+    normalized_technique: attenuated total reflection fourier transform infrared spectroscopy
+    normalized_name: atr ftir spectra
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - attenuated total reflection fourier transform infrared spectroscopy
+    - atr ftir
+    accepted_name_forms:
+    - atr ftir spectra
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id018
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: EXAFS spectra
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: extended x ray absorption fine structure spectra
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    accepted_name_forms:
+    - extended x ray absorption fine structure spectra
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: high-energy resolution fluorescence detected X-Ray absorption spectroscopy
+    gold_dataset_name: HERFD-XANES
+    normalized_technique: high energy resolution fluorescence detected x ray absorption spectroscopy
+    normalized_name: high energy resolution fluorescence detection x ray absorption near edge structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - high energy resolution fluorescence detected x ray absorption spectroscopy
+    - high energy resolution fluorescence detection x ray absorption near edge structure
+    accepted_name_forms:
+    - high energy resolution fluorescence detection x ray absorption near edge structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id019
+  - gold_entity_index: 6
+    gold_id: dataset_6
+    gold_measurement_technique: high resolution transmission electron microscopy
+    gold_dataset_name: HRTEM
+    normalized_technique: high resolution transmission electron microscopy
+    normalized_name: hrtem
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - high resolution transmission electron microscopy
+    - hrtem
+    accepted_name_forms:
+    - hrtem
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id020
+  '2010.12832':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray tomography
+    gold_dataset_name: X-ray tomography
+    normalized_technique: x ray tomography
+    normalized_name: x ray tomography
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray tomography
+    accepted_name_forms:
+    - x ray tomography
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: shear force measurement
+    gold_dataset_name: shear force measurement
+    normalized_technique: shear force measurement
+    normalized_name: shear force measurement
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - shear force measurement
+    accepted_name_forms:
+    - shear force measurement
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2011.13326':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: small angle X-ray scattering
+    gold_dataset_name: small angle X-ray scattering
+    normalized_technique: small angle x ray scattering
+    normalized_name: small angle x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle x ray scattering
+    accepted_name_forms:
+    - small angle x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: vibrating sample magnetometer
+    gold_dataset_name: vibrating sample magnetometry
+    normalized_technique: vibrating sample magnetometer
+    normalized_name: vibrating sample magnetometry
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - vibrating sample magnetometer
+    - vibrating sample magnetometry
+    accepted_name_forms:
+    - vibrating sample magnetometry
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id021
+  '2104.10884':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: x-ray absorption spectroscopy
+    gold_dataset_name: x-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2105.04167':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: vibrating sample magnetometry
+    gold_dataset_name: VSM magnetization
+    normalized_technique: vibrating sample magnetometry
+    normalized_name: vibrating sample magnetometry magnetization
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - vibrating sample magnetometry
+    - vibrating sample magnetometer
+    accepted_name_forms:
+    - vibrating sample magnetometry magnetization
+    name_compatible_technique_forms:
+    - vibrating sample magnetometer vibrating sample magnetometry
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id022
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: SANS at QUOKKA/ANSTO
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering at quokka/ansto
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering at quokka/ansto
+    - small angle neutron scattering quokka
+    - quokka
+    - ansto
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - ansto
+    - quokka
+    name_discriminator_forms:
+    - - ansto
+    - - quokka
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id023
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: SANS at D33/ILL
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering at d33/ill
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering at d33/ill
+    - small angle neutron scattering d33
+    - d33
+    - ill
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - d33
+    - ill
+    name_discriminator_forms:
+    - - d33
+    - - ill
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id024
+  '2202.11658':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: single crystal X-ray diffraction
+    gold_dataset_name: single crystal X-ray diffraction
+    normalized_technique: single crystal x ray diffraction
+    normalized_name: single crystal x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - single crystal x ray diffraction
+    accepted_name_forms:
+    - single crystal x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: laboratory powder X-ray diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: laboratory powder x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    accepted_name_forms:
+    - laboratory powder x ray diffraction
+    - laboratory powder diffraction
+    name_compatible_technique_forms:
+    - laboratory powder x ray diffraction
+    name_discriminators:
+    - laboratory
+    name_discriminator_forms:
+    - - laboratory
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id025
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: synchrotron powder X-ray diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: synchrotron powder x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    - synchrotron powder diffraction
+    accepted_name_forms:
+    - synchrotron powder x ray diffraction
+    - high resolution synchrotron powder x ray diffraction
+    - synchrotron powder diffraction
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - synchrotron
+    name_discriminator_forms:
+    - - synchrotron
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id026
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: transmission electron microscopy
+    gold_dataset_name: transmission electron microscopy
+    normalized_technique: transmission electron microscopy
+    normalized_name: transmission electron microscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - transmission electron microscopy
+    - electron diffraction / scanning transmission electron microscopy
+    accepted_name_forms:
+    - transmission electron microscopy
+    - electron microscopy and diffraction
+    name_compatible_technique_forms:
+    - transmission electron microscopy imaging and atomic resolution high angle annular dark field scanning transmission
+      electron microscopy imaging
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id027
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: magnetic susceptibility measurement
+    gold_dataset_name: magnetic susceptibility measurement
+    normalized_technique: magnetic susceptibility measurement
+    normalized_name: magnetic susceptibility measurement
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - magnetic susceptibility measurement
+    - magnetization measurements
+    accepted_name_forms:
+    - magnetic susceptibility measurement
+    - magnetization
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id028
+  - gold_entity_index: 6
+    gold_id: dataset_6
+    gold_measurement_technique: resistivity measurement
+    gold_dataset_name: resistivity measurement
+    normalized_technique: resistivity measurement
+    normalized_name: resistivity measurement
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - resistivity measurement
+    - resistivity measurements
+    accepted_name_forms:
+    - resistivity measurement
+    - resistivity
+    name_compatible_technique_forms:
+    - resistivity
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id029
+  - gold_entity_index: 7
+    gold_id: dataset_7
+    gold_measurement_technique: diffuse reflectance measurement
+    gold_dataset_name: diffuse reflectance measurement
+    normalized_technique: diffuse reflectance measurement
+    normalized_name: diffuse reflectance measurement
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - diffuse reflectance measurement
+    - diffuse reflectance
+    accepted_name_forms:
+    - diffuse reflectance measurement
+    - diffuse reflectance
+    name_compatible_technique_forms:
+    - diffuse reflectance spectroscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id030
+  '2203.07170':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: temperature-dependent Zn K-edge X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: temperature dependent zn k edge x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - temperature dependent zn k edge x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2209.06540':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: neutron diffraction
+    gold_dataset_name: neutron diffraction
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: X-ray diffraction
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: Ge K-edge EXAFS
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: ge k edge extended x ray absorption fine structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    - ge k edge extended x ray absorption fine structure
+    accepted_name_forms:
+    - ge k edge extended x ray absorption fine structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id031
+  '2211.06006':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: transmission SANS
+    normalized_technique: small angle neutron scattering
+    normalized_name: transmission small angle neutron scattering
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - transmission small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - transmission
+    name_discriminator_forms:
+    - - transmission
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id032
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: NS-SANS
+    normalized_technique: small angle neutron scattering
+    normalized_name: ns small angle neutron scattering
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - ns small angle neutron scattering
+    - near surface small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - ns
+    name_discriminator_forms:
+    - - ns
+    - - near
+      - surface
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id033
+  '2212.04169':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray absorption near-edge structure
+    gold_dataset_name: XANES
+    normalized_technique: x ray absorption near edge structure
+    normalized_name: x ray absorption near edge structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption near edge structure
+    accepted_name_forms:
+    - x ray absorption near edge structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: EXAFS
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: extended x ray absorption fine structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    accepted_name_forms:
+    - extended x ray absorption fine structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: Bragg-Brentano XRD
+    normalized_technique: x ray diffraction
+    normalized_name: bragg brentano x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - bragg brentano x ray diffraction
+    - x ray diffraction bragg brentano
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - bragg
+    - brentano
+    name_discriminator_forms:
+    - - bragg
+      - brentano
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id034
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: grazing incidence XRD
+    normalized_technique: x ray diffraction
+    normalized_name: grazing incidence x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - grazing incidence x ray diffraction
+    - gi x ray diffraction
+    - gixrd
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - grazing
+    - incidence
+    name_discriminator_forms:
+    - - gi
+    - - gixrd
+    - - grazing
+      - incidence
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id035
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: scanning electron microscopy
+    gold_dataset_name: SEM
+    normalized_technique: scanning electron microscopy
+    normalized_name: sem
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - scanning electron microscopy
+    accepted_name_forms:
+    - sem
+    name_compatible_technique_forms:
+    - sem
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id036
+  - gold_entity_index: 6
+    gold_id: dataset_6
+    gold_measurement_technique: energy dispersive X-ray spectroscopy
+    gold_dataset_name: EDS
+    normalized_technique: energy dispersive x ray spectroscopy
+    normalized_name: energy dispersive spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - energy dispersive x ray spectroscopy
+    accepted_name_forms:
+    - energy dispersive spectroscopy
+    name_compatible_technique_forms:
+    - energy dispersive spectroscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id037
+  - gold_entity_index: 7
+    gold_id: dataset_7
+    gold_measurement_technique: scanning transmission electron microscopy
+    gold_dataset_name: STEM
+    normalized_technique: scanning transmission electron microscopy
+    normalized_name: stem
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - scanning transmission electron microscopy
+    accepted_name_forms:
+    - stem
+    name_compatible_technique_forms:
+    - stem
+    - scanning transmission electron spectroscopy
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id038
+  '2302.02010':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: resonant inelastic X-ray scattering
+    gold_dataset_name: RIXS
+    normalized_technique: resonant inelastic x ray scattering
+    normalized_name: resonant inelastic x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - resonant inelastic x ray scattering
+    accepted_name_forms:
+    - resonant inelastic x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: XAS
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2304.08002':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: grazing-incidence small-angle X-ray scattering
+    gold_dataset_name: GISAXS
+    normalized_technique: grazing incidence small angle x ray scattering
+    normalized_name: grazing incidence small angle x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - grazing incidence small angle x ray scattering
+    accepted_name_forms:
+    - grazing incidence small angle x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray reflectivity
+    gold_dataset_name: X-ray reflectivity
+    normalized_technique: x ray reflectivity
+    normalized_name: x ray reflectivity
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray reflectivity
+    accepted_name_forms:
+    - x ray reflectivity
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: neutron reflectivity
+    gold_dataset_name: neutron reflectivity
+    normalized_technique: neutron reflectivity
+    normalized_name: neutron reflectivity
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron reflectivity
+    accepted_name_forms:
+    - neutron reflectivity
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: time-of-flight elastic recoil detection analysis
+    gold_dataset_name: ToF-ERDA
+    normalized_technique: time of flight elastic recoil detection analysis
+    normalized_name: tof elastic recoil detection analysis
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - time of flight elastic recoil detection analysis
+    accepted_name_forms:
+    - tof elastic recoil detection analysis
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2309.13729':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: in situ synchrotron PXRD
+    normalized_technique: powder x ray diffraction
+    normalized_name: in situ synchrotron powder x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    accepted_name_forms:
+    - in situ synchrotron powder x ray diffraction
+    - in situ powder x ray diffraction
+    name_compatible_technique_forms:
+    - synchrotron powder x ray diffraction
+    name_discriminators:
+    - in
+    - synchrotron
+    name_discriminator_forms:
+    - - in
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id039
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: powder X-ray diffraction
+    gold_dataset_name: ex situ PXRD
+    normalized_technique: powder x ray diffraction
+    normalized_name: ex situ powder x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    accepted_name_forms:
+    - ex situ powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - ex
+    name_discriminator_forms:
+    - - ex
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id040
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: neutron powder diffraction
+    gold_dataset_name: ex situ NPD
+    normalized_technique: neutron powder diffraction
+    normalized_name: ex situ npd
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron powder diffraction
+    - npd
+    - neutron diffraction
+    accepted_name_forms:
+    - ex situ npd
+    name_compatible_technique_forms:
+    - neutron powder diffraction npd
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id041
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: vibrating sample magnetometry
+    gold_dataset_name: vibrating sample magnetometry
+    normalized_technique: vibrating sample magnetometry
+    normalized_name: vibrating sample magnetometry
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - vibrating sample magnetometry
+    - vibrating sample magnetometer
+    accepted_name_forms:
+    - vibrating sample magnetometry
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id042
+  '2404.06853':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: synchrotron X-ray imaging
+    gold_dataset_name: in-situ synchrotron X-ray imaging
+    normalized_technique: synchrotron x ray imaging
+    normalized_name: in situ synchrotron x ray imaging
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - synchrotron x ray imaging
+    - x ray imaging
+    accepted_name_forms:
+    - in situ synchrotron x ray imaging
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id043
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray computed tomography
+    gold_dataset_name: X-ray computed tomography
+    normalized_technique: x ray computed tomography
+    normalized_name: x ray computed tomography
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray computed tomography
+    accepted_name_forms:
+    - x ray computed tomography
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: scanning electron microscopy and energy dispersive spectroscopy
+    gold_dataset_name: SEM/EDS
+    normalized_technique: scanning electron microscopy and energy dispersive spectroscopy
+    normalized_name: sem/energy dispersive spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - scanning electron microscopy and energy dispersive spectroscopy
+    accepted_name_forms:
+    - sem/energy dispersive spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2405.14324':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: small-angle neutron scattering
+    gold_dataset_name: small-angle neutron scattering
+    normalized_technique: small angle neutron scattering
+    normalized_name: small angle neutron scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle neutron scattering
+    accepted_name_forms:
+    - small angle neutron scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: wide-angle X-ray diffraction
+    gold_dataset_name: wide-angle X-ray diffraction
+    normalized_technique: wide angle x ray diffraction
+    normalized_name: wide angle x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - wide angle x ray diffraction
+    accepted_name_forms:
+    - wide angle x ray diffraction
+    name_compatible_technique_forms:
+    - x ray diffraction
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id044
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: small-angle X-ray scattering
+    gold_dataset_name: small-angle X-ray scattering
+    normalized_technique: small angle x ray scattering
+    normalized_name: small angle x ray scattering
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - small angle x ray scattering
+    accepted_name_forms:
+    - small angle x ray scattering
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: magnetization measurements
+    gold_dataset_name: magnetization
+    normalized_technique: magnetization measurements
+    normalized_name: magnetization
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - magnetization measurements
+    - magnetization
+    - vibrating sample magnetometry
+    accepted_name_forms:
+    - magnetization
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id045
+  '2405.15411':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: neutron diffraction
+    gold_dataset_name: ND
+    normalized_technique: neutron diffraction
+    normalized_name: neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron diffraction
+    accepted_name_forms:
+    - neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: XRD
+    normalized_technique: x ray diffraction
+    normalized_name: x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    accepted_name_forms:
+    - x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: extended X-ray absorption fine structure
+    gold_dataset_name: EXAFS
+    normalized_technique: extended x ray absorption fine structure
+    normalized_name: extended x ray absorption fine structure
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - extended x ray absorption fine structure
+    - extended x ray absorption spectroscopy
+    accepted_name_forms:
+    - extended x ray absorption fine structure
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id046
+  '2407.10282':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: high-speed synchrotron X-ray imaging
+    gold_dataset_name: high-speed synchrotron X-ray imaging
+    normalized_technique: high speed synchrotron x ray imaging
+    normalized_name: high speed synchrotron x ray imaging
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - high speed synchrotron x ray imaging
+    - synchrotron x ray imaging
+    - x ray imaging
+    accepted_name_forms:
+    - high speed synchrotron x ray imaging
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id047
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray computed tomography
+    gold_dataset_name: X-ray computed tomography
+    normalized_technique: x ray computed tomography
+    normalized_name: x ray computed tomography
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray computed tomography
+    accepted_name_forms:
+    - x ray computed tomography
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: electron backscattered diffraction
+    gold_dataset_name: electron backscattered diffraction
+    normalized_technique: electron backscattered diffraction
+    normalized_name: electron backscattered diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - electron backscattered diffraction
+    - electron backscatter diffraction
+    accepted_name_forms:
+    - electron backscattered diffraction
+    - electron backscatter diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id048
+  '2407.20626':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: resonant inelastic x-ray scattering
+    gold_dataset_name: RIXS at Ta L3 edge
+    normalized_technique: resonant inelastic x ray scattering
+    normalized_name: resonant inelastic x ray scattering at ta l3 edge
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - resonant inelastic x ray scattering
+    accepted_name_forms:
+    - resonant inelastic x ray scattering at ta l3 edge
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2410.00268':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: false
+    technique_group: technique_group_2
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    - regular x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms:
+    - - regular
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id049
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: diffraction-enhanced X-ray absorption spectroscopy
+    gold_dataset_name: DE-XAS
+    normalized_technique: diffraction enhanced x ray absorption spectroscopy
+    normalized_name: de xas
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - diffraction enhanced x ray absorption spectroscopy
+    accepted_name_forms:
+    - de xas
+    - diffraction enhanced x ray absorption spectroscopy
+    name_compatible_technique_forms:
+    - x ray absorption spectroscopy
+    name_discriminators: []
+    name_discriminator_forms:
+    - - absorption
+      - diffraction
+      - enhanced
+      - ray
+      - spectroscopy
+      - x
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id050
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: nuclear magnetic resonance spectroscopy
+    gold_dataset_name: 1H NMR
+    normalized_technique: nuclear magnetic resonance spectroscopy
+    normalized_name: 1h nuclear magnetic resonance
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - nuclear magnetic resonance spectroscopy
+    accepted_name_forms:
+    - 1h nuclear magnetic resonance
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: in situ XAS
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: in situ x ray absorption spectroscopy
+    technique_is_unique: false
+    technique_group: technique_group_2
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - in situ x ray absorption spectroscopy
+    - regular in situ x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - in
+    - situ
+    name_discriminator_forms:
+    - - in
+      - situ
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id051
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: diffraction-enhanced X-ray absorption spectroscopy
+    gold_dataset_name: in situ DE-XAS
+    normalized_technique: diffraction enhanced x ray absorption spectroscopy
+    normalized_name: in situ de xas
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - diffraction enhanced x ray absorption spectroscopy
+    accepted_name_forms:
+    - in situ de xas
+    name_compatible_technique_forms:
+    - x ray absorption spectroscopy
+    name_discriminators:
+    - in
+    - situ
+    name_discriminator_forms:
+    - - in
+      - situ
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id052
+  '2501.08122':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: polarized neutron reflectometry
+    gold_dataset_name: polarized neutron reflectometry
+    normalized_technique: polarized neutron reflectometry
+    normalized_name: polarized neutron reflectometry
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - polarized neutron reflectometry
+    accepted_name_forms:
+    - polarized neutron reflectometry
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  '2503.18475':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: TGA/DSC
+    gold_dataset_name: TGA/DSC
+    normalized_technique: thermogravimetric analysis/differential scanning calorimetry
+    normalized_name: thermogravimetric analysis/differential scanning calorimetry
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - thermogravimetric analysis/differential scanning calorimetry
+    accepted_name_forms:
+    - thermogravimetric analysis/differential scanning calorimetry
+    name_compatible_technique_forms:
+    - thermal analysis
+    - thermogravimetric analysis
+    - thermogravimetric analysis and differential scanning calorimetry
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id053
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: Powder X-Ray Diffraction
+    gold_dataset_name: Powder X-Ray Diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: powder x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    accepted_name_forms:
+    - powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - powder
+    name_discriminator_forms:
+    - - powder
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id054
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: Powder X-Ray Diffraction
+    gold_dataset_name: Synchrotron X-ray Diffraction
+    normalized_technique: powder x ray diffraction
+    normalized_name: synchrotron x ray diffraction
+    technique_is_unique: false
+    technique_group: technique_group_1
+    accepted_technique_forms:
+    - powder x ray diffraction
+    - synchrotron x ray diffraction
+    accepted_name_forms:
+    - synchrotron x ray diffraction
+    - synchrotron powder x ray diffraction
+    - high resolution synchrotron powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - synchrotron
+    name_discriminator_forms:
+    - - synchrotron
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id055
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: Solid-State NMR Spectroscopy
+    gold_dataset_name: moderate-field NMR
+    normalized_technique: solid state nuclear magnetic resonance spectroscopy
+    normalized_name: moderate field nuclear magnetic resonance
+    technique_is_unique: false
+    technique_group: technique_group_2
+    accepted_technique_forms:
+    - solid state nuclear magnetic resonance spectroscopy
+    accepted_name_forms:
+    - moderate field nuclear magnetic resonance
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - field
+    - moderate
+    name_discriminator_forms:
+    - - field
+      - moderate
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id056
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: Solid-State NMR Spectroscopy
+    gold_dataset_name: high-field NMR
+    normalized_technique: solid state nuclear magnetic resonance spectroscopy
+    normalized_name: high field nuclear magnetic resonance
+    technique_is_unique: false
+    technique_group: technique_group_2
+    accepted_technique_forms:
+    - solid state nuclear magnetic resonance spectroscopy
+    accepted_name_forms:
+    - high field nuclear magnetic resonance
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - field
+    - high
+    name_discriminator_forms:
+    - - field
+      - high
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id057
+  - gold_entity_index: 6
+    gold_id: dataset_6
+    gold_measurement_technique: Solid-State NMR Spectroscopy
+    gold_dataset_name: 35Cl VT-NMR
+    normalized_technique: solid state nuclear magnetic resonance spectroscopy
+    normalized_name: 35cl vt nuclear magnetic resonance
+    technique_is_unique: false
+    technique_group: technique_group_2
+    accepted_technique_forms:
+    - solid state nuclear magnetic resonance spectroscopy
+    accepted_name_forms:
+    - 35cl vt nuclear magnetic resonance
+    - vt 35cl nuclear magnetic resonance
+    - variable temperature 35cl nuclear magnetic resonance
+    name_compatible_technique_forms: []
+    name_discriminators:
+    - 35cl
+    - vt
+    name_discriminator_forms:
+    - - 35cl
+      - vt
+    - - 35cl
+      - temperature
+      - variable
+    alignment_requirement: technique_and_dataset_name
+    grounding: *id058
+  '2601.16215':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: X-ray diffraction
+    gold_dataset_name: powder X-ray diffraction
+    normalized_technique: x ray diffraction
+    normalized_name: powder x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray diffraction
+    - powder x ray diffraction
+    accepted_name_forms:
+    - powder x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id059
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: magnetic susceptibility
+    gold_dataset_name: magnetic susceptibility
+    normalized_technique: magnetic susceptibility
+    normalized_name: magnetic susceptibility
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - magnetic susceptibility
+    accepted_name_forms:
+    - magnetic susceptibility
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: magnetization
+    gold_dataset_name: magnetization
+    normalized_technique: magnetization
+    normalized_name: magnetization
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - magnetization
+    - vibrating sample magnetometry
+    - vibrating sample magnetometer
+    accepted_name_forms:
+    - magnetization
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id060
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: dielectric constant measurement
+    gold_dataset_name: Dielectric constant and magnetodielectric
+    normalized_technique: dielectric constant measurement
+    normalized_name: dielectric constant and magnetodielectric
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - dielectric constant measurement
+    accepted_name_forms:
+    - dielectric constant and magnetodielectric
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: time-of-flight neutron diffraction
+    gold_dataset_name: time-of-flight neutron diffraction
+    normalized_technique: time of flight neutron diffraction
+    normalized_name: time of flight neutron diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - time of flight neutron diffraction
+    - neutron diffraction
+    accepted_name_forms:
+    - time of flight neutron diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id061
+  '2603.01364':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: resonant X-ray reflectivity
+    gold_dataset_name: resonant X-ray reflectivity
+    normalized_technique: resonant x ray reflectivity
+    normalized_name: resonant x ray reflectivity
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - resonant x ray reflectivity
+    accepted_name_forms:
+    - resonant x ray reflectivity
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray reflectivity
+    gold_dataset_name: non-resonant X-ray reflectivity
+    normalized_technique: x ray reflectivity
+    normalized_name: non resonant x ray reflectivity
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray reflectivity
+    accepted_name_forms:
+    - non resonant x ray reflectivity
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: X-ray absorption spectroscopy
+    gold_dataset_name: X-ray absorption spectroscopy
+    normalized_technique: x ray absorption spectroscopy
+    normalized_name: x ray absorption spectroscopy
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray absorption spectroscopy
+    accepted_name_forms:
+    - x ray absorption spectroscopy
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 4
+    gold_id: dataset_4
+    gold_measurement_technique: electron energy loss spectroscopy
+    gold_dataset_name: EELS
+    normalized_technique: electron energy loss spectroscopy
+    normalized_name: eels
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - electron energy loss spectroscopy
+    - eels
+    accepted_name_forms:
+    - eels
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id062
+  - gold_entity_index: 5
+    gold_id: dataset_5
+    gold_measurement_technique: current-voltage measurements
+    gold_dataset_name: current-voltage measurements
+    normalized_technique: current voltage measurements
+    normalized_name: current voltage measurements
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - current voltage measurements
+    - current voltage measurement
+    accepted_name_forms:
+    - current voltage measurements
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id063
+  '2605.14792':
+  - gold_entity_index: 1
+    gold_id: dataset_1
+    gold_measurement_technique: single-crystal X-ray diffraction
+    gold_dataset_name: single-crystal X-ray diffraction
+    normalized_technique: single crystal x ray diffraction
+    normalized_name: single crystal x ray diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - single crystal x ray diffraction
+    accepted_name_forms:
+    - single crystal x ray diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+  - gold_entity_index: 2
+    gold_id: dataset_2
+    gold_measurement_technique: X-ray powder diffraction
+    gold_dataset_name: X-ray powder diffraction
+    normalized_technique: x ray powder diffraction
+    normalized_name: x ray powder diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - x ray powder diffraction
+    - x ray diffraction
+    - powder x ray diffraction
+    accepted_name_forms:
+    - x ray powder diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
+    grounding: *id064
+  - gold_entity_index: 3
+    gold_id: dataset_3
+    gold_measurement_technique: neutron powder diffraction
+    gold_dataset_name: neutron powder diffraction
+    normalized_technique: neutron powder diffraction
+    normalized_name: neutron powder diffraction
+    technique_is_unique: true
+    technique_group: null
+    accepted_technique_forms:
+    - neutron powder diffraction
+    accepted_name_forms:
+    - neutron powder diffraction
+    name_compatible_technique_forms: []
+    name_discriminators: []
+    name_discriminator_forms: []
+    alignment_requirement: unique_technique_with_both_keys_present
