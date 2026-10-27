@@ -33,6 +33,7 @@ configs/
   finetune_structure_aware.yaml
 data/finetune/
   splits.json
+  audit.md
   prepared/
     text/
     train_json_only.jsonl
@@ -40,6 +41,7 @@ data/finetune/
     validation.jsonl
     length_report.json
 scripts/
+  audit_finetune_data.py
   prepare_finetune_data.py
   run_finetune.py
   evaluate_finetune.py
@@ -74,6 +76,26 @@ output path. Implement one numbered step at a time.
 
 **Done when:** `data/finetune/splits.json` contains disjoint 8/2/30 sets, all inputs
 exist, and any annotation/schema inconsistencies are documented and resolved.
+
+**Status: complete.** Membership and source fingerprints are frozen in
+[`splits.json`](../data/finetune/splits.json); checks and the calibration inventory
+are in [`audit.md`](../data/finetune/audit.md).
+
+- Validation: **2503.18475**, the longest calibration paper (65 pages), at the
+  user's request; and **2010.02965**, a moderate-length spectroscopy paper with
+  six datasets and rich sample references. All seven technique strata remain
+  represented among the eight training papers. The thirty test papers are unchanged.
+- Length ranking uses complete PDF plain text, not model tokens. Step 2 must
+  establish exact lengths; the long validation paper must still fit validation
+  loss and generation. Inspect the recoverable PDF warnings recorded in the audit.
+- Text-source checksums normalize line endings for Windows/Linux portability;
+  PDF checksums cover raw bytes. Reuse the frozen split; do not regenerate it.
+
+Verify the artifacts without rewriting them:
+
+```powershell
+uv run --no-sync python scripts/audit_finetune_data.py --verify
+```
 
 ## Step 2 — Prepare targets and audit lengths (local)
 
@@ -198,9 +220,11 @@ evaluation results can be attached to the correct run.
 - Record actual GPU count/VRAM, CUDA versions, and storage locations; verify
   transferred data hashes and synchronize dependencies using the committed
   `uv.lock` and `uv sync --locked --group finetune`.
-- Test training on a small calibration subset, then forward/backward/optimizer
-  steps on the longest example. Check gradients, memory, save/resume, adapter
-  reload, and full-JSON generation. Never assume BF16 at 64K fits one A100.
+- Test training on a small **training-only** subset, then forward/backward/optimizer
+  steps on the longest training example across D/E/R. Check gradients, memory,
+  save/resume, and adapter reload. Separately test forward-only complete-JSON loss
+  and generation on both validation papers, including the longest held-out paper.
+  Never train on validation examples, or assume BF16 at 64K fits one A100.
 - Resolve resource problems using a supported common configuration. Freeze both
   configs, the shared step cap, validation interval, and decoding settings.
 - Start fresh M1/M2 runs on the eight training papers; select checkpoints using

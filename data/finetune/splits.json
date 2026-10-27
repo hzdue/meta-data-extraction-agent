@@ -1,0 +1,781 @@
+{
+  "version": "1.0.0",
+  "status": "frozen",
+  "split_unit": "paper",
+  "train": [
+    "1806.08116",
+    "1812.03956",
+    "1912.11816",
+    "2009.01093",
+    "2009.12925",
+    "2104.10884",
+    "2304.08002",
+    "2309.13729"
+  ],
+  "validation": [
+    "2010.02965",
+    "2503.18475"
+  ],
+  "test": [
+    "1804.07163",
+    "1811.10341",
+    "1901.08819",
+    "1907.00342",
+    "1909.08292",
+    "2001.00707",
+    "2001.02706",
+    "2005.01985",
+    "2006.12074",
+    "2007.00972",
+    "2010.00094",
+    "2010.12832",
+    "2011.13326",
+    "2105.04167",
+    "2202.11658",
+    "2203.07170",
+    "2209.06540",
+    "2211.06006",
+    "2212.04169",
+    "2302.02010",
+    "2404.06853",
+    "2405.14324",
+    "2405.15411",
+    "2407.10282",
+    "2407.20626",
+    "2410.00268",
+    "2501.08122",
+    "2601.16215",
+    "2603.01364",
+    "2605.14792"
+  ],
+  "selection": {
+    "method": "Fixed, intentional selection by length and calibration annotation inventory; no model scores",
+    "longest_paper": "2503.18475",
+    "longest_metric": "plain_text_chars",
+    "validation_rationale": {
+      "2503.18475": "Longest calibration paper by complete plain-text extraction (109,810 characters; also most pages at 65). Reserved for validation at the user's request after a prior RTX length-limit issue; diffraction remains represented in training by 2309.13729.",
+      "2010.02965": "Spectroscopy complements the longest paper's diffraction stratum. Its 51,511 extracted characters are near the calibration median, with 3 samples, 6 datasets, 18 dataset-to-sample links and 2 dataset-to-facility links. The other spectroscopy paper remains in training, preserving all seven technique strata."
+    },
+    "refit_on_validation": false,
+    "resource_note": "Longest paper is excluded from training at the user's request after an RTX length-limit issue. It must still fit full-JSON validation loss and generation; verify exact token length and hardware in later steps."
+  },
+  "audit": {
+    "calibration": [
+      "1806.08116",
+      "1812.03956",
+      "1912.11816",
+      "2009.01093",
+      "2009.12925",
+      "2010.02965",
+      "2104.10884",
+      "2304.08002",
+      "2309.13729",
+      "2503.18475"
+    ],
+    "test": [
+      "1804.07163",
+      "1811.10341",
+      "1901.08819",
+      "1907.00342",
+      "1909.08292",
+      "2001.00707",
+      "2001.02706",
+      "2005.01985",
+      "2006.12074",
+      "2007.00972",
+      "2010.00094",
+      "2010.12832",
+      "2011.13326",
+      "2105.04167",
+      "2202.11658",
+      "2203.07170",
+      "2209.06540",
+      "2211.06006",
+      "2212.04169",
+      "2302.02010",
+      "2404.06853",
+      "2405.14324",
+      "2405.15411",
+      "2407.10282",
+      "2407.20626",
+      "2410.00268",
+      "2501.08122",
+      "2601.16215",
+      "2603.01364",
+      "2605.14792"
+    ],
+    "schema_versions": {
+      "generic.json": "1.1.0",
+      "photon_and_neutron.json": "1.1.0"
+    },
+    "scoring_plan_version": "1.1.3",
+    "source_files": {
+      "schemas/generic.json": {
+        "sha256": "65de4ebe9ead60294b8d8bffde51459490349626d75b4b346d6b0312b5e7237f",
+        "bytes": 11794,
+        "normalization": "LF newlines"
+      },
+      "schemas/photon_and_neutron.json": {
+        "sha256": "47188e1af26aba75f0441e51b4b4227321a5c5c7e7c6ad21b700873590418a34",
+        "bytes": 21546,
+        "normalization": "LF newlines"
+      },
+      "data/corpus.json": {
+        "sha256": "e022b7f931b7dc836283d83bd43ec52ccc380a0a1e6ec3a96044eed5dd2a9ba4",
+        "bytes": 5726,
+        "normalization": "LF newlines"
+      },
+      "docs/annotation_guidelines.md": {
+        "sha256": "5c4f5f1b18e6a936a073d7b6ff14c6b2f2819198c2470fbc998cdee1907837d3",
+        "bytes": 30183,
+        "normalization": "LF newlines"
+      },
+      "configs/evaluation_metrics.yaml": {
+        "sha256": "6ba3b1e6c15b04d959b278cd6c5c55debeba65ae1602f2fa7cc439ede9fca808",
+        "bytes": 2940,
+        "normalization": "LF newlines"
+      },
+      "configs/alignment_helper.yaml": {
+        "sha256": "79f4f6f52a47d250c93fcaee07abbf289186a1572a62ab04062b3f466d4c4cdc",
+        "bytes": 20897,
+        "normalization": "LF newlines"
+      },
+      "schemas/prompt_template.md": {
+        "sha256": "72b98a719265415486880ad9dda5050765df0c33caed95cef0bc92190100f619",
+        "bytes": 1675,
+        "normalization": "LF newlines"
+      },
+      "src/meta_data_extraction/components/parser.py": {
+        "sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f",
+        "bytes": 1961,
+        "normalization": "LF newlines"
+      },
+      "src/meta_data_extraction/utils.py": {
+        "sha256": "24be04dffa6946b0e4dd21cac0c234b9c2a4733b898d93d4534accc9493ec6af",
+        "bytes": 5844,
+        "normalization": "LF newlines"
+      },
+      "src/meta_data_extraction/evaluation.py": {
+        "sha256": "e62658b8a31c0837e79be36d9ec0c214a716fcdb742d9250ecfef5608edc19a7",
+        "bytes": 22550,
+        "normalization": "LF newlines"
+      },
+      "src/meta_data_extraction/alignment.py": {
+        "sha256": "9e89000613da3922d037fb26fdead036db71c292f1ad65e92c4f8e7c973bcae0",
+        "bytes": 50787,
+        "normalization": "LF newlines"
+      },
+      "src/meta_data_extraction/normalization.py": {
+        "sha256": "ecc3d9d3b4cff813ab6cfe5f3f22a0fbcf583adac71ff262be9bcec7bab9d9ef",
+        "bytes": 4612,
+        "normalization": "LF newlines"
+      },
+      "scripts/corpus.py": {
+        "sha256": "976695700be168c336f3ff7aa765a02eddd725bbe7d74120d705c95ac36b40d6",
+        "bytes": 2441,
+        "normalization": "LF newlines"
+      },
+      "scripts/audit_finetune_data.py": {
+        "sha256": "9cd897ac7f5f120565553222791e277a555cfbf714bcb1a4d1894a24332d3192",
+        "bytes": 20795,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1804.07163/paper.pdf": {
+        "sha256": "559c968302d8d19d454eee8e093c50bc592ae49abb92e0350ce033ca4db1ae28",
+        "bytes": 1639105,
+        "normalization": "none"
+      },
+      "data/gold/1804.07163.json": {
+        "sha256": "f1c346bc39abcd76c3bf74de14617a14379644fc474ade06265d74c420eecf2c",
+        "bytes": 12275,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1806.08116/paper.pdf": {
+        "sha256": "05926e9f3340855b686d1de19b90c213cc77192e694d7203e6c03c88d326f0fd",
+        "bytes": 777350,
+        "normalization": "none"
+      },
+      "data/gold/1806.08116.json": {
+        "sha256": "10f9864474e12a9ead778ee451f07cd9d952262de5a3fac5166cd11897307814",
+        "bytes": 6983,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1811.10341/paper.pdf": {
+        "sha256": "093ce40f2ce84846dfe1c04d8a294ae89a309d630275eb4ec399cd512024c172",
+        "bytes": 517441,
+        "normalization": "none"
+      },
+      "data/gold/1811.10341.json": {
+        "sha256": "2deba1fdcc919878dd9795f4ed0681f6fd9e4a69122554836aa498e8752e975f",
+        "bytes": 7576,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1812.03956/paper.pdf": {
+        "sha256": "158984e801673f2ce019d9fd793684183bbc288e1b27856039aa37b6c9845bce",
+        "bytes": 573552,
+        "normalization": "none"
+      },
+      "data/gold/1812.03956.json": {
+        "sha256": "9a1b7d527dfca71e7ab7ec00cb1f85ec8c1d724f3fe904d9e9d9ff2cb7a55e76",
+        "bytes": 5091,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1901.08819/paper.pdf": {
+        "sha256": "f20cd9be2a389293714f024a45653f0a1be93887bb6f13fc9f3d7eff2e1b0ce5",
+        "bytes": 2727945,
+        "normalization": "none"
+      },
+      "data/gold/1901.08819.json": {
+        "sha256": "a932b9eded43384879b047eaa469fd6839258e0045e3ab68531402a3e852fe90",
+        "bytes": 3851,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1907.00342/paper.pdf": {
+        "sha256": "9e7543127b87dc6aaaab58775f0e9b996a5c4d6a80bf7eff45639e11259b6e43",
+        "bytes": 316243,
+        "normalization": "none"
+      },
+      "data/gold/1907.00342.json": {
+        "sha256": "f236572e40f9af1fb62b68f475138cbd7ba6711abead06ea43ecca879a293546",
+        "bytes": 7333,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1909.08292/paper.pdf": {
+        "sha256": "080497b8d0cd43d7a84215253275035ece6d79076ef1f1cc95a7434f9c7b0b7e",
+        "bytes": 7999600,
+        "normalization": "none"
+      },
+      "data/gold/1909.08292.json": {
+        "sha256": "b507985982edb34610b762035a2967d6baeffe774f9bdb31248858827b48dde4",
+        "bytes": 8552,
+        "normalization": "LF newlines"
+      },
+      "data/raw/1912.11816/paper.pdf": {
+        "sha256": "c34805c17a088aa114463d1135baf1af1af8d2992cad78e1b05563b30fc82ba1",
+        "bytes": 3118872,
+        "normalization": "none"
+      },
+      "data/gold/1912.11816.json": {
+        "sha256": "15ed33137582eb4b2c83a4f0bd7a37f8db3500e4e1f7ea6473d8e3da492ca2b6",
+        "bytes": 4176,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2001.00707/paper.pdf": {
+        "sha256": "7348adef20b548777645b5186478a9472028e9ac56b6c175d3bec21881aa301d",
+        "bytes": 2164926,
+        "normalization": "none"
+      },
+      "data/gold/2001.00707.json": {
+        "sha256": "a26c4355df904d123c00d0e58d3bf1a1a3ea518772ea046178314d3e9367cce3",
+        "bytes": 5968,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2001.02706/paper.pdf": {
+        "sha256": "ac883f365ca19fb8973427696b1bdbb25b5c3063a3594ad81d7eaf5d7b21af65",
+        "bytes": 1728668,
+        "normalization": "none"
+      },
+      "data/gold/2001.02706.json": {
+        "sha256": "588db03ec8062f4880d5ad47f0552206c98f2d8e77f2a9be921a44b382ce0d04",
+        "bytes": 4161,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2005.01985/paper.pdf": {
+        "sha256": "11d942eebae6c2a0ba1239a40b4186736a4a9e6304082ea781398f47e8d324f0",
+        "bytes": 2425804,
+        "normalization": "none"
+      },
+      "data/gold/2005.01985.json": {
+        "sha256": "88a2e47869a49ac4f172ec62daae881b31e6ae7cbd9112dcb2927f3f75a9a5b5",
+        "bytes": 5285,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2006.12074/paper.pdf": {
+        "sha256": "22022aff4b78b99ff1f501ad742f74136a118e10e5837cf2ec69392be4e9e19f",
+        "bytes": 2678601,
+        "normalization": "none"
+      },
+      "data/gold/2006.12074.json": {
+        "sha256": "98e4bb21ab010674695ae0f7f425351faaa6fe6ba410fd6dabd97aa4ca4a523c",
+        "bytes": 3992,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2007.00972/paper.pdf": {
+        "sha256": "4d228cb83b01ca3ef87e428d720f402955e04e0600fad6c447c7652be6841a47",
+        "bytes": 430396,
+        "normalization": "none"
+      },
+      "data/gold/2007.00972.json": {
+        "sha256": "d481887e72abddcdfee6be161cfbc2b46bacb4ecbf92ae14a4117dd69dff885e",
+        "bytes": 6654,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2009.01093/paper.pdf": {
+        "sha256": "d71fe0a9cea4e7a2c614790b43e70ea84d9927eb641d2a81996ce10e8b69cad3",
+        "bytes": 3764699,
+        "normalization": "none"
+      },
+      "data/gold/2009.01093.json": {
+        "sha256": "a12f2b880bc1aff05e6d050c54fa3301aed88b7def6080bb63c7f1663039e4cb",
+        "bytes": 10260,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2009.12925/paper.pdf": {
+        "sha256": "2b821e1ab9fdb81888d63f14d16bace9af8a43ed857e0af3732024ba77382f47",
+        "bytes": 1975551,
+        "normalization": "none"
+      },
+      "data/gold/2009.12925.json": {
+        "sha256": "d07b666c99a7a5f96cff3e0ac92a7dbf6c2720a91bcb58af6c072d7d3b8f88ef",
+        "bytes": 6144,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2010.00094/paper.pdf": {
+        "sha256": "18ad9204307c05cd364f288b3767c994089fa9d34d05b7b49bf81a9a5177c39b",
+        "bytes": 9815076,
+        "normalization": "none"
+      },
+      "data/gold/2010.00094.json": {
+        "sha256": "1ad2898101f9c9aea077836e1c59b695221d7b40c926e2f78ebdead59c2f63ff",
+        "bytes": 6089,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2010.02965/paper.pdf": {
+        "sha256": "b4fa6ac362141d21abae7da3c58c34e7cd32cadde9e5f49239087abf75ea3f47",
+        "bytes": 1423896,
+        "normalization": "none"
+      },
+      "data/gold/2010.02965.json": {
+        "sha256": "a24349d440537c0788fc1cc404b5837aa456bb91119fdc292dee1bd000265243",
+        "bytes": 10929,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2010.12832/paper.pdf": {
+        "sha256": "40babb9e052b3dccf69f54ff3bfd5712f8de1f371dc88a4aa06d4dd989d610dc",
+        "bytes": 1272262,
+        "normalization": "none"
+      },
+      "data/gold/2010.12832.json": {
+        "sha256": "e626bb03ba6b00786e9aae4ec6eb3763c551d179eb93d00f1c951b8fbaa7ecab",
+        "bytes": 5370,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2011.13326/paper.pdf": {
+        "sha256": "807fc4b4a165bac0be4ad4483c623a03660bbbc3084cbd038350e09d2620cb33",
+        "bytes": 1974386,
+        "normalization": "none"
+      },
+      "data/gold/2011.13326.json": {
+        "sha256": "b1703b0de8367ffdcae12cb3e38f8dc618d8ad07c5a5b37f2b5669f484a63de6",
+        "bytes": 4866,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2104.10884/paper.pdf": {
+        "sha256": "cb723045709a0a3c94a30ce906f3d5b287659651a5161a6f5ea8aad112b0917d",
+        "bytes": 1128328,
+        "normalization": "none"
+      },
+      "data/gold/2104.10884.json": {
+        "sha256": "9dc6c1086589eda70a8546d0d585332ef43767d1bcfc2ad84b9a458501e2a5d6",
+        "bytes": 7804,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2105.04167/paper.pdf": {
+        "sha256": "199f3fc982cfb76cea7376f8c36391afd1acff4a40c76b976da17f160853027e",
+        "bytes": 2594264,
+        "normalization": "none"
+      },
+      "data/gold/2105.04167.json": {
+        "sha256": "adc7066a313a691c920d279300e8bb3bf7f290a5f3e77e420b3c45c16475e8a2",
+        "bytes": 8407,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2202.11658/paper.pdf": {
+        "sha256": "4e20adf0a7fbd32d581c840baa800f438d3b0787736c614e10842d840334ab74",
+        "bytes": 1688133,
+        "normalization": "none"
+      },
+      "data/gold/2202.11658.json": {
+        "sha256": "3b4207ba1a9c8392c69a7446b8af1261706bb98a90cb3f5a51c3a8d03c47af11",
+        "bytes": 8693,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2203.07170/paper.pdf": {
+        "sha256": "ca18c7ba4fa7b04e11d16f12adef1477541161396f23520f6abbfe45ee40c4f2",
+        "bytes": 1356327,
+        "normalization": "none"
+      },
+      "data/gold/2203.07170.json": {
+        "sha256": "e88a3c4fd68726ea7fd49eeb3d90177f1850fadfc965aac38a5da25d7e090e7a",
+        "bytes": 4657,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2209.06540/paper.pdf": {
+        "sha256": "ad0d3a7d8a2f45fed039783f764d14ff83afdd9f592e81aca199cbb5cab90882",
+        "bytes": 840219,
+        "normalization": "none"
+      },
+      "data/gold/2209.06540.json": {
+        "sha256": "136c45e670e6423db35f0f9e421eee6e674b7d66a030c32e7c65ddd44aeea9c8",
+        "bytes": 8638,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2211.06006/paper.pdf": {
+        "sha256": "f95a76d91d16d0cd7352851713acff6d2bb95188ce6ed4408de93184446bf086",
+        "bytes": 2573310,
+        "normalization": "none"
+      },
+      "data/gold/2211.06006.json": {
+        "sha256": "4af33ead9c08499d4e4a196fa9f034fcc77396068d782d5b29f8cf2caf011260",
+        "bytes": 6135,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2212.04169/paper.pdf": {
+        "sha256": "64b198a6d20a018e1593ed07714273bccba01efa22994dacc40fdca64240b887",
+        "bytes": 4939093,
+        "normalization": "none"
+      },
+      "data/gold/2212.04169.json": {
+        "sha256": "532bdf7dc3e9b71953ff147465509ccf563fa30311a94b33426d2f3f18b36c23",
+        "bytes": 14654,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2302.02010/paper.pdf": {
+        "sha256": "b5e51ab1d2f91d9ffe9fda0a95a881d23c31d79a02a825ef96fb7851a1bfa152",
+        "bytes": 1255089,
+        "normalization": "none"
+      },
+      "data/gold/2302.02010.json": {
+        "sha256": "17feb420a07e31e72d9e9fd5911e99bec9e105601934a8ac60fc73a06d0d0c19",
+        "bytes": 6755,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2304.08002/paper.pdf": {
+        "sha256": "c37693966c27cf2f10c76bb1233d4feab6e3fbfed42292dfd45f1df5801d5972",
+        "bytes": 5238392,
+        "normalization": "none"
+      },
+      "data/gold/2304.08002.json": {
+        "sha256": "605ca6a2011705a05425d664e254f57936a47401f9e6a1c1a3c46989d2f59d22",
+        "bytes": 10952,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2309.13729/paper.pdf": {
+        "sha256": "90337a1e64630cccde07b71d845dab1d77f59e89644637964f2ed16bf30a7f62",
+        "bytes": 2481759,
+        "normalization": "none"
+      },
+      "data/gold/2309.13729.json": {
+        "sha256": "1879706306e9ac7ff7d70793b832455aeb4173a787ca890b037a64b7d69efe2e",
+        "bytes": 9896,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2404.06853/paper.pdf": {
+        "sha256": "756b149cbcc2eec3c83efff8f253f79fb5c3c5c1848d12f8e8ff614d790076d4",
+        "bytes": 28373896,
+        "normalization": "none"
+      },
+      "data/gold/2404.06853.json": {
+        "sha256": "430299a96afd81a531a929f21538bf3cf5ea624a5b6cc985a21e5cd7e97a25c0",
+        "bytes": 7839,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2405.14324/paper.pdf": {
+        "sha256": "14de4983859d0a2dc10ad2f588584893e6ead2c9c9c94b8010aa6442566f40f3",
+        "bytes": 25891253,
+        "normalization": "none"
+      },
+      "data/gold/2405.14324.json": {
+        "sha256": "9dd8610663a2d5d9dc2711c94e51abae9be9f97d9a6439178cf2a0f28c7cefb7",
+        "bytes": 7358,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2405.15411/paper.pdf": {
+        "sha256": "aff3b8f3d2ba1f9a74252e347f112e630034657180cb070a56bee1e906620594",
+        "bytes": 889487,
+        "normalization": "none"
+      },
+      "data/gold/2405.15411.json": {
+        "sha256": "11552d3ae061304f971436f3ad063fed1994322dd4d5a14330a10f7dd6ea6d0d",
+        "bytes": 7550,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2407.10282/paper.pdf": {
+        "sha256": "67735be95daf29967bbc1bfe783d7083879e782b95381fbf0dc44dc6acd9e460",
+        "bytes": 5990502,
+        "normalization": "none"
+      },
+      "data/gold/2407.10282.json": {
+        "sha256": "7a009ffcb31eb9a564135fdcafcda71fade6018e7a98ca49ca50207eb3265077",
+        "bytes": 8912,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2407.20626/paper.pdf": {
+        "sha256": "a67a2f8b1bfde297d5e384838d7acabb3169733f58c8682262e40d27c315b1c4",
+        "bytes": 4796247,
+        "normalization": "none"
+      },
+      "data/gold/2407.20626.json": {
+        "sha256": "01129ed47930be9ddaf809477e8f0fdc29808ec0650ff26c5033cd75042f03df",
+        "bytes": 5033,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2410.00268/paper.pdf": {
+        "sha256": "63860a95b3e3aef3b59460b3b2429c1998a6c07e194c19ab005e1f5c5fab6c40",
+        "bytes": 1226967,
+        "normalization": "none"
+      },
+      "data/gold/2410.00268.json": {
+        "sha256": "0673d7296ff82c5fc4d5ed30a27f0314de1f34aa952c1516da3003bf56fa6514",
+        "bytes": 8607,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2501.08122/paper.pdf": {
+        "sha256": "8c271f9e0360443edbd1b71eacea714094df682d94171f5eb38baf6e46cb0e6d",
+        "bytes": 15167566,
+        "normalization": "none"
+      },
+      "data/gold/2501.08122.json": {
+        "sha256": "449923e362c077bd291e9cc90dc62059c820f3b0655fd16380f80f29c82df9ad",
+        "bytes": 7104,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2503.18475/paper.pdf": {
+        "sha256": "bd9484cc55aa58a809c43bc7bfe058c8acc0c4bf0393ebed44d963389b0aae12",
+        "bytes": 3281584,
+        "normalization": "none"
+      },
+      "data/gold/2503.18475.json": {
+        "sha256": "14080589262a11cdb05782fdb55974a73fd068a486e2e7060003403342e680c9",
+        "bytes": 12413,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2601.16215/paper.pdf": {
+        "sha256": "f2dbd1021ca08e24f4012bed866b0701633ebe0e8dbda1ea53d812e86ee693c7",
+        "bytes": 12992393,
+        "normalization": "none"
+      },
+      "data/gold/2601.16215.json": {
+        "sha256": "715c02d012d8c18113c24da6173189a2c94ff04bf1cddc959ea4075a39aca86f",
+        "bytes": 9116,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2603.01364/paper.pdf": {
+        "sha256": "fdc62a0846be40e9cbd24a45fa08e1620daee39e1254706a08993f54d8c2d4cf",
+        "bytes": 16000272,
+        "normalization": "none"
+      },
+      "data/gold/2603.01364.json": {
+        "sha256": "72aeab5221a17866d1fc96dc55bb52d2eeed86a4a765f9a1a052818c44647d83",
+        "bytes": 12323,
+        "normalization": "LF newlines"
+      },
+      "data/raw/2605.14792/paper.pdf": {
+        "sha256": "0ab8ea582c79da66f6feec11b9defebd8cdb50396c2fe6d5e9a84a7fca2219a7",
+        "bytes": 1334980,
+        "normalization": "none"
+      },
+      "data/gold/2605.14792.json": {
+        "sha256": "fb8bb8085decf9ecd27406394aa5305bf893ad808ed8fda80d476be331cf10bd",
+        "bytes": 7280,
+        "normalization": "LF newlines"
+      }
+    },
+    "length_method": {
+      "library": "PyMuPDF",
+      "version": "1.27.2.2",
+      "method": "page.get_text(); pages joined with two newlines; no truncation",
+      "limitation": "Approximate PDF text length, not training Markdown or model tokens"
+    },
+    "calibration_inventory": [
+      {
+        "paper_id": "1806.08116",
+        "stratum": "multi_technique",
+        "title": "The structure of near stoichiometric Ge-Ga-Sb-S glasses: a reverse Monte Carlo study",
+        "pages": 27,
+        "plain_text_chars": 44379,
+        "approx_words": 6623,
+        "facilities": 3,
+        "samples": 2,
+        "datasets": 3,
+        "sample_links": 6,
+        "facility_links": 3,
+        "affiliation_links": 8
+      },
+      {
+        "paper_id": "1812.03956",
+        "stratum": "reflectometry",
+        "title": "X-ray reflectivity with a twist: quantitative time-resolved X-ray reflectivity using monochromatic synchrotron radiation",
+        "pages": 11,
+        "plain_text_chars": 22097,
+        "approx_words": 3771,
+        "facilities": 1,
+        "samples": 2,
+        "datasets": 2,
+        "sample_links": 4,
+        "facility_links": 2,
+        "affiliation_links": 6
+      },
+      {
+        "paper_id": "1912.11816",
+        "stratum": "small_angle_scattering",
+        "title": "Experimental observation of third-order effect in magnetic small-angle neutron scattering",
+        "pages": 8,
+        "plain_text_chars": 39093,
+        "approx_words": 6544,
+        "facilities": 0,
+        "samples": 1,
+        "datasets": 1,
+        "sample_links": 1,
+        "facility_links": 0,
+        "affiliation_links": 5
+      },
+      {
+        "paper_id": "2009.01093",
+        "stratum": "imaging_tomography",
+        "title": "X-ray linear dichroic ptychography",
+        "pages": 32,
+        "plain_text_chars": 60733,
+        "approx_words": 8985,
+        "facilities": 2,
+        "samples": 1,
+        "datasets": 5,
+        "sample_links": 5,
+        "facility_links": 5,
+        "affiliation_links": 15
+      },
+      {
+        "paper_id": "2009.12925",
+        "stratum": "methods_light",
+        "title": "Dynamical spin susceptibility in La2CuO4 studied by resonant inelastic x-ray scattering",
+        "pages": 12,
+        "plain_text_chars": 48891,
+        "approx_words": 8166,
+        "facilities": 1,
+        "samples": 2,
+        "datasets": 1,
+        "sample_links": 2,
+        "facility_links": 1,
+        "affiliation_links": 10
+      },
+      {
+        "paper_id": "2010.02965",
+        "stratum": "spectroscopy",
+        "title": "New insights into the mechanism of graphene oxide and radionuclide interaction through vacancy defects",
+        "pages": 28,
+        "plain_text_chars": 51511,
+        "approx_words": 7738,
+        "facilities": 1,
+        "samples": 3,
+        "datasets": 6,
+        "sample_links": 18,
+        "facility_links": 2,
+        "affiliation_links": 15
+      },
+      {
+        "paper_id": "2104.10884",
+        "stratum": "spectroscopy",
+        "title": "X-ray Absorption Spectroscopy Study of La1−ySryCo1−xNbxO3",
+        "pages": 13,
+        "plain_text_chars": 61502,
+        "approx_words": 10454,
+        "facilities": 1,
+        "samples": 9,
+        "datasets": 1,
+        "sample_links": 9,
+        "facility_links": 1,
+        "affiliation_links": 5
+      },
+      {
+        "paper_id": "2304.08002",
+        "stratum": "small_angle_scattering",
+        "title": "Morphology of Buried Interfaces in Ion-Assisted Magnetron Sputter-Deposited 11B4C-Containing Ni/Ti Multilayer Neutron Optics Investigated by Grazing-Incidence Small-Angle Scattering",
+        "pages": 11,
+        "plain_text_chars": 59544,
+        "approx_words": 8989,
+        "facilities": 3,
+        "samples": 8,
+        "datasets": 4,
+        "sample_links": 21,
+        "facility_links": 3,
+        "affiliation_links": 6
+      },
+      {
+        "paper_id": "2309.13729",
+        "stratum": "diffraction",
+        "title": "Approaching Ferrite-Based Exchange-Coupled Nanocomposites as Permanent Magnets",
+        "pages": 12,
+        "plain_text_chars": 61904,
+        "approx_words": 9651,
+        "facilities": 2,
+        "samples": 4,
+        "datasets": 4,
+        "sample_links": 13,
+        "facility_links": 2,
+        "affiliation_links": 9
+      },
+      {
+        "paper_id": "2503.18475",
+        "stratum": "diffraction",
+        "title": "Rietveld Refinement and NMR Crystallographic Investigations of Multicomponent Crystals Containing Alkali Metal Chlorides and Urea",
+        "pages": 65,
+        "plain_text_chars": 109810,
+        "approx_words": 15972,
+        "facilities": 4,
+        "samples": 3,
+        "datasets": 6,
+        "sample_links": 17,
+        "facility_links": 4,
+        "affiliation_links": 16
+      }
+    ],
+    "pdf_warnings": {
+      "1812.03956": [
+        "bogus font ascent/descent values (40 / -2359)"
+      ],
+      "1901.08819": [
+        "bogus font ascent/descent values (0 / -207)"
+      ],
+      "2006.12074": [
+        "syntax error: unknown keyword: 'pagesize'",
+        "syntax error: unknown keyword: 'width'",
+        "syntax error: unknown keyword: '597.50787pt'",
+        "syntax error: unknown keyword: 'height'",
+        "syntax error: unknown keyword: '845.04684pt'",
+        "bogus font ascent/descent values (0 / -207)",
+        "encountered syntax errors; page may not be correct"
+      ],
+      "2304.08002": [
+        "premature end of data in flate filter",
+        "... repeated 3 times..."
+      ],
+      "2309.13729": [
+        "bogus font ascent/descent values (0 / -252)",
+        "bogus font ascent/descent values (0 / -209)"
+      ],
+      "2407.10282": [
+        "syntax error: could not parse color space (252 0 R)",
+        "Ignoring Page blending colorspace.",
+        "syntax error: could not parse color space (1410 0 R)",
+        "Ignoring Page blending colorspace."
+      ],
+      "2605.14792": [
+        "bogus font ascent/descent values (3117 / -2464)",
+        "... repeated 2 times..."
+      ]
+    },
+    "duplicate_checks": {
+      "exact_matches": {
+        "pdf_sha256": [],
+        "normalized_text_sha256": [],
+        "title": [],
+        "doi": [],
+        "arxiv_id": []
+      },
+      "similar_titles_threshold": 0.9,
+      "similar_title_candidates": [],
+      "scope": "All 40 papers; local identity/content screening, not an exhaustive external version search"
+    },
+    "errors": []
+  }
+}
