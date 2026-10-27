@@ -7,6 +7,8 @@ seed: 42
 # Set the same finite cap for both methods after the server feasibility check.
 max_steps: null
 save_steps: 10
+validation_steps: 10
+validation_max_new_tokens: 16384
 learning_rate: 0.0001
 lr_scheduler_type: constant
 weight_decay: 0.0

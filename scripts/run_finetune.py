@@ -1,4 +1,4 @@
-"""Step 3 trainer: verify prepared data on CPU, or run bounded server training."""
+"""Verify data on CPU, or train on the server with validation-based selection."""
 from __future__ import annotations
 
 import argparse
@@ -18,7 +18,7 @@ def main(argv=None):
     parser.add_argument("--config", type=Path, required=True)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true", help="Verify data, labels and architecture; no weights/training")
-    mode.add_argument("--train", action="store_true", help="Run on one visible CUDA GPU; Step 4 selection is not yet included")
+    mode.add_argument("--train", action="store_true", help="Run on one CUDA GPU with validation-based checkpoint selection")
     parser.add_argument("--offline", action="store_true")
     parser.add_argument("--max-steps", type=int, help="Explicit finite override, e.g. for a server smoke run")
     parser.add_argument("--output-dir", type=str)
@@ -34,19 +34,25 @@ def main(argv=None):
         if args.output_dir is not None:
             values["output_dir"] = args.output_dir
         config = TrainingConfig.model_validate(values)
-        tokenizer, records, summary = prepare_training(ROOT, config, offline=args.offline)
+        tokenizer, records, validation, summary = prepare_training(ROOT, config, offline=args.offline)
         from meta_data_extraction.finetune.training import inspect_model, run_training
+        from meta_data_extraction.finetune.validation import validate_rows
 
         preparation = yaml.safe_load((ROOT / config.prepare_config).read_text(encoding="utf-8"))
+        validate_rows(validation, {r["example_id"].split(":")[0] for r in records},
+                      config.max_seq_length, config.validation_max_new_tokens)
         architecture = inspect_model(preparation, offline=args.offline)
         if args.dry_run:
             print(json.dumps({"status": "dry_run_passed", **summary,
                               "architecture": {k: v for k, v in architecture.items() if k != "target_modules"},
-                              "max_steps": config.max_steps, "gpu_feasibility": "not tested"}, indent=2))
+                              "max_steps": config.max_steps, "validation_steps": config.validation_steps,
+                              "validation_max_new_tokens": config.validation_max_new_tokens,
+                              "selection_metric": "mean_of_per_paper_target_token_nll",
+                              "gpu_feasibility": "not tested"}, indent=2))
         else:
             resume = (ROOT / args.resume_from_checkpoint).resolve() if args.resume_from_checkpoint else None
             print(json.dumps(run_training(ROOT, config, tokenizer, records, summary, architecture,
-                                          preparation, offline=args.offline, resume=resume), indent=2))
+                                          preparation, validation=validation, offline=args.offline, resume=resume), indent=2))
     except (ValueError, OSError, KeyError) as exc:
         print(f"Fine-tuning failed: {exc}", file=sys.stderr)
         return 1

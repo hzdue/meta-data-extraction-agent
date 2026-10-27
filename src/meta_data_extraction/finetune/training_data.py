@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, PositiveInt
+from pydantic import BaseModel, ConfigDict, Field, PositiveInt, model_validator
 import yaml
 
 from .parsing import text_hash
@@ -23,6 +23,8 @@ class TrainingConfig(BaseModel):
     seed: int = 42
     max_steps: PositiveInt | None = None
     save_steps: PositiveInt = 10
+    validation_steps: PositiveInt = 10
+    validation_max_new_tokens: PositiveInt = 16384
     learning_rate: float = Field(default=1e-4, gt=0)
     lr_scheduler_type: Literal["constant"] = "constant"
     weight_decay: float = Field(default=0.0, ge=0)
@@ -37,6 +39,12 @@ class TrainingConfig(BaseModel):
     lora_rank: PositiveInt = 16
     lora_alpha: PositiveInt = 32
     lora_dropout: float = Field(default=0.05, ge=0, lt=1)
+
+    @model_validator(mode="after")
+    def matching_checkpoint_interval(self):
+        if self.save_steps != self.validation_steps:
+            raise ValueError("save_steps and validation_steps must match so every candidate is recoverable")
+        return self
 
 
 def read_config(path: Path) -> TrainingConfig:
@@ -65,6 +73,8 @@ def verify_prepared(root: Path, config: TrainingConfig) -> tuple[dict, dict, dic
         raise ValueError("Preparation config differs from the frozen artifact manifest")
     if config.max_seq_length != preparation["max_seq_length"]:
         raise ValueError("Training context cap must match the prepared length audit")
+    if config.validation_max_new_tokens != preparation["max_new_tokens"]:
+        raise ValueError("Validation generation budget must match the prepared output reservation")
     split_path = root / preparation["split_manifest"]
     if file_hash(split_path) != manifest["inputs"]["split_manifest_sha256"]:
         raise ValueError("Frozen split manifest changed")
@@ -133,11 +143,17 @@ def prepare_training(root: Path, config: TrainingConfig, *, offline: bool = Fals
         raise ValueError("Tokenizer/runtime identity differs from preparation")
     train = tokenize_records(tokenizer, datasets[f"train_{config.method}.jsonl"], config.max_seq_length)
     validation = tokenize_records(tokenizer, datasets["validation.jsonl"], config.max_seq_length)
+    for encoded, original in zip(validation, datasets["validation.jsonl"]):
+        start = original["token_counts"]["prompt_tokens"]
+        encoded.update(paper_id=original["paper_id"], split="validation",
+                       prompt_ids=encoded["input_ids"][:start],
+                       gold=json.loads(original["completion"][0]["content"]))
     summary = {
         "method": config.method, "training_examples": len(train),
         "training_papers": len({r["example_id"].split(":")[0] for r in train}),
         "task_counts": dict(Counter(r["task"] for r in train)),
         "validation_examples": len(validation), "max_seq_length": config.max_seq_length,
+        "validation_papers": [r["paper_id"] for r in validation],
         "longest_training_sequence": max(len(r["input_ids"]) for r in train),
         "longest_validation_sequence": max(len(r["input_ids"]) for r in validation),
         "supervised_tokens_per_pass": sum(sum(t != -100 for t in r["labels"]) for r in train),
@@ -146,7 +162,7 @@ def prepare_training(root: Path, config: TrainingConfig, *, offline: bool = Fals
         "preparation_manifest_sha256": file_hash(root / config.prepared_dir / "preparation_manifest.json"),
         "tokenizer": identity, "dataset_hashes": manifest["datasets"],
     }
-    return tokenizer, train, summary
+    return tokenizer, train, validation, summary
 
 
 class AnswerCollator:

@@ -13,6 +13,7 @@ from transformers import AutoConfig, Qwen3_5ForConditionalGeneration, set_seed
 from trl import SFTConfig, SFTTrainer
 
 from .training_data import AnswerCollator, TrainingConfig, file_hash
+from .validation import ValidationCallback, write_json
 
 
 PROJECTIONS = {
@@ -94,6 +95,7 @@ class PilotTrainer(SFTTrainer):
     """Keep task metadata out of model inputs and persist actual token exposure."""
     def __init__(self, *args, **kwargs):
         self.exposure = {"examples": {}, "supervised_tokens": {}, "total_tokens": {}}
+        self.validation = None
         super().__init__(*args, **kwargs)
         # SFT computes summed token loss divided by all target tokens in the
         # accumulation window. Ask Trainer to count those tokens even though the
@@ -119,6 +121,8 @@ class PilotTrainer(SFTTrainer):
         if self.is_world_process_zero():
             path = Path(self.args.output_dir) / f"checkpoint-{self.state.global_step}"
             write_json(path / "exposure.json", {"global_step": self.state.global_step, **self.exposure})
+            if self.validation is not None:
+                write_json(path / "validation_state.json", self.validation.state_dict())
 
     def train(self, resume_from_checkpoint=None, *args, **kwargs):
         if resume_from_checkpoint:
@@ -127,10 +131,13 @@ class PilotTrainer(SFTTrainer):
             if saved["global_step"] != state["global_step"]:
                 raise ValueError("Checkpoint exposure/state steps differ")
             self.exposure = {k: saved[k] for k in self.exposure}
+            if self.validation is not None:
+                self.validation.restore(Path(resume_from_checkpoint), state["global_step"])
         return super().train(resume_from_checkpoint=resume_from_checkpoint, *args, **kwargs)
 
 
-def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *, cpu=False, callbacks=None):
+def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *,
+                  validation=None, cpu=False, callbacks=None):
     if config.max_steps is None:
         raise ValueError("Set a finite max_steps after the server feasibility check")
     args = SFTConfig(
@@ -161,17 +168,20 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
     )
     if trainer.args.world_size != 1 or trainer.args.n_gpu > 1:
         raise ValueError("This pilot trainer currently requires one process and one visible GPU")
+    if validation is not None:
+        trainer.validation = ValidationCallback(trainer, validation, config)
+        trainer.add_callback(trainer.validation)
     return trainer
-
-
-def write_json(path: Path, value):
-    path.write_text(json.dumps(value, indent=2, ensure_ascii=False, allow_nan=False) + "\n", encoding="utf-8")
 
 
 def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture: dict) -> dict:
     files = ["pyproject.toml", "uv.lock", "scripts/run_finetune.py",
              "src/meta_data_extraction/finetune/training.py",
-             "src/meta_data_extraction/finetune/training_data.py"]
+             "src/meta_data_extraction/finetune/training_data.py",
+             "src/meta_data_extraction/finetune/validation.py",
+             "src/meta_data_extraction/evaluation.py", "src/meta_data_extraction/alignment.py",
+             "src/meta_data_extraction/normalization.py", "src/meta_data_extraction/config_validation.py",
+             "configs/evaluation_metrics.yaml", "configs/alignment_helper.yaml"]
     return {"config": config.model_dump(), "data": summary, "architecture": architecture,
             "sources": {p: file_hash(root / p) for p in files},
             "runtime": {p: version(p) for p in ("torch", "transformers", "tokenizers", "peft", "trl", "accelerate")}}
@@ -190,23 +200,29 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
         raise ValueError("Resume checkpoint must belong to the configured output directory")
     if not manifest.exists() or json.loads(manifest.read_text(encoding="utf-8")) != contract:
         raise ValueError("Resume configuration/data/code/runtime differs from the saved run")
-    for name in ("adapter_config.json", "adapter_model.safetensors", "trainer_state.json",
-                 "optimizer.pt", "scheduler.pt", "rng_state.pth", "exposure.json"):
+    required = ("adapter_config.json", "adapter_model.safetensors", "trainer_state.json",
+                "optimizer.pt", "scheduler.pt", "rng_state.pth", "exposure.json", "validation_state.json")
+    for name in required:
         if not (resume / name).is_file():
             raise ValueError(f"Incomplete checkpoint: {name}")
     step = json.loads((resume / "trainer_state.json").read_text(encoding="utf-8"))["global_step"]
     if step >= contract["config"]["max_steps"]:
         raise ValueError("Checkpoint already reached this run's step cap")
+    # validation_state.json is written atomically after the model/optimizer save.
+    # Ignore a later partial save left by an interruption, allowing it to be rerun.
     latest = max(int(p.name.split("-")[-1]) for p in output.glob("checkpoint-*")
-                 if p.is_dir() and p.name.split("-")[-1].isdigit())
+                 if p.is_dir() and p.name.split("-")[-1].isdigit()
+                 and all((p / name).is_file() for name in required))
     if step != latest:
-        raise ValueError("Resume the latest checkpoint to avoid replacing later checkpoints")
+        raise ValueError("Resume the latest complete checkpoint to avoid replacing later checkpoints")
 
 
 def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary, architecture,
-                 preparation: dict, *, offline=False, resume: Path | None = None):
+                 preparation: dict, *, validation, offline=False, resume: Path | None = None):
     if config.max_steps is None:
         raise ValueError("Set max_steps in both configs after the hardware check, or pass --max-steps for a smoke run")
+    if validation is None:
+        raise ValueError("Server training requires the held-out validation examples")
     if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported(including_emulation=False):
         raise ValueError("Real training requires a CUDA GPU with native BF16; use --dry-run for CPU checks")
     if torch.cuda.device_count() != 1:
@@ -216,15 +232,16 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     contract = run_contract(root, config, summary, architecture)
     prepare_output(output, contract, resume)
     model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
-    trainer = build_trainer(model, tokenizer, records, config, output)
+    trainer = build_trainer(model, tokenizer, records, config, output, validation=validation)
     result = trainer.train(resume_from_checkpoint=str(resume) if resume else None)
     # The final step may not coincide with the regular save interval.
     trainer._save_checkpoint(trainer.model, trial=None)
     trainer.save_model(str(output / "adapter"))
     trainer.save_state()
+    selection = trainer.validation.publish(complete=True)
     write_json(output / "training_summary.json", {
         "global_step": trainer.state.global_step, "metrics": result.metrics,
-        "exposure": trainer.exposure, "selection": "not implemented; Step 4",
+        "exposure": trainer.exposure, "selection": selection,
         "trainable_parameters": sum(p.numel() for p in model.parameters() if p.requires_grad),
     })
     return {"output_dir": str(output), "global_step": trainer.state.global_step}

@@ -33,7 +33,8 @@ def bounded_cpu_threads():
 
 def config(**overrides):
     values = read_config(ROOT / "configs/finetune_json_only.yaml").model_dump()
-    values.update(max_steps=4, save_steps=2, gradient_accumulation_steps=2,
+    values.update(max_steps=4, save_steps=2, validation_steps=2, validation_max_new_tokens=4,
+                  gradient_accumulation_steps=2,
                   max_seq_length=128, lora_rank=2, lora_alpha=4)
     values.update(overrides)
     return TrainingConfig.model_validate(values)
@@ -104,7 +105,7 @@ def test_collator_keeps_answer_eos_masks_prompt_postfix_and_padding():
 def test_real_chat_boundaries_and_padding_if_tokenizer_cached(method):
     cfg = read_config(ROOT / f"configs/finetune_{method}.yaml")
     try:
-        tok, rows, _ = prepare_training(ROOT, cfg, offline=True)
+        tok, rows, _, _ = prepare_training(ROOT, cfg, offline=True)
     except OSError:
         pytest.skip("Pinned tokenizer not cached")
     originals, _, _ = verify_prepared(ROOT, cfg)

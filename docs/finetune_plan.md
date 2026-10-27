@@ -271,13 +271,13 @@ were not modified. No 4B weights were downloaded and no real GPU training ran.
   tokens and total tokens are saved with checkpoints and the final summary.
 - Checkpoints contain adapter, optimizer, scheduler, random state, trainer state
   and exposure counts. Resume requires the same resolved configuration, data,
-  training code and runtime, and the latest checkpoint. Nonempty output directories
+  training code and runtime, and the latest complete checkpoint. Nonempty output directories
   cannot be reused for fresh runs. `reload_adapter()` checks the pinned base
   identity before loading saved adapter weights onto a fresh base model.
 - `run_manifest.json` records data/model/configuration/runtime provenance;
   `training_summary.json` records final training statistics. `adapter/` holds the
-  final adapter, **not a validation-selected model**. Validation selection and
-  MLflow integration remain Steps 4 and 5; reporting integrations are disabled.
+  final-step adapter; Step 4's `selection.json` identifies the model selected for
+  evaluation. MLflow integration remains Step 5; reporting integrations are disabled.
   Generated `outputs/finetune/` files are ignored by Git.
 
 Set up and check both datasets locally or after pulling onto the server:
@@ -286,7 +286,7 @@ Set up and check both datasets locally or after pulling onto the server:
 uv sync --locked --group finetune
 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --dry-run
 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_structure_aware.yaml --dry-run
-uv run --locked --group finetune python -m pytest tests/test_finetune_training.py tests/test_finetune_preparation.py -q -p no:cacheprovider
+uv run --locked --group finetune python -m pytest tests/test_finetune_training.py tests/test_finetune_validation.py tests/test_finetune_preparation.py -q -p no:cacheprovider
 ```
 
 Add `--offline` to dry runs when the pinned tokenizer and model config are cached.
@@ -333,6 +333,67 @@ server storage. Do not launch the main comparison until Steps 4–6 are ready.
 
 **Done when:** Selection is reproducible, includes the untuned baseline, and
 requires no test scores.
+
+**Status: complete (local implementation and verification, 2026-10-27).**
+All **66 preparation/training/validation tests passed**, both offline dry runs
+passed, and every frozen source checksum was verified. Tests cover equal-paper
+loss, step-zero selection, earliest ties, diagnostic failures, prompt-only
+generation, preserved training randomness, exact resumed weights/history for both
+methods, and recovery when a later checkpoint save is incomplete. Prepared data,
+schemas and the shared evaluator are unchanged. No 4B weights were downloaded and
+no real GPU training or paper validation ran locally.
+
+**How it runs:**
+
+- Both training configs set `validation_steps: 10` and `save_steps: 10`; these
+  must match. This is a provisional common interval to confirm after the hardware
+  check. Validation runs before the first update, at that interval, and at the
+  final step even if it falls between intervals. There is no automatic early stop.
+- Only the two frozen validation D examples are used. Each paper is processed
+  separately with no gradients: average negative log-probability over its gold
+  JSON and EOS, then average the two paper losses equally. Prompt, thinking
+  scaffold, trailing template newline and padding are excluded.
+- Step zero explicitly disables the LoRA adapter to measure the original model.
+  Validation restores training mode and random states afterward, and does not
+  increment training exposure counters. Nonfinite loss fails the run rather than
+  silently dropping a paper or choosing a checkpoint from an invalid score.
+- At every validation point, generate one complete JSON per paper from the D
+  prompt alone, using greedy decoding and the fixed **16,384-token** output budget.
+  Save raw responses, output-limit flags, parse/scoring failures, and entity F1.
+  Reuse the shared evaluator for reference F1: it is conditional on aligned
+  datasets; `n_pairs` is recorded and F1 is null when no dataset pairs align.
+  Invalid output gets a failure record and null diagnostic scores, never exclusion
+  from validation loss. These diagnostics do not affect model selection.
+
+**Outputs under the run directory:**
+
+| Artifact | Purpose |
+|---|---|
+| `validation_history.json` | Per-step/per-paper losses, generation diagnostics, and training exposure |
+| `validation/step-<n>/` | Raw generations, parsed predictions, validation gold copies, evaluator reports |
+| `checkpoint-<n>/validation_state.json` | Validation history saved alongside adapter/optimizer/random state |
+| `selection.json` | Lowest-loss step, earliest tie, selected exposure, base revision, adapter path/checksum |
+
+If step zero wins, selection has `kind: base` and no adapter path. Otherwise,
+`checkpoint` names the retained selected checkpoint. `adapter/` remains the last
+step's export; downstream evaluation must use `selection.json`. No checkpoint is
+deleted. Resuming restores checkpoint-local history, avoids repeating step zero,
+and rejects changed validation data/settings or an incomplete history. A later
+partial checkpoint save does not prevent resuming the latest complete checkpoint.
+
+**Local verification commands:**
+
+```powershell
+uv run --locked --group finetune python -m pytest tests/test_finetune_validation.py tests/test_finetune_training.py tests/test_finetune_preparation.py -q -p no:cacheprovider
+uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --dry-run --offline
+uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_structure_aware.yaml --dry-run --offline
+```
+
+Omit `--offline` for the first tokenizer/config download on a new machine. Dry runs
+also verify validation membership, answer boundaries, and generation reservation;
+they load no model weights. Actual Qwen3.5-4B validation and memory checks run on
+the server in Step 6 using the existing `--train` command. Tiny-model tests here
+check implementation behavior, not scientific extraction performance.
 
 ## Step 5 — Integrate MLflow (local setup, server storage)
 
