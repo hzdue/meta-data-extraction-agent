@@ -1,0 +1,831 @@
+{
+  "version": "1.0.0",
+  "status": "length_checks_passed",
+  "config": {
+    "version": "1.0.0",
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "schemas": [
+      "generic.json",
+      "photon_and_neutron.json"
+    ],
+    "split_manifest": "data/finetune/splits.json",
+    "output_dir": "data/finetune/prepared",
+    "max_seq_length": 65536,
+    "max_new_tokens": 16384,
+    "enable_thinking": false,
+    "parse_workers": 2,
+    "parse_timeout_seconds": 300
+  },
+  "tokenizer": {
+    "model_id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "class": "Qwen3_5Tokenizer",
+    "transformers": "5.21.0",
+    "tokenizers": "0.23.3",
+    "enable_thinking": false,
+    "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "backend_sha256": "4d765ac5a92a75f240af39f9358a09a140216dce113e57754c91042ef8b9e4e8",
+    "model_max_length": 262144,
+    "eos_token_id": 248046
+  },
+  "counts": {
+    "train_json_only.jsonl": 8,
+    "train_structure_aware.jsonl": 24,
+    "validation.jsonl": 2
+  },
+  "supervised_examples": [
+    {
+      "example_id": "1806.08116:D",
+      "paper_id": "1806.08116",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 24821,
+      "target_tokens": 2207,
+      "supervised_tokens": 2208,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 27030,
+      "fits": true
+    },
+    {
+      "example_id": "1806.08116:E",
+      "paper_id": "1806.08116",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 24503,
+      "target_tokens": 601,
+      "supervised_tokens": 602,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 25106,
+      "fits": true
+    },
+    {
+      "example_id": "1806.08116:R",
+      "paper_id": "1806.08116",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 25176,
+      "target_tokens": 291,
+      "supervised_tokens": 292,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 25469,
+      "fits": true
+    },
+    {
+      "example_id": "1812.03956:D",
+      "paper_id": "1812.03956",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 14278,
+      "target_tokens": 1543,
+      "supervised_tokens": 1544,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 15823,
+      "fits": true
+    },
+    {
+      "example_id": "1812.03956:E",
+      "paper_id": "1812.03956",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 13960,
+      "target_tokens": 531,
+      "supervised_tokens": 532,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 14493,
+      "fits": true
+    },
+    {
+      "example_id": "1812.03956:R",
+      "paper_id": "1812.03956",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 14563,
+      "target_tokens": 198,
+      "supervised_tokens": 199,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 14763,
+      "fits": true
+    },
+    {
+      "example_id": "1912.11816:D",
+      "paper_id": "1912.11816",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 21137,
+      "target_tokens": 1261,
+      "supervised_tokens": 1262,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 22400,
+      "fits": true
+    },
+    {
+      "example_id": "1912.11816:E",
+      "paper_id": "1912.11816",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 20819,
+      "target_tokens": 227,
+      "supervised_tokens": 228,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 21048,
+      "fits": true
+    },
+    {
+      "example_id": "1912.11816:R",
+      "paper_id": "1912.11816",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 21118,
+      "target_tokens": 88,
+      "supervised_tokens": 89,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 21208,
+      "fits": true
+    },
+    {
+      "example_id": "2009.01093:D",
+      "paper_id": "2009.01093",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 24357,
+      "target_tokens": 3044,
+      "supervised_tokens": 3045,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 27403,
+      "fits": true
+    },
+    {
+      "example_id": "2009.01093:E",
+      "paper_id": "2009.01093",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 24039,
+      "target_tokens": 829,
+      "supervised_tokens": 830,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 24870,
+      "fits": true
+    },
+    {
+      "example_id": "2009.01093:R",
+      "paper_id": "2009.01093",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 24940,
+      "target_tokens": 442,
+      "supervised_tokens": 443,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 25384,
+      "fits": true
+    },
+    {
+      "example_id": "2009.12925:D",
+      "paper_id": "2009.12925",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 24672,
+      "target_tokens": 1834,
+      "supervised_tokens": 1835,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 26508,
+      "fits": true
+    },
+    {
+      "example_id": "2009.12925:E",
+      "paper_id": "2009.12925",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 24354,
+      "target_tokens": 392,
+      "supervised_tokens": 393,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 24748,
+      "fits": true
+    },
+    {
+      "example_id": "2009.12925:R",
+      "paper_id": "2009.12925",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 24818,
+      "target_tokens": 105,
+      "supervised_tokens": 106,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 24925,
+      "fits": true
+    },
+    {
+      "example_id": "2104.10884:D",
+      "paper_id": "2104.10884",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 30116,
+      "target_tokens": 2542,
+      "supervised_tokens": 2543,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 32660,
+      "fits": true
+    },
+    {
+      "example_id": "2104.10884:E",
+      "paper_id": "2104.10884",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 29798,
+      "target_tokens": 1214,
+      "supervised_tokens": 1215,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 31014,
+      "fits": true
+    },
+    {
+      "example_id": "2104.10884:R",
+      "paper_id": "2104.10884",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 31084,
+      "target_tokens": 154,
+      "supervised_tokens": 155,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 31240,
+      "fits": true
+    },
+    {
+      "example_id": "2304.08002:D",
+      "paper_id": "2304.08002",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 23111,
+      "target_tokens": 3431,
+      "supervised_tokens": 3432,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 26544,
+      "fits": true
+    },
+    {
+      "example_id": "2304.08002:E",
+      "paper_id": "2304.08002",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 22793,
+      "target_tokens": 1718,
+      "supervised_tokens": 1719,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 24513,
+      "fits": true
+    },
+    {
+      "example_id": "2304.08002:R",
+      "paper_id": "2304.08002",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 24583,
+      "target_tokens": 465,
+      "supervised_tokens": 466,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 25050,
+      "fits": true
+    },
+    {
+      "example_id": "2309.13729:D",
+      "paper_id": "2309.13729",
+      "split": "train",
+      "task": "D",
+      "prompt_tokens": 25699,
+      "target_tokens": 3052,
+      "supervised_tokens": 3053,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 28753,
+      "fits": true
+    },
+    {
+      "example_id": "2309.13729:E",
+      "paper_id": "2309.13729",
+      "split": "train",
+      "task": "E",
+      "prompt_tokens": 25381,
+      "target_tokens": 1194,
+      "supervised_tokens": 1195,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 26577,
+      "fits": true
+    },
+    {
+      "example_id": "2309.13729:R",
+      "paper_id": "2309.13729",
+      "split": "train",
+      "task": "R",
+      "prompt_tokens": 26647,
+      "target_tokens": 399,
+      "supervised_tokens": 400,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 27048,
+      "fits": true
+    },
+    {
+      "example_id": "2010.02965:D",
+      "paper_id": "2010.02965",
+      "split": "validation",
+      "task": "D",
+      "prompt_tokens": 24741,
+      "target_tokens": 3310,
+      "supervised_tokens": 3311,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 28053,
+      "fits": true
+    },
+    {
+      "example_id": "2503.18475:D",
+      "paper_id": "2503.18475",
+      "split": "validation",
+      "task": "D",
+      "prompt_tokens": 47334,
+      "target_tokens": 3932,
+      "supervised_tokens": 3933,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 51268,
+      "fits": true
+    }
+  ],
+  "inference": [
+    {
+      "paper_id": "1806.08116",
+      "split": "train",
+      "prompt_tokens": 24821,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 41205,
+      "fits": true
+    },
+    {
+      "paper_id": "1812.03956",
+      "split": "train",
+      "prompt_tokens": 14278,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 30662,
+      "fits": true
+    },
+    {
+      "paper_id": "1912.11816",
+      "split": "train",
+      "prompt_tokens": 21137,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 37521,
+      "fits": true
+    },
+    {
+      "paper_id": "2009.01093",
+      "split": "train",
+      "prompt_tokens": 24357,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 40741,
+      "fits": true
+    },
+    {
+      "paper_id": "2009.12925",
+      "split": "train",
+      "prompt_tokens": 24672,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 41056,
+      "fits": true
+    },
+    {
+      "paper_id": "2104.10884",
+      "split": "train",
+      "prompt_tokens": 30116,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 46500,
+      "fits": true
+    },
+    {
+      "paper_id": "2304.08002",
+      "split": "train",
+      "prompt_tokens": 23111,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 39495,
+      "fits": true
+    },
+    {
+      "paper_id": "2309.13729",
+      "split": "train",
+      "prompt_tokens": 25699,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 42083,
+      "fits": true
+    },
+    {
+      "paper_id": "2010.02965",
+      "split": "validation",
+      "prompt_tokens": 24741,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 41125,
+      "fits": true
+    },
+    {
+      "paper_id": "2503.18475",
+      "split": "validation",
+      "prompt_tokens": 47334,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 63718,
+      "fits": true
+    },
+    {
+      "paper_id": "1804.07163",
+      "split": "test",
+      "prompt_tokens": 22704,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 39088,
+      "fits": true
+    },
+    {
+      "paper_id": "1811.10341",
+      "split": "test",
+      "prompt_tokens": 18943,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 35327,
+      "fits": true
+    },
+    {
+      "paper_id": "1901.08819",
+      "split": "test",
+      "prompt_tokens": 13056,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 29440,
+      "fits": true
+    },
+    {
+      "paper_id": "1907.00342",
+      "split": "test",
+      "prompt_tokens": 13947,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 30331,
+      "fits": true
+    },
+    {
+      "paper_id": "1909.08292",
+      "split": "test",
+      "prompt_tokens": 26689,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 43073,
+      "fits": true
+    },
+    {
+      "paper_id": "2001.00707",
+      "split": "test",
+      "prompt_tokens": 21780,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 38164,
+      "fits": true
+    },
+    {
+      "paper_id": "2001.02706",
+      "split": "test",
+      "prompt_tokens": 14618,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 31002,
+      "fits": true
+    },
+    {
+      "paper_id": "2005.01985",
+      "split": "test",
+      "prompt_tokens": 18150,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 34534,
+      "fits": true
+    },
+    {
+      "paper_id": "2006.12074",
+      "split": "test",
+      "prompt_tokens": 11505,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 27889,
+      "fits": true
+    },
+    {
+      "paper_id": "2007.00972",
+      "split": "test",
+      "prompt_tokens": 16843,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 33227,
+      "fits": true
+    },
+    {
+      "paper_id": "2010.00094",
+      "split": "test",
+      "prompt_tokens": 24257,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 40641,
+      "fits": true
+    },
+    {
+      "paper_id": "2010.12832",
+      "split": "test",
+      "prompt_tokens": 17106,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 33490,
+      "fits": true
+    },
+    {
+      "paper_id": "2011.13326",
+      "split": "test",
+      "prompt_tokens": 14324,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 30708,
+      "fits": true
+    },
+    {
+      "paper_id": "2105.04167",
+      "split": "test",
+      "prompt_tokens": 20493,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 36877,
+      "fits": true
+    },
+    {
+      "paper_id": "2202.11658",
+      "split": "test",
+      "prompt_tokens": 18194,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 34578,
+      "fits": true
+    },
+    {
+      "paper_id": "2203.07170",
+      "split": "test",
+      "prompt_tokens": 19007,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 35391,
+      "fits": true
+    },
+    {
+      "paper_id": "2209.06540",
+      "split": "test",
+      "prompt_tokens": 22803,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 39187,
+      "fits": true
+    },
+    {
+      "paper_id": "2211.06006",
+      "split": "test",
+      "prompt_tokens": 22547,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 38931,
+      "fits": true
+    },
+    {
+      "paper_id": "2212.04169",
+      "split": "test",
+      "prompt_tokens": 22119,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 38503,
+      "fits": true
+    },
+    {
+      "paper_id": "2302.02010",
+      "split": "test",
+      "prompt_tokens": 15818,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 32202,
+      "fits": true
+    },
+    {
+      "paper_id": "2404.06853",
+      "split": "test",
+      "prompt_tokens": 18055,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 34439,
+      "fits": true
+    },
+    {
+      "paper_id": "2405.14324",
+      "split": "test",
+      "prompt_tokens": 22056,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 38440,
+      "fits": true
+    },
+    {
+      "paper_id": "2405.15411",
+      "split": "test",
+      "prompt_tokens": 30568,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 46952,
+      "fits": true
+    },
+    {
+      "paper_id": "2407.10282",
+      "split": "test",
+      "prompt_tokens": 23206,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 39590,
+      "fits": true
+    },
+    {
+      "paper_id": "2407.20626",
+      "split": "test",
+      "prompt_tokens": 23888,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 40272,
+      "fits": true
+    },
+    {
+      "paper_id": "2410.00268",
+      "split": "test",
+      "prompt_tokens": 16413,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 32797,
+      "fits": true
+    },
+    {
+      "paper_id": "2501.08122",
+      "split": "test",
+      "prompt_tokens": 17296,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 33680,
+      "fits": true
+    },
+    {
+      "paper_id": "2601.16215",
+      "split": "test",
+      "prompt_tokens": 24802,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 41186,
+      "fits": true
+    },
+    {
+      "paper_id": "2603.01364",
+      "split": "test",
+      "prompt_tokens": 21316,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 37700,
+      "fits": true
+    },
+    {
+      "paper_id": "2605.14792",
+      "split": "test",
+      "prompt_tokens": 32117,
+      "reserved_output_tokens": 16384,
+      "required_tokens": 48501,
+      "fits": true
+    }
+  ],
+  "overflows": [],
+  "longest_training": {
+    "example_id": "2104.10884:D",
+    "paper_id": "2104.10884",
+    "split": "train",
+    "task": "D",
+    "prompt_tokens": 30116,
+    "target_tokens": 2542,
+    "supervised_tokens": 2543,
+    "post_eos_tokens": 1,
+    "sequence_tokens": 32660,
+    "fits": true
+  },
+  "validation": [
+    {
+      "example_id": "2010.02965:D",
+      "paper_id": "2010.02965",
+      "split": "validation",
+      "task": "D",
+      "prompt_tokens": 24741,
+      "target_tokens": 3310,
+      "supervised_tokens": 3311,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 28053,
+      "fits": true
+    },
+    {
+      "example_id": "2503.18475:D",
+      "paper_id": "2503.18475",
+      "split": "validation",
+      "task": "D",
+      "prompt_tokens": 47334,
+      "target_tokens": 3932,
+      "supervised_tokens": 3933,
+      "post_eos_tokens": 1,
+      "sequence_tokens": 51268,
+      "fits": true
+    }
+  ],
+  "longest_inference": {
+    "paper_id": "2503.18475",
+    "split": "validation",
+    "prompt_tokens": 47334,
+    "reserved_output_tokens": 16384,
+    "required_tokens": 63718,
+    "fits": true
+  },
+  "paper_quality_flags": [
+    {
+      "paper_id": "1806.08116",
+      "warnings": [],
+      "low_word_presence_pages": [
+        20
+      ]
+    },
+    {
+      "paper_id": "1812.03956",
+      "warnings": [
+        "bogus font ascent/descent values (40 / -2359)"
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "2304.08002",
+      "warnings": [
+        "premature end of data in flate filter",
+        "... repeated 7 times..."
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "2309.13729",
+      "warnings": [
+        "bogus font ascent/descent values (0 / -252)",
+        "bogus font ascent/descent values (0 / -209)"
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "1901.08819",
+      "warnings": [
+        "bogus font ascent/descent values (0 / -207)"
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "2006.12074",
+      "warnings": [
+        "syntax error: unknown keyword: 'pagesize'",
+        "syntax error: unknown keyword: 'width'",
+        "syntax error: unknown keyword: '597.50787pt'",
+        "syntax error: unknown keyword: 'height'",
+        "syntax error: unknown keyword: '845.04684pt'",
+        "bogus font ascent/descent values (0 / -207)",
+        "encountered syntax errors; page may not be correct",
+        "syntax error: unknown keyword: 'pagesize'",
+        "syntax error: unknown keyword: 'width'",
+        "syntax error: unknown keyword: '597.50787pt'",
+        "syntax error: unknown keyword: 'height'",
+        "syntax error: unknown keyword: '845.04684pt'",
+        "encountered syntax errors; page may not be correct",
+        "syntax error: unknown keyword: 'pagesize'",
+        "syntax error: unknown keyword: 'width'",
+        "syntax error: unknown keyword: '597.50787pt'",
+        "syntax error: unknown keyword: 'height'",
+        "syntax error: unknown keyword: '845.04684pt'",
+        "encountered syntax errors; page may not be correct"
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "2209.06540",
+      "warnings": [],
+      "low_word_presence_pages": [
+        18,
+        20
+      ]
+    },
+    {
+      "paper_id": "2407.10282",
+      "warnings": [
+        "syntax error: could not parse color space (252 0 R)",
+        "Ignoring Page blending colorspace.",
+        "syntax error: could not parse color space (252 0 R)",
+        "Ignoring Page blending colorspace.",
+        "syntax error: could not parse color space (252 0 R)",
+        "Ignoring Page blending colorspace.",
+        "syntax error: could not parse color space (1410 0 R)",
+        "Ignoring Page blending colorspace.",
+        "premature end of data in flate filter",
+        "... repeated 89 times...",
+        "syntax error: could not parse color space (1410 0 R)",
+        "Ignoring Page blending colorspace.",
+        "syntax error: could not parse color space (1410 0 R)",
+        "Ignoring Page blending colorspace."
+      ],
+      "low_word_presence_pages": []
+    },
+    {
+      "paper_id": "2605.14792",
+      "warnings": [
+        "bogus font ascent/descent values (3117 / -2464)",
+        "... repeated 2 times...",
+        "Actualtext with no position. Text may be lost or mispositioned.",
+        "... repeated 6 times..."
+      ],
+      "low_word_presence_pages": []
+    }
+  ],
+  "policy": {
+    "truncation": false,
+    "packing": false,
+    "test_gold_used": false,
+    "supervision": "JSON target plus one EOS; mask prompt, empty thinking prefix, trailing template newline and padding",
+    "output_reservation": "Fixed 16,384-token reservation; not fitted to test gold; not a guarantee against generation cutoff",
+    "gpu_feasibility": "Not tested; forward/backward and validation memory checks remain Step 6",
+    "pdf_quality": "Word-presence checks are heuristic, not proof of reading order; inspect flagged PDFs"
+  }
+}

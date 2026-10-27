@@ -29,6 +29,9 @@ are never supplied during validation or test inference.
 
 ```text
 configs/
+  evaluation_metrics.yaml       # Shared scoring rules
+  alignment_helper.yaml         # Shared entity-alignment rules
+  finetune_prepare.yaml
   finetune_json_only.yaml
   finetune_structure_aware.yaml
 data/finetune/
@@ -40,6 +43,8 @@ data/finetune/
     train_structure_aware.jsonl
     validation.jsonl
     length_report.json
+    preparation_manifest.json
+    quality_review.md
 scripts/
   audit_finetune_data.py
   prepare_finetune_data.py
@@ -53,11 +58,13 @@ pyproject.toml                   # Existing uv project; add a finetune dependenc
 uv.lock                          # Shared dependency lockfile
 ```
 
-Extend the existing repository and uv project. Use `finetune_*.yaml` names so new
-configs are excluded from the benchmark runner's `pan_*.yaml` discovery. Reuse
-source PDFs, gold records, parser, prompt builder, and evaluator; preserve existing
-benchmark files. Keep run outputs on persistent server storage at the configured
-output path. Implement one numbered step at a time.
+Extend the existing repository and uv project. Use the explicit `finetune_*.yaml`
+configs for preparation and training, and retain the shared scoring/alignment
+configs. The old `configs/pan_*.yaml` benchmark configs were intentionally deleted;
+they are not required for this pilot and should not be restored for fine-tuning.
+Reuse source PDFs, gold records, parser, prompt builder, and evaluator; preserve
+remaining benchmark data and results. Keep run outputs on persistent server
+storage at the configured output path. Implement one numbered step at a time.
 
 ## Step 1 — Audit data and freeze the split (local)
 
@@ -135,6 +142,71 @@ uv run --no-sync python scripts/audit_finetune_data.py --verify
 `data/finetune/prepared/length_report.json` confirms that full examples fit the
 configured limits.
 
+**Status: complete (local preparation and length audit).** The unchanged parser
+processed all 40 PDFs. Training/validation JSONL counts are **8/24/2**; test papers
+are used only for inference-input checks, not target construction. D records are
+identical between the two training datasets. E + R reconstruction checks pass.
+
+Configuration: [`configs/finetune_prepare.yaml`](../configs/finetune_prepare.yaml).
+The official [Qwen3.5-4B tokenizer](https://huggingface.co/Qwen/Qwen3.5-4B/tree/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a)
+is pinned to revision `851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a`; thinking is disabled.
+Only CPU preparation dependencies were added in the `finetune-prepare` uv group.
+No model weights were loaded and no training was run.
+
+| Measured sequence | Tokens |
+|---|---:|
+| Longest training example: 2104.10884, D | 32,660 |
+| Validation: 2010.02965, D | 28,053 |
+| Validation: 2503.18475, D | 51,268 |
+| Largest inference prompt + 16,384-token output reservation | 63,718 |
+
+All fit the provisional **65,536-token cap** without truncation. These counts
+include the actual chat template, full schema, targets where applicable, and
+special tokens. GPU feasibility remains Step 6; do not infer it from token counts.
+
+Artifacts and checks:
+
+- [`length_report.json`](../data/finetune/prepared/length_report.json): per-example
+  and inference counts, overflows and quality flags.
+- [`preparation_manifest.json`](../data/finetune/prepared/preparation_manifest.json):
+  parser/tokenizer revisions, source/text/dataset hashes and configuration.
+- [`quality_review.md`](../data/finetune/prepared/quality_review.md): targeted PDF
+  inspection, including title-order and duplicated-caption defects retained from
+  the shared parser. Successful parsing does not mean perfect transcription.
+- Markdown, per-paper cache metadata and JSONL payloads are local, git-ignored
+  derived files. Rebuild them from the PDFs, or transfer the prepared directory
+  with the reports. Cached text and existing outputs are checked, never silently
+  overwritten; changed inputs/settings require an explicit new output directory.
+- JSONL uses conversational `prompt` and `completion` arrays plus paper/task IDs,
+  provenance and token counts. For Step 3, reuse `encode_record()` in
+  `finetune/tokenization.py`: supervise only the JSON target and EOS, not the
+  empty thinking prefix or the template's trailing newline. Actual training
+  collation/masking tests remain Step 3.
+
+Reproduce locally (CPU only; first run downloads tokenizer files):
+
+```powershell
+uv sync --locked --group finetune-prepare
+uv run --locked --group finetune-prepare python scripts/prepare_finetune_data.py
+```
+
+Resume with `--stage parse` or `--stage build`; use `--offline` once the tokenizer
+is cached. Verify prepared artifacts without rewriting them and run the Step 1/2
+tests plus the relevant corpus and prompt regression checks:
+
+```powershell
+uv run --locked --group finetune-prepare python scripts/prepare_finetune_data.py --stage verify --offline
+uv run --locked --group finetune-prepare python -m pytest tests/test_finetune_audit.py tests/test_finetune_preparation.py tests/test_corpus.py tests/test_prompt_templates.py -q -p no:cacheprovider
+```
+
+Verification on 2026-10-27: **63 focused tests passed**, frozen-input verification
+passed, and offline artifact replay passed. The broader suite recorded 406 passes,
+2 skips, 2 failures and 3 setup errors. The failures/errors came from legacy
+benchmark-reproduction tests requiring the intentionally deleted `pan_*.yaml`
+configs, not from fine-tuning preparation. They do not block this pilot; those
+tests remain unchanged and are outside its acceptance checks. Continue testing
+shared extraction/evaluation components when changes affect them.
+
 ## Step 3 — Build one configurable trainer (local)
 
 **Purpose:** Support both methods with the same implementation.
@@ -161,8 +233,8 @@ configured limits.
   padding. Test actual labels after tokenization and collation.
   [TRL completion-only training](https://huggingface.co/docs/trl/sft_trainer#train-on-completion-only)
 
-**Done when:** Both configurations use the same trainer, local tests pass, and
-uv setup and launch commands are documented in this plan.
+**Done when:** Both configurations use the same trainer, fine-tuning and applicable
+shared-component tests pass, and uv setup and launch commands are documented here.
 
 ## Step 4 — Implement validation and checkpoint selection (local)
 
@@ -242,8 +314,10 @@ inputs, persistent checkpoints, and MLflow records.
 - Generate complete JSON with M0 and the selected M1/M2 models, using identical
   prompts and decoding. Reuse old baseline predictions only if provenance matches.
 - Write the existing `ExtractionResult` format and call the current evaluator
-  functions through `scripts/evaluate_finetune.py`. The benchmark's existing
-  runner assumes a fixed set of conditions; preserve that workflow.
+  functions through `scripts/evaluate_finetune.py`, using the shared
+  `configs/evaluation_metrics.yaml` and `configs/alignment_helper.yaml`. Do not
+  invoke the legacy `scripts/run_evaluation.py` runner: its 22-condition config
+  discovery is unrelated to the M0/M1/M2 comparison. No `pan_*.yaml` files are needed.
 - Report entity F1 for facilities/samples/datasets, conditional attribute scores,
   dataset-to-sample and dataset-to-facility reference F1, generic metadata scores,
   JSON/schema validity, and generation failures. Keep all thirty papers in the

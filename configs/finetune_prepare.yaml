@@ -1,0 +1,12 @@
+version: "1.0.0"
+model_id: Qwen/Qwen3.5-4B
+revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a
+schemas: [generic.json, photon_and_neutron.json]
+split_manifest: data/finetune/splits.json
+output_dir: data/finetune/prepared
+max_seq_length: 65536
+# Shared inference reservation, fixed without inspecting test gold.
+max_new_tokens: 16384
+enable_thinking: false
+parse_workers: 2
+parse_timeout_seconds: 300

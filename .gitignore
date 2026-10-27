@@ -18,6 +18,9 @@ wheels/
 # Local inputs and scratch files
 data/raw/
 data/processed/
+# Rebuildable paper text and training payloads; provenance/length reports stay tracked.
+data/finetune/prepared/text/
+data/finetune/prepared/*.jsonl
 tmp/
 static/
 
