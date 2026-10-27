@@ -1,0 +1,23 @@
+version: "1.0.0"
+method: structure_aware
+prepare_config: configs/finetune_prepare.yaml
+prepared_dir: data/finetune/prepared
+output_dir: outputs/finetune/structure_aware_seed42
+seed: 42
+# Set the same finite cap for both methods after the server feasibility check.
+max_steps: null
+save_steps: 10
+learning_rate: 0.0001
+lr_scheduler_type: constant
+weight_decay: 0.0
+max_grad_norm: 1.0
+microbatch_size: 1
+gradient_accumulation_steps: 4
+gradient_checkpointing: true
+packing: false
+max_seq_length: 65536
+dtype: bfloat16
+attn_implementation: sdpa
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05

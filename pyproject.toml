@@ -21,10 +21,28 @@ build-backend = "hatchling.build"
 [tool.uv]
 package = true
 
+# CPU checks on Windows; Linux uses PyPI's CUDA-enabled PyTorch wheel.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'win32'" }]
+
 [dependency-groups]
 finetune-prepare = [
-    "transformers>=5.3,<6",
+    "transformers==5.21.0",
+    "tokenizers==0.23.3",
     "jinja2>=3.1.6,<4",
+]
+finetune = [
+    { include-group = "finetune-prepare" },
+    "torch>=2.10,<2.11",
+    "peft>=0.21.2,<0.22",
+    "trl>=1.16,<1.17",
+    "accelerate>=1.15,<1.16",
+    "mlflow>=3.17.2,<4",
 ]
 dev = [
     "matplotlib>=3.11.0",

@@ -173,9 +173,9 @@ Artifacts and checks:
 - [`quality_review.md`](../data/finetune/prepared/quality_review.md): targeted PDF
   inspection, including title-order and duplicated-caption defects retained from
   the shared parser. Successful parsing does not mean perfect transcription.
-- Markdown, per-paper cache metadata and JSONL payloads are local, git-ignored
-  derived files. Rebuild them from the PDFs, or transfer the prepared directory
-  with the reports. Cached text and existing outputs are checked, never silently
+- Markdown, per-paper cache metadata and JSONL payloads are included in Git so
+  the server can obtain them by pulling this repository. Cached text and existing
+  outputs are checked, never silently
   overwritten; changed inputs/settings require an explicit new output directory.
 - JSONL uses conversational `prompt` and `completion` arrays plus paper/task IDs,
   provenance and token counts. For Step 3, reuse `encode_record()` in
@@ -183,7 +183,8 @@ Artifacts and checks:
   empty thinking prefix or the template's trailing newline. Actual training
   collation/masking tests remain Step 3.
 
-Reproduce locally (CPU only; first run downloads tokenizer files):
+Original preparation commands (CPU only; require the source PDFs, which remain
+untracked; first run downloads tokenizer files):
 
 ```powershell
 uv sync --locked --group finetune-prepare
@@ -191,21 +192,29 @@ uv run --locked --group finetune-prepare python scripts/prepare_finetune_data.py
 ```
 
 Resume with `--stage parse` or `--stage build`; use `--offline` once the tokenizer
-is cached. Verify prepared artifacts without rewriting them and run the Step 1/2
-tests plus the relevant corpus and prompt regression checks:
+is cached. The preparation manifest preserves the original environment, including
+the old `pyproject.toml` and `uv.lock` hashes. Strict preparation replay
+(`--stage verify`) requires that original environment. After Step 3's dependency
+changes, use the trainer's **dry runs below** to verify transferred data: they
+check preparation code, schema, split, text, payload hashes and tokenization, and
+explicitly report dependency-file changes. No source PDFs are needed for those
+dry runs. Do not overwrite the historical manifest to make replay pass.
+
+Run the preparation tests (including prompt/projection checks) and the frozen-input
+audit. The older audit/corpus/prompt test modules are absent from the current checkout:
 
 ```powershell
-uv run --locked --group finetune-prepare python scripts/prepare_finetune_data.py --stage verify --offline
-uv run --locked --group finetune-prepare python -m pytest tests/test_finetune_audit.py tests/test_finetune_preparation.py tests/test_corpus.py tests/test_prompt_templates.py -q -p no:cacheprovider
+uv run --locked --group finetune python -m pytest tests/test_finetune_preparation.py -q -p no:cacheprovider
+uv run --locked --group finetune python scripts/audit_finetune_data.py --verify
 ```
 
 Verification on 2026-10-27: **63 focused tests passed**, frozen-input verification
 passed, and offline artifact replay passed. The broader suite recorded 406 passes,
 2 skips, 2 failures and 3 setup errors. The failures/errors came from legacy
 benchmark-reproduction tests requiring the intentionally deleted `pan_*.yaml`
-configs, not from fine-tuning preparation. They do not block this pilot; those
-tests remain unchanged and are outside its acceptance checks. Continue testing
-shared extraction/evaluation components when changes affect them.
+configs, not from fine-tuning preparation. These are historical results; the legacy
+test modules are absent from the current checkout. Continue testing shared
+extraction/evaluation components when changes affect them.
 
 ## Step 3 — Build one configurable trainer (local)
 
@@ -235,6 +244,76 @@ shared extraction/evaluation components when changes affect them.
 
 **Done when:** Both configurations use the same trainer, fine-tuning and applicable
 shared-component tests pass, and uv setup and launch commands are documented here.
+
+**Status: complete (local implementation and verification, 2026-10-27).**
+Both offline CPU dry runs passed, as did **41 preparation/training tests** and the
+frozen-source audit. Tiny-model tests verified answer-loss equivalence, unchanged
+base/vision weights, exact interrupted-versus-uninterrupted adapter weights for
+both methods, and identical predictions after adapter reload. Prepared artifacts
+were not modified. No 4B weights were downloaded and no real GPU training ran.
+
+- [`run_finetune.py`](../scripts/run_finetune.py) uses
+  [`finetune_json_only.yaml`](../configs/finetune_json_only.yaml) or
+  [`finetune_structure_aware.yaml`](../configs/finetune_structure_aware.yaml).
+  They differ only in method and output directory. `max_steps` remains unset
+  until the common training budget is chosen; an explicit positive override is
+  available for server smoke runs. The initial scheduler is constant.
+- All **248 language attention/MLP projections** are LoRA targets, covering both
+  full and linear attention. Vision, embeddings and the output head stay frozen.
+  The actual pinned architecture is checked on meta tensors without loading weights.
+- Precomputed JSON-plus-EOS labels are preserved through collation; prompt,
+  empty-thinking prefix, trailing newline and padding are masked. No packing,
+  retemplating or truncation is applied. Loss is target-token weighted across
+  each gradient-accumulation window. TRL's fused loss avoids materializing logits
+  for every paper token. See [TRL SFT](https://huggingface.co/docs/trl/sft_trainer).
+- Each shuffled pass visits every example once, giving M2 D:E:R = 1:1:1 per
+  complete pass. A partial final pass may differ; actual task counts, supervised
+  tokens and total tokens are saved with checkpoints and the final summary.
+- Checkpoints contain adapter, optimizer, scheduler, random state, trainer state
+  and exposure counts. Resume requires the same resolved configuration, data,
+  training code and runtime, and the latest checkpoint. Nonempty output directories
+  cannot be reused for fresh runs. `reload_adapter()` checks the pinned base
+  identity before loading saved adapter weights onto a fresh base model.
+- `run_manifest.json` records data/model/configuration/runtime provenance;
+  `training_summary.json` records final training statistics. `adapter/` holds the
+  final adapter, **not a validation-selected model**. Validation selection and
+  MLflow integration remain Steps 4 and 5; reporting integrations are disabled.
+  Generated `outputs/finetune/` files are ignored by Git.
+
+Set up and check both datasets locally or after pulling onto the server:
+
+```powershell
+uv sync --locked --group finetune
+uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --dry-run
+uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_structure_aware.yaml --dry-run
+uv run --locked --group finetune python -m pytest tests/test_finetune_training.py tests/test_finetune_preparation.py -q -p no:cacheprovider
+```
+
+Add `--offline` to dry runs when the pinned tokenizer and model config are cached.
+Dry runs read all artifacts and tokenize the selected training set plus validation;
+they neither load 4B weights nor train. Unit tests train a tiny randomly initialized
+Qwen3.5 fixture on synthetic token sequences only.
+
+The lockfile retains Python **>=3.13** and pins Transformers 5.21.0/tokenizers
+0.23.3 to preserve preparation identity. It resolves PyTorch 2.10.0, PEFT 0.21.2,
+TRL 1.16.0 and Accelerate 1.15.0. Windows uses CPU PyTorch; Linux x86_64 uses
+PyPI's CUDA 12.8 build. Linux dependency resolution was checked without installing
+on a server. Server driver compatibility, native BF16, and long-sequence memory
+remain Step 6. See [uv/PyTorch configuration](https://docs.astral.sh/uv/guides/integration/pytorch/).
+This initial trainer supports one process and one visible GPU; multi-GPU training
+would require an explicitly tested extension.
+
+Example **server-only two-update smoke run**, once a GPU is allocated:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --train --max-steps 2 --output-dir outputs/finetune/json_only_smoke
+```
+
+Use the structure-aware config and a separate output directory for its smoke run.
+For an interrupted longer run, repeat its exact command with
+`--resume-from-checkpoint <output-dir>/checkpoint-<step>`. The step cap must be
+unchanged and greater than that checkpoint's step. Choose output paths on persistent
+server storage. Do not launch the main comparison until Steps 4–6 are ready.
 
 ## Step 4 — Implement validation and checkpoint selection (local)
 
