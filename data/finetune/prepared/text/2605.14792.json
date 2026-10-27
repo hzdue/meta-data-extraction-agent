@@ -1,0 +1,195 @@
+{
+  "paper_id": "2605.14792",
+  "pdf_sha256": "0ab8ea582c79da66f6feec11b9defebd8cdb50396c2fe6d5e9a84a7fca2219a7",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "text_sha256": "94ba2047bd77daf71d12ae4608a1b71427aed22c656af4d1e3253e4fea322d90",
+  "text_chars": 59412,
+  "pages": 34,
+  "plain_text_chars": 58608,
+  "warnings": [
+    "bogus font ascent/descent values (3117 / -2464)",
+    "... repeated 2 times...",
+    "Actualtext with no position. Text may be lost or mispositioned.",
+    "... repeated 6 times..."
+  ],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 1948,
+      "word_presence": 0.9603
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 2692,
+      "word_presence": 0.9949
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 2567,
+      "word_presence": 0.9942
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 1674,
+      "word_presence": 0.9843
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 2718,
+      "word_presence": 0.9781
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 2513,
+      "word_presence": 0.9722
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 1627,
+      "word_presence": 0.9815
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 2427,
+      "word_presence": 0.9888
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 1359,
+      "word_presence": 1.0
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 1539,
+      "word_presence": 0.9916
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 2798,
+      "word_presence": 1.0
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 2778,
+      "word_presence": 0.9953
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 955,
+      "word_presence": 1.0
+    },
+    {
+      "page": 14,
+      "plain_text_chars": 2558,
+      "word_presence": 0.9819
+    },
+    {
+      "page": 15,
+      "plain_text_chars": 1518,
+      "word_presence": 0.95
+    },
+    {
+      "page": 16,
+      "plain_text_chars": 1086,
+      "word_presence": 1.0
+    },
+    {
+      "page": 17,
+      "plain_text_chars": 2695,
+      "word_presence": 0.9946
+    },
+    {
+      "page": 18,
+      "plain_text_chars": 1982,
+      "word_presence": 0.98
+    },
+    {
+      "page": 19,
+      "plain_text_chars": 2489,
+      "word_presence": 1.0
+    },
+    {
+      "page": 20,
+      "plain_text_chars": 186,
+      "word_presence": 1.0
+    },
+    {
+      "page": 21,
+      "plain_text_chars": 999,
+      "word_presence": 0.9231
+    },
+    {
+      "page": 22,
+      "plain_text_chars": 1401,
+      "word_presence": 1.0
+    },
+    {
+      "page": 23,
+      "plain_text_chars": 1178,
+      "word_presence": 1.0
+    },
+    {
+      "page": 24,
+      "plain_text_chars": 1166,
+      "word_presence": 1.0
+    },
+    {
+      "page": 25,
+      "plain_text_chars": 1167,
+      "word_presence": 1.0
+    },
+    {
+      "page": 26,
+      "plain_text_chars": 1173,
+      "word_presence": 1.0
+    },
+    {
+      "page": 27,
+      "plain_text_chars": 1163,
+      "word_presence": 1.0
+    },
+    {
+      "page": 28,
+      "plain_text_chars": 843,
+      "word_presence": 1.0
+    },
+    {
+      "page": 29,
+      "plain_text_chars": 1228,
+      "word_presence": 0.9888
+    },
+    {
+      "page": 30,
+      "plain_text_chars": 2416,
+      "word_presence": 1.0
+    },
+    {
+      "page": 31,
+      "plain_text_chars": 1214,
+      "word_presence": 1.0
+    },
+    {
+      "page": 32,
+      "plain_text_chars": 1547,
+      "word_presence": 1.0
+    },
+    {
+      "page": 33,
+      "plain_text_chars": 1148,
+      "word_presence": 1.0
+    },
+    {
+      "page": 34,
+      "plain_text_chars": 1790,
+      "word_presence": 1.0
+    }
+  ],
+  "low_word_presence_pages": []
+}

@@ -1,0 +1,50 @@
+{
+  "paper_id": "2006.12074",
+  "pdf_sha256": "22022aff4b78b99ff1f501ad742f74136a118e10e5837cf2ec69392be4e9e19f",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "text_sha256": "69ccf8445c17f3d4f5b582617e047aea6df39e9ece924d5f3a79fbb94f3449e2",
+  "text_chars": 11421,
+  "pages": 2,
+  "plain_text_chars": 10960,
+  "warnings": [
+    "syntax error: unknown keyword: 'pagesize'",
+    "syntax error: unknown keyword: 'width'",
+    "syntax error: unknown keyword: '597.50787pt'",
+    "syntax error: unknown keyword: 'height'",
+    "syntax error: unknown keyword: '845.04684pt'",
+    "bogus font ascent/descent values (0 / -207)",
+    "encountered syntax errors; page may not be correct",
+    "syntax error: unknown keyword: 'pagesize'",
+    "syntax error: unknown keyword: 'width'",
+    "syntax error: unknown keyword: '597.50787pt'",
+    "syntax error: unknown keyword: 'height'",
+    "syntax error: unknown keyword: '845.04684pt'",
+    "encountered syntax errors; page may not be correct",
+    "syntax error: unknown keyword: 'pagesize'",
+    "syntax error: unknown keyword: 'width'",
+    "syntax error: unknown keyword: '597.50787pt'",
+    "syntax error: unknown keyword: 'height'",
+    "syntax error: unknown keyword: '845.04684pt'",
+    "encountered syntax errors; page may not be correct"
+  ],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 5706,
+      "word_presence": 0.8754
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 5252,
+      "word_presence": 0.9342
+    }
+  ],
+  "low_word_presence_pages": []
+}

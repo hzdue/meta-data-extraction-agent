@@ -1,0 +1,85 @@
+{
+  "paper_id": "2601.16215",
+  "pdf_sha256": "f2dbd1021ca08e24f4012bed866b0701633ebe0e8dbda1ea53d812e86ee693c7",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "text_sha256": "093e4ed20d274f23b68e5ca1855a5037e4afd677d1b132cb3cce2a8c7dd19ce2",
+  "text_chars": 50354,
+  "pages": 13,
+  "plain_text_chars": 46761,
+  "warnings": [],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 5367,
+      "word_presence": 0.8646
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 4663,
+      "word_presence": 0.8676
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 3518,
+      "word_presence": 0.9196
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 2686,
+      "word_presence": 0.9563
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 1365,
+      "word_presence": 0.96
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 3444,
+      "word_presence": 0.9318
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 2567,
+      "word_presence": 0.8947
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 4588,
+      "word_presence": 0.8909
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 5346,
+      "word_presence": 0.8512
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 3893,
+      "word_presence": 0.9362
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 1730,
+      "word_presence": 1.0
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 5935,
+      "word_presence": 0.911
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 1635,
+      "word_presence": 0.9213
+    }
+  ],
+  "low_word_presence_pages": []
+}

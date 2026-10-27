@@ -1,0 +1,205 @@
+{
+  "paper_id": "2407.10282",
+  "pdf_sha256": "67735be95daf29967bbc1bfe783d7083879e782b95381fbf0dc44dc6acd9e460",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "text_sha256": "3566242f06b298b1e16b64bde865ba37f3e4c65e96c021d3796241324e7d4668",
+  "text_chars": 62471,
+  "pages": 34,
+  "plain_text_chars": 60085,
+  "warnings": [
+    "syntax error: could not parse color space (252 0 R)",
+    "Ignoring Page blending colorspace.",
+    "syntax error: could not parse color space (252 0 R)",
+    "Ignoring Page blending colorspace.",
+    "syntax error: could not parse color space (252 0 R)",
+    "Ignoring Page blending colorspace.",
+    "syntax error: could not parse color space (1410 0 R)",
+    "Ignoring Page blending colorspace.",
+    "premature end of data in flate filter",
+    "... repeated 89 times...",
+    "syntax error: could not parse color space (1410 0 R)",
+    "Ignoring Page blending colorspace.",
+    "syntax error: could not parse color space (1410 0 R)",
+    "Ignoring Page blending colorspace."
+  ],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 1535,
+      "word_presence": 0.8621
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 2167,
+      "word_presence": 0.9518
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 2301,
+      "word_presence": 0.9874
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 2200,
+      "word_presence": 0.9634
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 1431,
+      "word_presence": 0.9554
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 1760,
+      "word_presence": 0.9586
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 1399,
+      "word_presence": 0.9896
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 2235,
+      "word_presence": 0.9444
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 1558,
+      "word_presence": 0.9892
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 2123,
+      "word_presence": 1.0
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 2261,
+      "word_presence": 0.9623
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 1824,
+      "word_presence": 0.9333
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 2173,
+      "word_presence": 0.942
+    },
+    {
+      "page": 14,
+      "plain_text_chars": 1114,
+      "word_presence": 0.974
+    },
+    {
+      "page": 15,
+      "plain_text_chars": 1638,
+      "word_presence": 0.9211
+    },
+    {
+      "page": 16,
+      "plain_text_chars": 2128,
+      "word_presence": 0.975
+    },
+    {
+      "page": 17,
+      "plain_text_chars": 1266,
+      "word_presence": 0.95
+    },
+    {
+      "page": 18,
+      "plain_text_chars": 2002,
+      "word_presence": 0.9091
+    },
+    {
+      "page": 19,
+      "plain_text_chars": 2070,
+      "word_presence": 0.9416
+    },
+    {
+      "page": 20,
+      "plain_text_chars": 2215,
+      "word_presence": 0.9441
+    },
+    {
+      "page": 21,
+      "plain_text_chars": 2193,
+      "word_presence": 0.9398
+    },
+    {
+      "page": 22,
+      "plain_text_chars": 1809,
+      "word_presence": 0.9597
+    },
+    {
+      "page": 23,
+      "plain_text_chars": 1993,
+      "word_presence": 0.9338
+    },
+    {
+      "page": 24,
+      "plain_text_chars": 1821,
+      "word_presence": 0.9474
+    },
+    {
+      "page": 25,
+      "plain_text_chars": 1705,
+      "word_presence": 0.9767
+    },
+    {
+      "page": 26,
+      "plain_text_chars": 1495,
+      "word_presence": 0.9507
+    },
+    {
+      "page": 27,
+      "plain_text_chars": 1221,
+      "word_presence": 1.0
+    },
+    {
+      "page": 28,
+      "plain_text_chars": 1648,
+      "word_presence": 0.9718
+    },
+    {
+      "page": 29,
+      "plain_text_chars": 1510,
+      "word_presence": 0.9846
+    },
+    {
+      "page": 30,
+      "plain_text_chars": 1535,
+      "word_presence": 0.9915
+    },
+    {
+      "page": 31,
+      "plain_text_chars": 1487,
+      "word_presence": 0.9917
+    },
+    {
+      "page": 32,
+      "plain_text_chars": 1415,
+      "word_presence": 1.0
+    },
+    {
+      "page": 33,
+      "plain_text_chars": 1689,
+      "word_presence": 0.9847
+    },
+    {
+      "page": 34,
+      "plain_text_chars": 1098,
+      "word_presence": 0.9574
+    }
+  ],
+  "low_word_presence_pages": []
+}
