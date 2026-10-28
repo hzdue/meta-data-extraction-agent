@@ -37,7 +37,9 @@ def main(argv=None):
         tokenizer, records, validation, summary = prepare_training(ROOT, config, offline=args.offline)
         from meta_data_extraction.finetune.training import inspect_model, run_training
         from meta_data_extraction.finetune.validation import validate_rows
+        from meta_data_extraction.finetune.tracking import read_tracking_config
 
+        tracking = read_tracking_config(ROOT / config.tracking_config)
         preparation = yaml.safe_load((ROOT / config.prepare_config).read_text(encoding="utf-8"))
         validate_rows(validation, {r["example_id"].split(":")[0] for r in records},
                       config.max_seq_length, config.validation_max_new_tokens)
@@ -48,6 +50,9 @@ def main(argv=None):
                               "max_steps": config.max_steps, "validation_steps": config.validation_steps,
                               "validation_max_new_tokens": config.validation_max_new_tokens,
                               "selection_metric": "mean_of_per_paper_target_token_nll",
+                              "tracking": {"experiment_name": tracking.experiment_name,
+                                           "configured": tracking.tracking_uri is not None,
+                                           "connected": False},
                               "gpu_feasibility": "not tested"}, indent=2))
         else:
             resume = (ROOT / args.resume_from_checkpoint).resolve() if args.resume_from_checkpoint else None

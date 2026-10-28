@@ -1,10 +1,13 @@
 """Shared LoRA trainer. Real pilot runs are single-process, single-GPU BF16."""
 from __future__ import annotations
 
+from contextlib import nullcontext
 from importlib.metadata import version
 import json
 from pathlib import Path
 import re
+import subprocess
+import sys
 
 from datasets import Dataset
 from peft import LoraConfig, PeftModel, TaskType, get_peft_model
@@ -96,12 +99,18 @@ class PilotTrainer(SFTTrainer):
     def __init__(self, *args, **kwargs):
         self.exposure = {"examples": {}, "supervised_tokens": {}, "total_tokens": {}}
         self.validation = None
+        self.tracking = None
         super().__init__(*args, **kwargs)
         # SFT computes summed token loss divided by all target tokens in the
         # accumulation window. Ask Trainer to count those tokens even though the
         # multimodal Qwen wrapper itself declares accepts_loss_kwargs=False.
         self.model_accepts_loss_kwargs = True
         self.loss_is_scaled_for_ga = True
+
+    def training_step(self, model, inputs, num_items_in_batch=None):
+        context = self.tracking.resources.phase("training") if self.tracking else nullcontext()
+        with context:
+            return super().training_step(model, inputs, num_items_in_batch)
 
     def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
         inputs = dict(inputs)
@@ -137,7 +146,7 @@ class PilotTrainer(SFTTrainer):
 
 
 def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *,
-                  validation=None, cpu=False, callbacks=None):
+                  validation=None, tracking=None, cpu=False, callbacks=None):
     if config.max_steps is None:
         raise ValueError("Set a finite max_steps after the server feasibility check")
     args = SFTConfig(
@@ -171,6 +180,13 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
     if validation is not None:
         trainer.validation = ValidationCallback(trainer, validation, config)
         trainer.add_callback(trainer.validation)
+    if tracking is not None:
+        from .tracking import ResourceMeter, TrackingCallback
+
+        trainer.tracking = tracking
+        tracking.resources = ResourceMeter(cuda=trainer.args.device.type == "cuda")
+        # After validation: publish only checkpoint-committed selection/history.
+        trainer.add_callback(TrackingCallback(trainer, tracking))
     return trainer
 
 
@@ -179,12 +195,25 @@ def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture
              "src/meta_data_extraction/finetune/training.py",
              "src/meta_data_extraction/finetune/training_data.py",
              "src/meta_data_extraction/finetune/validation.py",
+             "src/meta_data_extraction/finetune/tracking.py", config.tracking_config,
              "src/meta_data_extraction/evaluation.py", "src/meta_data_extraction/alignment.py",
              "src/meta_data_extraction/normalization.py", "src/meta_data_extraction/config_validation.py",
              "configs/evaluation_metrics.yaml", "configs/alignment_helper.yaml"]
+    def git(*args):
+        result = subprocess.run(["git", *args], cwd=root, capture_output=True, text=True, check=False)
+        return result.stdout.strip() if result.returncode == 0 else None
+
+    prepared = json.loads((root / config.prepared_dir / "preparation_manifest.json").read_text(encoding="utf-8"))
+    split = json.loads((root / prepared["config"]["split_manifest"]).read_text(encoding="utf-8"))
+    parsers = {json.dumps(p["parser"], sort_keys=True) for p in prepared["papers"]}
     return {"config": config.model_dump(), "data": summary, "architecture": architecture,
+            "preparation": {"inputs": prepared["inputs"], "config": prepared["config"],
+                            "runtime": prepared["runtime"], "parsers": [json.loads(p) for p in sorted(parsers)]},
+            "split": {key: split[key] for key in ("train", "validation", "test")},
+            "code": {"commit": git("rev-parse", "HEAD"), "dirty": bool(git("status", "--porcelain"))},
             "sources": {p: file_hash(root / p) for p in files},
-            "runtime": {p: version(p) for p in ("torch", "transformers", "tokenizers", "peft", "trl", "accelerate")}}
+            "runtime": {"python": sys.version.split()[0],
+                        **{p: version(p) for p in ("torch", "transformers", "tokenizers", "peft", "trl", "accelerate", "mlflow")}}}
 
 
 def prepare_output(output: Path, contract: dict, resume: Path | None):
@@ -219,6 +248,8 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
 
 def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary, architecture,
                  preparation: dict, *, validation, offline=False, resume: Path | None = None):
+    from .tracking import RunTracker, read_tracking_config
+
     if config.max_steps is None:
         raise ValueError("Set max_steps in both configs after the hardware check, or pass --max-steps for a smoke run")
     if validation is None:
@@ -227,21 +258,37 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
         raise ValueError("Real training requires a CUDA GPU with native BF16; use --dry-run for CPU checks")
     if torch.cuda.device_count() != 1:
         raise ValueError("Expose exactly one GPU with CUDA_VISIBLE_DEVICES for this pilot")
+    tracking_settings = read_tracking_config(root / config.tracking_config, require_ready=True)
     set_seed(config.seed)
     output = (root / config.output_dir).resolve()
     contract = run_contract(root, config, summary, architecture)
     prepare_output(output, contract, resume)
-    model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
-    trainer = build_trainer(model, tokenizer, records, config, output, validation=validation)
-    result = trainer.train(resume_from_checkpoint=str(resume) if resume else None)
-    # The final step may not coincide with the regular save interval.
-    trainer._save_checkpoint(trainer.model, trial=None)
-    trainer.save_model(str(output / "adapter"))
-    trainer.save_state()
-    selection = trainer.validation.publish(complete=True)
-    write_json(output / "training_summary.json", {
-        "global_step": trainer.state.global_step, "metrics": result.metrics,
-        "exposure": trainer.exposure, "selection": selection,
-        "trainable_parameters": sum(p.numel() for p in model.parameters() if p.requires_grad),
-    })
-    return {"output_dir": str(output), "global_step": trainer.state.global_step}
+    tracker = RunTracker.start(tracking_settings, output, contract, method=config.method, resume=resume is not None)
+    trainer = None
+    try:
+        set_seed(config.seed)
+        model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
+        trainer = build_trainer(model, tokenizer, records, config, output, validation=validation, tracking=tracker)
+        tracker.client.log_dict(tracker.run_id, {"gpu": torch.cuda.get_device_name(),
+                                "cuda_runtime": torch.version.cuda,
+                                "device_total_bytes": torch.cuda.get_device_properties(0).total_memory},
+                                f"attempts/{tracker.record['attempt']}/hardware.json")
+        result = trainer.train(resume_from_checkpoint=str(resume) if resume else None)
+        trainer._save_checkpoint(trainer.model, trial=None)
+        trainer.save_model(str(output / "adapter"))
+        trainer.save_state()
+        complete = trainer.state.global_step == config.max_steps
+        selection = trainer.validation.publish(complete=complete)
+        write_json(output / "training_summary.json", {
+            "global_step": trainer.state.global_step, "metrics": result.metrics,
+            "exposure": trainer.exposure, "selection": selection, "mlflow_run_id": tracker.run_id,
+            "trainable_parameters": sum(p.numel() for p in model.parameters() if p.requires_grad),
+        })
+    except BaseException as exc:
+        try:
+            tracker.finish("KILLED" if isinstance(exc, KeyboardInterrupt) else "FAILED", trainer=trainer, error=exc)
+        except Exception as logging_error:
+            exc.add_note(f"MLflow finalization also failed: {type(logging_error).__name__}")
+        raise
+    tracker.finish("FINISHED" if complete else "KILLED", trainer=trainer)
+    return {"output_dir": str(output), "global_step": trainer.state.global_step, "mlflow_run_id": tracker.run_id}

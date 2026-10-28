@@ -11,7 +11,7 @@ import random
 
 import numpy as np
 import torch
-from transformers import GenerationConfig, TrainerCallback
+from transformers import GenerationConfig, Trainer, TrainerCallback
 
 from meta_data_extraction.evaluation import evaluate
 from .parsing import text_hash
@@ -191,7 +191,8 @@ class ValidationCallback(TrainerCallback):
 
     def measure(self, step: int):
         trainer = self.trainer
-        with validation_context(trainer.model, base=step == 0):
+        timer = trainer.tracking.resources.phase("validation") if trainer.tracking else nullcontext()
+        with timer, validation_context(trainer.model, base=step == 0):
             papers = validation_losses(trainer, self.rows)
             directory = self.output / "validation" / f"step-{step}"
             diagnostics = [score_generation(row, generate_answer(trainer.model, trainer.processing_class, row,
@@ -201,7 +202,12 @@ class ValidationCallback(TrainerCallback):
                  "diagnostics_directory": f"validation/step-{step}"}
         self.history.append(entry)
         best_entry(self.history)
-        trainer.log({"validation_loss": entry["loss"], **{f"validation_loss/{p['paper_id']}": p["loss"] for p in papers}})
+        # SFTTrainer.log drains pending training metrics, and on_log clears the
+        # scheduled training-log flag. Keep validation separate from both.
+        should_log = trainer.control.should_log
+        Trainer.log(trainer, {"validation_loss": entry["loss"],
+                              **{f"validation_loss/{p['paper_id']}": p["loss"] for p in papers}})
+        trainer.control.should_log = should_log
 
     def publish(self, *, complete=False):
         winner = best_entry(self.history)

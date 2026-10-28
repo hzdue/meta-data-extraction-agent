@@ -200,6 +200,7 @@ def test_validation_resume_matches_uninterrupted_and_final_off_interval_is_saved
     full = trainer_at(tmp_path / "full")
     full.train()
     assert [r["step"] for r in full.validation.history] == [0, 2, 3]
+    assert [r["step"] for r in full.state.log_history if "loss" in r] == [1, 2, 3]
     assert (tmp_path / "full/checkpoint-3/validation_state.json").exists()
     assert len(full.validation.history[0]["diagnostics"]) == 2
     assert sum(full.exposure["examples"].values()) == 6

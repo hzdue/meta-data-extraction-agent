@@ -19,6 +19,7 @@ class TrainingConfig(BaseModel):
     method: Literal["json_only", "structure_aware"]
     prepare_config: str
     prepared_dir: str
+    tracking_config: str = "configs/finetune_tracking.yaml"
     output_dir: str
     seed: int = 42
     max_steps: PositiveInt | None = None

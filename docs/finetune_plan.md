@@ -34,6 +34,7 @@ configs/
   finetune_prepare.yaml
   finetune_json_only.yaml
   finetune_structure_aware.yaml
+  finetune_tracking.yaml         # Shared MLflow settings; server paths configured later
 data/finetune/
   splits.json
   audit.md
@@ -277,7 +278,8 @@ were not modified. No 4B weights were downloaded and no real GPU training ran.
 - `run_manifest.json` records data/model/configuration/runtime provenance;
   `training_summary.json` records final training statistics. `adapter/` holds the
   final-step adapter; Step 4's `selection.json` identifies the model selected for
-  evaluation. MLflow integration remains Step 5; reporting integrations are disabled.
+  evaluation. Step 5 adds explicit MLflow logging; automatic library integrations
+  remain disabled to avoid duplicate runs.
   Generated `outputs/finetune/` files are ignored by Git.
 
 Set up and check both datasets locally or after pulling onto the server:
@@ -286,7 +288,7 @@ Set up and check both datasets locally or after pulling onto the server:
 uv sync --locked --group finetune
 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --dry-run
 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_structure_aware.yaml --dry-run
-uv run --locked --group finetune python -m pytest tests/test_finetune_training.py tests/test_finetune_validation.py tests/test_finetune_preparation.py -q -p no:cacheprovider
+uv run --locked --group finetune python -m pytest tests -q -p no:cacheprovider
 ```
 
 Add `--offline` to dry runs when the pinned tokenizer and model config are cached.
@@ -303,7 +305,8 @@ remain Step 6. See [uv/PyTorch configuration](https://docs.astral.sh/uv/guides/i
 This initial trainer supports one process and one visible GPU; multi-GPU training
 would require an explicitly tested extension.
 
-Example **server-only two-update smoke run**, once a GPU is allocated:
+Example **server-only two-update smoke run**, once a GPU is allocated and Step 5's
+persistent MLflow settings are configured:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --train --max-steps 2 --output-dir outputs/finetune/json_only_smoke
@@ -422,6 +425,92 @@ check implementation behavior, not scientific extraction performance.
 
 **Done when:** Runs are identifiable, selected models are recoverable, and later
 evaluation results can be attached to the correct run.
+
+**Status: complete (local implementation and verification, 2026-10-28).**
+All **76 tests passed**, including MLflow run identity, resume, metric replay,
+selected-adapter preservation and later evaluation attachment. Both offline dry
+runs passed without a tracking connection, and frozen source checksums were
+verified. Tiny-model runs with and without MLflow logging produced identical
+weights and validation histories. Prepared data, schemas and the shared evaluator are
+unchanged. No full model weights were downloaded, institute service accessed or
+real GPU training run. Persistent server storage remains to be configured before
+Step 6.
+
+**Configuration:** Both method configs reference
+[`finetune_tracking.yaml`](../configs/finetune_tracking.yaml). Set `tracking_uri`
+and `artifact_location` there, or override them with `MLFLOW_TRACKING_URI` and
+`FINETUNE_MLFLOW_ARTIFACT_LOCATION`. The checked-in locations are unset: dry runs
+work without connecting to MLflow, while real training requires an explicitly
+configured backend. Use an existing HTTP(S) tracking service, or an absolute
+SQLite database path plus an explicit artifact location on persistent storage.
+An existing experiment's artifact location must agree with the configuration.
+
+**What is recorded:**
+
+- `mlflow_run.json` in the output directory holds the run ID, backend, artifact
+  URI and execution-attempt number. Resuming verifies the same contract and
+  continues that run. Successful runs finish as `FINISHED`; interrupted/failed
+  attempts use `KILLED`/`FAILED`. Tracking failures are surfaced, not silently ignored.
+- MLflow receives the resolved YAML, code commit/source hashes, model/tokenizer
+  revisions, parser/schema versions, frozen split/data hashes, runtime versions and
+  optimizer settings. Model loading starts after the run identity is saved.
+- Loss curves are uploaded at step zero/checkpoint commits. Training loss still
+  has one point per optimizer update; uploads include only committed updates.
+  Replays check existing metric history, avoid duplicates and reject conflicting
+  values at the same step. Validation logging preserves the regular training-loss
+  log, so both curves remain complete at validation steps.
+- Validation losses, F1/failure diagnostics, task counts and token exposure are
+  recorded. `selected/*` statistics describe the chosen checkpoint; `exposure/*`
+  describes training progress. Timing/memory metrics are separated by execution
+  attempt, including resumed work. CUDA-event elapsed time is measured for
+  training, validation and optimizer phases; it is not a kernel-utilization
+  measurement. CPU checks omit CUDA timing/VRAM values. Abrupt process termination
+  can leave resource measurements only through the last logged checkpoint.
+- Selection metadata and the selected adapter's config/weights are uploaded by
+  default, with its checksum and persistent local path. Set
+  `upload_selected_adapter: false` to retain only the path/checksum. If step zero
+  wins, the run records the pinned base model without uploading adapter weights.
+  Optimizer checkpoints remain on persistent server storage; base weights and
+  source PDFs are not uploaded. Validation generations and evaluator reports are
+  saved as diagnostic artifacts.
+
+`tracking.RunTracker.start(..., method="base")` supports an evaluation-only base
+run. Step 7 will call `tracking.attach_evaluation(output_dir, metrics, artifacts,
+evaluator_metadata)` for base/M1/M2: it reads the saved run ID, attaches results
+under `test/*` and `evaluation/`, and rejects changed reattachments. M1/M2 must be
+complete first. This step supplies that interface; it does not implement Step 7's
+test-generation/evaluation runner or create production runs before execution.
+
+**Server setup example** (replace `/persistent/pan-qwen35` with an allocated,
+existing persistent directory):
+
+```bash
+export MLFLOW_TRACKING_URI=sqlite:////persistent/pan-qwen35/mlflow.db
+export FINETUNE_MLFLOW_ARTIFACT_LOCATION=file:///persistent/pan-qwen35/mlflow-artifacts
+uv sync --locked --group finetune
+```
+
+For an institute tracking service, set `MLFLOW_TRACKING_URI` to its URL and leave
+the artifact location unset to use the service's experiment storage. Keep training
+output/checkpoint directories on persistent storage as well. Do not create a new
+tracking database in each temporary GPU-job directory.
+
+View a configured SQLite-backed experiment using:
+
+```bash
+uv run --locked --group finetune mlflow ui --backend-store-uri "$MLFLOW_TRACKING_URI" --host 127.0.0.1 --port 5000
+```
+
+**Local verification:**
+
+```powershell
+uv run --locked --group finetune python -m pytest tests -q -p no:cacheprovider
+```
+
+The tracking tests use isolated temporary SQLite stores and
+synthetic Qwen models. No institute service, production experiment, full model
+weights or GPU execution is needed. MLflow was already included in the locked
+`finetune` dependency group; no dependency changes were required.
 
 ## Step 6 — Smoke-test and run training (server)
 

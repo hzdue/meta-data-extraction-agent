@@ -1,0 +1,7 @@
+version: "1.0.0"
+experiment_name: pan-qwen35-4b-finetuning
+# Configure persistent storage before server training. Environment overrides:
+# MLFLOW_TRACKING_URI and FINETUNE_MLFLOW_ARTIFACT_LOCATION.
+tracking_uri: null
+artifact_location: null
+upload_selected_adapter: true
