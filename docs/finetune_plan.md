@@ -670,7 +670,7 @@ outputs/finetune/venv-gpu/bin/python scripts/evaluate_finetune.py \
 ```
 
 `--score-only` never loads a model and requires complete cached generation for
-all selected conditions. The full CPU regression suite passes **93 tests**, including
+all selected conditions. The full CPU regression suite passes **96 tests**, including
 all thirty frozen gold schema/reference checks, test-prompt reconstruction with
 test-gold reads blocked, all-paper failure accounting, comparison consistency,
 and existing training/tracking checks.

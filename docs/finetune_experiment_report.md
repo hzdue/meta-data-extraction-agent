@@ -155,6 +155,73 @@ Facilities F1 declined by 0.035. At paper level, M1 improved or tied M0 on 26/30
 papers for samples and 29/30 for datasets. Its main operational cost was roughly
 1.85× slower generation.
 
+### Post-hoc M1 audit (no retraining)
+
+We audited the saved predictions and ran two forward-only validation passes
+through the selected M1 checkpoint. No parameters, checkpoints or predictions
+were changed.
+
+#### Precision and recall
+
+| Field | M0 precision | M0 recall | M1 precision | M1 recall |
+|---|---:|---:|---:|---:|
+| Facilities | 0.696 | **0.821** | **0.718** | 0.718 |
+| Samples | 0.828 | 0.522 | **0.833** | **0.707** |
+| Datasets | 0.635 | 0.471 | **0.853** | **0.753** |
+| Sample references | 0.781 | 0.708 | **0.797** | **0.792** |
+| Facility references | 0.656 | **0.750** | **0.763** | 0.707 |
+
+M1's sample improvement is primarily a recall gain. Its dataset improvement is
+strong in both precision and recall. Facility extraction traded recall for a
+small precision increase, explaining its lower F1. Facility-reference F1 improved
+through precision despite slightly lower recall.
+
+Paired paper bootstrap intervals used 10,000 resamples with seed 42 and recomputed
+pooled F1 counts within each resample:
+
+| M1 − M0 | F1 difference | Paired 95% bootstrap interval |
+|---|---:|---:|
+| Facilities | -0.035 | [-0.154, 0.061] |
+| Samples | +0.125 | **[0.007, 0.288]** |
+| Datasets | +0.259 | **[0.135, 0.401]** |
+| Sample references | +0.052 | [-0.138, 0.207] |
+| Facility references | +0.034 | [-0.093, 0.181] |
+
+The sample and dataset intervals exclude zero; the facilities and reference
+intervals do not. These are descriptive uncertainty estimates over this fixed
+thirty-paper corpus, not evidence from a new independent population.
+
+#### Validation-loss audit
+
+The unusually low validation loss is not caused by division over the long paper
+prompt. Paper text, instructions, empty-thinking prefix, template newline and
+padding are masked. Loss is the summed shifted NLL of target JSON tokens plus EOS,
+divided by the supervised-token count; validation then takes the equal mean of
+the two per-paper losses. The forward-only audit reproduced M1's selected losses:
+0.064800 and 0.050739.
+
+Tokens overlapping `sample_refs`/`facility_refs` keys and list values accounted
+for 485 of 7,244 supervised validation tokens (**6.70%**) but only **1.07%** of
+total validation NLL. Their mean NLL was 0.0091 versus 0.0606 for other target
+tokens. Under teacher forcing, reference content is therefore highly predictable
+once the correct JSON prefix and gold history are supplied. This explains why
+overall NLL is a weak safeguard against free-generation structural omissions:
+one early decision to close a dataset object can remove all subsequent reference
+tokens even when their conditional token probabilities are excellent.
+
+#### Schema failures and throughput
+
+M1's two invalid papers contained three funding entries with a funder but
+`grant_id: null`. In `1804.07163`, two unsupported funder-only entries were added
+alongside valid funding pairs. In `2001.00707`, one funder-only entry was emitted
+while gold funding was empty. These are semantic over-inclusions, not JSON parsing
+failures; a production validator should flag or remove such entries explicitly.
+
+M1 generated 2,156 tokens per paper on average versus 2,003 for M0 (+7.6%), but
+throughput fell from 25.85 to 15.07 tokens/s (-41.7%). Output length therefore
+explains only part of the 1.85× latency. The slowdown is implementation-specific
+and should not be presented as an inherent LoRA cost without additional profiling.
+
 ### M2 interpretation
 
 M2 improved generic metadata, sample recovery and dataset recovery over M0, but
@@ -207,6 +274,8 @@ should not be tuned against these thirty evaluated papers.
 - Workflow and status: [`finetune_plan.md`](finetune_plan.md)
 - Hardware and training details: [`finetune_step6_report.md`](finetune_step6_report.md)
 - Held-out evaluation audit: [`finetune_step7_report.md`](finetune_step7_report.md)
+- Reproducible post-hoc audit: `scripts/analyze_finetune_results.py`
+- Post-hoc audit data: `outputs/finetune/evaluation/m1_audit.json`
 - Frozen evaluation configuration: `configs/finetune_evaluation.yaml`
 - Selected M1 checkpoint: `outputs/finetune/json_only_seed42/checkpoint-6`
 - Selected M2 checkpoint: `outputs/finetune/structure_aware_seed42/checkpoint-6`
