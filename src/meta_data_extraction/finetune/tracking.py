@@ -294,6 +294,9 @@ class RunTracker:
             if self.settings.upload_selected_adapter:
                 for name in ("adapter_model.safetensors", "adapter_config.json"):
                     self.client.log_artifact(self.run_id, str(path / name), "selected/adapter")
+                precision = path / "inference_precision.json"
+                if precision.exists():
+                    self.client.log_artifact(self.run_id, str(precision), "selected/adapter")
 
 
 class TrackingCallback(TrainerCallback):

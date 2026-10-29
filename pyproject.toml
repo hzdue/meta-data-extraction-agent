@@ -21,6 +21,9 @@ build-backend = "hatchling.build"
 [tool.uv]
 package = true
 
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
 # CPU checks on Windows; Linux uses PyPI's CUDA-enabled PyTorch wheel.
 [[tool.uv.index]]
 name = "pytorch-cpu"
@@ -47,4 +50,11 @@ finetune = [
 dev = [
     "matplotlib>=3.11.0",
     "pytest>=9.0.3",
+]
+finetune-cuda = [
+    { include-group = "finetune" },
+    "bitsandbytes==0.50.2; sys_platform == 'linux'",
+    "flash-linear-attention==0.6.0; sys_platform == 'linux'",
+    "fla-core==0.6.0; sys_platform == 'linux'",
+    "einops==0.8.2; sys_platform == 'linux'",
 ]

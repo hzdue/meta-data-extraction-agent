@@ -51,8 +51,12 @@ def validation_context(model, *, base=False):
     python_state, numpy_state = random.getstate(), np.random.get_state()
     training = model.training
     devices = [torch.cuda.current_device()] if torch.cuda.is_available() else []
+    # Standalone probes/reload do not call Trainer.train(), which normally
+    # installs Accelerate's autocast wrapper. Use the same BF16 compute policy.
+    autocast = (torch.autocast("cuda", dtype=torch.bfloat16)
+                if next(model.parameters()).device.type == "cuda" else nullcontext())
     try:
-        with torch.random.fork_rng(devices=devices), torch.no_grad():
+        with torch.random.fork_rng(devices=devices), torch.no_grad(), autocast:
             model.eval()
             with model.disable_adapter() if base else nullcontext():
                 yield
@@ -217,6 +221,7 @@ class ValidationCallback(TrainerCallback):
                     "step": winner["step"], "loss": winner["loss"], "papers": winner["papers"],
                     "exposure": winner["exposure"], "base_model": cfg.base_model_name_or_path,
                     "revision": cfg.revision,
+                    "inference_precision": self.config.precision_policy(),
                     "kind": "base" if winner["step"] == 0 else "adapter",
                     "checkpoint": None, "adapter_sha256": None}
         if winner["step"]:

@@ -49,6 +49,7 @@ data/finetune/
 scripts/
   audit_finetune_data.py
   prepare_finetune_data.py
+  smoke_finetune.py              # Isolated Step 6 GPU feasibility probes
   run_finetune.py
   evaluate_finetune.py
 src/meta_data_extraction/finetune/ # Reusable preparation/training helpers as needed
@@ -256,8 +257,8 @@ were not modified. No 4B weights were downloaded and no real GPU training ran.
 - [`run_finetune.py`](../scripts/run_finetune.py) uses
   [`finetune_json_only.yaml`](../configs/finetune_json_only.yaml) or
   [`finetune_structure_aware.yaml`](../configs/finetune_structure_aware.yaml).
-  They differ only in method and output directory. `max_steps` remains unset
-  until the common training budget is chosen; an explicit positive override is
+  They differ only in method and output directory. Step 6 now sets `max_steps=18`
+  to the user-approved common training budget; an explicit positive override is
   available for server smoke runs. The initial scheduler is constant.
 - All **248 language attention/MLP projections** are LoRA targets, covering both
   full and linear attention. Vision, embeddings and the output head stay frozen.
@@ -309,7 +310,7 @@ Example **server-only two-update smoke run**, once a GPU is allocated and Step 5
 persistent MLflow settings are configured:
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 uv run --locked --group finetune python scripts/run_finetune.py --config configs/finetune_json_only.yaml --train --max-steps 2 --output-dir outputs/finetune/json_only_smoke
+CUDA_VISIBLE_DEVICES=0 UV_PROJECT_ENVIRONMENT=outputs/finetune/venv-gpu uv run --locked --group finetune-cuda python scripts/run_finetune.py --config configs/finetune_json_only.yaml --train --smoke --max-steps 2 --output-dir outputs/finetune/json_only_smoke
 ```
 
 Use the structure-aware config and a separate output directory for its smoke run.
@@ -348,9 +349,9 @@ no real GPU training or paper validation ran locally.
 
 **How it runs:**
 
-- Both training configs set `validation_steps: 10` and `save_steps: 10`; these
-  must match. This is a provisional common interval to confirm after the hardware
-  check. Validation runs before the first update, at that interval, and at the
+- Both training configs now set `validation_steps: 6` and `save_steps: 6`; these
+  must match. This is the user-approved interval for the pilot.
+  Validation runs before the first update, at that interval, and at the
   final step even if it falls between intervals. There is no automatic early stop.
 - Only the two frozen validation D examples are used. Each paper is processed
   separately with no gradients: average negative log-probability over its gold
@@ -520,7 +521,7 @@ weights or GPU execution is needed. MLflow was already included in the locked
 
 - Record actual GPU count/VRAM, CUDA versions, and storage locations; verify
   transferred data hashes and synchronize dependencies using the committed
-  `uv.lock` and `uv sync --locked --group finetune`.
+  `uv.lock` and the `finetune-cuda` dependency group on this Linux GPU host.
 - Test training on a small **training-only** subset, then forward/backward/optimizer
   steps on the longest training example across D/E/R. Check gradients, memory,
   save/resume, and adapter reload. Separately test forward-only complete-JSON loss
@@ -533,6 +534,75 @@ weights or GPU execution is needed. MLflow was already included in the locked
 
 **Done when:** Both runs complete with reproducible checkpoint selection, intact
 inputs, persistent checkpoints, and MLflow records.
+
+**Status: complete (2026-10-28).**
+The selected machine is the local RTX 5070 Ti (16 GB), with outputs and MLflow
+under `outputs/finetune/`. BF16 plus CPU activation offload, MLP chunking and
+optimized linear attention passed the shortest example but ran out of memory on
+the longest D example. The common fallback is NF4 double-quantized QLoRA with
+BF16 computation, CPU activation offload and 2,048-token MLP chunks. Rank,
+learning rate, accumulation, loss weighting, full context and splits remain
+unchanged. QLoRA passed short and longest D/E/R training, both validation losses,
+and full-budget generation on both validation papers. Integrated two-update runs
+for both methods stopped at checkpoint 1, resumed in fresh processes to
+checkpoint 2, and reproduced both validation losses after adapter reload.
+
+Both fresh 18-update comparisons completed. JSON-only validation loss was
+0.075139 / 0.057769 / 0.074680 / 0.085207 at steps 0/6/12/18 and selected
+`outputs/finetune/json_only_seed42/checkpoint-6`. Structure-aware loss was
+0.075139 / 0.060714 / 0.061765 / 0.068738 and selected
+`outputs/finetune/structure_aware_seed42/checkpoint-6`. Fresh NF4 base plus
+selected-adapter reloads reproduced every per-paper selected loss exactly.
+
+Use the locked `finetune-cuda` group in the separate GPU environment described in
+[the hardware report](finetune_step6_report.md). Validation and subsequent test
+inference must use the same NF4 base for M0, M1 and M2; precision is persisted in
+checkpoint/selection metadata. The CPU test suite passed 85 tests.
+
+The user approved 18 optimizer updates per method and validation/checkpoints every
+6 updates. Both MLflow runs are `FINISHED`, selected adapter artifacts and
+precision contracts are uploaded, and local checkpoints are complete. An external
+turn interruption killed an earlier structure-aware attempt before checkpoint 6;
+it is marked `KILLED` and preserved separately, while the reported comparison is
+the subsequent fresh run. No prepared artifacts or test inputs were modified.
+
+**Staged checks:** [`scripts/smoke_finetune.py`](../scripts/smoke_finetune.py)
+reuses the existing data verification, trainer, validation and MLflow helpers.
+`--case plan` selects the shortest D and longest D/E/R examples without loading
+weights. Each GPU case requires a new output directory, records its actual
+hardware/configuration and fails with a nonzero exit code and saved report.
+Training probes use one complete gradient-accumulation window, require finite
+nonzero adapter gradients, compare frozen-weight hashes and save an adapter plus
+optimizer checkpoint after a successful update. They do not certify resume or
+checkpoint selection; those still require an integrated training smoke run.
+
+Local tracking configuration (run from the repository root; these paths are
+approved for this machine, and must be replaced when moving to another server):
+
+```bash
+export CUDA_VISIBLE_DEVICES=0
+export MLFLOW_TRACKING_URI="sqlite:///$PWD/outputs/finetune/mlflow.db"
+export FINETUNE_MLFLOW_ARTIFACT_LOCATION="file://$PWD/outputs/finetune/mlflow-artifacts"
+UV_PROJECT_ENVIRONMENT=outputs/finetune/venv-gpu uv sync --locked --group finetune-cuda
+export PYTORCH_ALLOC_CONF=expandable_segments:True
+export TRITON_CACHE_DIR="$PWD/outputs/finetune/triton-cache"
+outputs/finetune/venv-gpu/bin/python scripts/smoke_finetune.py --config configs/finetune_structure_aware.yaml --case plan --offline
+```
+
+On hardware/settings that can accommodate the full examples, start with:
+
+```bash
+outputs/finetune/venv-gpu/bin/python scripts/smoke_finetune.py --config configs/finetune_json_only.yaml --case short --offline --output-dir outputs/finetune/smoke_new_short
+```
+
+After that succeeds, run `longest_D`, `longest_E`, `longest_R`, `validation_loss`
+and `validation_generation` as separate cases with the structure-aware config and
+distinct output directories. The validation cases use only the two held-out D
+examples and never call the optimizer. Generation uses the full fixed output
+budget; parse failures remain diagnostics rather than fabricated scores.
+`smoke_report.json` records success/failure, active phase/paper, memory and timing;
+failures also save `smoke_traceback.txt`. MLflow runs carry `finetune.phase=smoke`.
+A passed individual case does not mean Step 6 is complete.
 
 ## Step 7 — Evaluate and compare (server/local)
 
@@ -556,6 +626,74 @@ inputs, persistent checkpoints, and MLflow records.
 
 **Done when:** All three models have complete test accounting and reproducible
 metrics from saved predictions.
+
+**Status: complete (2026-10-29).**
+[`evaluate_finetune.py`](../scripts/evaluate_finetune.py) now builds the thirty
+audited D prompts without opening test gold, loads M0 or the selected M1/M2
+checkpoint with the common NF4 policy, greedily generates one paper at a time,
+and commits resumable `ExtractionResult` predictions. The runner strictly checks
+JSON, the merged field schemas and local references, then calls the existing
+evaluator and alignment helper. Primary corpus metrics always include all thirty
+papers: invalid or unscorable generations are explicitly reported and evaluated
+as empty predictions rather than omitted. A secondary aggregate covers only valid
+predictions accepted by the evaluator.
+
+Configuration is frozen in
+[`finetune_evaluation.yaml`](../configs/finetune_evaluation.yaml). Outputs go to
+`outputs/finetune/evaluation/{m0,m1,m2}` with per-paper raw responses,
+`ExtractionResult` predictions, reports, generation/scoring JSONL, full field
+metrics, and `comparison.json`/`comparison.md`. The comparison includes JSON and
+schema validity, facilities/samples/datasets F1, both reference F1 scores, generic
+metadata, generation resources, and full/selected training exposure. MLflow
+attachment is deliberately allowed only for a complete three-condition result;
+it reuses the finished M1/M2 runs and creates one evaluation-only M0 run.
+
+Run from the repository root in the Step 6 GPU environment. The process is
+resumable at paper boundaries and loads the three conditions sequentially:
+
+```bash
+source outputs/finetune/local_env.sh
+export PYTORCH_ALLOC_CONF=expandable_segments:True
+export TRITON_CACHE_DIR="$PWD/outputs/finetune/triton-cache"
+outputs/finetune/venv-gpu/bin/python scripts/evaluate_finetune.py \
+  --condition all --offline --attach-mlflow
+```
+
+To generate/score conditions as separate jobs, omit `--attach-mlflow` and use
+`--condition m0`, `m1`, or `m2`. After all three finish, build the comparison and
+attach it without loading model weights:
+
+```bash
+outputs/finetune/venv-gpu/bin/python scripts/evaluate_finetune.py --condition all --compare-only
+outputs/finetune/venv-gpu/bin/python scripts/evaluate_finetune.py \
+  --condition all --score-only --offline --attach-mlflow
+```
+
+`--score-only` never loads a model and requires complete cached generation for
+all selected conditions. The full CPU regression suite passes **93 tests**, including
+all thirty frozen gold schema/reference checks, test-prompt reconstruction with
+test-gold reads blocked, all-paper failure accounting, comparison consistency,
+and existing training/tracking checks.
+
+The production run completed all **90 generations** (30 papers × M0/M1/M2), with
+no generation exception, output-limit failure or scoring fallback. All three
+conditions produced valid JSON for every paper. M0 and M1 were full-schema valid
+on 28/30 papers; M2 was full-schema valid on 0/30 because it systematically
+omitted `sample_refs` and `facility_refs` from every predicted dataset.
+
+M1 is the strongest usable adapter: versus M0, samples F1 rose from 0.640 to
+0.765, datasets from 0.541 to 0.800, sample-reference F1 from 0.743 to 0.795,
+facility-reference F1 from 0.700 to 0.734, and the generic macro from 0.897 to
+0.909; facilities declined from 0.753 to 0.718. M2 reached 0.752 samples F1,
+0.790 datasets F1 and 0.923 generic macro, but both reference F1 scores were zero
+because of the missing fields, so it does not satisfy one-call full-schema
+extraction. Mean generation latency was 77.5 seconds for M0 and about 143 seconds
+for each adapter.
+
+All three MLflow runs are `FINISHED` and contain 62 test metrics plus prediction,
+report, evaluator and comparison artifacts. The complete audit and interpretation
+are in [`finetune_step7_report.md`](finetune_step7_report.md). Neither selected
+checkpoint nor any training setting was changed after evaluation.
 
 ## Interpretation and later work
 

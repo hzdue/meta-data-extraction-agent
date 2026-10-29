@@ -23,6 +23,8 @@ def main(argv=None):
     parser.add_argument("--max-steps", type=int, help="Explicit finite override, e.g. for a server smoke run")
     parser.add_argument("--output-dir", type=str)
     parser.add_argument("--resume-from-checkpoint", type=Path)
+    parser.add_argument("--stop-after-step", type=int, help="Stop after a committed checkpoint; preserve max_steps for resume")
+    parser.add_argument("--smoke", action="store_true", help="Mark an integrated smoke run separately from comparisons")
     args = parser.parse_args(argv)
     try:
         if args.dry_run and args.resume_from_checkpoint:
@@ -57,7 +59,8 @@ def main(argv=None):
         else:
             resume = (ROOT / args.resume_from_checkpoint).resolve() if args.resume_from_checkpoint else None
             print(json.dumps(run_training(ROOT, config, tokenizer, records, summary, architecture,
-                                          preparation, validation=validation, offline=args.offline, resume=resume), indent=2))
+                                          preparation, validation=validation, offline=args.offline, resume=resume,
+                                          stop_after_step=args.stop_after_step, smoke=args.smoke), indent=2))
     except (ValueError, OSError, KeyError) as exc:
         print(f"Fine-tuning failed: {exc}", file=sys.stderr)
         return 1

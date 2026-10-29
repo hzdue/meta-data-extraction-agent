@@ -34,7 +34,7 @@ def bounded_cpu_threads():
 def config(**overrides):
     values = read_config(ROOT / "configs/finetune_json_only.yaml").model_dump()
     values.update(max_steps=4, save_steps=2, validation_steps=2, validation_max_new_tokens=4,
-                  gradient_accumulation_steps=2,
+                  gradient_accumulation_steps=2, load_in_4bit=False,
                   max_seq_length=128, lora_rank=2, lora_alpha=4)
     values.update(overrides)
     return TrainingConfig.model_validate(values)
@@ -77,7 +77,8 @@ def test_only_method_and_output_differ_between_configs():
     first = read_config(ROOT / "configs/finetune_json_only.yaml").model_dump()
     second = read_config(ROOT / "configs/finetune_structure_aware.yaml").model_dump()
     assert {k for k in first if first[k] != second[k]} == {"method", "output_dir"}
-    assert first["max_steps"] is None  # No arbitrary duration for comparative runs.
+    assert first["max_steps"] == 18  # User-approved matched pilot budget.
+    assert first["save_steps"] == first["validation_steps"] == 6
 
 
 @pytest.mark.parametrize("field,value", [("max_steps", 0), ("packing", True), ("dtype", "float16"),

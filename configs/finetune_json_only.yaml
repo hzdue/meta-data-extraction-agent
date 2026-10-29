@@ -5,10 +5,10 @@ prepared_dir: data/finetune/prepared
 tracking_config: configs/finetune_tracking.yaml
 output_dir: outputs/finetune/json_only_seed42
 seed: 42
-# Set the same finite cap for both methods after the server feasibility check.
-max_steps: null
-save_steps: 10
-validation_steps: 10
+# User-approved matched update budget; launch after all Step 6 checks pass.
+max_steps: 18
+save_steps: 6
+validation_steps: 6
 validation_max_new_tokens: 16384
 learning_rate: 0.0001
 lr_scheduler_type: constant
@@ -17,9 +17,12 @@ max_grad_norm: 1.0
 microbatch_size: 1
 gradient_accumulation_steps: 4
 gradient_checkpointing: true
+offload_activations: true
+mlp_chunk_size: 2048
 packing: false
 max_seq_length: 65536
 dtype: bfloat16
+load_in_4bit: true
 attn_implementation: sdpa
 lora_rank: 16
 lora_alpha: 32

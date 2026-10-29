@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from contextlib import nullcontext
-from importlib.metadata import version
+from importlib.metadata import PackageNotFoundError, version
 import json
 from pathlib import Path
 import re
@@ -10,12 +10,13 @@ import subprocess
 import sys
 
 from datasets import Dataset
-from peft import LoraConfig, PeftModel, TaskType, get_peft_model
+from peft import LoraConfig, PeftModel, TaskType, get_peft_model, prepare_model_for_kbit_training
 import torch
-from transformers import AutoConfig, Qwen3_5ForConditionalGeneration, set_seed
+from transformers import AutoConfig, BitsAndBytesConfig, Qwen3_5ForConditionalGeneration, TrainerCallback, set_seed
 from trl import SFTConfig, SFTTrainer
 
 from .training_data import AnswerCollator, TrainingConfig, file_hash
+from .memory import chunk_text_mlps
 from .validation import ValidationCallback, write_json
 
 
@@ -61,6 +62,8 @@ def inspect_model(preparation: dict, *, offline: bool) -> dict:
 
 
 def attach_lora(model, config: TrainingConfig, preparation: dict):
+    if bool(getattr(model, "is_loaded_in_4bit", False)) != config.load_in_4bit:
+        raise ValueError("Base quantization differs from the training configuration")
     targets = language_targets(model)
     adapter = LoraConfig(
         task_type=TaskType.CAUSAL_LM, r=config.lora_rank, lora_alpha=config.lora_alpha,
@@ -76,22 +79,61 @@ def attach_lora(model, config: TrainingConfig, preparation: dict):
         raise ValueError("Only language-layer LoRA weights may be trainable")
     model.config.use_cache = False
     model.config.text_config.use_cache = False
+    chunk_text_mlps(model, config.mlp_chunk_size)
     return model
 
 
 def load_base(preparation: dict, config: TrainingConfig, *, offline=False):
-    return Qwen3_5ForConditionalGeneration.from_pretrained(
+    options = {}
+    if config.load_in_4bit:
+        options = {"quantization_config": BitsAndBytesConfig(
+            load_in_4bit=True, bnb_4bit_quant_type="nf4", bnb_4bit_use_double_quant=True,
+            bnb_4bit_compute_dtype=torch.bfloat16), "device_map": {"": 0}}
+    model = Qwen3_5ForConditionalGeneration.from_pretrained(
         preparation["model_id"], revision=preparation["revision"], trust_remote_code=False,
         local_files_only=offline, dtype=torch.bfloat16,
         attn_implementation=config.attn_implementation,
+        **options,
     )
+    if config.load_in_4bit:
+        model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=True,
+                                               gradient_checkpointing_kwargs={"use_reentrant": False})
+        # Retain FP32 stability parameters, but avoid an FP32 copy of the large
+        # frozen vocabulary matrix. Apply identically for training and reload.
+        for module in (model.get_input_embeddings(), model.get_output_embeddings()):
+            module.to(dtype=torch.bfloat16)
+    return model
 
 
-def reload_adapter(base_model, path: Path, preparation: dict, *, trainable=False):
+def reload_adapter(base_model, path: Path, preparation: dict, *, trainable=False, config: TrainingConfig | None = None):
+    precision_file = path / "inference_precision.json"
+    if config is not None and not precision_file.is_file():
+        raise ValueError("Adapter is missing its inference precision contract")
+    if precision_file.exists():
+        precision = json.loads(precision_file.read_text(encoding="utf-8"))
+        quantized = bool(getattr(base_model, "is_loaded_in_4bit", False))
+        if quantized != (precision["base"] == "nf4_double_quant"):
+            raise ValueError("Adapter/base inference precision mismatch")
+        if config is not None and precision != config.precision_policy():
+            raise ValueError("Adapter/config inference precision mismatch")
     saved = json.loads((path / "adapter_config.json").read_text(encoding="utf-8"))
     if (saved["base_model_name_or_path"], saved["revision"]) != (preparation["model_id"], preparation["revision"]):
         raise ValueError("Adapter base model/revision mismatch")
-    return PeftModel.from_pretrained(base_model, str(path), is_trainable=trainable)
+    model = PeftModel.from_pretrained(base_model, str(path), is_trainable=trainable)
+    if config is not None:
+        chunk_text_mlps(model, config.mlp_chunk_size)
+    return model
+
+
+class StopAfterCheckpoint(TrainerCallback):
+    """A controlled interruption after a fully committed validation checkpoint."""
+    def __init__(self, step: int):
+        self.step = step
+
+    def on_save(self, args, state, control, **kwargs):
+        if state.global_step >= self.step:
+            control.should_training_stop = True
+        return control
 
 
 class PilotTrainer(SFTTrainer):
@@ -100,6 +142,8 @@ class PilotTrainer(SFTTrainer):
         self.exposure = {"examples": {}, "supervised_tokens": {}, "total_tokens": {}}
         self.validation = None
         self.tracking = None
+        self.offload_activations = False
+        self.inference_precision = None
         super().__init__(*args, **kwargs)
         # SFT computes summed token loss divided by all target tokens in the
         # accumulation window. Ask Trainer to count those tokens even though the
@@ -115,7 +159,12 @@ class PilotTrainer(SFTTrainer):
     def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
         inputs = dict(inputs)
         tasks = inputs.pop("tasks")
-        result = super().compute_loss(model, inputs, return_outputs, num_items_in_batch)
+        # Saved tensors are copied back to their original device by autograd.
+        # Keep TRL's fused answer loss and accumulation-window token weighting.
+        offload = (torch.autograd.graph.save_on_cpu(pin_memory=self.args.device.type == "cuda")
+                   if self.offload_activations and model.training and torch.is_grad_enabled() else nullcontext())
+        with offload:
+            result = super().compute_loss(model, inputs, return_outputs, num_items_in_batch)
         if model.training:
             for i, task in enumerate(tasks):
                 values = {"examples": 1,
@@ -132,6 +181,11 @@ class PilotTrainer(SFTTrainer):
             write_json(path / "exposure.json", {"global_step": self.state.global_step, **self.exposure})
             if self.validation is not None:
                 write_json(path / "validation_state.json", self.validation.state_dict())
+
+    def save_model(self, output_dir=None, _internal_call=False):
+        super().save_model(output_dir, _internal_call=_internal_call)
+        if self.is_world_process_zero() and self.inference_precision is not None:
+            write_json(Path(output_dir or self.args.output_dir) / "inference_precision.json", self.inference_precision)
 
     def train(self, resume_from_checkpoint=None, *args, **kwargs):
         if resume_from_checkpoint:
@@ -175,6 +229,8 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
         data_collator=AnswerCollator(tokenizer.pad_token_id, config.max_seq_length),
         callbacks=callbacks,
     )
+    trainer.offload_activations = config.offload_activations
+    trainer.inference_precision = config.precision_policy()
     if trainer.args.world_size != 1 or trainer.args.n_gpu > 1:
         raise ValueError("This pilot trainer currently requires one process and one visible GPU")
     if validation is not None:
@@ -194,6 +250,7 @@ def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture
     files = ["pyproject.toml", "uv.lock", "scripts/run_finetune.py",
              "src/meta_data_extraction/finetune/training.py",
              "src/meta_data_extraction/finetune/training_data.py",
+             "src/meta_data_extraction/finetune/memory.py",
              "src/meta_data_extraction/finetune/validation.py",
              "src/meta_data_extraction/finetune/tracking.py", config.tracking_config,
              "src/meta_data_extraction/evaluation.py", "src/meta_data_extraction/alignment.py",
@@ -206,13 +263,20 @@ def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture
     prepared = json.loads((root / config.prepared_dir / "preparation_manifest.json").read_text(encoding="utf-8"))
     split = json.loads((root / prepared["config"]["split_manifest"]).read_text(encoding="utf-8"))
     parsers = {json.dumps(p["parser"], sort_keys=True) for p in prepared["papers"]}
-    return {"config": config.model_dump(), "data": summary, "architecture": architecture,
+    optional_versions = {}
+    for package in ("bitsandbytes", "flash-linear-attention", "fla-core", "einops", "causal-conv1d"):
+        try:
+            optional_versions[package] = version(package)
+        except PackageNotFoundError:
+            optional_versions[package] = None
+    return {"config": config.model_dump(), "inference_precision": config.precision_policy(),
+            "data": summary, "architecture": architecture,
             "preparation": {"inputs": prepared["inputs"], "config": prepared["config"],
                             "runtime": prepared["runtime"], "parsers": [json.loads(p) for p in sorted(parsers)]},
             "split": {key: split[key] for key in ("train", "validation", "test")},
             "code": {"commit": git("rev-parse", "HEAD"), "dirty": bool(git("status", "--porcelain"))},
             "sources": {p: file_hash(root / p) for p in files},
-            "runtime": {"python": sys.version.split()[0],
+            "runtime": {"python": sys.version.split()[0], **optional_versions,
                         **{p: version(p) for p in ("torch", "transformers", "tokenizers", "peft", "trl", "accelerate", "mlflow")}}}
 
 
@@ -230,7 +294,8 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
     if not manifest.exists() or json.loads(manifest.read_text(encoding="utf-8")) != contract:
         raise ValueError("Resume configuration/data/code/runtime differs from the saved run")
     required = ("adapter_config.json", "adapter_model.safetensors", "trainer_state.json",
-                "optimizer.pt", "scheduler.pt", "rng_state.pth", "exposure.json", "validation_state.json")
+                "optimizer.pt", "scheduler.pt", "rng_state.pth", "exposure.json", "validation_state.json",
+                "inference_precision.json")
     for name in required:
         if not (resume / name).is_file():
             raise ValueError(f"Incomplete checkpoint: {name}")
@@ -247,11 +312,15 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
 
 
 def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary, architecture,
-                 preparation: dict, *, validation, offline=False, resume: Path | None = None):
+                 preparation: dict, *, validation, offline=False, resume: Path | None = None,
+                 stop_after_step: int | None = None, smoke: bool = False):
     from .tracking import RunTracker, read_tracking_config
 
     if config.max_steps is None:
         raise ValueError("Set max_steps in both configs after the hardware check, or pass --max-steps for a smoke run")
+    if stop_after_step is not None and (stop_after_step <= 0 or stop_after_step >= config.max_steps
+                                       or stop_after_step % config.save_steps):
+        raise ValueError("stop_after_step must be a checkpoint boundary before max_steps")
     if validation is None:
         raise ValueError("Server training requires the held-out validation examples")
     if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported(including_emulation=False):
@@ -262,13 +331,19 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     set_seed(config.seed)
     output = (root / config.output_dir).resolve()
     contract = run_contract(root, config, summary, architecture)
+    contract["phase"] = "smoke" if smoke else "comparison"
     prepare_output(output, contract, resume)
     tracker = RunTracker.start(tracking_settings, output, contract, method=config.method, resume=resume is not None)
+    tracker.client.set_tag(tracker.run_id, "finetune.phase", contract["phase"])
+    if smoke:
+        tracker.client.set_tag(tracker.run_id, "mlflow.runName", f"smoke_{config.method}_integrated")
     trainer = None
     try:
         set_seed(config.seed)
         model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
         trainer = build_trainer(model, tokenizer, records, config, output, validation=validation, tracking=tracker)
+        if stop_after_step is not None:
+            trainer.add_callback(StopAfterCheckpoint(stop_after_step))
         tracker.client.log_dict(tracker.run_id, {"gpu": torch.cuda.get_device_name(),
                                 "cuda_runtime": torch.version.cuda,
                                 "device_total_bytes": torch.cuda.get_device_properties(0).total_memory},

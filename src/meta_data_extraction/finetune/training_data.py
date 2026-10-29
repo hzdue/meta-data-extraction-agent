@@ -33,13 +33,22 @@ class TrainingConfig(BaseModel):
     microbatch_size: Literal[1] = 1
     gradient_accumulation_steps: PositiveInt = 4
     gradient_checkpointing: Literal[True] = True
+    offload_activations: bool = False
+    mlp_chunk_size: int = Field(default=0, ge=0)
     packing: Literal[False] = False
     max_seq_length: PositiveInt = 65536
     dtype: Literal["bfloat16"] = "bfloat16"
+    load_in_4bit: bool = False
     attn_implementation: Literal["sdpa", "eager"] = "sdpa"
     lora_rank: PositiveInt = 16
     lora_alpha: PositiveInt = 32
     lora_dropout: float = Field(default=0.05, ge=0, lt=1)
+
+    def precision_policy(self) -> dict:
+        """Shared baseline, adapter validation and deployment precision."""
+        return {"base": "nf4_double_quant" if self.load_in_4bit else "bfloat16",
+                "compute": "bfloat16", "frozen_embeddings": "bfloat16",
+                "nonquantized_stability_parameters": "float32" if self.load_in_4bit else "bfloat16"}
 
     @model_validator(mode="after")
     def matching_checkpoint_interval(self):

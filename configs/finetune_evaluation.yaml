@@ -1,0 +1,15 @@
+version: "1.0.0"
+prepare_config: configs/finetune_prepare.yaml
+json_only_config: configs/finetune_json_only.yaml
+structure_aware_config: configs/finetune_structure_aware.yaml
+metrics_config: configs/evaluation_metrics.yaml
+alignment_config: configs/alignment_helper.yaml
+output_dir: outputs/finetune/evaluation
+base_run_dir: outputs/finetune/base_evaluation
+domain_name: photon_and_neutron
+seed: 42
+max_seq_length: 65536
+max_new_tokens: 16384
+enable_thinking: false
+decoding: greedy
+
