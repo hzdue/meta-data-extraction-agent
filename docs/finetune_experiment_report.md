@@ -2,20 +2,61 @@
 
 ## Executive summary
 
-We compared two LoRA fine-tuning strategies for one-call metadata extraction from
-scientific papers:
+This pilot tested whether a 4-billion-parameter model could be adapted on one
+16 GB GPU for one-call metadata extraction from scientific papers. The model was
+`Qwen/Qwen3.5-4B`; training used QLoRA because full-BF16 LoRA did not fit the
+longest examples. The frozen data split contained eight training papers, two
+validation papers and thirty held-out test papers.
 
-- **M0 — Base:** unmodified `Qwen/Qwen3.5-4B`.
-- **M1 — JSON-only:** trained only to produce the complete target JSON.
-- **M2 — Structure-aware:** trained on complete JSON plus separate entity and
-  reference tasks.
+### Experiments at a glance
 
-Both adapters improved sample and dataset recovery on the thirty-paper held-out
-test set. **M1 was the strongest usable model overall:** dataset F1 increased from
-0.541 to 0.800 and sample F1 from 0.640 to 0.765, while both reference metrics
-also improved. M2 achieved similarly strong entity extraction and the highest
-generic-metadata score, but it omitted both dataset reference fields on every
-test paper. It therefore failed the required full-schema output contract.
+| Stage | What was compared | Scale | Main purpose and outcome |
+|---|---|---:|---|
+| Original pilot | M0 base model, M1 complete-JSON training, and M2 complete JSON plus entity/reference tasks | Two adapters, seed 42, 18 updates each | M1 was the strongest usable model; M2 learned entities but systematically omitted both dataset-reference fields. |
+| Controlled ablation | Eight D/E/R/P task mixtures with matched-D and fixed-update controls | 24 runs: 8 conditions × 3 seeds | Adequate complete-JSON exposure and explicit reference supervision repaired the omission; the original D8/E8/R8 allocation remained weakest. |
+| Development evaluation | Fixed endpoints for D24, D24+R8, D24+E8+R8 and D24+P8 | 12 adapters × 30 papers = 360 generations | Every output was valid JSON and retained both reference fields; no revised method dominated all metrics. |
+
+Here, D is complete-JSON supervision, E is entity-only supervision, R is the
+original reference task, and P is a reference-only target shaped like the final
+JSON. All production and ablation training used the same QLoRA, LoRA rank 16,
+learning rate `1e-4`, microbatch 1 and four-step gradient accumulation unless the
+declared task schedule required a different number of optimizer updates.
+
+### Main results
+
+- **M1 is the preferred model from the original held-out pilot.** Relative to M0,
+  it increased sample F1 from 0.640 to 0.765, dataset F1 from 0.541 to 0.800,
+  sample-reference F1 from 0.743 to 0.795 and facility-reference F1 from 0.700
+  to 0.734. It preserved the full schema on 28/30 papers, although facilities F1
+  decreased from 0.753 to 0.718 and inference was about 1.85 times slower.
+- **The original M2 is not usable for full-schema extraction.** It achieved
+  sample F1 0.752, dataset F1 0.790 and the best generic-metadata score (0.923),
+  but omitted `sample_refs` and `facility_refs` on all thirty test papers, giving
+  0/30 full-schema outputs and zero F1 for both reference fields.
+- **The ablations indicate that M2's problem was the training allocation, not an
+  inherently invalid reference task.** At M2's selected checkpoint, it had seen
+  only eight complete-JSON examples versus M1's 24. D24+R8 and D24+P8 preserved
+  both reference fields in all six two-paper/three-seed outputs, whereas the
+  original D8+E8+R8 allocation preserved them in only 2/6 outputs.
+- **The thirty-paper development evaluation confirmed that the revised mixtures
+  repair the structural failure.** All 360 generations were valid JSON and kept
+  both reference fields; 337/360 were fully schema valid, with the remaining
+  failures caused only by null funding grant IDs.
+- **The revised methods make different trade-offs.** D24 was best for samples,
+  datasets and sample references. D24+R8 was the best-balanced structure-aware
+  candidate, improving facility and facility-reference performance and reducing
+  seed variability at the cost of some sample-side quality. D24+E8+R8 emphasized
+  facilities and generic metadata. D24+P8 showed no clear advantage over D24+R8.
+
+### Decision
+
+Keep **M1** as the preferred pilot model because it won the original predeclared
+held-out comparison. Treat **D24+R8** as the leading structure-aware research
+candidate when facility and relationship robustness matter, and retain D-only
+when sample/dataset recovery is the priority. The ablation and 360-generation
+follow-up are exploratory because those thirty papers had already influenced the
+experiment design; choosing a new winner requires a newly collected independent
+test set.
 
 ## 1. Experimental design
 
@@ -254,28 +295,174 @@ IDs; neither showed M2's structural reference failure.
    training, resume, validation and adapter reload.
 4. **Equal optimizer updates are not equal supervision.** M2 traded complete-JSON
    exposure for auxiliary tasks, which materially affected the output structure.
+5. **Rebalanced structure-aware training repairs the missing-reference failure,**
+   but the completed development evaluation does not show a general improvement
+   over D-only or M1.
 
-## 6. Limitations and future work
+## 6. Exploratory controlled ablation matrix
 
-- Only one training seed was used.
-- Checkpoint selection used two validation papers.
+We ran the frozen eight-condition matrix with seeds 42, 123 and 456: **24/24
+runs completed**, with no generation exception or output-limit failure. Analysis
+uses each run's predeclared fixed-exposure endpoint rather than substituting the
+selected base checkpoint. This matters because the lexicographic selection rule
+chose the trained endpoint in only 14/24 runs and was often influenced by
+unrelated null funding IDs.
+
+The scope is deliberately limited to the two validation papers. The previously
+evaluated thirty-paper test set was not used.
+
+| Condition | Exposure | Endpoint selected | Full schema | Reference fields present | Reference F1 | Datasets F1 | Validation NLL |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| D only | D24 | 1/3 | 1/6 | 6/6 | 0.917 ± 0.000 | 0.726 ± 0.049 | 0.0575 ± 0.0002 |
+| Matched-D DE | D24+E8 | 1/3 | 2/6 | 5/6 | 0.694 ± 0.255 | 0.715 ± 0.068 | 0.0567 ± 0.0003 |
+| Matched-D DR | D24+R8 | 2/3 | 2/6 | 6/6 | 0.972 ± 0.048 | 0.666 ± 0.095 | 0.0562 ± 0.0009 |
+| Matched-D DER | D24+E8+R8 | 2/3 | 2/6 | 6/6 | 0.944 ± 0.048 | 0.693 ± 0.054 | 0.0563 ± 0.0005 |
+| Fixed-update DE | D12+E12 | 2/3 | 4/6 | 4/6 | 0.583 ± 0.382 | 0.677 ± 0.000 | 0.0581 ± 0.0012 |
+| Fixed-update DR | D12+R12 | 2/3 | 3/6 | 6/6 | 0.969 ± 0.053 | 0.695 ± 0.053 | 0.0580 ± 0.0005 |
+| Fixed-update DER | D8+E8+R8 | 1/3 | 1/6 | 2/6 | 0.333 ± 0.289 | 0.694 ± 0.029 | 0.0601 ± 0.0015 |
+| Matched-D DRP | D24+P8 | 3/3 | 3/6 | 6/6 | 0.972 ± 0.048 | 0.703 ± 0.045 | 0.0561 ± 0.0007 |
+
+Values are mean ± sample standard deviation over three seeds. Full-schema counts
+cover six endpoint outputs per condition. “Reference fields present” separates
+the original M2 failure from unrelated schema errors. Reference F1 is the
+selection-compatible macro across both fields and papers; undefined scores count
+as zero.
+
+### Interpretation
+
+- **The original R task works when D exposure is adequate.** D24+R8 preserved
+  both reference fields in 6/6 outputs and reached reference F1 0.972. Adding E
+  while retaining D24+R8 remained structurally complete with reference F1 0.944.
+- **P was stable but not clearly superior to R.** D24+P8 selected its endpoint in
+  all three seeds and reached 6/6 reference completeness and reference F1 0.972,
+  exactly matching D24+R8 on the latter two measures. Its paired dataset-F1
+  advantage over D24+R8 was 0.037, based on only two papers.
+- **E without sufficient reference counter-supervision was unstable.** D24+E8
+  fell to reference F1 0.694, while D12+E12 fell to 0.583; both had missing
+  reference fields in at least one endpoint output.
+- **The original fixed-budget mixture reproduced the failure mechanism.**
+  D8+E8+R8 preserved reference fields in only 2/6 outputs and had the lowest
+  reference F1 (0.333) and highest validation NLL (0.0601). In contrast,
+  D12+R12 remained complete in 6/6 outputs with reference F1 0.969.
+- Facilities F1 (0.929) and samples F1 (1.000) were identical across every
+  endpoint condition on these two papers, so they provide no useful separation.
+
+Across all 48 endpoint outputs, 48 were valid JSON, 41 retained all required
+reference fields, and 18 were fully schema valid. The schema failures included
+54 null `funding[].grant_id` entries and 70 missing reference-field errors (35
+for each field). Missing-reference errors occurred only in DE and fixed-budget
+DER conditions; R-, P- and D-only endpoints retained the reference structure.
+
+Mean runtime ranged from 18.1 to 31.3 minutes per run. Every condition used about
+11.46 GiB peak allocated VRAM. Fixed-update conditions consumed similar total
+tokens but substantially different supervised-token counts, so they are matched
+controls for update/example budget rather than literal training signal.
+
+The exploratory evidence supports **insufficient D exposure plus interference
+from E** as the best current explanation for M2's reference omission. R can
+counter that pressure, and changing R to P is not necessary to recover reference
+fields in this tiny validation set. These findings should guide a future study;
+they do not replace evaluation on a newly collected independent test set.
+
+### Thirty-paper exploratory development evaluation
+
+We then evaluated the fixed endpoints of D24, D24+R8, D24+E8+R8 and D24+P8 for
+all three seeds on the thirty Step 7 papers: **12 adapters and 360 generations**.
+The checkpoints, shortlist and metrics were frozen before this evaluation. These
+papers are nevertheless development data—not an independent test—because their
+earlier M0/M1/M2 results influenced the follow-up design.
+
+All 360 generations completed successfully:
+
+- 360/360 valid JSON;
+- 360/360 retained both `sample_refs` and `facility_refs`;
+- no generation exception, output-limit failure or scoring fallback;
+- 337/360 full-schema valid outputs; every remaining schema error was a null
+  `funding[].grant_id`, not a missing reference field.
+
+| Fixed endpoint | Full schema | Facilities F1 | Samples F1 | Datasets F1 | Sample refs F1 | Facility refs F1 | Generic metadata | Latency/paper |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| D24 | 29.0 ± 0.0 / 30 | 0.691 ± 0.077 | **0.786 ± 0.007** | **0.789 ± 0.019** | **0.814 ± 0.023** | 0.725 ± 0.088 | 0.914 ± 0.014 | 145.3 ± 1.2 s |
+| D24+R8 | 27.7 ± 0.6 / 30 | 0.764 ± 0.015 | 0.738 ± 0.007 | 0.771 ± 0.021 | 0.755 ± 0.011 | 0.770 ± 0.026 | 0.921 ± 0.013 | 141.9 ± 2.9 s |
+| D24+E8+R8 | 27.7 ± 0.6 / 30 | **0.785 ± 0.019** | 0.702 ± 0.030 | 0.769 ± 0.023 | 0.732 ± 0.021 | **0.778 ± 0.034** | **0.924 ± 0.024** | **137.4 ± 2.0 s** |
+| D24+P8 | 28.0 ± 1.0 / 30 | 0.752 ± 0.016 | 0.732 ± 0.029 | 0.745 ± 0.039 | 0.760 ± 0.023 | 0.775 ± 0.031 | 0.922 ± 0.015 | 143.6 ± 6.3 s |
+
+Values are mean ± sample standard deviation across seeds 42, 123 and 456.
+Entity and reference values are pooled evaluator F1 within each run, then
+summarized across seeds. Full-schema counts are per run.
+
+The development evaluation changes and sharpens the two-paper interpretation:
+
+- **The structural problem is repaired.** Every revised fixed endpoint retained
+  reference fields on all thirty papers and all three seeds, unlike original M2's
+  0/30 full-schema result caused by systematic reference omission.
+- **D-only remains the strongest sample-side configuration.** It led samples,
+  datasets and sample-reference F1 and had the best full-schema rate. Its weakness
+  was facilities and facility references, especially seed 456.
+- **D+R is the best-balanced structure-aware variant.** Relative to D-only it
+  raised facilities by 0.073 and facility-reference F1 by 0.045, while lowering
+  samples by 0.049, datasets by 0.018 and sample-reference F1 by 0.059. Its simple
+  five-field macro was 0.760 versus 0.761 for D-only, effectively the same at this
+  descriptive level.
+- **E shifts performance toward facilities, not a uniform improvement.** D+E+R
+  had the best facilities, facility-reference and generic-metadata means, but the
+  lowest samples and sample-reference scores among the three structure-aware
+  variants. Thus E no longer destroys structure when D and R are preserved, but
+  it changes what the model prioritizes.
+- **P does not outperform R.** D+P was slightly higher than D+R on both reference
+  means, but lower on facilities, samples and datasets and more variable for
+  datasets and latency. The final-shaped target is viable but not necessary.
+- **Structure-aware training improved seed stability for facility behavior.**
+  D-only facilities ranged from 0.608 to 0.759 and facility-reference F1 from
+  0.623 to 0.778. The R/E/P variants had substantially smaller standard
+  deviations for those measures.
+
+For historical context, one-seed M1 scored facilities 0.718, samples 0.765,
+datasets 0.800, sample references 0.795 and facility references 0.734. The
+five-field balance of M1, three-seed D-only and D+R is very similar, but they make
+different trade-offs. M1 remains the preferred pilot choice because it was the
+predeclared winner of the original held-out comparison; this reused-corpus
+analysis should not be used to retroactively replace it.
+
+The practical research candidate is **D24+R8** when facility and relationship
+robustness matter, while D-only remains preferable when sample/dataset recovery
+is the priority. D24+E8+R8 is worth considering only when facilities and generic
+metadata are explicitly more important. A newly collected independent test set
+is required before selecting among them for a confirmatory claim.
+
+## 7. Limitations and future work
+
+- The original M0/M1/M2 comparison used one seed; the exploratory ablation used
+  three seeds.
+- Checkpoint selection and the exploratory ablation used only two validation papers.
+- The thirty-paper follow-up is a reused development evaluation: the corpus had
+  already influenced method design, so its uncertainty is not independent.
 - M1 and M2 had unequal task and supervised-token exposure.
 - The broader project had previously used this benchmark, so it is not equivalent
   to a newly collected external benchmark.
 - Test results must not be used to revise the reported checkpoints.
 
-A future structure-aware experiment could preserve M1's D exposure, increase D
-weighting, or make the R representation match the final dataset structure. Such
-changes require a new development protocol and an independent test set; they
-should not be tuned against these thirty evaluated papers.
+The controlled matrix suggests preserving D exposure and avoiding an E-heavy
+mixture unless explicit reference supervision is retained. A confirmatory study
+requires a larger development set and a newly collected independent test set; it
+must not be tuned against the thirty previously evaluated papers.
 
-## 7. Reproducibility and artifacts
+## 8. Reproducibility and artifacts
 
 - Workflow and status: [`finetune_plan.md`](finetune_plan.md)
 - Hardware and training details: [`finetune_step6_report.md`](finetune_step6_report.md)
 - Held-out evaluation audit: [`finetune_step7_report.md`](finetune_step7_report.md)
 - Reproducible post-hoc audit: `scripts/analyze_finetune_results.py`
 - Post-hoc audit data: `outputs/finetune/evaluation/m1_audit.json`
+- Reproducible ablation aggregate: `scripts/analyze_finetune_ablation.py`
+- Ablation aggregate data: `outputs/finetune/ablations/analysis.json`
+- Ablation aggregate tables: `outputs/finetune/ablations/analysis.md`
+- Ablation development-evaluation runner: `scripts/evaluate_finetune_ablation.py`
+- Frozen development-evaluation configuration:
+  `configs/finetune_ablation_evaluation.yaml`
+- Twelve-run comparison: `outputs/finetune/ablation-development-evaluation/comparison.json`
+- Human-readable comparison:
+  `outputs/finetune/ablation-development-evaluation/comparison.md`
 - Frozen evaluation configuration: `configs/finetune_evaluation.yaml`
 - Selected M1 checkpoint: `outputs/finetune/json_only_seed42/checkpoint-6`
 - Selected M2 checkpoint: `outputs/finetune/structure_aware_seed42/checkpoint-6`

@@ -144,7 +144,8 @@ def test_scoring_keeps_all_30_papers_and_penalizes_invalid_generation(tmp_path):
     cfg = config()
     output = tmp_path / "m0"
     _write_generation_fixture(output, cfg, one_invalid=True)
-    metrics = score_condition(ROOT, cfg, "m0", output)
+    metrics = score_condition(ROOT, cfg, "ablation_fixture_seed42", output)
+    assert metrics["method"] == "ablation_fixed_endpoint"
     assert metrics["all_papers"]["n_papers"] == 30
     assert metrics["valid_predictions_only"]["n_papers"] == 29
     assert metrics["summary"]["papers_json_valid"] == 29

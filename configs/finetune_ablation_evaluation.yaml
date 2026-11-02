@@ -1,0 +1,13 @@
+version: "1.0.0"
+evaluation_config: configs/finetune_evaluation.yaml
+ablation_config: configs/finetune_ablation.yaml
+output_dir: outputs/finetune/ablation-development-evaluation
+corpus_role: exploratory_reused_step7_test_as_development
+endpoint_policy: fixed_exposure
+attach_mlflow: false
+conditions:
+  - d_only
+  - matched_d_dr
+  - matched_d_der
+  - matched_d_drp
+seeds: [42, 123, 456]

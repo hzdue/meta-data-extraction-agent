@@ -200,7 +200,8 @@ class PilotTrainer(SFTTrainer):
 
 
 def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *,
-                  validation=None, tracking=None, cpu=False, callbacks=None):
+                  validation=None, tracking=None, cpu=False, callbacks=None,
+                  selection_policy="loss"):
     if config.max_steps is None:
         raise ValueError("Set a finite max_steps after the server feasibility check")
     args = SFTConfig(
@@ -234,7 +235,8 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
     if trainer.args.world_size != 1 or trainer.args.n_gpu > 1:
         raise ValueError("This pilot trainer currently requires one process and one visible GPU")
     if validation is not None:
-        trainer.validation = ValidationCallback(trainer, validation, config)
+        trainer.validation = ValidationCallback(trainer, validation, config,
+                                                selection_policy=selection_policy)
         trainer.add_callback(trainer.validation)
     if tracking is not None:
         from .tracking import ResourceMeter, TrackingCallback
@@ -252,6 +254,7 @@ def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture
              "src/meta_data_extraction/finetune/training_data.py",
              "src/meta_data_extraction/finetune/memory.py",
              "src/meta_data_extraction/finetune/validation.py",
+             "src/meta_data_extraction/finetune/schema.py",
              "src/meta_data_extraction/finetune/tracking.py", config.tracking_config,
              "src/meta_data_extraction/evaluation.py", "src/meta_data_extraction/alignment.py",
              "src/meta_data_extraction/normalization.py", "src/meta_data_extraction/config_validation.py",
@@ -313,7 +316,8 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
 
 def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary, architecture,
                  preparation: dict, *, validation, offline=False, resume: Path | None = None,
-                 stop_after_step: int | None = None, smoke: bool = False):
+                 stop_after_step: int | None = None, smoke: bool = False,
+                 selection_policy="loss", experiment: dict | None = None):
     from .tracking import RunTracker, read_tracking_config
 
     if config.max_steps is None:
@@ -331,17 +335,25 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     set_seed(config.seed)
     output = (root / config.output_dir).resolve()
     contract = run_contract(root, config, summary, architecture)
-    contract["phase"] = "smoke" if smoke else "comparison"
+    contract["phase"] = "ablation" if experiment else ("smoke" if smoke else "comparison")
+    if experiment:
+        contract["ablation"] = experiment
     prepare_output(output, contract, resume)
     tracker = RunTracker.start(tracking_settings, output, contract, method=config.method, resume=resume is not None)
     tracker.client.set_tag(tracker.run_id, "finetune.phase", contract["phase"])
+    if experiment:
+        tracker.client.set_tag(tracker.run_id, "finetune.ablation_condition", experiment["condition"])
+        tracker.client.set_tag(tracker.run_id, "finetune.ablation_family", experiment["family"])
+        tracker.client.set_tag(tracker.run_id, "mlflow.runName",
+                               f"ablation_{experiment['condition']}_seed{config.seed}")
     if smoke:
         tracker.client.set_tag(tracker.run_id, "mlflow.runName", f"smoke_{config.method}_integrated")
     trainer = None
     try:
         set_seed(config.seed)
         model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
-        trainer = build_trainer(model, tokenizer, records, config, output, validation=validation, tracking=tracker)
+        trainer = build_trainer(model, tokenizer, records, config, output, validation=validation,
+                                tracking=tracker, selection_policy=selection_policy)
         if stop_after_step is not None:
             trainer.add_callback(StopAfterCheckpoint(stop_after_step))
         tracker.client.log_dict(tracker.run_id, {"gpu": torch.cuda.get_device_name(),
@@ -358,6 +370,7 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
             "global_step": trainer.state.global_step, "metrics": result.metrics,
             "exposure": trainer.exposure, "selection": selection, "mlflow_run_id": tracker.run_id,
             "trainable_parameters": sum(p.numel() for p in model.parameters() if p.requires_grad),
+            **({"ablation": experiment} if experiment else {}),
         })
     except BaseException as exc:
         try:

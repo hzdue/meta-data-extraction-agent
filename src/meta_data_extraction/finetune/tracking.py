@@ -192,7 +192,16 @@ class RunTracker:
         tokenizer = contract.get("data", {}).get("tokenizer", {})
         params.update({f"model.{k}": str(tokenizer[k]) for k in ("model_id", "revision") if k in tokenizer})
         params.update({f"runtime.{k}": str(v) for k, v in contract.get("runtime", {}).items()})
-        params["training_task_ratio"] = {"base": "none", "json_only": "D only", "structure_aware": "D:E:R=1:1:1 per pass"}[self.record["method"]]
+        if "ablation" in contract:
+            params["training_task_ratio"] = json.dumps(
+                contract["ablation"]["planned_exposure"], sort_keys=True)
+            params["ablation.condition"] = contract["ablation"]["condition"]
+            params["ablation.family"] = contract["ablation"]["family"]
+        else:
+            params["training_task_ratio"] = {
+                "base": "none", "json_only": "D only",
+                "structure_aware": "D:E:R=1:1:1 per pass",
+            }[self.record["method"]]
         params.update(decoding="greedy; thinking disabled", validation_weighting="equal per paper")
         if self.record["method"] != "base":
             params.update(optimizer="adamw_torch", warmup_steps="0")
@@ -239,6 +248,7 @@ class RunTracker:
                     prefix = f"validation/{diagnostic['paper_id']}"
                     values[f"{prefix}/generation_failure"] = int(diagnostic["status"] != "scored")
                     values[f"{prefix}/hit_output_limit"] = int(diagnostic["hit_output_limit"])
+                    values[f"{prefix}/schema_valid"] = int(diagnostic.get("schema_valid") is True)
                     for entity, f1 in (diagnostic["entity_f1"] or {}).items():
                         values[f"{prefix}/{entity}_f1"] = f1
                     for field, scores in (diagnostic["conditional_reference_f1"] or {}).items():
@@ -280,8 +290,12 @@ class RunTracker:
     def log_selection(self):
         selection = json.loads((self.output / "selection.json").read_text(encoding="utf-8"))
         last_step = json.loads((self.output / "validation_history.json").read_text(encoding="utf-8"))["history"][-1]["step"]
-        self.log_metrics({"selected/step": selection["step"], "selected/loss": selection["loss"],
-                          **exposure_metrics(selection["exposure"], "selected")}, last_step)
+        metrics = {"selected/step": selection["step"], "selected/loss": selection["loss"],
+                   **exposure_metrics(selection["exposure"], "selected")}
+        if "diagnostic_quality" in selection:
+            metrics.update({f"selected/{key}": value
+                            for key, value in selection["diagnostic_quality"].items()})
+        self.log_metrics(metrics, last_step)
         self.client.set_tag(self.run_id, "selected.kind", selection["kind"])
         self.client.set_tag(self.run_id, "selected.checkpoint", selection["checkpoint"] or "base")
         self.client.log_artifact(self.run_id, str(self.output / "selection.json"), "selected")

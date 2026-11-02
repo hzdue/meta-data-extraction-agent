@@ -1,0 +1,43 @@
+version: "1.0.0"
+base_training_config: configs/finetune_structure_aware.yaml
+output_root: outputs/finetune/ablations
+seeds: [42, 123, 456]
+selection_policy: schema_reference_loss
+independent_test_split: null
+allow_current_test_evaluation: false
+
+# D-only is shared by the matched-D and matched-compute families.
+conditions:
+  d_only:
+    family: shared_control
+    description: Complete-JSON control with the selected M1 D exposure.
+    exposures: {D: 24}
+  matched_d_de:
+    family: matched_d
+    description: Add entity supervision while holding D exposure at 24.
+    exposures: {D: 24, E: 8}
+  matched_d_dr:
+    family: matched_d
+    description: Add the original reference task while holding D exposure at 24.
+    exposures: {D: 24, R: 8}
+  matched_d_der:
+    family: matched_d
+    description: Add both original auxiliary tasks while holding D exposure at 24.
+    exposures: {D: 24, E: 8, R: 8}
+  matched_compute_de:
+    family: matched_compute
+    description: Split a fixed 24-example budget equally between D and E.
+    exposures: {D: 12, E: 12}
+  matched_compute_dr:
+    family: matched_compute
+    description: Split a fixed 24-example budget equally between D and R.
+    exposures: {D: 12, R: 12}
+  matched_compute_der:
+    family: matched_compute
+    description: Original M2 exposure under a fixed 24-example budget.
+    exposures: {D: 8, E: 8, R: 8}
+  matched_d_drp:
+    family: reference_redesign
+    description: Replace R with final-shaped dataset reference patches at matched D/R exposure.
+    exposures: {D: 24, P: 8}
+

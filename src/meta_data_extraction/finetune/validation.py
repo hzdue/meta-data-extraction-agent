@@ -15,6 +15,7 @@ from transformers import GenerationConfig, Trainer, TrainerCallback
 
 from meta_data_extraction.evaluation import evaluate
 from .parsing import text_hash
+from .schema import schema_errors
 
 
 def write_json(path: Path, value):
@@ -43,6 +44,34 @@ def best_entry(history: list[dict]) -> dict:
         if row["loss"] != paper_mean(row["papers"]):
             raise ValueError("Stored selection loss is not the equal-paper mean")
     return min(history, key=lambda row: (row["loss"], row["step"]))
+
+
+def diagnostic_quality(entry: dict) -> dict:
+    diagnostics = entry.get("diagnostics", [])
+    if len(diagnostics) != 2 or len({row["paper_id"] for row in diagnostics}) != 2:
+        raise ValueError("Schema-aware selection requires two generated validation diagnostics")
+    schema_valid_papers = sum(row.get("status") == "scored" and row.get("schema_valid") is True
+                              for row in diagnostics)
+    reference_scores = []
+    for row in diagnostics:
+        scores = row.get("conditional_reference_f1") or {}
+        for field in ("sample_refs", "facility_refs"):
+            value = (scores.get(field) or {}).get("f1")
+            reference_scores.append(0.0 if value is None else value)
+    return {"schema_valid_papers": schema_valid_papers,
+            "mean_reference_f1": math.fsum(reference_scores) / len(reference_scores)}
+
+
+def best_schema_entry(history: list[dict]) -> dict:
+    """Predeclared ablation rule: schema validity, references, D loss, earliest."""
+    best_entry(history)  # Reuse step/loss/history validation.
+    for entry in history:
+        diagnostic_quality(entry)
+    return max(history, key=lambda row: (
+        diagnostic_quality(row)["schema_valid_papers"],
+        diagnostic_quality(row)["mean_reference_f1"],
+        -row["loss"], -row["step"],
+    ))
 
 
 @contextmanager
@@ -144,6 +173,7 @@ def score_generation(row: dict, generated: dict, directory: Path) -> dict:
     raw_path.write_text(generated["text"], encoding="utf-8")
     result = {"paper_id": pid, **{k: v for k, v in generated.items() if k != "text"},
               "raw_file": f"raw/{pid}.txt", "json_valid": False,
+              "schema_valid": False, "schema_errors": None,
               "entity_f1": None, "conditional_reference_f1": None}
     try:
         prediction = json.loads(generated["text"], parse_constant=_reject_constant, object_pairs_hook=_unique_object)
@@ -152,6 +182,8 @@ def score_generation(row: dict, generated: dict, directory: Path) -> dict:
         result["json_valid"] = True
     except ValueError as exc:
         return {**result, "status": "invalid_json", "error": str(exc)}
+    problems = schema_errors(prediction)
+    result.update(schema_valid=not problems, schema_errors=problems)
     gold_path, pred_path = directory / "gold" / f"{pid}.json", directory / "predictions" / f"{pid}.json"
     write_json(gold_path, row["gold"])
     write_json(pred_path, prediction)
@@ -171,8 +203,11 @@ def score_generation(row: dict, generated: dict, directory: Path) -> dict:
 
 
 class ValidationCallback(TrainerCallback):
-    def __init__(self, trainer, rows, config):
+    def __init__(self, trainer, rows, config, *, selection_policy="loss"):
+        if selection_policy not in {"loss", "schema_reference_loss"}:
+            raise ValueError(f"Unknown validation selection policy: {selection_policy}")
         self.trainer, self.rows, self.config = trainer, rows, config
+        self.selection_policy = selection_policy
         self.output = Path(trainer.args.output_dir)
         train_ids = {r["example_id"].split(":")[0] for r in trainer.train_dataset}
         validate_rows(rows, train_ids, config.max_seq_length, config.validation_max_new_tokens)
@@ -180,15 +215,26 @@ class ValidationCallback(TrainerCallback):
         self.history = []
 
     def state_dict(self):
-        return {"version": "1.0.0", "validation_sha256": self.data_hash,
+        return {"version": "1.1.0", "validation_sha256": self.data_hash,
                 "validation_steps": self.config.validation_steps,
-                "max_new_tokens": self.config.validation_max_new_tokens, "history": self.history}
+                "max_new_tokens": self.config.validation_max_new_tokens,
+                "selection_policy": self.selection_policy, "history": self.history}
+
+    def winner(self):
+        if self.selection_policy == "loss":
+            return best_entry(self.history)
+        # Intermediate saves exist for recovery only. Compare the unadapted base
+        # with the predeclared fixed-exposure endpoint, never a partially consumed
+        # task schedule whose D/E/R mix depends on shuffle order.
+        eligible = [row for row in self.history if row["step"] in {0, self.config.max_steps}]
+        return best_schema_entry(eligible)
 
     def restore(self, checkpoint: Path, step: int):
         saved = json.loads((checkpoint / "validation_state.json").read_text(encoding="utf-8"))
         if {k: v for k, v in saved.items() if k != "history"} != {k: v for k, v in self.state_dict().items() if k != "history"}:
             raise ValueError("Resumed validation data or settings changed")
-        best_entry(saved["history"])
+        (best_entry(saved["history"]) if self.selection_policy == "loss"
+         else best_schema_entry(saved["history"]))
         if saved["history"][-1]["step"] != step:
             raise ValueError("Checkpoint validation history is incomplete")
         self.history = saved["history"]
@@ -205,7 +251,7 @@ class ValidationCallback(TrainerCallback):
                  "exposure": deepcopy(trainer.exposure), "diagnostics": diagnostics,
                  "diagnostics_directory": f"validation/step-{step}"}
         self.history.append(entry)
-        best_entry(self.history)
+        self.winner()
         # SFTTrainer.log drains pending training metrics, and on_log clears the
         # scheduled training-log flag. Keep validation separate from both.
         should_log = trainer.control.should_log
@@ -214,11 +260,15 @@ class ValidationCallback(TrainerCallback):
         trainer.control.should_log = should_log
 
     def publish(self, *, complete=False):
-        winner = best_entry(self.history)
+        winner = self.winner()
         cfg = self.trainer.model.peft_config["default"]
+        quality = diagnostic_quality(winner) if self.selection_policy == "schema_reference_loss" else None
         selected = {"status": "complete" if complete else "in_progress",
-                    "metric": "mean_of_per_paper_target_token_nll", "tie_break": "earliest_step",
+                    "metric": ("mean_of_per_paper_target_token_nll" if self.selection_policy == "loss"
+                               else "lexicographic_schema_validity_reference_f1_then_target_nll"),
+                    "tie_break": "earliest_step",
                     "step": winner["step"], "loss": winner["loss"], "papers": winner["papers"],
+                    **({"diagnostic_quality": quality} if quality is not None else {}),
                     "exposure": winner["exposure"], "base_model": cfg.base_model_name_or_path,
                     "revision": cfg.revision,
                     "inference_precision": self.config.precision_policy(),

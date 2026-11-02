@@ -695,17 +695,204 @@ report, evaluator and comparison artifacts. The complete audit and interpretatio
 are in [`finetune_step7_report.md`](finetune_step7_report.md). Neither selected
 checkpoint nor any training setting was changed after evaluation.
 
+## Step 8 — Controlled D/E/R ablations (future independent-test study)
+
+**Purpose:** Determine whether M2's missing reference fields came from reduced
+complete-JSON exposure, interference from E or R, or the shape of the original R
+target. This is a new experiment, not a retrospective reinterpretation of Step 7.
+
+### Frozen design
+
+Use seeds **42, 123 and 456** for every condition. An exposure is one training
+example consumed once; four exposures equal one optimizer update. The matrix is
+frozen in [`finetune_ablation.yaml`](../configs/finetune_ablation.yaml):
+
+| Condition | Family | D | E | R | P | Examples | Updates | Question |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| `d_only` | shared control | 24 | 0 | 0 | 0 | 24 | 6 | D-only reference point |
+| `matched_d_de` | matched D | 24 | 8 | 0 | 0 | 32 | 8 | Effect of E at fixed D exposure |
+| `matched_d_dr` | matched D | 24 | 0 | 8 | 0 | 32 | Effect of original R at fixed D exposure |
+| `matched_d_der` | matched D | 24 | 8 | 8 | 0 | 40 | E+R at fixed D exposure |
+| `matched_compute_de` | fixed update budget | 12 | 12 | 0 | 0 | 24 | D/E allocation under six updates |
+| `matched_compute_dr` | fixed update budget | 12 | 0 | 12 | 0 | D/R allocation under six updates |
+| `matched_compute_der` | fixed update budget | 8 | 8 | 8 | 0 | Reproduce M2 exposure under six updates |
+| `matched_d_drp` | R redesign | 24 | 0 | 0 | 8 | 32 | Final-shaped reference supervision |
+
+`P` is a reference-only patch with the same `datasets[].{id,sample_refs,
+facility_refs}` nesting used by the final D output. It is deterministically
+derived from each frozen training R record and its entity inventory; it does not
+read new gold, invent entities, or change reference answers.
+
+The `matched_compute_*` family matches example slots and optimizer updates, not
+literal FLOPs: D/E/R completions have different lengths. Actual total and
+supervised token exposure, wall time and memory must therefore be reported with
+every run. The matched-D family is the primary control for whether M2 simply saw
+too little complete JSON; the fixed-update family measures allocation under the
+original six-update budget.
+
+### Scheduling and checkpoint selection
+
+- Each task draws from all eight training papers before repeating a paper.
+  Remainders and the final order are deterministic for the declared seed. The
+  saved run contract records exact task counts, per-paper exposure and a schedule
+  checksum.
+- Training uses the Step 6 model, NF4/LoRA, batch, accumulation, optimizer and
+  decoding settings. Only the declared schedule, seed, endpoint and output path
+  vary. Endpoints are exactly 6, 8 or 10 optimizer updates as shown above.
+- Step 6 is retained as a recoverable checkpoint for the 8- and 10-update runs,
+  but it is not a selectable scientific endpoint. Selection compares only the
+  unadapted step-zero model with the condition's fixed-exposure endpoint.
+- The predeclared lexicographic validation rule first maximizes the number of
+  schema-valid validation papers, then mean conditional F1 across `sample_refs`
+  and `facility_refs`, then minimizes equal-paper D target-token NLL, with the
+  earlier step as the final tie-break. This prevents a low-loss checkpoint that
+  omits required reference fields from winning.
+
+The existing validation set has only two papers, so selection remains noisy.
+Report every seed and condition; do not select or discard seeds after seeing
+results. Treat schema validity, entity/reference F1 and per-paper failures as
+primary outcomes, with training tokens, time and memory as cost outcomes.
+
+### Data and evaluation gate
+
+The thirty Step 7 papers have now influenced method choice and are development
+data for this follow-up. They must **not** be reused to make a new confirmatory
+claim. Before launching the full matrix, freeze a larger development split if
+available and set `independent_test_split` to a new untouched test manifest.
+The ablation configuration has `allow_current_test_evaluation: false`, and the
+runner deliberately provides no path to the current Step 7 evaluator.
+
+Evaluate the new independent test exactly once after the analysis rule and set of
+conditions are fixed. Compare seed-level results and paired per-paper differences;
+report mean, spread and bootstrap confidence intervals rather than only the best
+run. If no new independent test can be obtained, label the matrix exploratory and
+do not present it as confirmatory evidence.
+
+### Implementation and commands
+
+**Status: exploratory 24-run matrix and descriptive analysis complete (2026-10-30).**
+
+[`run_finetune_ablation.py`](../scripts/run_finetune_ablation.py) supports three
+explicit modes. `--plan` validates and prints the whole frozen matrix without
+loading a tokenizer or model. `--dry-run` verifies one condition's frozen data,
+P transformation, tokenization, exact schedule, context limits and LoRA target
+architecture without loading weights or using a GPU. `--train` is the only mode
+that trains and retains the Step 6 resumability and MLflow contracts. Pass
+`--resume outputs/finetune/ablations/<condition>_seed<seed>/checkpoint-<step>`
+with `--train` to resume the latest complete checkpoint. Ablation
+runs are written under `outputs/finetune/ablations/<condition>_seed<seed>`.
+The complete CPU regression suite passes **113 tests**, including exact exposure,
+all-paper coverage, P-target equivalence, endpoint-only selection and the existing
+preparation/training/evaluation controls.
+
+The first run, `matched_d_drp` seed 42, completed all eight updates in 1,700.7
+seconds and is recorded in MLflow as run
+`c16facaeae17465396b06fd3af5cb86a`. Its exact exposure was 24 D plus 8 P examples.
+The fixed endpoint was selected over the base model: equal-paper validation NLL
+fell from 0.07514 at step 0 to 0.05693 at step 8, both validation outputs were
+valid JSON, and mean conditional sample/facility-reference F1 was 1.0. One of the
+two endpoint outputs was fully schema valid; the other used `null` for two
+`bibliographic.funding[].grant_id` fields, unrelated to the redesigned reference
+fields. The selected adapter is `checkpoint-8` under
+`outputs/finetune/ablations/matched_d_drp_seed42`. This one-seed validation result
+is a successful execution check, not evidence that P is superior. No Step 7 test
+paper was evaluated.
+
+Safe planning checks from the repository root are:
+
+```bash
+uv run --locked --group finetune python scripts/run_finetune_ablation.py --plan
+uv run --locked --group finetune python scripts/run_finetune_ablation.py \
+  --dry-run --condition matched_d_drp --seed 42 --offline
+```
+
+After the development/test protocol is frozen, one GPU run has this form:
+
+```bash
+source outputs/finetune/local_env.sh
+export CUDA_VISIBLE_DEVICES=0
+export PYTORCH_ALLOC_CONF=expandable_segments:True
+export TRITON_CACHE_DIR="$PWD/outputs/finetune/triton-cache"
+outputs/finetune/venv-gpu/bin/python scripts/run_finetune_ablation.py \
+  --train --condition matched_d_drp --seed 42 --offline
+```
+
+Run one declared condition/seed at a time. Do not start the remaining 23 runs
+until the first run passes the same memory, checkpoint/resume and MLflow checks as
+Step 6. A condition is complete only after all three seeds finish; the study is
+complete only after all eight conditions finish. A confirmatory claim additionally
+requires the predeclared independent evaluation; without it, the completed matrix
+remains exploratory and receives descriptive validation analysis only.
+
+For an explicitly exploratory matrix, the restart-safe sequential wrapper
+[`run_finetune_ablation_matrix.sh`](../scripts/run_finetune_ablation_matrix.sh)
+checks all 24 declared runs, skips outputs that pass endpoint/exposure/checkpoint
+and MLflow verification, resumes the latest complete pre-endpoint checkpoint, and
+stops on any ambiguous or failed state. It never invokes held-out evaluation.
+Inspect without training using `bash scripts/run_finetune_ablation_matrix.sh
+--status`; start or continue the matrix using `bash
+scripts/run_finetune_ablation_matrix.sh --run`. Per-run logs and the matrix event
+log are written under `outputs/finetune/ablation-matrix-logs`.
+
+### Completed exploratory results
+
+All 24 runs (eight conditions × three seeds) completed with exact exposure and
+finished MLflow accounting. The reproducible aggregate is generated by
+[`analyze_finetune_ablation.py`](../scripts/analyze_finetune_ablation.py) and is
+recorded in [`finetune_experiment_report.md`](finetune_experiment_report.md).
+Across 48 fixed-endpoint validation outputs, all were valid JSON, 41 retained both
+required reference fields, 18 were fully schema valid, and none failed generation
+or reached its output limit. The trained endpoint was selected in 14/24 runs.
+
+The strongest reference behavior came from D24+R8 and D24+P8 (both mean reference
+F1 0.972 and 6/6 structurally complete outputs). P was selected in all three
+seeds but did not improve reference F1 over R. The original fixed-budget
+D8+E8+R8 condition reproduced the weakest behavior: reference F1 0.333 and only
+2/6 reference-complete outputs. D12+R12 remained 6/6 complete with reference F1
+0.969, whereas E-containing conditions without adequate reference supervision
+were variable and omitted fields. This supports insufficient D exposure plus E
+interference—not an intrinsically invalid R target—as the leading exploratory
+explanation. The finding is limited to two validation papers and was not tested
+on a new independent corpus.
+
+### Exploratory 30-paper development evaluation
+
+The next exploratory check is frozen to the fixed endpoints of D24, D24+R8,
+D24+E8+R8 and D24+P8 for all three seeds (12 adapters, 360 generations). The
+thirty Step 7 papers are explicitly reclassified as development data because
+their earlier results influenced this design. This evaluation cannot support a
+new held-out-test claim and cannot change any training checkpoint.
+
+[`evaluate_finetune_ablation.py`](../scripts/evaluate_finetune_ablation.py) reuses
+the audited Step 7 prompts, greedy decoding, schema checks and evaluator while
+writing only to `outputs/finetune/ablation-development-evaluation`. It evaluates
+the declared training endpoint even when two-paper validation selected the base
+model, resumes generation at paper boundaries, reports all three seeds, and does
+not attach these reused-corpus metrics to MLflow. Configuration is frozen in
+[`finetune_ablation_evaluation.yaml`](../configs/finetune_ablation_evaluation.yaml).
+The evaluation completed all 360 generations and produced
+`outputs/finetune/ablation-development-evaluation/comparison.{json,md}`. Every
+output was valid JSON and retained both reference fields; 337/360 were fully
+schema valid, with all remaining failures caused by null funding grant IDs.
+D-only led samples, datasets and sample-reference F1. D24+R8 provided the best
+balanced structure-aware result, trading some sample-side quality for higher and
+more stable facility/facility-reference scores. D24+E8+R8 strengthened facilities
+and generic metadata further but reduced samples and sample references. D24+P8
+did not show a clear advantage over the original R task. Full analysis is in
+[`finetune_experiment_report.md`](finetune_experiment_report.md).
+
 ## Interpretation and later work
 
-This is a preliminary comparison: two validation papers, one training seed, and
-unequal task/token exposure limit conclusions. Disclose the benchmark's prior use.
-An M2 improvement motivates further experiments; it does not establish that task
-decomposition caused the gain.
+The original M0/M1/M2 comparison remains preliminary because it used one training
+seed and unequal task/token exposure. The follow-up used three seeds, controlled
+exposure/update families and a thirty-paper development evaluation, but those
+papers had already influenced method design. Disclose the benchmark's prior use
+and keep the ablation conclusions exploratory until a new independent test exists.
 
-Defer matched-budget controls, repeated seeds, cross-validation, refitting on all
-ten papers, separate attribute tasks, staged inference, and second-domain transfer.
-When additional annotations arrive, freeze larger development and independent test
-sets before further method selection.
+Step 8 is complete as an exploratory matrix. Defer cross-validation, refitting on
+all ten papers, separate attribute tasks, staged inference, and second-domain
+transfer. When additional annotations arrive, freeze larger development and
+independent test sets before confirmatory method selection.
 
 ## Requesting implementation
 

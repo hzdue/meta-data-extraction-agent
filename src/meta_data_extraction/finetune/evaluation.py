@@ -6,10 +6,9 @@ from importlib.metadata import PackageNotFoundError, version
 import json
 import math
 from pathlib import Path
-import re
 import sys
 import time
-from typing import Any, Literal
+from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, PositiveInt
 import torch
@@ -26,11 +25,11 @@ from meta_data_extraction.evaluation import (
 from meta_data_extraction.utils import (
     get_prompt_version,
     get_schema_refs,
-    load_merged_schema,
 )
 from .data import task_prompt
 from .memory import chunk_text_mlps
 from .parsing import text_hash
+from .schema import schema_errors
 from .tokenization import load_tokenizer, render_prompt
 from .tracking import RunTracker, attach_evaluation, checksum, read_tracking_config
 from .training import load_base, reload_adapter
@@ -82,106 +81,6 @@ def _strict_json_object(text: str) -> dict:
     if not isinstance(value, dict):
         raise ValueError("Expected a JSON object")
     return value
-
-
-def _matches_type(value: Any, name: str) -> bool:
-    return {
-        "string": isinstance(value, str),
-        "boolean": type(value) is bool,
-        "integer": type(value) is int,
-        "number": type(value) in {int, float} and not isinstance(value, bool),
-    }.get(name, True)
-
-
-def schema_errors(document: dict, schemas: list[str]) -> list[str]:
-    """Validate the project's field-definition schemas without rewriting output."""
-    errors: list[str] = []
-
-    def visit(value: Any, definition: dict, path: str):
-        field_type = definition.get("type")
-        if not field_type:
-            if not isinstance(value, dict):
-                errors.append(f"{path}: expected object")
-                return
-            expected = set(definition)
-            for key in sorted(expected - set(value)):
-                errors.append(f"{path}.{key}: missing field")
-            for key in sorted(set(value) - expected):
-                errors.append(f"{path}.{key}: unknown field")
-            for key in sorted(expected & set(value)):
-                visit(value[key], definition[key], f"{path}.{key}")
-            return
-        nullable = field_type.endswith("|null")
-        base_type = field_type.removesuffix("|null")
-        if value is None:
-            if not nullable:
-                errors.append(f"{path}: null is not allowed")
-            return
-        if base_type.startswith("list["):
-            if not isinstance(value, list):
-                errors.append(f"{path}: expected list")
-                return
-            cardinality = definition.get("cardinality", {})
-            if "min" in cardinality and len(value) < cardinality["min"]:
-                errors.append(f"{path}: fewer than {cardinality['min']} items")
-            if "max" in cardinality and len(value) > cardinality["max"]:
-                errors.append(f"{path}: more than {cardinality['max']} items")
-            item_type = base_type[5:-1]
-            item_schema = definition.get("item_schema")
-            for index, item in enumerate(value):
-                item_path = f"{path}[{index}]"
-                if item_schema is not None:
-                    visit(item, item_schema, item_path)
-                elif not _matches_type(item, item_type):
-                    errors.append(f"{item_path}: expected {item_type}")
-            return
-        if not _matches_type(value, base_type):
-            errors.append(f"{path}: expected {base_type}")
-            return
-        pattern = definition.get("constraints", {}).get("pattern")
-        if pattern and isinstance(value, str) and re.fullmatch(pattern, value) is None:
-            errors.append(f"{path}: does not match declared pattern")
-
-    schema = load_merged_schema(schemas)
-    visit(document, schema, "$out")
-
-    # The field schemas describe reference targets in prose; enforce those graph
-    # constraints here so "schema valid" also means locally usable identifiers.
-    ids: dict[str, set[str]] = {}
-    for collection, prefix in (("bibliographic.affiliations", "aff"),
-                               ("bibliographic.authors", "author"),
-                               ("facilities", "facility"), ("samples", "sample"),
-                               ("datasets", "dataset")):
-        current: Any = document
-        for part in collection.split("."):
-            current = current.get(part) if isinstance(current, dict) else None
-        if not isinstance(current, list):
-            continue
-        values = [item.get("id") for item in current if isinstance(item, dict)]
-        valid = {value for value in values if isinstance(value, str)}
-        ids[collection] = valid
-        if len(valid) != len(values):
-            errors.append(f"$out.{collection}: IDs must be unique strings")
-        for value in valid:
-            if re.fullmatch(rf"{prefix}_[1-9][0-9]*", value) is None:
-                errors.append(f"$out.{collection}: invalid local ID {value!r}")
-
-    def check_refs(items: Any, field: str, targets: set[str], path: str):
-        if not isinstance(items, list):
-            return
-        for index, item in enumerate(items):
-            refs = item.get(field) if isinstance(item, dict) else None
-            if isinstance(refs, list):
-                dangling = [ref for ref in refs if ref not in targets]
-                if dangling:
-                    errors.append(f"{path}[{index}].{field}: dangling references {dangling!r}")
-
-    bibliographic = document.get("bibliographic") if isinstance(document, dict) else None
-    check_refs((bibliographic or {}).get("authors"), "affiliation_refs",
-               ids.get("bibliographic.affiliations", set()), "$out.bibliographic.authors")
-    check_refs(document.get("datasets"), "sample_refs", ids.get("samples", set()), "$out.datasets")
-    check_refs(document.get("datasets"), "facility_refs", ids.get("facilities", set()), "$out.datasets")
-    return errors
 
 
 def _shared_training_contract(root: Path, config: EvaluationConfig) -> tuple[TrainingConfig, TrainingConfig, dict]:
@@ -265,6 +164,7 @@ def condition_contract(root: Path, config_path: Path, config: EvaluationConfig, 
     adapter, selection = (None, None) if condition == "m0" else _selected_adapter(root, training_config)
     source_paths = [config_path, root / config.metrics_config, root / config.alignment_config,
                     root / "src/meta_data_extraction/finetune/evaluation.py",
+                    root / "src/meta_data_extraction/finetune/schema.py",
                     root / "scripts/evaluate_finetune.py",
                     root / "src/meta_data_extraction/evaluation.py",
                     root / "src/meta_data_extraction/alignment.py"]
@@ -501,7 +401,8 @@ def score_condition(root: Path, config: EvaluationConfig, condition: str, output
     all_fields = aggregate_reports(reports)
     valid_fields = aggregate_reports(valid_reports) if valid_reports else {}
     metrics = {
-        "version": "1.0.0", "condition": condition, "method": METHODS[condition],
+        "version": "1.0.0", "condition": condition,
+        "method": METHODS.get(condition, "ablation_fixed_endpoint"),
         "aggregation_policy": {
             "primary": "all 30 papers; invalid/unscorable generations are evaluated as empty predictions",
             "secondary": "JSON-valid predictions successfully accepted by the evaluator",
