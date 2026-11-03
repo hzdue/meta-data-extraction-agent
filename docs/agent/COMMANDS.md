@@ -1717,3 +1717,117 @@ prepared bundle hash; the remaining 29 failures are existing tests that stop bef
 provider construction because checked-out `publication_source.md` bytes hash to
 `799ca9...` while the frozen config expects `a7f2c4...`. No fixture, frozen config,
 released artifact or ignored run history was rewritten to force those gates.
+
+## M10 Opper one-paper launcher (2026-11-03)
+
+The operator sequence, including the only live-capable commands, is documented in
+`OPPER_ONE_PAPER.md`. Implementation verification was strictly offline: no `.env`,
+credential, catalog endpoint, or inference service was accessed.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py -q -p no:cacheprovider --basetemp tmp/opper-one-paper-final
+~~~
+
+Result: **8 passed in 1.90s**.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py tests/agent/test_providers.py tests/agent/test_publication_types.py tests/agent/test_run_extraction.py tests/agent/test_support_checks.py tests/agent/test_workflow.py tests/agent/test_workflow_tools.py -q -p no:cacheprovider --basetemp tmp/opper-one-paper-combined-final -k "not concurrent_processes_share_durable_reservations"
+~~~
+
+Result: **436 passed, 1 deselected in 23.87s**. The deselected existing Windows
+cross-process ledger test passed in the isolated rerun recorded above.
+
+Read-only preparation of the actual pinned PDF rendered a first prompt of 68,033
+characters and 68,176 UTF-8 bytes. The labelled characters/4 estimate is 17,009
+tokens; the conservative byte-plus-overhead bound is 68,304. No run artifacts
+were created by this inspection. `git diff --check` and secret/path inspection
+were run at handoff. Experiment status remains `not_run`.
+
+### Explicit fresh-ledger override
+
+After the operator requested immediate execution and accepted untracked external
+Opper history, the run-scoped override was checked offline:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py tests/agent/test_providers.py -q -p no:cacheprovider --basetemp tmp/opper-history-override-tests -k "opper or history_override or new_ledger"
+~~~
+
+Result: **20 passed, 50 deselected in 2.33s**.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py tests/agent/test_providers.py -q -p no:cacheprovider --basetemp tmp/opper-history-override-full -k "not concurrent_processes_share_durable_reservations"
+~~~
+
+Result: **69 passed, 1 deselected in 4.03s**. The override is run-scoped and
+requires zero local attempts; the rolling and per-run limits remain active. No
+credential, catalog endpoint, or inference service was accessed by these checks.
+
+The first operator `v1` execution was blocked at its extraction child with
+`request_history_unknown`; ledger inspection showed zero attempt rows. After
+binding the override to all exact model-capable publication children, offline
+regression passed:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py -q -p no:cacheprovider --basetemp tmp/opper-child-override-launcher
+~~~
+
+Result: **9 passed in 2.13s**. The failed `v1` artifacts remain immutable; use a
+fresh run ID for an actual dispatch.
+
+### Successful live pilot
+
+The operator ran fresh ID `m10-opper-4o-181203956-v2`. Offline preparation and
+the administrative catalog check preceded two inference requests. The read-only
+replay command was:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py report --run-id m10-opper-4o-181203956-v2
+~~~
+
+Result: `pending_review`, 2 model/live requests, 39,983 known input tokens, 4,982
+known output tokens, `usage_unknown=false`, and no new dispatch during report.
+Ledger rows independently record `ok` usage of 18,290/4,108 and 21,693/874.
+Canonical list counts are one sample, one facility, and one dataset; the sidecar
+has 43 assertions and three workflow issues. These structural counts are not an
+accuracy or completeness result. Catalog-price multiplication gives a non-billing
+estimate of USD 0.1497775; the stored runtime cost remains unknown.
+
+## M10 Opper 30-paper evaluation batch preparation (2026-11-03)
+
+The frozen batch was prepared without network or credentials, then every first
+paper prompt was rendered in a bounded subprocess and tokenized exactly:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/run_opper_evaluation_30.py prepare --batch-id m10-e30-gpt4o-v2
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/run_opper_evaluation_30.py preflight --batch-id m10-e30-gpt4o-v2
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/run_opper_evaluation_30.py status --batch-id m10-e30-gpt4o-v2
+~~~
+
+Result: all 30 source PDFs matched their frozen hashes, parsed successfully, and
+were eligible. First prompts totalled 2,781,509 UTF-8 bytes and 824,184 exact
+`o200k_base` body tokens; the largest first prompt was 42,931 tokens. The commands
+made zero model requests; preparation/preflight read no credential or gold.
+
+Focused regression checks:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_evaluation_batch.py tests/agent/test_publication_types.py tests/agent/test_opper_one_paper.py -q -p no:cacheprovider --basetemp tmp/opper-e30-focused
+~~~
+
+Result: **145 passed in 5.00s**. Five targeted exact-token/ledger/provider tests
+also passed in 1.22s. A broader selected suite recorded **452 passed, 23 failed,
+2 deselected**; all 23 failures are the previously existing frozen
+`publication_source.md` fixture-hash mismatch and occur before provider creation.
+
+No batch catalog request or inference request was run. When live execution is
+authorized under the prepared spec, the operator sequence is:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --no-sync python scripts/agent/run_opper_evaluation_30.py catalog --batch-id m10-e30-gpt4o-v2 --load-dotenv
+uv --cache-dir tmp/uv-cache run --frozen --no-sync python scripts/agent/run_opper_evaluation_30.py run-available --batch-id m10-e30-gpt4o-v2 --load-dotenv --execute-live --retention-reviewed --accept-cost-ceiling-usd 35 --max-papers 30
+~~~
+
+The second command is resumable and stops when fewer than three shared rolling-hour
+slots remain. At the pilot catalog prices, the hard planning ceiling is USD
+34.1478; the explicit USD 35 acknowledgment does not authorize a higher catalog
+ceiling.

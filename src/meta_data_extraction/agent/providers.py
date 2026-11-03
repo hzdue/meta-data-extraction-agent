@@ -3,9 +3,10 @@
 The inherited client's request builder and response adapter are reused unchanged.
 Live attempts for each service pass that service's checkout-local SQLite ledger.
 A newly created ledger waits a full rolling hour because earlier service usage is
-unknown. This is a local application boundary: other programs using the same API
-account must share the corresponding ledger too; deleting it never grants fresh
-allowance.
+unknown. A provider-specific, run-scoped operator override may explicitly accept
+that uncertainty without disabling later accounting. This is a local application
+boundary: other programs using the same API account must share the corresponding
+ledger too; deleting it never grants fresh allowance.
 """
 from __future__ import annotations
 
@@ -169,6 +170,7 @@ class OpperRunSpec(BaseModel):
     max_output_tokens: int = Field(ge=1, le=32768, strict=True)
     max_total_output_tokens: int = Field(ge=1, strict=True)
     max_prompt_bytes: int = Field(default=100_000, ge=1, le=1_000_000, strict=True)
+    max_input_tokens: int = Field(default=119_000, ge=1, le=128_000, strict=True)
     timeout_seconds: float = Field(default=60.0, gt=0, le=300, allow_inf_nan=False)
     api_key_env: str = "OPPER_API_KEY"
 
@@ -223,6 +225,12 @@ class ProviderSetupError(ValueError):
 class Reservation(BaseModel):
     model_config = ConfigDict(extra="forbid", frozen=True)
     request_id: str | None = None
+    error_code: str | None = None
+
+
+class LedgerCapacity(BaseModel):
+    model_config = ConfigDict(extra="forbid", frozen=True, strict=True)
+    remaining_attempts: int = Field(ge=0)
     error_code: str | None = None
 
 
@@ -287,6 +295,10 @@ class RequestLedger:
             raise ProviderSetupError("ledger_clock_invalid")
         return float(value)
 
+    def _history_override(self, run_id: str, *, created_at: float,
+                          created_monotonic: float) -> bool:
+        return False
+
     @staticmethod
     def _metadata(connection: sqlite3.Connection) -> tuple[float, float, float, float]:
         rows = connection.execute("SELECT version, created_at, created_monotonic, last_seen, last_monotonic FROM meta WHERE id=1").fetchall()
@@ -316,7 +328,10 @@ class RequestLedger:
                 if now < last_seen or monotonic_now < last_monotonic:
                     return Reservation(error_code="ledger_clock_regressed")
                 connection.execute("UPDATE meta SET last_seen=?, last_monotonic=? WHERE id=1", (now, monotonic_now))
-                if min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds:
+                if (min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds
+                        and not self._history_override(
+                            run_id, created_at=created_at,
+                            created_monotonic=created_monotonic)):
                     return Reservation(error_code="request_history_unknown")
                 row = connection.execute("SELECT spec_sha256 FROM runs WHERE run_id=?", (run_id,)).fetchone()
                 if row and row[0] != spec.fingerprint:
@@ -337,6 +352,35 @@ class RequestLedger:
                 return Reservation(request_id=request_id)
         except (sqlite3.Error, ValueError, OSError):
             return Reservation(error_code="ledger_unavailable")
+
+    def capacity(self) -> LedgerCapacity:
+        """Return conservative shared rolling-window capacity without reserving."""
+        try:
+            with self._connect() as connection:
+                connection.execute("BEGIN IMMEDIATE")
+                created_at, created_monotonic, last_seen, last_monotonic = self._metadata(connection)
+                now, monotonic_now = self._now(), self._now(monotonic=True)
+                if now < last_seen or monotonic_now < last_monotonic:
+                    return LedgerCapacity(
+                        remaining_attempts=0, error_code="ledger_clock_regressed")
+                connection.execute(
+                    "UPDATE meta SET last_seen=?, last_monotonic=? WHERE id=1",
+                    (now, monotonic_now),
+                )
+                if min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds:
+                    return LedgerCapacity(
+                        remaining_attempts=0, error_code="request_history_unknown")
+                count = connection.execute(
+                    "SELECT COUNT(*) FROM attempts WHERE completed_at IS NULL "
+                    "OR completed_monotonic IS NULL OR completed_at > ? "
+                    "OR completed_monotonic > ?",
+                    (now - self.window_seconds, monotonic_now - self.window_seconds),
+                ).fetchone()[0]
+                return LedgerCapacity(
+                    remaining_attempts=max(0, self.request_limit - count))
+        except (sqlite3.Error, ValueError, OSError):
+            return LedgerCapacity(
+                remaining_attempts=0, error_code="ledger_unavailable")
 
     def complete(self, result: ProviderResult) -> bool:
         """Attach safe observable outcomes; content and credentials never enter SQL."""
@@ -360,6 +404,106 @@ class OpperRequestLedger(RequestLedger):
     """Opper accounting is isolated from ChatAI accounting."""
 
     relative_path = "runs/agent/_control/opper-requests.sqlite3"
+
+    def _override_path(self, run_id: str) -> Path:
+        validate_run_id(run_id)
+        return checked_path(
+            self.root,
+            f"runs/agent/_control/opper-history-override-{run_id}.json",
+            allowed_roots=("runs/agent/_control",),
+        )
+
+    def _history_override(self, run_id: str, *, created_at: float,
+                          created_monotonic: float) -> bool:
+        try:
+            path = self._override_path(run_id)
+            if not path.is_file() or path.stat().st_size > 4096:
+                return False
+
+            def pairs(items):
+                value = {}
+                for key, item in items:
+                    if key in value:
+                        raise ValueError("duplicate")
+                    value[key] = item
+                return value
+
+            payload = json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=pairs,
+                                 parse_constant=lambda _: (_ for _ in ()).throw(ValueError()))
+            if not isinstance(payload, dict):
+                return False
+            expected = {
+                "version", "run_id", "ledger_created_at", "ledger_created_monotonic",
+                "recorded_at", "recorded_monotonic", "local_attempts",
+                "accepts_untracked_external_history", "provenance",
+            }
+            numeric = (
+                payload.get("ledger_created_at"), payload.get("ledger_created_monotonic"),
+                payload.get("recorded_at"), payload.get("recorded_monotonic"),
+            )
+            return (
+                set(payload) == expected
+                and payload.get("version") == "opper-history-override-1"
+                and payload.get("run_id") == run_id
+                and payload.get("ledger_created_at") == created_at
+                and payload.get("ledger_created_monotonic") == created_monotonic
+                and all(type(value) in {int, float} and math.isfinite(value)
+                        and value >= 0 for value in numeric)
+                and payload.get("recorded_at") >= created_at
+                and payload.get("recorded_monotonic") >= created_monotonic
+                and type(payload.get("local_attempts")) is int
+                and payload.get("local_attempts") == 0
+                and payload.get("accepts_untracked_external_history") is True
+                and payload.get("provenance") == "explicit_user_request"
+            )
+        except (KeyError, TypeError, ValueError, OSError):
+            return False
+
+    def acknowledge_untracked_history(self, run_id: str) -> Reservation:
+        """Persist a narrow override while retaining every normal request limit."""
+        validate_run_id(run_id)
+        try:
+            with self._connect() as connection:
+                connection.execute("BEGIN IMMEDIATE")
+                created_at, created_monotonic, last_seen, last_monotonic = self._metadata(connection)
+                now, monotonic_now = self._now(), self._now(monotonic=True)
+                if now < last_seen or monotonic_now < last_monotonic:
+                    return Reservation(error_code="ledger_clock_regressed")
+                connection.execute(
+                    "UPDATE meta SET last_seen=?, last_monotonic=? WHERE id=1",
+                    (now, monotonic_now),
+                )
+                path = self._override_path(run_id)
+                if path.exists():
+                    if self._history_override(
+                            run_id, created_at=created_at,
+                            created_monotonic=created_monotonic):
+                        return Reservation()
+                    return Reservation(error_code="history_override_invalid")
+                attempts = connection.execute("SELECT COUNT(*) FROM attempts").fetchone()[0]
+                if attempts != 0:
+                    return Reservation(error_code="history_override_requires_zero_local_attempts")
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path = self._override_path(run_id)
+                payload = {
+                    "version": "opper-history-override-1",
+                    "run_id": run_id,
+                    "ledger_created_at": created_at,
+                    "ledger_created_monotonic": created_monotonic,
+                    "recorded_at": now,
+                    "recorded_monotonic": monotonic_now,
+                    "local_attempts": 0,
+                    "accepts_untracked_external_history": True,
+                    "provenance": "explicit_user_request",
+                }
+                with path.open("x", encoding="utf-8") as stream:
+                    stream.write(json.dumps(payload, ensure_ascii=False, indent=2,
+                                            allow_nan=False) + "\n")
+                    stream.flush()
+                    os.fsync(stream.fileno())
+                return Reservation()
+        except (sqlite3.Error, ValueError, OSError):
+            return Reservation(error_code="ledger_unavailable")
 
 
 class _GuardedOpenAIProvider:
@@ -411,6 +555,14 @@ class _GuardedOpenAIProvider:
         readiness = self._ledger.reserve(self._run.run_id, self.spec, commit_attempt=False)
         if readiness.error_code:
             return self._blocked(readiness.error_code)
+        if isinstance(self.spec, OpperRunSpec):
+            try:
+                from tiktoken import get_encoding
+                input_tokens = len(get_encoding("o200k_base").encode(prompt)) + 16
+            except Exception:
+                return self._blocked("tokenizer_unavailable")
+            if input_tokens > self.spec.max_input_tokens:
+                return self._blocked("input_token_limit")
         if self._load_dotenv_file:
             try:
                 from dotenv import load_dotenv

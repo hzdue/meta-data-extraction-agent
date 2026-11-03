@@ -51,7 +51,8 @@ class PublicationOpperSettings(FrozenModel):
     model: str
     api_key_env: str = "OPPER_API_KEY"
     max_output_tokens: int = Field(default=4096, ge=1, le=32768, strict=True)
-    max_prompt_bytes: int = Field(default=100000, ge=1, le=100000, strict=True)
+    max_prompt_bytes: int = Field(default=100000, ge=1, le=150000, strict=True)
+    max_input_tokens: int = Field(default=119000, ge=1, le=128000, strict=True)
     timeout_seconds: float = Field(default=60, gt=0, le=300, allow_inf_nan=False)
 
     @field_validator("timeout_seconds", mode="before")
@@ -76,7 +77,7 @@ class PublicationSpec(FrozenModel):
     run_id: str
     mode: Literal["mock", "live"]
     source: InputPin
-    split: Literal["synthetic", "development", "calibration"]
+    split: Literal["synthetic", "development", "calibration", "evaluation"]
     schemas: tuple[SchemaName, ...] = ("generic.json", "photon_and_neutron.json")
     policy: Literal["fixed", "issue_aware"] = "issue_aware"
     max_calls: int = Field(default=5, ge=2, le=10, strict=True)

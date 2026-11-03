@@ -189,16 +189,46 @@ def test_new_ledger_fails_closed_until_full_hour_and_survives_restart(workspace,
     assert RequestLedger(workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]).reserve("first", spec).request_id
 
 
+def test_opper_run_scoped_history_override_preserves_other_guards(
+        workspace, opper_spec, spec, clock):
+    ledger = OpperRequestLedger(
+        workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0])
+    assert ledger.reserve("opper-now", opper_spec).error_code == "request_history_unknown"
+    assert ledger.acknowledge_untracked_history("opper-now").error_code is None
+    reservation = OpperRequestLedger(
+        workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]
+    ).reserve("opper-now", opper_spec)
+    assert reservation.request_id
+    assert ledger.acknowledge_untracked_history("opper-now").error_code is None
+    assert ledger.acknowledge_untracked_history(
+        "other-run").error_code == "history_override_requires_zero_local_attempts"
+    assert RequestLedger(
+        workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]
+    ).reserve("chatai-now", spec).error_code == "request_history_unknown"
+    override = workspace / "runs/agent/_control/opper-history-override-opper-now.json"
+    payload = json.loads(override.read_text(encoding="utf-8"))
+    assert payload["accepts_untracked_external_history"] is True
+    assert payload["local_attempts"] == 0
+
+
 def test_ten_attempts_shared_across_runs_and_exact_rolling_window(workspace, ready_ledger, spec, clock):
+    assert ready_ledger.capacity().remaining_attempts == 10
     for index in range(10):
         reservation = ready_ledger.reserve(f"run-{index}", spec)
         assert reservation.request_id
         assert ready_ledger.complete(ProviderResult(status="failed", request_id=reservation.request_id, mode="live"))
     assert RequestLedger(workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]).reserve("eleventh", spec).error_code == "rolling_request_limit"
+    assert ready_ledger.capacity().remaining_attempts == 0
     clock[0] += 3599
     assert ready_ledger.reserve("eleventh", spec).error_code == "rolling_request_limit"
     clock[0] += 1
     assert ready_ledger.reserve("eleventh", spec).request_id
+
+
+def test_capacity_fails_closed_while_history_is_unknown(workspace, ledger):
+    capacity = ledger.capacity()
+    assert capacity.remaining_attempts == 0
+    assert capacity.error_code == "request_history_unknown"
 
 
 def test_concurrent_threads_cannot_exceed_global_limit(ready_ledger, spec):
@@ -320,6 +350,8 @@ def test_opper_transport_propagates_exact_scope_offline(workspace, opper_spec, m
     options = []
     monkeypatch.setenv("OPPER_TEST_KEY", "synthetic-opper-key")
     monkeypatch.setattr(inherited, "OpenAI", lambda **kwargs: options.append(kwargs) or client)
+    monkeypatch.setattr("tiktoken.get_encoding", lambda name: SimpleNamespace(
+        encode=lambda prompt: [1, 2, 3]))
     result = OpperProvider(run, opper_spec, ledger).generate("prompt")
     assert result.status == "ok" and result.request_id
     assert options == [{"api_key": "synthetic-opper-key", "base_url": "https://api.opper.ai/v3/compat"}]
@@ -327,6 +359,22 @@ def test_opper_transport_propagates_exact_scope_offline(workspace, opper_spec, m
     assert client.options["max_retries"] == 0 and client.closed
     assert (workspace / OpperRequestLedger.relative_path).is_file()
     assert not (workspace / RequestLedger.relative_path).exists()
+
+
+def test_opper_exact_input_token_guard_precedes_reservation(
+        workspace, opper_spec, monkeypatch):
+    clock = [1000.0]
+    ledger = OpperRequestLedger(
+        workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0])
+    clock[0] += 3600
+    limited = opper_spec.model_copy(update={"max_input_tokens":17})
+    run = RunDirectory.create(workspace, "opper-token-limit")
+    run.write_json("live-run-spec.json", limited.model_dump(mode="json"))
+    monkeypatch.setattr("tiktoken.get_encoding", lambda name: SimpleNamespace(
+        encode=lambda prompt: [1, 2]))
+    result = OpperProvider(run, limited, ledger).generate("prompt")
+    assert result.error_code == "input_token_limit" and result.request_id is None
+    assert ledger.capacity().remaining_attempts == 10
 
 
 def test_factory_rejects_hash_mismatch_and_offline_source(workspace, spec):

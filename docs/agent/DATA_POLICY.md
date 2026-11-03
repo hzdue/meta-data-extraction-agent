@@ -364,3 +364,61 @@ its separate frozen inputs and does not silently select pilot review exports.
 E10 usability/effort evidence remains not_run pending an actual operator pilot;
 the earlier empirical gates remain unresolved. Optional M11 training is not
 authorized by this implementation.
+
+## M10 guarded Opper one-paper launcher
+
+The launcher is fixed to `data/raw/1812.03956/paper.pdf`, its recorded SHA-256,
+the calibration split, and `openai/gpt-4o-2024-08-06`. Preparation reads only the
+selected source plus ordinary schema/prompt resources. It does not inspect gold,
+predictions, evaluator inputs, existing run content, or credentials. Prep and run
+artifacts remain under ignored `runs/agent/<run_id>/` paths.
+
+The API key is accepted only through `OPPER_API_KEY` in process environment or
+the ignored root `.env`; it is never a CLI value or retained artifact. A catalog
+check is a single no-retry/no-redirect administrative `GET /models` containing no
+prompt or document. Only its status, the exact target model's allowlisted metadata,
+and numeric rate-limit headers are retained. The raw response, other model rows,
+non-numeric headers, and credential are discarded. A failed attempt cannot be
+overwritten with the same prep ID.
+
+Inference requires explicit live and retention acknowledgements, a successful
+catalog result with sufficient advertised limits, and persistent Opper-ledger
+readiness. At most three requests may be dispatched; retries count through the
+provider guard, raw output retention is hash-only, and automatic record patches
+are disabled. Provider token usage is authoritative when present. Preflight
+estimates and conservative capacity bounds stay labelled; missing usage remains
+unknown rather than becoming zero. No external tracing setting is assumed safe:
+the operator must review Opper retention/tracing before using the live flag.
+
+An explicit `--acknowledge-untracked-history` flag can bypass only the fresh-ledger
+observation delay. It creates an exclusive record bound to the exact Opper ledger
+creation identity and run ID, and is accepted only when that ledger has zero local
+attempts. The record says that the operator accepts unknown external history; it
+does not fabricate a verified zero-attempt observation. It does not affect
+ChatAI, later rolling-window accounting, or per-run request/output budgets.
+
+The successful `m10-opper-4o-181203956-v2` pilot retained no `raw-response.json`
+in its extraction, check, or workflow children, consistent with `hash_only`.
+Provider observations retain response hashes and numeric usage, while canonical
+and sidecar exports are pinned by exact byte counts and SHA-256 values in the
+parent result. These integrity records do not constitute expert approval or
+accuracy evidence. The failed `v1`, successful `v2`, catalog attempt, overrides,
+and shared ledger remain ignored local artifacts and must not be committed.
+
+## Opper 30-paper evaluation extraction batch
+
+The batch launcher's runtime inputs are limited to `data/corpus.json` split
+metadata, the 30 explicitly pinned source PDFs, ordinary prompt/schema resources,
+the tokenizer resource, and its own ignored run artifacts. It must not read final
+test gold, annotations, evaluator configuration, alignment helpers, historical
+predictions, released outputs, or paper-result artifacts. It performs extraction,
+not evaluation. Preflight retains only hashes, byte/token counts, and source
+warnings; it does not retain prompt or source text.
+
+The one administrative catalog request contains no paper or prompt. Live calls use
+hash-only raw-response retention, the existing shared persistent ten-attempt/hour
+ledger, immutable per-paper runs, and sequential execution. There is no batch
+untracked-history override. Each paper starts only when three shared slots are
+available, has a three-request/8,192-output-token-per-request limit, and disables
+automatic patches. Unknown usage remains unknown. Scoring and final-test gold
+inspection are deliberately outside this batch.

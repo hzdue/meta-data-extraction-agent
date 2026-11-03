@@ -42,6 +42,16 @@ def test_live_scope_does_not_read_credentials_or_create_requests(monkeypatch):
     assert scope.source.path == "tests/agent/fixtures/invented.md"
 
 
+def test_evaluation_split_is_available_only_for_live_scope():
+    scope = PublicationSpec.model_validate(payload(
+        mode="live", split="evaluation", mock_responses=[],
+        live={"endpoint":"https://chat.example.invalid/v1"},
+    ))
+    assert scope.split == "evaluation"
+    with pytest.raises(ValueError):
+        PublicationSpec.model_validate(payload(split="evaluation"))
+
+
 def test_opper_scope_is_distinct_and_does_not_read_credentials(monkeypatch):
     monkeypatch.delenv("OPPER_API_KEY", raising=False)
     scope = PublicationSpec.model_validate(payload(

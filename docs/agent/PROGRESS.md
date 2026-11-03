@@ -524,3 +524,83 @@ implementation is ready, but empirical status is `not_run`: no `.env` credential
 catalog endpoint or model inference was accessed. Next is an authenticated catalog
 check and a fresh bounded M10 run only after exact model/document/budget/retention/
 spend scope is recorded; do not reuse the cancelled ChatAI job.
+
+M10 Opper one-paper launcher (2026-11-03): added a fixed, staged launcher for
+calibration paper `1812.03956` through `openai/gpt-4o-2024-08-06`. Offline
+`prepare` freezes the exact source, launcher, protocol, budgets, and token plan;
+`catalog` is one separately recorded non-inference model-list attempt; `run`
+requires catalog limits, explicit live/retention acknowledgements, credential,
+and shared-ledger readiness; `report` is read-only. The run permits at most three
+calls, reserves 8,192 output tokens per call, retains raw output hashes only, and
+never applies candidate patches automatically.
+
+The actual first prompt is 68,033 characters / 68,176 UTF-8 bytes: 17,009 tokens
+by a labelled characters/4 heuristic and 68,304 by the conservative byte-plus-
+overhead planning bound. Whole-run hard reservations are 300,384 input-token
+equivalents and 24,576 output tokens, not expected or billed usage. Provider
+usage is reported when present; unknown stays unknown.
+
+Offline verification passed 8 launcher tests and 436 combined guarded-provider/
+workflow tests, with the known Windows concurrency case deselected after its
+earlier isolated pass. No `.env`, key, catalog endpoint, or inference service was
+accessed. Implementation is ready; experiment status remains `not_run`. Next
+within M10 is operator retention/tracing review, one authenticated catalog check,
+the ledger waiting period if required, and the explicitly confirmed one-paper
+run. Do not start M11.
+
+M10 Opper fresh-ledger override (2026-11-03): at the operator's explicit request,
+added a run-scoped acknowledgement that accepts untracked external Opper history
+without claiming it was verified. It is bound to the ledger creation identity,
+requires zero local attempt reservations, and leaves the rolling-hour cap,
+three-call/output budgets, persistent accounting, and all ChatAI behavior intact.
+The current ledger was inspected read-only and contained zero attempts. Offline
+checks passed 20 focused tests and 69 complete launcher/provider tests (one known
+Windows concurrency case deselected). No inference was dispatched by the change.
+
+The first explicit run then failed closed before HTTP dispatch because extraction
+uses a deterministic child run ID while the override initially covered only the
+publication parent. Its immutable `v1` result records `request_history_unknown`;
+the Opper ledger confirms zero reservations and therefore zero model requests.
+The override now covers only the parent readiness check and the exact `extract`,
+`check`, `proposal`, and `provider` child IDs. All 9 launcher tests and the focused
+20-test provider selection pass, including active-window readiness for every
+child. A fresh `v2` run is needed; `v1` is preserved as a failed diagnostic.
+
+M10 Opper live pilot (2026-11-03): fresh run
+`m10-opper-4o-181203956-v2` completed two guarded requests and reached
+`pending_review`. Provider usage is fully known: request 1 used 18,290 input /
+4,108 output tokens and request 2 used 21,693 input / 874 output tokens, totaling
+39,983 input and 4,982 output. There were no uncertain dispatches. The immutable
+canonical result contains one sample, one facility, and one dataset; its sidecar
+contains 43 assertions and three unresolved workflow issues.
+
+No patch was applied automatically and no expert review, entity-recovery score,
+gold comparison, or evaluator ran. A mechanical catalog-price calculation is
+USD 0.1497775, but runtime cost remains `unknown` because this is not a billing
+receipt. The read-only report reproduced the usage totals without requests.
+Operational experiment status is `pilot`; extraction validity remains unvalidated
+and pending independent review. The generic parent artifact's empirical-status
+label remains `not_run` and must not be read as overriding these observable live
+resource measurements.
+
+M10 Opper 30-paper batch preparation (2026-11-03): added a frozen, source-only
+launcher for the exact 30 publications marked `evaluation` in `data/corpus.json`,
+using `openai/gpt-4o-2024-08-06`. Preparation verifies the corpus and every PDF
+hash. Per-paper subprocess preflight uses the GPT-4o `o200k_base` tokenizer and
+retains only prompt hashes, sizes, token counts, and source warnings. It does not
+read credentials, gold, annotations, evaluator inputs, or existing predictions.
+
+Prepared batch `m10-e30-gpt4o-v2` passed all 30 preflights: first prompts total
+2,781,509 UTF-8 bytes and 824,184 exact body tokens; the largest is 42,931 tokens.
+The guarded batch maximum is 90 calls, 10,710,000 input tokens, and 737,280
+reserved output tokens. At the pilot's catalog prices this is a conservative USD
+34.1478 ceiling, not expected usage or a bill. Execution is sequential and
+resumable, requires explicit live/retention/cost acknowledgements, and stops unless
+three slots remain in the persistent shared ten-attempt rolling-hour ledger.
+
+Focused offline checks passed 145 launcher/publication tests and 5 targeted
+provider/token/ledger tests. A broader selected suite recorded 452 passes, 2
+intentional concurrency deselections, and 23 known pre-existing fixture-hash
+failures before provider construction. No batch catalog or inference request was
+made. Experiment status: `not_run`; the next dependency is operator review of the
+catalog-derived ceiling followed by bounded `run-available` resumptions.
