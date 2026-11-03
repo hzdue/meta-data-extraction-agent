@@ -14,7 +14,7 @@ from meta_data_extraction.agent.contracts import (
 )
 from meta_data_extraction.agent.evidence import DocumentBundle, EvidenceRef, FrozenModel, resolve_evidence, sha256
 from meta_data_extraction.agent.profiles import Profile, render_inherited_prompt, validate_record, verify_profile_resources
-from meta_data_extraction.agent.providers import ChatAIProvider, Provider, ProviderResult
+from meta_data_extraction.agent.providers import Provider, ProviderResult, is_guarded_live_provider
 from meta_data_extraction.base.llm import BaseLLM, LLMResponse
 from meta_data_extraction.components.extractor import LLMExtractor
 from meta_data_extraction.components.validator import SimpleValidator
@@ -139,7 +139,9 @@ def extract_fixed(root: Path | str, bundle: DocumentBundle, profile: Profile,
     bundle = DocumentBundle.model_validate(bundle.model_dump())
     verify_profile_resources(profile, root)
     prompt = render_prompt(bundle, profile, variant)
-    if isinstance(provider, ChatAIProvider):
+    if provider.mode == "live":
+        if not is_guarded_live_provider(provider):
+            raise ValueError("Live extraction requires a guarded provider")
         if provider.spec.profile_sha256 != profile.profile_id.removeprefix("profile:") or (
             (bundle.source_id, bundle.source_sha256) not in {(s.path, s.sha256) for s in provider.spec.sources}
         ):

@@ -18,8 +18,9 @@ import pytest
 
 from meta_data_extraction.agent.paths import PathPolicyError, RunDirectory
 from meta_data_extraction.agent.providers import (
-    ChatAIProvider, LiveRunSpec, LiveSource, MockProvider, ProviderResult,
-    ProviderSetupError, RequestLedger, create_live_provider,
+    ChatAIProvider, LiveRunSpec, LiveSource, MockProvider, OpperProvider,
+    OpperRequestLedger, OpperRunSpec, ProviderResult, ProviderSetupError,
+    RequestLedger, create_live_provider, is_guarded_live_provider,
 )
 import meta_data_extraction.components.llm as inherited
 
@@ -47,6 +48,18 @@ def spec():
         profile_sha256=digest("profile"), approved_prompt_sha256=(digest("prompt"),),
         max_calls=10, max_output_tokens=100, max_total_output_tokens=1000,
         api_key_env="M02_TEST_KEY",
+    )
+
+
+@pytest.fixture
+def opper_spec():
+    return OpperRunSpec(
+        provider="opper", model="openai/gpt-5-mini",
+        sources=(LiveSource(path="tests/agent/fixtures/paper.txt", sha256=digest("Synthetic source")),),
+        split="synthetic-offline-provider-test",
+        profile_sha256=digest("profile"), approved_prompt_sha256=(digest("prompt"),),
+        max_calls=3, max_output_tokens=100, max_total_output_tokens=300,
+        api_key_env="OPPER_TEST_KEY",
     )
 
 
@@ -126,6 +139,33 @@ def test_result_is_frozen_and_unknown_usage_stays_unknown():
         result.content = "changed"
     with pytest.raises(ValidationError):
         ProviderResult(status="ok", input_tokens=True)
+
+
+@pytest.mark.parametrize("update", [
+    {"endpoint": "https://other.example/v3/compat"}, {"model": "gpt-5-mini"},
+    {"model": "openai model/gpt"}, {"provider": "chatai"},
+    {"api_key_env": "lowercase"}, {"max_calls": 11},
+])
+def test_opper_spec_requires_fixed_gateway_prefixed_model_and_bounds(opper_spec, update):
+    with pytest.raises(ValidationError):
+        OpperRunSpec.model_validate(opper_spec.model_dump() | update)
+
+
+def test_opper_spec_requires_explicit_provider_discriminator(opper_spec):
+    payload = opper_spec.model_dump()
+    payload.pop("provider")
+    with pytest.raises(ValidationError):
+        OpperRunSpec.model_validate(payload)
+
+
+def test_guarded_provider_predicate_uses_exact_adapter_types():
+    assert is_guarded_live_provider(object.__new__(ChatAIProvider))
+    assert is_guarded_live_provider(object.__new__(OpperProvider))
+
+    class Lookalike:
+        mode = "live"
+
+    assert not is_guarded_live_provider(Lookalike())
 
 
 @pytest.mark.parametrize("update", [
@@ -246,6 +286,47 @@ def test_factory_freezes_scope_without_credentials_or_network(workspace, spec, m
     changed = spec.model_copy(update={"max_calls": 9})
     with pytest.raises(ProviderSetupError, match="run_scope_changed"):
         create_live_provider(run, changed)
+
+
+def test_opper_factory_uses_distinct_provider_and_ledger(workspace, opper_spec, monkeypatch):
+    monkeypatch.delenv("OPPER_TEST_KEY", raising=False)
+    monkeypatch.setattr(inherited, "OpenAI", lambda **kw: pytest.fail("No client before dispatch"))
+    run = RunDirectory.create(workspace, "opper-factory")
+    live = create_live_provider(run, opper_spec, load_dotenv_file=True)
+    assert type(live) is OpperProvider
+    assert live.model_name == "openai/gpt-5-mini" and live.spec == opper_spec
+    assert (workspace / OpperRequestLedger.relative_path).is_file()
+    assert not (workspace / RequestLedger.relative_path).exists()
+    assert live.generate("prompt").error_code == "request_history_unknown"
+
+
+def test_live_providers_reject_the_other_services_ledger(workspace, spec, opper_spec):
+    run = RunDirectory.create(workspace, "ledger-provider-mismatch")
+    chatai = RequestLedger(workspace)
+    opper = OpperRequestLedger(workspace)
+    with pytest.raises(ProviderSetupError, match="ledger_provider_mismatch"):
+        OpperProvider(run, opper_spec, chatai)
+    with pytest.raises(ProviderSetupError, match="ledger_provider_mismatch"):
+        ChatAIProvider(run, spec, opper)
+
+
+def test_opper_transport_propagates_exact_scope_offline(workspace, opper_spec, monkeypatch):
+    clock = [1000.0]
+    ledger = OpperRequestLedger(workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0])
+    clock[0] += 3600
+    run = RunDirectory.create(workspace, "opper-transport")
+    run.write_json("live-run-spec.json", opper_spec.model_dump(mode="json"))
+    client = FakeClient()
+    options = []
+    monkeypatch.setenv("OPPER_TEST_KEY", "synthetic-opper-key")
+    monkeypatch.setattr(inherited, "OpenAI", lambda **kwargs: options.append(kwargs) or client)
+    result = OpperProvider(run, opper_spec, ledger).generate("prompt")
+    assert result.status == "ok" and result.request_id
+    assert options == [{"api_key": "synthetic-opper-key", "base_url": "https://api.opper.ai/v3/compat"}]
+    assert client.requests[0]["model"] == "openai/gpt-5-mini"
+    assert client.options["max_retries"] == 0 and client.closed
+    assert (workspace / OpperRequestLedger.relative_path).is_file()
+    assert not (workspace / RequestLedger.relative_path).exists()
 
 
 def test_factory_rejects_hash_mismatch_and_offline_source(workspace, spec):

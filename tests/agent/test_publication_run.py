@@ -9,6 +9,7 @@ import sys
 import pytest
 
 from meta_data_extraction.agent.evidence import sha256
+from meta_data_extraction.agent.providers import OpperRunSpec
 from meta_data_extraction.agent.publication_types import PublicationSpec, load_publication_spec
 from meta_data_extraction.agent.review_store import ReviewStore
 from meta_data_extraction.agent.storage import RunConflictError, RunIncompleteError
@@ -55,6 +56,19 @@ def json_artifact(root, relative):
 
 def child_directory(root, spec, stage):
     return root / "runs/agent" / runner._child(spec, stage)
+
+
+def test_opper_publication_scope_selects_distinct_guarded_spec(scope):
+    root, original = scope
+    selected = amended(original, mode="live", split="development", mock_responses=[],
+        live={"provider":"opper", "model":"openai/gpt-5-mini", "max_output_tokens":512})
+    bundle = runner.prepare_sources(root, [selected.source.path])[0].bundle
+    profile = runner.load_profile(root, selected.schemas)
+    live = runner._live_scope(selected, profile, bundle, ("synthetic prompt",), 1)
+    assert type(live) is OpperRunSpec
+    assert live.endpoint == "https://api.opper.ai/v3/compat"
+    assert live.model == "openai/gpt-5-mini" and live.api_key_env == "OPPER_API_KEY"
+    assert live.sources[0].sha256 == bundle.source_sha256
 
 
 def snapshots(root):

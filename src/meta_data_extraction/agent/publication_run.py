@@ -18,13 +18,13 @@ from .evidence import sha256
 from .extraction import render_prompt
 from .paths import RunDirectory, checked_path, input_file, workspace_root
 from .profiles import load_profile
-from .providers import LiveRunSpec, MockProvider, ProviderResult, create_live_provider
+from .providers import LiveRunSpec, MockProvider, OpperRunSpec, ProviderResult, create_live_provider
 from .publication_checks import (
     PublicationCheckError, eligible_patch_paths, issues_from_support, parse_patch_response,
     plan_support, render_patch_prompt,
 )
 from .publication_standards import load_reviewed_nexus, map_record_techniques, standards_input_pins
-from .publication_types import PublicationSpec
+from .publication_types import PublicationOpperSettings, PublicationSpec
 from .record_patches import PatchPolicy, build_candidate
 from .run_extraction import run_fixed
 from .sources import prepare_sources
@@ -125,7 +125,8 @@ def _live_scope(spec, profile, bundle, prompts, calls):
     live = spec.live
     if live is None or not prompts or not 1 <= calls <= spec.max_calls:
         raise ValueError("Invalid bounded live stage")
-    return LiveRunSpec(**live.model_dump(), sources=({"path":bundle.source_id,"sha256":bundle.source_sha256},),
+    scope_type = OpperRunSpec if isinstance(live, PublicationOpperSettings) else LiveRunSpec
+    return scope_type(**live.model_dump(), sources=({"path":bundle.source_id,"sha256":bundle.source_sha256},),
         split=spec.split, profile_sha256=profile.profile_id.removeprefix("profile:"),
         approved_prompt_sha256=tuple(dict.fromkeys(sha256(p.encode("utf-8")) for p in prompts)),
         max_calls=calls, max_total_output_tokens=calls*live.max_output_tokens)
@@ -268,6 +269,7 @@ def _generate_callable(generate, mode, prompt):
 
 def run_publication(root: Path | str, spec: PublicationSpec, *, max_steps: int | None = None,
                     stop_after: str | None = None, configured_chatai_endpoint: str | None = None,
+                    configured_provider_endpoint: str | None = None,
                     load_dotenv_file: bool = False) -> dict:
     """Extract actual supplied source, check it, then run the existing controller.
 
@@ -282,8 +284,12 @@ def run_publication(root: Path | str, spec: PublicationSpec, *, max_steps: int |
         raise ValueError("max_steps must be in 1..32")
     if type(load_dotenv_file) is not bool:
         raise ValueError("Explicit credential-loading choice required")
-    if spec.mode == "live" and configured_chatai_endpoint != spec.live.endpoint:
-        raise ValueError("Live publication endpoint must match trusted configured ChatAI endpoint")
+    if (configured_provider_endpoint is not None and configured_chatai_endpoint is not None
+            and configured_provider_endpoint != configured_chatai_endpoint):
+        raise ValueError("Conflicting trusted provider endpoints")
+    trusted_endpoint = configured_provider_endpoint or configured_chatai_endpoint
+    if spec.mode == "live" and trusted_endpoint != spec.live.endpoint:
+        raise ValueError("Live publication endpoint must match the trusted configured provider endpoint")
     bundle, profile, responses, request = _prepare(root,spec)
     store = _parent(root,spec,request)
     observations = []
@@ -315,7 +321,7 @@ def run_publication(root: Path | str, spec: PublicationSpec, *, max_steps: int |
         extracted = run_fixed(root,run_id=_child(spec,"extract"),source=spec.source.path,schemas=spec.schemas,
             variant="evidence", mock=MockProvider(responses[:1],model_name="publication-mock") if spec.mode=="mock" else None,
             live_spec=_live_scope(spec,profile,bundle,(prompt,),1) if spec.mode=="live" else None,
-            configured_chatai_endpoint=configured_chatai_endpoint,load_dotenv_file=load_dotenv_file,
+            configured_provider_endpoint=trusted_endpoint,load_dotenv_file=load_dotenv_file,
             retain_raw=spec.raw_retention=="retain")
         extraction = extracted.extraction
         observations.append(extraction.provider)

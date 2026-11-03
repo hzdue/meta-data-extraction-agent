@@ -1675,3 +1675,45 @@ git check-ignore runs/agent/m10-component-eval-v1/retrieval/results.json tmp/eva
 helper pins, result counts, syntax and credential-pattern checks. Intended edits
 are three documentation records and ignored run/helpers only. Existing Git
 ignore/line-ending warnings do not establish a new failure.
+
+## M02 Opper guarded-provider follow-up (2026-11-03)
+
+No real `.env`, credential, catalog endpoint or inference service was accessed.
+All provider clients and keys in tests were synthetic; transports were local fakes.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_providers.py tests/agent/test_publication_types.py tests/agent/test_run_extraction.py tests/agent/test_support_checks.py tests/agent/test_workflow.py tests/agent/test_workflow_tools.py -q -p no:cacheprovider --basetemp tmp/opper-core
+~~~
+
+An initial run passed **427 tests in 29.11s**. After requiring the explicit Opper
+provider discriminator, the final combined run reported **427 passed, one failed
+in 40.12s**: the existing cross-process ledger test encountered a transient Windows
+SQLite journal `PathPolicyError`. Its exact isolated rerun passed in 1.69s:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_providers.py::test_concurrent_processes_share_durable_reservations -q -p no:cacheprovider --basetemp tmp/opper-concurrency-retry
+~~~
+
+The initial broader collection was blocked because the current `.venv` lacked its
+locked LangGraph packages. `uv --cache-dir tmp/uv-cache sync --frozen --offline`
+completed from local cache without changing `uv.lock`. The isolated new publication
+scope and service boundary then passed:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_publication_run.py::test_opper_publication_scope_selects_distinct_guarded_spec tests/agent/test_providers.py::test_live_providers_reject_the_other_services_ledger tests/agent/test_publication_service.py -q -p no:cacheprovider --basetemp tmp/opper-publication-service-final
+~~~
+
+Final result after discriminator and ledger hardening: **35 passed in 5.52s**.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_providers.py tests/agent/test_publication_types.py tests/agent/test_run_extraction.py tests/agent/test_publication_run.py -q -p no:cacheprovider -k opper --basetemp tmp/opper-new-tests
+~~~
+
+Final rerun: **16 passed, 223 deselected in 1.52s**.
+
+The broader publication/live command produced **43 passed, 30 failed** initially.
+One new assertion depended on the stale source pin and was corrected to check the
+prepared bundle hash; the remaining 29 failures are existing tests that stop before
+provider construction because checked-out `publication_source.md` bytes hash to
+`799ca9...` while the frozen config expects `a7f2c4...`. No fixture, frozen config,
+released artifact or ignored run history was rewritten to force those gates.

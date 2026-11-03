@@ -11,7 +11,7 @@ import time
 
 from .contracts import ProviderObservation, digest
 from .evidence import resolve_evidence, sha256
-from .providers import ChatAIProvider, MockProvider, Provider, ProviderResult
+from .providers import MockProvider, Provider, ProviderResult, is_guarded_live_provider
 from .record_checks import check_structure
 from .profiles import verify_profile_resources
 from .workflow_policies import parse_policy_response, render_policy_prompt, select_action, validate_action
@@ -135,8 +135,8 @@ def _model_selection(state: WorkflowState, runtime: WorkflowRuntime):
     prompt = render_policy_prompt(state)
     prompt_hash = sha256(prompt.encode("utf-8"))
     if provider.mode == "live":
-        if type(provider) is not ChatAIProvider:
-            raise ValueError("Generic live selection requires guarded ChatAI provider")
+        if not is_guarded_live_provider(provider):
+            raise ValueError("Generic live selection requires a guarded provider")
         if (provider.spec.profile_sha256 != runtime.tools.profile.profile_id.removeprefix("profile:")
             or (runtime.tools.bundle.source_id, runtime.tools.bundle.source_sha256) not in {(s.path, s.sha256) for s in provider.spec.sources}
             or prompt_hash not in provider.spec.approved_prompt_sha256):

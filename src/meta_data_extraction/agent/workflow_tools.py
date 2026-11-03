@@ -18,7 +18,7 @@ from meta_data_extraction.agent.evidence import DocumentBundle, EvidenceRef, Fro
 from meta_data_extraction.agent.nexus_registry import Guidance, ProfileRegistry, SemanticRole, lookup_guidance
 from meta_data_extraction.agent.nexus_resources import NXDLSnapshot, verify_resources
 from meta_data_extraction.agent.profiles import Profile, verify_profile_resources
-from meta_data_extraction.agent.providers import ChatAIProvider, Provider
+from meta_data_extraction.agent.providers import Provider, is_guarded_live_provider
 from meta_data_extraction.agent.record_checks import _checked_profile, check_structure
 from meta_data_extraction.agent.record_patches import (
     PatchPolicy, PatchProposal, apply_supported_patch, build_candidate,
@@ -52,12 +52,12 @@ def _key(value: str) -> str:
 def _provider_identity(provider: Provider) -> dict:
     if provider.mode not in {"mock", "live"} or not provider.model_name:
         raise ValueError("Unknown checker provider mode or model")
-    if provider.mode == "live" and type(provider) is not ChatAIProvider:
-        raise ValueError("Live tools require the guarded ChatAI provider")
+    if provider.mode == "live" and not is_guarded_live_provider(provider):
+        raise ValueError("Live tools require a guarded provider")
     return dict(
         model=provider.model_name, mode=provider.mode,
         configuration=getattr(provider, "configuration_fingerprint", None),
-        scope=provider.spec.model_dump(mode="json") if type(provider) is ChatAIProvider else None,
+        scope=provider.spec.model_dump(mode="json") if is_guarded_live_provider(provider) else None,
     )
 
 

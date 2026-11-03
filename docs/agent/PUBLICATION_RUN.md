@@ -172,6 +172,42 @@ prompt wildcard. Aggregate call limits include extraction, initial checking,
 proposal generation and correction checks. A failed stage is not silently
 repeated. No live call occurs during status, review, submission or export.
 
+## Live Opper scope
+
+Opper is a separate guarded provider, not a ChatAI endpoint substitution. Put
+`OPPER_API_KEY` only in the ignored workspace `.env`. A publication specification
+selects it with a distinct live object:
+
+```json
+{
+  "provider": "opper",
+  "endpoint": "https://api.opper.ai/v3/compat",
+  "model": "PROVIDER/PREFIXED-MODEL-ID",
+  "api_key_env": "OPPER_API_KEY",
+  "max_output_tokens": 4096,
+  "max_prompt_bytes": 100000,
+  "timeout_seconds": 60
+}
+```
+
+The model value must be an exact provider-prefixed ID verified for the Opper
+project. The endpoint is fixed by the typed scope. Opper attempts use
+`runs/agent/_control/opper-requests.sqlite3`; they never consume or reset ChatAI
+ledger history. The same conservative ten-attempt rolling-hour implementation
+applies locally, but that is a safety cap rather than a claim about the account's
+provider quota. A new ledger waits one hour because recent use is unknown.
+
+After separately recording an approved document/split, exact model, call/token
+budgets, retention and spend limit, invoke a freshly frozen specification with:
+
+```powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m meta_data_extraction.agent.publication_cli run --spec runs/agent/YOUR_FRESH_RUN/publication-spec.json --provider-endpoint https://api.opper.ai/v3/compat --load-dotenv
+```
+
+Adding a key does not authorize this command. The implementation and its tests
+make no Opper request; model discovery and live inference remain separate,
+explicitly scoped operations.
+
 ## Review, exports and local API
 
 `review` prints current cases, evidence, state ID and revision. A response must

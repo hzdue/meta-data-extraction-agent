@@ -20,7 +20,7 @@ from meta_data_extraction.agent.evidence import (
     DocumentBundle, EvidenceRef, FrozenModel, resolve_evidence, sha256,
 )
 from meta_data_extraction.agent.profiles import Profile, validate_record, verify_profile_resources
-from meta_data_extraction.agent.providers import ChatAIProvider, Provider, ProviderResult
+from meta_data_extraction.agent.providers import Provider, ProviderResult, is_guarded_live_provider
 from meta_data_extraction.agent.record_checks import _checked_profile
 
 SUPPORT_VERSION = "m06-support-1"
@@ -345,8 +345,8 @@ def check_support(root: Path | str, profile: Profile, record: RecordSnapshot,
         ),))
     base.update(checked_assertions=checked, prompt_sha256=sha256(prompt.encode("utf-8")))
     if provider.mode == "live":
-        if type(provider) is not ChatAIProvider:
-            raise ValueError("Live support checking requires the guarded ChatAI provider")
+        if not is_guarded_live_provider(provider):
+            raise ValueError("Live support checking requires a guarded provider")
         if (provider.spec.profile_sha256 != profile.profile_id.removeprefix("profile:")
             or (bundle.source_id, bundle.source_sha256) not in {(s.path, s.sha256) for s in provider.spec.sources}
             or base["prompt_sha256"] not in provider.spec.approved_prompt_sha256):

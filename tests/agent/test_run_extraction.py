@@ -10,7 +10,9 @@ from meta_data_extraction.agent.contracts import FixedExtraction
 from meta_data_extraction.agent.evidence import sha256
 from meta_data_extraction.agent.extraction import render_prompt
 from meta_data_extraction.agent.profiles import load_profile
-from meta_data_extraction.agent.providers import LiveRunSpec, LiveSource, MockProvider, ProviderResult
+from meta_data_extraction.agent.providers import (
+    LiveRunSpec, LiveSource, MockProvider, OpperRunSpec, ProviderResult,
+)
 import meta_data_extraction.agent.run_extraction as runner
 from meta_data_extraction.agent.sources import prepare_sources
 from meta_data_extraction.agent.storage import RunConflictError, RunIncompleteError, RunStore
@@ -56,6 +58,17 @@ def live_scope(workspace):
         profile_sha256=profile.profile_id.removeprefix("profile:"),
         approved_prompt_sha256=(sha256(render_prompt(bundle, profile, "evidence").encode("utf-8")),),
         max_calls=1, max_output_tokens=512, max_total_output_tokens=512,
+    )
+
+
+def opper_live_scope(workspace):
+    chat = live_scope(workspace)
+    return OpperRunSpec(
+        provider="opper", model="openai/gpt-5-mini", sources=chat.sources, split=chat.split,
+        profile_sha256=chat.profile_sha256,
+        approved_prompt_sha256=chat.approved_prompt_sha256,
+        max_calls=chat.max_calls, max_output_tokens=chat.max_output_tokens,
+        max_total_output_tokens=chat.max_total_output_tokens,
     )
 
 
@@ -172,9 +185,24 @@ def test_export_interruption_cannot_repeat_successful_inference(runner_workspace
 def test_missing_or_mismatched_configured_endpoint_rejects_before_factory(runner_workspace, monkeypatch, endpoint):
     monkeypatch.setattr(runner, "create_live_provider", lambda *a, **k: pytest.fail("No live provider allowed"))
     spec = live_scope(runner_workspace)
-    with pytest.raises(ValueError, match="configured ChatAI endpoint"):
+    with pytest.raises(ValueError, match="configured provider endpoint"):
         run(runner_workspace, None, live_spec=spec, configured_chatai_endpoint=endpoint)
     assert not (runner_workspace / "runs").exists()
+
+
+def test_opper_fixed_run_routes_guarded_spec_and_trusted_endpoint(runner_workspace, monkeypatch):
+    selected = opper_live_scope(runner_workspace)
+    received = []
+
+    def factory(run, spec, **kwargs):
+        received.append((spec, kwargs))
+        raise RuntimeError("synthetic-stop-after-factory")
+
+    monkeypatch.setattr(runner, "create_live_provider", factory)
+    with pytest.raises(RuntimeError, match="synthetic-stop-after-factory"):
+        run(runner_workspace, None, live_spec=selected,
+            configured_provider_endpoint=selected.endpoint)
+    assert received == [(selected, {"load_dotenv_file": False})]
 
 
 @pytest.mark.parametrize("change", ["profile_sha256", "approved_prompt_sha256", "sources"])

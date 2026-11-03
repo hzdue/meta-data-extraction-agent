@@ -504,3 +504,23 @@ accuracy-gain claim. Next remains M10 independent source-first annotation/review
 correspondences, then a fresh authenticated comparison once access is corrected.
 Do not start M11, retry the rejected credential, or tune frozen methods to these
 evaluation cases without a new explicitly versioned development study.
+
+M02 Opper provider follow-up (2026-11-03): added a distinct guarded Opper scope
+and adapter at the fixed `https://api.opper.ai/v3/compat` gateway, requiring a
+provider-prefixed model ID and `OPPER_API_KEY`. Opper uses its own persistent
+rolling-hour ledger; existing ChatAI scope serialization and ledger remain separate.
+Fixed extraction, support checks, controller tools and the M10 publication runner
+now accept either exact guarded adapter. The CLI exposes `--provider-endpoint` and
+retains `--chatai-endpoint` as an alias. No dependency or lockfile changed.
+
+Offline verification had 427 focused passes and one existing Windows concurrent-
+ledger failure on a transient SQLite journal path check; that exact test passed in
+isolation. Another 35 isolated publication/service/ledger tests passed, and the
+Opper-only selection passed all 16 tests. A broader publication run found 29 pre-existing
+fixture-pin failures before
+provider construction: current fixture bytes hash to `799c...` while the frozen
+configuration expects `a7f...`; protected fixtures/configs were not altered. Opper
+implementation is ready, but empirical status is `not_run`: no `.env` credential,
+catalog endpoint or model inference was accessed. Next is an authenticated catalog
+check and a fresh bounded M10 run only after exact model/document/budget/retention/
+spend scope is recorded; do not reuse the cancelled ChatAI job.

@@ -22,7 +22,8 @@ def main(argv=None) -> int:
         command.add_argument("--spec", required=True,
                              help="Explicit frozen specification under configs/agent or runs/agent.")
         if name in {"run", "serve"}:
-            command.add_argument("--chatai-endpoint", help="Trusted configured endpoint; required for live dispatch.")
+            command.add_argument("--provider-endpoint", "--chatai-endpoint", dest="provider_endpoint",
+                                 help="Trusted configured endpoint; required for live dispatch.")
             command.add_argument("--load-dotenv", action="store_true",
                                  help="Explicitly load credentials from the workspace .env without printing them.")
         if name == "run":
@@ -40,7 +41,7 @@ def main(argv=None) -> int:
         root = workspace_root(args.root)
         spec = load_publication_spec(root, args.spec)
         service = PublicationService(root, spec,
-            configured_chatai_endpoint=getattr(args, "chatai_endpoint", None),
+            configured_provider_endpoint=getattr(args, "provider_endpoint", None),
             load_dotenv_file=getattr(args, "load_dotenv", False))
         if args.command == "run":
             result = service.start(spec.run_id, max_steps=args.max_steps)

@@ -12,7 +12,7 @@ from .config import SchemaName
 from .evidence import FrozenModel
 from .inspect_record import InputPin
 from .paths import input_file, validate_run_id
-from .providers import LiveRunSpec
+from .providers import LiveRunSpec, OpperRunSpec
 from .publication_standards import PaNETSettings, NeXusSettings
 from .retrieval import RetrievalStrategy
 
@@ -45,6 +45,32 @@ class PublicationLiveSettings(FrozenModel):
         return self
 
 
+class PublicationOpperSettings(FrozenModel):
+    provider: Literal["opper"]
+    endpoint: Literal["https://api.opper.ai/v3/compat"] = "https://api.opper.ai/v3/compat"
+    model: str
+    api_key_env: str = "OPPER_API_KEY"
+    max_output_tokens: int = Field(default=4096, ge=1, le=32768, strict=True)
+    max_prompt_bytes: int = Field(default=100000, ge=1, le=100000, strict=True)
+    timeout_seconds: float = Field(default=60, gt=0, le=300, allow_inf_nan=False)
+
+    @field_validator("timeout_seconds", mode="before")
+    @classmethod
+    def _numeric_timeout(cls, value):
+        if type(value) not in {int, float}:
+            raise ValueError("Timeout must be an explicit numeric duration")
+        return value
+
+    @model_validator(mode="after")
+    def _validate_live(self):
+        OpperRunSpec(**self.model_dump(),
+            sources=({"path":"tests/agent/fixtures/placeholder.md", "sha256":"0"*64},),
+            split="scope_validation_only", profile_sha256="0"*64,
+            approved_prompt_sha256=("0"*64,), max_calls=1,
+            max_total_output_tokens=self.max_output_tokens)
+        return self
+
+
 class PublicationSpec(FrozenModel):
     version: Literal["publication-run-1"] = "publication-run-1"
     run_id: str
@@ -63,7 +89,7 @@ class PublicationSpec(FrozenModel):
     unknown_usage: Literal["stop", "allow_bounded_calls"] = "allow_bounded_calls"
     workflow_timeout_seconds: float = Field(default=300, gt=0, le=300, allow_inf_nan=False)
     mock_responses: tuple[InputPin, ...] = Field(default=(), max_length=10)
-    live: PublicationLiveSettings | None = None
+    live: PublicationLiveSettings | PublicationOpperSettings | None = None
     panet: PaNETSettings | None = None
     nexus: NeXusSettings | None = None
 

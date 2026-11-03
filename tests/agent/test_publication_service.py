@@ -59,7 +59,7 @@ def test_start_forwards_only_frozen_spec_and_explicit_options(backend):
     service, _, _, calls = backend
     service.start(service.spec.run_id, max_steps=2)
     assert calls == [(service.root, service.spec, {
-        "max_steps": 2, "configured_chatai_endpoint": None, "load_dotenv_file": False})]
+        "max_steps": 2, "configured_provider_endpoint": None, "load_dotenv_file": False})]
 
 
 @pytest.mark.parametrize("method", ["start", "status", "review"])
@@ -111,9 +111,9 @@ def test_live_endpoint_and_credential_choice_are_forwarded(workspace, monkeypatc
     fake = SimpleNamespace(run_publication=lambda *args, **kwargs: calls.append(kwargs) or {"status": "blocked"})
     monkeypatch.setattr(service_module, "_runner", lambda: fake)
     service = PublicationService(workspace, selected,
-        configured_chatai_endpoint=selected.live.endpoint, load_dotenv_file=True)
+        configured_provider_endpoint=selected.live.endpoint, load_dotenv_file=True)
     service.start(selected.run_id)
-    assert calls[0]["configured_chatai_endpoint"] == selected.live.endpoint
+    assert calls[0]["configured_provider_endpoint"] == selected.live.endpoint
     assert calls[0]["load_dotenv_file"] is True
 
 

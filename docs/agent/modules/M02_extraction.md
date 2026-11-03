@@ -2,6 +2,45 @@
 
 Date: 2026-10-07. Scope: M02 only; no controller loop or standards lookup.
 
+## Opper provider follow-up (2026-11-03)
+
+Question: can the existing guarded OpenAI-compatible boundary support Opper
+without weakening the frozen source/profile/prompt scope or changing historical
+ChatAI manifests?  The interface is a distinct Opper run specification and
+provider selected by the existing live-provider factory.  It fixes the gateway
+to `https://api.opper.ai/v3/compat`, requires a provider-prefixed model ID, reads
+only a named environment variable, and uses its own persistent request ledger.
+
+Minimal design: keep `LiveRunSpec` and `ChatAIProvider` serialization unchanged;
+add `OpperRunSpec`, `OpperProvider`, an exact guarded-provider predicate, and a
+provider-neutral trusted-endpoint option in the fixed/publication runners.  The
+baseline is the existing ChatAI adapter and shared `OpenAICompatibleLLM`; no new
+SDK or dependency is needed.  Required tests are offline scope validation,
+factory/ledger separation, exact endpoint/model/key propagation, one-attempt
+transport behavior, rejection of unguarded live providers, and publication/fixed
+runner routing.  No credential read, model request, or empirical comparison is
+authorized by this implementation follow-up.
+
+Outcome: implemented the distinct typed scope, guarded adapter, factory routing,
+separate ledger, publication/fixed-run selection, provider-neutral endpoint flag,
+local secret placeholder and offline tests. A worked example uses the synthetic
+ID `openai/gpt-5-mini`: the adapter sends that exact ID to the fixed Opper base URL
+and records the attempt only in the Opper ledger. The main trade-off is strictness:
+dynamic endpoint substitution and bare model names are rejected, so catalog/model
+selection must precede freezing a run.
+
+Checks: the final focused provider/extraction/check/workflow command had 427 pass
+and one existing Windows concurrent-ledger test fail on a transient SQLite journal
+path check; that exact test passed alone. The isolated Opper publication-scope test
+plus publication service and cross-provider-ledger suite passed 35 tests, and all
+16 Opper-selected tests passed together. The broader publication command found 29 existing tests blocked
+before provider
+construction because the checked-out fixture bytes do not match their frozen
+source hashes; protected fixtures/configs were not rewritten. Implementation is
+**ready**; experiment status is **not_run**, with zero credentials read and zero
+live/catalog/model requests. A live Opper test still needs an exact model ID and
+an approved source/split, budgets, retention and spend limit.
+
 ## Question and minimal design
 
 Can the fixed workflow produce canonical metadata with resolvable evidence and

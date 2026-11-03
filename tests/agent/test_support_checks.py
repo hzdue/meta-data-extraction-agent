@@ -365,7 +365,7 @@ def test_unguarded_live_provider_rejected(support_case):
         def generate(self, prompt):
             raise AssertionError("Must never dispatch")
     root, profile, bundle, record, targets = support_case
-    with pytest.raises(ValueError, match="guarded ChatAI"):
+    with pytest.raises(ValueError, match="guarded provider"):
         check_support(root, profile, record, bundle, targets, Unguarded(), raw_retention="hash_only")
 
 

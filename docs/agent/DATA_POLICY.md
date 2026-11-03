@@ -34,7 +34,7 @@ Keep future runtime credentials/deployment mounts restricted to approved sources
 schemas/resources and its run directory; do not mount benchmark judgments.
 The current local checkout necessarily contains both runtime and offline assets.
 
-M00/M01 have no model execution path. M02 adds a separately scoped ChatAI provider;
+M00/M01 have no model execution path. M02 adds separately scoped guarded providers;
 the CLI remains mock-only, and agent tests deny socket connections and DNS.
 Standing ChatAI authorization is recorded in `AGENTS.md`: model `qwen3.8-27b`,
 shared maximum ten requests per rolling hour including failures/retries. It has
@@ -52,6 +52,15 @@ an incompatible ledger schema fails closed, requiring explicit reconciliation.
 Deleting accounting files does not give immediate fresh allowance. Other clients
 and checkouts are outside this local enforcement and must share coordinated
 accounting. No external tracing, catalog writes or deployment is enabled.
+
+The Opper follow-up adds a distinct fixed endpoint/model scope and the separate
+ledger `runs/agent/_control/opper-requests.sqlite3`. It reads only the configured
+`OPPER_API_KEY` environment variable after readiness and scope checks, and it
+reuses the existing no-retry/no-redirect OpenAI-compatible transport. Opper model
+IDs must be provider-prefixed. Credential presence alone is not live-run approval:
+an exact model, allowed document/split, budgets, retention and spend boundary must
+be recorded first. The implementation follow-up made no credential, catalog or
+inference request.
 
 M01 preparation reads only explicit allowlisted files, preserving raw-byte hashes
 and exact UTF-8 text or inherited PDF-to-Markdown output. Retrieval accepts only

@@ -4,7 +4,8 @@ import json
 import pytest
 
 from meta_data_extraction.agent.publication_types import (
-    PublicationLiveSettings, PublicationSpec, load_publication_spec,
+    PublicationLiveSettings, PublicationOpperSettings, PublicationSpec,
+    load_publication_spec,
 )
 
 
@@ -39,6 +40,29 @@ def test_live_scope_does_not_read_credentials_or_create_requests(monkeypatch):
     assert not scope.mock_responses
     assert "api_key" not in scope.live.model_dump()
     assert scope.source.path == "tests/agent/fixtures/invented.md"
+
+
+def test_opper_scope_is_distinct_and_does_not_read_credentials(monkeypatch):
+    monkeypatch.delenv("OPPER_API_KEY", raising=False)
+    scope = PublicationSpec.model_validate(payload(
+        mode="live", split="development", mock_responses=[],
+        live={"provider":"opper", "model":"openai/gpt-5-mini"},
+    ))
+    assert type(scope.live) is PublicationOpperSettings
+    assert scope.live.endpoint == "https://api.opper.ai/v3/compat"
+    assert scope.live.api_key_env == "OPPER_API_KEY"
+    assert "api_key" not in scope.live.model_dump()
+
+
+@pytest.mark.parametrize("patch", [
+    {"model":"gpt-5-mini"},
+    {"model":"openai/gpt-5-mini", "endpoint":"https://other.example/v3/compat"},
+    {"model":"openai/gpt-5-mini", "provider":"chatai"},
+    {"model":"openai/gpt-5-mini", "api_key_env":"lowercase"},
+])
+def test_opper_live_settings_reject_ambiguous_provider_scope(patch):
+    with pytest.raises(ValueError):
+        PublicationOpperSettings(**patch)
 
 
 @pytest.mark.parametrize("patch", [

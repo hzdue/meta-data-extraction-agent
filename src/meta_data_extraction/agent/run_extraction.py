@@ -14,7 +14,10 @@ from meta_data_extraction.agent.evidence import FrozenModel, resolve_evidence, s
 from meta_data_extraction.agent.extraction import EVIDENCE_PROMPT_VERSION, Variant, extract_fixed, render_prompt
 from meta_data_extraction.agent.paths import input_file, workspace_root
 from meta_data_extraction.agent.profiles import DEFAULT_SCHEMAS, load_profile, validate_record
-from meta_data_extraction.agent.providers import LiveRunSpec, MockProvider, ProviderResult, create_live_provider
+from meta_data_extraction.agent.providers import (
+    GuardedRunSpec, LiveRunSpec, MockProvider, OpperRunSpec, ProviderResult,
+    create_live_provider,
+)
 from meta_data_extraction.agent.sources import prepare_sources
 from meta_data_extraction.agent.storage import RunConflictError, RunStore
 
@@ -41,12 +44,12 @@ def _implementation(root: Path) -> dict[str, str]:
 
 def run_fixed(root: Path | str, *, run_id: str, source: str,
               schemas: tuple[str, ...] = DEFAULT_SCHEMAS, variant: Variant = "evidence",
-              mock: MockProvider | None = None, live_spec: LiveRunSpec | None = None,
+              mock: MockProvider | None = None, live_spec: GuardedRunSpec | None = None,
               configured_chatai_endpoint: str | None = None, load_dotenv_file: bool = False,
-              retain_raw: bool) -> RunReport:
+              retain_raw: bool, configured_provider_endpoint: str | None = None) -> RunReport:
     """Prepare one explicit source and execute once, or verify a completed replay.
 
-    Live callers must supply the authorized ChatAI endpoint from their trusted
+    Live callers must supply the authorized provider endpoint from their trusted
     configuration, plus an exact source/profile/prompt run specification. Merely
     finding a key or accepting a model/document-supplied URL is not authorization.
     The CLI below deliberately exposes only offline synthetic fixture execution.
@@ -58,7 +61,9 @@ def run_fixed(root: Path | str, *, run_id: str, source: str,
     if mock is not None and not isinstance(mock, MockProvider):
         raise TypeError("Mock execution requires the deterministic mock adapter")
     if live_spec is not None:
-        live_spec = LiveRunSpec.model_validate(live_spec.model_dump(mode="json"))
+        if type(live_spec) not in {LiveRunSpec, OpperRunSpec}:
+            raise TypeError("Live execution requires a supported guarded run specification")
+        live_spec = type(live_spec).model_validate(live_spec.model_dump(mode="json"))
     if type(retain_raw) is not bool:
         raise TypeError("Choose an explicit raw-output retention policy")
     prepared = prepare_sources(root, [source])[0]
@@ -69,8 +74,12 @@ def run_fixed(root: Path | str, *, run_id: str, source: str,
     prompt = render_prompt(bundle, profile, variant)
     prompt_hash = sha256(prompt.encode("utf-8"))
     if live_spec is not None:
-        if not configured_chatai_endpoint or live_spec.endpoint != configured_chatai_endpoint:
-            raise ValueError("Live scope must match the explicitly configured ChatAI endpoint")
+        if (configured_provider_endpoint is not None and configured_chatai_endpoint is not None
+                and configured_provider_endpoint != configured_chatai_endpoint):
+            raise ValueError("Conflicting configured provider endpoints")
+        trusted_endpoint = configured_provider_endpoint or configured_chatai_endpoint
+        if not trusted_endpoint or live_spec.endpoint != trusted_endpoint:
+            raise ValueError("Live scope must match the explicitly configured provider endpoint")
         if (live_spec.profile_sha256 != profile.profile_id.removeprefix("profile:")
                 or {(s.path, s.sha256) for s in live_spec.sources} != {(bundle.source_id, bundle.source_sha256)}
                 or live_spec.approved_prompt_sha256 != (prompt_hash,)):

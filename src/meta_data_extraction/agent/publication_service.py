@@ -74,17 +74,22 @@ def _runner():
 class PublicationService:
     def __init__(self, root: Path | str, spec: PublicationSpec, *,
                  configured_chatai_endpoint: str | None = None,
+                 configured_provider_endpoint: str | None = None,
                  load_dotenv_file: bool = False):
         self.root = workspace_root(root)
         self.spec = PublicationSpec.model_validate(spec.model_dump(mode="json"))
         self.spec_sha256 = digest(self.spec.model_dump(mode="json"))
         if type(load_dotenv_file) is not bool:
             raise ValueError("An explicit credential-loading choice is required")
-        if configured_chatai_endpoint is not None and (
-            self.spec.mode != "live" or self.spec.live.endpoint != configured_chatai_endpoint
+        if (configured_provider_endpoint is not None and configured_chatai_endpoint is not None
+                and configured_provider_endpoint != configured_chatai_endpoint):
+            raise ValueError("Configured provider endpoints differ")
+        trusted_endpoint = configured_provider_endpoint or configured_chatai_endpoint
+        if trusted_endpoint is not None and (
+            self.spec.mode != "live" or self.spec.live.endpoint != trusted_endpoint
         ):
             raise ValueError("Configured endpoint differs from publication scope")
-        self.configured_chatai_endpoint = configured_chatai_endpoint
+        self.configured_provider_endpoint = trusted_endpoint
         self.load_dotenv_file = load_dotenv_file
 
     def _scope(self, run_id: str) -> None:
@@ -94,7 +99,7 @@ class PublicationService:
             raise PilotError("publication_scope_changed")
 
     def _dispatch_scope(self) -> None:
-        if self.spec.mode == "live" and self.configured_chatai_endpoint != self.spec.live.endpoint:
+        if self.spec.mode == "live" and self.configured_provider_endpoint != self.spec.live.endpoint:
             raise PilotError("trusted_endpoint_required", 400)
 
     def _read(self, run_id: str) -> dict:
@@ -130,7 +135,7 @@ class PublicationService:
             raise PilotError("max_steps_invalid", 400)
         return _runner().run_publication(
             self.root, self.spec, max_steps=max_steps,
-            configured_chatai_endpoint=self.configured_chatai_endpoint,
+            configured_provider_endpoint=self.configured_provider_endpoint,
             load_dotenv_file=self.load_dotenv_file,
         )
 

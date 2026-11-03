@@ -1,10 +1,11 @@
-"""Typed providers and conservative, process-shared ChatAI request accounting.
+"""Typed providers and conservative, process-shared live request accounting.
 
 The inherited client's request builder and response adapter are reused unchanged.
-All live attempts must pass the same checkout-local SQLite ledger.  A newly
-created ledger waits a full rolling hour because earlier service usage is unknown.
-This is a local application boundary: other programs using the same API account
-must share this ledger too; deleting it never grants immediate fresh allowance.
+Live attempts for each service pass that service's checkout-local SQLite ledger.
+A newly created ledger waits a full rolling hour because earlier service usage is
+unknown. This is a local application boundary: other programs using the same API
+account must share the corresponding ledger too; deleting it never grants fresh
+allowance.
 """
 from __future__ import annotations
 
@@ -153,6 +154,64 @@ class LiveRunSpec(BaseModel):
         return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+class OpperRunSpec(BaseModel):
+    """Explicit Opper scope; credentials and document content are never stored."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+    provider: Literal["opper"]
+    endpoint: Literal["https://api.opper.ai/v3/compat"] = "https://api.opper.ai/v3/compat"
+    model: str = Field(min_length=3, max_length=256)
+    sources: tuple[LiveSource, ...] = Field(min_length=1)
+    split: str = Field(min_length=1, max_length=120)
+    profile_sha256: str
+    approved_prompt_sha256: tuple[str, ...] = Field(min_length=1)
+    max_calls: int = Field(ge=1, le=10, strict=True)
+    max_output_tokens: int = Field(ge=1, le=32768, strict=True)
+    max_total_output_tokens: int = Field(ge=1, strict=True)
+    max_prompt_bytes: int = Field(default=100_000, ge=1, le=1_000_000, strict=True)
+    timeout_seconds: float = Field(default=60.0, gt=0, le=300, allow_inf_nan=False)
+    api_key_env: str = "OPPER_API_KEY"
+
+    _valid_profile = field_validator("profile_sha256")(_sha256)
+
+    @field_validator("model")
+    @classmethod
+    def _model(cls, value: str) -> str:
+        if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}/[A-Za-z0-9][A-Za-z0-9._:/-]{0,191}", value):
+            raise ValueError("Expected an explicit provider-prefixed Opper model ID")
+        return value
+
+    @field_validator("api_key_env")
+    @classmethod
+    def _key_env(cls, value: str) -> str:
+        if not re.fullmatch(r"[A-Z][A-Z0-9_]{0,99}", value):
+            raise ValueError("Expected an environment variable name")
+        return value
+
+    @field_validator("approved_prompt_sha256")
+    @classmethod
+    def _prompts(cls, values: tuple[str, ...]) -> tuple[str, ...]:
+        if len(set(values)) != len(values):
+            raise ValueError("Prompt fingerprints must be distinct")
+        return tuple(_sha256(value) for value in values)
+
+    @model_validator(mode="after")
+    def _scope(self) -> OpperRunSpec:
+        if len({source.path for source in self.sources}) != len(self.sources):
+            raise ValueError("Source paths must be distinct")
+        if self.max_total_output_tokens < self.max_output_tokens:
+            raise ValueError("Output budget must cover at least one reserved request")
+        return self
+
+    @property
+    def fingerprint(self) -> str:
+        text = json.dumps(self.model_dump(mode="json"), sort_keys=True, separators=(",", ":"))
+        return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+GuardedRunSpec = LiveRunSpec | OpperRunSpec
+
+
 class ProviderSetupError(ValueError):
     """Setup failure with a safe code, never a raw SDK exception or credential."""
 
@@ -240,7 +299,7 @@ class RequestLedger:
             raise ProviderSetupError("ledger_unavailable")
         return tuple(float(value) for value in rows[0][1:])
 
-    def reserve(self, run_id: str, spec: LiveRunSpec, *, commit_attempt: bool = True) -> Reservation:
+    def reserve(self, run_id: str, spec: GuardedRunSpec, *, commit_attempt: bool = True) -> Reservation:
         """Readiness checks do not spend an attempt; dispatch reservations always do.
 
         A reserved attempt is never refunded after failures or process interruption.
@@ -297,22 +356,32 @@ class RequestLedger:
             return False
 
 
-class ChatAIProvider:
+class OpperRequestLedger(RequestLedger):
+    """Opper accounting is isolated from ChatAI accounting."""
+
+    relative_path = "runs/agent/_control/opper-requests.sqlite3"
+
+
+class _GuardedOpenAIProvider:
     """One request per generate call; scope and reservations precede dispatch."""
 
     mode: Literal["live"] = "live"
+    spec_type: type[LiveRunSpec] | type[OpperRunSpec]
+    ledger_type: type[RequestLedger]
 
-    def __init__(self, run: RunDirectory, spec: LiveRunSpec, ledger: RequestLedger,
+    def __init__(self, run: RunDirectory, spec: GuardedRunSpec, ledger: RequestLedger,
                  *, load_dotenv_file: bool = False):
         if run.root.resolve() != ledger.root.resolve():
             raise ProviderSetupError("ledger_workspace_mismatch")
+        if type(ledger) is not self.ledger_type:
+            raise ProviderSetupError("ledger_provider_mismatch")
         self._run = run
-        self._spec = LiveRunSpec.model_validate(spec.model_dump(mode="json"))
+        self._spec = self.spec_type.model_validate(spec.model_dump(mode="json"))
         self._ledger = ledger
         self._load_dotenv_file = load_dotenv_file
 
     @property
-    def spec(self) -> LiveRunSpec:
+    def spec(self) -> GuardedRunSpec:
         return self._spec
 
     @property
@@ -326,7 +395,7 @@ class ChatAIProvider:
     def generate(self, prompt: str) -> ProviderResult:
         try:
             manifest = checked_path(self._run.root, f"runs/agent/{self._run.run_id}/live-run-spec.json", allowed_roots=("runs/agent",))
-            if LiveRunSpec.model_validate_json(manifest.read_text(encoding="utf-8")) != self.spec:
+            if self.spec_type.model_validate_json(manifest.read_text(encoding="utf-8")) != self.spec:
                 return self._blocked("run_scope_changed")
             for source in self.spec.sources:
                 path = input_file(self._run.root, source.path, allowed_roots=("data/raw", "tests/agent/fixtures"))
@@ -405,15 +474,44 @@ class ChatAIProvider:
         return result
 
 
-def create_live_provider(run: RunDirectory, spec: LiveRunSpec, *,
-                         load_dotenv_file: bool = False) -> ChatAIProvider:
+class ChatAIProvider(_GuardedOpenAIProvider):
+    """Guarded ChatAI adapter retained for historical configurations."""
+
+    spec_type = LiveRunSpec
+    ledger_type = RequestLedger
+
+
+class OpperProvider(_GuardedOpenAIProvider):
+    """Guarded adapter for Opper's OpenAI-compatible gateway."""
+
+    spec_type = OpperRunSpec
+    ledger_type = OpperRequestLedger
+
+
+def is_guarded_live_provider(provider: object) -> bool:
+    """Use exact adapter types so arbitrary structural lookalikes cannot dispatch."""
+
+    return type(provider) in {ChatAIProvider, OpperProvider}
+
+
+def create_live_provider(run: RunDirectory, spec: GuardedRunSpec, *,
+                         load_dotenv_file: bool = False) -> ChatAIProvider | OpperProvider:
     """Persist declared scope without reading credentials or making any request.
 
     The caller must verify the actual extraction profile and rendered prompt
     against this spec. Sources are independently checked here against actual bytes.
     Reopening an identical spec is safe; changing its run scope is rejected.
     """
-    spec = LiveRunSpec.model_validate(spec.model_dump(mode="json"))
+    if type(spec) is LiveRunSpec:
+        spec = LiveRunSpec.model_validate(spec.model_dump(mode="json"))
+        provider_type = ChatAIProvider
+        ledger_type = RequestLedger
+    elif type(spec) is OpperRunSpec:
+        spec = OpperRunSpec.model_validate(spec.model_dump(mode="json"))
+        provider_type = OpperProvider
+        ledger_type = OpperRequestLedger
+    else:
+        raise ProviderSetupError("unsupported_live_provider")
     for source in spec.sources:
         path = input_file(run.root, source.path, allowed_roots=("data/raw", "tests/agent/fixtures"))
         if hashlib.sha256(path.read_bytes()).hexdigest() != source.sha256:
@@ -421,12 +519,12 @@ def create_live_provider(run: RunDirectory, spec: LiveRunSpec, *,
     manifest = checked_path(run.root, f"runs/agent/{run.run_id}/live-run-spec.json", allowed_roots=("runs/agent",))
     if manifest.exists():
         try:
-            recorded = LiveRunSpec.model_validate_json(manifest.read_text(encoding="utf-8"))
+            recorded = type(spec).model_validate_json(manifest.read_text(encoding="utf-8"))
         except (ValueError, OSError):
             raise ProviderSetupError("run_scope_unreadable") from None
         if recorded != spec:
             raise ProviderSetupError("run_scope_changed")
     else:
         run.write_json("live-run-spec.json", spec.model_dump(mode="json"))
-    ledger = RequestLedger(run.root)
-    return ChatAIProvider(run, spec, ledger, load_dotenv_file=load_dotenv_file)
+    ledger = ledger_type(run.root)
+    return provider_type(run, spec, ledger, load_dotenv_file=load_dotenv_file)
