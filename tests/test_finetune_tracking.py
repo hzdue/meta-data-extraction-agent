@@ -90,6 +90,26 @@ def test_three_methods_share_experiment_and_reject_artifact_location_drift(setti
         RunTracker.start(drift, tmp_path / "new", contract(), method="base")
 
 
+def test_followup_experiment_contract_logs_generic_phase_metadata(settings, tmp_path):
+    cfg = config(method="structure_aware")
+    manifest = contract(cfg)
+    manifest.update(
+        phase="followup_phase_b",
+        experiment={
+            "phase": "followup_phase_b", "condition": "d32",
+            "family": "additional_training_control", "planned_exposure": {"D": 32},
+        },
+    )
+    tracker = RunTracker.start(settings, tmp_path / "phase-b", manifest,
+                               method="structure_aware")
+    run = tracker.client.get_run(tracker.run_id)
+    assert run.data.params["training_task_ratio"] == '{"D": 32}'
+    assert run.data.params["experiment.phase"] == "followup_phase_b"
+    assert run.data.params["experiment.condition"] == "d32"
+    assert run.data.params["experiment.family"] == "additional_training_control"
+    tracker.finish("FINISHED")
+
+
 def test_metrics_are_idempotent_and_conflicting_replays_fail(settings, tmp_path):
     tracker = RunTracker.start(settings, tmp_path / "run", contract(), method="base")
     tracker.log_metrics({"example/loss": 1.25}, 2)

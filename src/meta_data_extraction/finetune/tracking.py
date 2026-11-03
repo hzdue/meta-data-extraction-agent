@@ -197,6 +197,12 @@ class RunTracker:
                 contract["ablation"]["planned_exposure"], sort_keys=True)
             params["ablation.condition"] = contract["ablation"]["condition"]
             params["ablation.family"] = contract["ablation"]["family"]
+        elif "experiment" in contract:
+            params["training_task_ratio"] = json.dumps(
+                contract["experiment"]["planned_exposure"], sort_keys=True)
+            params["experiment.condition"] = contract["experiment"]["condition"]
+            params["experiment.family"] = contract["experiment"]["family"]
+            params["experiment.phase"] = contract["experiment"]["phase"]
         else:
             params["training_task_ratio"] = {
                 "base": "none", "json_only": "D only",

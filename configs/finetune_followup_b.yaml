@@ -1,0 +1,46 @@
+version: "1.0.0"
+phase: phase_b
+study_type: exploratory
+base_training_config: configs/finetune_structure_aware.yaml
+base_training_config_sha256: 4596744898f3bc1ad76b7a8573fa4946312c0c2ba0a32018ca222f7f3afb119e
+output_root: outputs/finetune/followup/phase-b
+seeds: [42, 123, 456]
+selection_policy: schema_reference_loss
+independent_test_split: null
+
+condition:
+  name: d32
+  family: additional_training_control
+  description: Complete-JSON-only control matched to D24+R8 at 32 examples and 8 updates.
+  exposures: {D: 32}
+  cycle_size: 8
+  cycles: 4
+  gradient_accumulation_steps: 4
+  endpoint_updates: 8
+  checkpoint_interval: 6
+
+existing_controls:
+  ablation_config: configs/finetune_ablation.yaml
+  ablation_config_sha256: 35cdf302d415395688deb3012b3d0dc13c8192f2ec95315d454ff6e167daf760
+  evaluation_dir: outputs/finetune/ablation-development-evaluation
+  shorter_control: d_only
+  mixed_control: matched_d_dr
+  endpoint_policy: fixed_exposure
+
+# Frozen before D32 training. Thresholds use F1 differences on the reused
+# thirty-paper development corpus and cannot be revised after a D32 output is seen.
+gate_b:
+  source_analysis: outputs/finetune/followup/phase-a1/paired_error_analysis.json
+  source_analysis_sha256: 9ea85bf92dfa1478b17a1e9c7a6655b3982d94ab300963b857396361efdc936d
+  comparison: matched_d_dr_minus_d32
+  equivalence_margin_f1: 0.03
+  sample_recovery_margin_f1: 0.03
+  r_specific_facilities_margin_f1: 0.04
+  r_specific_facility_refs_margin_f1: 0.03
+  minimum_positive_seeds: 2
+  minimum_net_improved_papers: 1
+  maximum_largest_paper_absolute_share: 0.25
+  decision_rules:
+    prefer_d32: D24+R8 is no more than 0.03 F1 above D32 on facilities and facility references, while D32 is at least 0.03 above D24+R8 on samples and sample references.
+    proceed_phase_c: D24+R8 is at least 0.04 above D32 on facilities and 0.03 above on facility references, both advantages are positive in at least two seeds and more papers improve than worsen, and neither field has more than 25 percent of absolute paired change from one paper.
+    otherwise: Stop schedule experiments and expand development data; do not reinterpret an inconclusive result as a pass.

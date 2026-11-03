@@ -1,0 +1,17 @@
+version: "1.0.0"
+phase: phase_b_evaluation
+study_type: exploratory
+training_config: configs/finetune_followup_b.yaml
+training_config_sha256: 1ff5982bc78430f6dc1d52d357c014133c4303b200627fa2521f753793a5627b
+evaluation_config: configs/finetune_evaluation.yaml
+ablation_evaluation_config: configs/finetune_ablation_evaluation.yaml
+ablation_evaluation_config_sha256: 9c6a4f1eee6840b9db8853c6bc10b350a6dc4e9e73e3d09bcb620a761d358acf
+control_evaluation_dir: outputs/finetune/ablation-development-evaluation
+output_dir: outputs/finetune/followup/phase-b/evaluation
+corpus_role: exploratory_reused_step7_test_as_development
+endpoint_policy: fixed_exposure
+d32_condition: d32
+controls: [d_only, matched_d_dr]
+seeds: [42, 123, 456]
+expected_papers: 30
+attach_mlflow: false

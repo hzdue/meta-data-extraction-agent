@@ -335,17 +335,25 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     set_seed(config.seed)
     output = (root / config.output_dir).resolve()
     contract = run_contract(root, config, summary, architecture)
-    contract["phase"] = "ablation" if experiment else ("smoke" if smoke else "comparison")
+    experiment_phase = experiment.get("phase", "ablation") if experiment else None
+    if experiment_phase not in {None, "ablation", "followup_phase_b"}:
+        raise ValueError(f"Unsupported training experiment phase: {experiment_phase}")
+    contract["phase"] = experiment_phase or ("smoke" if smoke else "comparison")
     if experiment:
-        contract["ablation"] = experiment
+        contract["ablation" if experiment_phase == "ablation" else "experiment"] = experiment
     prepare_output(output, contract, resume)
     tracker = RunTracker.start(tracking_settings, output, contract, method=config.method, resume=resume is not None)
     tracker.client.set_tag(tracker.run_id, "finetune.phase", contract["phase"])
     if experiment:
-        tracker.client.set_tag(tracker.run_id, "finetune.ablation_condition", experiment["condition"])
-        tracker.client.set_tag(tracker.run_id, "finetune.ablation_family", experiment["family"])
-        tracker.client.set_tag(tracker.run_id, "mlflow.runName",
-                               f"ablation_{experiment['condition']}_seed{config.seed}")
+        if experiment_phase == "ablation":
+            tracker.client.set_tag(tracker.run_id, "finetune.ablation_condition", experiment["condition"])
+            tracker.client.set_tag(tracker.run_id, "finetune.ablation_family", experiment["family"])
+            run_name = f"ablation_{experiment['condition']}_seed{config.seed}"
+        else:
+            tracker.client.set_tag(tracker.run_id, "finetune.experiment_condition", experiment["condition"])
+            tracker.client.set_tag(tracker.run_id, "finetune.experiment_family", experiment["family"])
+            run_name = f"{experiment_phase}_{experiment['condition']}_seed{config.seed}"
+        tracker.client.set_tag(tracker.run_id, "mlflow.runName", run_name)
     if smoke:
         tracker.client.set_tag(tracker.run_id, "mlflow.runName", f"smoke_{config.method}_integrated")
     trainer = None
@@ -370,7 +378,8 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
             "global_step": trainer.state.global_step, "metrics": result.metrics,
             "exposure": trainer.exposure, "selection": selection, "mlflow_run_id": tracker.run_id,
             "trainable_parameters": sum(p.numel() for p in model.parameters() if p.requires_grad),
-            **({"ablation": experiment} if experiment else {}),
+            **({"ablation" if experiment_phase == "ablation" else "experiment": experiment}
+               if experiment else {}),
         })
     except BaseException as exc:
         try:

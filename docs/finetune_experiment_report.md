@@ -15,6 +15,8 @@ validation papers and thirty held-out test papers.
 | Original pilot | M0 base model, M1 complete-JSON training, and M2 complete JSON plus entity/reference tasks | Two adapters, seed 42, 18 updates each | M1 was the strongest usable model; M2 learned entities but systematically omitted both dataset-reference fields. |
 | Controlled ablation | Eight D/E/R/P task mixtures with matched-D and fixed-update controls | 24 runs: 8 conditions × 3 seeds | Adequate complete-JSON exposure and explicit reference supervision repaired the omission; the original D8/E8/R8 allocation remained weakest. |
 | Development evaluation | Fixed endpoints for D24, D24+R8, D24+E8+R8 and D24+P8 | 12 adapters × 30 papers = 360 generations | Every output was valid JSON and retained both reference fields; no revised method dominated all metrics. |
+| Oracle-inventory diagnostic | R inference with gold, self-predicted and D24-predicted entity inventories | 3 D24+R8 adapters × 3 inventories × 30 papers = 270 generations | R linked gold entities well, but predicted entity and dataset errors caused large downstream losses; a second R pass did not repair them. |
+| D32 additional-training control | D32 versus the existing D24 and D24+R8 fixed endpoints | 3 new adapters × 30 papers = 90 new generations | D32 led D24+R8 on four of five structural fields, but missed the frozen sample-recovery margin; Gate B was inconclusive and Phase C was stopped. |
 
 Here, D is complete-JSON supervision, E is entity-only supervision, R is the
 original reference task, and P is a reference-only target shaped like the final
@@ -47,16 +49,28 @@ declared task schedule required a different number of optimizer updates.
   candidate, improving facility and facility-reference performance and reducing
   seed variability at the cost of some sample-side quality. D24+E8+R8 emphasized
   facilities and generic metadata. D24+P8 showed no clear advantage over D24+R8.
+- **The oracle-inventory diagnostic locates the main practical bottleneck
+  upstream of relationship generation.** With gold entities, R reached sample-
+  and facility-reference F1 of 0.864 and 0.956. Self-predicted inventories reduced
+  end-to-end scores to 0.538 and 0.624; D24-predicted inventories gave 0.574 and
+  0.603. The R task has learned useful linking behavior, but it cannot recover
+  entities or datasets missing from its supplied inventory.
+- **The D32 control did not establish an R-specific benefit or a decisive D-only
+  result.** D32 exceeded D24+R8 on facilities, samples, sample references and
+  facility references, while D24+R8 was 0.009 higher on datasets. The R-related
+  advantages required for Phase C failed every frozen check, but D32's 0.021
+  sample-F1 recovery missed the required 0.03 margin. Gate B was therefore
+  inconclusive.
 
 ### Decision
 
 Keep **M1** as the preferred pilot model because it won the original predeclared
-held-out comparison. Treat **D24+R8** as the leading structure-aware research
-candidate when facility and relationship robustness matter, and retain D-only
-when sample/dataset recovery is the priority. The ablation and 360-generation
-follow-up are exploratory because those thirty papers had already influenced the
-experiment design; choosing a new winner requires a newly collected independent
-test set.
+held-out comparison. The completed Gate B result does not justify promoting
+D24+R8 or D32 to a new winner and does not authorize the Phase C schedule runs.
+The ablation and follow-up evaluations are exploratory because those thirty
+papers had already influenced the experiment design. Expand development data
+with newly annotated papers, preserve a separate independent test set, and make
+no new model choice until those data are frozen.
 
 ## 1. Experimental design
 
@@ -298,6 +312,10 @@ IDs; neither showed M2's structural reference failure.
 5. **Rebalanced structure-aware training repairs the missing-reference failure,**
    but the completed development evaluation does not show a general improvement
    over D-only or M1.
+6. **Gate B is inconclusive and stops the schedule branch.** D32 did not satisfy
+   the frozen simpler-model rule, while D24+R8 failed every requirement for an
+   R-specific effect. Additional conclusions require newly annotated development
+   data rather than more schedules on the reused corpus.
 
 ## 6. Exploratory controlled ablation matrix
 
@@ -430,7 +448,91 @@ is the priority. D24+E8+R8 is worth considering only when facilities and generic
 metadata are explicitly more important. A newly collected independent test set
 is required before selecting among them for a confirmatory claim.
 
-## 7. Limitations and future work
+## 7. Step 9 Phase A2: oracle-versus-predicted R diagnostic
+
+We reused the three fixed D24+R8 adapters and ran the R prompt with three frozen
+entity inventories: gold entities, each adapter's own one-call prediction, and
+the corresponding D24 prediction. Each condition covered all thirty development
+papers and seeds 42, 123 and 456, for **270 R generations**. This is an
+exploratory diagnostic on reused development papers, not a new held-out test.
+
+| Entity inventory | R contract valid | Conditional sample refs | Conditional facility refs | End-to-end sample refs | End-to-end facility refs |
+|---|---:|---:|---:|---:|---:|
+| Gold (`oracle`) | 28.7 ± 0.6 / 30 | **0.864 ± 0.013** | **0.956 ± 0.021** | **0.864 ± 0.013** | **0.956 ± 0.021** |
+| D24+R8 one-call output (`self_predicted`) | 29.0 ± 1.0 / 30 | 0.724 ± 0.025 | 0.759 ± 0.040 | 0.538 ± 0.022 | **0.624 ± 0.052** |
+| D24 one-call output (`d24_predicted`) | 28.3 ± 0.6 / 30 | **0.773 ± 0.066** | 0.720 ± 0.093 | **0.574 ± 0.081** | 0.603 ± 0.106 |
+
+Values are mean ± sample standard deviation over the three seeds. Conditional
+F1 scores links on evaluator-aligned datasets; end-to-end F1 additionally
+penalizes missing or incorrect datasets and target entities. The oracle entity
+F1 values are 1.0 by construction because gold inventories were supplied; they
+do not mean that the model extracted entities perfectly.
+
+### Findings
+
+- **R has learned a useful relationship function.** Oracle sample-reference F1
+  was 0.864 and facility-reference F1 was 0.956, with little seed variation.
+  This rules against a generally ineffective R task as the main explanation.
+- **Predicted inventories are the dominant practical bottleneck.** Relative to
+  oracle, self-predicted inventories lowered conditional sample/facility scores
+  by 0.140/0.198 and end-to-end scores by 0.326/0.333. D24 inventories lowered
+  the same scores by 0.091/0.236 and 0.290/0.353. The larger end-to-end gaps show
+  the additional cost of missing, incorrect or unaligned entities and datasets.
+- **A separate R pass does not repair the one-call pipeline.** With the
+  D24+R8 adapter's own inventory, conditional R scores (0.724 sample, 0.759
+  facility) were no better than its existing one-call development scores (0.755
+  and 0.770). The current evidence therefore does not support output integration
+  as the primary failure mode.
+- **Neither predicted inventory dominates.** Compared with D24 inventories,
+  self-predicted inventories were better for facilities (+0.073 entity F1 and
+  +0.020 end-to-end facility-reference F1) but worse for samples (-0.049 entity
+  F1 and -0.037 end-to-end sample-reference F1). Reference differences varied
+  substantially by seed, especially for D24-predicted inventories. This mirrors
+  the facility-versus-sample trade-off already observed in the one-call models.
+- **Generation was reliable but the R contract was not perfect.** All 270
+  outputs were valid JSON, with no generation or output-limit failures. Twelve
+  outputs failed the stricter requirement to cover every supplied dataset/field
+  exactly once and in order, leaving 258/270 contract-valid outputs. These cases
+  used the predeclared empty-reference fallback and remained in the scores.
+
+The diagnostic supports continuing to the predeclared D32 additional-training
+control: R can learn links under a clean inventory, but Phase A2 alone cannot
+show whether D24+R8's facility gains come from R-specific transfer or simply two
+additional optimizer updates. It does not justify deploying a two-stage R pass.
+
+## 8. Step 9 Phase B: D32 additional-training control
+
+We trained D32 for seeds 42, 123 and 456 with the same eight complete-JSON
+records repeated over eight optimizer updates. The fixed endpoint was evaluated
+on the same thirty reused development papers, producing **90/90 new generations**.
+The evaluator reused the 180 existing D24 and D24+R8 outputs and applied the
+numeric Gate B thresholds frozen before D32 evaluation.
+
+| Condition | Full schema | Facilities F1 | Samples F1 | Datasets F1 | Sample refs F1 | Facility refs F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| D24 | 29.0 ± 0.0 / 30 | 0.691 ± 0.077 | **0.786 ± 0.007** | **0.789 ± 0.019** | **0.814 ± 0.023** | 0.725 ± 0.088 |
+| D24+R8 | 27.7 ± 0.6 / 30 | 0.764 ± 0.015 | 0.738 ± 0.007 | 0.771 ± 0.021 | 0.755 ± 0.011 | 0.770 ± 0.026 |
+| D32 | 28.3 ± 0.6 / 30 | **0.778 ± 0.031** | 0.759 ± 0.036 | 0.763 ± 0.015 | 0.785 ± 0.042 | **0.782 ± 0.024** |
+
+Values are mean ± sample standard deviation over the three seeds. All conditions
+retained both reference fields on all thirty papers per seed. D32 and D24+R8 are
+matched on examples and optimizer updates, but not supervised tokens or compute.
+
+For the primary D24+R8-minus-D32 contrast, the mean deltas were -0.014 facilities,
+-0.021 samples, +0.009 datasets, -0.030 sample references and -0.012 facility
+references. Facility and facility-reference deltas were positive in only one
+seed, improved fewer papers than they worsened, and exceeded the permitted
+single-paper concentration. Consequently, every frozen Phase C check failed.
+D32 satisfied the facility-equivalence checks and the sample-reference recovery
+check, but its 0.021 sample-F1 advantage did not reach the required 0.03.
+
+The frozen Gate B outcome is **inconclusive**. Phase C must not run. All forty
+currently annotated papers are already used by the frozen training, validation
+and reused-development splits, so the next step requires newly annotated papers.
+Those additions should enlarge development data while a separate representative
+independent test set remains untouched.
+
+## 9. Limitations and future work
 
 - The original M0/M1/M2 comparison used one seed; the exploratory ablation used
   three seeds.
@@ -447,7 +549,7 @@ mixture unless explicit reference supervision is retained. A confirmatory study
 requires a larger development set and a newly collected independent test set; it
 must not be tuned against the thirty previously evaluated papers.
 
-## 8. Reproducibility and artifacts
+## 10. Reproducibility and artifacts
 
 - Workflow and status: [`finetune_plan.md`](finetune_plan.md)
 - Hardware and training details: [`finetune_step6_report.md`](finetune_step6_report.md)
@@ -463,6 +565,18 @@ must not be tuned against the thirty previously evaluated papers.
 - Twelve-run comparison: `outputs/finetune/ablation-development-evaluation/comparison.json`
 - Human-readable comparison:
   `outputs/finetune/ablation-development-evaluation/comparison.md`
+- Step 9 Phase A2 evaluator: `scripts/evaluate_finetune_followup.py`
+- Frozen Phase A2 configuration: `configs/finetune_followup_a2.yaml`
+- Phase A2 machine-readable comparison:
+  `outputs/finetune/followup/phase-a2/comparison.json`
+- Phase A2 human-readable comparison:
+  `outputs/finetune/followup/phase-a2/comparison.md`
+- Phase B training configuration: `configs/finetune_followup_b.yaml`
+- Phase B evaluation configuration: `configs/finetune_followup_b_evaluation.yaml`
+- Phase B machine-readable comparison:
+  `outputs/finetune/followup/phase-b/evaluation/comparison.json`
+- Phase B human-readable comparison:
+  `outputs/finetune/followup/phase-b/evaluation/comparison.md`
 - Frozen evaluation configuration: `configs/finetune_evaluation.yaml`
 - Selected M1 checkpoint: `outputs/finetune/json_only_seed42/checkpoint-6`
 - Selected M2 checkpoint: `outputs/finetune/structure_aware_seed42/checkpoint-6`
@@ -475,4 +589,7 @@ MLflow runs:
 | M0 | `0f9789feb41e4207ab803ed1cb520a53` | FINISHED |
 | M1 | `a3e1f6bf2a494bb7bacb875a5e9edac1` | FINISHED |
 | M2 | `6c0cfa0975d546b086dd5b21c60e2cb4` | FINISHED |
+| D32 seed 42 | `2732f835809248379bcda44693559353` | FINISHED |
+| D32 seed 123 | `8ce7f83431a74396a7da03d625777a6c` | FINISHED |
+| D32 seed 456 | `de6c74f266944774a775e5bd5766802d` | FINISHED |
 

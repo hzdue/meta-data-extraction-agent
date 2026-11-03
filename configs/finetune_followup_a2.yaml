@@ -1,0 +1,18 @@
+version: "1.0.0"
+
+phase_a2:
+  evaluation_config: configs/finetune_evaluation.yaml
+  ablation_config: configs/finetune_ablation.yaml
+  source_evaluation_dir: outputs/finetune/ablation-development-evaluation
+  output_dir: outputs/finetune/followup/phase-a2
+  corpus_role: exploratory_reused_step7_test_as_development
+  endpoint_policy: fixed_exposure
+  adapter_condition: matched_d_dr
+  inventories: [oracle, self_predicted, d24_predicted]
+  seeds: [42, 123, 456]
+  expected_papers: 30
+  max_seq_length: 65536
+  max_new_tokens: 4096
+  decoding: greedy
+  enable_thinking: false
+  attach_mlflow: false

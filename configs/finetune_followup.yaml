@@ -1,0 +1,14 @@
+version: "1.0.0"
+
+phase_a1:
+  source_dir: outputs/finetune/ablation-development-evaluation
+  output_json: outputs/finetune/followup/phase-a1/paired_error_analysis.json
+  output_markdown: outputs/finetune/followup/phase-a1/paired_error_analysis.md
+  corpus_role: exploratory_reused_step7_test_as_development
+  endpoint_policy: fixed_exposure
+  control: d_only
+  treatment: matched_d_dr
+  seeds: [42, 123, 456]
+  expected_papers: 30
+  bootstrap_samples: 10000
+  bootstrap_seed: 42

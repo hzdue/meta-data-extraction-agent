@@ -881,6 +881,339 @@ and generic metadata further but reduced samples and sample references. D24+P8
 did not show a clear advantage over the original R task. Full analysis is in
 [`finetune_experiment_report.md`](finetune_experiment_report.md).
 
+## Step 9 — Targeted follow-up: auxiliary transfer and task order
+
+**Status: Phases A and B complete. Gate B was inconclusive, so Phase C is gated
+off and the study is waiting for newly annotated development data (2026-11-03).**
+
+### Purpose and scope
+
+Step 8 showed that the tested configurations with restored complete-JSON exposure
+repaired M2's systematic reference omission, but it did not establish whether R
+contributes useful relationship knowledge beyond extra optimization. It also
+showed a repeatable trade-off: D24+R8 improved facilities and facility
+references while reducing
+samples and sample references relative to D24. Step 9 will explain that trade-off
+with a small, gated study rather than another task-ratio grid.
+
+The primary questions are:
+
+1. Does R add useful information beyond the two extra optimizer updates in
+   D24+R8?
+2. Is R effective only when it receives gold entities, or does its relationship
+   skill survive realistic entity errors?
+3. Can task order retain facility-related gains without sacrificing sample-side
+   performance?
+4. If R has a distinct effect, which of its sample- and facility-reference parts
+   causes positive or negative transfer?
+
+P is not included because D24+P8 showed no clear advantage over D24+R8. E is not
+included in the first follow-up because it shifted performance further away from
+samples without producing a general improvement. Field-weighted losses and
+gradient-balancing algorithms are deferred until the simpler controls below show
+that a genuine R-specific benefit remains.
+
+### Evidence and data governance
+
+- Keep the eight training papers and their D/E/R targets unchanged for the
+  mechanistic controls. Do not add, repair or relabel examples between conditions.
+- Seeds remain **42, 123 and 456**. Report every seed; never select a seed.
+- The two existing validation papers and thirty Step 7 papers are development
+  data for this study. They may be used for exploratory diagnostics and method
+  selection but not for a new held-out claim.
+- Before choosing a confirmatory model, freeze a new independent test manifest,
+  schema version, evaluator version and analysis rule. Do not inspect its gold
+  labels or predictions until the shortlist is final.
+- If no new independent corpus is available, complete only the exploratory
+  analysis and label all conclusions accordingly.
+
+Every new run must record the model revision, adapter configuration, seed,
+ordered task schedule and checksum, examples by task and paper, optimizer
+updates, input tokens, supervised tokens, wall time, peak VRAM, checkpoints and
+MLflow run ID. Equal example counts do not imply equal training signal: D32 and
+D24+R8 match example slots and updates, but D and R have different target lengths.
+Before any GPU run, the frozen follow-up configuration must replace terms such as
+“consistent,” “material” and “retains” in Gates B and C with numeric decision
+thresholds derived from measurement resolution and the already available Step 8
+seed/paper variability. Those thresholds cannot be revised after D32 is evaluated.
+
+### Phase A — Diagnostics using existing checkpoints
+
+No training is required for this phase.
+
+#### A1. Paired error analysis
+
+Use the saved D24 and D24+R8 predictions for all three seeds to report:
+
+- per-paper precision, recall and F1 for facilities, samples, datasets and both
+  reference fields;
+- paired D24+R8 minus D24 differences, summarized by seed and paper;
+- gold and predicted entity/reference counts and errors involving missing,
+  duplicated, hallucinated or mislinked entities;
+- whether the facility gain and sample loss are concentrated in a few papers or
+  are directionally consistent across papers and seeds.
+
+This analysis must precede new task design. A field-average change alone is not
+enough evidence that the corresponding R subtask caused it.
+
+Implementation is frozen in
+[`finetune_followup.yaml`](../configs/finetune_followup.yaml) and
+[`analyze_finetune_followup.py`](../scripts/analyze_finetune_followup.py). It
+validates the six saved fixed-endpoint manifests, evaluator metadata, paper order
+and pooled report counts before producing restart-safe JSON and Markdown under
+`outputs/finetune/followup/phase-a1`. It performs no model loading, generation or
+training. Phase A1 completed over all six runs and 180 run-paper reports; its
+paired analysis is stored under `outputs/finetune/followup/phase-a1`.
+
+#### A2. Oracle-versus-predicted R diagnostic
+
+Evaluate each existing D24+R8 fixed endpoint with the R prompt under three input
+conditions on development papers:
+
+| Diagnostic | Entity inventory | Question |
+|---|---|---|
+| Oracle R | Gold entities | Can the adapter recover relationships when entity discovery is perfect? |
+| Self-predicted R | Entities from that adapter's frozen one-call D output | How much relationship quality survives realistic entity errors? |
+| D24-predicted R | Entities from the corresponding frozen D24 seed | Is the result sensitive to which extractor supplies the inventory? |
+
+Use one frozen and documented rule to map predicted entities and IDs into the R
+input. Report both conditional relationship F1 among correctly aligned entities
+and end-to-end relationship F1 that penalizes missing or incorrect entities.
+Never silently discard unmatched, duplicate or hallucinated entities.
+
+Interpretation is predeclared:
+
+- strong Oracle R but weak predicted-R results indicate entity-error propagation;
+- strong Oracle and predicted R but weaker one-call D references indicate an
+  integration/output-generation problem;
+- weak Oracle R indicates that the current R task itself has not learned a
+  reliable relationship function.
+
+Phase A2 is implemented in
+[`evaluate_finetune_followup.py`](../scripts/evaluate_finetune_followup.py) with
+its frozen contract in
+[`finetune_followup_a2.yaml`](../configs/finetune_followup_a2.yaml). It reuses the three
+fixed D24+R8 adapters, loads each adapter once and evaluates oracle,
+self-predicted and paired-seed D24-predicted inventories sequentially. Generation
+is restart-safe at paper boundaries. The 270 R generations are written only under
+`outputs/finetune/followup/phase-a2`; invalid R outputs remain explicit and use
+empty-reference fallbacks for scoring. Reports separate evaluator-conditional
+reference F1 from end-to-end relation-triple F1 that penalizes unaligned datasets
+and target entities. No Phase B training should start before these results are
+reviewed.
+
+Phase A2 completed all 270 planned generations. All outputs were valid JSON and
+258/270 satisfied the stricter R contract. With gold entities, mean sample- and
+facility-reference F1 were 0.864 and 0.956. With self-predicted inventories,
+end-to-end scores fell to 0.538 and 0.624; with D24-predicted inventories they
+were 0.574 and 0.603. The result supports entity/dataset error propagation as the
+main practical bottleneck: R links a clean inventory well, but a separate R pass
+does not recover entities absent or incorrect upstream and did not outperform
+the existing one-call links when given the same self-predicted inventory. Phase
+A2 therefore supports proceeding to the predeclared D32 control, but does not by
+itself establish R-specific transfer or justify a two-stage deployment.
+
+### Phase B — D32 additional-training control
+
+Train exactly one new condition for all three seeds:
+
+| Condition | D | R | Total examples | Updates | Status |
+|---|---:|---:|---:|---:|---|
+| D24 | 24 | 0 | 24 | 6 | Existing control |
+| D24+R8 | 24 | 8 | 32 | 8 | Existing mixed condition |
+| **D32** | **32** | **0** | **32** | **8** | **Three new runs** |
+
+D32 repeats each of the eight frozen D records exactly four times. Within each
+seed, use a deterministic order that covers every paper once before repeating it.
+Reuse the Step 8 base revision, QLoRA/LoRA settings, learning rate, microbatch,
+four-example gradient accumulation, full-context policy and decoding settings.
+The fixed step-8 endpoint is the scientific endpoint; intermediate checkpoints
+exist for recovery and diagnostics, not post-hoc endpoint selection.
+
+The primary comparison is D32 versus the existing D24+R8 endpoints. Report
+facilities, samples, datasets, both reference metrics, schema validity and generic
+metadata with seed means/spreads and paired per-paper differences. Also report D24
+as the shorter-training reference. Because D32 contains longer supervised targets,
+describe it as update/example matched—not token- or compute-matched.
+
+Phase B is implemented in
+[`finetune_followup_b.yaml`](../configs/finetune_followup_b.yaml),
+[`run_finetune_followup_training.py`](../scripts/run_finetune_followup_training.py)
+and
+[`run_finetune_followup_phase_b.sh`](../scripts/run_finetune_followup_phase_b.sh).
+The launcher runs seeds 42, 123 and 456 sequentially, verifies every completed
+endpoint and its MLflow record, resumes only the latest complete checkpoint, and
+fails closed on ambiguous nonempty output. The offline dry run verified D32,
+four appearances per training paper, four complete eight-paper cycles, eight
+optimizer updates and a longest sequence of 32,660 tokens. All three seeds then
+completed endpoint 8 with verified D32 exposure and finished MLflow runs.
+
+The development evaluator is frozen in
+[`finetune_followup_b_evaluation.yaml`](../configs/finetune_followup_b_evaluation.yaml),
+[`evaluate_finetune_followup_phase_b.py`](../scripts/evaluate_finetune_followup_phase_b.py)
+and
+[`run_finetune_followup_phase_b_evaluation.sh`](../scripts/run_finetune_followup_phase_b_evaluation.sh).
+It generates only the 90 new D32 paper outputs, reuses the 180 existing D24 and
+D24+R8 outputs, validates their checksums, evaluator provenance and pooled report
+counts, and applies Gate B without changing its thresholds. Generation resumes
+at paper boundaries; comparison outputs are written under
+`outputs/finetune/followup/phase-b/evaluation` and are not attached to MLflow.
+
+The numerical Gate B rules are frozen in the Phase B configuration before any
+D32 result is observed. An effect within 0.03 F1 is treated as practically
+equivalent. D32 must recover at least 0.03 on both sample-side metrics to support
+the simpler D-only decision. Proceeding to Phase C requires D24+R8 advantages of
+at least 0.04 facilities F1 and 0.03 facility-reference F1, positive differences
+in at least two seeds, more improved than worsened papers for both fields, and no
+single paper contributing more than 25% of absolute paired change. These values
+are anchored to Phase A1: the observed D24+R8 changes were +0.073 facilities,
++0.045 facility references, -0.049 samples and -0.059 sample references; the
+largest-paper shares were 16.7%, 15.5%, 49.7% and 42.3%, respectively.
+
+#### Gate B
+
+- If D32 reproduces the D24+R8 facility and facility-reference gains while
+  retaining stronger sample-side performance, there is no current evidence that
+  R provides a distinct benefit. Stop the R-order branch and retain D-only as the
+  simpler direction.
+- If D24+R8 retains a consistent facility-related advantage over D32 across seeds
+  and paired papers, treat that as exploratory evidence of R-specific transfer
+  and proceed to Phase C.
+- If results are inconsistent or dominated by a few papers, do not add more
+  objectives. Expand development data before deciding.
+
+Phase B completed all 90 D32 generations and applied the frozen gate without
+revision. D32 averaged 0.778 facilities, 0.759 samples, 0.763 datasets, 0.785
+sample-reference and 0.782 facility-reference F1. Relative to D32, D24+R8 was
+-0.014, -0.021, +0.009, -0.030 and -0.012 on those five fields, respectively.
+Its facility and facility-reference advantages were positive in only one of
+three seeds, so none of the Phase C checks passed. D32 stayed within the frozen
+facility margins and recovered the sample-reference margin, but missed the
+required 0.03 sample-F1 recovery. Gate B is therefore **inconclusive**: do not
+run Phase C or reinterpret this result as support for either schedule branch.
+
+All forty currently annotated papers are already assigned to the frozen eight
+training, two validation and thirty reused-development papers. There is no unused
+annotated corpus from which to expand development data. The next executable step
+is new annotation followed by a frozen expanded-development manifest; a separate
+independent test set must remain untouched for confirmation.
+
+### Phase C — Sequential versus mixed D/R training
+
+**Status: not started; Gate B did not support an R-specific effect.**
+
+Run this phase only if a later, expanded development evaluation supplies the
+missing evidence. Reuse the exact same 24 D and 8 R records as the existing mixed
+condition; change only their order.
+
+| Schedule | Updates 1–8 | New runs |
+|---|---|---:|
+| D32 control | 32 D examples | 0 (Phase B) |
+| Mixed D24+R8 | Existing deterministic interleaving | 0 (Step 8) |
+| **R8 → D24** | 8 R examples, then 24 D examples | **3** |
+| **D24 → R8** | 24 D examples, then 8 R examples | **3** |
+
+Keep the optimizer and scheduler state across the stage boundary; do not reset
+either. Align the task transition with a gradient-accumulation boundary so no
+optimizer update mixes stages. Within each stage, order papers deterministically
+from the seed. Save the stage-boundary checkpoint for diagnostics and the fixed
+step-8 endpoint for comparison; do not choose between them using the two-paper
+validation set.
+
+The main hypothesis is that R8→D24 will preserve useful relationship learning
+while the final D stage restores complete-JSON and sample-side behavior. D24→R8
+tests whether late auxiliary training causes interference. Compare both schedules
+with mixed D24+R8 and D32 using the same three seeds and paired development
+evaluation.
+
+#### Gate C
+
+- Shortlist R8→D24 only if it retains the facility/facility-reference advantage
+  of mixed D24+R8 while materially recovering its sample/sample-reference loss
+  across seeds and papers.
+- Treat degradation after D24→R8 as evidence consistent with late-task
+  interference, not as proof of a general continual-learning mechanism.
+- If neither sequence improves the trade-off, stop schedule experiments rather
+  than trying additional ratios or optimizer resets on the reused corpus.
+
+Phase B adds **three unconditional training runs**. If Gate B passes, the complete
+Phase B+C study adds **nine runs** in total: three D32 runs plus six sequential
+runs.
+
+### Phase D — Conditional relationship-task decomposition
+
+Run this phase only if R still provides a distinct benefit after Phases A–C and
+the paired error analysis shows that sample and facility relationships behave
+differently.
+
+Create two deterministic targets from the frozen R records without changing the
+gold entities or relationships:
+
+- `R_sample`: only dataset-to-sample references;
+- `R_facility`: only dataset-to-facility references.
+
+Compare D24+R_sample8 and D24+R_facility8 with existing D24+R8, using the same
+three seeds, eight updates and exact D exposure. This adds six conditional runs.
+The purpose is diagnosis, not choosing a ratio: determine whether facility gains
+come specifically from facility-reference supervision and whether either subtask
+causes the sample-side loss.
+
+Do not start field-weighted D training unless this decomposition identifies a
+specific transferable field. If it does, predeclare a separate span-weighted D32
+condition that weights semantic entity/reference value spans, not merely JSON
+keys. Compare it with D32 and D24+R8 using free-generation metrics; teacher-forced
+loss alone is not an adequate structural safeguard.
+
+### Phase E — Data scaling and independent confirmation
+
+The existing eight training and two validation papers are too small for a strong
+generalization claim. After the mechanism study:
+
+1. annotate additional papers and freeze expanded training/development manifests;
+2. keep a new representative independent test set untouched;
+3. freeze a shortlist containing the appropriate D-only control and at most one
+   R-based candidate, plus the analysis script and all checkpoints;
+4. evaluate the independent test exactly once with all seeds;
+5. report schema validity, precision/recall/F1, paired per-paper differences,
+   seed spread, bootstrap intervals, latency and failure categories;
+6. do not revise training, prompts, thresholds or checkpoint choice after seeing
+   independent-test results.
+
+If enough additional training data exist, compare the shortlisted D-only and
+R-based methods at predeclared data scales with matched paper coverage. This is a
+separate scaling study and must not recycle independent-test papers into training.
+
+### Proposed implementation boundary
+
+Implementation should reuse the Step 8 data contracts, trainer, evaluator,
+resume validation and MLflow accounting. New code should be limited to:
+
+- a frozen follow-up configuration describing D32 and the two sequential
+  schedules;
+- deterministic schedule construction with task-boundary checks;
+- an R-diagnostic evaluator with explicit entity-inventory mapping;
+- paired error/aggregate reporting; and
+- a restart-safe wrapper that runs only conditions enabled by the recorded gates.
+
+Proposed outputs belong under `outputs/finetune/followup/`; they must not modify
+Step 6–8 artifacts. Planning and dry-run modes must validate schedules, counts,
+checksums, context limits and endpoint rules without loading model weights.
+
+### Done when
+
+- Phase A produces reproducible per-paper and oracle/predicted-R reports from
+  unchanged existing checkpoints.
+- All three D32 runs have exact D32 exposure, eight updates, complete checkpoints
+  and MLflow accounting; Gate B is recorded before any sequential run starts.
+- If Gate B passes, all six sequential runs preserve the exact D24+R8 multiset,
+  cross task boundaries only between optimizer updates and record Gate C.
+- Any Phase D run is explicitly justified by the earlier gate and uses frozen
+  split-R targets with tests proving equivalence to the relevant part of R.
+- All development results are labeled exploratory and update
+  [`finetune_experiment_report.md`](finetune_experiment_report.md).
+- A confirmatory conclusion is made only after the frozen shortlist is evaluated
+  once on a new independent test set.
+
 ## Interpretation and later work
 
 The original M0/M1/M2 comparison remains preliminary because it used one training
@@ -889,10 +1222,11 @@ exposure/update families and a thirty-paper development evaluation, but those
 papers had already influenced method design. Disclose the benchmark's prior use
 and keep the ablation conclusions exploratory until a new independent test exists.
 
-Step 8 is complete as an exploratory matrix. Defer cross-validation, refitting on
-all ten papers, separate attribute tasks, staged inference, and second-domain
-transfer. When additional annotations arrive, freeze larger development and
-independent test sets before confirmatory method selection.
+Step 8 and the gated Step 9 Phase A/B study are complete. Gate B was inconclusive,
+so task-order training, broader ratio searches, separate attribute tasks,
+optimizer resets, gradient-balancing methods and second-domain transfer remain
+stopped. When additional annotations arrive, freeze larger development and
+independent test sets before any further method selection.
 
 ## Requesting implementation
 
