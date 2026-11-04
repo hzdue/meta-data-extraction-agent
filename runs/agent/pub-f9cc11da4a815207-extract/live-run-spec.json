@@ -1,0 +1,23 @@
+{
+  "provider": "opper",
+  "endpoint": "https://api.opper.ai/v3/compat",
+  "model": "openai/gpt-4o-2024-08-06",
+  "sources": [
+    {
+      "path": "data/raw/1907.00342/paper.pdf",
+      "sha256": "9e7543127b87dc6aaaab58775f0e9b996a5c4d6a80bf7eff45639e11259b6e43"
+    }
+  ],
+  "split": "evaluation",
+  "profile_sha256": "870415d6450280ac315fdae3d59689c69bc250a46f6b70af38d1aa59de384a04",
+  "approved_prompt_sha256": [
+    "3297857774b7621e64c38631c73c7ed342c2f531ab1cec8a82e454e9207aad74"
+  ],
+  "max_calls": 1,
+  "max_output_tokens": 8192,
+  "max_total_output_tokens": 8192,
+  "max_prompt_bytes": 130000,
+  "max_input_tokens": 119000,
+  "timeout_seconds": 240.0,
+  "api_key_env": "OPPER_API_KEY"
+}

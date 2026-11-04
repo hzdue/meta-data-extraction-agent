@@ -1,0 +1,42 @@
+{
+  "version": "m10-opper-evaluation-30-1",
+  "batch_id": "m10-e30-gpt4o-v2",
+  "prepared_at": "2026-11-03T13:59:26.770673+00:00",
+  "launcher_sha256": "c80ce61b2eb8f749fdf50d4955afb20ce6630e515aa7a6a3b9edff84ce0161e8",
+  "config_sha256": "67264db1e1b24478ed53749522a0d21acf3a2bd4fe07d03228799eea6501923f",
+  "question": "Can the guarded workflow produce reviewable outputs for all 30 evaluation papers through Opper?",
+  "split_manifest_only": {
+    "path": "data/corpus.json",
+    "sha256": "0af897afeb96f48b0dbdd81cbbbaac4bf035471cc5624f0f07d58d5fc5171816"
+  },
+  "gold_access": false,
+  "evaluator": null,
+  "comparison": null,
+  "provider": {
+    "name": "opper",
+    "endpoint": "https://api.opper.ai/v3/compat",
+    "model": "openai/gpt-4o-2024-08-06",
+    "api_key_env": "OPPER_API_KEY"
+  },
+  "policy": {
+    "controller": "issue_aware",
+    "automatic_patches": false,
+    "raw_retention": "hash_only",
+    "workers": 1
+  },
+  "budgets": {
+    "max_calls_per_paper": 3,
+    "max_output_tokens_per_call": 8192,
+    "max_prompt_bytes_per_call": 130000,
+    "max_input_tokens_per_call": 119000,
+    "timeout_seconds": 240,
+    "preflight_timeout_seconds": 300,
+    "maximum_papers": 30,
+    "maximum_total_calls": 90,
+    "conservative_batch_input_token_equivalents": 10710000,
+    "reserved_batch_output_tokens": 737280,
+    "shared_rolling_request_limit": 10,
+    "minimum_slots_before_paper": 3
+  },
+  "empirical_status": "not_run"
+}

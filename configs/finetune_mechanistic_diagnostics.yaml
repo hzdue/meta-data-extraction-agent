@@ -1,0 +1,37 @@
+version: "1.0.0"
+study_type: exploratory_mechanistic_diagnostic
+corpus_role: exploratory_reused_step7_test_as_development
+seeds: [42, 123, 456]
+expected_papers: 30
+
+# These inputs were frozen by the completed ablation and Phase B experiments.
+phase_a2_config: configs/finetune_followup_a2.yaml
+phase_a2_config_sha256: 641b48723e0606b7646a687f276ad38688e12319cce0323f7499076d3078522d
+ablation_config: configs/finetune_ablation.yaml
+ablation_config_sha256: 35cdf302d415395688deb3012b3d0dc13c8192f2ec95315d454ff6e167daf760
+phase_b_config: configs/finetune_followup_b.yaml
+phase_b_config_sha256: 1ff5982bc78430f6dc1d52d357c014133c4303b200627fa2521f753793a5627b
+phase_b_evaluation_config: configs/finetune_followup_b_evaluation.yaml
+phase_b_evaluation_config_sha256: 9998da591a1c3a12ec581966a290154190affebe5a58f9ae77aaa5fe667d9b91
+
+control_evaluation_dir: outputs/finetune/ablation-development-evaluation
+d32_evaluation_dir: outputs/finetune/followup/phase-b/evaluation
+existing_oracle_dir: outputs/finetune/followup/phase-a2
+output_dir: outputs/finetune/followup/mechanistic-diagnostics
+
+error_decomposition:
+  conditions: [d_only, matched_d_dr, d32]
+  fields: [sample_refs, facility_refs]
+
+oracle_comparison:
+  # D24+R8 oracle generations already exist and must be reused unchanged.
+  reused_condition: matched_d_dr
+  generated_conditions: [d32, d_only]
+  primary_contrast: [matched_d_dr, d32]
+  secondary_contrast: [matched_d_dr, d_only]
+  inventory: oracle
+  endpoint_policy: fixed_exposure
+  bootstrap_samples: 10000
+  bootstrap_seed: 4201
+  attach_mlflow: false
+  model_selection_allowed: false

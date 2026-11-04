@@ -1,0 +1,16 @@
+{
+  "version": "opper-evaluation-preflight-1",
+  "batch_id": "m10-e30-gpt4o-v2",
+  "paper_count": 30,
+  "ready_count": 30,
+  "eligible_count": 30,
+  "batch_eligible": true,
+  "failed": [],
+  "first_prompt_utf8_bytes_total": 2781509,
+  "first_input_tokens_chars_div_4_estimate_total": 693386,
+  "first_input_tokens_o200k_exact_total": 824184,
+  "maximum_first_input_tokens_o200k_exact": 42931,
+  "network_requests": 0,
+  "model_requests": 0,
+  "credential_read": false
+}

@@ -1,0 +1,22 @@
+{
+  "version": "opper-catalog-result-1",
+  "completed_at": "2026-11-03T13:11:39.714594+00:00",
+  "status_code": 200,
+  "model": "openai/gpt-4o-2024-08-06",
+  "model_found": true,
+  "model_metadata": {
+    "id": "openai/gpt-4o-2024-08-06",
+    "context_length": 128000,
+    "max_output_tokens": 16384,
+    "region": "US",
+    "gdpr_residency": "US",
+    "pricing_prompt": "0.0000025",
+    "pricing_completion": "0.00001",
+    "pricing_units": "provider_metadata_not_interpreted_by_launcher"
+  },
+  "numeric_limit_headers": {},
+  "prompt_sent": false,
+  "document_sent": false,
+  "model_requests": 0,
+  "error_code": null
+}

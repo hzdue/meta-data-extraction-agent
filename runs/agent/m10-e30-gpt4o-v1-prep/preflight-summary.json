@@ -1,0 +1,80 @@
+{
+  "version": "opper-evaluation-preflight-1",
+  "batch_id": "m10-e30-gpt4o-v1",
+  "paper_count": 30,
+  "ready_count": 30,
+  "eligible_count": 17,
+  "batch_eligible": false,
+  "failed": [
+    {
+      "ordinal": 1,
+      "arxiv_id": "1804.07163",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 5,
+      "arxiv_id": "1909.08292",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 11,
+      "arxiv_id": "2010.00094",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 12,
+      "arxiv_id": "2010.12832",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 17,
+      "arxiv_id": "2209.06540",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 18,
+      "arxiv_id": "2211.06006",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 22,
+      "arxiv_id": "2405.14324",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 23,
+      "arxiv_id": "2405.15411",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 24,
+      "arxiv_id": "2407.10282",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 25,
+      "arxiv_id": "2407.20626",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 28,
+      "arxiv_id": "2601.16215",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 29,
+      "arxiv_id": "2603.01364",
+      "error_code": "prompt_size_limit"
+    },
+    {
+      "ordinal": 30,
+      "arxiv_id": "2605.14792",
+      "error_code": "prompt_size_limit"
+    }
+  ],
+  "first_prompt_utf8_bytes_total": 2781509,
+  "first_input_tokens_chars_div_4_estimate_total": 693386,
+  "network_requests": 0,
+  "model_requests": 0,
+  "credential_read": false
+}

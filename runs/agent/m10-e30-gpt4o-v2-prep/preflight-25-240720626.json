@@ -1,0 +1,25 @@
+{
+  "version": "opper-paper-preflight-1",
+  "ordinal": 25,
+  "arxiv_id": "2407.20626",
+  "status": "ready",
+  "error_code": null,
+  "eligible": true,
+  "source_sha256": "a67a2f8b1bfde297d5e384838d7acabb3169733f58c8682262e40d27c315b1c4",
+  "first_prompt_characters_exact": 108442,
+  "first_prompt_utf8_bytes_exact": 108764,
+  "first_prompt_sha256": "e771687f6e722e7179366b7a684d66a4a3010e42ad9c0baefec8d5a7d31efe70",
+  "first_input_tokens_chars_div_4_estimate": 27111,
+  "first_input_tokens_conservative_byte_bound_plus_overhead": 108892,
+  "first_input_tokens_o200k_exact": 34216,
+  "warnings": [
+    {
+      "code": "page_mapping_unavailable",
+      "message": "Offsets address stored text, not PDF pages; no page mapping is available."
+    },
+    {
+      "code": "images_unavailable",
+      "message": "The inherited text parser supplies no page-image evidence; image-only content may be missing."
+    }
+  ]
+}
