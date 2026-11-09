@@ -17,6 +17,7 @@ validation papers and thirty held-out test papers.
 | Development evaluation | Fixed endpoints for D24, D24+R8, D24+E8+R8 and D24+P8 | 12 adapters × 30 papers = 360 generations | Every output was valid JSON and retained both reference fields; no revised method dominated all metrics. |
 | Oracle-inventory diagnostic | R inference with gold, self-predicted and D24-predicted entity inventories | 3 D24+R8 adapters × 3 inventories × 30 papers = 270 generations | R linked gold entities well, but predicted entity and dataset errors caused large downstream losses; a second R pass did not repair them. |
 | D32 additional-training control | D32 versus the existing D24 and D24+R8 fixed endpoints | 3 new adapters × 30 papers = 90 new generations | D32 led D24+R8 on four of five structural fields, but missed the frozen sample-recovery margin; Gate B was inconclusive and Phase C was stopped. |
+| Post-Gate mechanistic diagnostic | One-call error decomposition plus equal-inventory R inference for D24, D24+R8 and D32 | 270 reused one-call outputs; 90 reused and 180 new oracle generations | At least 93.8% of reference false negatives were inventory-limited. Under a shared gold inventory, D24+R8 showed a modest linking advantage over the equal-update D32 control. |
 
 Here, D is complete-JSON supervision, E is entity-only supervision, R is the
 original reference task, and P is a reference-only target shaped like the final
@@ -61,6 +62,13 @@ declared task schedule required a different number of optimizer updates.
   advantages required for Phase C failed every frozen check, but D32's 0.021
   sample-F1 recovery missed the required 0.03 margin. Gate B was therefore
   inconclusive.
+- **The post-Gate diagnostic separates a real conditional R effect from its
+  practical bottleneck.** Across D24, D24+R8 and D32, 93.8–100% of one-call
+  reference false negatives required a missing or unaligned dataset or target.
+  With the same gold inventory, D24+R8 exceeded D32 by 0.036 sample-reference F1
+  and 0.039 facility-reference F1. R supervision therefore improves linking
+  under the R prompt, but current entity and dataset errors prevent that skill
+  from producing an end-to-end one-call advantage.
 
 ### Decision
 
@@ -70,7 +78,9 @@ D24+R8 or D32 to a new winner and does not authorize the Phase C schedule runs.
 The ablation and follow-up evaluations are exploratory because those thirty
 papers had already influenced the experiment design. Expand development data
 with newly annotated papers, preserve a separate independent test set, and make
-no new model choice until those data are frozen.
+no new model choice until those data are frozen. The mechanistic result supports
+retaining R as a future auxiliary-task candidate, but does not reopen Phase C or
+justify a two-stage R deployment with the current predicted inventories.
 
 ## 1. Experimental design
 
@@ -316,6 +326,10 @@ IDs; neither showed M2's structural reference failure.
    the frozen simpler-model rule, while D24+R8 failed every requirement for an
    R-specific effect. Additional conclusions require newly annotated development
    data rather than more schedules on the reused corpus.
+7. **R supervision provides a conditional linking benefit, not a current
+   end-to-end solution.** Its equal-inventory advantage over D32 is positive for
+   both reference fields, especially facilities, but one-call reference failures
+   are overwhelmingly limited by entity and dataset availability.
 
 ## 6. Exploratory controlled ablation matrix
 
@@ -532,13 +546,94 @@ and reused-development splits, so the next step requires newly annotated papers.
 Those additions should enlarge development data while a separate representative
 independent test set remains untouched.
 
-## 9. Limitations and future work
+## 9. Post-Gate mechanistic diagnostic
+
+After Gate B, we ran two frozen exploratory diagnostics to explain why strong
+oracle R performance did not translate into a one-call advantage. Neither
+diagnostic permits model selection or changes the Gate B decision.
+
+### One-call reference-error decomposition
+
+The first analysis reused all 270 run-paper outputs for D24, D24+R8 and D32 and
+performed no new generation. For every gold reference false negative, it asked
+whether the dataset and target entity were available to link. The inventory
+ceiling is the maximum recall possible without changing the predicted datasets,
+samples or facilities.
+
+| Condition | Field | Observed recall | Inventory ceiling | Inventory-limited FNs | Link recall when entities available |
+|---|---|---:|---:|---:|---:|
+| D24 | Sample refs | 0.545 | 0.560 | 297/307 (96.7%) | 0.974 |
+| D24 | Facility refs | 0.600 | 0.600 | 60/60 (100%) | 1.000 |
+| D24+R8 | Sample refs | 0.496 | 0.527 | 319/340 (93.8%) | 0.941 |
+| D24+R8 | Facility refs | 0.593 | 0.607 | 59/61 (96.7%) | 0.978 |
+| D32 | Sample refs | 0.504 | 0.524 | 321/335 (95.8%) | 0.960 |
+| D32 | Facility refs | 0.573 | 0.573 | 64/64 (100%) | 1.000 |
+
+The ceiling is close to observed recall in every condition. A perfect linker over
+the current predicted inventory could add only 0.015–0.031 sample-reference
+recall and 0–0.013 facility-reference recall. The largest gains therefore require
+recovering missing or misaligned datasets and target entities rather than only
+changing the reference decoder.
+
+R supervision did alter the error shape. D24+R8 produced fewer wrong-link false
+positives than D32—27 versus 42 for sample references and 0 versus 1 for facility
+references—but more false positives involving unaligned sample datasets or
+targets. This is consistent with better conditional link choice being masked by
+worse upstream inventory quality.
+
+### Equal-inventory oracle comparison
+
+The second diagnostic supplied the same gold entity inventory and R prompt to all
+three fixed endpoints. It reused the 90 D24+R8 oracle generations from Phase A2
+and generated 180 new D24 and D32 outputs. All 180 new generations completed
+without generation or output-limit failures; 178 were JSON-valid. The two invalid
+outputs both occurred for D32 seed 456 and remained in scoring through the
+predeclared fallback.
+
+| Condition | R contract valid | Sample refs F1 | Facility refs F1 |
+|---|---:|---:|---:|
+| D24 | 28.0 ± 1.0 / 30 | 0.823 ± 0.058 | 0.909 ± 0.019 |
+| D24+R8 | **28.7 ± 0.6 / 30** | **0.864 ± 0.013** | **0.956 ± 0.021** |
+| D32 | 27.3 ± 1.5 / 30 | 0.828 ± 0.035 | 0.917 ± 0.029 |
+
+Values are mean ± sample standard deviation over seeds 42, 123 and 456. Paired
+paper-cluster bootstrap intervals used 10,000 resamples and retained all three
+seeds for each resampled paper.
+
+| Contrast | Field | Mean ΔF1 | Paired 95% interval | Bootstrap P(Δ>0) |
+|---|---|---:|---:|---:|
+| D24+R8 − D32 | Sample refs | +0.036 | [+0.000, +0.099] | 0.981 |
+| D24+R8 − D32 | Facility refs | +0.039 | [+0.007, +0.084] | 0.997 |
+| D24+R8 − D24 | Sample refs | +0.041 | [-0.051, +0.129] | 0.816 |
+| D24+R8 − D24 | Facility refs | +0.048 | [+0.006, +0.098] | 0.986 |
+
+The equal-update comparison supplies exploratory evidence that R supervision
+improves relationship linking under a clean inventory. The facility-reference
+effect is the clearest; the sample-reference interval is positive but its lower
+bound is only 0.00036 before rounding. D24+R8 also had the smallest sample-link
+seed spread and the highest mean contract validity.
+
+This effect is conditional on an R prompt and a gold inventory. Only the R-trained
+model was familiar with that task format, and gold inventories differ from model
+inventories in correctness, IDs, ordering and attribute completeness. Combined
+with the decomposition and Phase A2 results, the evidence supports a narrow
+conclusion: R learned useful linking behavior, but it cannot compensate for
+entities and datasets missing from one-call extraction. The result does not
+promote D24+R8 over M1, justify a two-stage pipeline, or reopen the stopped Phase C
+schedule experiments on this reused corpus.
+
+## 10. Limitations and future work
 
 - The original M0/M1/M2 comparison used one seed; the exploratory ablation used
   three seeds.
 - Checkpoint selection and the exploratory ablation used only two validation papers.
 - The thirty-paper follow-up is a reused development evaluation: the corpus had
   already influenced method design, so its uncertainty is not independent.
+- The mechanistic diagnostic is post-Gate and uses the same reused corpus. Its
+  bootstrap intervals describe paper variation in this corpus, not independent
+  confirmatory uncertainty.
+- The equal-inventory diagnostic uses an R prompt seen during D24+R8 training but
+  unseen by D24 and D32, so task-format familiarity is part of the contrast.
 - M1 and M2 had unequal task and supervised-token exposure.
 - The broader project had previously used this benchmark, so it is not equivalent
   to a newly collected external benchmark.
@@ -549,7 +644,7 @@ mixture unless explicit reference supervision is retained. A confirmatory study
 requires a larger development set and a newly collected independent test set; it
 must not be tuned against the thirty previously evaluated papers.
 
-## 10. Reproducibility and artifacts
+## 11. Reproducibility and artifacts
 
 - Workflow and status: [`finetune_plan.md`](finetune_plan.md)
 - Hardware and training details: [`finetune_step6_report.md`](finetune_step6_report.md)
@@ -577,6 +672,18 @@ must not be tuned against the thirty previously evaluated papers.
   `outputs/finetune/followup/phase-b/evaluation/comparison.json`
 - Phase B human-readable comparison:
   `outputs/finetune/followup/phase-b/evaluation/comparison.md`
+- Mechanistic diagnostic configuration:
+  `configs/finetune_mechanistic_diagnostics.yaml`
+- Mechanistic diagnostic runner:
+  `scripts/run_finetune_mechanistic_diagnostics.py`
+- Reference-error decomposition:
+  `outputs/finetune/followup/mechanistic-diagnostics/reference_error_decomposition.json`
+- Human-readable reference-error decomposition:
+  `outputs/finetune/followup/mechanistic-diagnostics/reference_error_decomposition.md`
+- Equal-inventory oracle comparison:
+  `outputs/finetune/followup/mechanistic-diagnostics/oracle_comparison.json`
+- Human-readable equal-inventory oracle comparison:
+  `outputs/finetune/followup/mechanistic-diagnostics/oracle_comparison.md`
 - Frozen evaluation configuration: `configs/finetune_evaluation.yaml`
 - Selected M1 checkpoint: `outputs/finetune/json_only_seed42/checkpoint-6`
 - Selected M2 checkpoint: `outputs/finetune/structure_aware_seed42/checkpoint-6`
