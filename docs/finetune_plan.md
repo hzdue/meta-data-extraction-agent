@@ -1214,6 +1214,144 @@ checksums, context limits and endpoint rules without loading model weights.
 - A confirmatory conclusion is made only after the frozen shortlist is evaluated
   once on a new independent test set.
 
+## Knowledge sharing experiment
+
+**Status: planned exploratory diagnostic; no parameter updates or model selection.**
+
+### Purpose
+
+Determine whether the D, E and R objectives suggest compatible or conflicting
+updates to the shared LoRA parameters. This is a **task-interaction diagnostic**,
+not a direct measure of transferred knowledge: gradient agreement is local to a
+checkpoint and does not guarantee better free-generation F1.
+
+Run this experiment only after completing the lightweight mechanistic diagnostics
+in [`finetune_mechanistic_diagnostics.md`](finetune_mechanistic_diagnostics.md).
+Those behavioral results test whether R adds value under an equal gold inventory;
+the gradient analysis may then help explain the observed behavior. It must not
+reopen Step 9 Phase C or change the original M1 decision.
+
+### Fixed scope and inputs
+
+- Use the three frozen **D24 fixed endpoints**, seeds **42, 123 and 456**, as
+  separate common starting models. Do not use a single seed or a checkpoint
+  selected by this analysis.
+- Use the existing D, E and R records for the same eight training papers. Do not
+  alter prompts, targets, schema, paper text, IDs or task projections.
+- Compute gradients only for trainable LoRA parameters. Keep the quantized base,
+  embeddings, output head and vision modules frozen.
+- Perform one independent backward pass per paper and task: **24 backward passes
+  per seed, 72 total**. Clear gradients between passes and never call an optimizer
+  or scheduler.
+- Use the production QLoRA precision and full-context policy. Normalize every loss
+  by its supervised target tokens, including EOS, using the same label masking as
+  training. Record target-token and total-token counts for every example.
+- Disable LoRA dropout for the primary deterministic measurement and record this
+  diagnostic-mode choice. Fix all random seeds and fail on nonfinite loss,
+  gradient or norm.
+
+An optional sensitivity check may repeat a small, predeclared subset with fixed
+dropout seeds. It must not replace the deterministic primary result.
+
+### Comparisons
+
+For paper `i`, let `gD_i`, `gE_i` and `gR_i` be the target-token-normalized
+gradients at one frozen checkpoint. Compute:
+
+| Comparison | Purpose |
+|---|---|
+| `gD_i` versus `gE_i` | Same-paper D/E compatibility |
+| `gD_i` versus `gR_i` | Same-paper D/R compatibility |
+| `gD_i` versus `gD_j`, `i != j` | Within-D baseline for ordinary paper variation |
+| `gD_j` versus `gE_i` and `gR_i`, `i != j` | Cross-paper evidence beyond shared content |
+| `gE_i` versus `gE_j`; `gR_i` versus `gR_j` | Within-task coherence controls |
+
+Same-paper alignment alone may reflect shared paper content. Cross-paper results
+are therefore required before describing an auxiliary task as carrying reusable
+information for D. Raw similarity values must be interpreted relative to the D/D
+baseline, not relative only to zero.
+
+### Measurements and artifacts
+
+For every task example and pair, record:
+
+- global cosine similarity, raw gradient dot product and each gradient norm;
+- the fraction of negative pairings and the distribution across papers and seeds;
+- the same quantities by transformer block and LoRA module family, so opposing
+  layer-level effects are not hidden by one global value;
+- the first-order predicted D-loss change from an auxiliary step,
+  `-learning_rate * dot(gD, gAux)`, reported only as a local approximation; and
+- runtime, peak VRAM, model/checkpoint hashes, example hashes, precision policy
+  and diagnostic-code version.
+
+Accumulate dot products and norms in stable precision. Do not keep full raw
+gradient vectors as permanent artifacts; retain only the aggregate statistics and
+the minimum temporary data needed for cross-paper comparisons. Write JSON,
+per-paper CSV and a concise Markdown report under
+`outputs/finetune/knowledge-sharing/gradient-interaction/`. Do not attach this
+post-hoc exploratory analysis to the original confirmatory MLflow runs.
+
+Summaries must include each seed separately and, across seeds, the median,
+interquartile range, range and negative fraction. With only eight papers and three
+seeds, treat intervals and sign frequencies as descriptive rather than population
+significance claims.
+
+### Interpretation rules
+
+- Evidence consistent with **E/D conflict** requires D/E similarity to be more
+  negative than the within-D baseline across multiple papers and all or most
+  seeds, rather than one negative global mean.
+- Evidence consistent with **R-to-D compatibility** requires D/R alignment to be
+  stable across seeds and present in cross-paper comparisons. Positive same-paper
+  similarity alone is insufficient.
+- Large auxiliary gradient norms with weak or negative cosine indicate that an
+  auxiliary task may dominate shared updates despite equal example counts.
+- Opposing layer-level signs indicate localized interaction and may motivate a
+  later selective-sharing study; they do not by themselves justify a new adapter
+  architecture.
+- Near-zero, unstable or baseline-like results mean there is no useful evidence
+  of task-specific interference. Prioritize more data and entity/reference
+  consistency instead of adding optimization machinery.
+
+Positive gradient similarity does not establish that E or R improves extraction,
+and negative similarity does not prove harmful transfer over a complete training
+trajectory. Interpret the result together with D32, equal-inventory oracle scores
+and free-generation metrics.
+
+### Later training experiment on expanded data
+
+Do not run progressive schedules on the current reused corpus. After new training
+and development papers are frozen, compare a predeclared set proportional to the
+number of training papers `N`:
+
+| Condition | Exposure | Question |
+|---|---:|---|
+| Standard D-only | `3N D` | Shorter complete-task control |
+| Mixed D+R | `3N D + 1N R` | Does simultaneous auxiliary supervision help? |
+| Longer D-only | `4N D` | Does extra D explain the mixed result? |
+| Auxiliary first | `1N R → 3N D` | Can final D integrate earlier R learning? |
+| Auxiliary last | `3N D → 1N R` | Does late R disrupt complete extraction? |
+
+Keep optimizer state through sequential boundaries and align every boundary with
+an optimizer update. Use a larger frozen development set for method selection and
+evaluate the final shortlist once on an untouched independent test set. Separate
+E/R adapters, routing, adapter composition, PCGrad and other gradient-balancing
+methods remain deferred unless the diagnostic shows reproducible conflict and the
+expanded-data schedules show that task order matters.
+
+### Done when
+
+- All 72 planned backward passes complete without an optimizer step and reproduce
+  the frozen D24 checkpoints before and after analysis.
+- Same-paper, cross-paper and within-task baselines are complete for every seed,
+  with finite losses, norms, dot products and cosine similarities.
+- Global and layer/module-level reports include full paper/seed accounting,
+  provenance and the declared descriptive summaries.
+- The conclusion uses the interpretation rules above, is labeled exploratory and
+  is added to [`finetune_experiment_report.md`](finetune_experiment_report.md).
+- No progressive schedule or specialized sharing method starts on the current
+  forty-paper corpus as a consequence of this diagnostic.
+
 ## Interpretation and later work
 
 The original M0/M1/M2 comparison remains preliminary because it used one training
@@ -1225,7 +1363,9 @@ and keep the ablation conclusions exploratory until a new independent test exist
 Step 8 and the gated Step 9 Phase A/B study are complete. Gate B was inconclusive,
 so task-order training, broader ratio searches, separate attribute tasks,
 optimizer resets, gradient-balancing methods and second-domain transfer remain
-stopped. When additional annotations arrive, freeze larger development and
+stopped. The no-update knowledge-sharing diagnostic above may proceed as an
+exploratory explanation, but it cannot authorize those methods on the current
+corpus. When additional annotations arrive, freeze larger development and
 independent test sets before any further method selection.
 
 ## Requesting implementation
