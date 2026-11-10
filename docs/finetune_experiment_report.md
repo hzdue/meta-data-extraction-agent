@@ -807,9 +807,15 @@ aggregation then completed without regenerating outputs.
 - Test results must not be used to revise the reported checkpoints.
 
 The controlled matrix suggests preserving D exposure and avoiding an E-heavy
-mixture unless explicit reference supervision is retained. A confirmatory study
-requires a larger development set and a newly collected independent test set; it
-must not be tuned against the thirty previously evaluated papers.
+mixture unless explicit reference supervision is retained. Phase D relationship-
+subtask decomposition is not authorized because Gate C did not establish a
+distributed R-specific benefit. The next study is Phase E: annotate additional
+papers, freeze expanded training/development manifests and an untouched
+independent test, then predeclare standard D-only, longer D-only and at most one
+R-based candidate. Mixed D+R is the current default R candidate because neither
+sequential order improved the complete trade-off. Candidate selection must use
+only the expanded development set; the independent test is evaluated once after
+the shortlist and analysis are frozen.
 
 ## 12. Reproducibility and artifacts
 
