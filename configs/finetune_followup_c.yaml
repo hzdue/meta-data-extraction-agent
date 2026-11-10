@@ -1,0 +1,56 @@
+version: "1.0.0"
+phase: phase_c
+study_type: post_hoc_exploratory
+base_training_config: configs/finetune_structure_aware.yaml
+base_training_config_sha256: 4596744898f3bc1ad76b7a8573fa4946312c0c2ba0a32018ca222f7f3afb119e
+output_root: outputs/finetune/followup/phase-c
+seeds: [42, 123, 456]
+selection_policy: schema_reference_loss
+independent_test_split: null
+
+conditions:
+  r_then_d:
+    name: r_then_d
+    family: training_order_control
+    description: One full R cycle followed by three full D cycles, with optimizer state retained.
+    stages: [{task: R, examples: 8}, {task: D, examples: 24}]
+    exposures: {D: 24, R: 8}
+    gradient_accumulation_steps: 4
+    boundary_update: 2
+    endpoint_updates: 8
+    checkpoint_interval: 6
+    train_sampling_strategy: sequential
+  d_then_r:
+    name: d_then_r
+    family: training_order_control
+    description: Three full D cycles followed by one full R cycle, with optimizer state retained.
+    stages: [{task: D, examples: 24}, {task: R, examples: 8}]
+    exposures: {D: 24, R: 8}
+    gradient_accumulation_steps: 4
+    boundary_update: 6
+    endpoint_updates: 8
+    checkpoint_interval: 6
+    train_sampling_strategy: sequential
+
+prerequisites:
+  ablation_config: configs/finetune_ablation.yaml
+  ablation_config_sha256: 35cdf302d415395688deb3012b3d0dc13c8192f2ec95315d454ff6e167daf760
+  phase_b_evaluation_config: configs/finetune_followup_b_evaluation.yaml
+  phase_b_evaluation_config_sha256: 9998da591a1c3a12ec581966a290154190affebe5a58f9ae77aaa5fe667d9b91
+  gradient_result: outputs/finetune/knowledge-sharing/gradient-interaction/gradient_interaction.json
+  gradient_result_sha256: 3b72943e8c08a8542ec8f49818c1bb12c80c3f4cb98d47a464fa1c90868aadea
+  gradient_status: complete
+  user_authorization_date: "2026-11-09"
+
+gate_c:
+  comparison: r_then_d_vs_mixed_and_d32
+  sample_recovery_margin_f1: 0.02
+  equivalence_margin_f1: 0.03
+  late_interference_margin_f1: 0.03
+  minimum_positive_seeds: 2
+  minimum_net_improved_papers: 1
+  maximum_largest_paper_absolute_share: 0.25
+  decision_rules:
+    shortlist_r_then_d: R8-to-D24 improves samples and sample references by at least 0.02 over mixed D24+R8, stays within 0.03 on its other fields and within 0.03 of D32 on all five fields, with distributed seed and paper support.
+    late_interference: D24-to-R8 is at least 0.03 below R8-to-D24 on samples or sample references with distributed seed and paper support.
+    otherwise: Stop order experiments; do not add ratios, optimizer resets or specialized sharing on the reused corpus.

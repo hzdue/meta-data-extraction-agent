@@ -1,0 +1,20 @@
+version: "1.0.0"
+phase: phase_c_evaluation
+study_type: post_hoc_exploratory
+training_config: configs/finetune_followup_c.yaml
+training_config_sha256: bb203e9dd0248f4b96740be355420016284914683382b119189d292d45733497
+evaluation_config: configs/finetune_evaluation.yaml
+evaluation_config_sha256: 785b159374d6ba0bae8af75cf603d2a30cd1a28176283b0ca8ab26dcfa98080d
+mixed_evaluation_dir: outputs/finetune/ablation-development-evaluation
+mixed_comparison_sha256: 490d0761c3502617fb17cabeee6aee113e9c0e4515014b5e2b556a790130bd76
+d32_evaluation_dir: outputs/finetune/followup/phase-b/evaluation
+d32_comparison_sha256: cf72190d101288396e377fd0f19f20af020167ce9b9dc87bae1234ff833cc3ae
+output_dir: outputs/finetune/followup/phase-c/evaluation
+corpus_role: exploratory_reused_step7_test_as_development
+endpoint_policy: fixed_exposure
+new_conditions: [r_then_d, d_then_r]
+controls: [matched_d_dr, d32]
+seeds: [42, 123, 456]
+expected_papers: 30
+attach_mlflow: false
+model_selection_allowed: false

@@ -883,8 +883,9 @@ did not show a clear advantage over the original R task. Full analysis is in
 
 ## Step 9 — Targeted follow-up: auxiliary transfer and task order
 
-**Status: Phases A and B complete. Gate B was inconclusive, so Phase C is gated
-off and the study is waiting for newly annotated development data (2026-11-03).**
+**Status: Phases A and B complete. Gate B was inconclusive and did not authorize
+Phase C under the frozen rule. A separately authorized post-hoc Phase C extension
+will follow the no-update diagnostic on the current data (2026-11-09).**
 
 ### Purpose and scope
 
@@ -1090,21 +1091,29 @@ Its facility and facility-reference advantages were positive in only one of
 three seeds, so none of the Phase C checks passed. D32 stayed within the frozen
 facility margins and recovered the sample-reference margin, but missed the
 required 0.03 sample-F1 recovery. Gate B is therefore **inconclusive**: do not
-run Phase C or reinterpret this result as support for either schedule branch.
+reinterpret this result as a passed gate or as support for either schedule branch.
+The later user-authorized order experiment is a separate post-hoc extension, not
+a revision of this frozen decision.
 
 All forty currently annotated papers are already assigned to the frozen eight
 training, two validation and thirty reused-development papers. There is no unused
 annotated corpus from which to expand development data. The next executable step
-is new annotation followed by a frozen expanded-development manifest; a separate
-independent test set must remain untouched for confirmation.
+is the no-update diagnostic, followed by the user-authorized current-data order
+controls. New annotation and a frozen expanded-development manifest are still
+required before confirmation, and a separate independent test set must remain
+untouched.
 
 ### Phase C — Sequential versus mixed D/R training
 
-**Status: not started; Gate B did not support an R-specific effect.**
+**Status: user-authorized post-hoc exploratory extension; no-update prerequisite
+complete, implementation and evaluation contracts now being frozen.**
 
-Run this phase only if a later, expanded development evaluation supplies the
-missing evidence. Reuse the exact same 24 D and 8 R records as the existing mixed
-condition; change only their order.
+Gate B did not support an R-specific effect under its frozen progression rule,
+but the user has authorized the two order controls on the current data after the
+no-update diagnostic. Reuse the exact same 24 D and 8 R records as the existing
+mixed condition and change only their order. Label every result post-hoc and
+exploratory: it cannot replace M1, support an independent generalization claim or
+be presented as a passed Gate B continuation.
 
 | Schedule | Updates 1–8 | New runs |
 |---|---|---:|
@@ -1128,17 +1137,34 @@ evaluation.
 
 #### Gate C
 
-- Shortlist R8→D24 only if it retains the facility/facility-reference advantage
-  of mixed D24+R8 while materially recovering its sample/sample-reference loss
-  across seeds and papers.
+- Shortlist R8→D24 only if, relative to mixed D24+R8, it improves both samples F1
+  and sample-reference F1 by at least **0.02**, remains within **0.03** on
+  facilities, datasets and facility-reference F1, and is also within **0.03** of
+  D32 on all five fields. Both sample-side improvements must be positive in at
+  least two of three seeds, improve more paired papers than they worsen and have
+  no single paper contribute more than 25% of absolute paired change.
 - Treat degradation after D24→R8 as evidence consistent with late-task
-  interference, not as proof of a general continual-learning mechanism.
+  interference only if D24→R8 is at least **0.03** below R8→D24 on samples or
+  sample-reference F1, the difference has the same sign in at least two seeds,
+  worsens more paired papers than it improves and no paper contributes more than
+  25% of absolute paired change. This remains descriptive, not proof of a general
+  continual-learning mechanism.
 - If neither sequence improves the trade-off, stop schedule experiments rather
   than trying additional ratios or optimizer resets on the reused corpus.
 
-Phase B adds **three unconditional training runs**. If Gate B passes, the complete
-Phase B+C study adds **nine runs** in total: three D32 runs plus six sequential
-runs.
+These metrics and numeric thresholds are frozen before either sequential run.
+They use the same 0.03 practical-equivalence and 25% concentration rules as Gate
+B; the 0.02 paired sample-side recovery threshold targets a material partial
+recovery of the completed mixed-versus-D32 deficits without requiring a post-hoc
+full reversal. The no-update values did not tune the schedule, exposure, learning
+rate, endpoints or thresholds. Evaluate the two sequences against the existing
+mixed D24+R8 and D32 fixed endpoints on all three seeds and thirty reused
+development papers. Any apparent winner remains only a candidate for later
+confirmation on new data.
+
+Phase B added **three unconditional training runs**. The separately authorized
+post-hoc Phase C extension adds six sequential runs, for nine Phase B+C runs in
+total.
 
 ### Phase D — Conditional relationship-task decomposition
 
@@ -1193,7 +1219,8 @@ resume validation and MLflow accounting. New code should be limited to:
 - deterministic schedule construction with task-boundary checks;
 - an R-diagnostic evaluator with explicit entity-inventory mapping;
 - paired error/aggregate reporting; and
-- a restart-safe wrapper that runs only conditions enabled by the recorded gates.
+- a restart-safe wrapper that runs only conditions enabled by a recorded gate or
+  an explicit post-hoc authorization recorded in this plan.
 
 Proposed outputs belong under `outputs/finetune/followup/`; they must not modify
 Step 6–8 artifacts. Planning and dry-run modes must validate schedules, counts,
@@ -1205,8 +1232,9 @@ checksums, context limits and endpoint rules without loading model weights.
   unchanged existing checkpoints.
 - All three D32 runs have exact D32 exposure, eight updates, complete checkpoints
   and MLflow accounting; Gate B is recorded before any sequential run starts.
-- If Gate B passes, all six sequential runs preserve the exact D24+R8 multiset,
-  cross task boundaries only between optimizer updates and record Gate C.
+- If Phase C executes under a passed gate or the recorded post-hoc authorization,
+  all six sequential runs preserve the exact D24+R8 multiset, cross task
+  boundaries only between optimizer updates and record Gate C.
 - Any Phase D run is explicitly justified by the earlier gate and uses frozen
   split-R targets with tests proving equivalence to the relevant part of R.
 - All development results are labeled exploratory and update
@@ -1216,7 +1244,8 @@ checksums, context limits and endpoint rules without loading model weights.
 
 ## Knowledge sharing experiment
 
-**Status: planned exploratory diagnostic; no parameter updates or model selection.**
+**Status: complete and reviewed; no parameter updates or model selection
+(2026-11-09). The authorized training-order controls are next.**
 
 ### Purpose
 
@@ -1225,11 +1254,14 @@ updates to the shared LoRA parameters. This is a **task-interaction diagnostic**
 not a direct measure of transferred knowledge: gradient agreement is local to a
 checkpoint and does not guarantee better free-generation F1.
 
-Run this experiment only after completing the lightweight mechanistic diagnostics
-in [`finetune_mechanistic_diagnostics.md`](finetune_mechanistic_diagnostics.md).
-Those behavioral results test whether R adds value under an equal gold inventory;
-the gradient analysis may then help explain the observed behavior. It must not
-reopen Step 9 Phase C or change the original M1 decision.
+The lightweight mechanistic diagnostics in
+[`finetune_mechanistic_diagnostics.md`](finetune_mechanistic_diagnostics.md) are
+complete. They found that 93.8–100% of one-call reference false negatives were
+inventory-limited, while D24+R8 exceeded the equal-update D32 control under a
+gold inventory by 0.036 sample-reference F1 and 0.039 facility-reference F1. The
+gradient analysis may help explain that conditional benefit. It does not make
+Gate B pass or change the original M1 decision; Phase C proceeds only through the
+separate post-hoc authorization recorded above.
 
 ### Fixed scope and inputs
 
@@ -1318,11 +1350,48 @@ and negative similarity does not prove harmful transfer over a complete training
 trajectory. Interpret the result together with D32, equal-inventory oracle scores
 and free-generation metrics.
 
-### Later training experiment on expanded data
+### Results and decision
 
-Do not run progressive schedules on the current reused corpus. After new training
-and development papers are frozen, compare a predeclared set proportional to the
-number of training papers `N`:
+All **72/72** backward passes completed at the three frozen D24 endpoints. The
+runner created no optimizer or scheduler, took zero optimizer steps and verified
+identical trainable-state and checkpoint hashes before and after every seed. It
+produced 212 global comparisons and 7,420 block/module comparisons per seed.
+
+| Comparison | Seed 42 | Seed 123 | Seed 456 | Median | Negative pairs |
+|---|---:|---:|---:|---:|---:|
+| Cross-paper D/D | 0.081 | 0.056 | 0.089 | **0.081** | 4.8% |
+| Cross-paper D/E | 0.016 | 0.015 | 0.029 | 0.016 | 22.6% |
+| Cross-paper D/R | 0.020 | 0.013 | 0.012 | 0.013 | 25.6% |
+| Cross-paper E/E | 0.204 | 0.193 | 0.161 | 0.193 | 0.0% |
+| Cross-paper R/R | 0.466 | 0.261 | 0.167 | 0.261 | 1.2% |
+| Same-paper D/E | 0.354 | 0.399 | 0.287 | 0.354 | 0.0% |
+| Same-paper D/R | 0.028 | 0.021 | 0.024 | 0.024 | 4.2% |
+
+Values are cosine medians; the final column describes all relevant pairs, while
+the cross-seed center uses the three seed medians. D/E and D/R were positive
+cross-paper in every seed but substantially below the ordinary D/D baseline.
+Same-paper D/E was much larger, consistent with shared source content. E/E and
+R/R were internally coherent. Median gradient norms were 0.164 for D, 0.727 for
+E and 0.288 for R, so equal auxiliary example counts can dominate update
+magnitude even without opposing direction.
+
+There is **no systematic E/D conflict**. R/D compatibility is weak but
+reproducibly positive cross-paper; it is not stronger than E/D and is baseline-
+like relative to D/D. All module-family medians were positive, with only 2/32
+D/E and 1/32 D/R block medians near or below zero. Do not add gradient balancing,
+selective sharing or separate adapters. The result does not predict an order
+winner, but the no-update prerequisite is satisfied and the separately authorized
+R8→D24/D24→R8 behavioral controls may proceed under the frozen rules below.
+
+### Training-order experiments
+
+The immediate current-data order experiment is the narrowly scoped Phase C study
+above: existing mixed D24+R8 and D32 controls plus R8→D24 and D24→R8 for all
+three seeds. The no-update diagnostic is complete and analyzed, so this study may
+now run; keep it post-hoc and exploratory.
+
+After new training and development papers are frozen, repeat the comparison as a
+separate predeclared study proportional to the number of training papers `N`:
 
 | Condition | Exposure | Question |
 |---|---:|---|
@@ -1349,8 +1418,9 @@ expanded-data schedules show that task order matters.
   provenance and the declared descriptive summaries.
 - The conclusion uses the interpretation rules above, is labeled exploratory and
   is added to [`finetune_experiment_report.md`](finetune_experiment_report.md).
-- No progressive schedule or specialized sharing method starts on the current
-  forty-paper corpus as a consequence of this diagnostic.
+- The diagnostic is complete and reviewed. The user-authorized Phase C order
+  controls may now run on the current corpus, but no specialized sharing method
+  or additional schedule may be introduced.
 
 ## Interpretation and later work
 
@@ -1360,13 +1430,13 @@ exposure/update families and a thirty-paper development evaluation, but those
 papers had already influenced method design. Disclose the benchmark's prior use
 and keep the ablation conclusions exploratory until a new independent test exists.
 
-Step 8 and the gated Step 9 Phase A/B study are complete. Gate B was inconclusive,
-so task-order training, broader ratio searches, separate attribute tasks,
-optimizer resets, gradient-balancing methods and second-domain transfer remain
-stopped. The no-update knowledge-sharing diagnostic above may proceed as an
-exploratory explanation, but it cannot authorize those methods on the current
-corpus. When additional annotations arrive, freeze larger development and
-independent test sets before any further method selection.
+Step 8, the gated Step 9 Phase A/B study and the no-update knowledge-sharing
+diagnostic are complete. Gate B was inconclusive. The user-authorized R8→D24 and
+D24→R8 controls may now run on the current corpus as a post-hoc exploratory
+extension. Broader ratio searches, separate
+attribute tasks, optimizer resets, gradient-balancing methods and second-domain
+transfer remain stopped. When additional annotations arrive, freeze larger
+development and independent test sets before confirmatory method selection.
 
 ## Requesting implementation
 

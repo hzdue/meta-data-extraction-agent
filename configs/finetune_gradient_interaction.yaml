@@ -1,0 +1,17 @@
+version: "1.0.0"
+study_type: exploratory_no_update_gradient_interaction
+ablation_config: configs/finetune_ablation.yaml
+ablation_config_sha256: 35cdf302d415395688deb3012b3d0dc13c8192f2ec95315d454ff6e167daf760
+base_training_config_sha256: 4596744898f3bc1ad76b7a8573fa4946312c0c2ba0a32018ca222f7f3afb119e
+condition: d_only
+seeds: [42, 123, 456]
+tasks: [D, E, R]
+expected_papers: 8
+gradient_parameters: trainable_lora_only
+loss_normalization: supervised_target_tokens_including_eos
+dropout_mode: disabled_deterministic
+dot_accumulation_dtype: float64
+near_zero_norm: 1.0e-12
+output_dir: outputs/finetune/knowledge-sharing/gradient-interaction
+attach_mlflow: false
+model_selection_allowed: false

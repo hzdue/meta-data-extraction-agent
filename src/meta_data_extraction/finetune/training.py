@@ -136,6 +136,24 @@ class StopAfterCheckpoint(TrainerCallback):
         return control
 
 
+class SaveAtSteps(TrainerCallback):
+    """Request recovery checkpoints at declared non-validation boundaries."""
+    def __init__(self, steps, *, trainer=None, expected_exposures=None):
+        self.steps = frozenset(steps)
+        self.trainer = trainer
+        self.expected_exposures = expected_exposures or {}
+
+    def on_step_end(self, args, state, control, **kwargs):
+        if state.global_step in self.steps:
+            expected = self.expected_exposures.get(state.global_step)
+            if expected is not None and self.trainer.exposure["examples"] != expected:
+                raise ValueError(
+                    f"Exposure at step {state.global_step} differs from the task boundary: "
+                    f"{self.trainer.exposure['examples']} != {expected}")
+            control.should_save = True
+        return control
+
+
 class PilotTrainer(SFTTrainer):
     """Keep task metadata out of model inputs and persist actual token exposure."""
     def __init__(self, *args, **kwargs):
@@ -201,7 +219,7 @@ class PilotTrainer(SFTTrainer):
 
 def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *,
                   validation=None, tracking=None, cpu=False, callbacks=None,
-                  selection_policy="loss"):
+                  selection_policy="loss", sequential_training=False):
     if config.max_steps is None:
         raise ValueError("Set a finite max_steps after the server feasibility check")
     args = SFTConfig(
@@ -222,6 +240,7 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
         logging_strategy="steps", logging_steps=1, report_to=[],
         dataloader_num_workers=0, dataloader_pin_memory=not cpu,
         accelerator_config={"use_seedable_sampler": True},
+        train_sampling_strategy="sequential" if sequential_training else "random",
         disable_tqdm=True,
     )
     trainer = PilotTrainer(
@@ -317,7 +336,9 @@ def prepare_output(output: Path, contract: dict, resume: Path | None):
 def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary, architecture,
                  preparation: dict, *, validation, offline=False, resume: Path | None = None,
                  stop_after_step: int | None = None, smoke: bool = False,
-                 selection_policy="loss", experiment: dict | None = None):
+                 selection_policy="loss", experiment: dict | None = None,
+                 checkpoint_steps: tuple[int, ...] = (),
+                 checkpoint_exposures: dict[int, dict[str, int]] | None = None):
     from .tracking import RunTracker, read_tracking_config
 
     if config.max_steps is None:
@@ -325,6 +346,14 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     if stop_after_step is not None and (stop_after_step <= 0 or stop_after_step >= config.max_steps
                                        or stop_after_step % config.save_steps):
         raise ValueError("stop_after_step must be a checkpoint boundary before max_steps")
+    if any(type(step) is not int or step <= 0 or step >= config.max_steps
+           for step in checkpoint_steps):
+        raise ValueError("Extra checkpoint steps must be unique interior optimizer updates")
+    if len(set(checkpoint_steps)) != len(checkpoint_steps):
+        raise ValueError("Extra checkpoint steps must be unique interior optimizer updates")
+    checkpoint_exposures = checkpoint_exposures or {}
+    if set(checkpoint_exposures) - set(checkpoint_steps):
+        raise ValueError("Checkpoint exposure assertions require matching checkpoint steps")
     if validation is None:
         raise ValueError("Server training requires the held-out validation examples")
     if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported(including_emulation=False):
@@ -336,7 +365,7 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     output = (root / config.output_dir).resolve()
     contract = run_contract(root, config, summary, architecture)
     experiment_phase = experiment.get("phase", "ablation") if experiment else None
-    if experiment_phase not in {None, "ablation", "followup_phase_b"}:
+    if experiment_phase not in {None, "ablation", "followup_phase_b", "followup_phase_c"}:
         raise ValueError(f"Unsupported training experiment phase: {experiment_phase}")
     contract["phase"] = experiment_phase or ("smoke" if smoke else "comparison")
     if experiment:
@@ -361,7 +390,11 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
         set_seed(config.seed)
         model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
         trainer = build_trainer(model, tokenizer, records, config, output, validation=validation,
-                                tracking=tracker, selection_policy=selection_policy)
+                                tracking=tracker, selection_policy=selection_policy,
+                                sequential_training=experiment_phase == "followup_phase_c")
+        if checkpoint_steps:
+            trainer.add_callback(SaveAtSteps(
+                checkpoint_steps, trainer=trainer, expected_exposures=checkpoint_exposures))
         if stop_after_step is not None:
             trainer.add_callback(StopAfterCheckpoint(stop_after_step))
         tracker.client.log_dict(tracker.run_id, {"gpu": torch.cuda.get_device_name(),

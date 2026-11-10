@@ -16,8 +16,10 @@ validation papers and thirty held-out test papers.
 | Controlled ablation | Eight D/E/R/P task mixtures with matched-D and fixed-update controls | 24 runs: 8 conditions × 3 seeds | Adequate complete-JSON exposure and explicit reference supervision repaired the omission; the original D8/E8/R8 allocation remained weakest. |
 | Development evaluation | Fixed endpoints for D24, D24+R8, D24+E8+R8 and D24+P8 | 12 adapters × 30 papers = 360 generations | Every output was valid JSON and retained both reference fields; no revised method dominated all metrics. |
 | Oracle-inventory diagnostic | R inference with gold, self-predicted and D24-predicted entity inventories | 3 D24+R8 adapters × 3 inventories × 30 papers = 270 generations | R linked gold entities well, but predicted entity and dataset errors caused large downstream losses; a second R pass did not repair them. |
-| D32 additional-training control | D32 versus the existing D24 and D24+R8 fixed endpoints | 3 new adapters × 30 papers = 90 new generations | D32 led D24+R8 on four of five structural fields, but missed the frozen sample-recovery margin; Gate B was inconclusive and Phase C was stopped. |
+| D32 additional-training control | D32 versus the existing D24 and D24+R8 fixed endpoints | 3 new adapters × 30 papers = 90 new generations | D32 led D24+R8 on four of five structural fields, but missed the frozen sample-recovery margin; Gate B was inconclusive and did not authorize Phase C. |
 | Post-Gate mechanistic diagnostic | One-call error decomposition plus equal-inventory R inference for D24, D24+R8 and D32 | 270 reused one-call outputs; 90 reused and 180 new oracle generations | At least 93.8% of reference false negatives were inventory-limited. Under a shared gold inventory, D24+R8 showed a modest linking advantage over the equal-update D32 control. |
+| No-update gradient diagnostic | D/E/R LoRA-gradient interactions at the three frozen D24 endpoints | 72 backward passes; no optimizer or parameter updates | D/E and D/R were weakly positive cross-paper but well below D/D alignment. There was no systematic E/D conflict and only weak R/D compatibility. |
+| Post-hoc Phase C order control | Sequential R8→D24 and D24→R8 with retained optimizer state | 6 new adapters × 30 papers = 180 new generations; 180 control generations reused | Training order produced a task-recency trade-off, not a balanced improvement. Neither the R-first shortlist nor late-interference rule passed frozen Gate C, so order experiments stop. |
 
 Here, D is complete-JSON supervision, E is entity-only supervision, R is the
 original reference task, and P is a reference-only target shaped like the final
@@ -69,18 +71,35 @@ declared task schedule required a different number of optimizer updates.
   and 0.039 facility-reference F1. R supervision therefore improves linking
   under the R prompt, but current entity and dataset errors prevent that skill
   from producing an end-to-end one-call advantage.
+- **The no-update diagnostic found no broad gradient conflict and no strong
+  reusable auxiliary-to-D alignment.** Cross-paper cosine medians were 0.016 for
+  D/E and 0.013 for D/R, versus 0.081 for D/D. Both auxiliary medians were
+  positive in every seed, but 22.6% of D/E and 25.6% of D/R pairs were negative.
+  E/E and R/R were much more coherent (0.193 and 0.261), while E and R gradient
+  norms were about 4.4 and 1.8 times the D norm. Equal example counts can
+  therefore change update magnitude without systematic directional conflict.
+- **The post-hoc order controls found recency trade-offs rather than a winning
+  schedule.** R8→D24 improved samples by 0.047 and datasets by 0.046 over mixed
+  D24+R8, but reduced facilities by 0.059, sample references by 0.041 and
+  facility references by 0.101. Reversing the order recovered reference-side
+  behavior but lowered samples by 0.037 relative to R8→D24. The apparent effects
+  were concentrated in too few papers, and neither frozen Gate C branch passed.
 
 ### Decision
 
 Keep **M1** as the preferred pilot model because it won the original predeclared
 held-out comparison. The completed Gate B result does not justify promoting
-D24+R8 or D32 to a new winner and does not authorize the Phase C schedule runs.
+D24+R8 or D32 to a new winner and did not authorize Phase C under the frozen
+gate. The later R-first/R-last runs are separately authorized post-hoc controls;
+they remain exploratory and cannot revise the frozen gate or select a new model.
 The ablation and follow-up evaluations are exploratory because those thirty
 papers had already influenced the experiment design. Expand development data
 with newly annotated papers, preserve a separate independent test set, and make
-no new model choice until those data are frozen. The mechanistic result supports
-retaining R as a future auxiliary-task candidate, but does not reopen Phase C or
-justify a two-stage R deployment with the current predicted inventories.
+no new model choice until those data are frozen. The mechanistic results support
+retaining R as a future auxiliary-task candidate, but the completed order study
+does not justify further order/ratio sweeps, optimizer resets, a two-stage R
+deployment, gradient balancing or a specialized sharing architecture on the
+current corpus.
 
 ## 1. Experimental design
 
@@ -324,12 +343,17 @@ IDs; neither showed M2's structural reference failure.
    over D-only or M1.
 6. **Gate B is inconclusive and stops the schedule branch.** D32 did not satisfy
    the frozen simpler-model rule, while D24+R8 failed every requirement for an
-   R-specific effect. Additional conclusions require newly annotated development
-   data rather than more schedules on the reused corpus.
+   R-specific effect. The separately authorized post-hoc order study does not
+   revise that decision.
 7. **R supervision provides a conditional linking benefit, not a current
    end-to-end solution.** Its equal-inventory advantage over D32 is positive for
    both reference fields, especially facilities, but one-call reference failures
    are overwhelmingly limited by entity and dataset availability.
+8. **Training order changes task emphasis but does not solve knowledge sharing.**
+   R8→D24 favors sample and dataset extraction; D24→R8 favors facilities and
+   reference links. Neither order passed frozen Gate C, so further schedule
+   tuning on the reused corpus is not supported. Additional conclusions require
+   newly annotated development data and an untouched independent test.
 
 ## 6. Exploratory controlled ablation matrix
 
@@ -540,11 +564,13 @@ single-paper concentration. Consequently, every frozen Phase C check failed.
 D32 satisfied the facility-equivalence checks and the sample-reference recovery
 check, but its 0.021 sample-F1 advantage did not reach the required 0.03.
 
-The frozen Gate B outcome is **inconclusive**. Phase C must not run. All forty
-currently annotated papers are already used by the frozen training, validation
-and reused-development splits, so the next step requires newly annotated papers.
-Those additions should enlarge development data while a separate representative
-independent test set remains untouched.
+The frozen Gate B outcome is **inconclusive** and did not authorize Phase C.
+The later user-authorized R-first/R-last study is a separate post-hoc extension,
+not a revision of that gate. All forty currently annotated papers are already
+used by the frozen training, validation and reused-development splits, so any
+confirmatory next step requires newly annotated papers. Those additions should
+enlarge development data while a separate representative independent test set
+remains untouched.
 
 ## 9. Post-Gate mechanistic diagnostic
 
@@ -619,10 +645,145 @@ inventories in correctness, IDs, ordering and attribute completeness. Combined
 with the decomposition and Phase A2 results, the evidence supports a narrow
 conclusion: R learned useful linking behavior, but it cannot compensate for
 entities and datasets missing from one-call extraction. The result does not
-promote D24+R8 over M1, justify a two-stage pipeline, or reopen the stopped Phase C
-schedule experiments on this reused corpus.
+promote D24+R8 over M1, justify a two-stage pipeline, or change the frozen Phase C
+gate decision. The later order study proceeds only through the separate post-hoc
+authorization recorded in the plan.
 
-## 10. Limitations and future work
+### No-update LoRA-gradient interaction
+
+We then measured local D/E/R gradient interactions at the three frozen D24
+endpoints. For each seed, one independent target-token-normalized backward pass
+was run for each task and each of the eight training papers: **24 passes per
+seed, 72 total**. LoRA dropout was disabled, gradients were restricted to the
+trainable language LoRA parameters, and float64 Gram matrices supplied global,
+block and module-family statistics. The runner created no optimizer or scheduler,
+took zero optimizer steps and verified identical trainable-state and checkpoint
+hashes before and after every seed.
+
+| Comparison | Seed 42 | Seed 123 | Seed 456 | Median of seed medians | Negative pairs |
+|---|---:|---:|---:|---:|---:|
+| Cross-paper D/D | 0.081 | 0.056 | 0.089 | **0.081** | 4.8% |
+| Cross-paper D/E | 0.016 | 0.015 | 0.029 | 0.016 | 22.6% |
+| Cross-paper D/R | 0.020 | 0.013 | 0.012 | 0.013 | 25.6% |
+| Cross-paper E/E | 0.204 | 0.193 | 0.161 | 0.193 | 0.0% |
+| Cross-paper R/R | 0.466 | 0.261 | 0.167 | 0.261 | 1.2% |
+| Same-paper D/E | 0.354 | 0.399 | 0.287 | 0.354 | 0.0% |
+| Same-paper D/R | 0.028 | 0.021 | 0.024 | 0.024 | 4.2% |
+
+Values are cosine medians. Cross-paper pairs exclude the same source paper;
+negative fractions pool the complete descriptive pair inventory, while the
+cross-seed center treats each seed median as the independent summary. Same-paper
+D/E alignment was far higher than cross-paper D/E, showing why shared content
+must not be mistaken for reusable task transfer. Both D/E and D/R cross-paper
+medians were positive in every seed, but were substantially below ordinary D/D
+paper variation. The first-order median predicted D-loss changes were small and
+favorable rather than conflicting: `-2.25e-7` for cross-paper E steps and
+`-5.19e-8` for cross-paper R steps at learning rate `1e-4`.
+
+| Task | Seed 42 norm | Seed 123 norm | Seed 456 norm | Median |
+|---|---:|---:|---:|---:|
+| D | 0.164 | 0.148 | 0.174 | 0.164 |
+| E | 0.706 | 0.727 | 0.800 | 0.727 |
+| R | 0.349 | 0.288 | 0.269 | 0.288 |
+
+E gradients were about 4.4 times the D norm and R gradients about 1.8 times the
+D norm. Thus an equal number of auxiliary examples can dominate update magnitude
+even when its direction is only weakly aligned. All three LoRA module-family
+medians were positive. At block level, 30/32 D/E and 31/32 D/R medians were
+positive; the remaining medians were near zero rather than evidence of a broad
+opposing layer regime.
+
+The diagnostic therefore finds **no systematic E/D conflict**. It finds weak,
+reproducibly positive cross-paper R/D compatibility, but R is not more D-aligned
+than E and neither auxiliary approaches the D/D baseline. This does not explain
+the equal-inventory R benefit as unusually strong local D/R alignment, and it
+does not motivate PCGrad, selective sharing or separate adapters. It does support
+using the separately authorized R-first and R-last controls as a direct behavioral
+test without predicting a winner or altering M1/Gate B. Their completed results
+are reported next.
+
+## 10. Post-hoc Phase C: R/D training order
+
+After the no-update diagnostic, we ran the two user-authorized order controls on
+the existing eight-paper training set rather than waiting for new annotations.
+This was a separately authorized post-hoc study; Gate B remained inconclusive and
+did not retroactively authorize Phase C. Each condition used the same D24 and R8
+examples, QLoRA settings, constant learning rate and optimizer state across the
+task boundary:
+
+- `r_then_d`: R8 for two optimizer updates, then D24 for six updates;
+- `d_then_r`: D24 for six optimizer updates, then R8 for two updates.
+
+Training used an explicit sequential sampler and runtime boundary assertions.
+The R-first runs were required to show exactly R8 at checkpoint 2, the D-first
+runs exactly D24 at checkpoint 6, and all endpoints D24+R8 at checkpoint 8. All
+six runs (two orders × seeds 42, 123 and 456) passed these checks. One earlier
+shuffled-sampler attempt was detected at its first boundary, stopped and excluded
+before the official runs; it contributed no evaluation output.
+
+Gate C was frozen before sequential training. R8→D24 could be shortlisted only
+if samples and sample references each improved by at least 0.02 over mixed
+D24+R8, its other fields stayed within 0.03 of mixed, all five fields stayed
+within 0.03 of D32, and the gains had support from at least two seeds, more
+improved than worsened papers and no single paper above 25% of the absolute
+effect. Late interference required D24→R8 to trail R8→D24 by at least 0.03 on
+samples or sample references with the same distributed-support safeguards.
+
+The six fixed endpoints were evaluated on the same thirty reused development
+papers, producing **180 new generations**. The 90 mixed D24+R8 and 90 D32 control
+generations were reused. All 180 new outputs were valid JSON and reference-
+complete, with no generation exception, output-limit failure or scoring fallback.
+
+| Condition | Full schema | Facilities F1 | Samples F1 | Datasets F1 | Sample refs F1 | Facility refs F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| Mixed D24+R8 | 27.7 ± 0.6 / 30 | 0.764 ± 0.015 | 0.738 ± 0.007 | 0.771 ± 0.021 | 0.755 ± 0.011 | 0.770 ± 0.026 |
+| D32 | 28.3 ± 0.6 / 30 | **0.778 ± 0.031** | 0.759 ± 0.036 | 0.763 ± 0.015 | 0.785 ± 0.042 | 0.782 ± 0.024 |
+| R8→D24 | **29.3 ± 0.6 / 30** | 0.705 ± 0.044 | **0.785 ± 0.007** | **0.817 ± 0.028** | 0.713 ± 0.069 | 0.669 ± 0.067 |
+| D24→R8 | 28.3 ± 0.6 / 30 | 0.760 ± 0.031 | 0.748 ± 0.042 | 0.795 ± 0.013 | **0.800 ± 0.031** | **0.804 ± 0.025** |
+
+Values are mean ± sample standard deviation across three seeds. R8→D24 had the
+highest full-schema rate, sample F1 and dataset F1, but it traded away facilities
+and both reference fields. Relative to mixed D24+R8, its pooled mean deltas were
+-0.059 facilities, +0.047 samples, +0.046 datasets, -0.041 sample references and
+-0.101 facility references. The sample gain was positive in all three seeds, but
+one paper accounted for 55.0% of its total absolute paper-level effect, above the
+frozen 25% concentration limit. Sample references did not show the required
+recovery, and the facility/reference losses exceeded the 0.03 equivalence margin.
+
+Against D32, R8→D24 was +0.026 for samples and +0.054 for datasets, but -0.073
+for facilities, -0.072 for sample references and -0.113 for facility references.
+The latter three losses occurred in all three seeds where applicable. R8→D24
+therefore did not satisfy the predeclared balanced-recovery shortlist.
+
+Reversing the order exposed a task-recency trade-off. D24→R8 minus R8→D24 was
++0.055 facilities, -0.037 samples, -0.022 datasets, +0.087 sample references and
++0.134 facility references. The sample loss occurred in all three seeds and four
+papers worsened versus one improved, but its largest paper supplied 39.7% of the
+absolute effect, again above the 25% limit. Pooled sample-reference F1 improved
+rather than worsened. Consequently, the frozen late-interference rule also failed.
+
+Descriptively, D24→R8 was the most balanced ordered variant: relative to D32 it
+was -0.018 facilities and -0.011 samples while gaining 0.032 datasets, 0.015
+sample references and 0.022 facility references. It was not the predeclared
+promotion candidate, however, and these papers are reused development data.
+Those small post-hoc differences do not justify selecting it as a new winner.
+
+The frozen Gate C outcome is **`stop_order_experiments`**: neither
+`shortlist_r_then_d` nor `late_interference` passed. The behavioral results are
+consistent with last-task emphasis, not a general knowledge-sharing gain. Along
+with the no-update finding of weakly positive rather than systematically
+conflicting D/R gradients, they do not support further order or ratio sweeps,
+optimizer resets, PCGrad, selective sharing or separate task adapters on this
+reused corpus.
+
+The initial final-aggregation pass exposed a legacy metadata mismatch: the Phase
+B comparison copied control metrics without copying `adapter_sha256`. No model
+generation or score was affected. The Phase C loader was updated to verify the
+original frozen mixed-control record, the D32 training selection and the actual
+adapter checksum; eight focused Phase C tests passed, and comparison-only
+aggregation then completed without regenerating outputs.
+
+## 11. Limitations and future work
 
 - The original M0/M1/M2 comparison used one seed; the exploratory ablation used
   three seeds.
@@ -632,6 +793,12 @@ schedule experiments on this reused corpus.
 - The mechanistic diagnostic is post-Gate and uses the same reused corpus. Its
   bootstrap intervals describe paper variation in this corpus, not independent
   confirmatory uncertainty.
+- The gradient diagnostic uses only eight training papers and three fixed
+  endpoints. Its pair counts are correlated within papers and seeds, and a local
+  checkpoint gradient does not determine a complete training trajectory.
+- Phase C is a post-hoc order study on the same eight training papers and thirty
+  reused development papers. Several apparent order effects were concentrated in
+  one paper, and no independent test data were used.
 - The equal-inventory diagnostic uses an R prompt seen during D24+R8 training but
   unseen by D24 and D32, so task-format familiarity is part of the contrast.
 - M1 and M2 had unequal task and supervised-token exposure.
@@ -644,7 +811,7 @@ mixture unless explicit reference supervision is retained. A confirmatory study
 requires a larger development set and a newly collected independent test set; it
 must not be tuned against the thirty previously evaluated papers.
 
-## 11. Reproducibility and artifacts
+## 12. Reproducibility and artifacts
 
 - Workflow and status: [`finetune_plan.md`](finetune_plan.md)
 - Hardware and training details: [`finetune_step6_report.md`](finetune_step6_report.md)
@@ -684,6 +851,22 @@ must not be tuned against the thirty previously evaluated papers.
   `outputs/finetune/followup/mechanistic-diagnostics/oracle_comparison.json`
 - Human-readable equal-inventory oracle comparison:
   `outputs/finetune/followup/mechanistic-diagnostics/oracle_comparison.md`
+- No-update gradient configuration:
+  `configs/finetune_gradient_interaction.yaml`
+- No-update gradient runner:
+  `scripts/run_finetune_gradient_interaction.py`
+- Gradient interaction data and report:
+  `outputs/finetune/knowledge-sharing/gradient-interaction/gradient_interaction.json`
+  and `outputs/finetune/knowledge-sharing/gradient-interaction/gradient_interaction.md`
+- Phase C training configuration: `configs/finetune_followup_c.yaml`
+- Phase C evaluation configuration: `configs/finetune_followup_c_evaluation.yaml`
+- Phase C sequential training runner: `scripts/run_finetune_followup_phase_c.sh`
+- Phase C evaluator and frozen Gate C analysis:
+  `scripts/evaluate_finetune_followup_phase_c.py`
+- Phase C machine-readable comparison:
+  `outputs/finetune/followup/phase-c/evaluation/comparison.json`
+- Phase C human-readable comparison:
+  `outputs/finetune/followup/phase-c/evaluation/comparison.md`
 - Frozen evaluation configuration: `configs/finetune_evaluation.yaml`
 - Selected M1 checkpoint: `outputs/finetune/json_only_seed42/checkpoint-6`
 - Selected M2 checkpoint: `outputs/finetune/structure_aware_seed42/checkpoint-6`
@@ -699,4 +882,10 @@ MLflow runs:
 | D32 seed 42 | `2732f835809248379bcda44693559353` | FINISHED |
 | D32 seed 123 | `8ce7f83431a74396a7da03d625777a6c` | FINISHED |
 | D32 seed 456 | `de6c74f266944774a775e5bd5766802d` | FINISHED |
+| R8→D24 seed 42 | `f424d376db004b52adaba97fbe7e018a` | FINISHED |
+| R8→D24 seed 123 | `86a1167e584541fca167630d8c7943fb` | FINISHED |
+| R8→D24 seed 456 | `e12b2184279948298907a5a1dc26eb96` | FINISHED |
+| D24→R8 seed 42 | `a53f08147aa54b55989902e6e80c6735` | FINISHED |
+| D24→R8 seed 123 | `7e0b1b01a43748f686585c13febc232a` | FINISHED |
+| D24→R8 seed 456 | `21fe52f725414590a2068fc181884acd` | FINISHED |
 

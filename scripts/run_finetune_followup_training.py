@@ -11,7 +11,8 @@ import sys
 import yaml
 
 from meta_data_extraction.finetune.followup_training import (
-    plan_phase_b, prepare_phase_b, read_phase_b_config,
+    plan_phase_b, plan_phase_c, prepare_phase_b, prepare_phase_c,
+    read_phase_b_config, read_phase_c_config,
 )
 from meta_data_extraction.finetune.training_data import file_hash
 
@@ -21,31 +22,44 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--phase", required=True, choices=("b",))
-    parser.add_argument("--config", type=Path, default=Path("configs/finetune_followup_b.yaml"))
+    parser.add_argument("--phase", required=True, choices=("b", "c"))
+    parser.add_argument("--config", type=Path)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--plan", action="store_true", help="Print the frozen Phase B design only.")
     mode.add_argument("--dry-run", action="store_true", help="Verify one D32 schedule; load no weights.")
     mode.add_argument("--train", action="store_true", help="Train one D32 seed on one CUDA GPU.")
     parser.add_argument("--seed", type=int)
+    parser.add_argument("--condition", choices=("r_then_d", "d_then_r"))
     parser.add_argument("--offline", action="store_true")
     parser.add_argument("--resume", type=Path,
                         help="Resume --train from the latest complete checkpoint.")
     args = parser.parse_args(argv)
     try:
-        config_path = (ROOT / args.config).resolve()
-        phase = read_phase_b_config(config_path)
+        config_path = (ROOT / (args.config or Path(
+            "configs/finetune_followup_b.yaml" if args.phase == "b"
+            else "configs/finetune_followup_c.yaml"))).resolve()
+        phase = (read_phase_b_config(config_path) if args.phase == "b"
+                 else read_phase_c_config(config_path))
         if args.plan:
-            if args.seed is not None or args.resume is not None:
-                raise ValueError("--plan does not accept --seed or --resume")
-            print(json.dumps({"status": "planned_not_executed", **plan_phase_b(phase)}, indent=2))
+            if args.seed is not None or args.resume is not None or args.condition is not None:
+                raise ValueError("--plan does not accept --seed, --condition or --resume")
+            plan = plan_phase_b(phase) if args.phase == "b" else plan_phase_c(phase)
+            print(json.dumps({"status": "planned_not_executed", **plan}, indent=2))
             return 0
         if args.seed is None:
             raise ValueError("--dry-run/--train require --seed")
+        if args.phase == "c" and args.condition is None:
+            raise ValueError("Phase C --dry-run/--train requires --condition")
+        if args.phase == "b" and args.condition is not None:
+            raise ValueError("Phase B does not accept --condition")
         if args.resume is not None and not args.train:
             raise ValueError("--resume is valid only with --train")
-        config, tokenizer, records, validation, summary = prepare_phase_b(
-            ROOT, config_path, phase, args.seed, offline=args.offline)
+        if args.phase == "b":
+            config, tokenizer, records, validation, summary = prepare_phase_b(
+                ROOT, config_path, phase, args.seed, offline=args.offline)
+        else:
+            config, tokenizer, records, validation, summary = prepare_phase_c(
+                ROOT, config_path, phase, args.condition, args.seed, offline=args.offline)
         preparation = yaml.safe_load((ROOT / config.prepare_config).read_text(encoding="utf-8"))
         from meta_data_extraction.finetune.training import inspect_model, run_training
         from meta_data_extraction.finetune.validation import validate_rows
@@ -83,7 +97,12 @@ def main(argv=None) -> int:
             print(json.dumps(run_training(
                 ROOT, config, tokenizer, records, summary, architecture, preparation,
                 validation=validation, offline=args.offline, resume=resume,
-                selection_policy=phase.selection_policy, experiment=experiment), indent=2))
+                selection_policy=phase.selection_policy, experiment=experiment,
+                checkpoint_steps=((summary["followup"]["boundary_update"],)
+                                  if args.phase == "c" else ()),
+                checkpoint_exposures=({summary["followup"]["boundary_update"]:
+                                       ({"R": 8} if args.condition == "r_then_d" else {"D": 24})}
+                                      if args.phase == "c" else None)), indent=2))
     except (ValueError, OSError, KeyError) as exc:
         print(f"Follow-up training failed: {exc}", file=sys.stderr)
         return 1
