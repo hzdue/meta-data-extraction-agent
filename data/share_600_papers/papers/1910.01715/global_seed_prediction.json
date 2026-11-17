@@ -1,0 +1,321 @@
+{
+  "bibliographic": {
+    "title": "Temperature-programmed reduction and dispersive X-ray absorption spectroscopy studies of CeO2-based nanopowders for intermediate-temperature Solid-Oxide Fuel Cell anodes",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "CONICET / Laboratorio de Cristalografía Aplicada, Escuela de Ciencia y Tecnología, Universidad Nacional de General San Martín, San Martín, Argentina"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Departamento de Física de la Materia Condensada, Gerencia de Investigación y Aplicaciones, Centro Atómico Constituyentes, Comisión Nacional de Energía Atómica, San Martín, Argentina"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Instituto de Nanociencia y Nanotecnología (INN), CNEA-CONICET, San Martín and San Carlos de Bariloche, Argentina"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "UNIDEF-CONICET-MINDEF, Departamento de Investigaciones en Sólidos, CITEDEF, Villa Martelli, Argentina"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Instituto de Investigación e Ingeniería Ambiental, Universidad Nacional de General San Martín, San Martín, Argentina"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Marina S. Bellora",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Joaquín Sacanell",
+        "orcid": null,
+        "email": "sacanell@tandar.cnea.gov.ar",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Cristián Huck-Iriart",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Analía L. Soldati",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Susana A. Larrondo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Diego G. Lamas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "In this work, we study the influence of the average crystallite size and dopant oxide on the reducibility of CeO2-based nanomaterials. Samples were prepared from commercial Gd2O3-, Sm2O3- and Y2O3-doped CeO2 powders by calcination at different temperatures ranging between 400 and 900ºC and characterized by X-ray powder diffraction, transmission electron microscopy and BET specific surface area. The reducibility of the samples was analyzed by temperatureprogrammed reduction and in situ dispersive X-ray absorption spectroscopy techniques. Our results clearly demonstrate that samples treated at lower temperatures, of smallest average crystallite size and highest specific surface areas, exhibit the best performance, while Gd2O3doped ceria materials display higher reducibility than Sm2O3- and Y2O3-doped CeO2.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Agencia Nacional de Promoción Científica y Tecnológica",
+        "grant_id": "PICT 2015 No. 3411"
+      },
+      {
+        "funder": "Agencia Nacional de Promoción Científica y Tecnológica",
+        "grant_id": "PICT 2016 No. 1921"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental procedure",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Brazilian Synchrotron Light Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "GDC 400",
+      "sample_description": "Calcined at 400°C",
+      "chemical_composition": "Ce0.8Gd0.2O1.9",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "GDC 650",
+      "sample_description": "Calcined at 650°C",
+      "chemical_composition": "Ce0.8Gd0.2O1.9",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "GDC 900",
+      "sample_description": "Calcined at 900°C",
+      "chemical_composition": "Ce0.8Gd0.2O1.9",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "SDC 400",
+      "sample_description": "Calcined at 400°C",
+      "chemical_composition": "Ce0.82Sm0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "SDC 650",
+      "sample_description": "Calcined at 650°C",
+      "chemical_composition": "Ce0.82Sm0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "SDC 900",
+      "sample_description": "Calcined at 900°C",
+      "chemical_composition": "Ce0.82Sm0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "YDC 400",
+      "sample_description": "Calcined at 400°C",
+      "chemical_composition": "Ce0.82Y0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "YDC 650",
+      "sample_description": "Calcined at 650°C",
+      "chemical_composition": "Ce0.82Y0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "YDC 900",
+      "sample_description": "Calcined at 900°C",
+      "chemical_composition": "Ce0.82Y0.18O1.91",
+      "sample_state": "nanopowders",
+      "sample_mass": null,
+      "supplier_or_creator": "Nextech Materials"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray powder diffraction performed in a Brucker D8 Discover DaVinci diffractometer to determine average crystallite sizes.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "N2-physisorption",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Specific surface area evaluated by means of N2-physisorption using the five-point Brunauer-Emmett-Teller (BET) method.",
+      "measurement_technique": "N2-physisorption",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Transmission Electron Microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "TEM images and chemical analysis by EDS to observe particle size and morphology.",
+      "measurement_technique": "Transmission Electron Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Hydrogen temperature programmed reduction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "TPR experiments to study sample reducibility using a 5 vol.% H2/Ar flow from room temperature up to 800 °C.",
+      "measurement_technique": "temperature programmed reduction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "in situ dispersive X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "DXAS spectra evolution as function of temperature at the L3-edge of Ce under diluted H2 (5% in He) from 400-800°C.",
+      "measurement_technique": "dispersive X-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "bibliographic": {
+    "title": "The effect of vanadium substitution on the structural and magnetic properties of (Fe1 −x Vx )3 Ga4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physics Department, United States Naval Academy, Annapolis, MD 20899, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Mechanical and Nuclear Engineering, Virginia Commonwealth University, Richmond, VA 23220, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Physics Department, Northeastern University, Boston, MA 02115, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Plasma Science and Fusion Center, MIT, Cambridge, MA, 02139, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Brandon Wilfong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Vaibhav Sharma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Omar Bishop",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Adrian Fedorko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Don Heiman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Radhika Barua",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Michelle E. Jamer",
+        "orcid": null,
+        "email": "jamer@usna.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Fe3Ga4 displays a complex magnetic phase diagram that is sensitive and tunable with both electronic and crystallographic structure changes. In order to explore this tunability, vanadium-doped (Fe1 −x Vx )3Ga4 has been synthesized and characterized. High-resolution synchrotron X-ray diffraction and Rietveld refinement show that samples up to 20% V-doping remain isostructural to Fe3Ga4 and display a linear increase in unit cell volume as doping is increased. Magnetic measurements reveal a suppression of the antiferromagnetic helical spin-density wave (SDW) with V-doping, revealed by changes in both the low-temperature ferromagnetic-antiferromagentic (FM-AFM) transition (T1) and high-temperature AFM-FM transition (T2). At 7.5% V-doping, the metamagnetic behavior of the helical AFM SDW phase is no longer observed. These results offer an avenue to effective tuning of the magnetic order in Fe3Ga4 for devices, as well as increased understanding of the magnetism in this system.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-10-04",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1905662"
+      },
+      {
+        "funder": "Air Force Office of Scientific Research",
+        "grant_id": "FA9550-20-1-0247"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "1726617"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-EPM 1904446"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe3Ga4",
+      "sample_description": null,
+      "chemical_composition": "Fe3Ga4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.025",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.025",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.05",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.05",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.075",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.075",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.1",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.1",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.15",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.15",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "V-doped (Fe1 −x Vx )3Ga4 x=0.2",
+      "sample_description": null,
+      "chemical_composition": "(Fe1 −x Vx )3Ga4 x=0.2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution synchrotron powder XRD collected at room temperature to track crystallographic changes with V-doping.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Energy dispersive spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EDS spectra collected to determine the average composition of each sample.",
+      "measurement_technique": "Energy dispersive spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization M(T)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent magnetization measured between 10 K and 400 K under applied fields of 0.01 T and 3 T.",
+      "measurement_technique": "SQUID MPMS",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Isothermal M(H)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Isothermal magnetization hysteresis loops measured between ±5 T at 10, 100, 200, 300 and 390 K.",
+      "measurement_technique": "SQUID MPMS",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

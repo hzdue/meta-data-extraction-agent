@@ -1,0 +1,223 @@
+{
+  "bibliographic": {
+    "title": "Early Stage Growth of Amorphous Thin Film: Average Kinetics, Nanoscale Dynamics and Pressure Dependence",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics, Boston University, Boston, MA 02215"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Physics and Division of Materials Science and Engineering, Boston University, Boston, MA 02215"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Division of Materials Science and Engineering, Boston University, Boston, MA 02215"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Advanced Photon Source, Argonne National Lab, Lemont, IL 60439"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, VT 05405"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chenyu Wang",
+        "orcid": null,
+        "email": "cywang96@bu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Karl F. Ludwig, Jr.",
+        "orcid": null,
+        "email": "ludwig@bu.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christa Wagenbach",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Meliha G. Rainville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Suresh Narayanan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hua Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jeffrey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "We used the Coherent Grazing Incidence Small Angle X-Ray Scattering (Co-GISAXS) technique to study the average kinetics and nanoscale dynamics during early-stage a-WSi2 sputter deposition. The kinetic and dynamic properties are examined as a function of pressure, which is known to be a critical factor in determining final surface roughness. Surface growth kinetics and dynamics are characterized by time parameters extracted from the height-height structure factor and correlation functions. The roughness at a given length scale reaches a maximum before relaxing down to a steady state. The lateral length scale dependence and pressure dependence are then compared among measured kinetics and dynamics time parameters. Surfaces grown at lower pressures are smoother, leading to longer correlation times. The time to reach a dynamic steady state and a kinetic steady state show contrasting pressure dependence. A dynamic steady state is reached earlier than the kinetic steady state at high pressure. A more random deposition direction and lower kinetic energy at higher pressures can explain these phenomena, along with the hypothesis that larger nanoclusters form in vapor before arriving at the surface. A continuum model is applied to simulate the overall behavior with mixed success.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-12-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR1709380"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DE-SC0017802"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DEAC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTS",
+      "III. DATA ANALYSIS",
+      "IV. THEORY AND SIMULATION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sample 1",
+      "sample_description": "Sputter deposited at 16 mTorr pressure.",
+      "chemical_composition": "a-WSi2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sample 2",
+      "sample_description": "Sputter deposited at 10 mTorr pressure.",
+      "chemical_composition": "a-WSi2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Sample 3",
+      "sample_description": "Sputter deposited at 8 mTorr pressure.",
+      "chemical_composition": "a-WSi2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Co-GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time measurement of surface growth kinetics and dynamics during a-WSi2 sputter deposition.",
+      "measurement_technique": "Coherent Grazing Incidence Small Angle X-Ray Scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPCS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of dynamical processes in the near surface structure using speckle patterns.",
+      "measurement_technique": "X-ray Photon Correlation Spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

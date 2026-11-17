@@ -1,0 +1,289 @@
+{
+  "bibliographic": {
+    "title": "Structural effects of liquid infiltration of 3Y-Zirconia with Sc, Mg and Y",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Nordic Institute of Dental Materials (NIOM), Sognsveien 70 A, 0855 Oslo, Norway"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Hydrogen Technology, Institute for Energy Technology (IFE), P.O. Box 40, NO-2027 Kjeller, Norway"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Battery Technology, Institute for Energy Technology (IFE), P.O. Box 40, NO-2027 Kjeller, Norway"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Asbjørn Slagtern Fjellvåg",
+        "orcid": null,
+        "email": "a.s.fjellvag@niom.no",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Øystein Slagtern Fjellvåg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Amund Ruud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The current work has investigated the effect of co-doping 3Y-Zirconia (3YSZ) with Sc, Mg and Y by liquid infiltration. Pre-sintered porous discs of 3YSZ were immersed in diluted nitric acid solutions containing Sc, Mg or Y, and combinations of the three, trapping liquid within the porosities of the samples. Upon drying, the cations are maintained inside the pellet, making the basis for the co-doping. After sintering, mass increase confirms the co-doping effect. Rietveld refinements of X-ray diffraction data show that the liquid-infiltrated samples contain the tetragonal t , t’’ and cubic c -phase in various fractions depending on the doping elements. The phases are compared with 3YSZ and 5YSZ sintered for 0 hours and 2 hours at 1500 °C. To evaluate the material properties in an application-based perspective, the Knoop hardness, translucency and grain size was measured. We conclude that liquid infiltration is a viable route to perform co-doping of Zirconia.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Research Council of Norway",
+        "grant_id": "325345"
+      },
+      {
+        "funder": "Research Council of Norway",
+        "grant_id": "208896"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Abstract",
+      "2. Introduction",
+      "3. Experimental",
+      "4. Results and discussion",
+      "5. Discussion",
+      "6. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European synchrotron radiation facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "3YSZ",
+      "sample_description": "Commercial yttria-stabilized zirconia powder with 3 mol% Y2O3 in ZrO2.",
+      "chemical_composition": "3YSZ",
+      "sample_state": "powder",
+      "sample_mass": "20 g",
+      "supplier_or_creator": "Tosoh"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "5YSZ",
+      "sample_description": null,
+      "chemical_composition": "5YSZ",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "Tosoh"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Mg-inf",
+      "sample_description": "3YSZ infiltrated with Magnesium nitrate solution.",
+      "chemical_composition": "Mg-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Y-3YSZ",
+      "sample_description": "3YSZ infiltrated with Yttrium nitrate solution.",
+      "chemical_composition": "Y-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Sc-3YSZ",
+      "sample_description": "3YSZ infiltrated with Scandium nitrate solution.",
+      "chemical_composition": "Sc-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "MgY-3YSZ",
+      "sample_description": "3YSZ infiltrated with Mg and Y nitrate solution.",
+      "chemical_composition": "MgY-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "MgSc-3YSZ",
+      "sample_description": "3YSZ infiltrated with Mg and Sc nitrate solution.",
+      "chemical_composition": "MgSc-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "ScY-3YSZ",
+      "sample_description": "3YSZ infiltrated with Sc and Y nitrate solution.",
+      "chemical_composition": "ScY-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "MgScY-3YSZ",
+      "sample_description": "3YSZ infiltrated with Mg, Sc and Y nitrate solution.",
+      "chemical_composition": "MgScY-3YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron radiation X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Structural analysis of Zirconia samples using Rietveld refinements to determine phase fractions and unit cell parameters.",
+      "measurement_technique": "synchrotron radiation X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "scanning electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Qualitative grain size evaluation of the samples.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Knoop hardness",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Mechanical evaluation using 1 kg of pressure (HK1).",
+      "measurement_technique": "Knoop hardness",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "translucency parameter",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Evaluation of optical properties using a spectrophotometer in reflection geometry.",
+      "measurement_technique": "spectrophotometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "energy dispersive X-ray spectroscopy",
+      "sample_refs": [
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Quantification of dopant concentrations in infiltrated samples.",
+      "measurement_technique": "energy dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

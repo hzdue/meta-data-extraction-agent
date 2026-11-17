@@ -1,0 +1,309 @@
+{
+  "bibliographic": {
+    "title": "Phase-selective growth of water-soluble strontium aluminate via sputtering deposition for freestanding oxide membranes",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Solid State Physics, TU Wien, Vienna, Austria"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Université Caen Normandie, CEA, ENSICAEN, CNRS, Normandie Univ, CIMAP UMR6252, Caen, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Catalan Institute of Nanoscience and Nanotechnology (ICN2), CSIC and BIST, Campus UAB, Bellaterra, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Quantum Matter Physics, University of Geneva, Geneva, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Leibniz-Institut für Kristallzüchtung, Berlin, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "ALBA Synchrotron Light Source, Cerdanyola del Vallès, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Evgenios Stylianidis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marie Dallocchio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Bernat Mundet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Lucia Varbaro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Clementine Thibault",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Christo Guguschev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mario Brützam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Javier Herrero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Marta Gibert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the epitaxial growth of high-quality water-soluble strontium aluminate films via sputtering deposition. We systematically investigate the dependence of the films structural quality on the growth conditions and we show that we can selectively grow, using the same target, both the cubic Sr3Al2O6 and the tetragonal Sr4Al2O7 phases by varying the atmosphere during growth. Using these water-soluble sacrificial layers we then synthesize ferromagnetic freestanding Sm2NiMnO6 membranes. By means of X-ray diffraction, synchrotron spectroscopic techniques and SQUID magnetometry, we demonstrate that our freestanding films exhibit properties comparable to epitaxial films.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Regional Development Fund",
+        "grant_id": "IU16-014206 (METCAM-FIB)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and discussion",
+      "Conclusions",
+      "Experimental methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "cubic Sr3Al2O6",
+      "sample_description": "Sputtering-grown film on (001)-oriented SrTiO3 substrate, capped with 5 nm Sm2NiMnO6.",
+      "chemical_composition": "Sr3Al2O6",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "tetragonal Sr4Al2O7",
+      "sample_description": "Sputtering-grown film on (110)o-oriented NdGaO3 substrate, capped with 5 nm Sm2NiMnO6.",
+      "chemical_composition": "Sr4Al2O7",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "freestanding Sm2NiMnO6",
+      "sample_description": "Membranes transferred on Si/SiO2 support substrates.",
+      "chemical_composition": "Sm2NiMnO6",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "epitaxial Sm2NiMnO6",
+      "sample_description": "10 nm-thick film grown on a SrTiO3 substrate used for comparison.",
+      "chemical_composition": "Sm2NiMnO6",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RHEED",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Specular-spot RHEED intensity as a function of time during growth.",
+      "measurement_technique": "reflection high-energy electron diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Specular X-ray diffractograms and reciprocal space maps to identify phases and structural quality.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of the Sm2NiMnO6 capping layers.",
+      "measurement_technique": "Atomic force microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "HAADF-STEM",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cross-sectional aberration-corrected scanning transmission electron microscopy imaging.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "EDS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Compositional maps for Ni and Mn.",
+      "measurement_technique": "energy-dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy around the Ni and Mn L3,2 absorption edges.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Field-cooled magnetization as a function of temperature and magnetization versus field loops.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

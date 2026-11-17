@@ -1,0 +1,268 @@
+{
+  "bibliographic": {
+    "title": "Palmitic Acid Sophorolipid Biosurfactant: From Self-Assembled Fibrillar Network (SAFiN) To Hydrogels with Fast Recovery",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Sorbonne Université, Centre National de la Recherche Scientifique, Laboratoire de Chimie de la Matière Condensée de Paris, LCMCP, F-75005 Paris, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Synchrotron Soleil, L’Orme des Merisiers, Saint-Aubin, BP48, 91192 Gif-sur-Yvette Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Ghent University, Centre for Industrial Biotechnology and Biocatalysis (InBio.be), Coupure Links 653, Ghent, Oost-Vlaanderen, BE 9000"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Bio Base Europe Pilot Plant, Rodenhuizekaai 1, Ghent, Oost-Vlaanderen, BE 9000"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Niki Baccile",
+        "orcid": null,
+        "email": "niki.baccile@sorbonne-universite.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ghazi Ben Messaoud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Patrick Le Griel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Nathan Cowieson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Javier Perez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Robin Geys",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Marilyn De Graeve",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sophie L. K. W. Roelants",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Wim Soetaert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Nanofibers are an interesting phase into which amphiphilic molecules can self-assemble. Described for a large number of synthetic lipids, they were seldom reported for natural lipids like microbial amphiphiles, known as biosurfactants. In this work, we show that the palmitic acid congener of sophorolipids (SLC16:0), one of the most studied families of biosurfactants, spontaneously forms a self-assembled fiber network (SAFiN) at pH below 6 through a pH jump process. pH-resolved _in-situ_ Small Angle X-ray Scattering (SAXS) shows a continuous micelle-to-fiber transition, characterized by an enhanced core-shell contrast between pH 9 and pH 7 and micellar fusion into flat membrane between pH 7 and pH 6, approximately. Below pH 6, homogeneous, infinitely long nanofibers form by peeling off the membranes. Eventually, the nanofiber network spontaneously forms a thixotropic hydrogel with fast recovery rates after applying an oscillatory strain amplitude out of the linear viscoelastic regime (LVER): after being submitted to strain amplitudes during 5 min, the hydrogel recovers about 80% and 100% of its initial elastic modulus after, respectively, 20 s and 10 min. Finally, the strength of the hydrogel depends on the medium’s final pH, with an elastic modulus fivefold higher at pH 3 than at pH 6.",
+    "keywords": [],
+    "doi": "10.1098/rsta.2020.0343",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Philosophical Transaction A",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Community’s Seventh Framework Programme (FP7/2007–2013)",
+        "grant_id": "Biosurfing/289219"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "654000"
+      },
+      {
+        "funder": "Diamond synchrotron radiation facility",
+        "grant_id": "SM23247-1"
+      },
+      {
+        "funder": "Soleil synchrotron radiation facility",
+        "grant_id": "20190961"
+      },
+      {
+        "funder": "Soleil synchrotron radiation facility",
+        "grant_id": "20201747"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Results and discussion",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Synchrotron Soleil"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SLC16:0",
+      "sample_description": "Non-acetylated palmitic acid sophorolipids.",
+      "chemical_composition": "SLC16:0",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "pH-resolved in situ Small Angle X-ray Scattering to follow self-assembly in water at room temperature.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "pHScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "cryo-TEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cryogenic Transmission Electron Microscopy images recorded at pH 3 and concentration of 0.25 wt%.",
+      "measurement_technique": "Cryogenic Transmission Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "rheology",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Viscoelastic properties studied via frequency-sweep, strain sweep, and step-strain experiments.",
+      "measurement_technique": "rheology",
+      "measurement_mode": [
+        "FrequencyScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS study of SLC16:0 hydrogels containing NaCl.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "DSC",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Differential Scanning Calorimetry thermograms of dry powders.",
+      "measurement_technique": "Differential Scanning Calorimetry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

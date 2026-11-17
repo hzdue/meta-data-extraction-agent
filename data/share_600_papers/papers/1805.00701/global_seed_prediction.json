@@ -1,0 +1,313 @@
+{
+  "bibliographic": {
+    "title": "RIXS studies of magnons and bimagnons in the lightly doped cuprate La2−xSrxCuO4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory and Stanford University, 2575 Sand Hill Road, Menlo Park, California 94025, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "SwissFEL and Laboratory for Micro and Nanotechnology, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Swiss Light Source, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratoire PROMES-CNRS (UPR-8521), Universit´e de Perpignan Via Domitia, Rambla de la thermodynamique, Tecnosud, 66100 Perpignan, France."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, Technion - Israel Institute of Technology, Haifa, 32000, Israel."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Geballe Laboratory for Advanced Materials, Stanford University, Stanford, California 94305, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L. Chaix",
+        "orcid": null,
+        "email": "laura.chaix@cea.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "E. W. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Gerber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "X. Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "C. Jia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Y. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "D.E. McNally",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "F. H. Vernay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "A. Keren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "M. Shi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "B. Moritz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Z.-X. Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "T. Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "T. P. Devereaux",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "W.-S. Lee",
+        "orcid": null,
+        "email": "leews@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We investigated the doping dependence of magnetic excitations in the lightly doped cuprate La2−xSrxCuO4 via combined studies of resonant inelastic x-ray scattering (RIXS) at the Cu L3edge and theoretical calculations. With increasing doping, the magnon dispersion is found to be essentially unchanged, but the spectral width broadens and the spectral weight varies differently at different momenta. Near the Brillouin zone center, we directly observe bimagnon excitations which possess the same energy scale and doping dependence as previously observed by Raman spectroscopy. They disperse weakly in energy-momentum space, and are consistent with a bimagnon dispersion that is renormalized by the magnon-magnon interaction at the zone center.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-05-03",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-76SF00515"
+      },
+      {
+        "funder": "European Community’s Seventh Framework Program",
+        "grant_id": "290605 (COFUND: PSI-FELLOW)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2−xSrxCuO4 x = 0.019",
+      "sample_description": null,
+      "chemical_composition": "La2−xSrxCuO4 x = 0.019",
+      "sample_state": "single-crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "La2−xSrxCuO4 x = 0.03",
+      "sample_description": null,
+      "chemical_composition": "La2−xSrxCuO4 x = 0.03",
+      "sample_state": "single-crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "La2−xSrxCuO4 x = 0.06",
+      "sample_description": null,
+      "chemical_composition": "La2−xSrxCuO4 x = 0.06",
+      "sample_state": "single-crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "La2−xSrxCuO4 x = 0.08",
+      "sample_description": null,
+      "chemical_composition": "La2−xSrxCuO4 x = 0.08",
+      "sample_state": "single-crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS measurements at the Cu L3-edge to explore the evolution of magnetic excitations in lightly doped La2−xSrxCuO4.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption spectrum",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS of the x = 0.06 sample in the σ-polarisation configuration.",
+      "measurement_technique": "X-ray absorption spectrum",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

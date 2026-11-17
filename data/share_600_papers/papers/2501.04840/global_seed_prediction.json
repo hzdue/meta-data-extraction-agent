@@ -1,0 +1,274 @@
+{
+  "bibliographic": {
+    "title": "Direct measurement of the longitudinal exciton dispersion in h -BN by resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Synchrotron SOLEIL, L’Orme des Merisiers, Saint-Aubin, BP 48, F-91192 Gif-sur-Yvette, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Université Paris-Saclay, CNRS, Laboratoire de Physique des Solides, 91405, Orsay, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "LSI, CNRS, CEA/DRF/IRAMIS, École Polytechnique, Institut Polytechnique de Paris, F-91120 Palaiseau, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "European Theoretical Spectroscopy Facility (ETSF)"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Research Center for Materials Nanoarchitectonics, National Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Research Center for Electronic and Optical Materials, National Institute for Materials Science, 1-1 Namiki, Tsukuba 305-0044, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alessandro Nicolaou",
+        "orcid": null,
+        "email": "alessandro.nicolaou@synchrotron-soleil.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kari Ruotsalainen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Laura Susana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Victor Porée",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Luiz Galvao Tizei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jaakko Koskelo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Takashi Taniguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Kenji Watanabe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Alberto Zobelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Matteo Gatti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5",
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report resonant inelastic X-ray scattering (RIXS) measurements on the prototypical hexagonal boron nitride ( h -BN) layered compound. The RIXS results at the B and N K edges have been combined with electron energy loss spectroscopy (EELS) experiments and ab initio calculations within the framework of the Bethe-Salpeter equation of many-body perturbation theory. By means of this tight interplay of different spectroscopies, the lowest longitudinal exciton of h -BN has been identified. Moreover, its qualitatively different dispersions along the ΓK and the ΓM directions of the Brillouin zone have been determined. Our study advocates soft x-ray RIXS and EELS to be a promising combination to investigate electronic excitations in materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-01-14",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-10-LABX-0035"
+      },
+      {
+        "funder": "Labex Palm",
+        "grant_id": "ANR-10-LABX-0039-PALM"
+      },
+      {
+        "funder": "BONASPES project",
+        "grant_id": "ANR-19-CE30-0007"
+      },
+      {
+        "funder": "People Programme (Marie Curie Actions) of the European Union’s Seventh Framework Programme (FP7/2007-2013)",
+        "grant_id": "PCOFUND-GA-2013-609102"
+      },
+      {
+        "funder": "GENCI",
+        "grant_id": "544"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "21H05233"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "23H02052"
+      },
+      {
+        "funder": "IMPRESS project",
+        "grant_id": "101094299"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL AND COMPUTATIONAL DETAILS",
+      "III. RESULTS AND ANALYSIS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Synchrotron SOLEIL"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "h-BN single crystal",
+      "sample_description": "High-quality colorless and transparent single crystals produced by a high-pressure and high-temperature method using a barium-related solvent system.",
+      "chemical_composition": "h-BN",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RIXS at the B and N K edges",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic X-ray scattering measurements at the B and N K edges to identify neutral electronic excitations.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EELS measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Monochromated low-loss EELS performed on a modified Nion HERMES-S200 STEM microscope.",
+      "measurement_technique": "electron energy loss spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "exciton dispersion",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS measurements as a function of the incident angle to track the dispersion of the lowest energy exciton along ΓM and ΓK directions.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

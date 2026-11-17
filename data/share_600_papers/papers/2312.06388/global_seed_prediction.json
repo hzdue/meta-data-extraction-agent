@@ -1,0 +1,288 @@
+{
+  "bibliographic": {
+    "title": "Structural modulation and BC8 enrichment of silicon via dynamic decompression",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Advanced Research Institute of Multidisciplinary Sciences, Beijing Institute of Technology (ARIMS), Beijing 100081, P.R. China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Aerospace Engineering, Beijing Institute of Technology, Beijing 100081, P.R. China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for High Pressure Science and Technology Advanced Research, Shanghai 201203, P.R. China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Chemistry and Chemical Engineering, Beijing Institute of Technology, Beijing, 100081 P. R. China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "BIT Chongqing Institute of Microelectronics and Microsystems, Chongqing, 400030, P. R. China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yubing Du",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Guoshuai Du",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hongliang Dong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jiayin Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Wuxiao Han",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Bin Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yabin Chen",
+        "orcid": null,
+        "email": "chyb0422@bit.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The modern very large-scale integration systems based on silicon semiconductor are facing the unprecedented challenges especially when transistor feature size lowers further, due to the excruciating tunneling effect and thermal management. Besides the common diamond cubic silicon, numerous exotic silicon allotropes with outstanding properties can emerge under high pressure, such as the metastable BC8 and metallic β -tin structures. Despite much effort on the controlled synthesis in experiment and theory, the effective approach to rationally prepare Si phases with desired purity is still lacking and their transition mechanism remains controversial. Herein, we systematically investigated on the complicated structural transformations of Si under extreme conditions, and efficiently enriched BC8-Si phase via dynamic decompression strategy. The splendid purity of BC8-Si was achieved up to ~95%, evidently confirmed by Raman spectroscopy and synchrotron X-ray diffraction. We believe these results can shed a light on the controlled preparation of Si metastable phases and their potential applications in nanoelectronics.",
+    "keywords": [
+      "Structural modulation",
+      "metastable silicon",
+      "phase transition",
+      "Si-III enrichment",
+      "high pressure",
+      "dynamic decompression"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "52072032"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12090031"
+      },
+      {
+        "funder": "173 JCJQ program",
+        "grant_id": "2021-JCJQ-JJ-0159"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION",
+      "EXPERIMENTAL METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Shanghai Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Si-I",
+      "sample_description": "ultrathin Si crystal",
+      "chemical_composition": "Si",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Si-II",
+      "sample_description": "metallic Si phase",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Si-III",
+      "sample_description": "metastable body-centered BC8 phase",
+      "chemical_composition": "Si",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Si-XII",
+      "sample_description": "rhombohedral R8 phase",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Si-IV",
+      "sample_description": "hexagonal diamond phase",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Si-XI",
+      "sample_description": "orthorhombic symmetry phase",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Si-V",
+      "sample_description": "simple hexagonal structure phase",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "a-Si",
+      "sample_description": "amorphous silicon state",
+      "chemical_composition": "Si",
+      "sample_state": "glass",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ Raman measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra of various Si allotropes under variable pressures and temperatures to study phase transitions.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "synchrotron XRD characterization",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction used to determine the purity of the BC8-Si phase.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "photoluminescence characterizations",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Pressure-dependent PL spectra of Si-I at 80 K and 300 K to regulate band gap and phonon energies.",
+      "measurement_technique": "photoluminescence",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

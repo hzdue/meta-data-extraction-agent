@@ -1,0 +1,267 @@
+{
+  "bibliographic": {
+    "title": "Probing Subcellular Nanostructure of Engineered Human Cardiomyocytes in 3D Tissue",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Mechanical Engineering, Boston University, Boston, Massachusetts, 02215, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Biomedical Engineering, Boston University, Boston, Massachusetts, 02215, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "SMI Beamline 12-ID, Brookhaven National Laboratory, Upton, NY 11973, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Boston University, Boston, Massachusetts, 02215, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Genetics, Harvard Medical School, Boston, MA, 02215, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Electrical Engineering, Boston University, Boston, Massachusetts, 02215, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Division of Materials Science, Boston University, Boston, Massachusetts, 02215, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Josh Javor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jourdan K. Ewoldt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Paige E. Cloonan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anant Chopra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Rebeccah J. Luu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Guillaume Freychet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mikhail Zhernenkov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Karl Ludwig",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jonathan G. Seidman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Christine E. Seidman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Christopher S. Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "David J. Bishop",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_4",
+          "aff_6",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "The structural and functional maturation of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) is essential for application to pharmaceutical testing, disease modeling, and ultimately therapeutic use. Multicellular 3D-tissue platforms have improved functional maturation of hiPSC-CMs, but probing cardiac contractile properties remains challenging in a 3D environment, especially at depth and in live tissues. Using small angle X-ray scattering (SAXS) images, we show that hiPSC-CMs, matured and examined in a 3D environment, exhibit periodic spatial arrangement of the myofilament lattice, which has not been previously detected in hiPSC-CMs. Contractile force is found to correlate with both scattering intensity (R2 =0.44) and lattice spacing (R2 =0.46). Scattering intensity also correlates with lattice spacing (R2 =0.81), suggestive of lower noise in our structural measurement relative to the functional measurement. Notably, we observe decreased myofilament ordering in tissues with a myofilament mutation known to lead to hypertrophic cardiomyopathy (HCM). Our results highlight the progress of human cardiac tissue engineering and enable unprecedented study of structural maturation in hiPSC-CMs.",
+    "keywords": [
+      "myofilament",
+      "structural maturation",
+      "hiPSC-CM",
+      "SAXS",
+      "cardiomyopathy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF",
+        "grant_id": "CELL-MET ERC award no. 1647837"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "GRFP (DGE-1840990; J.K.E)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION",
+      "MATERIALS AND METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SMI beamline, NSLS-II, Brookhaven National Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "WT hiPSC-CMT",
+      "sample_description": "Wild-type human induced pluripotent stem cell-derived cardiomyocyte microtissues co-cultured with human mesenchymal stem cells in a 3D fibrin matrix.",
+      "chemical_composition": null,
+      "sample_state": "3D tissue",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "R403Q+/- hiPSC-CMT",
+      "sample_description": "hiPSC-CM microtissues with a heterozygous R403Q mutation in the beta-myosin heavy chain (MYH7).",
+      "chemical_composition": null,
+      "sample_state": "3D tissue",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "contractile force",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of peak tissue contractile force via tracking deflections of elastomer pillars.",
+      "measurement_technique": "contractile force generation",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle X-ray scattering to probe myofilament lattice order and spacing in fixed 3D tissues.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

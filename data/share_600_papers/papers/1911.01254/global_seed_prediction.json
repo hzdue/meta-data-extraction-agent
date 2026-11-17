@@ -1,0 +1,361 @@
+{
+  "bibliographic": {
+    "title": "Site-selective and real-time observation of bimolecular electron transfer during photocatalytic water splitting",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "European XFEL, Holzkoppel 4, 22869 Schenefeld, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "The Hamburg Centre for Ultrafast Imaging, Luruper Chaussee 149, 22761 Hamburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut für Physik, Universität Rostock, Albert-Einstein-Str. 23-24, 18059 Rostock, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Wigner Research Centre for Physics, H-1525 Budapest, Hungary"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Leibniz-Institut für Katalyse an der Universität Rostock, Albert-Einstein-Str. 29a, 18059 Rostock, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Chemical Sciences and Engineering Division, Argonne National Laboratory, 9700 S. Cass Ave, 60439 Lemont, IL, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Faculty of Physics, Adam Mickiewicz University, ul. Uniwersytetu Poznańskiego 2, Poznań, 61-614, Poland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alexander Britz",
+        "orcid": null,
+        "email": "mail@alexbritz.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sergey I. Bokarev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Tadesse A. Assefa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Éva G. Bajnóczi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Zoltán Németh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "György Vankó",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Nils Rockstroh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Henrik Junge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Matthias Beller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Gilles Doumy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Anne Marie March",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Stephen H. Southworth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Stefan Lochbrunner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Oliver Kühn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Christian Bressler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Wojciech Gawelda",
+        "orcid": null,
+        "email": "wojciech.gawelda@amu.edu.pl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Time-resolved X-ray absorption spectroscopy has been utilized to monitor the bimolecular electron transfer in a photocatalytic water splitting system for the first time. This has been possible by uniting the local probe and element specific character of X-ray transitions with insights from high-level ab initio calculations. The specific target has been a heteroleptic [IrIII(ppy)2(bpy)]+ photosensitizer, in combination with triethylamine as a sacrificial reductant and Fe3(CO)12 as a water reduction catalyst. The relevant molecular transitions have been characterized via highresolution Ir L-edge X-ray absorption spectroscopy on the picosecond time scale. The present findings enhance our understanding of functionally relevant bimolecular electron transfer reactions and thus will pave the road to rational optimization of photocatalytic performance.",
+    "keywords": [
+      "homogeneous catalysis",
+      "photocatalytic water splitting",
+      "electron transfer",
+      "x-ray absorption spectroscopy",
+      "high energy-resolution fluorescence detection XAS",
+      "ultrafast XAS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "654220"
+      },
+      {
+        "funder": "National Science Centre (NCN) in Poland",
+        "grant_id": "SONATA BIS 6 No. 2016/22/E/ST4/00543"
+      },
+      {
+        "funder": "ELKH",
+        "grant_id": "LP2013-2/2020 Program of the Hungarian Academy of Sciences (LP2013-59)"
+      },
+      {
+        "funder": "European Regional Development Fund",
+        "grant_id": "VEKOP-2.3.2-16-2017-00015"
+      },
+      {
+        "funder": "National Research, Development and Innovation Fund (NKFIH)",
+        "grant_id": "FK124460"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+        "grant_id": "BO 4915/1-1"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft (DFG)",
+        "grant_id": "KU 952/10-1"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 | INTRODUCTION",
+      "2 | EXPERIMENTAL MEASUREMENTS",
+      "3 | THEORETICAL CALCULATIONS",
+      "4 | RESULTS AND DISCUSSION",
+      "5 | CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "pure PS in CH3CN",
+      "sample_description": null,
+      "chemical_composition": "[Ir(ppy)2(bpy)]+",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PS in a 1:4 mixture of TEA and CH3CN",
+      "sample_description": null,
+      "chemical_composition": "[Ir(ppy)2(bpy)]+",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PS and Fe3(CO)12 in a 1:5 mixture of TEA and CH3CN",
+      "sample_description": null,
+      "chemical_composition": "[Ir(ppy)2(bpy)]+ and Fe3(CO)12",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "TFY XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Total fluorescence yield X-ray absorption near edge structure spectra of the PS complex.",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HERFD XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High energy-resolution fluorescence detection X-ray absorption near edge structure spectra of the PS complex.",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Time delay scan",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time delay scans of the excited state at 11221.5 eV to determine MLCT excited state lifetimes.",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

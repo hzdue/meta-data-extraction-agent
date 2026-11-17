@@ -1,0 +1,215 @@
+{
+  "bibliographic": {
+    "title": "Pressure-induced s,p-d electron redistribution accompanies structural transformation in amorphous Zr-Cu alloy under compression",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Warsaw University of Technology Faculty of Physics Warsaw PL"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Cranfield University Faculty of Engineering and Applied Science Cranfield GB"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "The University of Bristol School of Earth Sciences Bristol GB"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Diamond Light Source Didcot GB"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "University of Edinburgh Edinburgh GB"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Ehime University: Matsuyama , Ehime, JP"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Przemyslaw Dziegielewski",
+        "orcid": "0000-0002-7544-3960",
+        "email": "przemyslaw.dziegielewski@pw.edu.pl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jerzy Antonowicz",
+        "orcid": "0000-0002-7781-7540",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Konstantinos Georgarakis",
+        "orcid": "0000-0003-0918-7310",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Oliver Lord",
+        "orcid": "0000-0003-0563-1293",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Monica Amboage",
+        "orcid": "0000-0002-6058-8446",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Dominik Daisenberger",
+        "orcid": "0000-0001-5311-4747",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Lewis Clough",
+        "orcid": "0000-0001-7296-1394",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tetsuo Irifune",
+        "orcid": "0000-0001-9194-6341",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Toru Shinmei",
+        "orcid": "0000-0003-4980-060X",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "Extreme compression can reorganize atomic valence states, in some regimes driving charge from spatially extended orbitals into more compact ones. We investigate this effect in amorphous Zr67Cu33 metallic glass by combining high-pressure X-ray absorption fine structure measurements up to 69 GPa with molecular dynamics simulations and density functional theory calculations. The Zr K-edge XANES spectra show a pronounced increase in the pre-edge intensity and a change in its pressure dependence, whereas the Cu response is markedly weaker. Molecular-dynamics simulations reproduce the measured EXAFS spectra and provide reliable input for the electronicstructure calculations. The calculated Mulliken populations reveal pressure-induced depletion of Zr s and p-states, accompanied by an increase of the d-state population, while the density of states indicates enhanced p-d hybridization under compression. These results provide experimental and computational evidence for pressure-induced s,p→d electronic redistribution in zirconium and link this effect to the previously reported anomalous structural evolution of the compressed amorphous alloy.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Centre, Poland",
+        "grant_id": "2023/07/X/ST3/01224"
+      },
+      {
+        "funder": "National Science Centre, Poland",
+        "grant_id": "2021/43/B/ST5/02480"
+      },
+      {
+        "funder": "Royal Society",
+        "grant_id": "UF150057"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Zr67Cu33 metallic glass",
+      "sample_description": null,
+      "chemical_composition": "Zr67Cu33",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption near-edge structure spectra for Cu and Zr K-edges measured up to 69 GPa.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure measurements used to validate MD simulations.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

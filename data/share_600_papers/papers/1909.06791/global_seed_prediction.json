@@ -1,0 +1,231 @@
+{
+  "bibliographic": {
+    "title": "Valence-selective local atomic structures on a YbInCu4 valence transition material by x-ray fluorescence holography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Kumamoto University, Kumamoto 860-8555, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Graduate School of Information Sciences Hiroshima City University, Hiroshima 731-3194, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physical Science and Engineering Nagoya Institute of Technology, Nagoya 466-8555, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Japan Synchrotron Radiation Research Institute (JASRI), Sayo 679-5198, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Hiroshima Synchrotron Radiation Center, Hiroshima University, Higashi-Hiroshima 739-0046, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Graduate School of Science and Engineering, Ehime University, Matsuyama 790-8577, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shinya Hosokawa",
+        "orcid": null,
+        "email": "shhosokawa@kumamoto-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Naohisa Happo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Kouichi Hayashi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Koji Kimura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tomohiro Matsushita",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jens Rüdiger Stellhorn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Masaichiro Mizumaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Motohiro Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Hitoshi Sato",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Koichi Hiraoka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "An experimental technique of x-ray fluorescence holography for investigating valence-selective local structures was established by employing the incident x-ray energy at a characteristic one near an x-ray absorption edge, and it was adopted to discriminate environments around Yb2+ and Yb3+ ions in a YbInCu4 valence transition material below and above the transition temperature of 42 K. The reconstructed images of the neighboring atoms around Yb3+ show a fcc structure as observed by diffraction experiments, whereas those around Yb2+ have curious cross (+) features, indicating a positional shift of the centered Yb2+ ions from the fcc lattice point.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-09-17",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS Grant-in-Aid for Scientific Research (B)",
+        "grant_id": "17H02814"
+      },
+      {
+        "funder": "Innovative Areas \"3D Active-Site Science\"",
+        "grant_id": "26105006"
+      },
+      {
+        "funder": "Innovative Areas \"3D Active-Site Science\"",
+        "grant_id": "26105013"
+      },
+      {
+        "funder": "Innovative Areas \"Sparse Modeling\"",
+        "grant_id": "16H01553"
+      },
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR1861"
+      },
+      {
+        "funder": "JSPS fellowship",
+        "grant_id": "P16796"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SPring-8"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YbInCu4",
+      "sample_description": "Single crystal grown by a flux growth method.",
+      "chemical_composition": "YbInCu4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Yb LIII XANES spectra",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Yb LIII XANES spectra of YbInCu4 measured in fluorescence mode at 7 and 300 K.",
+      "measurement_technique": "x-ray absorption near edge structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Yb Lα XFH",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Yb Lα x-ray fluorescence holography measurements carried out at 7 and 300 K at incident energies of 8.939 and 8.947 keV.",
+      "measurement_technique": "x-ray fluorescence holography",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

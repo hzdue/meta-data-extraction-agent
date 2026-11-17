@@ -1,0 +1,290 @@
+{
+  "bibliographic": {
+    "title": "Characterization of a Disordered Above Room Temperature Skyrmion Material Co8Zn8Mn4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute for Quantum Computing, University of Waterloo, Waterloo, ON, Canada, N2L3G1"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics & Astronomy, University of Waterloo, Waterloo, ON, Canada, N2L3G1"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, McMaster University, Hamilton, ON, Canada, L8S 4M1"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Materials Science and Engineering, University of Maryland, College Park, MD 20742-2115"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Brockhouse Institute for Materials Research, Hamilton, ON, Canada, L8S 4M1"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Chemistry, University of Waterloo, Waterloo, ON, Canada, N2L3G1"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "J¨ulich Centre for Neutron Science at Heinz Maier-Leibnitz Zentrum, Forschungszentrum J¨ulich GmbH, 85748 Garching, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. E. Henderson",
+        "orcid": null,
+        "email": "mehenderson@uwaterloo.ca",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. Beare",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Sharma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Bleuel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "P. Clancy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. G. Cory",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. G. Huber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "C. A. Marjerrison",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "M. Pula",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "D. Sarenac",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "E. M. Smith",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "K. Zhernenkov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "G. M. Luke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "D. A. Pushin",
+        "orcid": null,
+        "email": "dmitry.pushin@uwaterloo.ca",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Topologically non trivial spin textures host great promise for future spintronic applications. Skyrmions in particular are of burgeoning interest owing to their nanometric size, topological protection, and high mobility via ultra-low current densities. It has been previously reported through magnetic susceptibility, microscopy, and scattering techniques that Co8Zn8Mn4 forms an above room temperature triangular skyrmion lattice. Here we report the synthesis procedure and characterization of a polycrystalline Co8Zn8Mn4 bulk sample. We employ powder x-ray diffraction, backscatter Laue diffraction, and neutron diffraction as characterization tools of the crystallinity of the samples, while magnetic susceptibility and Small Angle Neutron Scattering (SANS) measurements are performed to study the skyrmion phase. Magnetic susceptibility measurements show a dip anomaly in the magnetization curves which persists over a range of approximately 305 K- 315 K. SANS measurements reveal a rotationally disordered polydomain skymrion lattice. Applying a recently developed symmetry-breaking magnetic field sequence, we were able to orient and order the previously jammed state to yield the prototypical hexagonal diffraction patterns, with secondary diffraction rings.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-10-22",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. SYNTHESIS",
+      "III. CHARACTERIZATION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Institute of Standards and Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Co8Zn8Mn4",
+      "sample_description": "Conical shaped silver polycrystal.",
+      "chemical_composition": "Co8Zn8Mn4",
+      "sample_state": "polycrystalline",
+      "sample_mass": "2 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Analysis of the reaction products to verify phase purity and extract lattice constant.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Backscatter X-ray Laue diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Preliminary investigation of the crystallinity and orientation of the material.",
+      "measurement_technique": "Backscatter X-ray Laue diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetic susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of magnetization and susceptibility to study the skyrmion phase and spin glass transition.",
+      "measurement_technique": "Magnetic susceptibility",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Unpolarized Small Angle Neutron Scattering to reveal the skyrmion lattice and its response to a symmetry-breaking magnetic field sequence.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

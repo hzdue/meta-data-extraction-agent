@@ -1,0 +1,263 @@
+{
+  "bibliographic": {
+    "title": "Combining scattering experiments and colloid theory to characterize charge effects in concentrated antibody solutions",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Physical Chemistry, Department of Chemistry, Lund University, SE-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Biologics Drug Product Development and Manufacturing, CMC Development, Sanofi, Framingham, MA, 01701, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "LINXS - Lund Institute of Advanced Neutron and X-ray Science, Scheelev¨agen 19, SE-223 70 Lund, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Institute for Complex Systems, National Research Council (ISC-CNR), Piazzale Aldo Moro 5, 00185 Rome, Italy"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 2, 00185 Rome, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alessandro Gulotta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marco Polimeni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Samuel Lenton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Charles G. Starr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jonathan S. Kingsbury",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Anna Stradner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Emanuela Zaccarelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Peter Schurtenberger",
+        "orcid": null,
+        "email": "peter.schurtenberger@fkem1.lu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Charges and their contribution to protein-protein interactions are essential for the key structural and dynamic properties of monoclonal antibody (mAb) solutions. In fact, they influence the apparent molecular weight, the static structure factor, the collective diffusion coefficient or the relative viscosity and their concentration dependence.\n\nFurther, charges play an important role in the colloidal stability of mAbs. There exist standard experimental tools to characterise mAb net charges such as the measurement of the electrophoretic mobility, the second virial coefficient, or the diffusion interaction parameter. However, the resulting values are difficult to be directly related to the actual overall net charge of the antibody and to theoretical predictions based on its known molecular structure.\n\nHere, we report the results of a systematic investigation of the solution properties of a charged IgG1 mAb as a function of concentration and ionic strength using a combination of electrophoretic measurements, static and dynamic light scattering, small-angle x-ray scattering (SAXS), and tracer particle-based microrheology. We analyse and interpret the experimental results using established colloid theory and coarse-grained computer simulations. We discuss the potential and limits of colloidal models for the description of interaction effects of charged mAbs, in particular pointing out the importance of incorporating shape and charge anisotropy when attempting to predict structural and dynamic solution properties at high concentrations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2016-03301"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2018-04627"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2019-06075"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2022-03142"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "871037"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2022-06725"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2018-05973"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental results",
+      "Discussion",
+      "Conclusions",
+      "Materials and Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Actemra",
+      "sample_description": "An IgG1 monoclonal antibody that is an anti-IL-6 receptor.",
+      "chemical_composition": "IgG1",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Dynamic light scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of apparent hydrodynamic radii as a function of concentration and temperature for two different ionic strengths.",
+      "measurement_technique": "dynamic light scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Static light scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of apparent molecular weight as a function of concentration and temperature.",
+      "measurement_technique": "static light scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Small-angle x-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of concentration-normalized scattering intensity to obtain the structure factor.",
+      "measurement_technique": "small-angle x-ray scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Tracer particle-based microrheology",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of relative viscosity as a function of concentration and temperature.",
+      "measurement_technique": "microrheology",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Electrophoretic light scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of electrophoretic mobilities at different ionic strengths.",
+      "measurement_technique": "electrophoretic light scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

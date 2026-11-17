@@ -1,0 +1,268 @@
+{
+  "bibliographic": {
+    "title": "Two-dimensional assembly of nanoparticles grafted with charged-end-group polymers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Ames National Laboratory, and Department of Chemical and Biological Engineering, Iowa State University, Ames, Iowa 50011, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Center for Functional Nanomaterials and NSLS-II, Brookhaven National Laboratory, Upton, New York 11973, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "NSLS-II, Brookhaven National Laboratory, Upton, New York 11973, United States"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Ames National Laboratory, and Department of Physics and Astronomy, Iowa State University, Ames, Iowa 50011, United States"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Division of Materials Sciences and Engineering, Ames National Laboratory, U.S. DOE, Ames, Iowa 50011, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hyeong Jin Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Binay P. Nayak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Honghu Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Benjamin M. Ocko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alex Travesset",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "David Vaknin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Surya K. Mallapragada",
+        "orcid": null,
+        "email": "suryakm@iastate.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Wenjie Wang",
+        "orcid": null,
+        "email": "wenjiew@ameslab.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Hypothesis Introducing charged terminal groups to polymers that graft nanoparticles enables Coulombic control over their assembly by tuning pH and salinity of aqueous suspensions. \n\nExperiments Gold nanoparticles (AuNPs) are grafted with poly (ethylene glycol) (PEG) terminated with CH3 (charge neutral), COOH (negatively charged) or NH2 group (positively charged), and characterized with dynamic light scattering, ζ -potential, and thermal gravimetric analysis. Liquid surface X-ray reflectivity (XR) and grazing incidence small-angle X-ray scattering (GISAXS) are used to determine the density profile and in-plane structure of the AuNP assembly across and on the aqueous surface. Findings Assembly of PEG-AuNPs at the liquid/vapor interface is tunable by adjusting pH or salinity for COOH but less for NH2 terminals. The distinct assembly behaviors are attributed to the overall charge of PEG-AuNPs as well as PEG conformation. COOH-PEG corona is the most compact and leads to smaller superlattice constants. The net charge per particle \n\ndepends not only on the PEG terminal groups, but also on the cation sequestration of PEG and the intrinsic negative charge of AuNP surface. The closeness to overall charge neutrality, and the hydrogen bonding in play, brought by NH2-PEG, enables NH2-PEG-AuNPs assembly readily.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC02-07CH11358"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Section",
+      "Results and Discussion",
+      "Theoretical Considerations",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "bare surface AuNPs",
+      "sample_description": "Citrate-stabilized gold nanoparticles",
+      "chemical_composition": "AuNPs",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "Ted Pella"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CH3-PEG-AuNPs",
+      "sample_description": "Gold nanoparticles functionalized with methyl-terminated PEG",
+      "chemical_composition": "CH3-PEG-AuNPs",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "COOH-PEG-AuNPs",
+      "sample_description": "Gold nanoparticles functionalized with carboxyl-terminated PEG",
+      "chemical_composition": "COOH-PEG-AuNPs",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "NH2-PEG-AuNPs",
+      "sample_description": "Gold nanoparticles functionalized with amine-terminated PEG",
+      "chemical_composition": "NH2-PEG-AuNPs",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "dynamic light scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Characterization of hydrodynamic size distribution for bare and polymer grafted AuNPs.",
+      "measurement_technique": "dynamic light scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "ζ-potential",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Quantification of the surface charge of PEG-AuNPs.",
+      "measurement_technique": "ζ-potential",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "thermal gravimetric analysis",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Degradation of grafted NPs in a temperature range between 100 to 600 °C under argon gas to determine grafting density.",
+      "measurement_technique": "thermal gravimetric analysis",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Investigation of the density profile of 2D assembled films at the liquid/vapor interface.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "grazing incidence small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Determination of the in-plane structure of AuNP assembly on the aqueous surface.",
+      "measurement_technique": "grazing incidence small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

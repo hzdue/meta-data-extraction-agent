@@ -1,0 +1,236 @@
+{
+  "bibliographic": {
+    "title": "Evolution of nematic and ferromagnetic ordering in suspensions of magnetic nanoplatelets",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "J. Stefan Institute, SI-1000 Ljubljana, Slovenia."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Faculty of Mathematics and Physics, University of Ljubljana, Slovenia"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Faculty of Physics, University of Vienna, A-1090 Vienna, Austria."
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Laboratory for Neutron Scattering and Imaging, PSI, CH-5232 Villigen PSI, Switzerland."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alenka Mertelj",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Borut Lampret",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Darja Lisjak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jürgen Klepp",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Martin Čopič",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Suspensions of magnetic nanoplatelets in isotropic solvents are very interesting examples of ferrofluids. It has been shown that above a certain concentration Φ NI such suspensions form a ferromagnetic nematic phase, which makes this system a unique example of a dipolar fluid. The formation of a nematic phase is driven by anisotropic electrostatic and long-range dipolar magnetic interactions. Here, we present studies of the evolution of short range positional and orientational magnetic order in the suspensions with volume fractions below and above Φ NI, using small angle neutron scattering (SANS). The results show that in the absence of an external magnetic field, short range positional and orientational order already exist at relatively low volume fractions. Polarized SANS revealed that the contribution of ferromagnetic ordering to the formation of the nematic phase is significant. The ferromagnetic correlations can be qualitatively explained by a simple model, which takes into account anisotropic screened electrostatic and dipolar magnetic interactions.",
+    "keywords": [],
+    "doi": "10.1039/x0xx00000x",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "P1-0192"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "P2-0089"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "J7-8267"
+      },
+      {
+        "funder": "OeAD",
+        "grant_id": "SI 13/2016"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "SI 13/2016"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "BI-AT/18-19-009"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Field dependence",
+      "Discussion",
+      "Conclusions",
+      "Materials and Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss spallation neutron source (SINQ)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institut"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BaHF nanoplatelets Φ = 0.02",
+      "sample_description": "Suspension of Barium hexaferrite nanoplatelets in t-butanol.",
+      "chemical_composition": "BaHF",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "BaHF nanoplatelets Φ = 0.04",
+      "sample_description": "Suspension of Barium hexaferrite nanoplatelets in t-butanol.",
+      "chemical_composition": "BaHF",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "BaHF nanoplatelets Φ = 0.07",
+      "sample_description": "Suspension of Barium hexaferrite nanoplatelets in t-butanol.",
+      "chemical_composition": "BaHF",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "BaHF nanoplatelets Φ = 0.1",
+      "sample_description": "Suspension of Barium hexaferrite nanoplatelets in t-butanol.",
+      "chemical_composition": "BaHF",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarizing microscopy (POM)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Optical study of birefringence and magnetic domains in suspensions.",
+      "measurement_technique": "polarizing microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Small angle neutron scattering to study positional and orientational correlations.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SANSPOL",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Polarized SANS to obtain information on magnetic correlations.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

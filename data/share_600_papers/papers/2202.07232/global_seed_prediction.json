@@ -1,0 +1,329 @@
+{
+  "bibliographic": {
+    "title": "Electronic Excitations of α−Fe2O3 Heteroepitaxial Films Measured by Resonant Inelastic X-Ray Scattering at the Fe L-edge",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Science and Engineering, Technion-Israel Institute of Technology, Haifa 32000, Israel"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, University of Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Dynamics and Transport in Quantum Materials, Helmholtz-Zentrum Berlin für Materialen und Energie, Albert-Einstein-Strasse 15, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Chemical Sciences Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720,USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Helmholtz-Zentrum Berlin für Materialen und Energie, Albert-Einstein-Strasse 15, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720,USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "The Nancy & Stephen Grand Technion Energy Program (GTEP), Technion-Israel Institute of Technology, Haifa 32000, Israel"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Materials Engineering and Ilse Katz Institute for Nanoscale Science and Technology, Ben Gurion University of the Negev, Be’er Sheva 8410501, Israel"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Institute for Solar Fuels, Helmholtz-Zentrum Berlin für Materialien und Energie GmbH, Hahn-Meitner-Platz 1, 14109 Berlin, Germany"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Inorganic Chemistry and Catalysis, Debye Institute of Nanomaterials Science, Utrecht University, Universiteitsweg 99, 3584 CG Utrecht, Netherlands"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "David S. Ellis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ru-Pan Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Deniz Wong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jason K. Cooper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Christian Schulz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Yi-De Chuang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yifat Piekner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Daniel A. Grave",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Markus Schleuning",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Dennis Friedrich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Frank M. F. de Groot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Avner Rothschild",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Resonant Inelastic X-Ray Scattering (RIXS) spectra of hematite (α-Fe2O3) were measured at the Fe L3-edge for heteroepitaxial thin films which were undoped and doped with 1% Ti, Sn or Zn, in the energy loss range in excess of 1 eV to study electronic transitions. The spectra were measured for several momentum transfers (q), conducted at both low temperature (T =14K) and room temperature. While we can not rule out dispersive features possibly owing to propagating excitations, the coarse envelopes of the general spectra did not appreciably change shape with q, implying that the bulk of the observed L-edge RIXS intensity originates from (mostly) non-dispersive ligand field (LF) excitations. Summing the RIXS spectra over q and comparing the results at T =14 K to those at T =300 K, revealed pronounced temperature effects, including an intensity change and energy shift of the ∼1.4 eV peak, a broadband intensity increase of the 3-4 eV range, and higher energy features. The q-summed spectra and their temperature dependences are virtually identical for nearly all of the samples with different dopants, save for the temperature dependence of the Ti-doped sample’s spectrum, which we attribute to being affected by a large number of free charge carriers. Comparing with magnetization measurements for different temperatures and dopings likewise did not show a clear correlation between the RIXS spectra and the magnetic ordering states. To clarify the excited states, we performed spin multiplet calculations which were in excellent agreement with the RIXS spectra over a wide energy range and provide detailed electronic descriptions of the excited states. The implications of these findings to the photoconversion efficiency of hematite photoanodes is discussed.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-02-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Israel Science Foundation",
+        "grant_id": "1867/17"
+      },
+      {
+        "funder": "EU Framework Programme for Research and Innovation HORIZON 2020",
+        "grant_id": "730872 (CALIPSOplus)"
+      },
+      {
+        "funder": "German Ministry of Education and Research",
+        "grant_id": "05K19GU2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "BESSY II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "undoped hematite",
+      "sample_description": "c-axis oriented heteroepitaxial thin film",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1% Ti-doped hematite",
+      "sample_description": "c-axis oriented heteroepitaxial thin film",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "1% Sn-doped hematite",
+      "sample_description": "c-axis oriented heteroepitaxial thin film",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "1% Zn-doped hematite",
+      "sample_description": "c-axis oriented heteroepitaxial thin film",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "a-axis hematite",
+      "sample_description": "heteroepitaxial thin film",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RIXS at the qRIXS endstation",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Initial RIXS measurements at the Fe L-edge with an energy loss resolution of ∼450 meV.",
+      "measurement_technique": "Resonant Inelastic X-Ray Scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS at the PEAXIS beamline",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Higher resolution (150 meV) RIXS measurements conducted at room temperature and T = 14 K.",
+      "measurement_technique": "Resonant Inelastic X-Ray Scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetization vs. temperature (M vs. T) measurements using a Quantum Design MPMS3 system.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

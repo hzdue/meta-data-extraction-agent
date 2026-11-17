@@ -1,0 +1,249 @@
+{
+  "bibliographic": {
+    "title": "Spin wave stiffness and damping in a frustrated chiral helimagnet Co 8 Zn 8 Mn 4 as measured by small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), Paul Scherrer Institute (PSI), CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Swiss Light Source, Paul Scherrer Institute (PSI), CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Petersburg Nuclear Physics Institute NRC “Kurchatov Institute”, Gatchina, St-Petersburg 188300, Russia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Saint-Petersburg State University, Ulyanovskaya 1, Saint-Petersburg 198504, Russia"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "National Research University Higher School of Economics, St. Petersburg, 190008, Russia"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technische Universität München, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Applied Physics, University of Tokyo, Tokyo 113-8656, Japan"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Tokyo College, University of Tokyo, Tokyo 113-8656, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "K.A. Pschenichnyi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "O. Utesov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_3",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "K. Karube",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. M¨uhlbauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "R. Cubitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Y. Tokura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Taguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. S. White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "S. V. Grigoriev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Multiple intriguing low temperature phenomena have recently been discovered in the family of chiral cubic Co-Zn-Mn compounds with β− Mn-type structure. In particular, Co8Zn8Mn4 displays a reduction of the helical spiral pitch on cooling, along with lattice shape transformations of metastable skyrmions and the manifestation of peculiar magnetic textures due to strong magnetocrystalline anisotropy. Here we report on temperature-dependent measurements of helimagnon excitations in the field polarized regime Co8Zn8Mn4 using the spin wave small-angle neutron scattering (SWSANS) technique. By applying a new analytical expression to interpret the data, quantitative estimates for both spin wave stiffness and damping are extracted across a wide temperature range between 70 K and 250 K. We speculate that their non-trivial temperature-dependencies arise due to the effects of magnetic frustration arising from Mn magnetic moments, which is further reflected in continuous variations of both exchange and Dzyaloshinskii-Moriya interactions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-06-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR20T1"
+      },
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR1874"
+      },
+      {
+        "funder": "SNSF",
+        "grant_id": "200021 ~~1~~ 88707"
+      },
+      {
+        "funder": "SNSF",
+        "grant_id": "Sinergia CRSII5 ~~1~~ 71003 NanoSkyrmionics"
+      },
+      {
+        "funder": "Russian Federation President",
+        "grant_id": "MK-1366.2021.1.2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSIONS",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Heinz Maier-Leibnitz Zentrum"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Co8Zn8Mn4",
+      "sample_description": "Single crystal of Co8Zn8Mn4.",
+      "chemical_composition": "Co8Zn8Mn4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SWSANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Temperature-dependent measurements of helimagnon excitations in the field polarized regime between 70 K and 250 K.",
+      "measurement_technique": "spin-wave small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

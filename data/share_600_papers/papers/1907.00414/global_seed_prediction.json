@@ -1,0 +1,268 @@
+{
+  "bibliographic": {
+    "title": "Electronic properties of A2Zr2O7 (A= Gd, Nd) ceramic",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, TM Bhagalpur University, Bihar-812007, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Variable Energy Cyclotron Center (VECC), DAE, 1/AF Bidhannagar, Kolkata, 700064, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Homi Bhabha National Institute, Mumbai, 400094, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Bhabha Atomic Research Center (BARC), Trombay, Mumbai, 400085, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Algama Masud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. K. Himanshu",
+        "orcid": null,
+        "email": "akhimanshu@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ratnesh Pandey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "J. Lahiri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Nisith Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Bijay K Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Kaustava Bhattacharyya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ravi Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. K. Tyagi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "The density functional theory with generalized gradient approximation has been used to investigate the electronic structure of gadolinium pyrochlore A2Zr2O7 (A=Gd, Nd) ceramic synthesized in polycrystalline form by solid state reaction. Structural characterization of the compound was done through X-ray diffraction (XRD) followed by Rietveld analysis of the XRD pattern. The Zr-K edge X-ray absorption (XAFS) spectra of A2Zr2O7 (A=Gd, Nd) were analysed together with those Zr-foil, which was used as reference compounds. X-ray photoemission spectroscopy (XPS), X-ray absorption near edge structure (XANES) and extended X-ray absorption fine structure (EXAFS) for A2Zr2O7 (A=Gd, Nd) has been employed to obtain quantitative structural information on the Zr-local environment. The band gap is estimated using UV-Vis spectroscopy. The crystal structure is face centered cubic, space group being Fd-3m (No. 227). The total energies in this work were calculated using the generalized gradient approximation to DFT plus on-site repulsion (U) method.",
+    "keywords": [
+      "Pyrochlore",
+      "Density Functional Theory",
+      "XAFS",
+      "XPS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "Methods",
+      "RESULTS AND DISCUSSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Indus-2 Synchrotron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Raja Ramanna Centre for Advanced Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Gd2Zr2O7",
+      "sample_description": null,
+      "chemical_composition": "Gd2Zr2O7",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Nd2Zr2O7",
+      "sample_description": null,
+      "chemical_composition": "Nd2Zr2O7",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Zr-foil",
+      "sample_description": null,
+      "chemical_composition": "Zr",
+      "sample_state": "foil",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Structural characterization of Gd2Zr2O7 analyzed using Rietveld analysis.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "X-ray absorption measurements performed in both transmission and fluorescent mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XPS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray photoelectron spectra in the energy window of 0–1100eV.",
+      "measurement_technique": "X-ray photoemission spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "UV-Vis spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Estimation of the band gap.",
+      "measurement_technique": "UV-Vis spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure measured at Gd L3-edge.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

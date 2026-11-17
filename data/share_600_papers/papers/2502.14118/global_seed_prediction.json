@@ -1,0 +1,200 @@
+{
+  "bibliographic": {
+    "title": "Characterization of ion track etched conical nanopores in thermal and PECVD SiO2 using small angle X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Physics, Research School of Physics, The Australian National University, Canberra ACT 2601, Australia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ANSTO-Australian Synchrotron, Clayton VIC 3168, Australia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "GSI Helmholtzzentrum für Schwerionenforschung, Planckstr. 1, 64291, Darmstadt, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Technische Universtät Darmstadt, 64289, Darmtadt, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shankar Dutt",
+        "orcid": null,
+        "email": "shankar.dutt@anu.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Rudradeep Chakraborty",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christian Notthoff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Pablo Mota-Santiago",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Christina Trautmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Patrick Kluth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Conical nanopores in amorphous SiO2 thin films fabricated using the ion track etching technique show promising potential for filtration, sensing and nanofluidic applications. The characterization of the pore morphology and size distribution, along with its dependence on the material properties and fabrication parameters, is crucial to designing nanopore systems for specific applications. Here, we present a comprehensive study of track-etched nanopores in thermal and plasmaenhanced chemical vapor deposited (PECVD) SiO2 using synchrotron-based small-angle X-ray scattering (SAXS). We present a new approach for analyzing the complex highly anisotropic 2- dimensional SAXS patterns of the pores by reducing the analysis to two orthogonal 1-dimensional slices of the data. The simultaneous fit of the data enables an accurate determination of the pore geometry and size distribution. The analysis reveals substantial differences between the nanopores in thermal and PECVD SiO2. The track-to-bulk etching rate ratio is significantly different for the two materials, producing nanopores with cone angles that differ by almost a factor of 2. Furthermore, thermal SiO2 exhibits an exceptionally narrow size distribution of only ∼ 2-4%, while PECVD SiO2 shows a higher variation ranging from ∼ 8-18%. The impact of ion energy between 89 MeV and 1.6 GeV on the size of the nanopores was also investigated for pores in PECVD SiO2 and shows only negligible influence. These findings provide crucial insights for the controlled fabrication of conical nanopores in different materials, which is essential for optimizing membrane performance in applications that require precise pore geometry.",
+    "keywords": [
+      "Track-etched nanopores",
+      "SiO2",
+      "small angle X-ray scattering (SAXS)",
+      "etched ion tracks",
+      "swift heavy ion irradiation"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "ARC Discovery Project Scheme"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussions",
+      "Conclusions",
+      "Experimental and Theory"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "UNILAC accelerator"
+    },
+    {
+      "id": "facility_2",
+      "name": "14UD accelerator"
+    },
+    {
+      "id": "facility_3",
+      "name": "Australian Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "thermal SiO2",
+      "sample_description": "1 µm thick thermally grown SiO2 on <100> Si substrates",
+      "chemical_composition": "SiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "WaferPro Ltd, USA"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PECVD SiO2",
+      "sample_description": "PECVD-deposited SiO2 films (~1.1 µm thick) grown on a 300 µm thick, polished <100> Si substrates",
+      "chemical_composition": "SiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "scanning electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Plan-view and cross-sectional imaging of nanopores to determine radius and cone angle.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "ellipsometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of thickness difference before and after etching to quantify bulk etch rates.",
+      "measurement_technique": "ellipsometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Transmission SAXS measurements at 12 keV to determine pore geometry and size distribution using 1D cuts of 2D patterns.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

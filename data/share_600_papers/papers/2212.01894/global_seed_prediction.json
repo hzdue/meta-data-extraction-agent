@@ -1,0 +1,579 @@
+{
+  "bibliographic": {
+    "title": "Intramolecular Structural Heterogeneity altered by Long-range Contacts in an Intrinsically Disordered Protein",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Raymond & Beverly Sackler School of Physics & Astronomy, Tel Aviv University, Tel Aviv 6997801, Israel"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "The Center for Physics & Chemistry of Living Systems, Tel Aviv University, Tel Aviv 6997801, Israel"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "The Center for NanoTechnology & NanoScience, Tel Aviv University, Tel Aviv 6997801, Israel"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Applied Theoretical Physics-Computational Physics, Physikalisches Institut, Albert-Ludwigs-Universit Freiburg, D-79104 Freiburg, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "European Molecular Biology Laboratory, Hamburg Unit, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Faculty of Physics and Center for NanoScience, Ludwig-Maximilians-Universität, München D-80539, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "School of Chemistry, Raymond and Beverly Sackler Faculty of Exact Sciences and Tel Aviv University Center for Light-Matter Interaction, Tel Aviv University, Tel Aviv 6997801, Israel"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "The Center for Nanoscience and Nanotechnology, Tel Aviv University, Tel Aviv 69978, Israel"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "BMSE Program, University of California, Santa Barbara, CA 93110, United States of America"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Materials Department, University of California, Santa Barbara, CA 93110, United States of America"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Cluster of Excellence livMatS @ FIT–Freiburg Center for Interactive Materials and Bioinspired Technologies, Albert-Ludwigs-Universit Freiburg, D-79104 Freiburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Gil Koren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sagi Meir",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lennard Holschuh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Haydyn D.T. Mertens",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tamara Ehm",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Nadav Yahalom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Adina Golombek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tal Schwartz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Dmitri I. Svergun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Omar A. Saleh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Joachim Dzubiella",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Roy Beck",
+        "orcid": null,
+        "email": "roy@tauex.tau.ac.il",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Short-range interactions and long-range contacts drive the 3D folding of structured proteins. The proteins’ structure has a direct impact on their biological function. However, nearly 40% of the eukaryotes proteome is composed of intrinsically disordered proteins (IDPs) and protein regions that fluctuate between ensembles of numerous conformations. Therefore, to understand their biological function, it is critical to depict how the structural ensemble statistics correlate to the IDPs’ amino acid sequence. Here, using small-angle x-ray scattering (SAXS) and time-resolved Förster resonance energy transfer (trFRET), we study the intra-molecular structural heterogeneity of the neurofilament low intrinsically disordered tail domain (NFLt). Using theoretical results of polymer physics, we find that the Flory scaling exponent of NFLt sub-segments correlates linearly with their net charge, ranging from statistics of ideal to self-avoiding chains. Surprisingly, measuring the same segments in the context of the whole NFLt protein, we find that regardless of the peptide sequence, the segments’ structural statistics are more expanded than when measured independently. Our findings show that while polymer physics can, to some level, relate the IDP’s sequence to its ensemble conformations, long-range contacts between distant amino acids play a crucial role in determining intra-molecular structures. This emphasizes the necessity of advanced polymer theories to fully describe IDPs ensembles with the hope it will allow us to model their biological function.",
+    "keywords": [
+      "intrinsically disordered proteins",
+      "time-resolved FRET",
+      "SAXS",
+      "structural heterogeneity",
+      "polymer physics"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-06-12",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "MCB-2113302"
+      },
+      {
+        "funder": "United States-Israel Bi-national Science Foundation",
+        "grant_id": "2020787"
+      },
+      {
+        "funder": "Israel Science Foundation",
+        "grant_id": "1454/20"
+      },
+      {
+        "funder": "Israel Science Foundation",
+        "grant_id": "1435/19"
+      },
+      {
+        "funder": "Horizon 2020 program of the European Commission",
+        "grant_id": "871037"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "RESULTS",
+      "Experimental Design",
+      "Divide and conquer - structural heterogeneity of NFLt segments",
+      "Structural heterogeneity and expansion in the NFLt protein’s context",
+      "Structural heterogeneity without an expansion in the presence of tethered self avoiding walk polymers",
+      "DISCUSSION",
+      "METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "S(6-25)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "P(6-23)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "S(26-45)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "P(23-43)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "S(45-64)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "P(43-64)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "S(67-86)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "S(67-86)c",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "S(66-81)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "P(64-80)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "S(87-105)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "S(82-96)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "P(80-96)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "S(106-128)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_15",
+      "sample_name": "S(110-125)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_16",
+      "sample_name": "P(109-126)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_17",
+      "sample_name": "S(129-146)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_18",
+      "sample_name": "S(129-146)c",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_19",
+      "sample_name": "P(126-141)",
+      "sample_description": "measured as a part of the full protein",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_20",
+      "sample_name": "S(130-143)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_21",
+      "sample_name": "(PAS)7",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_22",
+      "sample_name": "(PAS)13",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_23",
+      "sample_name": "(PAS)21",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_24",
+      "sample_name": "(PAS)3-S(6-25)-(PAS)3",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_25",
+      "sample_name": "(PAS)7-S(6-25)-(PAS)7",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_26",
+      "sample_name": "(PAS)3-S(106-128)-(PAS)3",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_27",
+      "sample_name": "(PAS)7-S(106-128)-(PAS)7",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "trFRET",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11",
+        "sample_12",
+        "sample_13",
+        "sample_14",
+        "sample_15",
+        "sample_16",
+        "sample_17",
+        "sample_18",
+        "sample_19",
+        "sample_20",
+        "sample_21",
+        "sample_22",
+        "sample_23",
+        "sample_24",
+        "sample_25",
+        "sample_26",
+        "sample_27"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Time-resolved Förster resonance energy transfer measurements to extract end-to-end distance and scaling parameters.",
+      "measurement_technique": "time-resolved Förster resonance energy transfer",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_3",
+        "sample_5",
+        "sample_7",
+        "sample_9",
+        "sample_11",
+        "sample_12",
+        "sample_14",
+        "sample_15",
+        "sample_17",
+        "sample_20",
+        "sample_21",
+        "sample_22",
+        "sample_23",
+        "sample_26",
+        "sample_27"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Small-angle x-ray scattering measurements to extract radius of gyration and scaling exponents.",
+      "measurement_technique": "small-angle x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

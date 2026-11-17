@@ -1,0 +1,267 @@
+{
+  "bibliographic": {
+    "title": "Dynamic evolution of internal stress, grain growth, and crystallographic texture in arc-evaporated AlTiN thin films using in-situ synchrotron x-ray diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Chemistry and Biology (IFM), Linköping University, SE-581 83 Linköping, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Applied Materials, Materials Science and Engineering (IAM-WK), Karlsruhe Institute of Technology, 76131 Karlsruhe, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Helmholtz-Zentrum Hereon, Institute of Materials Physics, Max-Planck-Str. 1, 21502 Geesthacht, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sanjay Nayak",
+        "orcid": null,
+        "email": "sanjay.nayak@liu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Tun-Wei Hsu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Robert Boyd",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jens Gibmeier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Norbert Schell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jens Birch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Lina Rogström",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Magnus Odén",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Understanding the nucleation and growth of polycrystalline thin films is a long-standing goal. Polycrystalline films have many grains with different orientations that affect thin-film properties. Numerous studies have been done to determine these grain size and their preferred crystallographic orientation as well as stress in films. However most past studies have either employed an ex-situ methodology or only monitor the development of macroscopic stress in realtime. There has never been any research done on the simultaneous determination of crystallographic texture, grain size, and microscopic stress in polycrystalline thin films. In this study, we simultaneously monitored the generation and temporal evolution of texture, grain size, and internal stress in cathodic arc evaporated Al0.50Ti0.50N thin films using a bespoke deposition apparatus designed for use with 2-dimensional synchrotron x-ray diffraction technique. The influence of the substrate temperature is investigated in terms of the emergence and development of texture, grain size and stress evolution. A dynamic evolution of the crystallographic texture is observed as the overall film thickness varies. We clearly resolved two regime of films growth based on stress evolution. Beyond a threshold grain size (~ 14 nm), the stress scales inversely to the average grain sizes, and as the film thickness increases, immediate compressive stress relaxation was seen. An extensive ex-situ evaluation of thin films using electron microscopies and electron diffraction was performed to support the in-situ x-ray diffraction results.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2017-06701"
+      },
+      {
+        "funder": "Vinnova",
+        "grant_id": "2022-03071"
+      },
+      {
+        "funder": "Swedish government strategic research area grant AFM",
+        "grant_id": "2009-00971"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Experimental Details",
+      "III. Results and Discussion",
+      "IV. Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "P07 beamline (DESY, Germany)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al0.50Ti0.50N Ts = 250 °C",
+      "sample_description": null,
+      "chemical_composition": "Al0.50Ti0.50N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Al0.50Ti0.50N Ts = 450 °C",
+      "sample_description": null,
+      "chemical_composition": "Al0.50Ti0.50N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Al0.50Ti0.50N Ts = 600 °C",
+      "sample_description": null,
+      "chemical_composition": "Al0.50Ti0.50N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Al0.50Ti0.50N Ts = 750 °C",
+      "sample_description": null,
+      "chemical_composition": "Al0.50Ti0.50N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ x-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Simultaneous monitoring of texture, grain size, and internal stress during growth of Al0.50Ti0.50N thin films.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "scanning electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ evaluation of thin film morphology and cross-sections.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ analysis of nanocolumns and nanocrystalline morphology using BF-TEM and SAED.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "STEM-EDS mapping",
+      "sample_refs": [
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Mapping of Si, Al, Ti, and N to check for compositional modulation.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "nanoindentation",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of mechanical hardness and elastic recovery.",
+      "measurement_technique": "nanoindentation",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

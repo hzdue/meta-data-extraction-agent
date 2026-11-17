@@ -1,0 +1,308 @@
+{
+  "bibliographic": {
+    "title": "Unraveling the symmetry of Al5C3N",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Ångström Laboratory, Uppsala University, S-75121 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Astronomy, Uppsala University, S-75120 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Division of Solar Cell Technology, Department of Materials Science and Engineering, Uppsala University, S-75121 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Nuclear Physics Institute CAS, Rez 25068, Czech Republic"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "European Spallation Source, ESS ERIC, S-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "WISE Wallenberg Initiative Materials Science, Uppsala University"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Shtender",
+        "orcid": null,
+        "email": "vitalii.shtender@angstrom.uu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "C.S. Ong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "P. Berastegui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "O. Donzel-Gargand",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Cedervall",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "C. Hervoches",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "P. Beran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "O. Eriksson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "U. Jansson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The high-temperature ceramic compound Al5C3N with promising application usage belongs to the scarcely studied Al–C–N system. It was originally reported as an ordered compound in the non-centrosymmetric space group P 63 mc and described as a nanolaminate with an –Al2C–AlN– Al2C2– stacking sequence. The recently reported structural disorder in the related compound Al4SiC4 led us to question this proposed structure for Al5C3N and investigate the possibility of a disordered structure in the centrosymmetric space group P 63/ mmc . In the present work, we employed different synthesis routes to maximize the yield and quality of the desired phase, and applied a variety of techniques to probe the Al5C3N crystal structure. Our single-crystal X-ray diffraction analysis clearly indicates that the non-centrosymmetric space group P 63 mc must be rejected. From a joint refinement of single-crystal X-ray and powder neutron diffraction data, the occupancies of C and N were refined at two sites in P 63/ mmc resulting in the stacking sequence –Al2C–Al(C/N)–Al2(C/N)2–. Furthermore, DFT calculations show that a centrosymmetric disordered structure described in a supercell has the lowest energy, 0.2 eV per formula unit, relative to the previously reported P 63 mc structure. The calculated band structure shows both direct and indirect band gaps which lead to implications for the physical properties. Finally, STEM analysis provides additional evidence that the crystal structure of Al5C3N is better described in the centrosymmetric space group P 63/ mmc .",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2022-03120"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2020-00207"
+      },
+      {
+        "funder": "MEYS CR",
+        "grant_id": "Project OP JAK FerrMion, No. CZ.02.01.01/00/22_008/0004591"
+      },
+      {
+        "funder": "MEYS project",
+        "grant_id": "LM2023041"
+      },
+      {
+        "funder": "ERC",
+        "grant_id": "synergy grant FASTCORR, project 854843"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Methods",
+      "3. Results and discussion",
+      "3.1 Synthesis of Al5C3N",
+      "3.2 Single crystal X-ray diffraction of Al5C3N",
+      "3.3 Powder neutron diffraction of Al5C3N",
+      "3.4 Possible structural models of Al5C3N",
+      "3.5 Theoretical calculations",
+      "3.6 Scanning transmission electron microscopy (STEM)",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Nuclear Physics Institute CAS"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al5C3N",
+      "sample_description": null,
+      "chemical_composition": "Al5C3N",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Al5C3N",
+      "sample_description": null,
+      "chemical_composition": "Al5C3N",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Structure determination of a small single crystal of Al5C3N using Mo Kα radiation.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction measurement using the MEREDIT diffractometer at room temperature.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "scanning electron microscope",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Study of powder morphology and composition using SEM and EDS.",
+      "measurement_technique": "scanning electron microscope",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Raman spectra",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra collected with a 532 nm laser.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "IR spectra",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "IR spectra collected using a diamond ATR unit.",
+      "measurement_technique": "infrared spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Powder X-ray diffraction in θ-2θ mode using Cu Kα radiation.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "STEM analysis including HAADF and ABF detectors and EDS chemical mapping.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

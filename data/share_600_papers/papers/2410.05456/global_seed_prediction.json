@@ -1,0 +1,336 @@
+{
+  "bibliographic": {
+    "title": "Effect of Grafting Density on the Two-dimensional Assembly of Nanoparticles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Ames National Laboratory, and Department of Chemical and Biological Engineering, Iowa State University, Ames, Iowa 50011, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Division of Materials Sciences and Engineering, Ames National Laboratory, U.S. DOE, Ames, Iowa 50011, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "NSF’s ChemMatCARS, Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Center for Functional Nanomaterials, Brookhaven National Laboratory, Upton, New York 11973, United States"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Ames National Laboratory, and Department of Physics and Astronomy, Iowa State University, Ames, Iowa 50011, United States"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, Arkansas 72701, United States"
+      },
+      {
+        "id": "aff_7",
+        "label": "#",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Binay P. Nayak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "James Ethan Batey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hyeong Jin Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Wenjie Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Wei Bu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Honghu Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Surya K. Mallapragada",
+        "orcid": null,
+        "email": "suryakm@iastate.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "David Vaknin",
+        "orcid": null,
+        "email": "vaknin@ameslab.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Employing grazing-incidence small-angle X- ray scattering (GISAXS) and X-ray reflectivity (XRR), we demonstrate that films composed of polyethylene glycol (PEG)-grafted silver nanoparticles (AgNP) and gold nanoparticles (AuNP), as well as their binary mixtures, form highly stable hexagonal structures at the vapor-liquid interface. These nanoparticles exhibit remarkable stability under varying environmental conditions, including changes in pH, mixing concentration, and PEG chain length. Short-chain PEG grafting produces dense, wellordered films, while longer chains produce more complex, less dense quasi-bilayer structures. AuNPs exhibit higher grafting densities than AgNPs, leading to more ordered in-plane arrangements. In binary mixtures, AuNPs dominate the population at the surface, while AgNPs integrate into the system, expanding the\n\nlattice without forming a distinct binary superstructure. These results offer valuable insights into the structural behavior of PEG-grafted nanoparticles and provide a foundation for optimizing binary nanoparticle assemblies for advanced nanotechnology applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF/CHE-1834750"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Methods",
+      "Results and Discussions",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NSF’s ChemMatCARS Sector 15, Advanced Photon Source (APS), Argonne National Laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "SMI beamline open platform liquid surfaces (OPLS) end station, National Synchrotron Light Source II (NSLS-II), Brookhaven National Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PEG2k-AgNP10",
+      "sample_description": "AgNPs with a core diameter of 10 nm grafted with PEG chains of molecular weight 2 kDa.",
+      "chemical_composition": "PEG-AgNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PEG5k-AgNP10",
+      "sample_description": "AgNPs with a core diameter of 10 nm grafted with PEG chains of molecular weight 5 kDa.",
+      "chemical_composition": "PEG-AgNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PEG20k-AgNP10",
+      "sample_description": "AgNPs with a core diameter of 10 nm grafted with PEG chains of molecular weight 20 kDa.",
+      "chemical_composition": "PEG-AgNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PEG40k-AgNP10",
+      "sample_description": "AgNPs with a core diameter of 10 nm grafted with PEG chains of molecular weight 40 kDa.",
+      "chemical_composition": "PEG-AgNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "PEG5k-AuNP5",
+      "sample_description": "AuNPs with a core diameter of 5 nm grafted with PEG chains of molecular weight 5 kDa.",
+      "chemical_composition": "PEG-AuNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "PEG5k-AuNP10",
+      "sample_description": "AuNPs with a core diameter of 10 nm grafted with PEG chains of molecular weight 5 kDa.",
+      "chemical_composition": "PEG-AuNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "PEG2k-AgNP10 / PEG5k-AuNP5 mixture",
+      "sample_description": "1:1 binary mixture of PEG2k-AgNP10 and PEG5k-AuNP5.",
+      "chemical_composition": "PEG-AgNP / PEG-AuNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "PEG2k-AgNP10 / PEG5k-AuNP10 mixture",
+      "sample_description": "1:1 binary mixture of PEG2k-AgNP10 and PEG5k-AuNP10.",
+      "chemical_composition": "PEG-AgNP / PEG-AuNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "PEG5k-AgNP10 / PEG5k-AuNP5 mixture",
+      "sample_description": "1:1 binary mixture of PEG5k-AgNP10 and PEG5k-AuNP5.",
+      "chemical_composition": "PEG-AgNP / PEG-AuNP",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "DLS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of hydrodynamic diameter (DH) of grafted nanoparticles.",
+      "measurement_technique": "dynamic light scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "TGA",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Thermogravimetric analysis to determine average grafting density of PEG on NP surfaces.",
+      "measurement_technique": "thermogravimetric analysis",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Analysis of nanoparticle assembly's in-plane arrangement at the aqueous surface.",
+      "measurement_technique": "grazing-incidence small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Determination of the electron density (ED) profile along the axis normal to the vapor-liquid interface.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

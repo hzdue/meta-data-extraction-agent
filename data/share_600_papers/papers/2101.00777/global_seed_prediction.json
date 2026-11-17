@@ -1,0 +1,253 @@
+{
+  "bibliographic": {
+    "title": "Different Response of Molecular Aggregation Structure of Styrenic Triblock Copolymer under Cyclic Uniaxial and Biaxial Stretching Modes",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Graduate School of Engineering, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka, 819-0395, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Materials Chemistry and Engineering, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka, 819-0395, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "International Institute for Carbon-Neutral Energy Research (WPI-I2CNER) Kyushu University, 744 Motooka, Nishi-ku, Fukuoka, 819-0395, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nattanee Dechnarong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kazutaka Kamitani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Chao-Hung Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Shiori Masuda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Shuhei Nozaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Chigusa Nagano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Aya Fujimoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ayumi Hamada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yoshifumi Amamoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Ken Kojio",
+        "orcid": null,
+        "email": "kojio@cstf.kyushu-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Atsushi Takahara",
+        "orcid": null,
+        "email": "takahara@cstf.kyushu-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Mechanical stretching behavior of poly(styrene- b -ethylene- co -butylene- b -styrene) (SEBS) triblock copolymer (87 wt% polyethylene- co -butylene (PEB) block, 13 wt% polystyrene (PS) block) was investigated by three different stretching and in situ small-angle X-ray scattering (SAXS) measurements. Strain energy density function was investigated based on the stress-stretching ratio ( λ ) relationship under uniaxial, planar extension, and equi-biaxial stretching modes. As the result, cross-effect of strain represented by second invariants of the deformation tensor ( I 2) existed and only Ogden model can be used to fit the data. In the cyclic stretch testing, SEBS exhibited smaller hysteresis during cyclic equi-biaxial stretching mode than for uniaxial stretching one. λ and stretching ratio obtained from crystal planes by SAXS ( λ SAXS) were compared to investigate relationship between microdomain structure change and macroscopic mechanical property. SAXS measurement revealed that affine deformation occurred in the smaller λ region for both uniaxial and equi-biaxial stretching modes and deviation from affine deformation occurred for uniaxial stretching mode at the larger λ region. This is because entangled PEB loop chains could work as cross-linking points when films are stretched by equi-biaxial stretching mode.",
+    "keywords": [
+      "Mullins effect",
+      "Small-angle X-ray scattering",
+      "Strain energy function",
+      "Thermoplastic elastomer"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Impulsing Paradigm Change through Disruptive Technology (ImPACT) Program, JST CRES T",
+        "grant_id": "JPMJCR17J4"
+      },
+      {
+        "funder": "JST-Mirai Program",
+        "grant_id": "JPMJMI18A2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experiments",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SPring-8"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SEBS-13",
+      "sample_description": "SEBS sample with 13 wt% PS",
+      "chemical_composition": "poly(styrene- b -ethylene- co -butylene- b -styrene)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Asahi Kasei Chemical Co., Ltd, Japan"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "uniaxial stretching",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Stress-stretching ratio relationship under uniaxial stretching mode.",
+      "measurement_technique": "tensile testing",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "planar extension",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Stress-stretching ratio relationship under planar extension mode.",
+      "measurement_technique": "tensile testing",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "equi-biaxial stretching",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Stress-stretching ratio relationship under equi-biaxial stretching mode.",
+      "measurement_technique": "tensile testing",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle X-ray scattering measurements during cyclic uniaxial and equi-biaxial stretching to investigate PS domain arrangement.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

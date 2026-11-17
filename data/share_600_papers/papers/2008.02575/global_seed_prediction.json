@@ -1,0 +1,290 @@
+{
+  "bibliographic": {
+    "title": "Mapping the unoccupied state dispersions in Ta2NiSe5 with resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "D´epartement de Physique and Fribourg Center for Nanomaterials, Universit´e de Fribourg, 1700 Fribourg, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut fuer Physik und Astronomie, Universitaet Potsdam, 14476 Potsdam, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Engineering Science, LUT University, FI-53850, Lappeenranta, Finland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Swiss Light Source, Photon Science Division, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Beijing National Lab for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences P. O. Box 603, 100190 Beijing, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "NSLS-II, Brookhaven National Laboratory, Upton, NY, 11973, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot, OX, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physical Science and Engineering, Nagoya University, 464-8603 Nagoya, Japan"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Research Institute for Interdisciplinary Science, Okayama University, Okayama 700-8530, Japan"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Max Planck Institute for Solid State Research, 70569 Stuttgart, Germany"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Department of Physics, University of Tokyo, 113-8654 Tokyo, Japan"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Department of Applied Physics, Waseda University, Shinjuku, 169-8555 Tokyo, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "C. Monney",
+        "orcid": null,
+        "email": "claude.monney@unifr.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. Herzog",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Pulkkinen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Y. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "P. Olalde-Velasco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "N. Katayama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Nohara",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "H. Takagi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "T. Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "T. Mizokawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_12"
+        ]
+      }
+    ],
+    "abstract": "The transition metal chalcogenide Ta2NiSe5 undergoes a second-order phase transition at Tc = 328 K involving a small lattice distortion. Below Tc , a band gap at the center of its Brillouin zone increases up to about 0.35 eV. In this work, we study the electronic structure of Ta2NiSe5 in its low-temperature semiconducting phase, using resonant inelastic x-ray scattering (RIXS) at the Ni L 3-edge. In addition to a weak fluorescence response, we observe a collection of intense Raman-like peaks that we attribute to electron-hole excitations. Using density functional theory calculations of its electronic band structure, we identify the main Raman-like peaks as interband transitions between valence and conduction bands. By performing angle-dependent RIXS measurements, we uncover the dispersion of these electron-hole excitations that allows us to extract the low-energy boundary of the electron-hole continuum. From the dispersion of the valence band measured by angle-resolved photoemission spectroscopy, we derive the effective mass of the lowest unoccupied conduction band.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "1912.01591",
+    "url": null,
+    "publication_date": "2020-08-07",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "P00P2 ~~1~~ 70597"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CRSII2 ~~1~~ 41962"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CRSII2 ~~1~~ 60765"
+      },
+      {
+        "funder": "European Communitys Seventh Framework Programme",
+        "grant_id": "290605 (COFUND: PSIFELLOW)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "METHODS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ta2NiSe5",
+      "sample_description": "Single crystals prepared by reacting elemental nickel, tantalum and selenium with a small amount of iodine.",
+      "chemical_composition": "Ta2NiSe5",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS spectrum measured at the Ni L3-edge by total fluorescence yield at 30 K.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS map as a function of incident photon energy at the Ni L3-edge at 30 K.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "angle-dependent RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS spectra measured as a function of in-plane momentum Q|| along the Gamma X direction at 30 K.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

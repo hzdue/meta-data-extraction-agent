@@ -1,0 +1,231 @@
+{
+  "bibliographic": {
+    "title": "Massively strained VO2 thin film growth on RuO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Institute of Solid State Physics, University of Bremen, Otto-Hahn-Allee 1, 28359 Bremen, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "MAPEX Center for Materials and Processes, University of Bremen, 28359 Bremen, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "ALBA Synchrotron Light Facility, Carrer de la Llum 2-26, 08290 Cerdanyola del Vall`es, Barcelona, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Applied Physics and Semiconductor Spectroscopy, Brandenburg University of Technology Cottbus-Senftenberg, Konrad-Zuse-Str. 1, 03046 Cottbus, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Simon Fischer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jon-Olaf Krisponeit",
+        "orcid": null,
+        "email": "krisponeit@ifp.uni-bremen.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Michael Foerster",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Lucia Aballe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jens Falta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jan Ingo Flege",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Strain engineering vanadium dioxide thin films is one way to alter this material’s characteristic first order transition from semiconductor to metal. In this study we extend the exploitable strain regime by utilizing the very large lattice mismatch of 8.78 % occurring in the VO2/RuO2 system along the c axis of the rutile structure.\n\nWe have grown VO2 thin films on single domain RuO2 islands of two distinct surface orientations by atomic oxygen-supported reactive MBE. These films were examined by spatially resolved photoelectron and x-ray absorption spectroscopy, confirming the correct stoichiometry. Low energy electron diffraction then reveals the VO2 films to grow indeed fully strained on RuO2(110), exhibiting a previously unreported (2 × 2) reconstruction. On TiO2(110) substrates, we reproduce this reconstruction and attribute it to an oxygenrich termination caused by the high oxygen chemical potential. On RuO2(100) on the other hand, the films grow fully relaxed. Hence, the presented growth method allows for simultaneous access to a remarkable strain window ranging from bulk-like structures to massively strained regions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "362536548"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "408002857"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "DESY"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "VO2 on RuO2(110)",
+      "sample_description": "VO2 thin films grown on (110)-oriented RuO2 islands on Ru(0001).",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "VO2 on RuO2(100)",
+      "sample_description": "VO2 thin films grown on (100)-oriented RuO2 islands on Ru(0001).",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "VO2 on TiO2(110)",
+      "sample_description": "VO2 thin films grown on TiO2(110) substrates.",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS-PEEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Local x-ray absorption spectra of the V L edge to determine vanadium oxidation state.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPEEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Local x-ray photoelectron spectra to confirm vanadium oxidation state.",
+      "measurement_technique": "x-ray photoelectron spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "µLEED",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Local surface diffraction to investigate the structure of VO2 films on different templates.",
+      "measurement_technique": "low energy electron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "X-ray reflectivity measurements to determine film thickness and roughness.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

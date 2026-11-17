@@ -1,0 +1,469 @@
+{
+  "bibliographic": {
+    "title": "Examining the Spin Structure of Altermagnetic Candidate MnTe Grown with Near Ideal Stoichiometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Two Dimensional Crystal Consortium Materials Innovation Platform, The Pennsylvania State University, University Park, Pennsylvania 16802, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "NIST Center for Neutron Research, NCNR, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, The Pennsylvania State University, University Park, Pennsylvania 16802, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, University of Maryland, College Park, Maryland 20742, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Materials Science and Engineering, University of Maryland, College Park, Maryland 20742, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "University of Missouri Research Reactor (MURR), University of Missouri, Columbia, Missouri 65211, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Materials Science and Engineering, University of Delaware, 201 Dupont Hall, 127 The Green, Newark, Delaware 19716, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Materials Research Institute, The Pennsylvania State University, University Park, Pennsylvania 16802 USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Materials Science and Engineering, The Pennsylvania State University, University Park, Pennsylvania 16802 USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Argonne National Lab, Chicago, Illinois 60439 USA"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Institute of Energy and the Environment, The Pennsylvania State University, University Park, Pennsylvania 16802 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Qihua Zhang",
+        "orcid": null,
+        "email": "qzz5173@psu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christopher J. Jensen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sandra Santhosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "William D. Ratcliff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Thomas W. Heitmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Narendirakumar Narayanan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Timothy R. Charlton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Mingyu Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Ke Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Wesley Auker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Nitin Samarth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_9",
+          "aff_10",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Stephanie Law",
+        "orcid": null,
+        "email": "sal6149@psu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_9",
+          "aff_10",
+          "aff_12"
+        ]
+      }
+    ],
+    "abstract": "Altermagnets are a recently-discovered class of materials with magnetic ordering that have a zero net magnetization and a momentum-dependent spin splitting in their band structure, arising from a collinear spin arrangement with alternating polarizations in the crystal lattice. The nickeline-structured manganese telluride (α-MnTe) is an attractive altermagnet candidate due to its predicted large spin splitting energy and a transition temperature near 300K. In this work, we present a thorough investigation of the spin structure of α-MnTe thin films grown by molecular beam epitaxy with very high crystal quality and low residual magnetization. The epitaxial α-MnTe films have a full-width-at-half-maximum of 0.1° as measured by x-ray-diffraction rocking curves and a root-mean-square roughness below 1 nm. Neutron diffraction measurements confirm the antiferromagnetic order in the α-MnTe film and show a Néel temperature of 307 K. Polarized neutron reflectometry detects a vanishingly small net magnetization which may be confined to the MnTe/InP interface, highlighting the near-ideal stoichiometry in the sample. In vacuo angle resolved photoemission spectroscopy reveals that the bulk band spectrum of the MnTe films is consistent with the weak altermagnetic order as theoretically predicted and observed for the high symmetry nodal plane in the center of the Brillouin zone. This study establishes optimized growth conditions for the synthesis of stoichiometric α-MnTe thin films which exhibit exceptional structural and magnetic ordering, thereby providing a robust platform for the precise characterization of their altermagnetic properties.",
+    "keywords": [
+      "chalcogenide",
+      "molecular beam epitaxy",
+      "thin film",
+      "altermagnet"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "https://data.2dccmip.org/8LP0hbN3XhSJ",
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-2039351"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Procedures",
+      "3. Results and Discussion",
+      "4. Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "University of Missouri Research Reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sample A",
+      "sample_description": "Grown with a temperature of 200 °C.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sample B",
+      "sample_description": "Grown with a temperature of 250 °C.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Sample C",
+      "sample_description": "Grown with a temperature of 300 °C.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Sample D",
+      "sample_description": "Grown with a temperature of 340 °C and Te/Mn FR of 3.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Sample E",
+      "sample_description": "Grown with a temperature of 400 °C.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Sample F",
+      "sample_description": "Grown with a temperature of 500 °C.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Sample G",
+      "sample_description": "Grown with a Te/Mn FR of 1.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Sample H",
+      "sample_description": "Grown with a Te/Mn FR of 2.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "Sample J",
+      "sample_description": "Grown with a Te/Mn FR of 4.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "35 nm MnTe film",
+      "sample_description": "Grown with conditions identical to Sample D.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "100 nm MnTe film",
+      "sample_description": "Grown with conditions identical to Sample D.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ARPES",
+      "sample_refs": [
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Probing the band structure of a 35 nm thick MnTe film at 298 K and 77 K.",
+      "measurement_technique": "angle resolved photoemission spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High resolution XRD measurements including 2θ-ω and ω-scans of MnTe reflections.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Examination of surface morphology of MnTe films.",
+      "measurement_technique": "atomic force microscope",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "STEM",
+      "sample_refs": [
+        "sample_11"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cross-sectional microstructures and EDS elemental maps of the films.",
+      "measurement_technique": "scanning transmission electron microscope",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "High Angle Neutron Diffraction",
+      "sample_refs": [
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Elastic neutron scattering measurements to determine the Néel temperature.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_10"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarized neutron reflectometry measurements at 20 K and 100 K in a 1 T field.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

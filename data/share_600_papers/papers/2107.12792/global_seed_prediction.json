@@ -1,0 +1,237 @@
+{
+  "bibliographic": {
+    "title": "Pore structure and electrochemical properties of CNTbased electrodes studied by in situ small/wide angle X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "IMDEA Materials Institute, Eric Kandel 2, Madrid 28906, Spain."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "E. T. S. de Ingenieros de Caminos, Universidad PolitÃl’cnica de Madrid, 28040 Madrid, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "IMDEA Energy Institute, Avda. Ramón de la Sagra 3, Madrid 28935, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Cleis Santos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Evgeny Senokos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Juan Carlos Fernández-Toribio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Álvaro Ridruejo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Rebeca Marcilla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Juan José Vilatela",
+        "orcid": null,
+        "email": "juanjose.vilatela@imdea.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Macroscopic ensembles of nanocarbons, such as fibres of carbon nanotubes (CNT), are characterised by a complex hierarchical structure combining coherent crystalline regions with a large porosity arising from imperfect packing of the large rigid building blocks. Such structure is at the centre of a wide range of charge storage and transfer processes when CNT fibres are used as electrodes and/or current collectors. This work introduces a method based on wide and smallangle X-ray scattering (WAXS/SAXS) to obtain structural descriptors of CNT fibres and which enables in situ characterisation during electrochemical processes. It enables accurate determination of parameters such as specific surface area, average pore size and average bundle size from SAXS data after correction for scattering from density fluctuations arising from imperfect packing of graphitic planes. In situ and ex situ WAXS/SAXS measurements during electrochemical swelling of CNT fibre electrodes in ionic liquid provide continuous monitoring of the increase in effective surface area caused by electrostatic separation of CNT bundles in remarkable agreement with capacitance changes measured independently. Relative contributions from quantum and Helmholtz capacitance to total capacitance remaining fairly constant. The WAXS/SAXS analysis is demonstrated for fibres of either multi- and single-walled CNTs, and is expected to be generally applicable to operando studies on nanocarbon-based electrodes used in batteries, actuators and other applications.",
+    "keywords": [],
+    "doi": "10.1039/b000000x/",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Results and Discussion",
+      "2 Experimental",
+      "3 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA synchrotron facilities"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MWCNTs fibre",
+      "sample_description": "Multi-walled CNTs with few layers (2-5 walls) and 2-6 nm diameter.",
+      "chemical_composition": null,
+      "sample_state": "thin non-woven fabric",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SWCNTs fibre",
+      "sample_description": "Single-walled CNTs of diameter around 1.5 nm.",
+      "chemical_composition": null,
+      "sample_state": "fibre",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "swollen MWCNTs",
+      "sample_description": "MWCNTs fibre electrodes after electrochemical swelling in ionic liquid.",
+      "chemical_composition": null,
+      "sample_state": "fibre",
+      "sample_mass": "2.5 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "WAXS/SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Simultaneous 2D WAXS/SAXS patterns to determine structural parameters of pristine CNT yarns.",
+      "measurement_technique": "WAXS/SAXS",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in situ WAXS/SAXS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Monitoring of electrochemical swelling of MWCNTs fibres in ionic liquid.",
+      "measurement_technique": "WAXS/SAXS",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ex situ WAXS/SAXS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of swollen MWCNTs fibres after cleaning and drying.",
+      "measurement_technique": "WAXS/SAXS",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Nitrogen adsorption",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Gas-adsorption textural measurements at 77K to determine specific surface area.",
+      "measurement_technique": "Nitrogen adsorption",
+      "measurement_mode": [],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Electrochemical Impedance Spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EIS measurements to determine real part of capacitance and equivalent series resistance.",
+      "measurement_technique": "electrochemical impedance spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Cyclic Voltammetry",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "CV measurements in PYR14 TFSI electrolyte to obtain specific capacitance.",
+      "measurement_technique": "cyclic voltammetry",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "bibliographic": {
+    "title": "Microscale stress-geometry interactions in an additively manufactured NiTi cardiovascular stent: A synchrotron dual imaging tomography and diffraction study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Materials Science & Metallurgy, University of Cambridge, 27 Charles Babbage Road, Cambridge, CB3 0FS, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "School of Metallurgy and Materials, University of Birmingham, Edgbaston, Birmingham, B15 2TT, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Materials, University of Oxford, Parks Road, Oxford, OX1 3PH, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Biomedical Engineering, University of Basel, Petersplatz 1, 4001 Basel, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Diamond Light Source Ltd., Harwell Science and Innovation Campus, Didcot, OX11 0DE, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Himanshu Vashishtha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Parastoo Jamshidi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anastasia Vrettou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anna Kareer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Michael Goode",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hans Deyhle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Andrew James",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sharif Ahmad",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Christina Reinhard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Moataz M. Attallah",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "David M. Collins",
+        "orcid": null,
+        "email": "dmc51@cam.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "This study explores cardiovascular stents fabricated using laser powder bed fusion (LPBF); an emerging method to offer patientspecific customisable parts. Here, the shape memory alloy NiTi, in a near equiatomic composition, was investigated to deconvolve the material response from macroscopic component effects. Specifically, stress-geometry interactions were revealed, in-situ, for a minaturised cardiovascular stent subjected to an externally applied cylindrical stress whilst acquiring synchrotron X-ray imaging and diffraction data. The approach enabled the collection of spatially resolved micromechanical deformation data; the formation of stress-induced martensite and R-phase was evident, occurring in locations near junctions between stent ligaments where stress concentrations exist. In the as-fabricated condition, hardness maps were obtained through nanoindentation, demonstrating that the localised deformation and deformation patterning is further controlled by porosity and microstructural heterogeneity. Electron backscatter diffraction (EBSD) supported these observations, showing a finer grain structure near stent junctions with higher associated lattice curvature. These features, combined with stress concentrations when loaded will initiate localised phase transformations. If the stent was subjected to repeated loading, representing in-vivo conditions, these regions would be susceptible to cyclic damage through transformation memory loss, leading to premature component failure. This study highlights the challenges that must be addressed for the post-processing treatment of LABF-processed stents for healthcare-related applications.",
+    "keywords": [
+      "Laser powder bed fusion",
+      "Customised stents",
+      "Stress-geometry interactions",
+      "Dual imaging and diffraction",
+      "Stress-induced martensite"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Leverhulme Trust",
+        "grant_id": "RPG-2021-244"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/R00160X/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Method",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "miniaturised cardiovascular stent",
+      "sample_description": "Zigzag-shaped stents additively manufactured using the LPBF method.",
+      "chemical_composition": "NiTi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray computed tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Volumetric rendering to visualize the stent in initial, deformed and unloaded states.",
+      "measurement_technique": "X-ray computed tomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Spatially resolved diffraction data acquired in as-fabricated, loaded, and unloaded states to measure lattice strains and phase proportions.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "nanoindentation",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Hardness mapping performed on the as-fabricated condition of the stent.",
+      "measurement_technique": "nanoindentation",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "electron backscatter diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EBSD scans acquired at two magnifications to assess crystallographic and microstructure characteristics.",
+      "measurement_technique": "electron backscatter diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "differential scanning calorimetry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DSC test to record transformation temperatures of the stent.",
+      "measurement_technique": "differential scanning calorimetry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

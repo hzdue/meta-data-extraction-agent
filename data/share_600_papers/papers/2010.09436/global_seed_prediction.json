@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "The anisotropy in the optical constants of quartz crystals for soft X-rays",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physikalisch-Technische Bundesanstalt (PTB), Abbestr. 2-12, 10587 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Institute of Standards and Technology (NIST), Gaithersburg, Maryland, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ASML Netherlands B.V. (ASML), Netherlands"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Andrle",
+        "orcid": null,
+        "email": "anna.andrle@ptb.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "P. H¨onicke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. Vinson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Quintanilha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Q. Saadeh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Heidenreich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "F. Scholze",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "V. Soltwisch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The refractive index of a y-cut SiO2 crystal surface is reconstructed from polarization dependent soft X-ray reflectometry measurements in the energy range from 45 eV to 620 eV. Due to the anisotropy of the crystal structure in the (100) and (001) directions, we observe a significant deviation of the measured reflectance at the Si-L2 _,_ 3 and O-K absorption edges. The anisotropy in the optical constants reconstructed from these data is also confirmed by ab initio Bethe-Salpeter Equation calculations of the O-K edge. This new experimental dataset expands the existing literature data for quartz optical constants significantly, particularly in the near-edge regions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Electronic Component Systems for European Leadership Joint Undertaking",
+        "grant_id": "783247 – TAPES3"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RECONSTRUCTION OF THE OPTICAL CONSTANTS FROM REFLECTIVITY MEASUREMENTS",
+      "IV. THEORETICAL MODELING OF THE O-K ABSORPTION EDGE OF QUARTZ",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "quartz (type II) surface (y-cut)",
+      "sample_description": null,
+      "chemical_composition": "SiO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "soft X-ray reflectometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarization dependent specular reflection measurements in the energy range from 45 eV to 620 eV for (001) and (100) crystal directions.",
+      "measurement_technique": "soft X-ray reflectometry",
+      "measurement_mode": [
+        "EnergyScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

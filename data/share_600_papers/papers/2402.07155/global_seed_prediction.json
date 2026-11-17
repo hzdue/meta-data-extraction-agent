@@ -1,0 +1,251 @@
+{
+  "bibliographic": {
+    "title": "Grain boundary strain localization in CdTe solar cell revealed by Scanning 3D X-ray diffraction microscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Technical University of Denmark, Fysikvej Building 310, Lyngby, Denmark"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "European Synchrotron Radiation Facility, 71 Av. des Martyrs, Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Lund University, Ole Römers väg 1, Lund, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Helmholtz-Zentrum Hereon, Max-PlanckStraße 1, 21502 Geesthacht, Germany, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "National Renewable Energy Laboratory, Golden, CO 80401, United States of America"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestraße 85, Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Shukla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. Wright",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Henningsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "H. Stieglitz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "E. Colegrove",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "L. Besley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "C. Baur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S De Angelis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "M. Stuckelberger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "H.F. Poulsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "J.W. Andreasen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Cadmium Telluride (CdTe) solar cell technology is a promising candidate to help boost green energy production. However, impurities and structural defects are major barriers to improving the solar power conversion efficiency. Grain boundaries often act as aggregation sites for impurities, resulting in strain localization in areas of high diffusion. In this study, we demonstrate the use of scanning 3D X-ray diffraction microscopy to non-destructively make 3D maps of the grains – their phase, orientation, and local strain – within a CdTe solar cell absorber layer with a resolution of 100 nm. We quantify twin boundaries and suggest how they affect grain size and orientation distribution. Local strain analysis reveals that strain is primarily associated with high misorientation grain boundaries, whereas twin boundaries do not show high strain values. We also observe that high-strain grain boundaries form a continuous pathway connected to the CdS layer. Hence, this high-strain region is believed to be associated with the diffusion of sulfur from the CdS layer along grain boundaries. This hypothesis is supported by SEM-EDS and X-ray fluorescence experiments. The method and analysis demonstrated in this work can be applied to different polycrystalline materials where the characterization of grain boundary properties is essential to understand the microstructural phenomena.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy Office of Energy Efficiency and Renewable Energy Solar Energy Technologies Office",
+        "grant_id": "DE-AC36-08GO28308"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "2. Results",
+      "2.1 Statistics of grain sizes, orientations, and lattice parameters",
+      "2.2 Grain shapes and grain positions",
+      "2.3 Distribution of twin domains",
+      "2.4 Correlations between strain and grain boundaries.",
+      "3. Discussion",
+      "Outlook",
+      "Conclusions",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CdTe solar cell absorber layer",
+      "sample_description": "Cylindrical pillar-shaped sample extracted using Focused Ion Beam from a full solar-cell stack.",
+      "chemical_composition": "CdTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Scanning 3DXRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D maps of grains, their phase, orientation, and local strain within a CdTe solar cell absorber layer.",
+      "measurement_technique": "Scanning 3D X-ray diffraction microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SEM-EDS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Analysis of sulfur presence in the bulk of the CdTe layer.",
+      "measurement_technique": "Energy-Dispersive X-ray Spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray fluorescence",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Simultaneous measurement of Te/Cd ratio in the bulk towards the CdS interface.",
+      "measurement_technique": "X-ray fluorescence",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

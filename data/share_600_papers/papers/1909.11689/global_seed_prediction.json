@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "The Role of Specific Ion Effects in Ion Transport: The Case of Nitrate and Thiocyanate",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Chemical Sciences and Engineering Division, Argonne National Laboratory, Argonne Illinois 60439, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "NSF’s ChemMatCARS, The University of Chicago, Chicago Illinois 60637, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kaitlin Lovering",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Srikanth Nayak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Wei Bu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ahmet Uysal",
+        "orcid": null,
+        "email": "ahmet@anl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The selective transport of trivalent rare earth metals from aqueous to organic environments with the help of amphiphilic “extractants” is an industrially important process. When the amphiphilic extractant is positively charged or neutral, the coextracted background anions are not only necessary for charge balance but also have a large impact on extraction efficiency and selectivity. In particular, the opposite selectivity trends observed throughout the lanthanide series in the presence of nitrate and thiocyanate ions have not been explained. To understand the role of background anions in the phase transfer of lanthanide cations, we use a positively charged longchain aliphatic molecule, modeling a common extractant, and gain molecular level insight into interfacial headgroup-anion interactions. By combining surface sensitive sum frequency generation spectroscopy with X-ray reflectivity and grazing incidence X-ray diffraction, we observed qualitative differences in the orientational and overall interfacial structure of nitrate and thiocyanate solutions at a positively charged Langmuir monolayer. Though nitrate adsorbs without dramatic changes to the solvation structure at the interface or the monolayer ordering, thiocyanate significantly alters the water structure and reduces monolayer ordering. We suggest that these qualitatively different adsorption trends help explain a reversal in system selectivity toward lighter or heavier lanthanides in solvent extraction systems in the presence of nitrate or thiocyanate anions.",
+    "keywords": [],
+    "doi": "10.1021/acs.jpcc.9b09288",
+    "arxiv_id": null,
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.9b09288",
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Science, Division of Chemical Sciences, Geosciences, and Biosciences",
+        "grant_id": "DE-AC0206CH11357"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF/CHE-1834750"
+      },
+      {
+        "funder": "U.S. DOE",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL METHODS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "DPTAP+ / NaNO3",
+      "sample_description": "DPTAP+ Langmuir monolayer in contact with sodium nitrate solutions.",
+      "chemical_composition": "NaNO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DPTAP+ / NaSCN",
+      "sample_description": "DPTAP+ Langmuir monolayer in contact with sodium thiocyanate solutions.",
+      "chemical_composition": "NaSCN",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "VSFG",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Vibrational sum frequency generation spectroscopy probing the interfacial water and CN stretch.",
+      "measurement_technique": "vibrational sum frequency generation spectroscopy",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray reflectivity measurements to determine electron density profiles at the air/aqueous interface.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GID",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence X-ray diffraction to probe in-plane ordering of extractants.",
+      "measurement_technique": "grazing incidence X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

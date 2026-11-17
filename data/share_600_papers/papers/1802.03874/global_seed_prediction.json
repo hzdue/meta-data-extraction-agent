@@ -1,0 +1,274 @@
+{
+  "bibliographic": {
+    "title": "Canted ferrimagnetism and giant coercivity in the non-stoichiometric double perovskite La2Ni1.19Os0.81O6",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Max Planck Institute for Chemical Physics of Solids, Dresden, D-01187, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Helmholtz-Zentrum Berlin für Materialien und Energie, Berlin, D-14109, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "National Synchrotron Radiation Research Center (NSRRC), Hsinchu, 30076, Taiwan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hai L. Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Manfred Reehuis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Peter Adler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Zhiwei Hu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Michael Nicklas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Andreas Hoser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Shih-Chang Weng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Claudia Felser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Martin Jansen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The non-stoichiometric double perovskite oxide La2Ni1.19Os0.81O6 was synthesized by solid state reaction and its crystal and magnetic structures were investigated by powder x -ray and neutron diffraction. La2Ni1.19Os0.81O6 crystallizes in the monoclinic double perovskite structure (general formula A 2 BB ’O6) with space group P 21/ n , where the B site is fully occupied by Ni and the B ’ site by 19 % Ni and 81 % Os atoms. Using x -ray absorption spectroscopy an Os4.5+ oxidation state was established, suggesting presence of about 50 % paramagnetic Os5+ (5 d3 , S = 3/2) and 50 % non-magnetic Os4+ (5 d4 , J eff = 0) ions at the B ’ sites. Magnetization and neutron diffraction measurements on La2Ni1.19Os0.81O6 provide evidence for a ferrimagnetic transition at 125 K. The analysis of the neutron data suggests a canted ferrimagnetic spin structure with collinear Ni2+ spin chains extending along the c axis but a non-collinear spin alignment within the ab plane. The magnetization curve of La2Ni1.19Os0.81O6 features a hysteresis with a very high coercive field, HC = 41 kOe, at T = 5 K, which is explained in terms of large magnetocrystalline anisotropy due to the presence of Os ions together with atomic disorder. Our results are encouraging to search for rare earth free hard magnets in the class of double perovskite oxides.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "SFB 1143"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Radiation Research Center"
+    },
+    {
+      "id": "facility_2",
+      "name": "BER II reactor of the Helmholtz-Zentrum Berlin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2Ni1.19Os0.81O6",
+      "sample_description": "Non-stoichiometric double perovskite oxide synthesized by solid state reaction.",
+      "chemical_composition": "La2Ni1.19Os0.81O6",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sr2FeOsO6",
+      "sample_description": "Os5+ reference.",
+      "chemical_composition": "Sr2FeOsO6",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "La2MgOsO6",
+      "sample_description": "Os4+ reference.",
+      "chemical_composition": "La2MgOsO6",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Characterization of the crystal structure of La2Ni1.19Os0.81O6 at 295 K.",
+      "measurement_technique": "powder x-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Os-L3 XAS spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of Os-L3 XAS spectra in transmission geometry to explore the valence state of Os.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Investigation of crystal and magnetic structures at various temperatures (1.7 K to 160 K).",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "electrical resistivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of electrical resistivity using a four-point in-line arrangement.",
+      "measurement_technique": "electrical resistivity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "magnetic susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of magnetic susceptibility measured in a SQUID magnetometer.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "isothermal magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Isothermal magnetization curves measured at 5 K and 150 K.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

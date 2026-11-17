@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "Ballistic Deposition of Nanoclusters",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington VT 05405"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jeffrey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yang Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": "rheadrick@uvm.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Nanoporous thin-films are an important class of materials, offering a way to observe fundamental surface and bulk processes with particles larger than individual atoms, but small enough to interact significantly with each other through mechanisms such as stress and surface mobility. In-Situ X-ray Reflectivity and Grazing Incidence Small Angle X-Ray Scattering (GISAXS) were used to monitor thin-films grown from Tungsten Disilicide (WSi2) and Copper (Cu) nanoclusters. The nanoclusters ranged in size from 2 nm to 6 nm diameter and were made by high-pressure magnetron sputtering via plasma-gas condensation. X-Ray Reflectivity (XRR) measurements of the film at various stages of growth reveal that the resulting films exhibit very low density, approaching 15% of bulk density. This is consistent with a simple off-lattice ballistic deposition model where particles stick at the point of first contact without further restructuring. Furthermore, there is little merging or sintering of the clusters in these films.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-08-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "WSi2 - I",
+      "sample_description": null,
+      "chemical_composition": "WSi2",
+      "sample_state": "nanoclusters",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "WSi2 - II",
+      "sample_description": null,
+      "chemical_composition": "WSi2",
+      "sample_state": "nanoclusters",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "WSi2 - III",
+      "sample_description": null,
+      "chemical_composition": "WSi2",
+      "sample_state": "nanoclusters",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Copper",
+      "sample_description": null,
+      "chemical_composition": "Copper",
+      "sample_state": "nanoclusters",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "mass spectrometer",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the mass distribution of the cluster processes.",
+      "measurement_technique": "mass spectrometer",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time measurements of the deposition process to determine cluster diameter.",
+      "measurement_technique": "Grazing Incidence Small Angle X-Ray Scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of the film at various stages of growth to reveal density and structure.",
+      "measurement_technique": "X-Ray Reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

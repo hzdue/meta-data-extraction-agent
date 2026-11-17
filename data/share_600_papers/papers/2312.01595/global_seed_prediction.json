@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Negative Magnetization and Magnetic Ordering of Rare Earth and Transition Metal Sublattices in NdFe0.5Cr0.5O3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Physics, University of Calcutta, 92 A.P.C. Road, Kolkata: 700009, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "CRNN, University of Calcutta, Sector III, Salt Lake, Kolkata: 700106, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "UGC DAE Consortium for Scientific Research, Kolkata Centre, LB-8, Salt Lake, Kolkata: 700098, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "School of Advanced Materials and Chemistry and Physics of Materials Unit, Jawaharlal Nehru Centre Advanced Scientific Research, Bengaluru: 560064, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "ISIS Pulsed Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxon, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "S N Bose National Centre for Basic Sciences, JD Block, Salt Lake, Kolkata: 700106, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. Kanthal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Banerjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Chatterjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "P. Yanda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Sundaresan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. D. Khalyavin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "F. Orlandi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "T. Saha-Dasgupta",
+        "orcid": null,
+        "email": "tanusri@bose.res.in",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "S. Bandyopadhyay",
+        "orcid": null,
+        "email": "sbaphy@caluniv.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We investigate the effect of alloying at the 3 d transition metal site of a rare-earth-transition metal\noxide, by considering NdFe0.5Cr0.5O3 alloy with two equal and random distribution of 3 d ions, Cr\nand Fe, interacting with an early 4 f rare earth ion, Nd. Employing temperature- and fielddependent magnetization measurements, temperature-dependent x-ray diffraction, neutron powder diffraction, and Raman spectroscopy, we characterize its structural and magnetic properties. Our study reveals bipolar magnetic switching (arising from negative magnetization) and magnetocaloric effect which underline the potential of the studied alloy in device application. The neutron diffraction study shows the absence of spin reorientation transition over the entire temperature range of 1.5-320 K, although both parent compounds exhibit spin orientation transition. We discuss the microscopic origin of this curious behavior. The neutron diffraction results also reveal the ordering of Nd spins at an unusually high temperature of about 40 K, which is corroborated by Raman measurements.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UGC DAE CSR",
+        "grant_id": "CRS-M-292"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Experimental Details",
+      "III. Results and Discussions",
+      "IV. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Raja Ramanna Centre for Advanced Technology"
+    },
+    {
+      "id": "facility_2",
+      "name": "WISH high resolution cold diffractometer"
+    },
+    {
+      "id": "facility_3",
+      "name": "Rutherford Appleton Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NdFe0.5Cr0.5O3",
+      "sample_description": "Bulk polycrystalline powder prepared by solid-state reaction method.",
+      "chemical_composition": "NdFe0.5Cr0.5O3",
+      "sample_state": "polycrystalline powder",
+      "sample_mass": "2.68 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent XRPD data collected on a surface detector.",
+      "measurement_technique": "x-ray powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "NPD measurements carried out over a wide temperature range of 1.5 to 320 K.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "DC magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature and magnetic field dependent DC magnetization data collected using SQUID VSM.",
+      "measurement_technique": "DC magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent Raman spectroscopic data collected in reflection geometry from 10 to 300 K.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

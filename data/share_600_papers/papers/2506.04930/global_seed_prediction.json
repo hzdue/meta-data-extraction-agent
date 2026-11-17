@@ -1,0 +1,246 @@
+{
+  "bibliographic": {
+    "title": "Identification of the high-pressure phases of α-SnWO4",
+    "subtitle": "combining x-ray diffraction and crystal structure prediction",
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Departamento de Física Aplicada-ICMUV, MALTA Consolider Team, Universidad de Valencia, Dr. Moliner 50, Burjassot, 46100 Valencia, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Geosciences Barcelona (GEO3BCN-CSIC), MALTA Consolider Team, Barcelona 08028, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Solid State Physics, University of Latvia, Kengaraga street 8, Riga LV-1063, Latvia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Liberal Arts and Sciences, North China Institute of Aerospace Engineering, Langfang 065000, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Departamento de Física, MALTA-Consolider Team, Universidad de La Laguna, San Cristóbal de La Laguna, E-38200 Tenerife, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Elettra Sincrotrone Trieste, Trieste 34149, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Daniel Diaz-Anichtchenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jordi Ibáñez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Pablo Botella",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Robert Oliva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexei Kuzmin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Li Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yuwei Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Alfonso Muñoz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Frederico Alabarse",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Daniel Errandonea",
+        "orcid": null,
+        "email": "daniel.errandonea@uv.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We have characterized the high-pressure behavior of α-SnWO4. The compound has been studied up to 30 GPa using a diamond-anvil cell and synchrotron powder X-ray diffraction. We report evidence of two structural phase transitions in the pressure range covered in our study, and we propose a crystal structure for the two high-pressure phases. The first one, observed around 12.9 GPa, has been obtained combining indexation using DICVOL and density-functional theory calculations. The second high-pressure phase, observed around 17.5 GPa, has been determined by using the CALYPSO code, the prediction of which was supported by a Le Bail fit to the experimental X-ray diffraction patterns. The proposed structural sequence involves two successive collapses of the unit-cell volume and an increase in the coordination number of Sn and W atoms. The room-temperature equations of state, the principal axes of compression and their compressibility, the elastic constants, and the elastic moduli are reported for α-SnWO4 and for the two high-pressure phases.",
+    "keywords": [
+      "high-pressure",
+      "crystal structure",
+      "phase transition",
+      "X-ray diffraction",
+      "density-functional theory"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish Research Agency",
+        "grant_id": "PID2022-138076NBC41/C44"
+      },
+      {
+        "funder": "Spanish Research Agency",
+        "grant_id": "RED2022-134388-T"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Investigation",
+        "grant_id": "PID2022-138076NBC41/C44"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Investigation",
+        "grant_id": "RED2022-134388-T"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "PROMETEO CIPROM/2021/075-GREENMAT"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "MFA/2022/007"
+      },
+      {
+        "funder": "Foundation of Hebei Educational Committee in China",
+        "grant_id": "BJK2023066"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Methodology",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Elettra synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-SnWO4",
+      "sample_description": null,
+      "chemical_composition": "SnWO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Laboratory powder XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Laboratory powder XRD measurements performed with Cu Kα1 radiation to verify the α-SnWO4 phase.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "high-pressure powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Angle-resolved high-pressure powder X-ray diffraction measurements conducted up to 30 GPa using a diamond-anvil cell.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "bibliographic": {
+    "title": "Efficient Soft-Chemical Synthesis of Large van-derWaals Crystals of the Room-Temperature Ferromagnet 1T-CrTe2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Quantum Matter Physics, University of Geneva, 24 Quai ErnestAnsermet, CH-1211 Geneva, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Research Institute for Interdisciplinary Science, Okayama University, Okayama 7008530, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kai D. Röseler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Catherine Witteveen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Céline Besnard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vladimir Pomjakushin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Harald O. Jeschke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fabian O. von Rohr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We herein report on a fast and convenient soft-chemical synthesis approach towards large 1T-CrTe2 van-der-Waals crystals. This compound is formed X-ray diffraction pure, with a complete conversion within just over 2 h from flux-grown LiCrTe2 crystals using diluted acids. Due to the availability of high-quality single crystals, we have confirmed the crystal structure for the first time by single-crystal X-ray diffraction experiments. For the acid deintercalated 1T-CrTe2 crystals, we find long-range ferromagnetic order with a Curie temperature of T C = 318 K. We further revealed the magnetic structure of 1T-CrTe2 using low-temperature neutron powder diffraction experiments and determine the magnetic Hamiltonian using density functional theory. X-ray diffraction experiments of postannealed crystals suggest a thermal stability of 1T-CrTe2 up to at least 100 °C. Our findings expand the synthesis methods for 1T-CrTe2 crystals, which hold promise for integrated room-temperature spintronics applications.",
+    "keywords": [],
+    "doi": "00.0000/00000000",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Journal Name",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "PCEFP2_194183"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental",
+      "3 Results and Discussion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LiCrTe2",
+      "sample_description": "Flux-grown crystals used as starting material.",
+      "chemical_composition": "LiCrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1T-CrTe2 (H2SO4)",
+      "sample_description": "Crystals synthesized by deintercalation of LiCrTe2 in 1M H2SO4.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "1T-CrTe2 (HCl)",
+      "sample_description": "Crystals synthesized by deintercalation of LiCrTe2 in 2M HCl.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "1T-CrTe2 (HNO3)",
+      "sample_description": "Crystals synthesized by deintercalation of LiCrTe2 in 2M HNO3.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "1T-CrTe2 (MiliQ water)",
+      "sample_description": "Crystals synthesized by deintercalation of LiCrTe2 in MiliQ water.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "1T-CrTe2 (I2/acetonitrile)",
+      "sample_description": "Crystals synthesized by deintercalation of LiCrTe2 in 0.04 M I2 in acetonitrile.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "post-annealed 1T-CrTe2",
+      "sample_description": "1T-CrTe2 synthesized by deintercalation with 1M H2SO4 and annealed at various temperatures.",
+      "chemical_composition": "CrTe2",
+      "sample_state": "powder",
+      "sample_mass": "40 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Comparative PXRD patterns of 1T-CrTe2 synthesized via various deintercalation reactions.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Single X-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SXRD experiments performed under N2 cooling at 120 K to confirm the crystal structure.",
+      "measurement_technique": "single X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Scanning electron microscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron images of 1T-CrTe2 crystals.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Energy-dispersive X-ray spectroscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EDS measurements to study the stoichiometric ratio of Cr to Te.",
+      "measurement_technique": "energy-dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Magnetization experiments",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent and field-dependent magnetization measurements.",
+      "measurement_technique": "vibrating sample magnetometer",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Neutron powder diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction experiments at 1.6 K and 323 K to solve the magnetic structure.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Post-annealing PXRD",
+      "sample_refs": [
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "PXRD patterns of 1T-CrTe2 tempered at various temperatures to investigate thermal stability.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

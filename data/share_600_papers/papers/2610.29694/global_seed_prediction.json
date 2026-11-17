@@ -1,0 +1,285 @@
+{
+  "bibliographic": {
+    "title": "Effect of Annealing on Maze Domains in Topological Insulator - Magnetic Multilayer Heterostructures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics and Astronomy, University of Leeds, Leeds LS2 9JT, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Harwell Science and Innovation Campus, Chilton, Oxfordshire OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Diamond Light Source, Harwell Science and Innovation Campus, Chilton, Oxfordshire OX11 0DE, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Benjamin A. Brereton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Soumyarup Hait",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christy J. Kinane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Francesco Maccherozzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Ahmet Yagmur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Satoshi Sasaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Thomas A. Moore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sean Langridge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Christopher H. Marrows",
+        "orcid": null,
+        "email": "c.h.marrows@leeds.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Combining topological insulators with chiral magnetic multilayers offers the opportunity to greatly enhance the spin-orbit torque (SOT) driven manipulation of hosted spin textures, however this also exposes devices to the often poor temperature stability of the commonly used, Bi2X3-based (X is a chalcogenic element), topological insulator films. In this work we demonstrate through in-situ -annealing and polarised neutron reflectometry that the multilayer at a Bi2Se3 interface remains magnetically robust up to a temperature of 350◦ C: even as the Bi2Se3 epilayer structurally deteriorates. Through x-ray photoemission electron microscopy, an intermediate annealing temperature of ∼ 200◦ C was found to improve the domain ordering of the multilayer, allowing for field-induced skyrmion nucleation, all whilst sustaining minimal damage to the topological insulator.",
+    "keywords": [
+      "Topological Insulators",
+      "Magnetic Multilayers",
+      "Polarised Neutron Reflectometry",
+      "Photoemission Electron Microscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC Programme Grant ‘CAMIE’",
+        "grant_id": "EP/X027074/1"
+      },
+      {
+        "funder": "NAME",
+        "grant_id": "EP/V001914/1"
+      },
+      {
+        "funder": "Henry Royce Institute",
+        "grant_id": "EP/P022464/1"
+      },
+      {
+        "funder": "Henry Royce Institute",
+        "grant_id": "EP/R00661X/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Method",
+      "3 Results",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Bi2Se3(20)/Ta(1.5)/[Pt(0.8)/CoB(0.6)/Ru(0.5)] x 6/Ru(0.5)",
+      "sample_description": "Stack with perpendicular magnetic anisotropy (PMA) grown on a sapphire substrate.",
+      "chemical_composition": "Bi2Se3(20)/Ta(1.5)/[Pt(0.8)/CoB(0.6)/Ru(0.5)] x 6/Ru(0.5)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID-VSM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements to determine changes in magnetic properties after annealing to 350°C.",
+      "measurement_technique": "superconducting quantum interference device vibrating sample magnetometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectometry curves taken after annealing at different temperatures.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction measurements to observe Bi2Se3 crystallinity and Se loss.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Atomic force microscopy images of samples before and after 350°C annealing.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ polarised neutron reflectometry data taken after each anneal cycle up to 350°C.",
+      "measurement_technique": "polarised neutron reflectometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "X-PEEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "X-ray photoemission electron microscopy with XMCD contrast at the Co L3 absorption edge.",
+      "measurement_technique": "x-ray photoemission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "MOKE",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Polar magneto-optical Kerr effect magnetometry under an out-of-plane applied field.",
+      "measurement_technique": "polar magneto-optical Kerr effect magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

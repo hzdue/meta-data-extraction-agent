@@ -1,0 +1,305 @@
+{
+  "bibliographic": {
+    "title": "Observation by SANS and PNR of pure N´eel-type domain wall profiles and skyrmion suppression below room temperature in magnetic [Pt/CoFeB/Ru]10 multilayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), Paul Scherrer Institute (PSI), CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, D-12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Unit´e Mixte de Physique, CNRS, Thales, Universit´e Paris-Saclay, 91767 Palaiseau, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Department of Physics, Uppsala University, Uppsala SE-751 20, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Victor Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Fernando Ajejas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anton Devishvili",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Alexei Vorobiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Nina-Juliane Steinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Robert Cubitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chen Luo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Radu-Marius Abrudan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Florin Radu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Vincent Cros",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Nicolas Reyren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jonathan S. White",
+        "orcid": null,
+        "email": "jonathan.white@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report investigations of the magnetic textures in periodic multilayers [Pt(1 nm)/(CoFeB(0.8 nm)/Ru(1.4 nm)]10 using polarised neutron reflectometry (PNR) and small-angle neutron scattering (SANS). The multilayers are known to host skyrmions stabilized by Dzyaloshinskii-Moriya interactions induced by broken inversion symmetry and spin-orbit coupling at the asymmetric interfaces. From depthdependent PNR measurements, we observe well-defined structural features, and obtain the layer-resolved magnetization profiles. The in-plane magnetization of the CoFeB layers calculated from fitting of the PNR profiles is found to be in excellent agreement with magnetometry data. Using SANS as a bulk probe of the entire multilayer, we observe long-period magnetic stripe domains and skyrmion ensembles with full orientational disorder at room temperature. No sign of skyrmions is found below 250 K, which we suggest is due to an increase of an effective magnetic anisotropy in the CoFeB layer on cooling that suppresses skyrmion stability. Using polarised SANS at room temperature, we prove the existence of pure N´eel-type windings in both stripe domain and skyrmion regimes. No Bloch-type winding admixture, i.e. an indication for hybrid windings, is detected within the measurement sensitivity, in good agreement with expectations according to our micromagnetic modelling of the multilayers. Our findings using neutron techniques offer valuable microscopic insights into the rich magnetic behavior of skyrmion-hosting multilayers, which are essential for the advancement of future skyrmion-based spintronic devices.",
+    "keywords": [
+      "Magnetic multilayers",
+      "skyrmions",
+      "small-angle neutron scattering",
+      "neutron reflectometry",
+      "N´eel-type domain walls"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-01-30",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021 188707"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "Sinergia CRSII5 171003 NanoSkyrmionics"
+      },
+      {
+        "funder": "German Federal Ministry for Education and Research",
+        "grant_id": "05K19W061"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "SPP2137/RA 3570"
+      },
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-22-EXSP-0002 PEPR SPIN CHIREX"
+      },
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR TOPO3D (ANR-22-CE92-0082)"
+      },
+      {
+        "funder": "DARPA TEE program",
+        "grant_id": "MIPRHR-0011831554"
+      },
+      {
+        "funder": "Comunidad de Madrid Atracci´on de Talento program",
+        "grant_id": "2022-T1/IND-23901"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and methods",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "BESSY-II synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[Pt(1 nm)/(CoFeB(0.8 nm)/Ru(1.4 nm)]10",
+      "sample_description": "Ta(5 nm)/Pt(7 nm)/[Pt(1 nm)/Co40Fe40B20(0.8 nm)/Ru(1.4 nm)]10/Pt(3 nm) multilayers synthesized by room-temperature magnetron sputtering on thermally oxidized Si substrates.",
+      "chemical_composition": "[Pt(1 nm)/(CoFeB(0.8 nm)/Ru(1.4 nm)]10",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarised neutron reflectometry measurements to obtain layer-resolved magnetization profiles at room temperature.",
+      "measurement_technique": "polarised neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "unpolarised SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Unpolarised small-angle neutron scattering measurements to investigate magnetic textures as a function of field and temperature.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "polarised SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS experiments with polarization analysis to discriminate between N´eel-type and Bloch-type windings.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Anomalous Hall effect",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Electric transport measurements of the anomalous Hall resistance as a function of temperature and magnetic field.",
+      "measurement_technique": "spinning-current anomalous Hall magnetometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

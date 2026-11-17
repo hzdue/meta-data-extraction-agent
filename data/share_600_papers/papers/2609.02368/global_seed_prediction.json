@@ -1,0 +1,379 @@
+{
+  "bibliographic": {
+    "title": "Magneto-Structural Coupling Enables Cryogenic Cation Redistribution in a Spinel Oxide",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Chemistry and Chemical Engineering, Hainan University, Haikou 570228, P. R. China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for Materials of the Universe, School of Molecular Sciences, Arizona State University, Tempe, AZ 85287, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Eyring Materials Center, Arizona State University, Tempe, Arizona 85287, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Ira A. Fulton School for the Engineering of Matter, Transport and Energy, Arizona State University, Tempe, AZ 85287, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, P. R. China."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Spallation Neutron Source Science Center, Dongguan 523803, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "School of Materials Science and Engineering & Key Laboratory of Advanced Materials and Devices for Post-Moore Chips, Ministry of Education, University of Science and Technology Beijing, Beijing 100083, P. R. China."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, P. R. China."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yifeng Han",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yixing Zhao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yunbo Ou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Feiran Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lunhua He",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Ligang Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mingxue Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jared Matteucci",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Zexiao Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Xiaoli Ma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Xiaohui Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Zheng Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Man-Rong Li",
+        "orcid": null,
+        "email": "limanrong@hainanu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Alexandra Navrotsky",
+        "orcid": null,
+        "email": "alexandra.navrotsky@asu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Ionic transport in oxides is generally frozen at cryogenic temperatures, where thermal energy lies far below typical cation-migration barriers. Neutron powder diffraction reveals progressive Fe/Mg redistribution between tetrahedral (A) and octahedral (B) sites in the spinel Mg0.5Fe0.5TiFeO4 upon cooling from 200 K to 5 K. A -site Fe occupancy increases toward near completion at 5 K within Rietveld resolution, while Ti remains on the B site. This exchange coincides with complex magnetic correlations rather than a classical thermally activated window. Low-temperature magnetostrictive volume changes indicate strong spin-lattice coupling, but do not identify magnetostriction as the sole thermodynamic driver. Room-temperature high-pressure X-ray diffraction produces the opposite occupancy trend, showing that volume contraction alone cannot explain the cryogenic site exchange. These results point to magneto-structural free-energy minimization as a plausible mechanism for unlocking cryogenic cation mobility in a correlated spinel oxide.",
+    "keywords": [
+      "cation redistribution",
+      "spinel oxide",
+      "neutron powder diffraction",
+      "spin-lattice coupling",
+      "high pressure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "22531001"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "22575071"
+      },
+      {
+        "funder": "First-class Discipline Breakthrough Initiative of Hainan University",
+        "grant_id": "XKTP2025C05"
+      },
+      {
+        "funder": "US National Science Foundation",
+        "grant_id": "DMR-2209026"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "RESULTS AND DISCUSSION",
+      "Crystal structure",
+      "Cryogenic cation redistribution",
+      "Magnetism and EPR",
+      "Thermochemistry",
+      "In situ high-pressure XRD",
+      "CONCLUSIONS",
+      "METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "China Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MgxFe1-xTi2xFe2-2xO4 x=0.3",
+      "sample_description": null,
+      "chemical_composition": "Mg0.3Fe0.7Ti0.6Fe1.4O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MgxFe1-xTi2xFe2-2xO4 x=0.5",
+      "sample_description": null,
+      "chemical_composition": "Mg0.5Fe0.5TiFeO4",
+      "sample_state": "powder",
+      "sample_mass": "6 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "MgxFe1-xTi2xFe2-2xO4 x=0.7",
+      "sample_description": null,
+      "chemical_composition": "Mg0.7Fe0.3Ti1.4Fe0.6O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "MgxFe1-xTi2xFe2-2xO4 x=1",
+      "sample_description": null,
+      "chemical_composition": "MgTi2O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "ZnAl2O4",
+      "sample_description": "non-magnetic normal spinel reference",
+      "chemical_composition": "ZnAl2O4",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Analysis of purity and cell parameters of the solid solutions.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "NPD",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Tracking cation redistribution between A and B sites upon cooling from 200 K to 5 K.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "M-T and M-H measurements to investigate ferromagnetic and antiferromagnetic ordering.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EPR",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Spectroscopy to confirm oxidation states and local magnetic environment from 22-293 K.",
+      "measurement_technique": "electron paramagnetic resonance",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Calorimetry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of enthalpy of formation using high-temperature oxide melt solution calorimetry.",
+      "measurement_technique": "calorimetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "in situ high-pressure XRD",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Structural evolution and cation migration under compression up to 14.7 GPa at room temperature.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

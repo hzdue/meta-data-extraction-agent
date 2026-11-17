@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Multiple Incommensurate Magnetic States in the Kagome Antiferromagnet Na2Mn3Cl8",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science and Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Joseph A. M. Paddison",
+        "orcid": null,
+        "email": "paddisonja@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Li Yin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Keith M. Taddei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Malcolm J. Cochran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Stuart A. Calder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "David S. Parker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Andrew F. May",
+        "orcid": null,
+        "email": "mayaf@ornl.gov",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The kagome lattice can host exotic magnetic phases arising from frustrated and competing magnetic interactions. However, relatively few insulating kagome materials exhibit incommensurate magnetic ordering. Here, we present a study of the magnetic structures and interactions of antiferromagnetic Na2Mn3Cl8 with an undistorted Mn2+ kagome network. Using neutron-diffraction and bulk magnetic measurements, we show that Na2Mn3Cl8 hosts two different incommensurate magnetic states, which develop at TN 1 = 1 . 6 K and TN 2 = 0 . 6 K. Magnetic Rietveld refinements indicate magnetic propagation vectors of the form q = ( qx, qy, 2/3),andour neutron-diffraction data can be well described by cycloidal magnetic structures. By optimizing exchange parameters against magnetic diffuse-scattering data, we show that the spin Hamiltonian contains ferromagnetic nearest-neighbor and antiferromagnetic third-neighbor Heisenberg interactions, with a significant contribution from long-ranged dipolar coupling. This experimentally-determined interaction model is compared with density-functional-theory simulations. Using classical Monte Carlo simulations, we show that these competing interactions explain the experimental observation of multiple incommensurate magnetic phases and may stabilize multi- q states. Our results expand the known range of magnetic behavior on the kagome lattice.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Basic Energy Sciences, Materials Sciences and Engineering Division",
+        "grant_id": null
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. THEORY AND MODELING",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "High Flux Isotope Reactor of Oak Ridge National Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Na2Mn3Cl8",
+      "sample_description": "Polycrystalline sample prepared by sealing a stoichiometric mixture MnCl2 and NaCl in SiO2.",
+      "chemical_composition": "Na2Mn3Cl8",
+      "sample_state": "polycrystalline",
+      "sample_mass": "2 . 1 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Bulk magnetic measurements including susceptibility and magnetization field dependence.",
+      "measurement_technique": "Magnetization measurements",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Neutron-diffraction measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Powder neutron-diffraction data collected using the HB-2A diffractometer.",
+      "measurement_technique": "neutron-diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetic diffuse scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Magnetic diffuse-scattering data collected at 2 K and 5 K to optimize exchange parameters.",
+      "measurement_technique": "neutron-scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Confirmation of the monoclinic Cc space group for the ground state phase of Pb(Zr0.525Ti0.475)O3 (PZT525): A Combined Synchrotron X-Ray and Neutron Powder Diffraction Study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Materials Science and Technology, Indian Institute of Technology (Banaras Hindu University), Varanasi-221005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Research and Technology Development Centre, Sharda University, Greater Noida201306, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Forschungsneutronenquelle Heinz Maier-Leibnitz (FRM II), Technische Universität München, Lichtenbergstrasse 1, D-85747 Garching bei München, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, Pohang University of Science and Technology, Pohang 790-784, Korea"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Pohang Accelerator Laboratory, Pohang University of Science and Technology, Pohang 790-784, Korea"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ravindra Singh Solanki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sunil Kumar Mishra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anatoliy Senyshyn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Songhak Yoon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sunggi Baik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Namsoo Shin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Dhananjai Pandey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The low temperature antiferrodistortive phase transition in a pseudo-tetragonal composition of PZT with x=0.525 is investigated through a combined synchrotron x-ray and neutron powder diffraction study. It is shown that the superlattice peaks cannot be correctly accounted for in the Rietveld refinement using R3c or R3c+Cm structural models, whereas the Cc space group gives excellent fits to the superlattice peaks as well as to the perovskite peaks. This settles at rest the existing controversies about the structure of the ground state phase of PZT in the MPB region.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRMII"
+    },
+    {
+      "id": "facility_2",
+      "name": "Pohang Light Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "Pohang Accelerator Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PZT525",
+      "sample_description": null,
+      "chemical_composition": "Pb(Zr0.525Ti0.475)O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "High resolution synchrotron X-ray diffraction data obtained at wavelength of 1.543 Å to investigate perovskite reflections from 10-700K.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction experiments (λ=2.536 Å) carried out on high resolution SPODI powder diffractometer to capture superlattice reflections.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

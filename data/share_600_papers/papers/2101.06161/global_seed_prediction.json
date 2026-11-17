@@ -1,0 +1,218 @@
+{
+  "bibliographic": {
+    "title": "Magnetic exchange interactions in the molecular nanomagnet Mn12",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Dipartimento di Scienze Matematiche, Fisiche e Informatiche, Universit`a di Parma, I-43124 Parma, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Advanced Simulation, Forschungszentrum J¨ulich, 52425 J¨ulich, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ISIS facility, Rutherford Appleton Laboratory, OX11 0QX Didcot, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Chemistry and Photon Science Institute, The University of Manchester, M13 9PL Manchester, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs CS 20156, Grenoble Cedex 9 F-38042, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Chiesa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "T. Guidi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Carretta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Ansbro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. A. Timco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "I. Vitorica-Yrezabal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "E.Garlatti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "G. Amoretti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "R. E. P. Winpenny",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "P. Santini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The discovery of magnetic bistability in Mn12 more than 20 years ago marked the birth of molecular magnetism, an extremely fertile interdisciplinary field and a powerful route to create tailored magnetic nanostructures. However, the difficulty to determine the interactions within the core of complex polycentric molecules often prevents their understanding and can hamper addressing important fundamental and applicative issues. Mn12 is an outstanding example: although it is the forefather and most studied of all molecular nanomagnets, an unambiguous determination even of the leading magnetic exchange interactions is still lacking. Here we exploit four-dimensional inelastic neutron scattering to portray how individual spins fluctuate around the magnetic ground state, thus fixing the exchange couplings of Mn12 for the first time. Our results demonstrate the power of four-dimensional inelastic neutron scattering as an unrivalled tool to characterize magnetic clusters.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-01-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "MIUR",
+        "grant_id": "RBFR12RPD1"
+      },
+      {
+        "funder": "MIUR",
+        "grant_id": "HYFSRT"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/K039547/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Mn12-tBuAc",
+      "sample_description": "deuterated analog of the isostructural [Mn12O12(O2CCH2But)16(MeOH)4]•MeOH molecule",
+      "chemical_composition": "[Mn12O12(O2CCD2C(CD3)3)16(CD3OD)4]•(C2H5)2O",
+      "sample_state": "single crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements performed on the high-resolution LET spectrometer to extract spin fluctuation information for low-energy transitions.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "four-dimensional inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the scattering cross-section S(E, Q) over large portions of the energy-wavevector space to fingerprint eigenstates of the spin Hamiltonian.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "EnergyScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

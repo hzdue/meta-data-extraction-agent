@@ -1,0 +1,233 @@
+{
+  "bibliographic": {
+    "title": "Magnetic structure and properties of the honeycomb antiferromagnet [Na(OH2)3]Mn(NCS)3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "School of Chemistry, University Park, Nottingham, NG7 2RD, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institut Laue Langevin, 71 avenue des Martyrs CS 20156, 38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "School of Electronic and Electrical Engineering, University of Leeds, Leeds, LS2 9JT, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "School of Chemistry, University of Leeds, Leeds, LS2 9JT, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Madeleine Geers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Thomas B. Gill",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andrew D. Burnett",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Euan N. Bassey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Oscar Fabelo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Laura Cañadillas-Delgado",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Matthew J. Cliffe",
+        "orcid": null,
+        "email": "matthew.cliffe@nottingham.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the magnetic structure and properties of a thiocyanate-based honeycomb magnet [Na(OH2)3]Mn(NCS)3 which crystallises in the unusual low-symmetry trigonal space group P 3 . Magnetic measurements on powder samples show this material is an antiferromagnet (ordering temperature TN , mag = 18 . 1(6) K) and can be described by nearest neighbour antiferromagnetic interactions J = − 11 . 07(4) K. A method for growing neutron-diffraction sized single crystals (>10 mm3) is demonstrated. Low temperature neutron single crystal diffraction shows that the compound adopts the collinear antiferromagnetic structure with TN , neut = 18 . 94(7) K, magnetic space group P 3̄′ . Low temperature second-harmonic generation (SHG) measurements provide no evidence of breaking of the centre of symmetry.",
+    "keywords": [],
+    "doi": "10.1039/b000000x",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UKRI",
+        "grant_id": "EP/X042782/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/P001394/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[Na(OH2)3]Mn(NCS)3 powder",
+      "sample_description": null,
+      "chemical_composition": "[Na(OH2)3]Mn(NCS)3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "[Na(OH2)3]Mn(NCS)3 single crystals",
+      "sample_description": "Large regular-hexagonal crystals grown via seeded crystallisation.",
+      "chemical_composition": "[Na(OH2)3]Mn(NCS)3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetic susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetic susceptibility measured from 2-300 K at µ0H = 0.01 T.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "isothermal magnetisation",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Isothermal magnetisation measured between +5.00 and -5.00 T at 2 K.",
+      "measurement_technique": "isothermal magnetisation",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "single crystal neutron diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction datasets collected at 25 K and 2 K to determine nuclear and magnetic structure.",
+      "measurement_technique": "single crystal neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "temperature-dependent neutron diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Data collected between 2 and 25 K with 0.25 K steps to follow the 100 Bragg reflection.",
+      "measurement_technique": "single crystal neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "second harmonic generation",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SHG measurements performed at 4 K, room temperature, and between 4 and 30 K.",
+      "measurement_technique": "second harmonic generation",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

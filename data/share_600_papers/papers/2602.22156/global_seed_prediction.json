@@ -1,0 +1,280 @@
+{
+  "bibliographic": {
+    "title": "High-Pressure X-Ray Diffraction Study of Scheelite-type Perrhenates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Departamento de Física Aplicada - Instituto de Ciencia de Materiales, Matter at High Pressure (MALTA) Consolider Team, Universidad de Valencia, Edificio de Investigación, C/Dr Moliner 50, 46100 Burjassot, Valencia, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "CELLS-ALBA Synchrotron Light Facility, Cerdanyola del Vallès, 08290 Barcelona, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Elettra Sincrotrone Trieste, Trieste, 34149, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Physics, University of Hyderabad, Prof. C. R. Rao Road, Gachibowli, Hyderabad 500046, Telangana, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Departamento de Física, MALTA Consolider Team, Universidad de La Laguna, San Cristóbal de La Laguna, Tenerife E-38200, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "School of Chemistry, The University of Sydney, Sydney, New South Wales 2006, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Neha Bura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Pablo Botella",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Catalin Popescu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Frederico Alabarse",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Ganapathy Vaitheeswaran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alfonso Muñoz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Brendan J. Kennedy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jose Luis Rodrigo Ramon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Josu Sanchez-Martin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Daniel Errandonea",
+        "orcid": "0000-0003-0189-4221",
+        "email": "daniel.errandonea@uv.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The effects of pressure on the crystal structure of scheelite-type perrhenates were studied using synchrotron powder X-ray diffraction and density-functional theory. At ambient conditions, the studied materials AgReO4, KReO4, and RbReO4, exhibit a tetragonal scheelite-type crystal structure described by space group I 41 /a . Under compression, a transition from scheelite-to-M´-fergusonite (space group P 21 /c ) was observed at 1.6 and 7.4 GPa for RbReO4 and KReO4, respectively. The transition involves a relative volume decrease. On the other hand, AgReO4 underwent a phase transition to the M-fergusonite structure (space group I 2 /a ) at 13.6 GPa. In this case there is no appreciable volume discontinuity. The room-temperature pressure-volume equation of state for the three studied perrhenates was estimated using a second-order Birch-Murnaghan equation of state. The results for the low-pressure phase are confirmed by density-functional theory calculations. The analysis of the bulk modulus shows that the compressibility of the compounds decreases following the sequence RbReO4 > KReO4 > AgReO4, which is related to the compressibility of the RbO8, KO8, and AgO8 bidisphenoid units. Densityfunctional theory also offers valuable insights into the elastic constants. Despite giving a good description for the low-pressure phase in the three compounds, density-functional theory cannot catch the structural phase transition observed in experiments. Reasons for it are discussed in the manuscript.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish Ministry of Science, Innovation, and Universities",
+        "grant_id": "PID2022138076NB-C41/44"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "CIPROM/2021/075"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "MFA/2022/007"
+      },
+      {
+        "funder": "European Union NextGenerationEU",
+        "grant_id": "PRTR-C17.I1"
+      },
+      {
+        "funder": "European Union Framework Programme for Research and Innovation Horizon Europe",
+        "grant_id": "101131414"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "CIAPOS/2023/406"
+      },
+      {
+        "funder": "Institute of Eminence, University of Hyderabad",
+        "grant_id": "UOH-IOE-RC3-21-046"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Method",
+      "3. Results and Discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Elettra Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "ALBA synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "KReO4",
+      "sample_description": null,
+      "chemical_composition": "KReO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "RbReO4",
+      "sample_description": null,
+      "chemical_composition": "RbReO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "AgReO4",
+      "sample_description": null,
+      "chemical_composition": "AgReO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Powder XRD studies carried out to identify the phase of the samples along with their crystal structure.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "AD-XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Angle dispersive XRD studies on KReO4 and RbReO4 to pressures of 10 GPa.",
+      "measurement_technique": "angle dispersive X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "AD-XRD",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "AD-XRD studies on AgReO4 carried out up to 18.5 GPa.",
+      "measurement_technique": "angle dispersive X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

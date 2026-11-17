@@ -1,0 +1,321 @@
+{
+  "bibliographic": {
+    "title": "Spatial structure and aggregation of carbon allotrope nanofillers in isotactic polypropylene composites studied by small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "NRC “Kurchatov Institute” – Alikhanov Institute for Theoretical and Experimental Physics, 117218 Moscow, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Enikolopov Institute of Synthetic Polymeric Materials, RAS, 117393 Moscow, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Semenov Institute of Chemical Physics, RAS, 119991 Moscow, Russia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Joint Institute for Nuclear Research, 141980 Dubna, Russia"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Moscow Institute of Physics and Technology, 141701 Dolgoprudny, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L.V. Elnikova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A.N. Ozerin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "V.G. Shevchenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "P.M. Nedorezova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A.T. Ponomarenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "V.V. Skoi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A.I. Kuklin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "We study the aggregation of carbon allotrope nanofillers in the matrix of isotactic polypropylene with direct small-angle neutron scattering measurements. With the ATSAS software, we analyzed the data and determined the fractal shape, dimension, and sizes of nanofiller aggregation in the bulk of isotactic polypropylene over the range of the scattering angles. We estimated the volume distributions and aggregation of different types of carbon nanofillers at different concentrations: nanographite, graphene nanoplatelets (GNP), single-walled carbon nanotubes (SWCNT), multiwall carbon nanotubes (MWCNT), binary fillers MWCNT/GNP and fullerenes. We reconstructed the shape of nanoscale aggregates of all nanofillers and found that the systems are polydisperse; nanofillers associate in the volume of iPP as fractal dense aggregates with rugged surface, their sizes exceeding original dimensions of nanofillers several times.",
+    "keywords": [
+      "polypropylene",
+      "carbon allotrope nanofillers",
+      "Small-Angle Neutron Scattering",
+      "fractal objects",
+      "aggregates",
+      "morphology"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and methods",
+      "3. Results and analysis of SANS spectra",
+      "3.1. SANS data for nanographite and GNP samples",
+      "3.2. SANS data for the fullerene sample",
+      "3.3. SANS data for MWCNT sample",
+      "3.4. SANS data for SWCNT samples",
+      "3.5. SANS data for MWCNT/GNP samples",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "YuMO spectrometer at the IBR2 reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "GNP 0.7 wt%",
+      "sample_description": null,
+      "chemical_composition": "GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "GNP 1.8 wt%",
+      "sample_description": null,
+      "chemical_composition": "GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "nanographite 1.5 wt%",
+      "sample_description": null,
+      "chemical_composition": "nanographite",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "nanographite 3.6 wt%",
+      "sample_description": null,
+      "chemical_composition": "nanographite",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "SWCNT 1.2 wt%",
+      "sample_description": null,
+      "chemical_composition": "SWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "SWCNT 2.6 wt%",
+      "sample_description": null,
+      "chemical_composition": "SWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "SWCNT 8 wt%",
+      "sample_description": null,
+      "chemical_composition": "SWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "MWCNT 3.5 wt%",
+      "sample_description": null,
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "MWCNT/GNP 0.48 wt%",
+      "sample_description": null,
+      "chemical_composition": "MWCNT/GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "MWCNT/GNP 0.9 wt%",
+      "sample_description": null,
+      "chemical_composition": "MWCNT/GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "MWCNT/GNP 1.16 wt%",
+      "sample_description": null,
+      "chemical_composition": "MWCNT/GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "MWCNT/GNP 3 wt%",
+      "sample_description": null,
+      "chemical_composition": "MWCNT/GNP",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "fullerenes 16.5 wt%",
+      "sample_description": null,
+      "chemical_composition": "fullerenes",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "iPP",
+      "sample_description": "matrix polymer",
+      "chemical_composition": "(C3H6)n",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11",
+        "sample_12",
+        "sample_13",
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements of iPP composites with various carbon nanofillers to characterize morphology and aggregation.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "iPP reference scattering",
+      "sample_refs": [
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Scattering from a sample of matrix polymer (iPP) used as reference for subtraction.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "background"
+    }
+  ]
+}

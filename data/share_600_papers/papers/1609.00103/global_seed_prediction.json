@@ -1,0 +1,228 @@
+{
+  "bibliographic": {
+    "title": "Neutron tomography of magnetic Majorana fermions in a proximate quantum spin liquid",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Quantum Condensed Matter Division, Oak Ridge National Laboratory, Oak Ridge, TN  37831, U.S.A."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Material Sciences and Technology Division, Oak Ridge National Laboratory, Oak Ridge, TN, 37831, U.S.A."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Cavendish Laboratory, JJ Thomson Avenue, Cambridge CB3 0HE, U.K."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Chemical Sciences Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, U.S.A."
+      },
+      {
+        "id": "aff_5",
+        "label": "5,6",
+        "text": "Neutron Sciences Directorate, Oak Ridge National Laboratory, Oak Ridge, TN 37831, U.S.A."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Materials Science and Engineering, University of Tennesee, Knoxville, TN 37996, U.S.A."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Max Planck Institute for the Physics of Complex Systems, D-01187 Dresden, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Arnab Banerjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jiaqiang Yan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Johannes Knolle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Craig A. Bridges",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Matthew B. Stone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Mark D. Lumsden",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "David G. Mandrus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "David A. Tennant",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Roderich Moessner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Stephen E. Nagler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Quantum matter provides an effective vacuum out of which arise emergent particles not corresponding to any experimentally detected elementary particle. Topological quantum materials in particular have become a focus of intense research in part because of the remarkable possibility to realize Majorana fermions, with their potential for new, decoherence-free quantum computing architectures. In this paper we undertake a study on high-quality single crystal of  -RuCl3 which has been identified as a material realizing a proximate Kitaev state, a topological quantum state with magnetic Majorana fermions. Four-dimensional tomographic reconstruction of dynamical correlations measured using neutrons is uniquely powerful for probing such magnetic states. We discover unusual signals, including an unprecedented column of scattering over a large energy interval around the Brillouin zone center which is remarkably stable with temperature. This is straightforwardly accounted for in terms of the Majorana excitations present in Kitaev's topological quantum spin liquid. Other, more delicate, features in the scattering can be transparently associated with perturbations to an ideal model. This opens a window on emergent magnetic Majorana fermions in correlated materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "United States Department of Energy",
+        "grant_id": "DE-AC05-00OR22725"
+      },
+      {
+        "funder": "Gordon and Betty Moore Foundation",
+        "grant_id": "GBMF4416"
+      },
+      {
+        "funder": "DFG",
+        "grant_id": "SFB 1143"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": " -RuCl3",
+      "sample_description": "High-quality single crystal grown via vapor transport.",
+      "chemical_composition": " -RuCl3",
+      "sample_state": "single crystal",
+      "sample_mass": "490 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction measured at the HYSPEC instrument to determine magnetic order.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "4D inelastic neutron tomography performed using the SEQUOIA chopper spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "EnergyScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

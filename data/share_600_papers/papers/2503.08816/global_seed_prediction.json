@@ -1,0 +1,399 @@
+{
+  "bibliographic": {
+    "title": "Ferroelectricity of Wurtzite Al1 −x Hf x N Heterovalent Alloys",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Metallurgical and Materials Engineering, Colorado School of Mines, Golden, Colorado 80401, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "U.S. Army Combat Capabilities Development Command - Army Research Laboratory, Adelphi, Maryland 20783, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "TAIYO YUDEN CO., LTD., 2-7-19, Kyobashi, Chuo-ku, Tokyo, 104-0031, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Universität Konstanz, D-78457 Konstanz, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Forschungszentrum Jülich GmbH, Peter Grünberg Institut (PGI-6), D-52425 Jülich, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemical and Biological Engineering, Rensselaer Polytechnic Institute, Troy, New York 12180, United States"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Fox Materials Consulting, LLC, Colorado Springs, Colorado 80908, United States"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Materials Science Center, National Renewable Energy Laboratory, Golden, Colorado 80401, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nate S.P. Bernstein",
+        "orcid": null,
+        "email": "nbernstein@mines.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Daniel Drury",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Cheng-Wei Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tatau Shimada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Yuki Sakai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Oliver Rehm",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Lutz Baumgarten",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Martina Müller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Prashun Gorai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Yoshiki Iwazaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Glen R. Fox",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Keisuke Yazawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Brendan Hanrahan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Geoff L. Brennecka",
+        "orcid": null,
+        "email": "gbrennec@mines.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Thin films of aluminum hafnium nitride (Al1 −x Hf x N) were synthesized via reactive magnetron sputtering for Hf contents up to x = 0.13. X-ray diffraction showed a single c -axis oriented wurtzite phase for all films. Hard X-ray photoelectron spectroscopy demonstrated homogeneous Al:Hf distribution through the thin films and confirmed their insulating character. A collection of complementary tests showed unambiguous polarization inversion, and thus ferroelectricity in multiple samples. Current density vs. electric field hysteresis measurements showed distinct ferroelectric switching current peaks, the piezoelectric coefficient d33 _, f ,meas measured using a double beam laser interferometer (DBLI) showed a reversal in sign with similar magnitude, and anisotropic wet etching confirmed field-induced polarization inversion. This demonstrates the possibility of using tetravalent–and not just trivalent–alloying elements to enable ferroelectricity in AlN-based thin films, highlighting the compositional flexibility of ferroelectricity in wurtzites and greatly expanding the chemistries that can be considered for future devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-03-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF DMREF program",
+        "grant_id": "DMR-2119281"
+      },
+      {
+        "funder": "Army Research Laboratory",
+        "grant_id": "W911NF-21-20210"
+      },
+      {
+        "funder": "Army Research Laboratory",
+        "grant_id": "W911NF-19-2-0119"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "SFB 1432 (Project No. 425217212, Subproject No. A07)"
+      },
+      {
+        "funder": "Federal Ministry of Education and Research",
+        "grant_id": "05KS7UM1"
+      },
+      {
+        "funder": "Federal Ministry of Education and Research",
+        "grant_id": "05K10UMA"
+      },
+      {
+        "funder": "Federal Ministry of Education and Research",
+        "grant_id": "05KS7WW3"
+      },
+      {
+        "funder": "Federal Ministry of Education and Research",
+        "grant_id": "05K10WW1"
+      },
+      {
+        "funder": "Federal Ministry of Education and Research",
+        "grant_id": "05K13WW1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. EXPERIMENTAL METHODS",
+      "II. HAXPES",
+      "III. COMPUTATIONAL METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "AlN",
+      "sample_description": null,
+      "chemical_composition": "AlN",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Al1-xHfxN x=0.06",
+      "sample_description": null,
+      "chemical_composition": "Al1-xHfxN x=0.06",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Al1-xHfxN x=0.13",
+      "sample_description": null,
+      "chemical_composition": "Al1-xHfxN x=0.13",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Al0.95Hf0.05N",
+      "sample_description": null,
+      "chemical_composition": "Al0.95Hf0.05N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Al0.91Hf0.09N",
+      "sample_description": null,
+      "chemical_composition": "Al0.91Hf0.09N",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "θ-2θ scans and ω-rocking curves on c-axis textured single-phase wurtzite films.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HAXPES",
+      "sample_refs": [
+        "sample_1",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Core-level spectra and valence band spectra recorded at 2.8 keV and 6 keV.",
+      "measurement_technique": "hard X-ray photoelectron spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Current density vs. electric field hysteresis",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Hysteresis measurements of current density vs. applied E-field using a triangular wave at 10 kHz.",
+      "measurement_technique": "current density vs. electric field hysteresis",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Polarization vs. applied E-field",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "P-E loops measured at 50 kHz.",
+      "measurement_technique": "Polarization vs. applied E-field",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "DBLI piezoelectric measurement",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Small signal d33 testing using a double beam laser interferometer with a sinusoidal E-field.",
+      "measurement_technique": "double beam laser interferometer",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Ellipsometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements to quantify the absorption coefficient of the films on native oxide silicon.",
+      "measurement_technique": "Ellipsometry",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

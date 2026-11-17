@@ -1,0 +1,292 @@
+{
+  "bibliographic": {
+    "title": "Cryogenic stabilization of molecular hydrogen in dense cubic ice",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory of Quantum Magnetism, Institute of Physics, École Polytechnique Fédérale de Lausanne, Lausanne CH-1015, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratoire pour l'Utilisation des Lasers Intenses (LULI), École Polytechnique, 91120 Palaiseau, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Geochemical Research Center, Graduate School of Science, The University of Tokyo, Tokyo, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "European Synchrotron Radiation Facility, 71 avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institut Laue-Langevin 71 avenue des Martyrs, CS 20156, 38042 Grenoble cedex 9, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Instituto de Nanociencia y Materiales de Aragon, CSIC – Universidad de Zaragoza, Facultad de Ciencias C/ Pedro Cerbuna 12, Zaragoza, Spain"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie, Sorbonne Université, CNRS UMR 7590, MNHN, Paris, France"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Dipartimento di Fisica, Sapienza Università di Roma, Roma 00185, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tomasz Poręba",
+        "orcid": null,
+        "email": "tomasz.poreba@epfl.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Leon Andriambariarijaona",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Richard Gaal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Kazuki Komatsu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Gaston Garbarino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Thomas Hansen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Stanislav Savvin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Livia E. Bove",
+        "orcid": null,
+        "email": "livia.bove@sorbonne-universite.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "Hydrogen is widely regarded as a cornerstone of future low-carbon energy technologies, yet the lack of safe, efficient, and reversible solid-state storage materials remains a major barrier to its large-scale deployment. Although porous frameworks and metal hydrides have been extensively explored, far less is known about the ability of dense molecular solids to stabilize hydrogen at near-ambient pressure. Here we show that fully crystalline cubic ice, despite its non-porous nature, can retain molecular hydrogen as an interstitial guest following controlled decompression from a high-pressure hydrogen hydrate precursor. Using synchrotron X-ray diffraction, neutron diffraction, and Raman spectroscopy, we demonstrate that hydrogen is retained within the ice structure up to about 130 K, producing reproducible lattice expansion and distinct spectroscopic signatures. We further show that pure cubic ice can be partially refilled with hydrogen at 0.18 GPa and 130 K, while fully hydrogen-filled cubic structure can be preserved at the same pressure up to 90 K. The retained hydrogen content reaches several percent of the parent hydrate composition, corresponding to gravimetric and volumetric storage densities comparable to those of interstitial hydrogen in metals. These results reveal an unexpected ability of a dense hydrogen-bonded crystal structure to host molecular hydrogen without permanent porosity or chemical bonding, establishing cubic ice as a minimal model for hydrogen-lattice interactions. More broadly, our findings identify dense hydrogen-bonded solids as an unexplored class of materials for hydrogen storage physics, with implications extending from energy materials to planetary and astrophysical ice environments.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union–NextGenerationEU",
+        "grant_id": "PRIN N. 2022NRBLPT"
+      },
+      {
+        "funder": "ANR",
+        "grant_id": "ANR-23-CE30-0034 EXOTIC-ICE"
+      },
+      {
+        "funder": "Swiss National Funds",
+        "grant_id": "212889"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "21K18154"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "25K01724"
+      },
+      {
+        "funder": "Mitsubishi Foundation",
+        "grant_id": "202310023"
+      },
+      {
+        "funder": "Sumitomo Foundation Basic Science Research Project",
+        "grant_id": "2401158"
+      },
+      {
+        "funder": "Japan-France Integrated Action Program",
+        "grant_id": "SAKURA: 120253203"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Results",
+      "Phase evolution upon decompression",
+      "Hydrogen retention features",
+      "Spectroscopic evidence for hydrogen retention",
+      "Hydrogen filling fraction",
+      "Methods",
+      "X-ray diffraction",
+      "Raman spectroscopy",
+      "Neutron diffraction"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "C2 hydrogen hydrate (Experiment 1)",
+      "sample_description": "Deuterated sII hydrogen clathrate compressed above 3.2 GPa.",
+      "chemical_composition": "H2:H2O 1:1",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "C2 hydrogen hydrate (Experiment 2)",
+      "sample_description": "Produced by hydrolysis of MgD2 followed by compression to 3.8 GPa.",
+      "chemical_composition": "H2:H2O 1:1",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "cubic ice Ic",
+      "sample_description": "Recovered from decompressed C2 hydrogen hydrate.",
+      "chemical_composition": "H2O",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "ice-free C2 hydrate",
+      "sample_description": "Obtained by compressing a hydrogen-loaded sample to 4.1 GPa in a DAC.",
+      "chemical_composition": "H2:H2O 1:1",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction measurements of decompressed C2 samples and recovered cubic ice upon heating.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction of ice-free C2 and decompressed samples upon heating at 0.18 GPa.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra of decompressed C2 and hydrogen-filled cubic ice to identify roton and vibron features.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

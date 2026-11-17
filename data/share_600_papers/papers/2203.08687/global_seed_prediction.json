@@ -1,0 +1,166 @@
+{
+  "bibliographic": {
+    "title": "Experimental proof of moisture clog through neutron tomography in a porous medium under truly one-directional drying",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Federal University of Sao Carlos, Graduate Program in Materials Science and Engineering (PPGCEM), Rod. Washington Luiz, km 235, 13565-905, São Carlos, SP, Brazil"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "CNRS, Grenoble INP, 3SR, Universite Grenoble Alpes, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institut Laue Langevin, 71 Avenue des Martyrs, 38000 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. H. Moreira",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S. Dal Pont",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Tengattini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. P. Luz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "V. C. Pandolfelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Structural failure of concrete buildings on fire and complete destruction of the monolithic refractory lining during their drying stage are dangerous examples of the effect of explosive spalling on partially saturated porous media. Several observations in both cases indicated the presence of moisture accumulation ahead of the drying front, which are in tune with the most common theories on the explosive spalling of concrete. Previous studies have shown evidence of the existence of this phenomenon, however, they were biased by artifacts and experimental limitations (such as the beam hardening effect and changes in the microstructure of the material due to the presence of pressure and temperature sensors). In the current work, rapid neutron tomography was used to investigate the in-operando drying behavior of a high-alumina refractory castable, proposing a novel experimental layout aimed at a truly one-dimensional drying front. This setup provided more realistic boundary conditions, such as the behavior of a larger wall heated from one of its sides, while also preventing some nonphysical artifacts (notably beam hardening). By eliminating these aspects, a direct proof that moisture accumulates ahead of the drying front was obtained. This work also lays the basis for further studies focusing on the response sensitivity analysis to boundary conditions and other parameters (e.g., heating rates and properties of the sample related to the moisture clog formation), as well as useful data for the validation and characterization stages of numerical models of partially saturated porous media.",
+    "keywords": [
+      "Concrete Spalling",
+      "Refractory Castable",
+      "Drying Front",
+      "Neutron Tomography",
+      "High Temperature"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Coordenação de Aperfeiçcoamento de Pessoal de Nível Superior - Brasil",
+        "grant_id": "001"
+      },
+      {
+        "funder": "Fundação de Amparo a Pesquisa do Estado de São Paulo",
+        "grant_id": "2021/00251-0"
+      },
+      {
+        "funder": "Fundação de Amparo a Pesquisa do Estado de São Paulo",
+        "grant_id": "2019/07996-0"
+      },
+      {
+        "funder": "Conselho Nacional de Desenvolvimento Científico e Tecnologico",
+        "grant_id": "303324/2019-8"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Material and Methods",
+      "3. Results and Discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "5CAC without casing",
+      "sample_description": "Cylindrical samples cast in PVC molds.",
+      "chemical_composition": "5 wt% of calcium aluminate cement",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "5CAC with casing",
+      "sample_description": "Cylindrical samples cast in a mullite ceramic casing.",
+      "chemical_composition": "5 wt% of calcium aluminate cement",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron tomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-operando drying behavior of high-alumina refractory castable with a heating rate of 10C/min up to 500C.",
+      "measurement_technique": "neutron tomography",
+      "measurement_mode": [
+        "TemperatureScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

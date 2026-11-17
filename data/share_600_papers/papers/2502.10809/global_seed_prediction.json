@@ -1,0 +1,288 @@
+{
+  "bibliographic": {
+    "title": "Circular Dichroism in Resonant Inelastic X-ray Scattering: Probing Altermagnetic Domains in MnTe",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Applied Physics, Waseda University, Shinjuku, Tokyo 169-8555, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Graduate School of Science, Tohoku University, 6-3 Aramaki-Aoba, Aoba-ku, Sendai, Miyagi 980-8578, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Electronics, Graduate School of Engineering, Osaka Metropolitan University, 1-1 Gakuen-cho, Nakaku, Sakai, Osaka 599-8531, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Condensed Matter Physics, Faculty of Science, Masaryk University, Kotl´aˇrsk´a 2, 61137 Brno, Czech Republic"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute for Solid State Physics, TU Wien, 1040 Vienna, Austria"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Frontier Research Institute for Interdisciplinary Sciences, Tohoku University, Sendai 980-8578, Japan"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institute of Multidisciplinary Research for Advanced Materials (IMRAM), Tohoku University, Sendai 980-8577, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "D. Takegami",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "T. Aoyama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "T. Okauchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "T. Yamaguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. Tippireddy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. Garc´ıa-Fern´andez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "T. Mizokawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "K. Ohgushi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "J. Chaloupka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "J. Kuneˇs",
+        "orcid": null,
+        "email": "kunes@physics.muni.cz",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Hariki",
+        "orcid": null,
+        "email": "hariki@omu.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "H. Suzuki",
+        "orcid": null,
+        "email": "hakuto.suzuki@tohoku.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "X-ray magnetic circular dichroism provides a means to identify ferromagnetic, chiral, and altermagnetic orders via their time-reversal-symmetry (T ) breaking. However, differentiating magnetic domains related by crystallographic symmetries remains a technical challenge. Here we reveal a circular dichroism (CD) in the resonant inelastic x-ray scattering (RIXS) spectra from the altermagnetic MnTe. The azimuthal dependence of the RIXS-CD intensity of the magnon excitations indicates a dominant occupation of a single altermagnetic domain. The RIXS-CD in our scattering geometry is ascribed to the mirror-symmetry breaking associated with the T -broken altermagnetic order. Our results establish RIXS-CD as a domain-sensitive probe of elementary excitations in quantum materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": "2501.08056",
+    "url": null,
+    "publication_date": "2025-02-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP22K13994"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP21K13884"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP23K03324"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP23H03817"
+      },
+      {
+        "funder": "Quantum Materials for Applications in Sustainable Technologies",
+        "grant_id": "CZ.02.01.01/00/22 008/0004572"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "521584902"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Experiment",
+      "Theory"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnTe single crystals",
+      "sample_description": null,
+      "chemical_composition": "MnTe",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray magnetic circular dichroism measurement in total fluorescent yield (TFY) mode at the Mn L-edge.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Mn L3-edge resonant inelastic x-ray scattering to examine magnon dispersion and RIXS-CD.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

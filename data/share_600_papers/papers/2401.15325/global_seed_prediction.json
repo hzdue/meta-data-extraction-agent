@@ -1,0 +1,227 @@
+{
+  "bibliographic": {
+    "title": "Study of the Liquid / Vapor Interfacial Properties of Concentrated Polyelectrolyte – Surfactant Mixtures Using Surface Tensiometry and Neutron Reflectometry: Equilibrium, Adsorption Kinetics and Dilational Rheology",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Departamento de Química Física I-Universidad Complutense de Madrid, Ciudad Universitaria s/n, 28040 Madrid, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Instituto Pluridisciplinar-Universidad Complutense de Madrid, Avda. Juan XXIII, 1, 28040 Madrid, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble, Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Max-Plank Institute of Colloids & Interfaces, 14475 Potsdam/Golm, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sara Llamas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Eduardo Guzmán",
+        "orcid": null,
+        "email": "eduardogs@quim.ucm.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andrew Akanno",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Laura Fernández-Peña",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Francisco Ortega",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Richard A. Campbell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Reinhard Miller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ramón G. Rubio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The adsorption of mixtures of poly(diallyldimethylammonium chloride) (PDADMAC) and sodium N-lauroyl-N-methyltaurate (SLMT) at the water / vapor interface has been studied using drop profile tensiometry and neutron reflectometry. This study sheds light on the mechanisms involved in the adsorption of polyelectrolyte – oppositely charged surfactants by the characterization of both equilibrium and dynamics features associated with the layer formation at the fluid interface. The results are discussed in terms of an adsorption – equilibration of the interfacial layers as a two-step process: the initial stages involve the adsorption of polyelectrolyte – surfactant complexes formed in the bulk, and a subsequent stage involves reorganization of the interface. This work contributes to the understanding of the physico-chemical features of systems that undergo complex bulk and interfacial interactions with importance in science and technology.",
+    "keywords": [],
+    "doi": "10.1021/acs.jpcc.7b12457",
+    "arxiv_id": null,
+    "url": "https://doi.org/10.1021/acs.jpcc.7b12457",
+    "publication_date": "2018",
+    "venue": "J. Phys. Chem. C",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "MINECO",
+        "grant_id": "FIS 2014-62005-EXP"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "CTQ2016- 78895-R"
+      },
+      {
+        "funder": "EU",
+        "grant_id": "607861"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Section",
+      "3. Theory",
+      "4. Results and discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SLMT",
+      "sample_description": null,
+      "chemical_composition": "sodium N-lauroyl-N-methyltaurate",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PDADMAC – SLMT mixtures",
+      "sample_description": "The PDADMAC concentration was kept constant at 0.5 wt% in all the samples.",
+      "chemical_composition": "poly(diallyldimethylammonium chloride) and sodium N-lauroyl-N-methyltaurate",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Surface tension measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of dynamic and equilibrium surface tensions of SLMT solutions and PDADMAC – SLMT mixtures.",
+      "measurement_technique": "drop profile tensiometry",
+      "measurement_mode": [
+        "TimeScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Dilational rheology",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the frequency dependences of the complex viscoelastic modulus in the 5 – 200 mHz range.",
+      "measurement_technique": "drop profile tensiometry",
+      "measurement_mode": [
+        "FrequencyScan",
+        "CompositionScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Neutron reflectometry",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the dynamic surfactant surface excess for the adsorption of polyelectrolyte – surfactant mixtures.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "TimeScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

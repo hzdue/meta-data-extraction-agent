@@ -1,0 +1,216 @@
+{
+  "bibliographic": {
+    "title": "Boron monosulfide: equation of state and pressure-induced phase transition",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "LSPM–CNRS, Université Paris Nord, 93430 Villetaneuse, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Dukhov Research Institute of Automatics (VNIIA), Moscow, 127055, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Moscow Institute of Physics and Technology, Dolgoprudny, Moscow Region, 141700, Russia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Skolkovo Institute of Science and Technology, Skolkovo Moscow Region, 143026, Russia"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "IMPMC, UPMC Sorbonne Universités, CNRS – UMR 7590, 75005 Paris, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "European Synchrotron Radiation Facility, 38043 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K.A. Cherednichenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "I.A. Kruglov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A.R. Oganov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Y. Le Godec",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Mezouar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "V.L. Solozhenko",
+        "orcid": null,
+        "email": "vladimir.solozhenko@univ-paris13.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Quasi-hydrostatic compression of rhombohedral boron monosulfide (r-BS) has been studied up to 50 GPa at room temperature using diamond-anvil cells and angle-dispersive synchrotron X-ray diffraction. A fit of the experimental P–V data to the Vinet equation of state yields bulk modulus B0 of 42.2(1.4) GPa and its first pressure derivative B0′ of 7.6(2) that are in excellent agreement with our ab initio calculations. Formation of a new high-pressure phase of boron monosulfide (hp-BS) has been observed above 35 GPa. According to ab initio evolutionary crystal structure predictions combined with Rietveld refinement of high-pressure X-ray diffraction data, the structure of hp-BS has trigonal symmetry and belongs to the space group P-3m1. As it follows from electron density of states calculations, the phase transformation is accompanied by an insulator-metal transition.",
+    "keywords": [
+      "boron sulfide",
+      "high pressure",
+      "equation of state",
+      "phase transition"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union's Horizon 2020 Research and Innovation Programme",
+        "grant_id": "689279"
+      },
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "1613-10459"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Experimental",
+      "III. Computational methodology",
+      "IV. Results and Discussion",
+      "V. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Elettra Sincrotrone Trieste"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "r-BS",
+      "sample_description": "Polycrystalline rhombohedral boron monosulfide synthesized at 7.5 GPa and 2200 K.",
+      "chemical_composition": "BS",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "hp-BS",
+      "sample_description": "High-pressure phase of boron monosulfide observed above 35 GPa.",
+      "chemical_composition": "BS",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Confirmation of structure and phase purity of synthesized r-BS using G3000 TEXT Inel diffractometer.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Confirmation of structure and phase purity of synthesized r-BS using Horiba Jobin Yvon HR800 spectrometer.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "in situ X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Angle-dispersive X-ray diffraction studies in the 2-50 GPa range at ID27 and Xpress beamlines.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

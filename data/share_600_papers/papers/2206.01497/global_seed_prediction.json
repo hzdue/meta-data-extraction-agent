@@ -1,0 +1,219 @@
+{
+  "bibliographic": {
+    "title": "SAXS Investigation of Core-Shell Microgels with High Scattering Contrast Cores: Access to Structure Factor and Volume Fraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut für Physikalische Chemie I: Kolloide und Nanooptik, Heinrich-Heine-Universität Düsseldorf, Universitätsstraße 1, D-40225 Düsseldorf, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestraße 85, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Synchrotron SOLEIL, L'Orme des Merisiers, Saint-Aubin, BP 48, 91192 Gif-sur-Yvette Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Applied Physics and Institute for Complex Molecular Systems, Eindhoven University of Technology, P.O. Box 513, 5600 MB Eindhoven, The Netherlands"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Marco Hildebrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sergey Lazarev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Javier Pérez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ivan A. Vartanyants",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Janne-Mieke Meijer",
+        "orcid": null,
+        "email": "j.m.meijer@tue.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Matthias Karg",
+        "orcid": null,
+        "email": "karg@hhu.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "To explore dense packings of soft colloids, scattering experiments are ideal to access the structure factor. However, for soft microgels determination of the structure factor is difficult because of the low contrast of the polymer network and potential microgel interpenetration and deformation that change the form factor contribution. Here, we employ small-angle X-ray scattering (SAXS) to study soft, thermoresponsive microgels with poly- N -isopropylacrylamide (PNIPAM) shells and gold nanoparticle cores. The scattering of the gold cores dominates the scattering patterns and allows precise determination of the microgel volume fraction over a broad range of concentrations. At high volume fractions we find distinct patterns with sharp Bragg peaks allowing extraction of the structure factor and characterization of the phases combined with UV-Vis spectroscopy. The unique scattering contrast of our core-shell microgels combined with SAXS opens up new ways to investigate dense packings of soft microgels including in situ studies of phase transitions.",
+    "keywords": [
+      "core-shell microgels",
+      "small-angle X-ray scattering",
+      "colloidal crystal",
+      "structure factor",
+      "volume fraction"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Netherlands Organization for Scientific Research",
+        "grant_id": "016.Veni.192.119"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "KA3880/6-1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Methods",
+      "Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CS microgels",
+      "sample_description": "Soft, thermoresponsive microgels with poly-N-isopropylacrylamide (PNIPAM) shells and gold nanoparticle cores.",
+      "chemical_composition": "Au-PNIPAM",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Transmission Electron Microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of core-shell structure and determination of AuNP core size.",
+      "measurement_technique": "Transmission Electron Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Dynamic Light Scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent measurements of hydrodynamic radii to study the volume phase transition.",
+      "measurement_technique": "Dynamic Light Scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Electrophoretic Mobility Determination",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of electrophoretic mobility in 10-4 M aqueous NaCl solution.",
+      "measurement_technique": "Electrophoretic Mobility Determination",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "UV-Vis Absorbance Spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Recording of extinction spectra and Bragg reflection for dilute and dense samples.",
+      "measurement_technique": "UV-Vis Absorbance Spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "In-house SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of dilute CS microgel dispersions to determine number concentration and volume fraction.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Synchrotron SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements on dense samples at high volume fractions to extract structure factor and phase behavior.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

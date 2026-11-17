@@ -1,0 +1,287 @@
+{
+  "bibliographic": {
+    "title": "Fractal carbon nanotube fibers with mesoporous crystalline structure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "IMDEA Materials Institute, Getafe, 28906 Madrid, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "IMDEA Energy Institute, Móstoles, 28935 Madrid, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "H. Yue",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. Reguero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "E. Senokos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. Monreal-Bernal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "B. Mas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J.P. Fernández-Blázquez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Marcilla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "J. J. Vilatela",
+        "orcid": null,
+        "email": "juanjose.vilatela@imdea.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Macroscopic fibres of carbon nanotubes are hierarchical structures combining long building blocks preferentially oriented along the fibre axis and a large porosity arising from the imperfect packing of bundles. Synchrotron small-angle X-ray scattering SAXS measurements show that such structure is a surface fractal with fractal dimension ( Ds ) of 2.5 for MWCNT fibres and 2.8 for SWCNT fibres. N2 adsorption measurements give similar values of 2.54 and 2.50, respectively. The fractal dimension and deviation from Porod’s law are related to density fluctuations associated with the wide distribution of separations between CNTs. These fluctuations are also evident as diffuse wide-angle X-ray scattering (WAXS) from CNTs at distances above turbostratic separation. The structure of CNT fibres produced at different draw ratios is compared in terms of degree of orientation and characteristic lengths parallel and perpendicular to the fibre. Drawing not only increases alignment but also the fraction of graphitic planes forming coherent domains capable of taking part in stress transfer by shear; thus increasing both tensile modulus and strength. The invariant-normalized intensity of the (002) equatorial reflection thus takes the form of a degree of crystallinity closely related to tensile properties.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union Seventh Framework Program",
+        "grant_id": "678565 (ERC-STEM)"
+      },
+      {
+        "funder": "European Union Seventh Framework Program",
+        "grant_id": "2012322129 MUFIN"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "MT2012-37552-C03-02"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "MAT2015-62584-ERC"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "RyC2014-15115"
+      },
+      {
+        "funder": "CAM MAD2D project",
+        "grant_id": "S2013/MIT-3007"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results and Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron Light Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MWCNT fibres",
+      "sample_description": "Fibres made up of thin few-layer multiwall carbon nanotubes with average diameter of 5 nm.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SWCNT fibres",
+      "sample_description": "Fibres of predominantly singlewall carbon nanotubes.",
+      "chemical_composition": "SWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "MWCNT fibre DR 4.7",
+      "sample_description": "Few-layer MWCNT fibre produced with a draw ratio of 4.7.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "MWCNT fibre DR 31.5",
+      "sample_description": "Few-layer MWCNT fibre produced with a draw ratio of 31.5.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "MWCNT fibre DR 63",
+      "sample_description": "Few-layer MWCNT fibre produced with a draw ratio of 63.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "MWCNT fibre DR 95",
+      "sample_description": "Few-layer MWCNT fibre produced with a draw ratio of 95.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "MWCNT fibre DR 126",
+      "sample_description": "Few-layer MWCNT fibre produced with a draw ratio of 126.",
+      "chemical_composition": "MWCNT",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle X-ray scattering measurements to determine surface fractal dimension and pore structure.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "N2 adsorption",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Nitrogen adsorption measurements at 77.3 K to determine surface area and fractal dimension.",
+      "measurement_technique": "gas adsorption",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "WAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Wide-angle X-ray scattering to determine CNT orientation and graphitic layer separation.",
+      "measurement_technique": "wide-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Tensile tests",
+      "sample_refs": [
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Mechanical testing to determine tensile modulus and strength of fibres with different draw ratios.",
+      "measurement_technique": "tensile testing",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

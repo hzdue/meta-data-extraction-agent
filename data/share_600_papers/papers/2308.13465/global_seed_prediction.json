@@ -1,0 +1,302 @@
+{
+  "bibliographic": {
+    "title": "Ptychographic Nanoscale Imaging of the Magnetoelectric Coupling in Freestanding BiFeO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Paul Scherrer Institut Villigen PSI 5232, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Physics National Cheng Kung University Tainan 70101,Taiwan"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "CenterforQuantum Frontiers of Research & Technology (QFort) National Cheng Kung University Tainan 70101,Taiwan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tim A. Butcher",
+        "orcid": null,
+        "email": "tim.butcher@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nicholas W. Phillips",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Chun-Chien Chiu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Chia-Chun Wei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sheng-Zhu Ho",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Yi-Chun Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Erik Fröjdh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Filippo Baruffaldi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Maria Carulla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jiaguo Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Anna Bergamaschi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Carlos A. F. Vaz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Armin Kleibert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Simone Finizio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Jan-Chi Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Shih-Wen Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Jörg Raabe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Understanding the magnetic and ferroelectric ordering of magnetoelectric multiferroic materials at the nanoscale necessitates a versatile imaging method with high spatial resolution. Here, soft X-ray ptychography is employed to simultaneously image the ferroelectric and antiferromagnetic domains in an 80 nm thin freestanding film of the room-temperature multiferroic BiFeO3 (BFO). The antiferromagnetic spin cycloid of period 64 nm is resolved by reconstructing the corresponding resonant elastic X-ray scattering in real space and visualized together with mosaic-like ferroelectric domains in a linear dichroic contrast image at the Fe L3 edge. The measurements reveal a near perfect coupling between the antiferromagnetic and ferroelectric ordering by which the propagation direction of the spin cycloid is locked orthogonally to the ferroelectric polarization. In addition, the study evinces both a preference for in-plane propagation of the spin cycloid and changes of the ferroelectric polarization by 71° between multiferroic domains in the epitaxial strain-free, freestanding BFO film. The results provide a direct visualization of the strong magnetoelectric coupling in BFO and of its fine multiferroic domain structure, emphasizing the potential of ptychographic imaging for the study of multiferroics and non-collinear magnetic materials with soft X-rays.",
+    "keywords": [
+      "bismuth ferrite",
+      "freestanding films",
+      "multiferroic domains",
+      "soft X-ray ptychography",
+      "synchrotron techniques",
+      "X-ray microscopy"
+    ],
+    "doi": "10.1002/adma.202311157",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-03-10",
+    "venue": "Advanced Materials",
+    "publisher": "Wiley-VCH GmbH",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "884104"
+      },
+      {
+        "funder": "National Science and Technology Council",
+        "grant_id": "NSTC 112-2112-M-006-020-MY3"
+      },
+      {
+        "funder": "Ministerium für Bildung und Forschung",
+        "grant_id": "05K16WED"
+      },
+      {
+        "funder": "Ministerium für Bildung und Forschung",
+        "grant_id": "05K19WE2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results",
+      "3. Conclusion",
+      "4. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "freestanding BFO film",
+      "sample_description": "80 nm thin freestanding film grown along the [001] direction.",
+      "chemical_composition": "BiFeO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "soft X-ray ptychography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Imaging of ferroelectric and antiferromagnetic domains at the Fe L3 edge using linear and circular dichroism.",
+      "measurement_technique": "soft X-ray ptychography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Piezoresponse Force Microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of ferroelectric domains in freestanding films placed on Si.",
+      "measurement_technique": "Piezoresponse Force Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "scanning transmission X-ray microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray characterization and XLD spectrum measurements of the freestanding film.",
+      "measurement_technique": "scanning transmission X-ray microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

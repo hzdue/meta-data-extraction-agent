@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Experimental Quantification of Spin–Phonon Coupling in Molecular Qubits using Inelastic Neutron Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, CA 91125."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Stefan H. Lohaus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kay T. Xia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yongqiang Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ryan G. Hadt",
+        "orcid": null,
+        "email": "rghadt@caltech.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Electronic spin superposition states enable nanoscale sensing through their sensitivity to the local environment, yet their sensitivity to vibrational motion also limits their coherence times. In molecular spin systems, chemical tunability and atomic-scale resolution are accompanied by a dense, thermally accessible phonon spectrum that introduces efficient spin relaxation pathways. Despite extensive theoretical work, there is little experimental consensus on which vibrational energies dominate spin relaxation or how molecular structure controls spin–phonon coupling (SPC). We present a fully experimental method to quantify SPC coefficients by combining temperature-dependent vibrational spectra from inelastic neutron scattering with spin relaxation rates measured by electron paramagnetic resonance. We apply this framework to two model S = 1/2 systems, copper(II) phthalocyanine (CuPc) and copper(II) octaethylporphyrin (CuOEP). Two distinct relaxation regimes emerge: below 40 K, weakly coupled lattice modes below 50 cm⁻¹ dominate, whereas above 40 K, optical phonons above ~185 cm⁻¹ become thermally populated and drive relaxation with SPC coefficients nearly three orders of magnitude larger. Structural distortions in CuOEP that break planar symmetry soften the crystal lattice and enhance anharmonic scattering, but also raise the energy of stretching modes at the molecular core where the spins reside. This redistributes vibrational energy toward the molecular periphery and out of plane, ultimately reducing SPC relative to CuPc and enabling room-temperature spin coherence in CuOEP. Although our method does not provide mode-specific SPC coefficients, it quantifies contributions from distinct spectral regions and establishes a broadly applicable, fully experimental link between crystal structure, lattice dynamics, and spin relaxation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Basic Energy Sciences, Quantum Information Science program",
+        "grant_id": "DE-SC0022920"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Molecular and crystal structures",
+      "Spin-lattice relaxation",
+      "Phonon spectra",
+      "Phonon anharmonicities",
+      "Thermal phonon population",
+      "Spin-phonon coupling",
+      "Conclusion",
+      "Materials and Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuPc",
+      "sample_description": null,
+      "chemical_composition": "copper(II) phthalocyanine",
+      "sample_state": "powder",
+      "sample_mass": "500 mg",
+      "supplier_or_creator": "Sigma Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CuOEP",
+      "sample_description": null,
+      "chemical_composition": "copper(II) octaethylporphyrin",
+      "sample_state": "powder",
+      "sample_mass": "500 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Quantification of thermal expansion for both compounds between 5-300 K.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "pulse EPR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of spin-lattice relaxation rates (1/T1) between 3.5-300 K.",
+      "measurement_technique": "pulse electron paramagnetic resonance",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of full vibrational spectra between 5-300 K using the VISION spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Characterization of lattice structures at room temperature.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

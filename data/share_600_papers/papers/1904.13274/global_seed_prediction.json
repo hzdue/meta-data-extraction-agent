@@ -1,0 +1,302 @@
+{
+  "bibliographic": {
+    "title": "Realization of Ordered Magnetic Skyrmions in Thin Films at Ambient Conditions",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Space and Naval Warfare Systems Center Pacific, San Diego, CA 92152, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Center for X-ray Optics, Lawrence Berkeley National Laboratory, Berkeley, CA 94270, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Department of Materials Science and Engineering, University of Tennessee, Knoxville, TN 37996, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "School of Materials Science and Engineering, Ulsan National Institute of Science and Technology, Ulsan, Republic of Korea"
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville TN 37996, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": null,
+        "text": "Center for Memory and Recording Research, University of California, San Diego, La Jolla, CA 92093, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ryan D. Desautels",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lisa DeBeer-Schmitt",
+        "orcid": null,
+        "email": "debeerschmlm@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sergio Montoya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Soong-Geun Je",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Nan Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mi-Young Im",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Michael R. Fitzsimmons",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Eric E. Fullerton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Dustin A. Gilbert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Magnetic skyrmions present interesting physics due to their topological nature and hold significant promise for future information technologies. A key barrier to realizing skyrmion devices has been stabilizing these spin structures under ambient conditions. In this manuscript, we exploit the tunable magnetic properties of amorphous Fe/Gd mulitlayers to realize skyrmion lattices which are stable over a large temperature and magnetic field parameter space, including room temperature and zero magnetic field. These hybrid skyrmions have both Bloch-type and N´eel-type character and are stabilized by dipolar interactions rather than Dzyaloshinskii-Moriya interactions, which are typically considered required for the generation of skyrmions. Small angle neutron scattering (SANS) was used in combination with soft X-ray microscopy to provide a unique, multi-scale probe of the local and long-range order of these structures. These results identify a pathway to engineer controllable skyrmion phases in thin film geometries which are stable at ambient conditions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-05-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Basic Energy Sciences",
+        "grant_id": "de-sc0003678"
+      },
+      {
+        "funder": "Director, Office of Science, BES, of the DOE",
+        "grant_id": "DE-AC02- 05CH11231"
+      },
+      {
+        "funder": "National Research Foundation (NRF) of Korea",
+        "grant_id": "2018K1A4A3A03075584"
+      },
+      {
+        "funder": "National Research Foundation (NRF) of Korea",
+        "grant_id": "2016M3D1A1027831"
+      },
+      {
+        "funder": "National Research Foundation (NRF) of Korea",
+        "grant_id": "2017R1A4A1015323"
+      },
+      {
+        "funder": "DGIST R&D program of the Ministry of Science, ICT and future Planning",
+        "grant_id": "18-BT-02"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1508249"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "METHODS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "GP-SANS beamline at Oak Ridge National Laboratory’s (ORNL) High Flux Isotope Reactor (HFIR)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Very Small Angle Neutron Scattering (VSANS) beamline at the National Institute for Standards and Technology (NIST)"
+    },
+    {
+      "id": "facility_3",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[(Fe(3.6¹) / Gd(4.0¹)] × 120",
+      "sample_description": null,
+      "chemical_composition": "Fe/Gd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "[(Fe(3.4¹) / Gd(3.8¹)] × 120",
+      "sample_description": null,
+      "chemical_composition": "Fe/Gd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "[(Fe(3.6¹) / Gd(3.8¹)] × 120",
+      "sample_description": null,
+      "chemical_composition": "Fe/Gd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "[(Fe(3.4¹) / Gd(4.0¹)] × 120",
+      "sample_description": null,
+      "chemical_composition": "Fe/Gd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "2D SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Two-dimensional small angle neutron scattering experiments performed at room temperature and varying the magnetic field.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "VSANS",
+      "sample_refs": [],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Temperature dependence 2D SANS measurements.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray microscopy",
+      "sample_refs": [],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Images captured using the Fe L2 edge measuring transmission with circularly polarized X-rays.",
+      "measurement_technique": "X-ray microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

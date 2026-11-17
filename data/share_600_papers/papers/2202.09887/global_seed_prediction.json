@@ -1,0 +1,346 @@
+{
+  "bibliographic": {
+    "title": "Multiscale structure of poly(ionic liquid)s in bulk and solutions by small angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Université Paris Saclay, Laboratoire Léon Brillouin, UMR 12 CNRS-CEA, CEA-Saclay, 91191, Gif-sur-Yvette, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Université Paris-Saclay, CNRS, Laboratoire de Physique des Solides, 91405, Orsay, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Univ Lyon, Université Lyon 1, CNRS, Ingénierie des Matériaux Polymères, UMR 5223, F-69003 Lyon, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tiago Outerelo Corvo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Antoine Jourdain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Shona O’Brien",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Frédéric Restagno",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Eric Drockenmuller",
+        "orcid": null,
+        "email": "eric.drockenmuller@univ-lyon1.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alexis Chennevière",
+        "orcid": null,
+        "email": "alexis.chenneviere@cea.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Poly(ionic liquid)s (PILs), similar to their ionic liquid (IL) analogues, present a nanostructure arising from local interactions. The influence of this nanostructure on the macromolecular conformation of polymer chains is investigated for the first time by means of an extensive use of small angle neutron scattering on a series of poly(1-vinyl-3-alkylimidazolium)s with varying alkyl side-chain length and counter-anion both in bulk and in dilute solutions. Radii of gyration are found to increase with the side-chain length in solution as a consequence of crowding interactions between neighboring monomers. In bulk, however, a non monotonic evolution of the radius of gyration reflects a change in chain flexibility and a potential screening of electrostatic interactions. Additionally at smaller scale, SANS provides an experimental estimation of both the chain diameter and the correlation length between neighboring chains, comparison of which unveils clear evidence of interdigitation of the alkyl side-chains. These structural features bring precious insights in the understanding of the dynamic properties of PILs.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "ANR-POILLU program",
+        "grant_id": "ANR-19CE06-0007"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experiments",
+      "Results",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Laboratoire Léon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "h-PC1I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-methylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "h-PC1TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-methylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "d-PC1I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-methylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "d-PC1TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-methylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "h-PC2I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-ethylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "h-PC2TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-ethylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "d-PC2I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-ethylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "d-PC2TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-ethylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "h-PC4I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-butylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "h-PC4TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-butylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "d-PC4I",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-butylimidazolium) iodide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "d-PC4TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-butylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "h-PC10Br",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-decylimidazolium) bromide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "h-PC10TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-decylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_15",
+      "sample_name": "d-PC10Br",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-decylimidazolium) bromide",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_16",
+      "sample_name": "d-PC10TFSI",
+      "sample_description": null,
+      "chemical_composition": "poly(1-vinyl-3-decylimidazolium) TFSI",
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS in THF",
+      "sample_refs": [
+        "sample_6",
+        "sample_10",
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS spectra of diluted and semi-dilute poly(1-vinyl-3-alkylimidazolium)s with TFSI counter-anions in deuterated THF.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS in IL",
+      "sample_refs": [
+        "sample_8",
+        "sample_12",
+        "sample_16"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS spectra of deuterated PILs diluted in hydrogenated 1-alkyl-3-methylimidazolium ILs.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "WAXS of bulk PILs",
+      "sample_refs": [
+        "sample_6",
+        "sample_10",
+        "sample_14",
+        "sample_13"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Wide Angle X-Ray Scattering measurements performed on films of hydrogenated PILs.",
+      "measurement_technique": "wide angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SANS of bulk PILs",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_5",
+        "sample_6",
+        "sample_9",
+        "sample_10",
+        "sample_13",
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS spectra of bulk PILs using H/D mixtures to extract the form factor of single polymer chains.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

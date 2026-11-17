@@ -1,0 +1,378 @@
+{
+  "bibliographic": {
+    "title": "The 3d and 5d electronic structures and orbital hybridization in Ba- and Ca-doped La2CoIrO6 double perovskite",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestraβe 85, 22607, Hamburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Chilton, Didcot, Oxfordshire, OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Centro Brasileiro de Pesquisas F´ısicas, 22290-180, Rio de Janeiro, RJ, Brazil"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Instituto de F´ısica, Universidade Federal de Goi´as, 74001-970, Goiˆania, GO, Brazil"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "J. R. L. Mardegan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L. S. I. Veiga",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "T. Pohlmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. S. Dhesi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. Francoual",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. R. Jesus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "C. Macchiutti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "E. M. Bittar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "L. Bufai¸cal",
+        "orcid": null,
+        "email": "lbufaical@ufg.br",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Here we present a detailed investigation of the Co and Ir local electronic structures in La1.5A0.5CoIrO6 (A = Ba, Ca) compounds in order to unravel the orbital hybridization mechanism in these CoIr-based double perovskites. Our results of x-ray powder diffraction, ac and dc magnetization, Co and Ir L2,3-edges and Co K-edge x-ray absorption spectroscopy and x-ray magnetic circular dichroism suggest a competition between magnetic interactions. A dominant antiferromagnetic coupling is found to be responsible for the ferrimagnetic behavior observed for A = Ca below ∼96 K, the competing magnetic phases and the cationic disorder in this compound giving rise to a spin-glass state at low temperatures. For the A = Ba, on the other hand, there is no evidence of long range order down to its spin-glass transition temperature. The remarkably different magnetic properties observed between these two compounds is discussed in terms of the structural distortion that alters the strength of the Co – Ir couplings, with a relevant role played by the Co 3d eg – Ir 5d jeff = 1/2 hybridization.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-06-21",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Funda¸c˜ao Carlos Chagas Filho de Amparo `a Pesquisa do Estado do Rio de Janeiro",
+        "grant_id": "E-26/202.798/2019"
+      },
+      {
+        "funder": "Funda¸c˜ao Carlos Chagas Filho de Amparo `a Pesquisa do Estado do Rio de Janeiro",
+        "grant_id": "E-26/211.291/2021"
+      },
+      {
+        "funder": "Conselho Nacional de Desenvlovimento Cient´ıfico e Tecnol´ogico",
+        "grant_id": "400633/2016-7"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Centro Brasileiro de Pesquisas F´ısicas"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_3",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ba0.5",
+      "sample_description": null,
+      "chemical_composition": "La1.5Ba0.5CoIrO6",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ca0.5",
+      "sample_description": null,
+      "chemical_composition": "La1.5Ca0.5CoIrO6",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution XRD data collected at room temperature.",
+      "measurement_technique": "x-ray powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dc magnetic susceptibility",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Zero-field cooled (ZFC) and field cooled (FC) dc magnetic susceptibility data.",
+      "measurement_technique": "dc magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ac magnetic susceptibility",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real part of the ac magnetic susceptibility curves measured at different frequencies.",
+      "measurement_technique": "ac magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "magnetization M(H)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Magnetization as a function of H measured at 5 K.",
+      "measurement_technique": "dc magnetization",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Co L2,3-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "XAS spectra at the Co L2,3-edges.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Co L2,3-edge XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "XMCD spectra of Co L2,3-edges taken at 2 K with H = 5 T.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Co K-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Co K-edge XAS spectra measured at 5 K.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "Co K-edge XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Co K-edge XMCD signals measured at T = 5 K and H = 5 T.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_9",
+      "dataset_name": "Ir L2,3-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Ir L2,3-edge XAS spectra measured at 5 K.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_10",
+      "dataset_name": "Ir L2,3-edge XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Ir L2,3-edge XMCD spectra measured at T = 5 K and H = 5 T.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_11",
+      "dataset_name": "Ir L3-edge XMCD hysteresis",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Element-specific XMCD hysteresis loops obtained by monitoring the Ir L3-edge XMCD signal as a function of H.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

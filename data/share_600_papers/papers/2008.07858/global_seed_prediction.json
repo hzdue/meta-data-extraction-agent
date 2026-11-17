@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Small-angle X-ray scattering from GaN nanowires on Si(111): facet truncation rods, facet roughness, and Porod’s law",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Paul-Drude-Institut f¨ur Festk¨orperelektronik, Leibniz-Institut im Forschungsverbund Berlin e. V., Hausvogteiplatz 5–7, 10117 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "European Synchrotron Radiation Facility, 71 avenue des Martyrs, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Grupo de electr´onica y semiconductores,Dpto. F´ısica Aplicada, Universidad Aut´onoma de Madrid, C/ Francisco Tom´as y Valiente 7, 28049 Madrid, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Vladimir M. Kaganer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Oleg V. Konovalov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sergio Fern´andez-Garrido",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Small-angle X-ray scattering from GaN nanowires grown on Si(111) is studied experimentally and modeled by means of Monte Carlo simulations. It is shown that the scattering intensity at large wave vectors does not follow Porod’s law I(q) ∝q−4. The intensity depends on the orientation of the side facets with respect to the incident X-ray beam. It is maximum when the scattering vector is directed along a facet normal, as a reminiscence of the surface truncation rod scattering. At large wave vectorsq, the scattering intensity is found to be decreased by surface roughness. A root mean square roughness of 0.9 nm, which is the height of just 3–4 atomic steps per micron long facet, already gives rise to a strong intensity reduction.",
+    "keywords": [
+      "small-angle scattering",
+      "GISAXS",
+      "nanowires",
+      "Porod’s law",
+      "facet truncation rods"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020",
+    "venue": "Acta Crystallographica Section A Foundations of Crystallography",
+    "publisher": "International Union of Crystallography",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish program Ram´on y Cajal",
+        "grant_id": "RYC2016-19509"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experiment",
+      "3. Analysis of the measured intensities",
+      "4. Calculation of the scattering intensity",
+      "5. Results",
+      "6. Discussion and summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "sample 1",
+      "sample_description": "GaN NWs with average length of 230 nm.",
+      "chemical_composition": "GaN",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "sample 2",
+      "sample_description": "GaN NWs with average length of 650 nm.",
+      "chemical_composition": "GaN",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "sample 3",
+      "sample_description": "GaN NWs with average length of 985 nm.",
+      "chemical_composition": "GaN",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffractometer",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the full width at half-maximum (FWHM) of the GaN 0002 and 1100 reflections to determine tilt and twist ranges.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence small angle X-ray scattering measurements performed at 22 keV with azimuthal rotation of the sample.",
+      "measurement_technique": "grazing incidence small angle X-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

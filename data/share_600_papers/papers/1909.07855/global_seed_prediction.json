@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "Stability and Metastability of Skyrmions in Thin Lamellae of Cu2OSeO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Durham University, Department of Physics, South Road, Durham, DH1 3LE, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Didcot, OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "University of Warwick, Department of Physics, Coventry, CV4 7AL, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "University of Cambridge, Department of Materials Science and Metallurgy, Cambridge, CB3 0FS, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. N. Wilson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. T. Birch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Stefanˇciˇc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. C. Twitchett-Harrison",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. Balakrishnan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "T. J. Hicken",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "P. Steadman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "P. D. Hatton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report small angle X-ray scattering (SAXS) measurements of the skyrmion lattice in two 200 nm thick Cu2OSeO3 lamellae aligned with the applied magnetic field parallel to the out of plane [110] or [100] crystallographic directions. Our measurements show that the equilibrium skyrmion phase in both samples is expanded significantly compared to bulk crystals, existing between approximately 30 and 50 K over a wide region of magnetic field. This skyrmion state is elliptically distorted at low fields for the [110] sample, and symmetric for the [100] sample, possibly due to crystalline anisotropy becoming more important at this sample thickness than it is in bulk samples. Furthermore, we find that a metastable skyrmion state can be observed at low temperature by field cooling through the equilibrium skyrmion pocket in both samples. In contrast to the behavior in bulk samples, the volume fraction of metastable skyrmions does not significantly depend on cooling rate. We show that a possible explanation for this is the change in the lowest temperature of the skyrmion state in this lamellae compared to bulk, without requiring different energetics of the skyrmion state.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UK Skyrmion Project EPSRC Programme Grant",
+        "grant_id": "EP/N032128/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENT DETAILS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu2OSeO3 [100]",
+      "sample_description": "200 ± 25 nm thick lamella with lateral dimensions of 4 x 6 µm.",
+      "chemical_composition": "Cu2OSeO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cu2OSeO3 [110]",
+      "sample_description": "200 ± 25 nm thick lamella with lateral dimensions of 4 x 6 µm.",
+      "chemical_composition": "Cu2OSeO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "small angle resonant soft X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of the magnetic phase diagram as a function of temperature and magnetic field using circularly polarized X-rays at the copper L3 absorption edge.",
+      "measurement_technique": "small angle resonant soft X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "energy scan of X-ray transmission",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Characterization of magnetic scattered intensity as a function of energy to determine optimal energy for magnetic measurements.",
+      "measurement_technique": "X-ray transmission",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

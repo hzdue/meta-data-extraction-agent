@@ -1,0 +1,78 @@
+{
+  "paper_id": "2604.00907",
+  "split_role": "pseudo_train",
+  "source_pdf": "papers/2604.00907/paper.pdf",
+  "pdf_sha256": "1153331e97293421d5d2727bfcd67d50daf97a3d4859a08a1c6d09f8406ee1fd",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "preparation_source_sha256": "ec1cf5a7f93463c77564b7a4e2e83b8f0b98bbd2658bb6cb587c29714b772692",
+  "text_sha256": "7452940376200f6b6fedf0bf144ef8a4f64f969530f825a71db4742919397c4b",
+  "text_chars": 48613,
+  "pages": 11,
+  "plain_text_chars": 47897,
+  "warnings": [],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 5200,
+      "word_presence": 0.978
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 4980,
+      "word_presence": 0.99
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 2940,
+      "word_presence": 0.9899
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 4231,
+      "word_presence": 1.0
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 3177,
+      "word_presence": 1.0
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 4902,
+      "word_presence": 0.9965
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 5682,
+      "word_presence": 0.9946
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 5042,
+      "word_presence": 0.9934
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 4629,
+      "word_presence": 0.9969
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 5197,
+      "word_presence": 1.0
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 1897,
+      "word_presence": 1.0
+    }
+  ],
+  "low_word_presence_pages": []
+}

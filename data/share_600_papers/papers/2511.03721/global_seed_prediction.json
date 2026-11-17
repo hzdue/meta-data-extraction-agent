@@ -1,0 +1,340 @@
+{
+  "bibliographic": {
+    "title": "Peierls Transition and Magnetism in a Dirac Semimetal: CaMnBi",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Condensed Matter Physics and Materials Science Division, Brookhaven National Laboratory, Upton, NY 11973, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Ames National Laboratory, U.S. DOE, Iowa State University, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Iowa State University, Ames Iowa 50010, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute for Experimental Physics IV, Ruhr-University Bochum, 44801 Bochum, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Aashish Sapkota",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Niraj Aryal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Xiao Hu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Masaaki Matsuda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Yan Wu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Guangyong Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "John M. Wilde",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Andreas Kreyssig",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Paul C. Canfield",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Cedomir Petrovic",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "John M. Tranquada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Igor A. Zaliznyak",
+        "orcid": null,
+        "email": "zaliznyak@bnl.gov",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Dirac semimetals of the form A Mn X 2 ( A = alkaline-earth or divalent rare earth; X = Bi, Sb) host conducting square-net Dirac-electron layers of X atoms interleaved with antiferromagnetic Mn X layers. Hypervalent pnictogen square nets have long been predicted to host an electronically driven Peierls instability, whereas low-temperature anomalies in CaMnBi2 near T∗ ∼ 50 K have previously been discussed in terms of possible magnetic canting, TRS breaking, and a resulting Weyl-semimetal (WSM) state. Here we use polarized and unpolarized neutron diffraction, x-ray diffraction, and density functional theory (DFT) to investigate this transition in single-crystal CaMnBi2. We observe a coupled structural/magnetic symmetry-lowering transition at T∗ = 46(2) K from a tetragonal lattice with C-type antiferromagnetism to an orthorhombic phase with unit-cell doubling along the c axis, minimal impact on magnetism, and no measurable uniform spin canting (≲ 2◦ ). Superlattice peak intensities and the lattice distortion reveal a continuous second-order transition governed by a single primary order parameter. The refined displacement pattern corresponds to a zigzag bond-order-wave (BOW) modulation of in-plane Bi–Bi bonds, providing direct diffraction evidence for a Peierls-type instability of the Dirac-electron Bi layer anticipated by Hoffmann and co-workers [W. Tremel and R. Hoffmann, J. Am. Chem. Soc. 109 , 124 (1987); G. A. Papoian and R. Hoffmann, Angew. Chem. Int. Ed. 39 , 2408 (2000)]. These results identify the T∗ anomaly as an intrinsic Dirac-electron-driven Peierls/BOW transition of the Bi square net.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-10-08",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Office of Basic Energy Sciences, U.S. Department of Energy",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "U. S. Department of Energy",
+        "grant_id": "DE-AC02-07CH11358"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. STRUCTURE AND PHYSICAL PROPERTIES OF CaMnBi2",
+      "III. EXPERIMENTAL DETAILS",
+      "IV. EXPERIMENTAL RESULTS AND ANALYSIS",
+      "V. DFT ANALYSIS OF CRYSTAL STRUCTURE AND ELECTRONIC PROPERTIES",
+      "VI. DISCUSSION",
+      "VII. SUMMARY AND CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    },
+    {
+      "id": "facility_3",
+      "name": "Ames National Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CaMnBi2",
+      "sample_description": "Single crystals grown using a high-temperature self-flux method.",
+      "chemical_composition": "CaMnBi2",
+      "sample_state": "single crystal",
+      "sample_mass": "160 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ca1-x Nax MnBi2 x=0.05",
+      "sample_description": "Na-substituted CaMnBi2 crystal.",
+      "chemical_composition": "Ca1-x Nax MnBi2 x=0.05",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ca1-x Nax MnBi2 x=0.09",
+      "sample_description": "Na-substituted CaMnBi2 crystal.",
+      "chemical_composition": "Ca1-x Nax MnBi2 x=0.09",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetization and transport measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Bulk characterization via magnetization and in-plane resistivity measurements.",
+      "measurement_technique": "magnetization and transport measurements",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "unpolarized neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Unpolarized neutron scattering measurements performed on the SPINS triple-axis spectrometer.",
+      "measurement_technique": "unpolarized neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "polarized neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarized neutron diffraction measurements carried out on the HB-1 thermal neutron triple-axis spectrometer.",
+      "measurement_technique": "polarized neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "unpolarized neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Unpolarized neutron diffraction measurements performed in four-circle mode on the DEMAND (HB-3A) diffractometer.",
+      "measurement_technique": "unpolarized neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "single-crystal x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Single-crystal x-ray diffraction measurements using Cu Ka 1 radiation.",
+      "measurement_technique": "single-crystal x-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "unpolarized neutron diffraction on Na-doped samples",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of the (0, 0, 2) reflection in Na-substituted CaMnBi2 crystals.",
+      "measurement_technique": "unpolarized neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Chemical Bonding Governs Complex Magnetism in MnPt5P",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Louisiana State University, Baton Rouge, LA, 70803, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Chemistry and Nanoscience Department, National Renewable Energy Laboratory, Golden, CO, 80401, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD, 20899, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Xin Gui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ryan A. Klein",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Craig M. Brown",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Weiwei Xie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Subtle changes in chemical bonds may result in dramatic revolutions in magnetic properties in solid state materials. MnPt5P, a new derivative of the rare-earth-free ferromagnetic MnPt5As, was discovered and is presented in this work. MnPt5P was synthesized and its crystal structure and chemical composition were characterized by X-ray diffraction as well as energy-dispersive X-ray spectroscopy. Accordingly, MnPt5P crystallizes in the layered tetragonal structure with the space group P 4/ mmm (No. 123), in which the face-shared Mn@Pt12 polyhedral layers are separated by P layers.  In contrast to the ferromagnetism observed in MnPt5As, the magnetic properties measurements on MnPt5P show antiferromagnetic ordering occurs at ~188 K with a strong magnetic anisotropy in and out of the ab -plane. Moreover, a spin-flop transition appears when a high magnetic field is applied. An A-type antiferromagnetic structure was obtained from the analysis of powder neutron diffraction (PND) patterns collected at 150 K and 9 K. Calculated electronic structures imply that hybridization of Mn-3 d and Pt-5 d orbitals are critical for both the structural stability and observed magnetic properties. Semi-empirical molecular orbitals calculations on both MnPt5P and MnPt5As indicate that the lack of 4 p character on the P atoms at the highest occupied molecular orbital (HOMO) in MnPt5P may cause the different magnetic behavior in MnPt5P compared to MnPt5As. The discovery of MnPt5P, along with our previously reported MnPt5As, parametrizes the end points of a tunable system to study the chemical bonding which tunes the magnetic ordering from ferromagnetism to antiferromagnetism with strong spinorbit coupling (SOC) effect.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF-DMR-1944965"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Fuel Cell Technologies Office",
+        "grant_id": "DE-AC3608GO28308"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Section",
+      "Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Institute for Standards and Technology Center for Neutron Diffraction"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnPt5P",
+      "sample_description": "Polycrystalline and single crystal samples synthesized from Mn, Pt, and red P powders.",
+      "chemical_composition": "MnPt5P",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "PXRD patterns of the synthesized sample measured with a Rigaku MiniFlex 600 powder X-ray diffractometer.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Single crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SC-XRD experiments conducted on a Bruker Apex II diffractometer to determine the crystal structure.",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "powder neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "PND patterns collected at 295.0 K, 150.0 K, and 9.0 K using the BT-1 high-resolution powder diffractometer.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "scanning electron microscope",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Crystal images and chemical compositions measured using a JSM-6610 LV SEM.",
+      "measurement_technique": "scanning electron microscope",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "magnetic properties measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetic susceptibility and magnetization measured from 1.8 K to 350 K using a Quantum Design Dynacool PPMS.",
+      "measurement_technique": "magnetic properties measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "resistivity measurement",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependence of resistivity measured between 2 K and 350 K using a four-probe method.",
+      "measurement_technique": "resistivity measurement",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "heat capacity measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity data collected between 1.8 K and 225 K using a standard relaxation calorimetry method.",
+      "measurement_technique": "heat capacity measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

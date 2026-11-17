@@ -1,0 +1,474 @@
+{
+  "bibliographic": {
+    "title": "Kondo quasiparticle dynamics observed by resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Solid State and Materials Physics, Technical University of Dresden, 01062 Dresden, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Synchrotron Radiation Facility, BP 220, F-38043 Grenoble Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics and Electronics, Graduate School of Engineering, Osaka Prefecture University, Sakai, Osaka 599-8531, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute for Solid State Physics, TU Wien, 1040 Vienna, Austria"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute of Physics of the CAS, Cukrovarnick´a 10, 162 00 Praha 6, Czechia"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute of Physics II, University of Cologne, Cologne, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Max Planck Institute for Chemical Physics of Solids, Dresden, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Advanced Light Source, Lawrence Berkeley Laboratory, Berkeley, California 94720, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Helmholtz Zentrum Berlin, Bessy II, D-12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "ALBA Synchrotron Light Source, E-08290 Cerdanyola del Vall`es, Barcelona, Spain"
+      },
+      {
+        "id": "aff_13",
+        "label": "13",
+        "text": "Physik-Department, Technische Universit¨at M¨unchen, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_14",
+        "label": "14",
+        "text": "Institute for Advanced Studies, Technische Universit¨at M¨unchen, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_15",
+        "label": "15",
+        "text": "Chemical Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+      },
+      {
+        "id": "aff_16",
+        "label": "16",
+        "text": "Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_17",
+        "label": "17",
+        "text": "Department of Physics and Astronomy, University of California, Irvine, California 92697, USA"
+      },
+      {
+        "id": "aff_18",
+        "label": "18",
+        "text": "Laboratory for Neutron and Muon Instrumentation, Paul Scherrer Institute, CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_19",
+        "label": "19",
+        "text": "Physik-Institut, Universit¨at Z¨urich, Winterthurerstrasse 190, CH-8057 Z¨urich, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. C. Rahn",
+        "orcid": null,
+        "email": "marein.rahn@tu-dresden.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "K. Kummer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Hariki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "K.-H. Ahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Kuneˇs",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Amorese",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. D. Denlinger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "D.-H. Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "M. Hashimoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "E. Rienks",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "M. Valvidares",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "F. Haslbeck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_13",
+          "aff_14"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "D. D. Byler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "K. J. McClellan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "E. D. Bauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "J.-X. Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "C. H. Booth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_15"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "A. D. Christianson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_16"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "J. M. Lawrence",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_17",
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "F. Ronning",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "M. Janoschek",
+        "orcid": null,
+        "email": "marc.janoschek@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_14",
+          "aff_18",
+          "aff_19"
+        ]
+      }
+    ],
+    "abstract": "Effective models focused on pertinent low-energy degrees of freedom have substantially contributed to our qualitative understanding of quantum materials. An iconic example, the Kondo model, was key to demonstrating that the rich phase diagrams of correlated metals originate from the interplay of localized and itinerant electrons. Modern electronic structure calculations suggest that to achieve quantitative material-specific models, accurate consideration of the crystal field and spin-orbit interactions is imperative. This poses the question of how local high-energy degrees of freedom become incorporated into a collective electronic state. Here, we use resonant inelastic x-ray scattering (RIXS) on CePd3 to clarify the fate of all relevant energy scales. We find that even spin-orbit excited states acquire pronounced momentum-dependence at low temperature —the telltale sign of hybridization with the underlying metallic state. Our results demonstrate how localized electronic degrees of freedom endow correlated metals with new properties, which is critical for a microscopic understanding of superconducting, electronic nematic, and topological states.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "646807-EXMAG"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "21K13884"
+      },
+      {
+        "funder": "Czech Science Foundation",
+        "grant_id": "19-06433S"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "SE1441/5-2"
+      },
+      {
+        "funder": "W¨urzburg-Dresden Cluster of Excellence ct.qmat",
+        "grant_id": "EXC2147, Project ID 390858490"
+      },
+      {
+        "funder": "European Union Seventh Framework Programme",
+        "grant_id": "291763"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Stanford Synchrotron Radiation Lightsource"
+    },
+    {
+      "id": "facility_3",
+      "name": "Advanced Light Source"
+    },
+    {
+      "id": "facility_4",
+      "name": "BESSY-II"
+    },
+    {
+      "id": "facility_5",
+      "name": "ALBA Synchrotron Light Source"
+    },
+    {
+      "id": "facility_6",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CePd3",
+      "sample_description": "Cubic CePd3 (AuCu3 structure, space group Pm-3m, lattice parameter a = 4.13 A).",
+      "chemical_composition": "CePd3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ARPES",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2",
+        "facility_3",
+        "facility_4"
+      ],
+      "dataset_description": "Vacuum ultraviolet angle-resolved photoemission spectroscopy to resolve electronic structure within few meV of the Fermi level.",
+      "measurement_technique": "angle-resolved photoemission spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "M5-edge resonant inelastic x-ray scattering to probe Kondo excitations and their momentum dependence.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_5"
+      ],
+      "dataset_description": "Ce M-edge x-ray absorption spectroscopy to probe RIXS intermediate states.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "INS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_6"
+      ],
+      "dataset_description": "Neutron time-of-flight spectra to corroborate two-particle dynamics in the 50-250 meV regime.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

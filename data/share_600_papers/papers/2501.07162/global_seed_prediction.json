@@ -1,0 +1,178 @@
+{
+  "bibliographic": {
+    "title": "Observation of magnetic skyrmion lattice in Cr 0.82 Mn 0.18 Ge by small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, D-13109 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Bielefeld University, Bielefeld 33501, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Theoretical Physics of Complex Systems, Institute for Basic Science, Daejeon 34126, Republic of Korea"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), PSI Center for Neutron and Muon Sciences, Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Victor Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Tapas Samanta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Oleg I. Utesov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jonathan S. White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Luana Caron",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Incommensurate magnetic phases in chiral cubic crystals are an established source of topological spin textures such as skyrmion and hedgehog lattices, with potential applications in spintronics and information storage. We report a comprehensive small-angle neutron scattering (SANS) study on the B20-type chiral magnet Cr0.82Mn0.18Ge, exploring its magnetic phase diagram and confirming the stabilization of a skyrmion lattice under low magnetic fields. Our results reveal a helical ground state with a decreasing pitch from 40 nm to 35 nm upon cooling, and a skyrmion phase stable in applied magnetic fields of 1030 mT, and over an unusually wide temperature range for chiral magnets of 6 K (∼ TC/2 < T < TC, TC = 13 K). The skyrmion lattice forms a standard two-dimensional hexagonal coordination that can be trained into a single domain, distinguishing it from the three-dimensional hedgehog lattice observed in MnGe-based systems. Additionally, we demonstrate the persistence of a metastable SkL at 2 K, even at zero field. These findings advance our understanding of magnetic textures in Cr-based B20 compounds, highlighting Cr0.82Mn0.18Ge as a promising material for further exploration in topological magnetism.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SNSF",
+        "grant_id": "Project 200021 188707"
+      },
+      {
+        "funder": "Institute for Basic Science",
+        "grant_id": "Project No. IBSR024-D1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Paul Scherrer Institut"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cr0.82Mn0.18Ge",
+      "sample_description": "Polycrystalline ingot of B20-type chiral magnet.",
+      "chemical_composition": "Cr0.82Mn0.18Ge",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ac-susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Frequency-dependent ac-susceptibility measurements to characterize the magnetic phase diagram.",
+      "measurement_technique": "ac-susceptibility",
+      "measurement_mode": [
+        "TemperatureScan",
+        "FrequencyScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements in transverse and longitudinal magnetic field geometries to identify helical, conical, and skyrmion lattice states.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "magnetotransport",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetoresistance and Hall resistance measurements to observe the topological Hall effect.",
+      "measurement_technique": "magnetotransport",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

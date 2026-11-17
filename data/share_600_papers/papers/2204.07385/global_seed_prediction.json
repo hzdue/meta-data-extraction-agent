@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "In situ small-angle X-ray scattering reveals strong condensation of DNA origami during silicification",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Faculty of Physics and CeNS, Ludwig-Maximilians-Universiät München, Geschwister-Scholl-Platz 1, 80539 Munich, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Max Planck Institute of Biochemistry and Center for Nanoscience (CeNS), Ludwig-MaximiliansUniversität München, Am Klopferspitz 18, 82152 Martinsried, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Martina F. Ober",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anna Baptist",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lea Wassermann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Amelie Heuer-Jungemann",
+        "orcid": null,
+        "email": "heuer-jungemann@biochem.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Bert Nickel",
+        "orcid": null,
+        "email": "nickel@lmu.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The silicification of DNA origami structures increases their mechanical and thermal stability and provides chemical protection. So far, it is unclear how silicification affects the internal structure of the DNA origami and whether the whole DNA framework is embedded or if silica just forms an outer shell. By using in situ smallangle X-ray scattering (SAXS), we show that the net-cationic silica precursor TMAPS induces substantial condensation of the DNA origami, which is further enhanced by the addition of TEOS at early reaction times to an almost 10 % size reduction. We identify the SAXS Porod invariant as a reliable, model-free parameter for the evaluation of the amount of silica formation at a given time. Contrast matching of the DNA double helix Lorentzian peak reveals that silica growth also occurs on the inner surfaces of the origami. The less polar silica forming within the origami structure, replacing more than 40 % of the internal hydration water causes a hydrophobic effect: origami condensation. In the maximally condensed state, thermal stabilization of the origami up to 60 °C could be observed. If the reaction is driven beyond this point, the overall size of the silicified origami increases again due to more and more silica deposition on the DNA origami. DNA origami objects with flat surfaces show a strong tendency towards aggregation during silicification, presumably driven by the very same entropic forces causing condensation. Our studies provide novel insights into the silicification reaction and hints for the formulation of optimized reaction protocols.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "SFB1032 (Nanoagents) projects A06 and A07 number 201269156"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "05K19WMA (LUCENT)"
+      },
+      {
+        "funder": "Bavarian State Ministry of Science, Research, and Arts",
+        "grant_id": "SolarTechnologies go Hybrid (SolTech)"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "Emmy Noether program (project no. 427981116)"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-0520547"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Results",
+      "Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ELETTRA synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "24HB",
+      "sample_description": "24 helix bundles DNA origami structure.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "4-LB",
+      "sample_description": "Four-layered origami bricks DNA origami structure.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "24HB@SiO2",
+      "sample_description": "Silicified 24 helix bundles DNA origami.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "4-LB@SiO2",
+      "sample_description": "Silicified four-layered origami bricks.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in house SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In situ monitoring of the silicification process using a Mo X-ray source with a tumbling sample cell.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Synchrotron SAXS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS data of 24HB@SiO2 before and after heating to 60 °C for 30 min.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TEM Imaging",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Visualization of bare and silicified DNA origami structures.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

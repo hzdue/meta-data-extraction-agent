@@ -1,0 +1,347 @@
+{
+  "bibliographic": {
+    "title": "Observing Differential Spin Currents by Resonant Inelastic X-ray Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Bragg Centre for Materials Research, University of Leeds, Leeds LS2 9JT, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Physics and Astronomy, University of Leeds, Leeds LS2 9JT, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Advanced Science Research Center, Japan Atomic Energy Agency, 2-4 Shirakata, Tokai-mura, Naka-gun, Ibaraki, Japan 319-1195"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Center for Functional Nanomaterials, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics, Columbia University, New York, New York 10027, USA."
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Applied Physics, The University of Tokyo, Tokyo 113-8656, Japan"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Institute for AI and Beyond, The University of Tokyo, Tokyo 113-8656, Japan"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "WPI Advanced Institute for Materials Research, Tohoku University, Sendai 980-8577, Japan"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yanhong Gu",
+        "orcid": null,
+        "email": "gyhshan@gmail.com",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Joseph Barker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jiemin Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Takashi Kikkawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Fernando Camino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kim Kisslinger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "John Sinsheimer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Lukas Lienhard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jackson J. Bauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Caroline A. Ross",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Dmitri N. Basov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Eiji Saitoh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10",
+          "aff_11",
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Gerrit E. W. Bauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": "bisogni@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Controlling spin currents, i.e., the flow of spin angular momentum, in small magnetic devices is the principal objective of spin electronics, a main contender for future energy efficient information technologies. Surprisingly, a pure spin current has never been measured directly since the associated electric stray fields and/or shifts in the non-equilibrium spin-dependent distribution functions are too small for conventional experimental detection methods optimized for charge transport. Here we report that resonant inelastic x-ray scattering (RIXS) can bridge this gap by measuring the spin current carried by magnons – the quanta of the spin wave excitations of the magnetic order – in the presence of temperature gradients across a magnetic insulator. This is possible due to the sensitivity of the momentum- and energy-resolved RIXS intensity to minute changes in the magnon distribution under non-equilibrium conditions. We use the Boltzmann equation in the relaxation time approximation to extract transport parameters, such as the magnon lifetime at finite momentum, essential for the realization of magnon spintronics.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Basic Energy Sciences (BES)",
+        "grant_id": "DE-SC0019443"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "DESC0012704"
+      },
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR20C1"
+      },
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR20T2"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP19H05600"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP24K01326"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP22H05114"
+      },
+      {
+        "funder": "MEXT Initiative to Establish Next-generation Novel Integrated Circuits Centers (X-NICS)",
+        "grant_id": "JPJ011438"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "MAGNONS IN YTTRIUM IRON GARNET",
+      "SPIN CURRENT UNDER TEMPERATURE GRADIENT",
+      "MICROSCOPIC MODEL OF MAGNON SPIN CURRENT",
+      "PERSPECTIVE"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "yttrium iron garnet Y3Fe5O12 (YIG)",
+      "sample_description": "A single crystal slab with [1-10] surface normal and [111] axis in the film and scattering plane.",
+      "chemical_composition": "Y3Fe5O12",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "MTI Corporation"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Fe L3, 2-edge XAS measured in XMCD mode at 300 K.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS spectra of YIG single crystal at q = [0.2, 0.2, 0.2] r.l.u. at T = 300 K.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Non-equilibrium RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS spectra measured on a SSE device under temperature gradients at 300 K and 80 K.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

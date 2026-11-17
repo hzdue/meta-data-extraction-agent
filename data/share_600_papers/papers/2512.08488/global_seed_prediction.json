@@ -1,0 +1,457 @@
+{
+  "bibliographic": {
+    "title": "Single-Particle X-ray Scattering Reveals a High Local Supersaturation of Precursors as the Origin of CoO Assembly Formation",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Institute for Nanostructure and Solid-State Physics, Center for Hybrid Nanostructures, University of Hamburg, Hamburg 22761, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "European XFEL, 22869 Schenefeld, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Center for Free-Electron Laser Science CFEL, Deutsches Elektronen-Synchrotron DESY, Hamburg 22607, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg 22761, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg 22607, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Department of Physics, Universität Hamburg, 22761 Hamburg, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "#",
+        "text": "The Hamburg Center for Ultrafast Imaging, Hamburg 22761, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "@",
+        "text": "Institute of Integrated Natural Science, University of Koblenz, Koblenz 56070, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sani Y. Harouna-Mayer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lars Klemeyer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Cecilia A. Zito",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Johan Bielecki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Xuemei Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Davide Derelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Armando D. Estillore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tjark L. R. Groene",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Lukas V. Haas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Romain Letrun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Chan Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jayanath C. P. Koliyadu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Abhishek Mall",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Parichita Mazumder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Diogo V. M. Melo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Adam R. Round",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Amit K. Samanta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Abhisakh Sarma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Zhou Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Xiao Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Patrik Vagovic",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Tamme Wollweber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Richard Bean",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "Jochen K¨upper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "Henry N. Chapman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_26",
+        "full_name": "Dorota Koziej",
+        "orcid": null,
+        "email": "dorota.koziej@uni-hamburg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_27",
+        "full_name": "Kartik Ayyer",
+        "orcid": null,
+        "email": "kartik.ayyer@mpsd.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Single-particle small-angle X-ray scattering (SP-SAXS) enables quantitative morphological analysis by recording diffraction snapshots from isolated particles using X- ray free-electron laser (XFEL) pulses. Unlike conventional X-ray techniques, which average over the entire illuminated sample volume, SP-SAXS resolves low-contrast, less \nabundant, or transient species within heterogeneous particle populations that would otherwise remain hidden. Here, we apply SP-SAXS to investigate the solvothermal formation of CoO nanocrystal assemblies from a Co(acac)3 precursor in benzyl alcohol. The single-particle data reveal amorphous, uniform-density Co(acac)2 spheres as transient intermediates that directly crystallize into cavernous CoO nanocrystal assemblies, which explains why CoO forms as hierarchical aggregates rather than as isolated nanocrystals. These results demonstrate that SP-SAXS provides a powerful framework for disentangling morphological heterogeneity in nanoparticle formation processes.",
+    "keywords": [
+      "SPI",
+      "CDI",
+      "SAXS",
+      "Single Particle X-ray Scattering",
+      "CoO nanocrystal assembly"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "EXC 2056, project ID 390715994"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "818941"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Experimental"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European X-ray Free Electron Laser"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CoO nanocrystal assemblies",
+      "sample_description": "Assemblies formed from Co(acac)3 precursor in benzyl alcohol at 160 °C.",
+      "chemical_composition": "CoO",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "amorphous Co(acac)2 spheres",
+      "sample_description": "Transient intermediates in the formation of CoO assemblies.",
+      "chemical_composition": "Co(acac)2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "commercial Co(acac)2",
+      "sample_description": "Commercial precursor used for control precipitation experiments.",
+      "chemical_composition": "Co(acac)2",
+      "sample_state": "powder",
+      "sample_mass": "55.4 mg",
+      "supplier_or_creator": "Acros"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SP-SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Single-particle small-angle X-ray scattering snapshots of reaction aliquots at 20, 30, and 40 min.",
+      "measurement_technique": "single-particle small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Conventional SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Conventional SAXS of reaction solutions in benzyl alcohol and redispersed in ethanol.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Total X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Total X-ray scattering data used for pair distribution function (PDF) analysis.",
+      "measurement_technique": "total X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Insights into Formation of Bicontinuous Emulsion Gels via in-situ (Ultra-)Small Angle X-ray Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Van ‘t Hoff Laboratory for Physical and Colloid Chemistry, Department of Chemistry, Debye Institute for Nanomaterials Science, Utrecht University, Utrecht, The Netherlands"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "TNO Environmental Modelling, Sensing and Analysis, Princetonlaan 6, 3584CB Utrecht, The Netherlands"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ESRF – The European Synchrotron, 71 Avenue des Martyrs, 38043 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Meyer T. Alting",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Dominique M.E. Thies-Weesie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alexander M. van Silfhout",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mariska de Ruiter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Theyencheri Narayanan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Martin F. Haase",
+        "orcid": null,
+        "email": "m.f.haase@uu.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Andrei V. Petukhov",
+        "orcid": null,
+        "email": "a.v.petukhov@uu.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Nanostructured materials formed via kinetically controlled self-assembly processes gather more interest nowadays. Bicontinuous emulsion gels stabilized by colloidal particles, called bijels, are attractive materials in soft-matter as they combine bulk properties of two immiscible liquids into an interwoven network structure. The limited understanding of the complex formation phenomena of bijels restricts the control over the synthesis, and so its applicability. In this work, in-situ (ultra-) small-angle X-ray scattering is applied to gain insight into the phase separation and self-assembly kinetics of bijels formed via solvent transfer induced phase separation. An X-ray compatible microfluidic setup allows accessing the process kinetics with a millisecond resolution. The formation of such bijels is shown to occur via three consecutive steps related to fluid mechanics, nanoparticle self-assembly and liquid-liquid phase separation. This time-resolved monitoring technique offers valuable insights into the structural evolution of kinetically controlled materials and enhances our understanding of the formation of bicontinuous emulsion gels.",
+    "keywords": [
+      "bijels",
+      "colloids",
+      "phase separation",
+      "self-assembly",
+      "(U)SAXS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "802636"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Nanoparticle assembly during phase separation",
+      "Bicontinuous network channel formation"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "bijel precursor mixture",
+      "sample_description": "Precursor mixture containing oil, aqueous phase, solvent, nanoparticles and surfactant.",
+      "chemical_composition": "diethyl phthalate, water, glycerol, 1-propanol, silica Ludox TMA, cetyltrimethylammonium bromide",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "bijel fragments",
+      "sample_description": "Pinched-off fragments fabricated via solvent transfer induced phase separation.",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "aqueous Ludox TMA dispersions",
+      "sample_description": "Silica nanoparticles acidified to pH 1.8.",
+      "chemical_composition": "silica Ludox TMA",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Grace GmbH"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in-situ SAXS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved monitoring of nanoparticle self-assembly during bijel formation.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in-situ USAXS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of phase separation and bicontinuous network formation on the micron scale.",
+      "measurement_technique": "ultra-small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "static SAXS/USAXS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Characterization of the structure of silica Ludox TMA nanoparticles.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    }
+  ]
+}

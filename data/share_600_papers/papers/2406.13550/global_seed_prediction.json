@@ -1,0 +1,250 @@
+{
+  "bibliographic": {
+    "title": "Local structure maturation in high entropy oxide (Mg,Co,Ni,Cu,Zn)1-x(Cr,Mn)xO thin films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, James Madison University, Harrisonburg, VA 22807, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Science and Engineering, Virginia Polytechnic Institute and State University, Blacksburg, VA 24061, USA."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Illinois Institute of Technology, Chicago, IL 60616, USA."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, The Pennsylvania State University, University Park, PA 16802, USA."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Materials Science and Engineering, University of Michigan, Ann Arbor, MI 48104, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Gabriela E. Niculescu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Gerald R. Bejger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "John P. Barber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joshua T. Wright",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Saeed S. I. Almishal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Matthew Webb",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Sai Venkata Gayathri Ayyagari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jon-Paul Maria",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Nasim Alem",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "John T. Heron",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Christina M. Rost",
+        "orcid": null,
+        "email": "cmrost@vt.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "High entropy oxides (HEO)s have garnered much interest due to their available high degree of tunability. Here, we study the local structure of (MgNiCuCoZn)0.167(MnCr)0.083O, a composition based on the parent HEO (MgNiCuCoZn)0.2O.We synthesized a series of thin films via pulsed laser deposition at incremental oxygen partial pressures. X-ray diffraction shows lattice parameter to decrease with increased pO2 pressures until the onset of phase separation. X-ray absorption fine structure shows that specific atomic species in the composition dictate the global structure of the material as Cr, Co, and Mn shift to energetically favorable coordination with increasing pressure. Transmission electron microscopy analysis on a lower-pressure sample exhibits a rock salt structure, but the higher-pressure sample reveals reflections reminiscent of the spinel structure. In all, these findings give a more complete picture on how (MgNiCuCoZn)0.167(MnCr)0.083O forms with varying initial conditions and advances fundamental knowledge of cation behavior in high entropy oxides.",
+    "keywords": [
+      "high entropy oxides (HEOs)",
+      "X-ray absorption fine structure (XAFS)",
+      "pulsed laser deposition (PLD)",
+      "thin films"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF",
+        "grant_id": "DMR 2011839"
+      },
+      {
+        "funder": "Department of Energy",
+        "grant_id": "DEAC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Methods",
+      "3. Results and Discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "J14CrMn",
+      "sample_description": "High entropy oxide thin films grown via pulsed laser deposition at varying oxygen partial pressures.",
+      "chemical_composition": "(MgNiCuCoZn)0.167(MnCr)0.083O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Mg0.83Cr0.17O",
+      "sample_description": "Films grown at 300 and 500 °C at 5 and 50 mTorr pO2.",
+      "chemical_composition": "Mg0.83Cr0.17O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD performed on reactively sintered targets and thin films to identify phases and lattice parameters.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SAED patterns obtained at 200 kV to investigate crystal structure.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray absorption fine structure spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAFS measurements at Co, Mn, and Cr K-edges in fluorescence yield to determine valence and coordination.",
+      "measurement_technique": "X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

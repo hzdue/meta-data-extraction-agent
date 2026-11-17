@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Bayesian determination of the effect of a deep eutectic solvent on the structure of lipid monolayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, University of Bath, Claverton Down, Bath, BA2 7AY, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Harwell Campus, Didcot, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Spallation Source, SE-211 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physical Chemistry, Lund University, SE-211 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Division of Pharmacy and Optometry, University of Manchester, Manchester, UK"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, 38000, Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "ISIS Neutron and Muon Source, Science and Technology Facilities Council, Rutherford Appleton Laboratory, Harwell Oxford, Didcot, OX11 0QX, UK"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. R. McCluskey",
+        "orcid": null,
+        "email": "a.r.mccluskey@bath.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Sanchez-Fernandez",
+        "orcid": null,
+        "email": "andrew.mccluskey@diamond.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. J. Edler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. C. Parker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. J. Jackson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "R. A. Campbell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "T. Arnold",
+        "orcid": null,
+        "email": "tom.arnold@esss.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "In this work, we present the first example of the self-assembly of phospholipid monolayers at the interface between air and an ionic solvent. Deep eutectic solvents are a novel class of environmentally friendly, non-aqueous, room temperature liquids with tunable properties, that have wide-ranging potential applications and are capable of promoting the self-assembly of surfactant molecules. We use a chemically-consistent Bayesian modelling of X-ray and neutron reflectometry measurements to show that these monolayers broadly behave as they do on water. This method allows for the monolayer structure to be determined, alongside the molecular volumes of the individual monolayer components, without the need for water-specific constraints to be introduced. Furthermore, using this method we are able to better understand the correlations present between parameters in the analytical model. This example of a non-aqueous phospholipid monolayer has important implications for the potential uses of these solvents and for our understanding of how biomolecules behave in the absence of water.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "https://github.com/arm61/lipids_at_airdes",
+    "publication_date": "2020-05-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL SECTION",
+      "III. RESULTS & DISCUSSIONS",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "DLPC",
+      "sample_description": null,
+      "chemical_composition": "1,2-dilauroyl-sn-glycero-3phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DMPC",
+      "sample_description": null,
+      "chemical_composition": "1,2-dimyristoyl-sn-glycero3-phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DPPC",
+      "sample_description": null,
+      "chemical_composition": "1,2-dipalmitoyl-sn-glycero3-phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "DMPG",
+      "sample_description": null,
+      "chemical_composition": "1,2-dimyristoyl-sn-glycero3-phospho-(1’-rac-glycerol) (sodium salt)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "d54-DMPC",
+      "sample_description": "deuterated tails-only",
+      "chemical_composition": "1,2-dimyristoyl-sn-glycero3-phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "d62-DPPC",
+      "sample_description": "deuterated tails-only",
+      "chemical_composition": "1,2-dipalmitoyl-sn-glycero3-phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray reflectometry measurements of phospholipid monolayers at four surface pressures.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "NR",
+      "sample_refs": [
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron reflectometry measurements using time-of-flight method at two incident angles.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

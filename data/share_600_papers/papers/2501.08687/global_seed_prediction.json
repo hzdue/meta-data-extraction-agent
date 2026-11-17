@@ -1,0 +1,345 @@
+{
+  "bibliographic": {
+    "title": "Preformed Cooper Pairs in a Triclinic Iron Pnictide Superconductor",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "International Center for Quantum Materials, School of Physics, Peking University, Beijing 100871, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Anhui Province Key Laboratory of Condensed Matter Physics at Extreme Conditions, High Magnetic Field Laboratory, Chinese Academy of Sciences, Hefei 230031, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Songshan Lake Materials Laboratory, Dongguan, Guangdong 523808, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Zezhong Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Wenshan Hong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Honglin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Xiaoyan Ma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Uwe Stuhr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kaiyue Zeng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Long Ma",
+        "orcid": null,
+        "email": "malong@hmfl.ac.cn",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ying Xiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Huan Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Hai-Hu Wen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jiangping Hu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Shiliang Li",
+        "orcid": null,
+        "email": "slli@iphy.ac.cn",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Huiqian Luo",
+        "orcid": null,
+        "email": "hqluo@iphy.ac.cn",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Electron pairing along with phase coherence generates superconductivity below the critical temperature ( Tc ). In underdoped high- Tc cuprates, these two quantum phenomena may occur at separate temperatures, which was lately confirmed in the quasi-two-dimensional (quasi-2D) iron chalcogenide superconductors. Here, we report a systematic investigation on the pre-pairing behavior in a triclinic iron pnictide superconductor (Ca0 . 85La0 . 15)10(Pt3As8)(Fe2As2)5 with Tc ≈ 30 K, where the superconductivity is quasi-2D manifested by the Berezinskii-Kosterlitz-Thouless behaviors. Inelastic neutron scattering experiments unambiguously reveal a spin resonance peak around ER = 13 meV in the superconducting state, but its intensity continuously decreases when warming up across Tc , accompanied with an anomaly around T∗ ≈ 45 K in spin correlations, and a suppression by an in-plane magnetic field persisting to the same temperature. Below T∗ , a significant Nernst signal and a reduction of density of states at the Fermi level are also observed. These results suggest that the precursor of spin resonance is highly related to the preformed Cooper pairs driven by phase fluctuations, much like the pseudogap case in cuprates.",
+    "keywords": [
+      "Iron-based superconductors",
+      "Pnictides and chalcogenides",
+      "Nuclear magnetic resonance",
+      "Neutron inelastic scattering",
+      "Pseudogap regime"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-01-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2023YFA1406100"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2018YFA0704200"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2020YFA0406000"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11822411"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11874057"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11961160699"
+      },
+      {
+        "funder": "Strategic Priority Research Program (B) of the CAS",
+        "grant_id": "XDB25000000"
+      },
+      {
+        "funder": "Strategic Priority Research Program (B) of the CAS",
+        "grant_id": "XDB33000000"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSIONS",
+      "V. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Spallation Neutron Source (SINQ)"
+    },
+    {
+      "id": "facility_2",
+      "name": "China Advanced Research Reactor (CARR)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CaLa-10-3-8",
+      "sample_description": "Optimally La-doped triclinic iron pnictide superconductor.",
+      "chemical_composition": "(Ca0.85La0.15)10(Pt3As8)(Fe2As2)5",
+      "sample_state": "single crystal",
+      "sample_mass": "8.3 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of low-energy spin excitations and spin resonance mode at the antiferromagnetic wave vector.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "EnergyScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Electric transport",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent resistance and current-voltage (I-V) characteristics to analyze BKT transition.",
+      "measurement_technique": "electric transport",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Zerofield-cooling magnetization measurements on randomly selected crystals.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Nernst effect",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of transverse voltage produced from a longitudinal temperature gradient in a perpendicular magnetic field.",
+      "measurement_technique": "Nernst effect",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Nuclear magnetic resonance",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of nuclear spin-lattice relaxation rate (1/T1) at 75As nuclear sites.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

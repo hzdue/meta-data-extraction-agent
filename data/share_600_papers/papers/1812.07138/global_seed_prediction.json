@@ -1,0 +1,116 @@
+{
+  "bibliographic": {
+    "title": "Evolution of CTAB/NaSal Micelles: Structural Analysis by SANS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christopher N. Lam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "William D. Hong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Changwoo Do",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Wei-Ren Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Surfactants are amphiphilic molecules that spontaneously self-assemble in aqueous solution into various ordered and disordered phases.  Under certain conditions, one-dimensional structures in the form of long, flexible wormlike micelles can develop.  Cetyltrimethylammonium bromide (CTAB) is one of the most widely studied surfactants, and in the presence of sodium salicylate (NaSal), wormlike micelles  can form at very dilute concentrations of surfactant.  We carry out a systematic study of the microscopic structures of CTAB/NaSal over a surfactant concentration range of 2.5 - 15 mM and at salt-to-surfactant molar ratios of 0.5 - 10.    Using small-angle neutron scattering, we qualitatively and quantitatively characterize the equilibrium structures of CTAB/NaSal, mapping the phase behavior of CTAB/NaSal at low concentrations within the region of phase space where nascent wormlike micelles transition into long and entangled structures.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Extended Q-Range Small-Angle Neutron Scattering Diffractometer (EQ-SANS)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source (SNS)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CTAB/NaSal",
+      "sample_description": "Samples with surfactant concentrations ranging from 2.5 to 15 mM prepared at salt-to-surfactant (Cs/Cd) molar ratios of 0.5, 1.0, 1.75, 2.5, 5.0, and 10.0.",
+      "chemical_composition": "CTAB/NaSal",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Small-Angle Neutron Scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "SANS measurements performed at 20.0 +/- 0.1 °C to cover a Q-range of 0.002 to 0.48 Å-1.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

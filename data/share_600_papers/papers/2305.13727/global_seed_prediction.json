@@ -1,0 +1,314 @@
+{
+  "bibliographic": {
+    "title": "Roughness-induced magnetic decoupling at organic-inorganic interface",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Graduate School of Engineering and School of Engineering, Nagoya University, Furo-cho, Chikusa-ku, Nagoya, Aichi 464-8603, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Molecular Science, Institute for Molecular Science, Okazaki 444-8585, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Materials and Systems for Sustainability (IMaSS), Nagoya University, Furo-cho, Chikusa-ku, Nagoya, Aichi 464-8601, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hiroki Ono",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yoshitaka Umeda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Kaito Yoshida",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Kenzaburo Tsutsui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kohei Yamamoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Osamu Ishiyama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hiroshi Iwayama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Eiken Nakamura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Toshihiko Yokoyama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Masaki Mizuguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Toshio Miyamachi",
+        "orcid": null,
+        "email": "toshio.miyamachi@imass.nagoya-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "We have investigated structural, electronic and magnetic properties of H2Pc on Fe2N/Fe using lowenergy electron diffraction and soft x-ray absorption spectroscopy/x-ray magnetic circular dichroism. Element specific magnetization curves reveal that the magnetic coupling with H2Pc enhances the perpendicular magnetic anisotropy of Fe2N/Fe at the H2Pc coverage of 1 molecular layer. However, adding two and three molecular layers of H2Pc reverts the shape of magnetization curve back to the initial state before H2Pc deposition. We successfully link appearance and disappearance of the magnetic coupling at the H2Pc-Fe2N/Fe interface with the change of hybridization strength at N sites accompanied by the increase in the H2Pc coverage.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-05-24",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP20H05179"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "20K21119"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP21H05016"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "22H01957"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP23H01849"
+      },
+      {
+        "funder": "Nanotechnology Platform Program <Molecule and Material Synthesis>",
+        "grant_id": "JPMXP09S19MS2001b"
+      },
+      {
+        "funder": "Nanotechnology Platform Program <Molecule and Material Synthesis>",
+        "grant_id": "JPMXP09S19MS2001"
+      },
+      {
+        "funder": "Nanotechnology Platform Program <Molecule and Material Synthesis>",
+        "grant_id": "JPMXP09S20MS2001"
+      },
+      {
+        "funder": "Nanotechnology Platform Program <Molecule and Material Synthesis>",
+        "grant_id": "JPMXP09S21MS2001"
+      },
+      {
+        "funder": "Nanotechnology Platform Program <Molecule and Material Synthesis>",
+        "grant_id": "JPMXP09S21MS2002"
+      },
+      {
+        "funder": "Advanced Research Infrastructure for Materials and Nanotechnology in Japan",
+        "grant_id": "JPMXP1222MS2001"
+      },
+      {
+        "funder": "Advanced Research Infrastructure for Materials and Nanotechnology in Japan",
+        "grant_id": "JPMXP1222MS2003"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "UVSOR-III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe2N/Fe on Cu(001)",
+      "sample_description": "Bilayer γ’-Fe4N on Cu(001) substrate.",
+      "chemical_composition": "Fe2N/Fe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "H2Pc/Fe2N/Fe 1 ML",
+      "sample_description": "1 molecular layer of H2Pc on Fe2N/Fe.",
+      "chemical_composition": "H2Pc/Fe2N/Fe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "H2Pc/Fe2N/Fe 2 ML",
+      "sample_description": "2 molecular layers of H2Pc on Fe2N/Fe.",
+      "chemical_composition": "H2Pc/Fe2N/Fe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "H2Pc/Fe2N/Fe 3 ML",
+      "sample_description": "3 molecular layers of H2Pc on Fe2N/Fe.",
+      "chemical_composition": "H2Pc/Fe2N/Fe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "low-energy electron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of surface structures and growth of H2Pc/Fe2N/Fe hybrid thin films.",
+      "measurement_technique": "low-energy electron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS/XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Element-specific electronic and magnetic properties measured in total electron yield mode at 8 K.",
+      "measurement_technique": "soft x-ray absorption spectroscopy/x-ray magnetic circular dichroism",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Fe magnetization curves",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Element-specific magnetization curves of Fe recorded in grazing and normal incident geometries.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "N K-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "N K-edge XAS spectra used to investigate hybridization strength at N sites.",
+      "measurement_technique": "soft x-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

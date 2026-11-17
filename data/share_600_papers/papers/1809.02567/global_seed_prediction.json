@@ -1,0 +1,308 @@
+{
+  "bibliographic": {
+    "title": "Microstructural-defect-induced Dzyaloshinskii-Moriya interaction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Physics and Materials Science Research Unit, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Experimentalphysik, Universität des Saarlandes, D-66041 Saarbrücken, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, CS20156, F-38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "CITIMAC, Universidad de Cantabria, 39005 Santander, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "Donetsk Institute for Physics and Technology, Rosa Luxembourg Str. 72, Donetsk, 83114, Ukraine"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Denis Mettus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ivan Titov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Artem Malyeyev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Mathias Bersweiler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Philipp Bender",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Inma Peral",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Rainer Birringer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yifan Quan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Patrick Hautle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jesús Rodríguez Fernández",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Luis Fernández Barquín",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Konstantin L. Metlov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "The antisymmetric Dzyaloshinskii-Moriya interaction (DMI) plays a decisive role for the stabilization and control of chirality of skyrmion textures in various magnetic systems exhibiting a noncentrosymmetric crystal structure. A less studied aspect of the DMI is that this interaction is believed to be operative in the vicinity of lattice imperfections in crystalline magnetic materials, due to the local structural inversion symmetry breaking. If this scenario leads to an effect of sizable magnitude, it implies that the DMI introduces chirality into a very large class of magnetic materials— defect-rich systems such as polycrystalline magnets. Here, we show experimentally that the microstructural-defect-induced DMI gives rise to a polarization-dependent asymmetric term in the small-angle neutron scattering (SANS) cross section of polycrystalline ferromagnets with a centrosymmetric crystal structure. The results are supported by theoretical predictions using the continuum theory of micromagnetics. This effect, conjectured already by Arrott in 1963, is demonstrated for nanocrystalline terbium and holmium (with a large grain-boundary density), and for mechanicallydeformed microcrystalline cobalt (with a large dislocation density). Analysis of the scattering asymmetry allows one to determine the defect-induced DMI constant, D = 0.45 ± 0.07 mJ/m2 for Tb at 100 K. Our study proves the generic relevance of the DMI for the magnetic microstructure of defect-rich ferromagnets with vanishing intrinsic DMI. Polarized SANS is decisive for disclosing the signature of the defectinduced DMI, which is related to the unique dependence of the polarized SANS cross section on the chiral interactions. The findings open up the way to study defectinduced skyrmionic magnetization textures in disordered materials.",
+    "keywords": [
+      "Dzyaloshinskii-Moriya interaction",
+      "polarized neutron scattering",
+      "small-angle neutron scattering",
+      "micromagnetics",
+      "skyrmions"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "INTER/DFG/12/07"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "nanocrystalline Tb",
+      "sample_description": "Circular disk-shaped sample with an average crystallite size of L = 40 ± 20 nm.",
+      "chemical_composition": "Tb",
+      "sample_state": "nanocrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "nanocrystalline Ho",
+      "sample_description": "Sample with a grain size of 33 ± 3 nm.",
+      "chemical_composition": "Ho",
+      "sample_state": "nanocrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "mechanically-deformed microcrystalline cobalt",
+      "sample_description": "High-purity polycrystalline Co pieces that were arc-melted and cold-rolled.",
+      "chemical_composition": "Co",
+      "sample_state": "microcrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarized SANS measurements of nanocrystalline Tb at 100 K and 5 T to observe DMI asymmetry.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Magnetic-field-dependent polarized SANS of deformed Co at room temperature.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarized SANS data on nanocrystalline Ho at 1.8 K and 5 T.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

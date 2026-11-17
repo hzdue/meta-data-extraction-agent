@@ -1,0 +1,461 @@
+{
+  "bibliographic": {
+    "title": "Topotactic Reduction-Driven Crystal Field Excitations in Brownmillerite Manganite Thin Films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Hefei National Research Center for Physical Sciences at the Microscale University of Science and Technology of China Hefei 230026, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Synchrotron Light Source II Brookhaven National Laboratory Upton, NY 11973, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics Southern University of Science and Technology Shenzhen 518055, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Flexible Electronics and State Key Laboratory of Optoelectronic Materials and Technologies, Sun Yat-sen University, Shenzhen 518000, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institutes of Physical Science and Information Technology Anhui University Hefei 230601, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Information Materials and Intelligent Sensing Laboratory of Anhui Province Anhui University Hefei 230601, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "High Magnetic Field Laboratory Chinese Academy of Sciences Hefei 230031, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Feng Jin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Shiyu Fan",
+        "orcid": null,
+        "email": "sfan1@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Mingqiang Gu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Qiming Lv",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Min Ge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Zixun Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jinfeng Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jingdi Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Taehun Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Vivek Bhartiya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Zhen Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Lingfei Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": "pelliciari@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Wenbin Wu",
+        "orcid": null,
+        "email": "wuwb@ustc.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Topotactic reduction of perovskite oxides offers a powerful approach for discovering novel phenomena, such as superconducting infinite-layer nickelates and polar metallicity, and is commonly accompanied by the emergence of multiple valence states and/or complex crystal fields of transition metals. However, understanding the complex interplay between crystal chemistry, electronic structure, and physical properties at the spin- and orbitalresolved levels in these reduced systems remains elusive. Here, we combine x-ray absorption spectroscopy, resonant inelastic x-ray scattering (RIXS), and density functional theory calculations to uncover topotactic metal-insulator transition and orbital-specific crystal field excitations in brownmillerite La0.67Ca0.33MnO2.5 thin films. We reveal the Mn valence states to be predominantly Mn2+/Mn3+ , along with their corresponding populations at octahedral and tetrahedral sites, which effectively weaken the Mn-O hybridization compared to the parent perovskite phase. As a result, La0.67Ca0.33MnO2.5 films exhibit an antiferromagnetic insulating ground state. Moreover, by combining the RIXS measurements on selected single-valence manganites, specifically MnO, LaMnO3, and CaMnO3, with orbital- and spinresolved density-of-states calculations, we identify the dd excitations of octahedrally and tetrahedrally coordinated Mn2+/Mn3+ ions, directly linking the microscopic electronic structure to the macroscopic magnetic/electrical properties.",
+    "keywords": [
+      "topotactic transitions",
+      "brownmillerite manganites",
+      "resonant inelastic x-ray scattering",
+      "multiple chemical valences",
+      "complex crystal fields"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "U2032218"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11974326"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12074365"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12374094"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12304153"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12474232"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12274194"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2023YFA1406404"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2020YFA0309100"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2020YFA0308900"
+      },
+      {
+        "funder": "Anhui Provincial Natural Science Foundation",
+        "grant_id": "2308085MA15"
+      },
+      {
+        "funder": "Information Materials and Intelligent Sensing Laboratory of Anhui Province",
+        "grant_id": "IMIS202107"
+      },
+      {
+        "funder": "Natural Science Foundation of Guangdong Province",
+        "grant_id": "2021A1515110389"
+      },
+      {
+        "funder": "Science Technology, Innovation Commission of Shenzhen Municipality",
+        "grant_id": "JCYJ20210324104812034"
+      },
+      {
+        "funder": "Guangdong Innovative and Entrepreneurial Research Team Program",
+        "grant_id": "2021ZT09C296"
+      },
+      {
+        "funder": "DOE Office of Science",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "21-037"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "25-022"
+      },
+      {
+        "funder": "DOE Office of Science",
+        "grant_id": "DE-395SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results and Discussion",
+      "3. Conclusions",
+      "4. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    },
+    {
+      "id": "facility_2",
+      "name": "shanghai synchrotron radiation facility"
+    },
+    {
+      "id": "facility_3",
+      "name": "Hefei National Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LCMO2.5",
+      "sample_description": "Brownmillerite thin film topotactically reduced from LCMO3.",
+      "chemical_composition": "La0.67Ca0.33MnO2.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LCMO3",
+      "sample_description": "Parent perovskite thin film.",
+      "chemical_composition": "La0.67Ca0.33MnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "MnO",
+      "sample_description": "Single-valence manganite used for comparison.",
+      "chemical_composition": "MnO",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "LaMnO3",
+      "sample_description": "Single-valence perovskite thin film.",
+      "chemical_composition": "LaMnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CaMnO3",
+      "sample_description": "Single-valence perovskite thin film.",
+      "chemical_composition": "CaMnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD 2θ-ω linear scans and rocking curves to characterize structural phase transition and quality.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "magnetization measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependence magnetization (M-T) and magnetic hysteresis (M-H) measurements.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "resistivity measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Resistivity versus magnetic field (ρ-H) and temperature-dependent anisotropic resistivity.",
+      "measurement_technique": "resistivity measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "HADDF-STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High-angle annular dark-field scanning transmission electron microscopy images along the [010] zone axis.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy at the Mn-L and O-K edges in PFY and TEY modes.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering at the Mn-L3 edge to probe dd excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

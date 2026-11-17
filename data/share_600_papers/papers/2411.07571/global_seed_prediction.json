@@ -1,0 +1,259 @@
+{
+  "bibliographic": {
+    "title": "A Composite Hydrogel of Porous Gold Nanorods and Gelatin: Nanoscale Structure and Rheo-Mechanical Properties",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Technology Bombay"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Irfan Khan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Snigdharani Panda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sugam Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sunita Srivastava",
+        "orcid": null,
+        "email": "sunita.srivastava@iitb.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Incorporating nanomaterials into hydrogels allows for the creation of versatile materials with properties that can be precisely tailored by manipulating their nanoscale structures, leading to a wide range of bulk properties. Investigating the structural and property characteristics of composite hydrogels is crucial in tailoring their performance for specific applications. This study focuses on investigating the correlation between the structural arrangement and properties of a composite hydrogel of thermoresponsive polymer, gelatin, and light-responsive antimicrobial porous gold nanorods, PAuNR . The rheo-mechanical properties of the composite hydrogels are correlated with their nanoscale structural characteristics, investigated using small-angle neutron scattering ( SANS ). Analysis of SANS data reveals a decrease in the fractal dimension of PAuNRs incorporated hydrogel matrix, as compared to pure gelatin. Incorporating PAuNRs results in formation of softer composite hydrogel as evident from decrease in viscoelastic moduli, critical yield strain, denaturation temperature and swelling ratio. Our results demonstrates that the structural modulation at the nanoscale can be precisely controlled through adjusting PAuNRs concentration and temperature providing an fabrication mechanism for hydrogels with desired elastic properties. The reduced elasticity of the composite hydrogel and light sensitive/antimicrobial property of the PAuNRs makes this system suitable for specific biomedical applications, such as tissue engineering, device fabrication and stimuli based controlled drug delivery devices respectively.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-11-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Guide tube laboratory, Dhruva reactor Bhabha Atomic Research Centre (BARC)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PAuNRs",
+      "sample_description": "Cysteamine-coated porous gold nanorods.",
+      "chemical_composition": null,
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Gelatin",
+      "sample_description": "Pristine gelatin hydrogel.",
+      "chemical_composition": null,
+      "sample_state": "hydrogel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "GNC1",
+      "sample_description": "Gelatin nanocomposite hydrogel with 0.5 mg/ml PAuNRs.",
+      "chemical_composition": null,
+      "sample_state": "hydrogel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "GNC2",
+      "sample_description": "Gelatin nanocomposite hydrogel with 1.25 mg/ml PAuNRs.",
+      "chemical_composition": null,
+      "sample_state": "hydrogel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "GNC3",
+      "sample_description": "Gelatin nanocomposite hydrogel with 2.5 mg/ml PAuNRs.",
+      "chemical_composition": null,
+      "sample_state": "hydrogel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "GNC4",
+      "sample_description": "Gelatin nanocomposite hydrogel with 5 mg/ml PAuNRs.",
+      "chemical_composition": null,
+      "sample_state": "hydrogel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "UV-Vis absorption spectra",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "UV-Vis absorption spectra of freshly synthesized PAuNRs particles dispersed in aqueous solutions.",
+      "measurement_technique": "ultraviolet-visible absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Zeta potential measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Zeta potential measurements to reveal surface potential of PAuNRs.",
+      "measurement_technique": "Zeta potential measurement",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SEM images to determine size and aspect ratio of PAuNRs.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "BET analysis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "N2 adsorption-desorption isotherms to measure pore size distribution of PAuNRs.",
+      "measurement_technique": "BET surface area analysis",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering performed on pure gelatin and composite hydrogels at varying temperature and composition.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "rheological measurements",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Rheological measurements including strain sweep, frequency sweep, temperature sweep, and steady shear tests.",
+      "measurement_technique": "rheology",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "DSC analysis",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Differential scanning calorimetry to investigate the denaturation temperature of the hydrogels.",
+      "measurement_technique": "differential scanning calorimetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "swelling experiment",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Gravimetric method to monitor the swelling ratio of hydrogels over 72 hours.",
+      "measurement_technique": "gravimetric method",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

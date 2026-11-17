@@ -1,0 +1,295 @@
+{
+  "bibliographic": {
+    "title": "Polarized neutron scattering as a probe for vortex-type spin correlations in iron oxide multicore assemblies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faiencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Advanced Studies, University of Luxembourg, Campus Belval, L-4365 Esch-sur-Alzette, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Solid State Sciences, Ghent University, Krijgslaan 285/S1, 9000 Ghent, Belgium"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Departamento de Nanociencia y Nanotecnología, Instituto de Ciencia de Materiales de Madrid, ICMM/CSIC, C/Sor Juana Inés de la Cruz 3, 28049 Madrid, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemistry and Industrial Chemistry & INSTM RU, University of Genoa, Via Dodecaneso 31, 16146 Genova, Italy"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute of Structure of Matter, National Research Council, nM2-Lab, Via Salaria km 29.300, Monterotondo Scalo, Roma, Italy"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department CITIMAC, Facultad de Ciencias, Universidad de Cantabria, 39005 Santander, Spain"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, D-22761 Hamburg, Germany"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Center for Free-Electron Laser Science, Notkestraße 85, D-22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Venus Rai",
+        "orcid": null,
+        "email": "venus.rai@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ivan Titov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Elizabeth M. Jefremovas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Štefan Liščák",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sivarenjini Shan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Nina-Juliane Steinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jonathan Leliaert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Álvaro Gallo-Córdova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "María P. Morales",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Davide Peddis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Pierfrancesco Maltoni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Luis Fernández Barquín",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Michael P. Adams",
+        "orcid": null,
+        "email": "michael.adams@mpsd.mpg.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      }
+    ],
+    "abstract": "We report an experimental investigation of the magnetic microstructure of iron oxide multicore assemblies by means of polarized small-angle neutron scattering (SANS). Guided by a recently developed analytical theory for vortex-state magnetic nanoparticles, we provide a quantitative comparison between the measured and calculated cross sections, revealing signatures that are consistent with vortex-type magnetization configurations at low applied magnetic fields. In particular, the field evolution and the characteristic isotropic ring-type feature of the spin-flip scattering intensity at intermediate momentum transfers are in line with the formation of flux-closure states. The latter are stabilized by the interplay of exchange, Zeeman, and magnetostatic energies. The methodology allows for a statistically significant characterization of vortex states in densely packed nanoparticle systems, thereby complementing surface-sensitive techniques that are commonly limited to the observation of spin structures in individual particles.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-06-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "15639149"
+      },
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "C22/MS/17415246"
+      },
+      {
+        "funder": "Marie Skłodowska-Curie COFUND Programme “NEXTSTEP”",
+        "grant_id": "101177133"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "101081455-YIA"
+      },
+      {
+        "funder": "Ghent University special research fund",
+        "grant_id": "bof/baf/1y/2024/01/005"
+      },
+      {
+        "funder": "Ghent University special research fund",
+        "grant_id": "bof/baf/1y/2025/01/017"
+      },
+      {
+        "funder": "null",
+        "grant_id": "PID2023-150170OB-I00"
+      },
+      {
+        "funder": "null",
+        "grant_id": "PID2023-146448OB"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Linear vortex model for the spin-flip SANS",
+      "Results and discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "iron oxide nanoflowers",
+      "sample_description": "Multicore assemblies with an average flower size of 220 ± 20 nm composed of nanocrystallites of about 10 nm.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarized small-angle neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the spin-flip SANS cross section of iron oxide nanoflowers at various applied magnetic fields.",
+      "measurement_technique": "polarized small-angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

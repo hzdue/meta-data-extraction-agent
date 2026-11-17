@@ -1,0 +1,224 @@
+{
+  "bibliographic": {
+    "title": "Highly Rectifying Conical Nanopores in Amorphous SiO2 Membranes for Nanofluidic Osmotic Power Generation and Electroosmotic Pumps",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Department of Materials Physics, Research School of Physics, Australian National University, Canberra ACT 2601, Australia"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "GSI Helmholtzzentrum für Schwerionenforschung, Planckstr. 1, 64291 Darmstadt, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Australian Synchrotron, ANSTO, 800 Blackburn Rd, Clayton VIC 3168, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alexander Kiy",
+        "orcid": null,
+        "email": "alexander.kiy@anu.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Shankar Dutt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christian Notthoff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Maria E. Toimil-Molares",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Nigel Kirby",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Patrick Kluth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Nanopore membranes are a versatile platform for a wide range of applications ranging from medical sensing to filtration and clean energy generation. To attain high-flux rectifying ionic flow, it is required to produce short channels exhibiting asymmetric surface charge distributions. This work reports on a system of track etched conical nanopores in amorphous SiO2 membranes, fabricated using the scalable track etch technique. Pores are fabricated by irradiation of (920 ± 5) nm thick SiO2 windows with 2 . 2 GeV197 Au ions and subsequent chemical etching. Structural characterisation is performed using atomic force microscopy, scanning electron microscopy, small-angle X-ray scattering, ellipsometry, and surface profiling. Conductometric characterisation of the pore surface is performed using a membrane containing 16 pores, including an in-depth analysis of ionic transport characteristics. The pores have a tip radius of (5 . 7 ± 0 . 1) nm, a half-cone angle of (12 . 6 ± 0 . 1)°, and a length of (710 ± 5) nm. The p Ka , p Kb , and pI are determined to 7 . 6 ± 0 . 1, 1 . 5 ± 0 . 2, and 4 . 5 ± 0 . 1, respectively, enabling the fine-tuning of the surface charge density between +100 and − 300 mC m−2 and allowing to achieve an ionic current rectification ratio of up to 10. This highly versatile technology addresses some of the challenges that contemporary nanopore systems face and offers a platform to improve the performance of existing applications, including nanofluidic osmotic power generation and electroosmotic pumps.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP180100068"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental Section",
+      "3 Results and Discussion",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Universal Linear Accelerator UNILAC"
+    },
+    {
+      "id": "facility_2",
+      "name": "GSI Helmholtz Centre for Heavy Ion Research"
+    },
+    {
+      "id": "facility_3",
+      "name": "Australian Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-SiO2 membrane",
+      "sample_description": "Amorphous SiO2 membranes with conical nanopores fabricated using the track etch technique.",
+      "chemical_composition": "SiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "scanning electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Used to estimate the pore base radius, number of pores, and pore distribution across the nanopore membrane.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "atomic force microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Used to obtain a high-resolution image of the nanopore and determine the base radius.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ellipsometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Used to determine the membrane thickness and pore length.",
+      "measurement_technique": "ellipsometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "surface profiling",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Used to determine the membrane thickness by comparing unetched and etched areas.",
+      "measurement_technique": "surface profiling",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Performed at 12 keV to determine the half-cone angle of the nanopores by tilting the membrane.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "conductometric characterisation",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Analysis of ionic transport characteristics as a function of electrolyte concentration and pH using I-V curves.",
+      "measurement_technique": "conductometry",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Inelastic neutron scattering study of the anisotropic S = 1 spin chain [Ni(HF 2 )(3-Clpyridine) 4 ]BF 4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry and Biochemistry, Eastern Washington University, Cheney, WA 99004, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Theoretical Physics, Wrocaw University of Science and Technology, 50-370 Wrocaw, Poland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Materials Science and Technology Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemistry, University of Copenhagen, Universitetsparken 5, DK-2100 Copenhagen, Denmark"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Chemistry, University of Florida, Gainesville, FL 32611-8440, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics and the National High Magnetic Field Laboratory, University of Florida, Gainesville, FL 32611-8440, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Daniel M. Pajerowski",
+        "orcid": null,
+        "email": "pajerowskidm@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jamie L. Manson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jacek Herbrych",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jesper Bendix",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andrey P. Podlesnyak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "John M. Cain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mark W. Meisel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "[Ni(HF2)(3-Clpyridine)4]BF4 (NBCT) is a one-dimensional, S = 1 spin chain material that shows no magnetic neutron Bragg peaks down temperatures of 0.1 K. Previous work identified NBCT to be in the Haldane phase and near a quantum phase transition as a function of D/J to the large- D quantum paramagnet phase (QPM), where D is the axial single-ion anisotropy and J is the intrachain superexchange. Herein, inelastic neutron scattering results are presented on partially deuterated, 11B enriched NBCT polycrystalline samples in zero magnetic field and down to temperatures of 0.3 K. Comparison to density matrix renormalization group calculations yields D/J = 1 . 51 and a significant rhombic single-ion anisotropy E ( E/D ≈ 0 . 03, E/J ≈ 0 . 05). These D , J , and E values place NBCT in the large- D QPM phase but precipitously near a quantum phase transition to a long-range ordered phase.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-01-29",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1703003"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1708410"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1644779"
+      },
+      {
+        "funder": "Polish National Agency of Academic Exchange",
+        "grant_id": "PPN/PPO/2018/1/00035"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS AND DISCUSSION",
+      "III. CONCLUSIONS AND OPEN QUESTIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National High Magnetic Field Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NBCT",
+      "sample_description": "partially deuterated, 11B enriched polycrystalline samples",
+      "chemical_composition": "[Ni(HF2)(3-Clpyridine)4]BF4",
+      "sample_state": "polycrystalline",
+      "sample_mass": "1 gram",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of collective magnetic modes in NBCT at T = 0.3 K using incident energies of 1.00, 1.55, 3.32, and 7.00 meV.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

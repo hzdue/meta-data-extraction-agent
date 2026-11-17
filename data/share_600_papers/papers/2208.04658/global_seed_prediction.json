@@ -1,0 +1,309 @@
+{
+  "bibliographic": {
+    "title": "Effect of annealing in the formation of well crystallized and textured SrFe12O19 films grown by RF magnetron sputtering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Instituto de Qu´ımica F´ısica “Rocasolano”, CSIC, Madrid, 28006, Spain."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Instituto de Cer´amica y Vidrio, CSIC, 28049, Spain."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Alba Synchrotron Light Facility, CELLS, Barcelona, 08290, Spain."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "G.D. Soria",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Serrano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J.E. Prieto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. Quesada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. Gorni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. de la Figuera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J.F. Marco",
+        "orcid": null,
+        "email": "jfmarco@iqfr.csic.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We have studied the influence of annealing treatment on the crystalline growth of SrFe 12 O 19 previously deposited on Si (100) substrates using radio frequency (RF) magnetron sputtering. For this goal, two grown films, with and without ex-situ heating step, have been analysed and compared to determine the differences in their structural, compositional and magnetic properties. The results obtained by the different analysis techniques, in particular M¨ossbauer spectroscopy together with EXAFS and XANES data, suggest that the as-grown film is composed of nanocrystalline maghemite nanoparticles and amorphous strontium oxide. A strontium hexaferrite canonical structure with c-axis orientation in the sample plane was found for the annealed film.",
+    "keywords": [
+      "annealing",
+      "crystallization",
+      "extended x-ray absorption fine structure (EXAFS)",
+      "M¨osbauer effect",
+      "thin film"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021",
+    "venue": null,
+    "publisher": "Springer Nature",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "RTI2018-095303-B-C51"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "RTI2018-095303-B-C53"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "MAT2017-86450-C4-1-R"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "RTI2018-095303-A-C52"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "RYC2017-23320"
+      },
+      {
+        "funder": "Regional Government of Madrid",
+        "grant_id": "S2018-NMT-4321"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "H2020 Project no.720853 (AMPHIBIAN)"
+      },
+      {
+        "funder": "Comunidad de Madrid",
+        "grant_id": "2017-t2/IND539"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental methods",
+      "3 Results and Discussion",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Centre for MicroAnalysis of Materials (CMAM)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Alba synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "as-grown film",
+      "sample_description": "SFO film deposited by RF magnetron sputtering without ex-situ heating step on Si (100) substrates.",
+      "chemical_composition": "SrFe12O19",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "annealed film",
+      "sample_description": "SFO film deposited by RF magnetron sputtering and subjected to annealing treatment at 850◦ C in air for three hours.",
+      "chemical_composition": "SrFe12O19",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "SFO reference powder",
+      "sample_description": null,
+      "chemical_composition": "SrFe12O19",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "commercial SFO powder"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RBS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Determination of chemical composition and thickness of the films using 4He+ at 3.045 MeV.",
+      "measurement_technique": "Rutherford backscattering spectrometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Examination of the crystal structure and texture of the films using Cu-K alpha radiation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Acquisition of Raman spectra using 532 nm excitation to identify phases.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "M¨ossbauer spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Collection of transmission M¨ossbauer spectra at 298 K and 35 K.",
+      "measurement_technique": "M¨ossbauer spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Sr and Fe K-edge XANES data recorded in fluorescence mode at different incident angles (5º and 85º).",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Sr and Fe K-edge EXAFS data recorded in fluorescence mode at different incident angles.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "VSM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Recording of hysteresis loops at RT under an applied external magnetic field of 1.25 T.",
+      "measurement_technique": "vibrating-sample magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

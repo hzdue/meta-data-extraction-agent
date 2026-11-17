@@ -1,0 +1,378 @@
+{
+  "bibliographic": {
+    "title": "Stacking Faults Assist Lithium-Ion Conduction in a Halide-Based Superionic Conductor",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Materials Department, University of California, Santa Barbara, California 93106, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Department of Materials Science and Engineering, National University of Singapore, 9 Engineering Drive 1, 117575, Singapore"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Chemistry and Biochemistry Department, University of California, Santa Barbara, California 93106, United States"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland, WA, 99352, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Environmental Molecular Sciences Laboratory, Pacific Northwest National Laboratory, Richland, WA, 99352, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "#",
+        "text": "Materials Research Laboratory, University of California, Santa Barbara, California 93106, United States"
+      },
+      {
+        "id": "aff_8",
+        "label": "@",
+        "text": "Department of Chemical and Biomolecular Engineering, National University of Singapore, 4 Engineering Drive 4, 117585, Singapore"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Elias Sebti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Hayden A. Evans",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hengning Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Peter M. Richardson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kelly M. White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Raynald Giovine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Krishna Prasad Koirala",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Yaobin Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Eliovardo Gonzalez-Correa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Chongmin Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Craig M. Brown",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Anthony K. Cheetham",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Pieremanuele Canepa",
+        "orcid": null,
+        "email": "pcanepa@nus.edu.sg",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Raphaële J. Clément",
+        "orcid": null,
+        "email": "rclement@ucsb.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "In the pursuit of urgently-needed, energy dense solid-state batteries for electric vehicle and portable electronics applications, halide solid electrolytes offer a promising path forward with exceptional compatibility against high-voltage oxide electrodes, tunable ionic conductivities, and facile processing. For this family of compounds, synthesis protocols strongly affect cation site disorder and modulate Li+ mobility. In this work, we reveal the presence of a high concentration of stacking faults in the superionic conductor Li3YCl6 and demonstrate a method of controlling its Li+ conductivity by tuning the defect concentration with synthesis and heat treatments at select temperatures. Leveraging complementary insights from variable temperature synchrotron X-ray diffraction, neutron diffraction, cryogenic transmission electron microscopy, solid-state nuclear magnetic resonance, density functional theory, and electrochemical impedance spectroscopy, we identify the nature of planar defects and the role of nonstoichiometry in lowering Li+ migration barriers and increasing Li site connectivity in mechanochemically-synthesized Li3YCl6. We harness paramagnetic relaxation enhancement to enable89 Y solid-state NMR, and directly contrast the Y cation site disorder resulting from different preparation methods, demonstrating a potent tool for other researchers studying Y-containing compositions. With heat treatments at temperatures as low as 333 K (60°C), we decrease the concentration of planar defects, demonstrating a simple method for tuning the Li+ conductivity. Findings from this work are expected to be generalizable to other halide solid electrolyte candidates and provide an improved understanding of defectenabled Li+ conduction in this class of Li-ion conductors.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR 1720256"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "CNS 1725797"
+      },
+      {
+        "funder": "National Science Foundation Graduate Research Fellowship",
+        "grant_id": "1650114"
+      },
+      {
+        "funder": "National Research Foundation",
+        "grant_id": "NRFF12-20200012"
+      },
+      {
+        "funder": "Singapore Ministry of Education Academic Fund Tier 1",
+        "grant_id": "R-284-000-186-133"
+      },
+      {
+        "funder": "US Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DEAC02-06CH11357"
+      },
+      {
+        "funder": "US Department of Energy",
+        "grant_id": "DE-AC05-76RLO1830"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Results",
+      "3 Discussion",
+      "4 Conclusion",
+      "5 Experimental"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National Institute of Standards and Technology Center for Neutron Research"
+    },
+    {
+      "id": "facility_3",
+      "name": "William R. Wiley Environmental Molecular Sciences Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BM-LYC",
+      "sample_description": "Ball milled Li3YCl6 sample.",
+      "chemical_composition": "Li3YCl6",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SS-LYC",
+      "sample_description": "Solid-state synthesized Li3YCl6 sample.",
+      "chemical_composition": "Li3YCl6",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LYC-Sm",
+      "sample_description": "Sm-doped Li3YCl6 for NMR studies.",
+      "chemical_composition": "Li3Y0.95Sm0.05Cl6",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction measurements performed at beamline 17-BM to analyze structural defects and temperature evolution.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction measurements to examine the average structure of LYC.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "cryogenic transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cryo-TEM imaging and electron diffraction to identify stacking faults.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "solid-state nuclear magnetic resonance",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "6Li and 89Y NMR spectroscopy to probe local environments and structural evolution upon heating.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "electrochemical impedance spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "EIS measurements to determine ionic conductivity and activation energies.",
+      "measurement_technique": "electrochemical impedance spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "PFG-NMR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Pulsed field gradient NMR to track 7Li self-diffusion constants.",
+      "measurement_technique": "pulsed field gradient nuclear magnetic resonance",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "bibliographic": {
+    "title": "Phase transition kinetics revealed in laser-heated dynamic diamond anvil cells",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Brigham Young University, Provo, Utah 84602, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "SLAC National Accelerator Laboratory, 2575 Sand Hill Rd., Menlo Park, CA, 94025, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC 20015"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Earth and Planetary Sciences, Stanford University, 450 Jane Stanford Way, Building 320, Stanford, CA 94305"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Center for Advanced Radiation Sources, The University of Chicago, Chicago, IL 60637"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "DAC Tools, LLC, Naperville, Illinois 60565, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Now at: Sorbonne Universit´e, Mus´eum National d’Histoire Naturelle, UMR CNRS 7590, Institut de Min´eralogie, de Physique des Mat´eriaux et de Cosmochimie, IMPMC, 75005 Paris, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Matthew Ricks",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Arianna E. Gleason",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Francesca Miozzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Hong Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Stella Chariton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Vitali B. Prakapenka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Stanislav V. Sinogeikin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Richard L. Sandberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Wendy L. Mao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Silvia Pandolfi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "We report on a novel approach to dynamic compression of materials that bridges the gap between previous static- and dynamic- compression techniques, allowing to explore a wide range of pathways in the pressure-temperature space. By combining a dynamic-diamond anvil cell setup with doublesided laser-heating and in situ X-ray diffraction, we are able to perform dynamic compression at high temperature and characterize structural transitions with unprecedented time resolution. Using this method, we investigate the γ − ϵ phase transition of iron under dynamic compression for the first time, reaching compression rates of hundreds of GPa/s and temperatures of 2000 K. Our results demonstrate a distinct response of the γ − ϵ and α − ϵ transitions to the high compression rates achieved. These findings open up new avenues to study tailored dynamic compression pathways in the pressure-temperature space and highlight the potential of this platform to capture kinetic effects in a diamond anvil cell.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-01-30",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "EAR-1634415"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "EAR2049620"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "iron",
+      "sample_description": null,
+      "chemical_composition": "Fe",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "KCl",
+      "sample_description": null,
+      "chemical_composition": "KCl",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ XRD used to study the phase transitions of iron under dynamic compression at various temperatures and rates.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

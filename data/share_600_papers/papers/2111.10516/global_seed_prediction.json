@@ -1,0 +1,152 @@
+{
+  "bibliographic": {
+    "title": "Trivalent ion overcharging on electrified graphene",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Chemical Sciences and Engineering Division, Argonne National Laboratory, Lemont, IL 60439, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Amanda J. Carr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sang Soo Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ahmet Uysal",
+        "orcid": null,
+        "email": "auysal@anl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The structure of the electrical double layer (EDL) formed near graphene in aqueous environments strongly impacts its performance for a plethora of applications, including capacitive deionization. In particular, adsorption and organization of multivalent counterions near the graphene interface can promote nonclassical behaviors of EDL including overcharging followed by co-ion adsorption. In this paper, we characterize the EDL formed near an electrified graphene interface in dilute aqueous YCl3 solution using _in situ_ high resolution x-ray reflectivity (also known as crystal truncation rod (CTR)) and resonant anomalous x-ray reflectivity (RAXR). These interface-specific techniques reveal the electron density profiles with molecular-scale resolution. We find that yttrium ions (Y3+ ) readily adsorb to the negatively charged graphene surface to form an extended ion profile. This ion distribution resembles a classical diffuse layer but with a significantly high ion coverage, i.e., 1 Y3+ per 11.4 ± 1.6 Å2 , compared to the value calculated from the capacitance measured by cyclic voltammetry (1 Y3+ per ~240 Å2 ). Such overcharging can be explained by co-adsorption of chloride that effectively screens the excess positive charge. The adsorbed Y3+ profile also shows a molecular-scale gap (≥5 Å) from the top graphene surfaces, which is attributed to the presence of intervening water molecules between the adsorbents and adsorbates as well as the lack of inner-sphere surface complexation on chemically inert graphene. We also demonstrate controlled adsorption by varying the applied potential and reveal consistent Y3+ ion position with respect to the surface and increasing cation coverage with increasing the magnitude of the negative potential. This is the first experimental description of a model graphene-aqueous system with controlled potential and provides important insights into the application of graphene-based systems for enhanced and selective ion separations.",
+    "keywords": [
+      "graphene",
+      "interface",
+      "overcharging",
+      "x-ray reflectivity",
+      "CTR",
+      "RAXR",
+      "adsorption"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Science, Division of Chemical Sciences, Geosciences, and Biosciences, Early Career Research Program",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Science, Division of Chemical Sciences, Geosciences, and Biosciences, Geosciences Program",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Results and Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "epitaxial graphene on 4H SiC in water",
+      "sample_description": "Epitaxial graphene samples containing 2-3 layers of graphene on perpendicularly cut 4H SiC.",
+      "chemical_composition": "graphene/SiC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "GraphenSiC"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "epitaxial graphene on 4H SiC in 10 mM YCl3",
+      "sample_description": "Epitaxial graphene samples containing 2-3 layers of graphene on perpendicularly cut 4H SiC in dilute aqueous yttrium chloride solution.",
+      "chemical_composition": "graphene/SiC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "GraphenSiC"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "crystal truncation rod",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Specular in situ CTR data collected at a fixed energy of 20 keV as a function of momentum transfer to probe the total electron density profile.",
+      "measurement_technique": "crystal truncation rod",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "resonant anomalous x-ray reflectivity",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RAXR data collected by measuring reflectivity at fixed Q values over an energy range near yttrium's K absorption edge (17.039 keV).",
+      "measurement_technique": "resonant anomalous x-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "cyclic voltammetry",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "CV measurement for graphene in 10 mM YCl3 to calculate capacitance.",
+      "measurement_technique": "cyclic voltammetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "paper_id": "2410.01980",
+  "split_role": "pseudo_train",
+  "source_pdf": "papers/2410.01980/paper.pdf",
+  "pdf_sha256": "e33a7869d45a31d72be5440537dcf10762db5996d956dffe32a08beda69c03f1",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "preparation_source_sha256": "ec1cf5a7f93463c77564b7a4e2e83b8f0b98bbd2658bb6cb587c29714b772692",
+  "text_sha256": "d2f3a5cd439313fc48a1a5803caf1139d3e3ef192ea9e9b43b7b8283fd44d855",
+  "text_chars": 63497,
+  "pages": 13,
+  "plain_text_chars": 59932,
+  "warnings": [],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 5260,
+      "word_presence": 0.8708
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 5655,
+      "word_presence": 0.8721
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 4237,
+      "word_presence": 0.9113
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 4093,
+      "word_presence": 0.9125
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 4511,
+      "word_presence": 0.8969
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 4437,
+      "word_presence": 0.887
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 4771,
+      "word_presence": 0.8916
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 5537,
+      "word_presence": 0.8795
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 2558,
+      "word_presence": 0.9432
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 5382,
+      "word_presence": 0.9031
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 6184,
+      "word_presence": 0.9107
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 6434,
+      "word_presence": 0.9133
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 849,
+      "word_presence": 0.9643
+    }
+  ],
+  "low_word_presence_pages": []
+}

@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Nucleation-growth versus spinodal decomposition in Fe-Cr alloys: an experimental verification by atom probe tomography and small angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science Division, Bhabha Atomic Research Centre, Mumbai-400085"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai-400085"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Homi Bhabha National Institute, Mumbai-400094"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sudip Kumar Sarkar",
+        "orcid": null,
+        "email": "s.sudip.iitg@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Debes Ray",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Debasis Sen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Aniruddha Biswas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Identifying the operative mode of phase separation (spinodal decomposition (SD) or nucleationgrowth (NG)) remains a largely unexplored area of research in spite of its importance. The present work examines this critically in Fe-Cr system using atom probe tomography (APT) and small angle neutron scattering (SANS), and establishes the framework to distinguish the two different modes of α phase separation in thermally aged Fe-35 at.% Cr and Fe-20 at.% Cr alloys. Independent APT analysis determines the mode of phase separation on the basis of: (i) presence / absence of periodic chemical fluctuation through radial distribution function analysis; and (ii) inter-phase interface characteristics (diffuse / sharp). SANS analysis, in contrast, yields virtually indistinguishable correlation peaks for both the modes, which necessitates further investigation of the several different aspects of SANS profiles in the light of APT results. For the first time, key features of SANS profiles have been identified that can unambiguously distinguish SD from NG in Fe-Cr system: (i) nature of temporal evolution of FWHM of the correlation peak; and (ii) appropriate value of γ for fitting with the dynamic scaling model ( γ = 6 for SD, Fe-35 at.% Cr alloy; γ = 4 for NG, Fe-20 at.% Cr alloy).",
+    "keywords": [
+      "α precipitation",
+      "Fe-Cr alloys",
+      "Nucleation-growth",
+      "Spinodal decomposition",
+      "APT",
+      "SANS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details",
+      "3. Results",
+      "4. Discussions",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SANS-I"
+    },
+    {
+      "id": "facility_2",
+      "name": "SANS-II (MSANS)"
+    },
+    {
+      "id": "facility_3",
+      "name": "Dhruva Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe-20 at.% Cr",
+      "sample_description": null,
+      "chemical_composition": "Fe-20 at.% Cr",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Fe-35 at.% Cr",
+      "sample_description": null,
+      "chemical_composition": "Fe-35 at.% Cr",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "APT",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Atom probe tomography used to determine the mode of phase separation via RDF analysis and interface width evolution.",
+      "measurement_technique": "atom probe tomography",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Small angle neutron scattering used to analyze correlation peaks, Porod's exponent, and FWHM evolution.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction to confirm the presence of bcc ferrite phase.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRF",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray fluorescence with WDS detector for bulk chemical composition analysis.",
+      "measurement_technique": "x-ray fluorescence",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

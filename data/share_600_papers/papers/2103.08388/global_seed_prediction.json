@@ -1,0 +1,285 @@
+{
+  "bibliographic": {
+    "title": "Scanning X-ray diffraction microscopy for diamond quantum sensing",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Electrical and Computer Engineering, University of Maryland, College Park, Maryland, 20742, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for Astrophysics | Harvard & Smithsonian, Cambridge, Massachusetts, 02138, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Quantum Technology Center, University of Maryland, College Park, Maryland, 20742, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Harvard University, Cambridge, Massachusetts, 02138, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Center for Brain Science, Harvard University, Cambridge, Massachusetts, 02138, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics and Astronomy, University of Delaware, Newark, Delaware, 19716, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware, 19716, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Center for Nanoscale Materials, Argonne National Laboratory, Lemont, Illinois, 60439, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Center for Molecular Engineering, Argonne National Laboratory, Lemont, Illinois, 60439, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Materials Science Division, Argonne National Laboratory, Lemont, Illinois, 60439, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois, 60439, 60637, USA"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Department of Electrical Engineering and Computer Science, University of Maryland, College Park, Maryland, 20742, USA"
+      },
+      {
+        "id": "aff_13",
+        "label": "13",
+        "text": "Department of Physics, University of Maryland, College Park, Maryland, 20742, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mason C. Marshall",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "David F. Phillips",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Matthew J. Turner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mark J.H. Ku",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tao Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Nazar Delegan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "F. Joseph Heremans",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Martin V. Holt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Ronald L. Walsworth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_12",
+          "aff_13"
+        ]
+      }
+    ],
+    "abstract": "Understanding nano- and micro-scale crystal strain in CVD diamond is crucial to the advancement of diamond quantum technologies. In particular, the presence of such strain and its characterization present a challenge to diamond-based quantum sensing and information applications – as well as for future dark matter detectors where directional information of incoming particles is encoded in crystal strain. Here, we exploit nanofocused scanning X-ray diffraction microscopy to quantitatively measure crystal deformation from defects in diamond with high spatial and strain resolution. Combining information from multiple Bragg angles allows stereoscopic three-dimensional modeling of strain feature geometry; the diffraction results are validated via comparison to optical measurements of the strain tensor based on spin-state-dependent spectroscopy of ensembles of nitrogen vacancy (NV) centers in the diamond. Our results demonstrate both strain and spatial resolution sufficient for directional detection of dark matter via X-ray measurement of crystal strain, and provide a promising tool for diamond growth analysis and improvement of defect-based sensing.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-10-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "DOE QuANTISED program",
+        "grant_id": "DE-SC0019396"
+      },
+      {
+        "funder": "Army Research Laboratory MAQP program",
+        "grant_id": "W911NF-19-20181"
+      },
+      {
+        "funder": "DARPA DRINQS program",
+        "grant_id": "D18AC00033"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF award no. 1541959"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. SCANNING X-RAY STRAIN MEASUREMENTS IN DIAMOND",
+      "III. THREE-DIMENSIONAL MODEL OF STRAIN FEATURE GEOMETRY",
+      "IV. COMPARISON WITH STRAIN MEASUREMENTS FROM QUANTUM DIAMOND MICROSCOPE (QDM)",
+      "V. TOWARDS DARK MATTER DETECTION",
+      "VI. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Hard X-ray Nanoprobe"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "HPHT diamond",
+      "sample_description": "Diamond produced by high-pressure, high-temperature synthesis exhibiting low strain at large length scales.",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Element Six, inc"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CVD quantum sensing diamond",
+      "sample_description": "Diamond grown by chemical vapor deposition for NV quantum sensing with a 40-µm NV-enriched overgrowth layer.",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Element Six, inc"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "scanning X-ray diffraction microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of crystal deformation and strain features using nanofocused hard X-rays.",
+      "measurement_technique": "scanning X-ray diffraction microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "quantum diamond microscope",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Optical measurements of the strain tensor based on spin-state-dependent spectroscopy of NV centers.",
+      "measurement_technique": "quantum diamond microscope",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

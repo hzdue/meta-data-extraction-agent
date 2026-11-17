@@ -1,0 +1,297 @@
+{
+  "bibliographic": {
+    "title": "Influence of salt on membrane rigidity of neutral DOPC vesicles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Louisiana State University, Baton Rouge, LA 70803, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Jülich Centre for Neutron Science (JCNS), Outstation at SNS, POB 2008, 1 Bethel Valley Road, TN 37831, Oak Ridge, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8562, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Biology and Soft Matter Division, Neutron Sciences Directorate, Oak Ridge National Laboratory (ORNL), POB 2008, 1 Bethel Valley Road, TN 37831, Oak Ridge, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics & Astronomy, Louisiana State University, Baton Rouge, LA 70803, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Judith U. De Mel",
+        "orcid": "0000-0001-7546-1491",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sudipta Gupta",
+        "orcid": "0000-0001-6642-3776",
+        "email": "g.sudipta26@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Rasangi M. Perera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ly Ngo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Piotr Zolnierczuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Markus Bleuel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Sai Venkatesh Pingali",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Gerald J. Schneider",
+        "orcid": "0000-0002-5577-9328",
+        "email": "gjschneider@lsu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Salt is a very common molecule in aqueous environments but the question of whether the interactions of monovalent ions Na+ and Cl-,with the neutral heads of phospholipids are impactful enough to change the membrane rigidity is still a mystery. To provide a resolution to this long simmering debate, we investigated the dynamics of DOPC vesicles in the fluid phase with increasing external salt concentration. At higher salt concentrations, we observe an increase in bending rigidity from neutron spin echo spectroscopy (NSE) and an increase in bilayer thickness from small-angle X-ray scattering (SAXS). We compared different models to distinguish membrane undulations, lipid tail motions and the translational diffusion of the vesicles. All the models indicate an increase in bending rigidity by a factor of 1.3 to 3.6. We demonstrate that even for t > 10 ns, and for Q > 0.07 Å-1 the observed NSE relaxation spectra is clearly influenced by the translational diffusion of the vesicles. For t < 5 ns, the lipid tail motions dominate the intermediate dynamic structure factor. As the salt concentration increases this contribution diminishes. We introduced a new time-dependent analysis for the bending rigidity that highlights only a limited ZilmanGranek time window where the rigidity is physically meaningful.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-SC0012432"
+      },
+      {
+        "funder": "National Institute of Health, National Institute of General Medical Sciences",
+        "grant_id": "P41 GM111244"
+      },
+      {
+        "funder": "Department of Energy Office of Biological and Environmental Research",
+        "grant_id": "KP1605010"
+      },
+      {
+        "funder": "NIH",
+        "grant_id": "S10 OD012331"
+      },
+      {
+        "funder": "US Department of Energy, Office of Basic Energy Sciences Program",
+        "grant_id": "DE-SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "2 INTRODUCTION",
+      "3 EXPERIMENTAL SECTION",
+      "4 THEORETICAL BACKGROUND",
+      "5 RESULTS AND DISCUSSION",
+      "6 CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "High-Flux Isotope Reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_3",
+      "name": "National Synchrotron Light Source II"
+    },
+    {
+      "id": "facility_4",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "DOPC vesicles 0 mM NaCl",
+      "sample_description": "DOPC vesicles in pure D2O.",
+      "chemical_composition": "DOPC",
+      "sample_state": "unilamellar vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DOPC vesicles 150 mM NaCl",
+      "sample_description": "DOPC vesicles with 150 mM external NaCl.",
+      "chemical_composition": "DOPC",
+      "sample_state": "unilamellar vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DOPC vesicles 470 mM NaCl",
+      "sample_description": "DOPC vesicles with 470 mM external NaCl.",
+      "chemical_composition": "DOPC",
+      "sample_state": "unilamellar vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering to determine the diameter of the vesicles.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "VSANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Very-small angle neutron scattering studies.",
+      "measurement_technique": "very-small angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Small-angle X-ray scattering to obtain information on the individual layers.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Cryo-TEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cryo-transmission electron microscopy images for visualization.",
+      "measurement_technique": "cryo-transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "NSE",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_4",
+        "facility_2"
+      ],
+      "dataset_description": "Neutron spin echo spectroscopy to examine the collective lipid dynamics leading to rigidity.",
+      "measurement_technique": "neutron spin echo spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

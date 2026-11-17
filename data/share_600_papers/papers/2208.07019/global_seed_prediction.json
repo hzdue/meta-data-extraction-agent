@@ -1,0 +1,282 @@
+{
+  "bibliographic": {
+    "title": "Magneto-elastic coupling in a sinusoidal modulated magnet Cr2GaN",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "University of Chinese Academy of Sciences, Beijing 100049, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Spallation Neutron Source Science Center, Dongguan 523803, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "School of Advanced Materials, Peking University, Shenzhen Graduate School, Shenzhen 518055, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organisation, Lucas Heights NSW-2232, Australia"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Chilton, Didcot Oxon OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Songshan Lake Materials Laboratory, Dongguan, Guangdong 523808, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hui-Can Mao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yu-Feng Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Qing-Yong Ren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mi-Hai Chu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Helen E. Maynard-Casely",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Franz Demmel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Devashibhai Adroja",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Hai-Hu Wen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yin-Guo Xiao",
+        "orcid": null,
+        "email": "y.xiao@pku.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Hui-Qian Luo",
+        "orcid": null,
+        "email": "hqluo@iphy.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "We use neutron powder diffraction to investigate the magnetic and crystalline structure of Cr2GaN. A magnetic phase transition is identified at T ≈ 170 K, whereas no trace of structural transition is observed down to 6 K. Combining Rietveld refinement with irreducible representations, the spin configuration of Cr ions in Cr2GaN is depicted as an incommensurate sinusoidal modulated structure characterized by a propagating vector k =(0.365, 0.365, 0). Upon warming up to the paramagnetic state, the magnetic order parameter closely resembles to the temperature dependence of c -axis lattice parameter, suggesting strong magneto-elastic coupling in this compound. Therefore, Cr2GaN provides a potential platform for the exploration of magnetically tuned properties such as magnetoelectric, magnetostrictive and magnetocaloric effects, as well as their applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11822411"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12061130200"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11961160699"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11974392"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "52101236"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2018YFA0704200"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2017YFA0303100"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2020YFA0406003"
+      },
+      {
+        "funder": "Strategic Priority Research Program (B) of the CAS",
+        "grant_id": "XDB25000000"
+      },
+      {
+        "funder": "K. C. Wong Education Foundation",
+        "grant_id": "GJTD-2020-01"
+      },
+      {
+        "funder": "Youth Innovation Promotion Association of the CAS",
+        "grant_id": "Y202001"
+      },
+      {
+        "funder": "Beijing Natural Science Foundation",
+        "grant_id": "JQ19002"
+      },
+      {
+        "funder": "Royal Society of UK",
+        "grant_id": "NAF R 1 2 01248"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Australian Centre for Neutron Scattering"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cr2GaN",
+      "sample_description": "Polycrystalline samples synthesized by the solid state reaction method.",
+      "chemical_composition": "Cr2GaN",
+      "sample_state": "powder",
+      "sample_mass": "5 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "WOMBAT neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Full pattern measurements conducted at 6 K and 250 K covering the scattering angle 2θ from 15 to 136 degrees.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "OSIRIS neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent diffraction data ranging from 10 K to 250 K with interplanar d-spacing from 3.1 to 5.3 °A.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

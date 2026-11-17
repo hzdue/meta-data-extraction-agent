@@ -1,0 +1,128 @@
+{
+  "bibliographic": {
+    "title": "Magnetic excitations in frustrated fcc type-III antiferromagnet MnS2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Institute for Theoretical Physics, Technische Universit¨at Dresden, 01062 Dresden, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Department of Physics, Indian Institute of Technology, Kanpur - 208016, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "T. Chatterji",
+        "orcid": null,
+        "email": "chatterji@ill.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L.P. Regnault",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Spin wave dispersion in the frustrated fcc type-III antiferromagnet MnS2 has been determined by inelastic neutron scattering using a triple-axis spectrometer. Existence of multiple spin wave branches, with significant separation between high-energy and low-energy modes highlighting the intrinsic magnetic frustration effect on the fcc lattice, is explained in terms of a spin wave analysis carried out for the antiferromagnetic Heisenberg model for this S = 5 / 2 system with nearest and next-nearestneighbor exchange interactions. Comparison of the calculated dispersion with spin wave measurement also reveals small suppression of magnetic frustration resulting from reduced exchange interaction between frustrated spins, possibly arising from anisotropic deformation of the cubic structure.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-12-19",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "Collaborative Research Center SFB-1143"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS",
+      "IV. HEISENBERG MODEL OF SPIN WAVE DISPERSION IN MnS2",
+      "V. SPIN WAVE DISPERSION",
+      "VI. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Siloe reactor (CEA-Grenoble)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnS2",
+      "sample_description": "A large natural single crystal (hauerite) of MnS2 with a volume of about 1 cm3.",
+      "chemical_composition": "MnS2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Inelastic neutron scattering investigations of the spin wave excitations in MnS2 using a triple-axis spectrometer at T = 2.6 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

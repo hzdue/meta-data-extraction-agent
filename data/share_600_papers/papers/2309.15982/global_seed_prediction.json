@@ -1,0 +1,238 @@
+{
+  "bibliographic": {
+    "title": "Presence of a chiral soliton lattice in the chiral helimagnet MnTa3S6",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Electronics, Osaka Metropolitan University, Sakai, Osaka 599-8531 Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Science and Technology Center, Comprehensive Research Organization for Science and Society (CROSS), Tokai, Ibaraki 319-1106, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Applied Magnetism, UCM-ADIF-CSIC, Las Rozas 28230, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Physics, Complutense University of Madrid, Madrid 28040, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Aragón Nanoscience and Materials Institute (CSIC – University of Zaragoza) and Condensed Matter Physics Department, C/Pedro Cerbuna 12, 50009 Zaragoza, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Y. Miyagi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. Jiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. Ohishi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Y. Kawamura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. R. Alshalawi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. Campo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Kousaka",
+        "orcid": null,
+        "email": "koyu@omu.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Y. Togawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Chiral helimagnetism was investigated in transition-metal intercalated dichalcogenide single crystals of MnTa3S6. Small-angle neutron scattering (SANS) experiments revealed the presence of harmonic chiral helimagnetic order, which was successfully detected as a pair of satellite peaks in the SANS pattern. The magnetization data are also supportive of the presence of chiral soliton lattice (CSL) phase in MnTa3S6. The observed features are summarized in the phase diagram of MnTa3S6, which is in strong contrast with that observed in other dichalcogenides such as CrNb3S6 and CrTa3S6. The presence of the remanent state provides tunable capability of the number of chiral solitons at zero magnetic field in the CSL system, which may be useful for memory device applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-09-29",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "17H02815"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "19H05822"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "19H05826"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "19KK0070"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "21H01032"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "23H01870"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "23H00091"
+      },
+      {
+        "funder": "MCIN/AEI/10.13039/501100011033",
+        "grant_id": "PID2022-138492NB-I00-XM4"
+      },
+      {
+        "funder": "CSIC/MCIN",
+        "grant_id": "OTR02223-SpINS"
+      },
+      {
+        "funder": "Diputación General de Aragón",
+        "grant_id": "DGA/M4"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Material and Life Science Facility (MLF) in J-PARC"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnTa3S6",
+      "sample_description": "Single crystals grown by chemical vapor transport with xnominal = 1.14.",
+      "chemical_composition": "MnTa3S6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Small-angle neutron scattering (SANS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS experiments performed at BL-15 (TAIKAN) to detect magnetic satellite peaks along the c-axis.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetization collected with H applied perpendicular to the c-axis using a SQUID magnetometer.",
+      "measurement_technique": "SQUID magnetometer",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

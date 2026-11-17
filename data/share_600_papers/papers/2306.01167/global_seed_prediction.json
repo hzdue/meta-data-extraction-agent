@@ -1,0 +1,351 @@
+{
+  "bibliographic": {
+    "title": "Constraints on proximity-induced ferromagnetism in a Dirac semimetal (Cd3As2)/ferromagnetic semiconductor (Ga1−xMnxSb) heterostructure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics, The Pennsylvania State University, University Park PA 16803"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Chemistry, Johns Hopkins University, Baltimore, MD USA"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Spallation Neutron Source, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37830, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Department of Physics, The Pennsylvania State University, University Park, Pennsylvania 16802, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Arpita Mitra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Run Xiao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Wilson Yanez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yongxi Ou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Juan Chamorro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Tyrel McQueen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Michael R. Fitzsimmons",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Timothy R. Charlton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Nitin Samarth",
+        "orcid": null,
+        "email": "nsamarth@psu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Breaking time-reversal symmetry in a Dirac semimetal Cd3As2 through doping with magnetic ions or by the magnetic proximity effect is expected to cause a transition to other topological phases (such as a Weyl semimetal). To this end, we investigate the possibility of proximityinduced ferromagnetic ordering in epitaxial Dirac semimetal (Cd3As2)/ferromagnetic semiconductor (Ga1 −x Mn x Sb) heterostructures grown by molecular beam epitaxy. We report the comprehensive characterization of these heterostructures using structural probes (atomic force microscopy, x-ray diffraction, scanning transmission electron microscopy), angle-resolved photoemission spectroscopy, electrical magneto-transport, magnetometry, and polarized neutron reflectometry. Measurements of the magnetoresistance and Hall effect in the temperature range 2 K - 20 K show signatures that could be consistent with either a proximity effect or spin-dependent scattering of charge carriers in the Cd3As2 channel. Polarized neutron reflectometry sets constraints on the interpretation of the magnetotransport studies by showing that (at least for temperatures above 6 K) any induced magnetization in the Cd3As2 itself must be relatively small ( < 14 emu/cm3 ).",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-06-05",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Institute for Quantum Matter",
+        "grant_id": "DE-SC0019331"
+      },
+      {
+        "funder": "Penn State Two-Dimensional Crystal Consortium Materials Innovation Platform",
+        "grant_id": "DMR-2039351"
+      },
+      {
+        "funder": "Penn State Materials Research Science and Engineering Center for Nanoscale Science",
+        "grant_id": "DMR-2011839"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. GROWTH AND STRUCTURAL CHARACTERIZATION",
+      "III. MAGNETOTRANSPORT MEASUREMENTS OF THE HOST MATERIALS",
+      "IV. MAGNETOTRANSPORT MEASUREMENTS OF Cd 3 As 2 /Ga 1 −x Mn x Sb HETEROSTRUCTURES",
+      "V. PNR MEASUREMENTS OF Cd 3 As 2 /Ga 1 −x Mn x Sb HETEROSTRUCTURES",
+      "VI. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "type A",
+      "sample_description": "Ferromagnetic substrate consists of a 60 nm thick GaSb buffer layer followed by a uniformly Mn-doped Ga1−xMnxSb (20 nm) layer.",
+      "chemical_composition": "Ga1−xMnxSb",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "type B",
+      "sample_description": "Directly grew a 60 nm thick Mn-doped GaSb buffer layer on the GaAs substrate at a significantly higher temperature (490°C).",
+      "chemical_composition": "Ga1−xMnxSb",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Cd3As2/GaSb",
+      "sample_description": "15 nm thick Cd3As2 film on GaSb.",
+      "chemical_composition": "Cd3As2/GaSb",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "type A Cd3As2/Ga1−xMnxSb",
+      "sample_description": "Heterostructure consisting of Cd3As2 (15 nm) grown on type A Ga1−xMnxSb (20 nm).",
+      "chemical_composition": "Cd3As2/Ga1−xMnxSb",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "type B Cd3As2/Ga1−xMnxSb",
+      "sample_description": "Heterostructure consisting of Cd3As2 grown on type B Ga1−xMnxSb.",
+      "chemical_composition": "Cd3As2/Ga1−xMnxSb",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "atomic force microscopy",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of surface roughness of the Cd3As2 film.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Out-of-plane high resolution XRD scans of a type A Cd3As2/Ga1−xMnxSb bilayer.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "scanning transmission electron microscopy",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "HAADF-TEM measurements to examine crystalline structure and interfaces.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "angle-resolved photoemission spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ARPES measurements to confirm electronic structure and nontrivial topology of Cd3As2.",
+      "measurement_technique": "angle-resolved photoemission spectroscopy",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "electrical magneto-transport",
+      "sample_refs": [
+        "sample_3",
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of longitudinal sheet resistance (Rxx) and Hall resistance (Rxy) in a magnetic field.",
+      "measurement_technique": "electrical magneto-transport",
+      "measurement_mode": [
+        "MagneticFieldScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of magnetic properties and hysteresis loops of the ferromagnetic layer.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Depth-resolved magnetization profiles to search for magnetic proximity effect.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

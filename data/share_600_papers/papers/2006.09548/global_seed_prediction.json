@@ -1,0 +1,298 @@
+{
+  "bibliographic": {
+    "title": "Synthesis and characterization of bulk Nd1- x Sr x NiO2 and Nd1- x Sr x NiO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science Division, Argonne National Laboratory, Lemont, IL 60439, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Northern Illinois University, De Kalb, IL 60115, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Lemont, IL 60439, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Bi-Xia Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Hong Zheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "E. Krivyakina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "O. Chmaissem",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pietro Papa Lopes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J.W. Lynn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Leighanne C. Gallington",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Ren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "S. Rosenkranz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "J.F. Mitchell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "D. Phelan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The recent reports of superconductivity in Nd1- x Sr x NiO2/SrTiO3 heterostructures have reinvigorated interest in potential superconductivity of low-valence nickelates. Synthesis of Ni1+-containing compounds is notoriously difficult. In the current work, a combined sol-gel combustion and high-pressure annealing technique was employed to prepare polycrystalline perovskite Nd1- x Sr x NiO3 ( x = 0, 0.1 and 0.2). Metal nitrates and metal acetates were used as starting materials, and the latter were found to be superior to the former in terms of safety and reactivity. The Nd1- x Sr x NiO3 compounds were subsequently reduced to Nd1- x Sr x NiO2 using calcium hydride in a sealed, evacuated quartz tube. To understand the synthesis pathway, the evolution from NdNiO3 to NdNiO2 was monitored using in-situ synchrotron X -ray diffraction during the reduction process. Electrical transport properties were consistent with an insulatormetal transition occurring between x = 0 and 0.1 for Nd1- x Sr x NiO3. Superconductivity was not observed in our bulk samples of Nd1- x Sr x NiO2. Neutron diffraction experiments at 3 K and 300 K were performed on Nd0.9Sr0.1NiO2, in which no magnetic Bragg reflections were observed, and the results of structural Rietveld refinement are provided.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Nd1-xSrxNiO3 x=0",
+      "sample_description": null,
+      "chemical_composition": "Nd1-xSrxNiO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Nd1-xSrxNiO3 x=0.1",
+      "sample_description": null,
+      "chemical_composition": "Nd1-xSrxNiO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Nd1-xSrxNiO3 x=0.2",
+      "sample_description": null,
+      "chemical_composition": "Nd1-xSrxNiO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Nd1-xSrxNiO2 x=0.1",
+      "sample_description": null,
+      "chemical_composition": "Nd1-xSrxNiO2",
+      "sample_state": "polycrystalline",
+      "sample_mass": "90 - 100 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Nd1-xSrxNiO2 x=0.2",
+      "sample_description": null,
+      "chemical_composition": "Nd1-xSrxNiO2",
+      "sample_state": "polycrystalline",
+      "sample_mass": "90 - 100 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "NdNiO3",
+      "sample_description": "Sample used for in-situ reduction experiment",
+      "chemical_composition": "NdNiO3",
+      "sample_state": "chunk",
+      "sample_mass": "2 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room temperature XRD measurements on all samples.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in-situ synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Monitoring the evolution from NdNiO3 to NdNiO2 during the reduction process.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Resistivity measurements",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of the resistivity from 2-300 K.",
+      "measurement_technique": "resistivity measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Powder neutron diffraction",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction experiments at 3 K and 300 K on Nd0.9Sr0.1NiO2.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

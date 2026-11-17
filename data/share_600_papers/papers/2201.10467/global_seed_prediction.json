@@ -1,0 +1,208 @@
+{
+  "bibliographic": {
+    "title": "Collinear antiferromagnetic order in spin-5/2 triangle lattice antiferromagnet Na3Fe(PO4)2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics, Indian Institute of Science Education and Research Thiruvananthapuram-695551, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai 400 085, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Dresden High Magnetic Field Laboratory (HLD-EMFL), Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sebin J. Sebastian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Jain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. M. Yusuf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Uhlarz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "R. Nath",
+        "orcid": null,
+        "email": "rnath@iisertvm.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We set forth the structural and magnetic properties of the frustrated spin-5 / 2 triangle lattice antiferromagnet Na3Fe(PO4)2 examined via x-ray diffraction, magnetization, heat capacity, and neutron diffraction measurements on the polycrystalline sample. No structural distortion was detected from the temperature-dependant x-ray diffraction down to 12.5 K, except a systematic lattice contraction. The magnetic susceptibility at high temperatures agrees well with the high-temperature series expansion for a spin-5 / 2 isotropic triangular lattice antiferromagnet with an average exchange coupling of J/k B ≃ 1 . 8 K rather than a one-dimensional spin-5 / 2 chain model. This value of the exchange coupling is consistently reproduced by the saturation field of the pulse field magnetization data. It undergoes a magnetic long-range-order at T N ≃ 10 . 4 K. Neutron diffraction experiments elucidate a collinear antiferromagnetic ordering below T N with the propagation vector k = (1 , 0 , 0). An intermediate value of frustration ratio ( f ≃ 3 . 6) reflects moderate frustration in the compound which is corroborated by a reduced ordered magnetic moment of ∼ 1 . 52 µ B at 1.6 K, compared to its classical value (5 µ B). Magnetic isotherms exhibit a change of slope envisaging a field induced spin-flop transition at H SF ≃ 3 . 2 T. The magnetic field vs temperature phase diagram clearly unfold three distinct phase regimes, reminiscent of a frustrated magnet with in-plane (XY-type) anisotropy.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-01-26",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SERB, India",
+        "grant_id": "CRG/2019/000960"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION AND SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dresden high magnetic field laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "Dhruva reactor, Bhabha Atomic Research Centre (BARC)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Na3Fe(PO4)2",
+      "sample_description": null,
+      "chemical_composition": "Na3Fe(PO4)2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent powder XRD measurement performed over the range 12.5 K ≤ T ≤ 300 K to check for structural phase transition or lattice distortion.",
+      "measurement_technique": "powder x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dc magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC magnetization measured in the temperature range 1.8 K ≤ T ≤ 380 K and magnetic field range 0 ≤ H ≤ 7 T.",
+      "measurement_technique": "dc magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "pulsed magnetic field magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-field magnetization measured in pulsed magnetic field up to 50 T at T = 1.4 K.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity as a function of temperature and magnetic field measured on a small pellet.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "NPD experiments carried out in the temperature range 1.6 K ≤ T ≤ 15 K to determine magnetic structure.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "neutron-depolarization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "1D neutron-depolarization measurements performed to check for ferromagnetic-type correlations.",
+      "measurement_technique": "neutron-depolarization",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

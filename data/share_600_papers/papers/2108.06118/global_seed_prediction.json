@@ -1,0 +1,332 @@
+{
+  "bibliographic": {
+    "title": "Resonant Inelastic X-ray Scattering Study of Electron-Exciton Coupling in High-Tc Cuprates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Quantum Matter Physics, University of Geneva, 1211 Geneva, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Physics, École Polytechnique Fédérale de Lausanne, Lausanne, 1015, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Ariel University, Ariel, Israel"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Applied Physics, Stanford University, CA 94305, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Stanford Institute for Materials and Energy Sciences, SLAC,CA 94025, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Brookhaven National Laboratory, Upton, NY 11973 5000, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Materials Science and Engineering, Stanford University, Stanford, CA 94305, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Geballe Laboratory for Advanced Materials, Stanford University, CA 94305, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "F. Barantani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. K. Tran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "I. Madan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "I. Kapon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "N. Bachar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "T. C. Asmara",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "E. Paris",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Tseng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "W. Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Y. Hu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "E. Giannini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "G. Gu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "T. P. Devereaux",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_8",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "C. Berthod",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "F. Carbone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "T. Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "D. van der Marel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Explaining the mechanism of superconductivity in the high- Tc cuprates requires an understanding of what causes electrons to form Cooper pairs. Pairing can be mediated by phonons, the screened Coulomb force, spin or charge fluctuations, excitons, or by a combination of these. An excitonic pairing mechanism has been postulated, but experimental evidence for coupling between conduction electrons and excitons in the cuprates is sporadic. Here we use resonant inelastic x-ray scattering (RIXS) to monitor the temperature dependence of the dd exciton spectrum of Bi2Sr2CaCu2O8 −x (Bi-2212) crystals with different charge carrier concentrations. We observe a significant change of the d d exciton spectra when the materials pass from the normal state into the superconductor state. Our observations show that the dd excitons start to shift up (down) in the overdoped (underdoped) sample when the material enters the superconducting phase. We attribute the superconductivity-induced effect and its sign-reversal from underdoped to overdoped to the exchange coupling of the site of the dd exciton to the surrounding copper spins.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-06-09",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "179157"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "178867"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "160765"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Basic Energy Sciences, Division of Materials Sciences and Engineering",
+        "grant_id": "DE-AC02-76SF00515"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "701647 (PSI-FELLOW-II-3i program)"
+      },
+      {
+        "funder": "US Department of Energy, office of Basic Energy Sciences",
+        "grant_id": "DOE-sc0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL RESULTS",
+      "DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "underdoped Bi-2212",
+      "sample_description": "Carrier concentration p = 0.11 and Tc = 70 K.",
+      "chemical_composition": "Bi2Sr2CaCu2O8–x",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "optimally doped Bi-2212",
+      "sample_description": "Carrier concentration p = 0.16 and Tc = 91 K.",
+      "chemical_composition": "Bi2Sr2CaCu2O8–x",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "overdoped Bi-2212",
+      "sample_description": "Carrier concentration p = 0.21 and Tc = 70 K.",
+      "chemical_composition": "Bi2Sr2CaCu2O8–x",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS spectra measured at the Cu L3 edge to monitor the temperature dependence of dd exciton and magnon peaks.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

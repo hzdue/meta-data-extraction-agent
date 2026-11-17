@@ -1,0 +1,259 @@
+{
+  "bibliographic": {
+    "title": "Synchrotron x-ray diffraction studies of the α ↽β⇀ structural phase transition in Sn and Sn-Cu",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "India-based Neutrino Observatory, Tata Institute of Fundamental Research, Mumbai - 400005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Homi Bhabha National Institute, Anushaktinagar, Mumbai - 400094, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Condensed Matter Physics and Material Science, Tata Institute of Fundamental Research, Mumbai - 400005, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Nuclear and Atomic Physics, Tata Institute of Fundamental Research, Mumbai - 400005, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Department of Physics, Indian Institute of Technology Ropar, Rupnagar - 140001, India"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Synchrotron utilization section, Raja Ramanna Centre for Advanced Technology, Indore - 452013, India"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Nuclear Physics Division, Bhabha Atomic Research Centre, Mumbai - 400085, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Mazumdar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Thamizhavel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "V. Nanal",
+        "orcid": null,
+        "email": "nanal@tifr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R.G. Pillay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Upadhyay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "V. Vatsa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Reza",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "A. Shrivastava",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Bhagyashree Chalke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "S. Mallikarjunachary",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "The transformation between the metallic ( β ) and semi-conducting ( α ) allotropes of tin is still not well understood. The phase transition temperature stated in the literature, 286.2 K, seems to be inconsistent with recent calorimetric measurements. In this paper, this intriguing aspect has been explored in Sn and Sn-Cu (alloyed 0.5 % Cu by weight) using temperature resolved synchrotron x-ray diffraction measurements performed at the Indus-2 facility. Additionally, the α⇀ ↽β Sn transition has been recorded using in-situ heating/cooling experiments in a scanning electron microscope. Based on these measurements, a protocol has been suggested to reduce the formation of α - Sn in potentially susceptible systems. This will be useful in experiments like TIN.TIN (The INdia-based TIN detector), which proposes to employ ∼ 100 - 1000 kg of superconducting tin-based detectors to search for neutrinoless double beta decay in the isotope124 Sn.",
+    "keywords": [
+      "tin pest",
+      "polymorphic phase transformation",
+      "scanning electron microscopy (SEM)",
+      "synchrotron radiation",
+      "X-ray diffraction (XRD)"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-03-15",
+    "venue": "Scripta Materialia",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Atomic Energy, Government of India",
+        "grant_id": "12-R&DTFR5.02-0300"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Indus-2"
+    },
+    {
+      "id": "facility_2",
+      "name": "Raja Ramanna Centre for Advanced Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sn",
+      "sample_description": "Pure tin sample prepared in the α-phase by incubating at T ≤ 253 K with α-Sn powder seed.",
+      "chemical_composition": "Sn",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sn-Cu",
+      "sample_description": "Tin alloyed with 0.5 % Cu by weight, prepared in the α-phase by incubating at T ≤ 253 K with α-Sn powder seed.",
+      "chemical_composition": "Sn-Cu",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in-situ SEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In-situ temperature resolved SEM images recorded to observe volume changes during α → β and β → α transitions.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Synchrotron XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Temperature resolved synchrotron x-ray diffraction measurements performed in transmission mode.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Conventional XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD measurements performed on a Rigaku SmartLab diffractometer with a heating stage.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "LaB6 calibration",
+      "sample_refs": [],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Data of NIST sample LaB6 used to refine x-ray energy and sample-to-detector distance.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "calibration"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "schema_name": "generic_scientific_document_core_metadata",
+    "schema_version": "1.1.0",
+    "description": "Domain-agnostic field-definition schema for core bibliographic and high-level structural metadata from scientific documents.",
+    "design_principles": [
+      "Constraints are used only where they improve normalization without harming extraction quality.",
+      "Most fields remain unconstrained to preserve robustness for LLM-based extraction.",
+      "The schema defines target metadata fields only; response formatting and provenance are handled separately."
+    ]
+  },
+  "bibliographic": {
+    "title": {
+      "description": "Main title of the scientific document itself.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions":[
+        "Copy the document title verbatim as printed on the first page or running header. Preserve casing and punctuation."
+      ]
+    },
+    "subtitle": {
+      "description": "Subtitle of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 }
+    },
+    "affiliations": {
+      "description": "Institutional affiliations associated with document authors.",
+      "type": "list[affiliation]",
+      "cardinality": { "min": 0, "max": 100 },
+      "instructions":[
+        "One entry per distinct affiliation, in order of first appearance. Do not repeat affiliations."
+      ],
+      "item_schema": {
+        "id": {
+          "type": "string",
+          "description": "Stable local affiliation identifier.",
+          "instructions": [
+            "Assign IDs in sequence: aff_1, aff_2, aff_3, etc."
+          ]
+        },
+        "label": {
+          "type": "string|null",
+          "description": "Local marker used in the document, such as a superscript number, letter, or symbol.",
+          "instructions": [
+            "Copy the printed superscript or symbol exactly as printed, e.g. '1', 'a', '†', '‡'. Use null if no explicit label is given."
+          ]
+        },
+        "text": {
+          "type": "string",
+          "description": "Affiliation text as given in the document.",
+          "instructions": ["Copy the full affiliation address verbatim, including department, institution, postal code, city, country."]
+        }
+      }
+    },
+    "authors": {
+      "description": "Authors of the scientific document in document order.",
+      "type": "list[author]",
+      "cardinality": { "min": 0, "max": 100 },
+      "instructions": [
+        "Extract document authors only.",
+        "Preserve author order as it appears in the document."
+      ],
+      "item_schema": {
+        "id": {
+          "type": "string",
+          "description": "Stable local author identifier.",
+          "instructions": [
+            "Assign IDs in sequence: author_1, author_2, author_3, etc."
+          ]
+        },
+        "full_name": {
+          "type": "string",
+          "description": "Full author name as presented in the document.",
+          "instructions": [
+            "Copy as printed. Use initials if the document prints initials; full names if it prints full names. Do not expand initials."
+          ]
+        },
+        "orcid": {
+          "type": "string|null",
+          "description": "ORCID identifier if explicitly given.",
+          "instructions": [
+            "Extract only ORCID identifiers explicitly associated with the author.",
+            "Return ORCID as the bare identifier without URL prefix, e.g. 0000-0002-1825-0097."
+          ],
+          "constraints": {
+            "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"}
+        },
+        "email": {
+          "type": "string|null",
+          "description": "Author email if explicitly given."
+        },
+        "is_corresponding": {
+          "type": "boolean",
+          "description": "Whether the author is explicitly marked as a corresponding author.",
+          "instructions": [
+            "Use true if the author is explicitly marked as a corresponding author (asterisk, footnote, 'Corresponding author' label). Use false otherwise."
+          ]
+        },
+        "affiliation_refs": {
+          "type": "list[string]",
+          "description": "References linking the author to affiliations.",
+          "instructions": [
+            "Use the exact id values assigned in the affiliations list (e.g. aff_1, aff_2).",
+            "Use [] if the author has no affiliated institution."
+          ]
+        }
+      }
+    },
+    "abstract": {
+      "description": "Main abstract of the scientific document.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "Copy the printed abstract verbatim.",
+        "Do not include graphical abstracts, highlights, or keyword lists."
+      ]
+    },
+    "keywords": {
+      "description": "Explicit author-provided or publisher-provided keywords.",
+      "type": "list[string]",
+      "cardinality": { "min": 0, "max": 50 },
+      "instructions": [
+        "Extract explicit keywords only.",
+        "Do not infer keywords from the abstract or body text."
+      ]
+    },
+    "doi": {
+      "description": "DOI of the document itself, if explicitly given.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "Extract only the DOI that belongs to the document itself.",
+        "Do not extract DOIs from cited references."
+      ],
+      "constraints": {"pattern": "^10\\.\\d{4,9}/\\S+$"}
+    },
+    "arxiv_id": {
+      "description": "arXiv identifier of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "Extract only the arXiv ID that belongs to the document itself.",
+        "Use the unversioned bare arXiv ID, e.g. '1812.03956' not '1812.03956v1'.",
+        "Do not extract arXiv IDs from cited references."
+      ]
+    },
+    "url": {
+      "description": "Canonical URL of the document, if explicitly given.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "Extract only a URL that points to the document itself.",
+        "Do not extract URLs from cited references."
+      ]
+    },
+    "publication_date": {
+      "description": "Publication date of the document in the most precise form available.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "Extract the publication date for the document itself, not dates from cited references.",
+        "If multiple dates are present, use this priority order: (1) final journal publication date; (2) online publication date; (3) accepted date; (4) revised date; (5) received date; (6) manuscript-printed publication date (e.g. a '(Dated: ...)' line inside the PDF); (7) arXiv submission date (use the version stamped on the PDF being annotated); (8) copyright year.",
+        "When two dates of the same priority level appear, use the later one.",
+        "Use the most precise date available in the selected source: YYYY-MM-DD, YYYY-MM, or YYYY.",
+        "Do not combine dates from different sources. If only a year is available for the highest-priority source, use that year rather than a more precise lower-priority date."
+      ]
+    },
+    "venue": {
+      "description": "Primary scholarly venue or container of the document, such as a journal, conference, workshop, proceedings venue, or repository.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions": [
+        "For arXiv preprints, use arXiv.",
+        "For published versions, use the journal/conference name as printed.",
+        "Use null if no venue indicator is printed."
+      ]
+    },
+    "publisher": {
+      "description": "Publisher or issuing organization of the document.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "instructions":[
+        "Publisher name as printed in cite line, footer, or copyright notice (e.g. 'American Chemical Society', 'Elsevier'). Use null for arXiv-only papers."
+      ]
+    },
+    "language": {
+      "description": "Primary language of the document content.",
+      "type": "string|null",
+      "cardinality": { "min": 0, "max": 1 },
+      "constraints": {
+        "format": "ISO 639-1 two-letter code, e.g. en, fr, de."
+      }
+    },
+    "funding": {
+      "description": "Funding information explicitly stated in the document, restricted to entries with both an identifiable funder and an explicit grant or award identifier.",
+      "type": "list[funding_item]",
+      "cardinality": { "min": 0, "max": 50 },
+      "instructions": [
+        "Create a funding entry only when the document gives both an identifiable funder and an explicit grant or award identifier for it.",
+        "Create one entry per (funder, grant_id) pair: ",
+        "  - if a funder gives multiple grants, create one entry per grant_id;",
+        "  - if a single grant has multiple co-funders, create one entry per co-funder.",
+        "Do not create an entry for a funder, institution, or acknowledgment named without an explicit grant or award identifier (e.g. general thanks to an institution, vendor, or a fellowship/position with no award number).",
+        "The identifier must be a funding grant or award number; do not use identifiers that are not tied to financial support."
+      ],
+      "item_schema": {
+        "funder": {
+          "type": "string",
+          "description": "Funding organization name associated with the grant.",
+          "instructions":[
+            "Use the funding organization name as printed; use the full name if printed, and the acronym only when no full name is given.",
+            "When both the full name and its acronym are printed, use the full name and omit the acronym.",
+            "If no funding organization is named but a funding programme, scheme, or project is named as the source, use that programme, scheme, or project name as the funder."
+          ]
+        },
+        "grant_id": {
+          "type": "string",
+          "description": "Grant or award identifier explicitly given in the document.",
+          "instructions":[
+            "Single grant ID exactly as printed.",
+            "If the printed identifier includes an associated project, programme, or acronym alongside the grant or award number, preserve the full printed identifier phrase as written, e.g. '834134 (WATUSO)' or 'SIONA,C14/22/099'."
+          ]
+        }
+      }
+    }
+  },
+  "document_overview": {
+    "section_headings": {
+      "description": "Top-level headings of the main scientific body in reading order.",
+      "type": "list[string]",
+      "cardinality": { "min": 0, "max": 200 },
+      "instructions": [
+        "List the explicit top-level headings of the main scientific body in reading order, exactly as printed (preserve numbering, capitalisation, punctuation).",
+        "Exclude front matter (Abstract) and back matter (Acknowledgements, Funding, Author Contributions, Conflict/Competing Interests, Data Availability, References/Bibliography).",
+        "Exclude subsection headings, metadata blocks, and figure/table captions.",
+        "Exclude supplementary materials, supporting information, and appendix sections (both the section heading itself and any headings within them)."
+      ]
+    },
+    "has_references": {
+      "description": "Whether the document contains a references or bibliography section.",
+      "type": "boolean"
+    },
+    "has_figures": {
+      "description": "Whether the document contains one or more figures.",
+      "type": "boolean"
+    },
+    "has_tables": {
+      "description": "Whether the document contains one or more tables.",
+      "type": "boolean"
+    }
+  }
+}

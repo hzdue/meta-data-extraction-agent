@@ -1,0 +1,387 @@
+{
+  "bibliographic": {
+    "title": "Femtosecond laser produced periodic plasma in a colloidal crystal probed by XFEL radiation",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestraße 85, D-22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Research Tomsk Polytechnic University (TPU), pr. Lenina 30, 634050 Tomsk, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Debye Institute for Nanomaterials Science, University of Utrecht, Padualaan 8, 3508 TB Utrecht, The Netherlands"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "University of California, 9500 Gilman Dr., La Jolla, San Diego, CA 92093, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "SLAC National Accelerator Laboratory, 2575 Sand Hill Rd, Menlo Park, CA 94025, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute of Radiation Physics, Helmholtz Zentrum Dresden-Rossendorf, 01328 Dresden, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Center for Advanced Systems Understanding (CASUS), Görlitz, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Technische Universität Dresden, 01069 Dresden, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Center for Free-Electron Laser Science, DESY, D-22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Physics, Universität Hamburg, 20355 Hamburg, Germany"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Institute of Nuclear Physics, PAS, Radzikowskiego 152, 31-342 Krakow, Poland"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology P.O. Box 513, 5600 MB Eindhoven, Netherlands"
+      },
+      {
+        "id": "aff_13",
+        "label": "13",
+        "text": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), Kashirskoe shosse 31, 115409 Moscow, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nastasia Mukharamova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sergey Lazarev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Janne-Mieke Meijer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Oleg Yu. Gorobtsov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andrej Singer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Matthieu Chollet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Michael Bussmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Dmitry Dzhigaev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yiping Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Marco Garten",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Axel Huebl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Thomas Kluge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Ruslan P. Kurta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Vladimir Lipp",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Robin Santra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Marcin Sikorski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Sanghoon Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Garth Williams",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Diling Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Beata Ziaja-Motyka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Thomas Cowan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Andrei V. Petukhov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Ivan A. Vartanyants",
+        "orcid": null,
+        "email": "ivan.vartaniants@desy.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_13"
+        ]
+      }
+    ],
+    "abstract": "With the rapid development of short-pulse intense laser sources, studies of matter under extreme irradiation conditions enter further unexplored regimes. In addition, an application of X-ray FreeElectron Lasers (XFELs), delivering intense femtosecond X-ray pulses allows to investigate sample evolution in IR pump - X-ray probe experiments with an unprecedented time resolution. Here we present the detailed study of periodic plasma created from the colloidal crystal. Both experimental data and theory modeling show that the periodicity in the sample survives to a large extent the extreme excitation and shock wave propagation inside the colloidal crystal. This feature enables probing the excited crystal, using the powerful Bragg peak analysis, in contrast to the conventional studies of dense plasma created from bulk samples for which probing with Bragg diffraction technique is not possible. X-ray diffraction measurements of excited colloidal crystals may then lead towards a better understanding of matter phase transitions under extreme irradiation conditions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-11-12",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Cluster of Advanced Laser Light Sources",
+        "grant_id": "654220"
+      },
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "HRSF-0002"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS",
+      "III. DISCUSSION",
+      "IV. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Linac Coherent Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "polystyrene colloidal crystals",
+      "sample_description": "Colloidal crystal films prepared from polystyrene spheres with a diameter of 163 ± 3 nm using the vertical deposition method.",
+      "chemical_composition": "polystyrene",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "non-periodic polystyrene sample",
+      "sample_description": "Bulk polystyrene sample used for comparison in hydrodynamic simulations.",
+      "chemical_composition": "polystyrene",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "IR pump–X-ray probe diffraction experiment",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction measurements of excited colloidal crystals with time delay variation from -10 ps to 1000 ps.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

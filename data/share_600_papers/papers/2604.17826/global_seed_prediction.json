@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Three-dimensional visualization of lattice defects in β-Ga2O3 via synchrotron-radiation Borrmann-effect X-ray topo-tomography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Mie University, 1577 Kurimamachiya-cho, Tsu, Mie 514-8507, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Japan Fine Ceramics Center, 2-4-1 Mutsuno, Atsuta, Nagoya 456-8587, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Novel Crystal Technology, Inc., 2-3-1 Hirosedai, Sayama, Saitama 350-1328, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yongzhao Yao",
+        "orcid": "0000-0002-7746-4204",
+        "email": "yao@icsdf.mie-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Daiki Katsube",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hirotaka Yamaguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Shinya Yamaguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Daiki Wakimoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hironobu Miyamoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yukari Ishikawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "β-Ga2O3 is a promising material for next-generation power electronics; however, its performance is strongly affected by lattice defects such as dislocations. In this study, we demonstrate three-dimensional (3D) visualization of dislocations in β- Ga2O3 using synchrotron-radiation X-ray topo-tomography under a two-beam Borrmanneffect condition in transmission X-ray topography. By rotating the sample about the diffraction vector and acquiring a series of topo-tomographic images at different rotation angles, the evolution of dislocation contrast is captured, providing intuitive, depthresolved visualization of dislocations. This method enables clear separation of dislocations in the epilayer and substrate in Schottky barrier diode structures, offering insight into dislocation propagation and their impact on epitaxial growth and device performance. This study represents the first demonstration of 3D dislocation reconstruction in β-Ga2O3.",
+    "keywords": [
+      "β-Ga2O3",
+      "lattice defect",
+      "dislocation",
+      "X-ray topo-tomography",
+      "threedimensional visualization"
+    ],
+    "doi": "10.1063/5.0339598",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026",
+    "venue": "Appl. Phys. Lett.",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "New Energy and Industrial Technology Development Organization",
+        "grant_id": "JPNP22007"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "20K05355"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "23H01872"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "23K17356"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Photon Factory, High Energy Accelerator Research Organization (KEK)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "bare substrate",
+      "sample_description": "Sn-doped (001)-oriented β-Ga2O3 single crystal fabricated by the edge-defined filmfed growth (EFG) method.",
+      "chemical_composition": "β-Ga2O3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SBD wafer",
+      "sample_description": "Consists of a Sn-doped (001)-oriented substrate and a 12 μm-thick epitaxial layer grown by hydride vapor phase epitaxy (HVPE).",
+      "chemical_composition": "β-Ga2O3",
+      "sample_state": "wafer",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray topo-tomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D visualization of dislocations using synchrotron-radiation X-ray topo-tomography under a two-beam Borrmann-effect condition in transmission XRT.",
+      "measurement_technique": "X-ray topo-tomography",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

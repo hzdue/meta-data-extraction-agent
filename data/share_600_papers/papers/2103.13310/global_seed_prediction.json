@@ -1,0 +1,294 @@
+{
+  "bibliographic": {
+    "title": "Curvature‐mediated spin textures in magnetic multi‐layered nanotubes",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Ernst Ruska‐Centre for Microscopy and Spectroscopy with Electrons (ER‐C), Forschungszentrum Jülich GmbH, 52425 Jülich, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Materials Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of California Santa Cruz, Santa Cruz, CA 95604 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Departamento de Física, Universidad de Oviedo, 33007 Oviedo, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "ALBA Synchrotron Light Facility, 08290 Cerdanyola del Vallès, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Central Facility for Electron Microscopy, RWTH Aachen University, 52074 Aachen, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Peter Grünberg Institute 6 and Jülich Aachen Research Alliance, Forschungszentrum Jülich GmbH, 52425 Jülich, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Helmholtz‐Zentrum Berlin für Materialien und Energie, 14109 Berlin Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Freie Universität Berlin, Physical Chemistry, 14195 Berlin, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Elisabeth Josten",
+        "orcid": null,
+        "email": "e.josten@posteo.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "David Raftrey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Aurelio Hierro‐Rodriguez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Andrea Sorrentino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lucia Aballe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Marta Lipińska‐Chwałek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Thomas Jansen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Katja Höflich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Hanno Kröncke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Catherine Dubourdieu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Daniel E. Bürgler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Joachim Mayer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Peter Fischer",
+        "orcid": null,
+        "email": "PJFischer@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The scientific and technological exploration of artificially designed three‐dimensional magnetic nanostructures opens the path to exciting novel physical phenomena, originating from the increased complexity in spin textures, topology, and frustration in three dimensions. Theory predicts that the equilibrium magnetic ground state of two‐dimensional systems which reflects the competition between \nsymmetric (Heisenberg) and antisymmetric (Dzyaloshinskii‐Moriya interaction (DMI)) exchange interaction is significantly modified on curved surfaces when the radius of local curvature becomes comparable to fundamental magnetic length scales. \nHere, we present an experimental study of the spin texture in an 8 nm thin magnetic multilayer with growth‐induced in‐plane anisotropy and DMI deposited onto the curved surface of a 1.8 μm long non‐ magnetic carbon nanowire with a 67 nm radius. Using magnetic soft x‐ray tomography the three‐ \ndimensional spin configuration in this nanotube was retrieved with about 30nm spatial resolution. The transition between two vortex configurations on the two ends of the nanotube with opposite circulation \noccurs through a domain wall that is aligned at an inclined angle relative to the wire axis. Three‐ \ndimensional micromagnetic simulations support the experimental observations and represent a \nvisualization of the curvature‐mediated DMI. They also allow a quantitative estimate of the DMI value \nfor the magnetic multilayered nanotube.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division",
+        "grant_id": "DE‐AC02‐05‐CH11231"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "H2020‐MSCA‐IF‐2016‐746958"
+      },
+      {
+        "funder": "Spanish AEI",
+        "grant_id": "PID2019–104604RB/AEI/10.13039/501100011033"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Main",
+      "Experimental details",
+      "Discussion",
+      "Effect of Curvature on DMI",
+      "Vortex structures at the top and bottom",
+      "Domain wall in–between vortices",
+      "Conclusions",
+      "Methods",
+      "Sample synthesis and structural characterization",
+      "Magnetic soft x–ray tomography",
+      "Micromagnetic simulations"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron Light Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "magnetic multi-layered nanotube",
+      "sample_description": "A magnetic multilayer deposited onto the surface of a non-magnetic carbon nanowire.",
+      "chemical_composition": "<Pt (0.35 nm)/ Co (0.35 nm)/ Ni (0.25 nm)>",
+      "sample_state": "nanotube",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetic soft x-ray tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D spin configuration retrieved using XMCD at Co L3 and L2 edges.",
+      "measurement_technique": "magnetic soft x-ray tomography",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cross-sectional images to confirm circumferential uniformity of the multilayer.",
+      "measurement_technique": "Scanning Transmission Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of the extracted nanotube fixed on a membrane.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

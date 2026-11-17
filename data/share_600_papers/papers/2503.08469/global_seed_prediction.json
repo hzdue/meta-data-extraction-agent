@@ -1,0 +1,213 @@
+{
+  "bibliographic": {
+    "title": "XY-like Incommensurate Magnetic Order in Ce2SnS5",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Nuclear Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Toho University, Funabashi, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Maximilien F. Debbas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Takehito Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Danielle R. Yahne",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joseph G. Checkelsky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "We report the synthesis of single crystals of Ce2SnS5 through a two-stage chemical vapor transport method. The Ce2SnS5 system is a member of the orthorhombic Pbam (No. 55) space group and realizes a distorted trigonal tricapped prism (TTP) crystal field around each cerium site. We characterized the sample through orientation-dependent magnetization and heat capacity measurements to probe the magnetic anisotropy in the system characteristic of XY-like anisotropic Heisenberg model behavior. Ce2SnS5 furthermore enters a zero-field ordered phase under TN = 2 . 4 K; powder neutron diffraction measurements reveal incommensurate magnetic order near TN . The system then locks into a commensurate, two- q magnetic structure below approximately 1 . 2 K. This commensurate structure belongs to the Shubnikov group Pb’a’m’ (MSG 55.359) and realizes the propagation vectors ⃗q = (1 / 3 , 0 , 0) and ⃗q = (0 , 0 , 0).",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "osf.io/7vtgr",
+    "publication_date": "2025-12-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation EPiQS Initiative",
+        "grant_id": "GBMF9070"
+      },
+      {
+        "funder": "Army Research Office",
+        "grant_id": "W911NF-24-1-0234"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. GROWTH METHOD",
+      "III. CRYSTAL STRUCTURE",
+      "IV. MEASUREMENTS",
+      "V. DISCUSSION",
+      "VI. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Oak Ridge National Laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ce2SnS5 crystal A",
+      "sample_description": null,
+      "chemical_composition": "Ce2SnS5",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ce2SnS5 crystal B",
+      "sample_description": null,
+      "chemical_composition": "Ce2SnS5",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ce2SnS5 crystal C",
+      "sample_description": null,
+      "chemical_composition": "Ce2SnS5",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "powdered Ce2SnS5",
+      "sample_description": null,
+      "chemical_composition": "Ce2SnS5",
+      "sample_state": "powder",
+      "sample_mass": "4 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC magnetization measurements performed using Vibrating Sample Magnetometer (VSM) mode.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Heat capacity",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity measurements in zero field and increasing magnetic fields.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "powder neutron diffraction",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Zero-field neutron scattering spectra taken at several temperatures between 300 mK and 4 K.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "powder XRD",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Powder X-ray diffraction pattern obtained using copper K-alpha radiation.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

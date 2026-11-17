@@ -1,0 +1,225 @@
+{
+  "bibliographic": {
+    "title": "Anisotropic damping and wavevector dependent susceptibility of the spin fluctuations in La2−x Srx CuO4 studied by resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "H. H. Wills Physics Laboratory, University of Bristol, Bristol BS8 1TL, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Harwell Science & Innovation Campus, Didcot, Oxfordshire OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Beijing National Laboratory for Condensed Matter Physics and Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "H. C. Robarts",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. Barth´elemy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. Kummer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Garc´ıa-Fern´andez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Nag",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. C. Walters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "K. J. Zhou",
+        "orcid": null,
+        "email": "kejin.zhou@diamond.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "S. M. Hayden",
+        "orcid": null,
+        "email": "s.hayden@bristol.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report high-resolution resonant inelastic x-ray scattering (RIXS) measurements of the collective spin fluctuations in three compositions of the superconducting cuprate system La2 −x Sr x CuO4. We have mapped out the excitations throughout much of the 2-D ( h, k ) Brillouin zone. The spin fluctuations in La2 −x Sr x CuO4 are found to be fairly well-described by a damped harmonic oscillator model, thus our data allows us to determine the full wavevector dependence of the damping parameter. This parameter increases with doping and is largest along the ( h, h ) line, where it is peaked near (0 . 2 _,_ 0 . 2). We have used a new procedure to determine the absolute wavevector-dependent susceptibility for the doped compositions La2 −x Sr x CuO4 ( x = 0 . 12 _,_ 0 . 16) by normalising our data to La2CuO4 measurements made with inelastic neutron scattering (INS). We find that the evolution with doping of the intensity of high-energy excitations measured by RIXS and INS is consistent. For the doped compositions, the wavevector-dependent susceptibility is much larger at ( 41,1 4)than at (1 2,0).Itincreasesrapidlyalongthe(h, h_)linetowardstheantiferromagneticwavevectorofthe parent compound ( 21,1 2).Thus,thestrongestmagneticexcitations,andthosepredictedtofavour superconductive pairing, occur towards the (1 2,1 2)positionasobservedbyINS.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Engineering and Physical Sciences Research Council (EPSRC) Centre for Doctoral Training in Condensed Matter Physics (CDT-CMP)",
+        "grant_id": "EP/L015544/1"
+      },
+      {
+        "funder": "Engineering and Physical Sciences Research Council (EPSRC) Centre for Doctoral Training in Condensed Matter Physics (CDT-CMP)",
+        "grant_id": "EP/R011141/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. SUMMARY AND CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2CuO4",
+      "sample_description": "Parent compound which displays antiferromagnetism below TN ≃ 320 K.",
+      "chemical_composition": "La2CuO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "La2−x Srx CuO4 x = 0.12",
+      "sample_description": "Hole-doped compound showing charge density wave (CDW) order.",
+      "chemical_composition": "La2−x Srx CuO4 x = 0.12",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "La2−x Srx CuO4 x = 0.16",
+      "sample_description": "Hole-doped compound close to optimal doping for the superconducting phase.",
+      "chemical_composition": "La2−x Srx CuO4 x = 0.16",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "High-resolution RIXS measurements of collective spin fluctuations mapped over 2-D (h, k) space.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "INS measurements of the parent compound La2CuO4 used as a reference for absolute susceptibility.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [],
+      "purpose": "reference"
+    }
+  ]
+}

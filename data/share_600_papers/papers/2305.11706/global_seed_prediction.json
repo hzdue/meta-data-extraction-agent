@@ -1,0 +1,196 @@
+{
+  "bibliographic": {
+    "title": "Revisiting the magnetic structure of Holmium at high pressure: a neutron diffraction study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Instituto de Nanociencia y Materiales de Arag´on (CSIC – Universidad de Zaragoza) and depto. de F´ısica de la Materia Condensada, C/Pedro Cerbuna 12, 50009 Zaragoza, Spain."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Graduate School of Science, Osaka Metropolitan University, 1-1 Gakuencho, Sakai, Osaka 599-8531 Japan."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue Langevin, 71 avenue des Martyrs, CS 20156, Grenoble, Cedex 9 38042, France."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics and Electronics, Osaka Metropolitan University, 1-1 Gakuencho, Sakai, Osaka 599-8531 Japan."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Graduate School of Engineering, Kyushu Institute of Technology, Kitakyushu 804-8550, Japan."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. Pardo-Sainz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "F. Cova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. A. Rodr´ıguez-Velamaz´an",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "I. Puente-Orench",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Y. Kousaka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "M. Mito",
+        "orcid": null,
+        "email": "mitoh@mns.kyutech.ac.jp",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. Campo",
+        "orcid": null,
+        "email": "javier.campo@csic.es",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Low-temperature neutron diffraction experiments at P = 8 GPa have been conducted to investigate the magnetic structures of metallic Holmium at high pressures by employing a long d-spacing high-flux diffractometer and a Paris-Edinburgh press cell inside a cryostat. We find that at P = 8 GPa and T = 5 K, no nuclear symmetry change is observed, keeping therefore the hexagonal closed packed (hcp) symmetry at high pressure. Our neutron diffraction data confirm that the ferromagnetic state does not exist. The magnetic structure corresponding to the helimagnetic order, which survives down to 5 K, is fully described by the magnetic superspace group formalism. These results are consistent with those previously published using magnetization experiments.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-05-22",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Education, Culture, Sports, Science and Technology",
+        "grant_id": "19KK0070"
+      },
+      {
+        "funder": "MCIN/AEI/10.13039.501100011033",
+        "grant_id": "PID2022-138492NB-I00-XM4"
+      },
+      {
+        "funder": "CSIC/MCIN",
+        "grant_id": "OTR02223-SpINS"
+      },
+      {
+        "funder": "Diputaci´on General de Arag´on",
+        "grant_id": "DGA/M4"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. HIGH PRESSURE NEUTRON DIFFRACTION EXPERIMENTS",
+      "III. RESULTS AND ANALYSIS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "metallic natural Ho",
+      "sample_description": "High purity (99.999%) polycrystalline sample.",
+      "chemical_composition": "Ho",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction experiments at ambient pressure and room temperature using wavelengths of 1.28 A and 2.52 A.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron powder diffraction at 8 GPa",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction at 8 GPa from 5 K to room temperature using wavelength 2.52 A.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

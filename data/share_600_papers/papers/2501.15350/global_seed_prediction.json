@@ -1,0 +1,463 @@
+{
+  "bibliographic": {
+    "title": "Pyrochlore NaYbO2: A potential Quantum Spin Liquid Candidate",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Institute of Crystal Materials, State Key Laboratory of Crystal Materials, Shandong University, Jinan 250100, Shandong, China"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "NSF’s ChemMatCARS, University of Chicago, Lemont, Il 60439, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, Beijing, China"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Diffraction & Imaging, Photon Science Operations, Advanced Light Source, Lawrence Berkeley National Laboratory, CA 94720, United States"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "School of Physics, Shandong University, Jinan 250100, Shandong, China"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "Huairou Division, Institute of Physics, Chinese Academy of Sciences, Beijing 101407, Beijing, China"
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "Spallation Neutron Source Science Center, Dongguan 523803, China"
+      },
+      {
+        "id": "aff_8",
+        "label": null,
+        "text": "Shanghai Synchrotron Radiation Facility (SSRF), Shanghai Advanced Research Institute Chinese Academy of Science, Shanghai 201204, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chuanyan Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Tieyan Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Longlong Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Simon J. Teat",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Feiyu Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Xiaoran Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chao Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Shilei Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Huifen Ren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jiazheng Hao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Zhaohui Dong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Lunhua He",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Shanpeng Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Chengwang Niu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "YuSheng Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Xutang Tao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Junjie Zhang",
+        "orcid": "0000-0002-5561-1330",
+        "email": "junjie@sdu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The search for quantum spin liquids (QSL) and chemical doping in such materials to explore superconductivity have continuously attracted intense interest. Here, we report the discovery of a potential QSL candidate, pyrochlore-lattice β- NaYbO2. Colorless and transparent NaYbO2 single crystals, layered α-NaYbO2 (~250 μm on edge) and octahedral β-NaYbO2 (~50 μm on edge), were grown for the first time. Synchrotron X-ray single crystal diffraction unambiguously determined that the newfound β-NaYbO2 belongs to the three-dimensional pyrochlore structure characterized by the R 3\" m space group, corroborated by synchrotron X-ray and neutron powder diffraction and pair distribution function. Magnetic measurements revealed no long-range magnetic order or spin glass behavior down to 0.4 K with a low boundary spin frustration factor of 17.5, suggesting a potential QSL ground state. Under high magnetic fields, the potential QSL state was broken and spins order. Our findings reveal that NaYbO2 is a fertile playground for studying novel quantum states.",
+    "keywords": [
+      "quantum spin liquid",
+      "pyrochlore",
+      "frustrated magnetism",
+      "rare-earth chalcogenide",
+      "single crystal growth"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12374457"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12074219"
+      },
+      {
+        "funder": "Taishan Scholars Project of Shandong Province",
+        "grant_id": "tsqn201909031"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. RESULTS AND DISCUSSION",
+      "3. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Beijing Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_3",
+      "name": "General Purpose Powder Diffractometer"
+    },
+    {
+      "id": "facility_4",
+      "name": "Shanghai Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_5",
+      "name": "Synergetic Extreme Condition User Facility"
+    },
+    {
+      "id": "facility_6",
+      "name": "China Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-NaYbO2",
+      "sample_description": "Layered single crystals with plate morphology.",
+      "chemical_composition": "NaYbO2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "β-NaYbO2",
+      "sample_description": "Octahedral single crystals with pyrochlore structure.",
+      "chemical_composition": "NaYbO2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "NaYbO2 polycrystalline powders",
+      "sample_description": "Synthesized using solid-state reaction.",
+      "chemical_composition": "NaYbO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Determination of crystal structures for layered and octahedral crystals.",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "synchrotron X-ray powder diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Rietveld refinement on pulverized β-NaYbO2 single crystals.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_6"
+      ],
+      "dataset_description": "Rietveld refinement on pulverized β-NaYbO2 single crystals.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "pair distribution function",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_4"
+      ],
+      "dataset_description": "Local structure investigation of α- and β-NaYbO2.",
+      "measurement_technique": "pair distribution function",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "UV-Vis spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of absorption spectra to calculate bandgap.",
+      "measurement_technique": "ultraviolet-visible spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Raman spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of vibration and rotational energy levels.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "FTIR measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Infrared spectra of pulverized crystals.",
+      "measurement_technique": "Fourier-transform infrared spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "magnetic susceptibility",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_5"
+      ],
+      "dataset_description": "Temperature dependent magnetic susceptibility measurements.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_9",
+      "dataset_name": "magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_5"
+      ],
+      "dataset_description": "Field-dependent magnetization measurements at various temperatures.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Brittle fracture studied by ultra-high speed synchrotron X-ray diffraction imaging",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Univ. Grenoble Alpes, CEA, LETI, MINATEC Campus, F-38054 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Univ. Grenoble Alpes, CEA, IRIG-MEM-NRS, F-38000 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "SOITEC, Parc Technologique des Fontaines, 38190 Bernin, France"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "ESRF – The European Synchrotron, 71 avenue des Martyrs, F-38043 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Antoine Petit",
+        "orcid": null,
+        "email": "antoine.petit@cea.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sylvia Pokam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Fr´ed´eric Mazen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Samuel Tardif",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Fran¸cois Rieutord",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Didier Landru",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Oleg Kononchuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Nadia Ben Mohamed",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Margie P. Olbinado",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Alexander Rack",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Ever since the very first human-made knapped tools, the control of fracture propagation in brittle materials has been a vector of technological development. Nowadays, a broad range of applications relies on crack propagation control, from the mitigation of damages, e.g., from impacts in glass screens or windshields, to industrial processes harnessing fracture to achieve clean cuts over large distances. Yet, studying the fracture in real time is a challenging task, since cracks can propagate up to a few km/s in materials that are often opaque. Here, we report on the in situ investigation of cracks propagating at up to 2.5 km/s along a (001) plane of a silicon single crystal, using X-ray diffraction megahertz imaging with intense and time-structured synchrotron radiation. The studied system is based on the Smart Cut™ process, where a buried layer in a material (typically Si) is weakened by micro-cracks and then used to drive a macroscopic crack (10−1 m) in a plane parallel to the surface with minimal deviation (10−9 m). The results we report here provide the first direct confirmation that the shape of the crack front is not affected by the distribution of the microcracks, which had been a postulate for previous studies based on post-fracture results. We further measured instantaneous crack velocities over the centimeter-wide field-of-view, which had only been previously inferred from sparse point measurements, and evidence the effect of local heating by the X-ray beam. Finally, we also observed the post-crack movements of the separated wafer parts, which can be explained using pneumatics and elasticity. Thus, this study provides a comprehensive view of controlled fracture propagation in a crystalline material, paving the way for the in situ measurement of ultra-fast strain field propagation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-04-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French national research agency",
+        "grant_id": "ANR-18CE08-0020"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ID19 beamline at the ESRF"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[110]-strip",
+      "sample_description": "Silicon wafer strip cut along the [110] direction.",
+      "chemical_composition": "silicon",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "[100]-strip",
+      "sample_description": "Silicon wafer strip cut along the [100] direction.",
+      "chemical_composition": "silicon",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "full 300 mm wafers",
+      "sample_description": "Full assembly of 300 mm diameter silicon wafers.",
+      "chemical_composition": "silicon",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction imaging",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ imaging of crack front propagation in silicon single crystals using Laue transmission geometry.",
+      "measurement_technique": "X-ray diffraction imaging",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Surface oxide on thin films of yttrium hydride studied by neutron reflectometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute for Energy Technology, P.O. Box 40, 2027 Kjeller, Norway"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Uppsala University, Solid State Electronics, Box 534, SE-751 21 Uppsala"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Laboratoire Léon Brillouin, CEA Saclay, F-91191 Gif sur Yvette, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "T. Mongstad",
+        "orcid": null,
+        "email": "trygve.mongstad@ife.no",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "C. Platzer-Björkman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. P. Mæhlen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "B. C. Hauback",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": []
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. Zh. Karazhanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": []
+      },
+      {
+        "id": "author_6",
+        "full_name": "F. Cousin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The applicability of standard methods for compositional analysis is limited for H-containing films. Neutron reflectometry is a powerful, non-destructive method that is especially suitable for these systems due to the large negative scattering length of H. In this work we demonstrate how neutron reflectometry can be used to investigate thin films of yttrium hydride. Neutron reflectometry gives a strong contrast between the film and the surface oxide layer, enabling us to estimate the oxide thickness and oxygen penetration depths. A surface oxide layer of 5-10 nm thickness was found for unprotected yttrium hydride films.",
+    "keywords": [],
+    "doi": "10.1063/1.4714517",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2012",
+    "venue": "Applied Physics Letters",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Norwegian Research Council",
+        "grant_id": "NANOMAT program"
+      },
+      {
+        "funder": "European Commision",
+        "grant_id": "NMI3/FP7 – Contract No 226507"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "EROS time-of-flight reflectometer"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "B-YH x",
+      "sample_description": "conductive and black state yttrium hydride film",
+      "chemical_composition": "YH x",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "B-YH x covered with Mo",
+      "sample_description": "conductive and black state yttrium hydride film covered with a 10 nm layer of Mo",
+      "chemical_composition": "YH x",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "T-YH x",
+      "sample_description": "optically transparent semiconducting state yttrium hydride film",
+      "chemical_composition": "YH x",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "NR measurements to investigate surface oxide and O and H distribution in yttrium hydride films.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

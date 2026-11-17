@@ -1,0 +1,270 @@
+{
+  "bibliographic": {
+    "title": "Significantly increased magnetic anisotropy in Co nano-columnar multilayer structure via a unique sequential oblique-normal deposition approach",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "UGC-DAE Consortium for Scientific Research, Khandwa Road, Indore-452017, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Raja Ramanna Centre for Advanced Technology, Indore 452013, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Homi Bhabha National Institute, Training School Complex, Anushakti Nagar, Mumbai 400094, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "High Pressure & Synchrotron Radiation Physics Division, Bhabha Atomic Research Centre, Trombay, Mumbai 400085, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Photon Science, DESY, Notkestraße 85, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "KTH Royal Institute of Technology, Department of Fibre and Polymer Technology, Teknikringen 56-58, 100 44 Stockholm, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Arun Singh Dev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sharanjeet Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anup Kumar Bera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Pooja Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Velaga Srihari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Pallavi Pandit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Matthias Schwartzkopf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Stephan V. Roth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Dileep Kumar",
+        "orcid": null,
+        "email": "dkumar@csr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Wireless communication devices, high-density magnetic memories, magnetic sensors, and, more recently, spintronic devices are being used and are eager to be used in daily life. Therefore, artificial manipulation of magnetic properties is a prerequisite to increase the quality and performance of such magnetic devices to make them more suitable and easily usable for such applications. Here, a unique oblique-normal sequential deposition technique is used to create Co based multilayer structure [Cooblique(4.4nm)/Conormal (4.2 nm)]10, where each Cooblique layer is deposited at an oblique angle of 75  , to induce large in-plane uniaxial magnetic anisotropy (UMA). Compared to the previous ripple, stress and oblique angle deposition (OAD) related studies on Cobalt in literature, one-order higher UMA with the easy axis of magnetization along the projection of the tilted nano-columns in the multilayer plane is observed. The multilayer retains magnetic anisotropy even after annealing at 450  C. The in-plane UMA in this multilayer is found to be the combination of shape, and magneto-crystalline anisotropy (MCA) confirmed by the temperature-dependent grazing incidence small angle X-ray scattering (GISAXS), in situ reflection high energy electron diffraction (RHEED) and grazing incidence X-ray diffraction (GIXRD) measurements. The crystalline texturing of hcp Co in the multilayer minimizes spin-orbit coupling energy along the column direction, which couples with the shape anisotropy energies and results in preferential orientation of the easy magnetic axis along the projection of the columns in the multilayer plane. Reduction in UMA after annealing is attributed to diffusion/merging of columns and annihilating crystallographic texturing. The obtained one-order high UMA demonstrates the potential application of the unique structure engineering technique, which may have far-reaching advantages in magnetic thin films/multilayers and spintronic devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology (Government of India)",
+        "grant_id": "India@DESY collaboration"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL DETAILS",
+      "RESULTS",
+      "DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Indus2"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Co multilayer structure [Co 4.4 nm; OAD=75° /Co 4.2 nm; NAD]10",
+      "sample_description": "Co based multilayer structure deposited on SiO2/Si(100) substrates.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "MOKE measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetic characterization of pristine and annealed samples using longitudinal geometry.",
+      "measurement_technique": "magneto-optical Kerr effect",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in situ RHEED",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Structural information collected in a UHV chamber while annealing the Co multilayer to 500 °C.",
+      "measurement_technique": "reflection high energy electron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ex situ XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectivity measurements to obtain electron density and roughness of pristine and 500 °C annealed samples.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "GISAXS measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent morphological structure variation measurements at the P03 (MiNaXS) beamline.",
+      "measurement_technique": "grazing incidence small angle X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "AFM studies",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of morphology for pristine and 500 ºC annealed samples.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "GIXRD measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Microstructure measurements of pristine and annealed samples at X-ray synchrotron BL11.",
+      "measurement_technique": "grazing incidence X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

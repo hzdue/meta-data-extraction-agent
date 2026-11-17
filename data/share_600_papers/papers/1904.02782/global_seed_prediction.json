@@ -1,0 +1,319 @@
+{
+  "bibliographic": {
+    "title": "Resonant inelastic x-ray scattering study of bond order and spin excitations in nickelate thin-film structures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Max-Planck-Institut f¨ur Festk¨orperforschung, Heisenbergstrasse 1, 70569 Stuttgart, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, Grenoble F-38043, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, Wilhelm-Conrad-R¨ontgen-Campus BESSY II, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institut f¨ur Theoretische Physik, Universit¨at Heidelberg, Philosophenweg 19, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Karlsruher Institut f¨ur Technologie, Institut f¨ur Festk¨orperphysik, Hermann-v.-Helmholtz-Platz 1, 76344 Eggenstein-Leopoldshafen, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. F¨ursich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Y. Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "D. Betto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Bluschke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Porras",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "E. Schierle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Ortiz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "H. Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "G. Cristiani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "G. Logvenov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "N.B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "M.W. Haverkort",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "M. Le Tacon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "E. Benckiser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "M. Minola",
+        "orcid": null,
+        "email": "M.Minola@fkf.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "B. Keimer",
+        "orcid": null,
+        "email": "B.Keimer@fkf.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We used high-resolution resonant inelastic x-ray scattering (RIXS) at the Ni L 3 edge to simultaneously investigate high-energy interband transitions characteristic of Ni-O bond ordering and low-energy collective excitations of the Ni spins in the rare-earth nickelates R NiO3 ( R = Nd, Pr, La) with pseudocubic perovskite structure. With the support of calculations based on a doublecluster model we quantify bond order (BO) amplitudes for different thin films and heterostructures and discriminate short-range BO fluctuations from long-range static order. Moreover we investigate magnetic order and exchange interactions in spatially confined R NiO3 slabs by probing dispersive magnon excitations. While our study of superlattices (SLs) grown in the (001) direction of the perovskite structure reveals a robust non-collinear spin spiral magnetic order with dispersive magnon excitations that are essentially unperturbed by BO modulations and spatial confinement, we find magnons with flat dispersions and strongly reduced energies in SLs grown in the (111)pc direction that exhibit collinear magnetic order. These results give insight into the interplay of different collective ordering phenomena in a prototypical 3 d transition metal oxide and establish RIXS as a powerful tool to quantitatively study several order parameters and the corresponding collective excitations within one experiment.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-04-09",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Science Foundation",
+        "grant_id": "TRR80"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. QUANTIFYING THE BOND-DISPROPORTIONATION IN R NiO 3",
+      "IV. SPIN EXCITATIONS IN R NiO 3",
+      "V. CONCLUSIONS AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Helmholtz-Zentrum Berlin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NNO thin film on STO",
+      "sample_description": "400 A thick NdNiO3 film grown on a (001)pc-oriented SrTiO3 substrate",
+      "chemical_composition": "NdNiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PNO-PAO SL on LSAO",
+      "sample_description": "PrNiO3PrAlO3 superlattice grown on (001)pc-oriented LSAO with (2 u.c./2 u.c.) x 30 stacking",
+      "chemical_composition": "PrNiO3PrAlO3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PNO-PAO SL on LSAT",
+      "sample_description": "PrNiO3PrAlO3 superlattice grown on (001)pc-oriented LSAT with (2 u.c./4 u.c.) x 20 stacking",
+      "chemical_composition": "PrNiO3PrAlO3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "LNO-LAO SL on LSAO",
+      "sample_description": "LaNiO3-LaAlO3 superlattice grown on (001)pc-oriented LaSrAlO3 consisting of 33 bilayers of 2 u.c. LNO and LAO",
+      "chemical_composition": "LaNiO3-LaAlO3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "NNO-NGO SL on NGO",
+      "sample_description": "NdNiO3-NdGaO3 superlattice grown on (111)pc-oriented NdGaO3 comprising 4 bilayers with 3 u.c. NNO and 2 u.c. NGO",
+      "chemical_composition": "NdNiO3-NdGaO3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution RIXS at the Ni L 3 edge to investigate bond ordering and spin excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "REXS",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Resonant elastic x-ray scattering experiments to characterize magnetism in the NNO-NGO SL.",
+      "measurement_technique": "resonant elastic x-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

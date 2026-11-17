@@ -1,0 +1,212 @@
+{
+  "bibliographic": {
+    "title": "High-pressure single-crystal X-ray diffraction study of ErVO4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Departamento de Física Aplicada-ICMUV, MALTA Consolider Team, Universidad de Valencia, Dr. Moliner 50, Burjassot, 46100 Valencia, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "European Synchrotron Radiation Facility, Grenoble 38043, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "§",
+        "text": "Departamento de Física, MALTA-Consolider Team, Instituto de Materiales y Nanotecnología, Universidad de La Laguna, San Cristóbal de La Laguna, E-38200 Tenerife, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "⊥",
+        "text": "School of Physics, University of Hyderabad, Prof. C. R. Rao Road, Gachibowli, Hyderabad, Telangana 500046, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Josu Sánchez-Martín",
+        "orcid": "0000-0003-0241-0217",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Gastón Garbarino",
+        "orcid": "0000-0003-4780-9520",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Samuel Gallego-Parra",
+        "orcid": "0000-0001-6516-4303",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Alfonso Muñoz",
+        "orcid": "0000-0003-3347-6518",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sushree Sarita Sahoo",
+        "orcid": "0009-0000-0604-0765",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kanchana Venkatakrishnan",
+        "orcid": "0000-0003-1575-9936",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Ganapathy Vaitheeswaran",
+        "orcid": "0000-0002-2320-7667",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Daniel Errandonea",
+        "orcid": "0000-0003-0189-4221",
+        "email": "daniel.errandonea@uv.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We present an investigation into the crystal structure of ErVO4 under variable pressure conditions. The high-pressure single crystal X-ray diffraction experiments performed employing helium as the pressure medium facilitated structure refinements up to 24.1(2) GPa. The transition from zircon to scheelite was observed at a pressure of 7.9(1) GPa. In contrast to previous reports, we did not detect any sign of phase coexistence. We also did not observe the second phase transitions previously predicted by density-functional theory to occur below 20 GPa. The determination of the pressure dependence of unit-cell parameters and volume yields precise values for linear compressibility of each axis and the pressure-volume equation of state for both the zircon and scheelite phases. Additional information on the mechanical properties of ErVO4, obtained from density-functional theory calculations, is also reported.",
+    "keywords": [
+      "vanadate",
+      "high-pressure",
+      "single-crystal",
+      "crystal structure",
+      "DFT"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish Ministerio de Ciencia, Innovación y Universidades",
+        "grant_id": "PID2022-138076NB-C41/44"
+      },
+      {
+        "funder": "Spanish Ministerio de Ciencia, Innovación y Universidades",
+        "grant_id": "RED2022-134388-T"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "PROMETEO CIPROM/2021/075"
+      },
+      {
+        "funder": "Generalitat Valenciana",
+        "grant_id": "MFA/2022/007"
+      },
+      {
+        "funder": "Spanish Ministerio de Ciencia, Innovación y Universidades",
+        "grant_id": "PRE2020-092198"
+      },
+      {
+        "funder": "European Union Next Generation EU",
+        "grant_id": "PRTR-C17.I1"
+      },
+      {
+        "funder": "CSIR",
+        "grant_id": "03(1433)/18/EMR-II"
+      },
+      {
+        "funder": "DST-FIST",
+        "grant_id": "SR/FST/PSI-215/2016"
+      },
+      {
+        "funder": "Institute of Eminence, University of Hyderabad",
+        "grant_id": "UOH-IOE-RC321-046"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and methods",
+      "3. Results and discussion",
+      "3.1 Zircon-scheelite transition",
+      "3.2 Room-temperature equation of state",
+      "3.3 Mechanical stability",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ErVO4",
+      "sample_description": "Single crystals synthesized utilizing the flux method.",
+      "chemical_composition": "ErVO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "high-pressure single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of ErVO4 from ambient pressure to 24.1(2) GPa using helium as PTM to study the zircon-scheelite transition.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

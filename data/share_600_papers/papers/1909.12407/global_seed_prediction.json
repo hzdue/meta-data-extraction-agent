@@ -1,0 +1,332 @@
+{
+  "bibliographic": {
+    "title": "Role of ferroelectric polarization during growth of highly strained ferroelectrics revealed by in-situ x-ray diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794-3800 USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, Vermont 05405, USA."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Brookhaven National Laboratory, Upton, NY 11973 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Rui Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jeffrey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hsiang-Chun Hsing",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anna Gura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Benjamin Bein",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alec Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Charles Pan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Giulia Bertino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Amanda Lai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Kaize Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Eli Doyle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Kenneth Evans-Lutterodt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Matthew Dawber",
+        "orcid": null,
+        "email": "matthew.dawber@stonybrook.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Strain engineering of perovskite oxide thin films has proven to be an extremely powerful method for enhancing and inducing ferroelectric behavior. In ferroelectric thin films and superlattices, the polarization is intricately linked to crystal structure, but we show here that it can also play an important role in the growth process, influencing growth rates, relaxation mechanisms, electrical properties and domain structures. We have studied this effect in detail by focusing on the properties of BaTiO3 thin films grown on very thin layers of PbTiO3 using a combination of x-ray diffraction, piezoforce microscopy, electrical characterization and rapid in-situ x-ray diffraction reciprocal space maps during the growth using synchrotron radiation. Using a simple model we show that the changes in growth are driven by the energy cost for the top material to sustain the polarization imposed upon it by the underlying layer, and these effects may be expected to occur in other multilayer systems where polarization is present during growth. Our research motivates the concept of polarization engineering during the growth process as a new and complementary approach to strain engineering.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1055413"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1334867"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1506930"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR0959486"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DE-SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source-II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BTO/PTO superlattices",
+      "sample_description": "3 unit cell/3 unit cell BTO/PTO superlattices grown on SrTiO3 substrates.",
+      "chemical_composition": "BaTiO3/PbTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "pure BTO films",
+      "sample_description": "BTO thin films with approximately 20nm thickness.",
+      "chemical_composition": "BaTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "BTO on 2 u.c. PTO",
+      "sample_description": "20nm BTO films grown on 2 unit cell thick PTO films.",
+      "chemical_composition": "BaTiO3/PbTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "BTO on 3 u.c. PTO",
+      "sample_description": "20nm BTO films grown on 3 unit cell thick PTO films.",
+      "chemical_composition": "BaTiO3/PbTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "BTO on 4 u.c. PTO",
+      "sample_description": "20nm BTO films grown on 4 unit cell thick PTO films.",
+      "chemical_composition": "BaTiO3/PbTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "BTO on STO/PTO",
+      "sample_description": "BTO films with an additional 1 u.c. layer STO on top of PTO ultrathin films.",
+      "chemical_composition": "BaTiO3/SrTiO3/PbTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-Ray diffraction θ-2θ scans",
+      "sample_refs": [
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of crystal structures and growth rates using θ-2θ scans and low angle reflectivity scans.",
+      "measurement_technique": "X-Ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Vector piezoforce microscopy",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of piezoelectric response in micro-scale in both lateral and vertical directions.",
+      "measurement_technique": "piezoforce microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "in-situ x-ray diffraction",
+      "sample_refs": [
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Rapid reciprocal space maps during growth to study domain evolution and strain relaxation.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "grazing-incidence X-ray scattering",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Scattering around the (1 0 0) peak to study in-plane relaxation processes.",
+      "measurement_technique": "X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

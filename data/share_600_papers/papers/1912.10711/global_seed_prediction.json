@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "Electronic and magnetic properties of structural defects in SrTiO3 (Co)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Physics Department, Moscow State University, 119991 Moscow, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I. A. Sluchinskaya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. I. Lebedev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The synthesis conditions of SrTiO3(Co) samples in which cobalt predominantly enters the A or B sites of the perovskite AB O3 structure are found. EXAFS studies show that the Co impurity at the A site is off-center and is displaced from the site by 1.0˚ A. XANES studies reveal two predominant oxidation states of Co: Co2+ at the A site and Co3+ at the B site. First-principles calculations of a number of possible cobalt-containing structural defects reveal defects whose properties are compatible with the experimentally observed Co oxidation state, its local structure, magnetic, electrical, and optical properties.",
+    "keywords": [],
+    "doi": "10.1016/j.jallcom.2019.153243",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-12-24",
+    "venue": "Journal of Alloys and Compounds",
+    "publisher": "Elsevier",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Foundation for Basic Research",
+        "grant_id": "17-02-01068"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL AND CALCULATION DETAILS",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. RESULTS OF THE FIRST-PRINCIPLES CALCULATIONS",
+      "V. REFINEMENT OF STRUCTURAL MODELS AND DISCUSSION",
+      "VI. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY synchrotron radiation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Co2A1600",
+      "sample_description": "Sr-deficient sample annealed at 1600°C.",
+      "chemical_composition": "Sr0.98Co0.02O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Co2A1500",
+      "sample_description": "Sr-deficient sample annealed at 1500°C.",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Co3B1100",
+      "sample_description": "Sample with deviation toward excess of titanium annealed at 1100°C.",
+      "chemical_composition": "SrTi0.97Co0.03O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Co3B1500",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Co(NO3)2 · 6H2O",
+      "sample_description": "Reference compound for divalent cobalt.",
+      "chemical_composition": "Co(NO3)2 · 6H2O",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "LaCoO3",
+      "sample_description": "Reference compound for trivalent cobalt.",
+      "chemical_composition": "LaCoO3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Co metal foil",
+      "sample_description": "Reference compound.",
+      "chemical_composition": "Co",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption near-edge structure spectra recorded at the K-edge of Co to determine oxidation states.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure spectra used to determine the structural position of Co impurities.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction studies to verify single-phase cubic perovskite structure and determine lattice parameters.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

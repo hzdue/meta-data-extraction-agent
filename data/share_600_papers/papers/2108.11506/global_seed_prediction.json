@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "High energy spin excitations in the quantum spin liquid candidate Zn-barlowite probed by resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, Stanford University, Stanford, California 94305, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, NY, 11973, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Stanford University, Stanford, California 94305, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Applied Physics, Stanford University, Stanford, California 94305, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Rebecca W. Smaha",
+        "orcid": null,
+        "email": "rsmaha@alumni.stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ignace Jarrige",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Aaron T. Breidenbach",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jack Mingde Jiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jiajia Wen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Hong-Chen Jiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Young S. Lee",
+        "orcid": null,
+        "email": "youngsl@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "A quantum spin liquid is a novel ground state that can support long-range entanglement between magnetic moments, resulting in exotic spin excitations involving fractionalized S = 21spinons.Here, we measure the excitations in single crystals of the spin liquid candidate Zn-barlowite using resonant inelastic X-ray scattering. By analyzing the incident polarization and temperature dependences, we deduce a clear magnetic scattering contribution forming a broad continuum that surprisingly extends up to ∼ 200 meV ( ∼ 14 J , where J is the magnetic exchange). The excitation spectrum reveals that significant contributions arise from multiple pairs of spinons and/or antispinons at high energies.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-08-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Basic Energy Sciences (BES), Materials Sciences and Engineering Division",
+        "grant_id": "DEAC02-76SF00515"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "21-037"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ECCS-2026822"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DGE-1656518"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    },
+    {
+      "id": "facility_2",
+      "name": "Stanford Nano Shared Facilities"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Zn 0.56",
+      "sample_description": "Zn-substituted barlowite with a Zn substitution of x = 0.56.",
+      "chemical_composition": "Cu3ZnxCu1−x(OH)6FBr",
+      "sample_state": "single crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "barlowite 2",
+      "sample_description": "Magnetically ordered parent compound.",
+      "chemical_composition": "Cu4(OH)6FBr",
+      "sample_state": "small crystals",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic X-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS measurements at the Cu L3-edge to probe spin excitations in Zn-barlowite.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan",
+        "PolarizationScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XAS to confirm the presence of Cu2+.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "resonant inelastic X-ray scattering",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS measurements on the parent compound barlowite 2.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

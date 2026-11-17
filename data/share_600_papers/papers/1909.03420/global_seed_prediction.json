@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Morphology and magnetic properties of nanocomposite magnetic multilayers [(Co40Fe40B20)34(SiO2)66]/[C]47",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "National Research Centre ”Kurchatov Institute” B. P. Konstantinov Petersburg Nuclear Physics Institute, 188300 Gatchina, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Saint-Petersburg Academic University Nanotechnology Research and Education Centre of the Russian Academy of Sciences, 194021 Saint-Petersburg, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, SE-75120 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Delft University of Technology, 2628 CN Delft, Netherlands"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Max Planck Institute for Chemical Physics of Solids, Nthnitzer Strae 40, D-01187 Dresden, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Voronezh State Technical University, 394026 Voronezh, Russia"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Saint-Petersburg State University, 198904 Saint-Petersburg, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Ukleev",
+        "orcid": null,
+        "email": "ukleev@lns.pnpi.spb.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "E. Dyadkina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Vorobiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "O. V. Gerashchenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "L. Caron",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. V. Sitnikov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yu. E. Kalinin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. V. Grigoriev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "We report on the investigation of morphology, magnetic and conductive properties of the mutilayered nanostructures [(Co40Fe40B20)34(SiO2)66]/[C]47 consisting of the contacting magnetic (Co40Fe40B20)34(SiO2)66 nanocomposite and amorphous semiconductor carbon C layers. It is shown by GrazingIncidence Small-Angle X-ray Scattering method that the ordering and the size of nanoparticles in the magnetic layers do not change profoundly with increasing of carbon layer thickness. Meanwhile, the electrical conductance and the magnetic properties are significantly varied: resistance of the samples changes by four orders of magnitude and superparamagnetic blocking temperature changes from 15 K to 7 K with the increment of carbon layer thickness hc from 0.4 nm to 1.8 nm. We assume that the formation of the homogeneous semiconductor interlayer leads to modification of the metal-insulator growth process that drives the changes in the magnetic and conductive properties.",
+    "keywords": [
+      "magnetic multilayers",
+      "nanoparticles",
+      "Grazing-Incident Small-Angle X-ray Scattering"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-09-10",
+    "venue": "Journal of Non-Crystalline Solids",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Education and Science of the Russian Federation",
+        "grant_id": "14.616.21.0004"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Samples",
+      "3. Experiment",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Delft University of Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "S 1",
+      "sample_description": "Carbon layer thickness hc = 0.40 ± 0.18 nm.",
+      "chemical_composition": "[(Co40Fe40B20)34(SiO2)66]/[C]47",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "S 2",
+      "sample_description": "Carbon layer thickness hc = 1.80 ± 0.12 nm.",
+      "chemical_composition": "[(Co40Fe40B20)34(SiO2)66]/[C]47",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "four-probe measurement",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Probing the transport properties and temperature dependence of in-plane resistance.",
+      "measurement_technique": "four-probe measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Grazing-Incident Small-Angle X-ray Scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of the distribution of inhomogeneities, their size and spatial organization using a 10 x 10 µm2 beam of photons with wavelength λ = 0.56 Å.",
+      "measurement_technique": "Grazing-Incident Small-Angle X-ray Scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Investigation of magnetic properties including magnetization loops M(H) and temperature dependence M(T) in FC and ZFC modes.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

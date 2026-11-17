@@ -1,0 +1,280 @@
+{
+  "bibliographic": {
+    "title": "Competing ferromagnetic and antiferromagnetic interactions in non-altermagnetic Ru1-xCrxO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, University of Delaware, Newark, DE, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physical Science and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Materials Science and Eng., University of Maryland, College Park, MD, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "David T. Plouff",
+        "orcid": null,
+        "email": "dplouff@udel.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nawsher J. Parvez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Subhash Bhatt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Xixiang Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Adam A. Aczel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jonathan Gaudet",
+        "orcid": null,
+        "email": "jonathan.gaudet@nist.gov",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "John Q. Xiao",
+        "orcid": null,
+        "email": "jqx@udel.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We investigate the proposal of hole doping RuO2 via alloying with Cr ions to induce altermagnetism. Thin film samples of Ru1-xCrxO2 (0 ≤ x ≤ 0 . 28) were prepared by reactive magnetron co-sputtering on TiO2 substrates, with epitaxial nature verified by X-ray diffraction and composition depth profiles determined by X-ray photoelectron spectroscopy combined with Ar etching. Neutron diffraction measurements of samples with x = 0 and x = 0 . 23 at low temperatures show no evidence of long-range altermagnetic order with spins oriented along the c -axis or within the ab - plane. In contrast, temperature dependent susceptibility measurements in samples with x ≥ 0 . 16 show a gradual downturn below T ≈ 20 K, suggestive of antiferromagnetic interactions, although this coexists with ferromagnetic hysteresis and remnant magnetization at 4 K for samples with x ≥ 0 . 23. Together, our magnetometry and neutron scattering measurements suggest the coexistence of antiferromagnetically coupled ferromagnetic CrO2 clusters. This indicates that Cr ions do not hole dope Ru bands to induce an altermagnet state, but rather the holes remain localized to the Cr ions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-07-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2316664"
+      },
+      {
+        "funder": "University of Delaware Materials Research Science and Engineering Center (MRSEC)",
+        "grant_id": "DMR-2011824"
+      },
+      {
+        "funder": "DOE EPSCoR",
+        "grant_id": "DE-SC0024284"
+      },
+      {
+        "funder": "King Abdullah University of Science and Technology (KAUST)",
+        "grant_id": "ORFS-2022-CRG11-5031.2"
+      },
+      {
+        "funder": "National Science Foundation Major Research Instrumentation",
+        "grant_id": "1828141"
+      },
+      {
+        "funder": "National Science Foundation MRSEC",
+        "grant_id": "DMR-2011824"
+      },
+      {
+        "funder": "National Science Foundation, Major Research Instrumentation",
+        "grant_id": "CHE-1428149"
+      },
+      {
+        "funder": "Center for High-Resolution Neutron Scattering",
+        "grant_id": "DMR-2010792"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "RuO2",
+      "sample_description": null,
+      "chemical_composition": "RuO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ru1-xCrxO2 x=0.16",
+      "sample_description": null,
+      "chemical_composition": "Ru0.84Cr0.16O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ru1-xCrxO2 x=0.20",
+      "sample_description": null,
+      "chemical_composition": "Ru0.80Cr0.20O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Ru1-xCrxO2 x=0.23",
+      "sample_description": null,
+      "chemical_composition": "Ru0.77Cr0.23O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ru1-xCrxO2 x=0.28",
+      "sample_description": null,
+      "chemical_composition": "Ru0.72Cr0.28O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Symmetric and asymmetric XRD measurements including theta/2theta scans and reciprocal space maps to verify epitaxial nature.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray photoelectron spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Composition depth profiles determined by XPS combined with Ar etching.",
+      "measurement_technique": "X-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetic hysteresis and susceptibility",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent susceptibility and low temperature hysteresis measurements.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction measurements to probe for long-range altermagnetism at low temperatures.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

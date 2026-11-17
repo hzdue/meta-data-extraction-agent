@@ -1,0 +1,221 @@
+{
+  "bibliographic": {
+    "title": "Small angle neutron scattering contrast variation reveals heterogeneities of interactions in protein gels",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratoire Charles Coulomb (L2C), UMR 5221 CNRS-Université de Montpellier, F-34095 Montpellier, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "UMR IATE, UM-CIRAD-INRA-SupAgro, 2 pl Pierre Viala, 34070 Montpellier, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Jülich Centre for Neutron Science JCNS, Forschungszentrum Jülich, Outstation at MLZ, D-85747 Garching, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Banc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "C. Charbonneau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. Dahesh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M-S Appavou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Z. Fu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "M-H. Morel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L. Ramos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The structure of model gluten protein gels prepared in ethanol/water is investigated by small angle X-ray (SAXS) and neutrons (SANS) scattering. We show that gluten gels display radically different SAXS and SANS profiles when the solvent is (at least partially) deuterated. The detailed analysis of the SANS signal as a function of the solvent deuteration demonstrates heterogeneities of sample deuteration at different length scales. The progressive exchange between the protons (H) of the proteins and the deuteriums (D) of the solvent is inhomogeneous and 60 nm large zones that are enriched in H are evidenced. In addition, at low protein concentration, in the sol state, solvent deuteration induces a liquid/liquid phase separation. Complementary biochemical and structure analyses show that the denser protein phase is more protonated and specifically enriched in glutenin, the polymeric fraction of gluten proteins. These findings suggest that the presence of H-rich zones in gluten gels would arise from the preferential interaction of glutenin polymers through a tight network of nonexchangeable intermolecular hydrogen bonds.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Laboratoire of Excellence NUMEV",
+        "grant_id": "ANR-10LAB-20"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "28388"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Methods",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Soleil"
+    },
+    {
+      "id": "facility_2",
+      "name": "Heinz MaierLeibnitz Zentrum"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "gluten protein gels",
+      "sample_description": "Model gluten protein gels prepared in ethanol/water.",
+      "chemical_composition": "gluten proteins",
+      "sample_state": "gel",
+      "sample_mass": "290 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "gluten protein sol",
+      "sample_description": "Fluid-like samples at low protein concentration.",
+      "chemical_composition": "gluten proteins",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Synchrotron small-angle X-ray scattering of gluten gels.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Small-angle neutron scattering experiments performed on KWS1 and KWS3 instruments.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ATR-FTIR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Attenuated total reflectance - Fourier transform infrared spectroscopy to evaluate protein and solvent deuteration.",
+      "measurement_technique": "Fourier transform infrared spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SE-HPLC",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Size exclusion-high performance liquid chromatography to measure protein size distribution.",
+      "measurement_technique": "size exclusion-high performance liquid chromatography",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

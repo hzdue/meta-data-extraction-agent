@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Suppression of atomic displacive excitation in photo-induced A1g phonon mode of bismuth unveiled by low-temperature time-resolved x-ray diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "RIKEN SPring-8 Center, 1-1-1 Kouto, Sayo, Hyogo 679-5148, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Japan Synchrotron Radiation Research Institute (JASRI), 1-1-1 Kouto, Sayo, Hyogo 679-5198, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute for Solid State Physics, The University of Tokyo, Kashiwa, Chiba 277-8581, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yuya Kubota",
+        "orcid": null,
+        "email": "kubota@spring8.or.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yoshikazu Tanaka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Tadashi Togashi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tomio Ebisu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kenji Tamasaku",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hitoshi Osawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Tetsuya Wada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Osamu Sugino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Iwao Matsuda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Makina Yabashi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "An ultrafast atomic motion of a photo-induced coherent phonon of bismuth at low temperatures was directly observed with time-resolved x-ray diffraction. A cryostat with a window that is transparent to both optical lasers and x-rays enabled versatile diffraction measurements in a wide temperature range including below 10 K. It is found that an atomic displacement in a fully symmetric A1g phonon mode is suppressed at low temperatures. This result indicates the displacive excitation process is suppressed in the phonon generation with decreasing temperature.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-12-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SACLA"
+    },
+    {
+      "id": "facility_2",
+      "name": "SPring-8"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Bi film",
+      "sample_description": "53-nm-thick Bi film epitaxially grown on a Si (111) substrate",
+      "chemical_composition": "Bi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "time-resolved x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of Bi 111 diffraction intensity variation as a function of delay time to probe the A1g phonon mode oscillation.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

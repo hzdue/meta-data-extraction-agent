@@ -1,0 +1,225 @@
+{
+  "bibliographic": {
+    "title": "Study of the thermochromic phase transition in CuMo1−xWxO4 solid solutions at the W L3-edge by resonant X-ray emission spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Institute of Solid State Physics, University of Latvia, Kengaraga street 8, LV-1063 Riga, Latvia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Department of Chemistry and Center for Sustainable Systems Design, Paderborn University, 33098 Paderborn, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Inga Pudza",
+        "orcid": null,
+        "email": "inga.pudza@cfi.lu.lv",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Aleksandr Kalinko",
+        "orcid": null,
+        "email": "aleksandr.kalinko@desy.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Arturs Cintins",
+        "orcid": null,
+        "email": "arturs.cintins@cfi.lu.lv",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Alexei Kuzmin",
+        "orcid": null,
+        "email": "a.kuzmin@cfi.lu.lv",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Polycrystalline CuMo1−xWxO4 solid solutions were studied by resonant X-ray emission spectroscopy (RXES) at the W L3-edge to follow a variation of the tungsten local atomic and electronic structures across thermochromic phase transition as a function of sample composition and temperature. The experimental results were interpreted using ab initio calculations. The crystal-field splitting parameter ∆for the 5d(W)-states was obtained from the analysis of the RXES plane and was used to evaluate the coordination of tungsten atoms. Temperature-dependent RXES measurements were successfully employed to determine the hysteretic behaviour of the structural phase transition between the α and γ phases in CuMo1−xWxO4 solid solutions on cooling and heating, even at low (x < 0.10) tungsten content. It was found that tungsten ions have octahedral coordination for x > 0.15 in the whole studied temperature range (90-420 K), whereas their coordination changes from tetrahedral to octahedral upon cooling for smaller (x ≤ 0.15) tungsten content. Nevertheless, some amount of tungsten ions was found to co-exists in the octahedral environment at room temperature for x < 0.15. The obtained results correlate well with the color change in these solid solutions.",
+    "keywords": [
+      "CuMo1–xWxO4",
+      "crystal-field splitting",
+      "resonant X-ray emission spectroscopy (RXES)",
+      "high-energy resolution fluorescence detected X-ray absorption near-edge structure (HERFD-XANES)"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-01-01",
+    "venue": "Acta Materialia",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Scientific Research Project for Students and Young Researchers",
+        "grant_id": "SJZ/2019/1"
+      },
+      {
+        "funder": "EU Framework Programme for Research and Innovation HORIZON 2020",
+        "grant_id": "730872"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 Framework Programme",
+        "grant_id": "H2020-WIDESPREAD-01-2016-2017-TeamingPhase2 under grant agreement No. 739508, project CAMART2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details",
+      "3. FDMNES calculations",
+      "4. Results and discussion",
+      "4.1. Crystal field splitting in the W L3-edge XANES & RXES",
+      "4.2. Effect of composition",
+      "4.3. Effect of temperature",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Elettra"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuMo1–xWxO4 (x ≤ 0.15)",
+      "sample_description": "Greenish polycrystalline powders.",
+      "chemical_composition": "CuMo1–xWxO4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CuMo1–xWxO4 (x ≥ 0.20)",
+      "sample_description": "Brownish polycrystalline powders.",
+      "chemical_composition": "CuMo1–xWxO4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CuMo0.96W0.04O4",
+      "sample_description": null,
+      "chemical_composition": "CuMo0.96W0.04O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CuMo0.90W0.10O4",
+      "sample_description": null,
+      "chemical_composition": "CuMo0.90W0.10O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CuWO4",
+      "sample_description": null,
+      "chemical_composition": "CuWO4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant X-ray emission spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent RXES measurements at the W L3-edge to follow tungsten local atomic and electronic structures.",
+      "measurement_technique": "resonant X-ray emission spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HERFD-XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution W L3-edge XANES extracted from the RXES plane at fixed emission energy 8398.5±0.2 eV.",
+      "measurement_technique": "high-energy resolution fluorescence detected X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "W L3-edge XANES spectra recorded at room-temperature in transmission mode for comparison.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    }
+  ]
+}

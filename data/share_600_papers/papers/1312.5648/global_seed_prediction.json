@@ -1,0 +1,187 @@
+{
+  "bibliographic": {
+    "title": "Structure and kinetics of chemically cross-linked protein gels from small-angle X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Biophysical Chemistry, Lund University, Lund, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "MAX IV Laboratory, Lund University, Lund, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shuji Kaieda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Tomás S. Plivelic",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Bertil Halle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Glutaraldehyde (GA) reacts with amino groups in proteins, forming intermolecular cross-links that, at sufficiently high protein concentration, can transform a protein solution into a gel. Although GA has been used as a cross-linking reagent for decades, neither the cross-linking chemistry nor the microstructure of the resulting protein gel have been clearly established. Here we use small-angle X-ray scattering (SAXS) to characterise the microstructure and structural kinetics of gels formed by cross-linking of pancreatic trypsin inhibitor, myoglobin or intestinal fatty acid-binding protein. By comparing the scattering from gels and dilute solutions, we extract the structure factor and the pair correlation function of the gels. The protein gels are spatially heterogeneous, with dense clusters linked by sparse networks. Within the clusters, adjacent protein molecules are almost in contact, but the protein concentration in the cluster is much lower than in a crystal. At the ∼ 1 nm SAXS resolution, the native protein structure is unaffected by cross-linking. The cluster radius is in the range 10 – 50 nm, with the cluster size determined mainly by the availability of lysine amino groups on the protein surface. The development of structure in the gel, on time scales from minutes to hours, appears to obey first-order kinetics. Cross-linking is slower at acidic pH, where the population of amino groups in the reactive deprotonated form is low. These results support the use of cross-linked protein gels in NMR studies of protein dynamics and for modeling NMR relaxation in biological tissue.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "project grant (to B.H.)"
+      },
+      {
+        "funder": "Wenner-Gren Foundations",
+        "grant_id": "postdoctoral fellowships (to S.K.)"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "postdoctoral fellowships (to S.K.)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "MAX-lab synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BPTI",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Bayer HealthCare AG"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Mb",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "IFABP",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "cross-linked BPTI",
+      "sample_description": "Protein solution supplemented with 25 % glutaraldehyde solution.",
+      "chemical_composition": null,
+      "sample_state": "gel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "cross-linked Mb",
+      "sample_description": "Protein solution supplemented with 25 % glutaraldehyde solution.",
+      "chemical_composition": null,
+      "sample_state": "gel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "cross-linked IFABP",
+      "sample_description": "Protein solution supplemented with 25 % glutaraldehyde solution.",
+      "chemical_composition": null,
+      "sample_state": "gel",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle X-ray scattering measurements of cross-linked protein gels and their corresponding dilute solutions.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "time-resolved SAXS",
+      "sample_refs": [
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved SAXS measurements to study the kinetics of gel formation by GA cross-linking.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

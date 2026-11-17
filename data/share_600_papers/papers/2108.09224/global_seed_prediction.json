@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Characterizing accelerated precipitation in proton irradiated steel",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "School of Physics and Astronomy, University of Birmingham, Birmingham B15 2TT, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Department of Physics, University of Warwick, Coventry CV4 7AL, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Materials, University of Manchester, Oxford Road, Manchester M13 9PL, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "School of Metallurgy and Materials, University of Birmingham, Birmingham B15 2TT, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Paul Scherrer Institute, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Rolls-Royce, PO Box 2000, Raynesway, Derby DE21 7XX, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mark Laver",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Brian J. Connolly",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christopher Cooper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Stavros Samothrakitis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Keith Wilford",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "Ion irradiation provides a promising substitute to neutron tests for investigating the effects of radiation on materials for fission and fusion reactor plants. Here we show proton irradiation can quantitatively reproduce precipitation that leads to embrittlement in reactor pressure vessel steels, at dose rates 104 times greater than experienced in fission reactor operation. Small-angle neutron scattering (SANS) is used to characterize precipitate size distributions in copper-containing steels irradiated to average doses of ≃ 7 mdpa with 5 MeV protons. Comparing our results with the literature on reactor pressure vessel steels containing ≥ 1 at.% nickel, we find a power-law scaling of dose with exponent 0.25–0.30 accounts for the effects of dose rate on precipitate volume fraction over 6 orders of magnitude in dose rate. In conjunction with dose rate, carbon is identified as performing a leading role in determining precipitate sizes, adding to the known effects of nickel, manganese and irradiation temperature. We discuss the composition of precipitates inferred from SANS, taking previous atom probe tomography studies into consideration.",
+    "keywords": [
+      "Precipitation kinetics",
+      "Irradiation-hardening rate",
+      "Ion irradiation",
+      "Nanostructure",
+      "Small-angle scattering"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021",
+    "venue": "Journal of Nuclear Materials",
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Material and methods",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "MC40 cyclotron facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Swiss Spallation Neutron Source (SINQ)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "split-melt bainitic model steel",
+      "sample_description": "High Cu model steel supplied by Rolls-Royce.",
+      "chemical_composition": "C: 0.21 wt.%, Si: 0.2 wt.%, P: 0.008 wt.%, Cr: 0.1 wt.%, Mn: 1.48 wt.%, Ni: 3.47 wt.%, Cu: 0.31 wt.%, Mo: 0.52 wt.%, Fe: bal.",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Rolls-Royce"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Proton irradiation",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Irradiation of specimens with 5 MeV protons at 300°C and 400°C.",
+      "measurement_technique": "Proton irradiation",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Small-angle neutron scattering (SANS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Characterization of precipitate size distributions and volume fractions using neutrons of wavelength λ = 0.6 nm.",
+      "measurement_technique": "Small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

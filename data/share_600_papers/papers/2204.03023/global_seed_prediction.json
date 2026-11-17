@@ -1,0 +1,221 @@
+{
+  "bibliographic": {
+    "title": "Investigation of hydrogen incorporations in bulk infinite-layer nickelates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Max-Planck-Institute for Solid State Research, Heisenbergstraße 1, 70569 Stuttgart, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), Paul Scherrer Institute (PSI), Forschungsstrasse 111, CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Max-Planck-Institute for Intelligent Systems, Heisenbergstraße 3, 70569 Stuttgart, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "P. Puphal",
+        "orcid": null,
+        "email": "puphal@fkf.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. Pomjakushin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "R. A. Ortiz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Hammoud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Isobe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "B. Keimer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. Hepting",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Infinite-layer (IL) nickelates are an emerging class of superconductors, where the Ni1+ valence state in a square planar NiO2 coordination can only be reached via topotactic reduction of the perovskite phase. However, this topotactic soft chemistry with hydrogenous reagents is still at a stage of rapid development, and there is a number of open issues, especially considering the possibility of hydrogen incorporation. Here we study the time dependence of the topotactic transformation of LaNiO3 to LaNiO2 for powder samples with x-ray diffraction and gas extraction techniques. While the hydrogen content of the powder increases with time, neutron diffraction shows no negative scattering of hydrogen in the LaNiO2 crystal lattice. The extra hydrogen appears to be confined to grain boundaries or secondary-phase precipitates. The average crystal structure, and possibly also the physical properties, of the primary LaNiO2 phase are therefore not noticeably affected by hydrogen residues created by the topotactic transformation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-04-08",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "107745057 - TRR 80"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SINQ"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LaNiO3",
+      "sample_description": "Starting material in the perovskite phase with grain sizes of 0.5 µm.",
+      "chemical_composition": "LaNiO3",
+      "sample_state": "powder",
+      "sample_mass": "50 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "reduced LaNiO3",
+      "sample_description": "Powder samples subjected to topotactic reduction with CaH2 for various times.",
+      "chemical_composition": "LaNiO3−xHy",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LaNiO2",
+      "sample_description": "Infinite-layer phase obtained after approximately 316 h of reduction.",
+      "chemical_composition": "LaNiO2",
+      "sample_state": "powder",
+      "sample_mass": "340 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder x-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "PXRD used to check purity of starting material and study the reduction progress of LaNiO3 to LaNiO2 over time.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "gas extraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of oxygen and hydrogen content in powder samples.",
+      "measurement_technique": "gas extraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "inductively coupled plasma mass spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of stoichiometry including La and Ni content.",
+      "measurement_technique": "inductively coupled plasma mass spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High resolution powder neutron diffraction performed at 1.5 K to investigate hydrogen incorporation in the LaNiO2 crystal lattice.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

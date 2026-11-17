@@ -1,0 +1,359 @@
+{
+  "bibliographic": {
+    "title": "Direct Observation of Coherent Longitudinal and Shear Acoustic Phonons in TaAs Using Ultrafast X-ray Diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Center for Integrated Nanotechnologies, Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Stanford PULSE Institute, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Chemistry, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA, 02139, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute for Soldier Nanotechnology, Massachusetts Institute of Technology, 500 Technology Square, NE47-598, Cambridge, MA, 02139, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institut de Physique de Rennes, Universit´e de Rennes 1, UMR CNRS 6251, 35000 Rennes, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Applied Physics, Stanford University, Stanford, California 94305, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Photon Science, Stanford University, Stanford, California 94305, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Min-Cheol Lee",
+        "orcid": null,
+        "email": "mclee@lanl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "N. Sirica",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. W. Teitelbaum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. Maznev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "T. Pezeril",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "R. Tutchton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "V. Krapivin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "G. A. de la Pena",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Y. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "L. X. Zhao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "G. F. Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "B. Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "R. Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "J. Shi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "J.-X. Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "D. A. Yarotski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "X. G. Qiu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "K. A. Nelson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "M. Trigo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "D. A. Reis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_7",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "R. P. Prasankumar",
+        "orcid": null,
+        "email": "rpprasan@lanl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Using femtosecond time-resolved X-ray diffraction, we investigated optically excited coherent acoustic phonons in the Weyl semimetal TaAs. The low symmetry of the (112) surface probed in our experiment enables the simultaneous excitation of longitudinal and shear acoustic modes, whose dispersion closely matches our simulations. We observed an asymmetry in the spectral lineshape of the longitudinal mode that is notably absent from the shear mode, suggesting a time-dependent frequency chirp that is likely driven by photoinduced carrier diffusion. We argue on the basis of symmetry that these acoustic deformations can transiently alter the electronic structure near the Weyl points and support this with model calculations. Our study underscores the benefit of using off-axis crystal orientations when optically exciting acoustic deformations in topological semimetals, allowing one to transiently change their crystal and electronic structures.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-03-02",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Division of Materials Sciences and Engineering",
+        "grant_id": "FWP No. 2018LANLBES16"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Division of Materials Sciences and Engineering",
+        "grant_id": "Contract No. DE-AC02-76SF00515"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Division of Materials Sciences and Engineering",
+        "grant_id": "Contract No. DE-SC0019126"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "Contract No. DE-AC02-76SF00515"
+      },
+      {
+        "funder": "Center for Advancement of Topological Semimetals",
+        "grant_id": "Contract No. DE-AC0207CH11358"
+      },
+      {
+        "funder": "National Energy Research Scientific Computing Center (NERSC)",
+        "grant_id": "Contract No. DE-AC02-05CH11231"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "X-ray pump-probe (XPP) instrument"
+    },
+    {
+      "id": "facility_2",
+      "name": "Linac Coherent Light Source (LCLS) XFEL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "TaAs single crystal",
+      "sample_description": "(112) oriented crystal, 2 mm x 1 mm",
+      "chemical_composition": "TaAs",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "time-resolved X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Measurements of real-time oscillations in the crystal truncation rod following 800 nm photoexcitation to track coherent acoustic phonons.",
+      "measurement_technique": "time-resolved X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

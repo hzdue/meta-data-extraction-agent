@@ -1,0 +1,305 @@
+{
+  "bibliographic": {
+    "title": "High‐pressure optical floating‐zone growth of Li2FeSiO4 single crystals",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Kirchhoff Institute of Physics, Heidelberg University, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institute of Inorganic Chemistry, Heidelberg University, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institute of Earth Sciences, Heidelberg University, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Physics Department, Faculty of Science, Fayoum University, 63514 Fayoum, Egypt"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Centre for Advanced Materials (CAM), Heidelberg University, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Institut Laue‐Langevin, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Fraunhofer Institute for Systems and Innovation Research ISI, 76139 Karlsruhe, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Waldemar Hergett",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christoph Neef",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hubert Wadepohl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Hans‐Peter Meyer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Mahmoud M. Abdel‐Hafiez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Clemens Ritter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Elisa Thauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Rüdiger Klingeler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "We report the growth of mm‐sized Pmnb ‐Li2FeSiO4 single crystals by means of the optical floating‐zone method at high argon pressure and describe the conditions required for a stable growth process. The crystal structure is determined and refined by single‐crystal X-ray diffraction. The lattice constants amount to a = 6.27837(3) Å, b = 10.62901(6) Å and c = 5.03099(3) Å at 100 K. In addition, we present high‐resolution neutron powder diffraction data that suggest that the slight Li – Fe site exchange seems to be intrinsic to this material. High quality of the crystal is confirmed by very sharp anomalies in the static magnetic susceptibility and in the specific heat associated with the onset of long‐range antiferromagnetic order at T N = 17.0(5) K and pronounced magnetic anisotropy for the three crystallographic axes. Furthermore, magnetic susceptibility excludes the presence of sizable amounts of magnetic impurity phases.",
+    "keywords": [
+      "A1.Characterization",
+      "A1.Crystal structure",
+      "A2.Single crystal growth",
+      "A2.Floating zone technique",
+      "B2.Lithium‐ion battery materials",
+      "B2.Magnetic materials"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German‐Egyptian Research Fund",
+        "grant_id": "01DH17036"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "KL1824/5"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Crystal growth",
+      "4. Characterization",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue‐Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Li2FeSiO4 single crystals",
+      "sample_description": "mm-sized crystals featuring the Pmnb phase grown by optical floating-zone technique.",
+      "chemical_composition": "Li2FeSiO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "polycrystalline Pmnb-Li2FeSiO4",
+      "sample_description": "Synthesized by solid-state reaction between Li2SiO3, Fe2O3 and Fe for neutron diffraction.",
+      "chemical_composition": "Li2FeSiO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "polycrystalline Li2FeSiO4 starting materials",
+      "sample_description": "Starting materials yielding the Pmn21-polymorph synthesized by one-step solid-state reaction.",
+      "chemical_composition": "Li2FeSiO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns collected at room temperature in the 2θ range of 10 ° to 70 °.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "powder neutron diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution neutron diffraction data recorded at 25 K with a wavelength of 1.051 Å.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM-EDX microanalysis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Elemental composition determined by point scans and area scans on polished surfaces.",
+      "measurement_technique": "energy-dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Intensity data collected at 100 K for structure determination.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "X-Ray Laue diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Back scattering geometry used to orient the single crystals.",
+      "measurement_technique": "X-Ray Laue diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "SQUID magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Static magnetic susceptibility measured up to 300 K in a field of 1 T along principal axes.",
+      "measurement_technique": "superconducting quantum interference device magnetometer",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "specific heat measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Specific heat measured in zero magnetic field using the relaxation method.",
+      "measurement_technique": "specific heat measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "bibliographic": {
+    "title": "X-ray diffraction study of epitaxial CuO nanostructures obtained through post-deposition annealing of Cu on SrTiO3(001)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Université Grenoble Alpes, CNRS, Grenoble INP, Institut Néel, BP 166, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "CNRS, CEMES (Centre d’Elaboration des Matériaux et d’Etudes Structurales), BP 94347, 29 rue Jeanne Marvig, F-31055 Toulouse, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institut de Ciència de Materials de Barcelona, ICMAB-CSIC, Bellaterra, 08193 Barcelona, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Maurizio De Santis",
+        "orcid": null,
+        "email": "Maurizio.de-santis@neel.cnrs.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Veronique Langlais",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lucio Martinelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tom Mocellin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sébastien Pairis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Xavier Torrelles",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Orientation, structure and morphology in the early growth stages of CuO films on strontium titanate were studied by synchrotron radiation X-ray diffraction. Nanostructured CuO films were obtained by ex situ heat treatment at 970 K in oxygen flow at ambient pressure after an initial deposition of Cu on SrTiO3(001) at 10-4 Pa oxygen pressure using the molecular beam epitaxy technique. These films at low coverages grow forming islands a few tens of nanometers wide, with the [010] direction perpendicular to the substrate surface. Two types of epitaxies are observed, CuO[001]//SrTiO3[100] and CuO[100]//SrTiO3[100], the former being the preferred one. The combination of these epitaxies with the P4mm surface symmetry of the substrate generates 16 different orientations of nanostructures. The lattice constant values obtained from X-ray diffraction are very close to those of bulk tenorite, with the exception of the monoclinic angle β, which is reduced from 99.54° to 96.76(8)° by the epitaxy constraints. This angle is a key parameter in determining the magnetic properties of CuO.",
+    "keywords": [
+      "cupric oxide",
+      "growth",
+      "epitaxy",
+      "structure",
+      "XRD",
+      "multiferroics"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "CSIC ILINKA2021 Program",
+        "grant_id": "ILINKA20394"
+      },
+      {
+        "funder": "MCIN/AEI",
+        "grant_id": "PID2021-12327OB-I00"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details",
+      "3. Results & discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "as-deposited",
+      "sample_description": "Cu deposited on SrTiO3(001) at 10-4 Pa oxygen pressure with a nominal coverage of 2.2 nm.",
+      "chemical_composition": "Cu",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "post-growth annealed sample",
+      "sample_description": "As-deposited sample annealed in the tube furnace for 4 hours at 970 K in O2 at atmospheric pressure.",
+      "chemical_composition": "CuO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron radiation X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XRD measurements performed at room temperature using a 2D detector at a photon energy of 14 keV.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Scanning Tunneling Microscopy",
+      "sample_refs": [],
+      "facility_refs": [],
+      "dataset_description": "Surface morphology investigation of control STO substrates.",
+      "measurement_technique": "Scanning Tunneling Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Scanning Electron Microscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface morphology measurement of the post-growth annealed sample.",
+      "measurement_technique": "Scanning Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

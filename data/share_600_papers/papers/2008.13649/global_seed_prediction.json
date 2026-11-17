@@ -1,0 +1,288 @@
+{
+  "bibliographic": {
+    "title": "Structural, magnetic and electronic properties of CaBaCo4-xMxO7 (M= Fe, Zn)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "ESRF-The European Synchrotron, 71 Avenue des Martyrs, Grenoble (France)"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Instituto de Ciencia de Materiales de Aragón, Departamento de Física de la Materia Condensada, CSIC-Universidad de Zaragoza, C/ Pedro Cerbuna 12, 50009 Zaragoza (Spain)"
+      },
+      {
+        "id": "aff_3",
+        "label": "ǁ",
+        "text": "Institut Laue-Langevin, Boîte Postale 156, 38042 Grenoble (France)"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Cuartero",
+        "orcid": null,
+        "email": "cuartero@esrf.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. Blasco",
+        "orcid": null,
+        "email": "jbc@unizar.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "G. Subías",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "J. García",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. A. Rodríguez-Velamazán",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "C. Ritter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The effect of substituting iron and zinc for cobalt in CaBaCo4O7 has been investigated using neutron diffraction and x-ray absorption spectroscopy techniques. The orthorhombic distortion present in the parent compound CaBaCo4O7 decreases with increasing the content of either Fe or Zn. The samples CaBaCo3ZnO7 and CaBaCo4-xFexO7 with x≥1.5 are metrically hexagonal but much better refinements in the neutron diffraction patterns are obtained using an orthorhombic unit cell. The two types of substitution have opposite effects on the structural and magnetic properties. Fe atoms preferentially occupy the sites at the triangular layer. Thus, the replacement of Co by Fe supresses the ferrimagnetic ordering of the parent compound and CaBaCo4-xFexO7 (0.5≤x≤2) samples are antiferromagnetically ordered following a new propagation vector k=(1/3,0,0). However, the Zn atoms prefer occupying the Kagome layer, which is very detrimental for the long range magnetic interactions giving rise to a magnetic glass-like behaviour in the CaBaCo3ZnO7 sample. The oxidation state of iron and zinc is found to be 3+ and 2+, respectively, independently of the content, as confirmed by x-ray absorption spectroscopy. Therefore, the average Co oxidation state changes accordingly with the Fe3+ or Zn2+ doping. Also, x-ray absorption spectroscopy data confirms the different preferential occupation for both Fe and Zn cations. The combined information obtained by neutron diffraction and x-ray absorption spectroscopy indicates that cobalt atoms can be either in a fluctuating Co2+/Co3+ valence state or, alternatively, Co2+ and Co3+ ions being randomly distributed in the lattice. These results explain the occurrence of local disorder in the CoO4 tetrahedra obtained by EXAFS. An anomaly in the lattice parameters and an increase in the local disorder is observed only at the ferrimagnetic transition for CaBaCo4O7 revealing the occurrence of local magneto-elastic coupling.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministerio de Economía y Competitividad",
+        "grant_id": "MAT2015-68760-C2-1-P"
+      },
+      {
+        "funder": "Diputación General de Aragón",
+        "grant_id": "E69"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULTS AND DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institute Laue Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CaBaCo4O7",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo4O7",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CaBaCo4-xFexO7 (x=0.5)",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo4-xFexO7 x=0.5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CaBaCo4-xFexO7 (x=1)",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo4-xFexO7 x=1",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CaBaCo4-xFexO7 (x=1.5)",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo4-xFexO7 x=1.5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CaBaCo4-xFexO7 (x=2)",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo4-xFexO7 x=2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "CaBaCo3ZnO7",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo3ZnO7",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "CaBaCo2FeZnO7",
+      "sample_description": null,
+      "chemical_composition": "CaBaCo2FeZnO7",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "CaBaCoZnFe2O7",
+      "sample_description": "Reference compound for Co2+ on a tetrahedral oxygen environment",
+      "chemical_composition": "CaBaCoZnFe2O7",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "YBaCoZn3O7",
+      "sample_description": "Reference compound for Co3+ on a tetrahedral oxygen environment",
+      "chemical_composition": "YBaCoZn3O7",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "high-resolution powder neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Crystallographic studies of the swedenborgite phase at selected temperatures between 1.5 and 400 K.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "high flux powder diffractometer D1B",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Collection of thermodiffractograms between room temperature and 2 K for CaBaCo4O7 and CaBaCo3FeO7.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "x-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "XAS measurements at the Co, Fe and Zn K edges to study electronic state and local structure.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EXAFS temperature dependence",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Temperature dependence of EXAFS spectra at the Co K-edge from 35 K up to room temperature.",
+      "measurement_technique": "extended x-ray absorption fine structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

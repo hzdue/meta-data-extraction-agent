@@ -1,0 +1,348 @@
+{
+  "bibliographic": {
+    "title": "Novel Superstructure-Phase Two-Dimensional Material 1T-VSe2 at High Pressure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Center for High Pressure Science and Technology Advanced Research, Beijing 100094, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Vytautas Magnus University, K. Donelaičio Str. 58, Kaunas 44248, Lithuania"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "High Pressure Collaborative Access Team, X-ray Science Division, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "College of Materials and Environmental Engineering, Institute for Advanced Magnetic Materials, Hangzhou Dianzi University, Hangzhou 310018, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "School of Chemical and Bioprocess Engineering, University College Dublin, Belfield, Dublin 4, Ireland"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics and Beijing Key Laboratory of Opto-electronic Functional Materials & Micro-nano Devices, Renmin University of China, Beijing 100872, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Canadian Light Source, 44 Innovation Boulevard, Saskatoon, SK, S7N 2V3, Canada"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Nano and Heterogeneous Materials Center, School of Materials Science and Engineering, Nanjing University of Science and Technology, Nanjing 210094, People’s Republic of China."
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "College of Physics and Information Technology, Shaanxi Normal University, Xi’an 710119, P. R. China"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Geophysical Laboratory, Carnegie Institution of Washington, Washington DC 20015, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Raimundas Sereika",
+        "orcid": null,
+        "email": "raimundas.sereika@hpstar.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Changyong Park",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Curtis Kenney-Benson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sateesh Bandaru",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Niall J. English",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Qiangwei Yin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hechang Lei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ning Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Cheng-Jun Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Steve M. Heald",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jichang Ren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jun Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Yang Ding",
+        "orcid": null,
+        "email": "yang.ding@hpstar.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Ho-kwang Mao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_11"
+        ]
+      }
+    ],
+    "abstract": "A superstructure can elicit versatile new properties of materials by breaking their original geometrical symmetries. It is an important topic in the layered graphene-like two-dimensional transition-metal dichalcogenides (TMDs), but its origin remains unclear. Using diamond-anvil cell techniques, synchrotron x-ray diffraction, x-ray absorption, and the first-principles calculations, we show that the evolution from the weak Van der Waals bonding to the Heisenberg covalent bonding between layers induces an isostructural transition in quasi-twodimensional 1 T-type VSe2 at high pressure.  Furthermore, our results show that high-pressure induce a novel superstructure at 15.5 GPa, rather than suppress as it would normally, which is unexpected. It is driven by the Fermi surface nesting, enhanced by the pressure-induced distortion. The results suggest that the superstructure not only appears in the two-dimensional structure but also can emerge in the pressure-tuned three-dimensional structure with new symmetry and develop superconductivity.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2018YFA0305703"
+      },
+      {
+        "funder": "Science Challenge Project",
+        "grant_id": "TZ2016001"
+      },
+      {
+        "funder": "The National Natural Science Foundation of China",
+        "grant_id": "U1930401"
+      },
+      {
+        "funder": "The National Natural Science Foundation of China",
+        "grant_id": "11874075"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2016YFA0300504"
+      },
+      {
+        "funder": "the NSFC",
+        "grant_id": "11574394"
+      },
+      {
+        "funder": "the NSFC",
+        "grant_id": "11774423"
+      },
+      {
+        "funder": "the NSFC",
+        "grant_id": "11822412"
+      },
+      {
+        "funder": "Research Funds of Renmin University of China",
+        "grant_id": "15XNLQ07"
+      },
+      {
+        "funder": "Research Funds of Renmin University of China",
+        "grant_id": "18XNLG14"
+      },
+      {
+        "funder": "Research Funds of Renmin University of China",
+        "grant_id": "19XNLG17"
+      },
+      {
+        "funder": "Science Foundation Ireland",
+        "grant_id": "SFI 17/NSFC/5229"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Canadian Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "1T-VSe2",
+      "sample_description": null,
+      "chemical_composition": "VSe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1T-VSe2 powders",
+      "sample_description": null,
+      "chemical_composition": "VSe2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal zone-axis x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Diffraction patterns measured along the [001] zone axis at variable pressure and temperature.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "powder x-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Diffraction patterns of powders over sample compression at room temperature.",
+      "measurement_technique": "powder x-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XAS measurements at the Se K-edge",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray absorption near edge structure (XANES) spectra as a function of pressure.",
+      "measurement_technique": "x-ray absorption",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

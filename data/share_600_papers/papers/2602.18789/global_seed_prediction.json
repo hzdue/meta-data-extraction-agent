@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "EXAFS studies of the local environment of lead and selenium atoms in PbTe1−xSex solid solution",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "M. V. Lomonosov Moscow State University, 119899 Moscow, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Daresbury Laboratory, Warrington WA4 4AD, UK"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. I. Lebedev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "I. A. Sluchinskaya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "V. N. Demin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "I. Munro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "EXAFS spectroscopy is used to study the local environment of lead and selenium atoms in PbTe1−xSex solid solution. In addition to a bimodal distribution of bond lengths in the first shell, unusually large Debye–Waller factors for the Pb–Pb interatomic distances in the second shell and a substantial deviation of these distances from Vegard’s law are observed. Valence force field (VFF) calculations show that these observations are due to the complex structure of the distribution function for Pb–Pb distances. It is found that the number of Se–Se pairs in the second shell surpasses the statistical value, which indicates that chemical factors play an important role in the structure of the solid solution. The contribution of these chemical factors to the enthalpy of mixing of the solid is estimated to be approximately 0.5 kcal/mole, which is comparable to the strain contribution.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "1999",
+    "venue": "Physics of the Solid State",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Foundation for Basic Research",
+        "grant_id": "95-02-04644"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. EXPERIMENTAL DETAILS",
+      "3. EXPERIMENTAL RESULTS",
+      "4. VALENCE FORCE FIELD (VFF) MODELING",
+      "5. DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Daresbury synchrotron radiation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PbTe1−xSex x = 0.1",
+      "sample_description": null,
+      "chemical_composition": "PbTe1−xSex x = 0.1",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PbTe1−xSex x = 0.25",
+      "sample_description": null,
+      "chemical_composition": "PbTe1−xSex x = 0.25",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PbTe1−xSex x = 0.5",
+      "sample_description": null,
+      "chemical_composition": "PbTe1−xSex x = 0.5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PbTe1−xSex x = 0.75",
+      "sample_description": null,
+      "chemical_composition": "PbTe1−xSex x = 0.75",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "PbTe",
+      "sample_description": "reference compound",
+      "chemical_composition": "PbTe",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "PbSe",
+      "sample_description": "reference compound",
+      "chemical_composition": "PbSe",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "EXAFS at the Se K absorption edge",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Data collected at the K absorption edge of Se (12658 eV) at 80 K in transmission mode.",
+      "measurement_technique": "extended x-ray-absorption fine-structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS at the Pb LIII absorption edge",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Data collected at the LIII absorption edge of Pb (13055 eV) at 80 K in transmission mode.",
+      "measurement_technique": "extended x-ray-absorption fine-structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

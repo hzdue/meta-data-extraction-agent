@@ -1,0 +1,346 @@
+{
+  "bibliographic": {
+    "title": "Colloidal dispersions of sterically and electrostatically stabilized PbS quantum dots: the effect of stabilization mechanism on structure factors, second virial coefficients, and film-forming properties",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, James Franck Institute, and Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, University of California, Berkeley, California 94720, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of California, Berkeley, California 94720, United States"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Molecular Biophysics and Integrated Bioimaging Division and Materials Sciences and Chemical Sciences Divisions, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Kavli Energy NanoSciences Institute, University of California, Berkeley, California 94720, United State"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "STROBE, NSF Science & Technology Center, Berkeley, California 94720, United States"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Center for Nanoscale Materials, Argonne National Laboratory, Argonne, Illinois 60439, United States"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ahhyun Jeong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Josh Portner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christian P. N. Tanner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Justin C. Ondry",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Chenkun Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Zehan Mi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Youssef A. Tazoui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Vivian R. K. Wall",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Naomi S. Ginsberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_4",
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Dmitri V. Talapin",
+        "orcid": null,
+        "email": "dvtalapin@uchicago.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Electrostatically stabilized nanocrystals (NCs) and, in particular, quantum dots (QDs) hold promise for forming strongly coupled superlattices due to their compact and electronically conductive surface ligands. However, studies on the colloidal dispersion and interparticle interactions of electrostatically stabilized sub-10 nm NCs have been limited, hindering the optimization of colloidal stability and self-assembly. In this study, we employed small-angle X- ray scattering (SAXS) experiments to investigate the interparticle interactions and arrangement of \n\n1 \n\nPbS QDs with thiostannate ligands (PbS-Sn2S64- ) in polar solvents. The study reveals significant deviations from ideal solution behavior in electrostatically stabilized QD dispersions. Our results demonstrate that PbS-Sn2S64- QDs exhibit long-range interactions within the solvent, in contrast to the short-range steric repulsion characteristic of PbS QDs with oleate ligands (PbS-OA). Introducing highly charged multivalent electrolytes screens electrostatic interactions between charged QDs, reducing the length scale of the repulsive interactions. Furthermore, we calculate the second virial (B2) coefficients from SAXS data, providing insights into how surface chemistry, solvent, and size influence pair potentials. Finally, we explore the influence of long-range interparticle interactions of PbS-Sn2S64- QDs on the morphology of films produced by drying or spin-coating colloidal solutions. The long-range repulsive term of PbS-Sn2S64- QDs promotes the formation of amorphous films, and screening the electrostatic repulsion by addition of an electrolyte enables the formation of a crystalline film. These findings highlight the critical role of NC-NC interactions in tailoring the properties of functional nanomaterials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Office of Basic Energy Sciences (BES), US Department of Energy (DOE)",
+        "grant_id": "DESC0019375"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DGE1106400"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2011854"
+      },
+      {
+        "funder": "U.S. DOE, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "European XFEL"
+    },
+    {
+      "id": "facility_3",
+      "name": "Stanford Synchrotron Radiation Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PbS-OA",
+      "sample_description": "PbS QDs with oleate ligands.",
+      "chemical_composition": "PbS",
+      "sample_state": "colloidal dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PbS-Sn2S64-",
+      "sample_description": "PbS QDs with thiostannate ligands.",
+      "chemical_composition": "PbS-Sn2S64-",
+      "sample_state": "colloidal dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PbS-AsS43-",
+      "sample_description": "PbS QDs with arsenate ligands.",
+      "chemical_composition": "PbS-AsS43-",
+      "sample_state": "colloidal dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CdSe-Sn2S64-",
+      "sample_description": "CdSe QDs with thiostannate ligands.",
+      "chemical_composition": "CdSe-Sn2S64-",
+      "sample_state": "colloidal dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CdSe-OA",
+      "sample_description": "CdSe QDs with oleate ligands.",
+      "chemical_composition": "CdSe",
+      "sample_state": "colloidal dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Investigation of interparticle interactions and arrangement of PbS and CdSe QDs in polar and non-polar solvents.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "119Sn nuclear magnetic resonance",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Verification of the identity of the thiostannate species present in NMF.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "inductively coupled plasma optical emission spectroscopy",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of the grafting density of ligands on the surface of QDs.",
+      "measurement_technique": "inductively coupled plasma optical emission spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "X-ray photon correlation spectroscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of the diffusion rate of QDs in dilute and concentrated solutions.",
+      "measurement_technique": "X-ray photon correlation spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of PbS-OA and CdSe-OA QDs to determine size and shape.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Scanning electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of films produced by drop-casting or spin-coating.",
+      "measurement_technique": "Scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

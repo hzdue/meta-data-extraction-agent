@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Size and Shape Fluctuations of Ultrasoft Colloids",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Engineering Physics and Key Laboratory of Particle and Radiation Imaging (Tsinghua University) of Ministry of Education, Tsinghua University, Beijing 100084, China."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue-Langevin, B.P. 156, F-38042 Grenoble CEDEX 9, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Huarui Wu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jing Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Wei-Ren Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Kun Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lionel Porcar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Zhe Wang",
+        "orcid": null,
+        "email": "zwang2017@mail.tsinghua.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Ultrasoft colloidal particle fluctuates due to its flexibility. Such fluctuation is essential for colloidal structure and dynamics, but is challenging to quantify experimentally. We use dendrimers as a model system to study the fluctuation of ultrasoft colloids. By considering the dynamic polydispersity in the small-angle neutron scattering (SANS) model, and introducing the fluctuation of invasive water into the contrast in SANS, we reveal the fluctuating amplitudes of the size and shape of the dendrimer of generation 6 at finite concentrations. The size fluctuation is suppressed while the shape fluctuation increases as the weight fraction of dendrimers passes 11%. With neutron spin echo data, we suggest that such crossover originates from the competition between the inter- and intra-particle dynamics. Further investigation on lower-generation samples shows a contrary result, which suggests a structural basis for these dynamic phenomena.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11975136"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "U1830205"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "G6 PAMAM dendrimers",
+      "sample_description": "Neutral poly(amido amine) dendrimers of generation 6 dissolved in water.",
+      "chemical_composition": "PAMAM",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "G4 PAMAM dendrimers",
+      "sample_description": "Neutral poly(amido amine) dendrimers of generation 4 dissolved in water.",
+      "chemical_composition": "PAMAM",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Small-angle neutron scattering measurements of G6 dendrimers at concentrations c = 1, 5, 10, 12.5, 15, and 20 wt%.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "NSE",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Neutron spin echo study on G6 dendrimers to determine inter-particle collisional and intra-particle relaxation times.",
+      "measurement_technique": "neutron spin echo",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Small-angle neutron scattering measurements of G4 dendrimers at concentrations c = 1, 5, 10, 12.5, 15, and 20 wt%.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

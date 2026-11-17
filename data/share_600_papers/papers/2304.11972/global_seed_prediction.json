@@ -1,0 +1,548 @@
+{
+  "bibliographic": {
+    "title": "Epitaxial monolayers of magnetic 2D semiconductor FeBr2 grown on Au(111)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Freie Universität Berlin, Institut für Experimentalphysik, Arnimallee 14, 14195 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Centro de Física de Materiales (CSIC/UPV-EHU), 20018 Donostia-San Sebastián, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Donostia International Physics Center, 20018 Donostia-San Sebastián, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "CIC nanoGUNE-BRTA, 20018 Donostia-San Sebastián, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute of Physical Chemistry, University of Innsbruck, Innrain 52c, A-6020 Innsbruck, Austria"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "ALBA Synchrotron Light Source, 08290 Barcelona, Spain"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Freie Universität Berlin, Dahlem Center for Complex Quantum Systems, Arnimallee 14, 14195 Berlin, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Max Planck Institute for Chemical Physics of Solids, 01180, Dresden, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Helmholtz-Zentrum Berlin, Albert-Einstein-Str. 15, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Fakultät für Physik, Technische Universität München, James-Franck-Straße 1, 85748 Garching bei München, Germany"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Nanomaterials and Nanotechnology Research Center (CINN), CSIC-UNIOVI-PA, Oviedo, Spain"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Ikerbasque, Basque Foundation for Science, 48013 Bilbao, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. E. Hadjadj",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "C. González-Orellana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. Lawrence",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "D. Bikaljević",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Peña-Díaz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "P. Gargiani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L. Aballe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "J. Naumann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "M. Á. Niño",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "M. Foerster",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "S. Ruiz-Gómez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "S. Thakur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "I. Kumberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "J. Taylor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "J. Hayes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "J. Torres",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "C. Luo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "F. Radu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "D. G. de Oteyza",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "W. Kuch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "J. I. Pascual",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "C. Rogero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "M. Ilyn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Magnetic two-dimensional (2D) semiconductors have attracted a lot of attention because modern preparation techniques are capable of providing single crystal films of these materials with precise control of thickness down to the single-layer limit. It opens up a way to study rich variety of electronic and magnetic phenomena with promising routes towards potential applications. We have investigated the initial stages of epitaxial growth of the magnetic van der Waals semiconductor FeBr2 on a single-crystal Au(111) substrate by means of low-temperature scanning tunneling microscopy, low-energy electron diffraction, x-ray photoemission spectroscopy, low-energy electron emission microscopy and x-ray photoemission electron microscopy. Magnetic properties of the oneand two-layer thick films were measured via x-ray absorption spectroscopy/x-ray magnetic circular dichroism. Our findings show a striking difference in the magnetic behaviour of the single layer of FeBr2 and its bulk counterpart, which can be attributed to the modifications in the crystal structure due to the interaction with the substrate.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-09-20",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "277101999 - CRC 183"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "VEKMAG (BMBF 05K19KEA)"
+      },
+      {
+        "funder": "AEI/FEDER",
+        "grant_id": "PID2020-116181RBC32"
+      },
+      {
+        "funder": "AEI/FEDER",
+        "grant_id": "FlagEraSOgraphMEM PCI2019-111908-2"
+      },
+      {
+        "funder": "Spanish MCIN/AEI",
+        "grant_id": "10.13039/501100011033"
+      },
+      {
+        "funder": "European Union \"NextGenerationEU\"/PRTR",
+        "grant_id": "PID2019-107338RB-C63"
+      },
+      {
+        "funder": "European Union \"NextGenerationEU\"/PRTR",
+        "grant_id": "TED2021-132388B-C43"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "800923"
+      },
+      {
+        "funder": "Spanish MCIN/AEI",
+        "grant_id": "PID2020-114252GB-I00"
+      },
+      {
+        "funder": "Spanish MCIN/AEI",
+        "grant_id": "PID2019-107338RB-C63"
+      },
+      {
+        "funder": "Spanish MCIN/AEI",
+        "grant_id": "TED2021-130292B-C42"
+      },
+      {
+        "funder": "Basque Goverment",
+        "grant_id": "IT1591-22"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENT AND METHODS",
+      "RESULTS AND DISCUSSION",
+      "Epitaxial Growth of FeBr2",
+      "Magnetic properties",
+      "Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Centro de Física de Materiales"
+    },
+    {
+      "id": "facility_2",
+      "name": "BOREAS beamline"
+    },
+    {
+      "id": "facility_3",
+      "name": "VEKMAG station"
+    },
+    {
+      "id": "facility_4",
+      "name": "BESSY II"
+    },
+    {
+      "id": "facility_5",
+      "name": "ALBA Synchrotron Light Facility"
+    },
+    {
+      "id": "facility_6",
+      "name": "CIRCE beamline"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "0.6-ML FeBr2",
+      "sample_description": "Sub-monolayer epitaxial film grown on Au(111).",
+      "chemical_composition": "FeBr2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1.5-ML FeBr2",
+      "sample_description": "Epitaxial film grown on Au(111).",
+      "chemical_composition": "FeBr2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "2.0-ML FeBr2",
+      "sample_description": "Bilayer epitaxial film grown on Au(111).",
+      "chemical_composition": "FeBr2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "2.9-ML FeBr2",
+      "sample_description": "Epitaxial film grown on Au(111).",
+      "chemical_composition": "FeBr2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "low-temperature scanning tunneling microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Atomic-resolution imaging of FeBr2 layers on Au(111) at 4.3 K and 77 K.",
+      "measurement_technique": "scanning tunneling microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "low-energy electron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of crystal structure variation with increasing number of deposited layers.",
+      "measurement_technique": "low-energy electron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "x-ray photoemission spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Probing chemical composition and oxidation state of Fe and Br.",
+      "measurement_technique": "x-ray photoemission spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "low-energy electron microscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_6"
+      ],
+      "dataset_description": "Mesoscopic scale imaging of FeBr2 growth on Au(111).",
+      "measurement_technique": "low-energy electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "x-ray photoemission electron microscopy",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_6"
+      ],
+      "dataset_description": "Chemical contrast imaging at the Fe L3-edge.",
+      "measurement_technique": "x-ray photoemission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "x-ray absorption spectroscopy/x-ray magnetic circular dichroism",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_4",
+        "facility_2",
+        "facility_5"
+      ],
+      "dataset_description": "Measurement of magnetic properties at the Fe L3,2 edges under variable magnetic fields and temperatures.",
+      "measurement_technique": "x-ray absorption spectroscopy/x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

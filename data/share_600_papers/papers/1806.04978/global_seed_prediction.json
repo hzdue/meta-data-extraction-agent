@@ -1,0 +1,306 @@
+{
+  "bibliographic": {
+    "title": "Determining the local low-energy excitations in the Kondo semimetal CeRu4Sn6 using resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Physics II, University of Cologne, Zülpicher Straße 77, 50937 Cologne, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Max Planck Institute for Chemical Physics of Solids, Nöthnitzer Straße 40, 01187 Dresden, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, CS40220, F-38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Chilton, Didcot Oxon OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Highly Correlated Matter Research Group, Physics Department, University of Johannesburg, P.O. Box 524, Auckland Park 2006, South Africa"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute of Solid State Physics, Vienna University of Technology, Wiedner Hauptstraße 8-10, 1040 Vienna, Austria"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute for Theoretical Physics, Heidelberg University, Philosophenweg 19, 69120 Heidelberg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Andrea Amorese",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kurt Kummer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Nicholas B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Oliver Stockert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Devashibhai T. Adroja",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "André M. Strydom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Andrey Sidorenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Hannes Winkler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Diego A. Zocco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Andrey Prokofiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Silke Paschen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Maurits W. Haverkort",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Liu Hao Tjeng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Andrea Severing",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We have investigated the local low-energy excitations in CeRu4Sn6, a material discussed recently in the framework of strongly correlated Weyl semimetals, by means of Ce M 5 resonant inelastic x-ray scattering (RIXS). The availability of both 2F 5/2 and 2F 7/2 excitations of the Ce 4f1 configuration in the spectra allows for the determination of the crystal-electric field parameters that explain quantitatively the temperature dependence and anisotropy of the magnetic susceptibility. The absence of an azimuthal dependence in the spectra indicates that all crystal-electric field states are close to being rotational symmetric. We show further that the non-negligible impact of the A 6 0 parameter on the ground state of CeRu4Sn6 leads to a reduction of the magnetic moment due to multiplet intermixing. The RIXS results are consistent with inelastic neutron scattering (INS) data and are compared to the predictions from ab-initio based electronic structure calculations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-06-14",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "SE1441/4-1"
+      },
+      {
+        "funder": "Austrian Science Fund",
+        "grant_id": "I 2535-N27"
+      },
+      {
+        "funder": "SA NRF",
+        "grant_id": "93549"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "ISIS Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CeRu4Sn6",
+      "sample_description": "Single crystalline and polycrystalline samples of a tetragonal, non-centrosymmetric compound.",
+      "chemical_composition": "CeRu4Sn6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "carbon tape",
+      "sample_description": "Used as an elastic reference.",
+      "chemical_composition": null,
+      "sample_state": "solid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LaRu4Sn6",
+      "sample_description": "Non-magnetic reference compound.",
+      "chemical_composition": "LaRu4Sn6",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ce M5-edge RIXS spectroscopy to determine the CEF level scheme of CeRu4Sn6.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "elastic reference",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of carbon tape to serve as an elastic reference.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Time-of-flight INS data of polycrystalline CeRu4Sn6 and LaRu4Sn6.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

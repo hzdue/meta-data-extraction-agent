@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "Charge response function probed by resonant inelastic x-ray scattering: the signature of electronic gaps of YBa2Cu3O7−δ",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Dipartimento di Fisica, Politecnico di Milano, piazza Leonardo da Vinci 32, I-20133 Milano, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "European XFEL, Holzkoppel 4, Schenefeld, D-22869, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ESRF, The European Synchrotron, 71 Avenue des Martyrs, CS 40220, F-38043 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Quantum Device Physics Laboratory, Department of Microtechnology and Nanoscience, Chalmers University of Technology, SE-41296 G¨oteborg, Sweden"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "CNR-SPIN, Dipartimento di Fisica, Politecnico di Milano, I-20133 Milano, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Giacomo Merzoni",
+        "orcid": null,
+        "email": "giacomo.merzoni@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Leonardo Martinelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lucio Braicovich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Nicholas B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Floriana Lombardi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Francesco Rosa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Riccardo Arpaia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Marco Moretti Sala",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Giacomo Ghiringhelli",
+        "orcid": null,
+        "email": "giacomo.ghiringhelli@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "In strongly correlated systems the complete determination of the dynamical susceptibility χ ( q , ω ) is of special relevance because of the entwinement of the spin and charge components. Although Resonant Inelastic X-Ray Scattering (RIXS) spectra are directly related to both the charge ( χc′′(q, ω)) and the spin ( χs′′(q, ω)) contributions, only the latter has been extensively studied with RIXS so far. Here we show how to extract from RIXS spectra of high- Tc superconducting cuprates relevant properties of χ′′ c, such as the presence of the superconducting gap and of the pseudogap.In particular, we exploit the temperature dependence of the Cu L3 edge RIXS spectra of underdoped YBa2Cu3O7 −δ at specific wave-vectors q . The signature of the two gaps is given by the departure of the low energy excitation continuum from the Bosonic thermal evolution. This approach can be immediately used to investigate systematically the nature of the pseudogap in cuprates, thereby taking advantage of the RIXS technique that does not suffer the limitations of surface-sensitive electron spectroscopies. Its extension to other interesting materials is foreseen.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-06-12",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry for University and Research",
+        "grant_id": "PRIN2017 “Quantum2D” ID 2017Z8TS5B"
+      },
+      {
+        "funder": "Ministry for University and Research",
+        "grant_id": "PRIN2020 “QT-FLUO“ ID 20207ZXT4Z"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "Project 2020-04945"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. CONCLUSIONS AND PERSPECTIVES"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YBCO UD",
+      "sample_description": "Slightly underdoped sample with Tc = 86 K and T* = 196 K.",
+      "chemical_composition": "YBa2Cu3O7−δ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YBCO AF",
+      "sample_description": "Undoped insulating sample used as a reference.",
+      "chemical_composition": "YBa2Cu3O7−δ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Cu L3 edge RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependence of RIXS spectra at Cu L3 edge for underdoped and undoped YBCO samples.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

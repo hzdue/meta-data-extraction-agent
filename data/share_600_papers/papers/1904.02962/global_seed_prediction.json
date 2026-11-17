@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Sr3CrN3: a new electride with partially filled d -shells",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science and Engineering Department, Cornell University, Ithaca, NY 14850, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, Faculty of Science, Chulalongkorn University, Bangkok 10330, Thailand"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Condensed Matter and Nanosciences, Université catholique de Louvain, Louvain-la-Neuve 1348, Belgium"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Heinz Maier-Leibnitz Zentrum, Technische Universität München, 85748 Garching, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "School of Chemical, Biological, and Environmental Engineering, Oregon State University, Corvalis, OR 97331 USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Kavli Institute at Cornell for Nanoscale Science, Cornell University, Ithaca, NY 14850, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Padtaraporn Chanhom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kevin E. Fritz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lee Burton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jan Kloppenburg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Yaroslav Filinchuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Anatolyi Senyshin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Maoyu Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Zhenxing Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Numpon Insin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jin Suntivich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Geoffroy Hautier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Electrides are ionic crystals in which the electrons prefer to occupy free space, serving as anions. Because the electrons prefer to be in the pockets, channels, or layers to the atomic orbitals around the nuclei, it has been challenging to find electrides with partially filled d- shells, since an unoccupied d- shell provides an energetically favourable location for the electrons to occupy. We recently predicted the existence of electrides with partially filled d- shells using high-throughput computational screening. Here, we provide an experimental support using X-ray absorption spectroscopy and X-ray and neutron diffraction to show that Sr3CrN3 is indeed an electride despite its partial d- shell configuration. Our findings indicate that Sr3CrN3 is the first known electride with a partially filled d -shell, in agreement with theory, which significantly broadens the criteria for the search for new electride materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRM-II reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advance Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sr3CrN3",
+      "sample_description": null,
+      "chemical_composition": "Sr3CrN3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cr2O3",
+      "sample_description": "reference for XAS analysis",
+      "chemical_composition": "Cr2O3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray powder diffraction to verify the Sr3CrN3 structure.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption near-edge spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Cr K-edge XANES to probe the electronic structure of Cr.",
+      "measurement_technique": "X-ray absorption near-edge spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "NPD to estimate hydrogen content in the channel.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

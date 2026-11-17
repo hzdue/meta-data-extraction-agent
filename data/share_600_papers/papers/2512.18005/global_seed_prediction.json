@@ -1,0 +1,327 @@
+{
+  "bibliographic": {
+    "title": "Net Magnetization and Inhomogeneous Magnetic Order in a High-Tc Nickelate Superconductor",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Faculty of Science, National University of Singapore, Singapore 117551, Singapore"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Faculty of Science and Technology, Universitas Airlangga, Surabaya 60115, East Java, Indonesia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "PSI Center for Neutron and Muon Sciences CNM, 5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": "alexander.grutter@nist.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nurul Fitriyah",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Brian B. Maranville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Saurav Prakash",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andreas Suter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jochen Stahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Gianluca Janka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Xing Gao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "King Yau Yip",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Zaher Salman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Thomas Prokscha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Ariando",
+        "orcid": null,
+        "email": "ariando@nus.edu.sg",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "High-temperature and high-magnetic-field-induced re-entrant superconductivity has been discovered in the infinite-layer nickelate Sm1 − x − yEuxCayNiO2 (SECNO) [1–4]. Infinite-layer nickelates are the closest known analogues of high-Tc cuprate superconductors, yet they host distinct magnetic ground states. Using low-energy muon spin relaxation and polarized neutron reflectometry, we reveal the magnetic order in SECNO. We find that magnetic freezing occurs at a higher-temperature than in other nickelate compounds, and that a substantial net magnetization of 55 kA m−1 ± 10 kA m−1 emerges and remains largely unchanged across the superconducting transition. The magnetism in SECNO is disordered and nonuniform.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-12-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Education (MOE), Singapore",
+        "grant_id": "MOE-T2EP50123-0013"
+      },
+      {
+        "funder": "Ministry of Education (MOE), Singapore",
+        "grant_id": "MOE-MOET32023-0003"
+      },
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR-2010792"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. EXPERIMENTAL METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Swiss Spallation Neutron Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "Singapore Synchrotron Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_description": "SECNO thin films grown on NdGaO3 substrates with a SrTiO3 cap.",
+      "chemical_composition": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "s30",
+      "sample_description": "SECNO film with thickness 8.0 nm and STO cap 1.0 nm.",
+      "chemical_composition": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "s32",
+      "sample_description": "SECNO film with thickness 8.0 nm and STO cap 1.0 nm.",
+      "chemical_composition": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "s34",
+      "sample_description": "SECNO film with thickness 7.8 nm and STO cap 3.0 nm.",
+      "chemical_composition": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "s35",
+      "sample_description": "SECNO film with thickness 6.0 nm and STO cap 1.0 nm.",
+      "chemical_composition": "Sm0.75Eu0.20Ca0.05NiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "STO/LCNO/STO",
+      "sample_description": "LCNO film of 6 nm with 1 nm STO cap on STO substrate.",
+      "chemical_composition": "La1-xCaxNiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "NGO",
+      "sample_description": "Bare NdGaO3 substrates.",
+      "chemical_composition": "NdGaO3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "LE µ SR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Low-energy muon spin relaxation measurements in zero field and weak transverse field to probe magnetic ordering.",
+      "measurement_technique": "low-energy muon spin relaxation",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarized neutron reflectometry measurements at 35 K (1 T), 9 K (1 T), and 9 K (10 mT) to determine net magnetization distribution.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "X-ray diffraction scan to attest to film uniformity and determine lattice constant.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

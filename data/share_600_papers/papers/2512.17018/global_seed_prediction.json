@@ -1,0 +1,171 @@
+{
+  "bibliographic": {
+    "title": "Real-space Atomic Dynamics in Liquid Gallium Studied by Inelastic Neutron Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science and Technology Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee, 37831 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Astronomy, The University of Tennessee, Knoxville, Tennessee, 37996, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Nanophase Materials Science, Oak Ridge National Laboratory, Oak Ridge, Tennessee, 37831 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, The University of Tennessee, Knoxville, Tennessee, 37996 USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee, 37831 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chengyun Hua",
+        "orcid": null,
+        "email": "huac@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yadu K. Sarathchandran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Eva Zarkadoula",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Wojciech Dmowski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Douglas L. Abernathy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Takeshi Egami",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yuya Shinohara",
+        "orcid": null,
+        "email": "shinoharay@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Gallium is a prototypical liquid metal and has gained renewed attention due to its unique properties. Characterizing and elucidating its atomic dynamics remains elusive despite numerous studies, primarily due to the challenges of quantifying atomic-scale dynamics in liquids. Recent developments in inelastic neutron scattering enable us to measure the Van Hove correlation function that describes the real-space motion of liquid atoms. In this work, we use this approach to reveal the dynamics in gallium liquids and find the co-existence of two dynamical medium-range orders (MROs), which have a dynamical behavior distinct from that of the short-range order (SRO). We propose that these MROs are driven by global forces in the form of two density waves, as a direct consequence of the underlying competition between ionic core repulsion and valence electron cohesion. We suggest that the density wave approach is not only applicable to other metallic liquids exhibiting similar structural anomalies, but also offers a promising direction for elucidating the dynamics of complex liquids and glasses by linking electronic-state fluctuations to atomic dynamics.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-12-22",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Office of Basic Energy Science (BES), Division of Materials Sciences and Engineering",
+        "grant_id": "IPTS-21883"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS",
+      "III. DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Wide-Angular Range Chopper Spectrometer (ARCS)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source (SNS)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "99.9% pure gallium",
+      "sample_description": null,
+      "chemical_composition": "Ga",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Measurements of the dynamic structure factor S(Q, E) of liquid gallium across a temperature range from 310 K to 950 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

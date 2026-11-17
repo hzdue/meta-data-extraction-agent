@@ -1,0 +1,350 @@
+{
+  "bibliographic": {
+    "title": "Doming and spin cascade in Ferric Haems: Femtosecond X-ray Absorption and X-ray Emission Studies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Ecole Polytechnique Fédérale de Lausanne (EPFL), Laboratoire de Spectroscopie Ultrarapide, ISIC and Lausanne Centre for Ultrafast Science (LACUS), CH-1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "SwissFEL, Paul-Scherrer-Institut (PSI), 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Nuclear Physics, Polish Academy of Sciences, 31-342 Kraków, Poland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "European XFEL, Holzkoppel 4, D-22869, Schenefeld, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Faculty of Physics, Adam Mickiewicz University, ul. Uniwersytetu Poznanskiego 2, 61-614 Poznan, Poland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Camila Bacellar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Dominik Kinschel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Giulia F. Mancini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Rebecca A. Ingle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jérémy Rouxel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Oliviero Cannelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Claudio Cirelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Gregor Knopp",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jakub Szlachetko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Frederico A. Lima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Samuel Menzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Georgios Pamfilidis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Katharina Kubicek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Dmitry Khakhulin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Wojciech Gawelda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Angel Rodriguez-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Mykola Biednov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Christian Bressler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Christopher A. Arrell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Philip J. M. Johnson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Christopher Milne",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Majed Chergui",
+        "orcid": null,
+        "email": "Majed.chergui@epfl.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The structure-function relationship is at the heart of biology and major protein deformations are correlated to specific functions. In the case of heme proteins, doming is associated with the respiratory function in hemoglobin and myoglobin, while ruffling has been correlated with electron transfer processes, such as in the case of Cytochrome c (Cyt c). The latter has indeed evolved to become an important electron transfer protein in humans. In its ferrous form, it undergoes ligand release and doming upon photoexcitation, but its ferric form does not release the distal ligand, while the return to the ground state has been attributed to thermal relaxation. Here, by combining femtosecond Fe K-edge X- ray absorption near-edge structure (XANES) studies and femtosecond Fe Kα and Kβ Xray emission spectroscopy (XES), we demonstrate that the photocycle of ferric Cyt c is entirely due to a cascade among excited spin states of the Iron ion, causing the ferric heme to undergo doming, which we identify for the first time. We also argue that this pattern is common to all ferric haems, raising the question of the biological relevance of doming in such proteins.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss NSF",
+        "grant_id": "200020_169914"
+      },
+      {
+        "funder": "Swiss NSF",
+        "grant_id": "200021_175649"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "H2020 ERCEA 695197 DYNAMOX"
+      },
+      {
+        "funder": "National Science Center (NCN) in Poland",
+        "grant_id": "SONATA BIS 6 grant No. 2016/22/E/ST4/00543"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction:",
+      "Results and Discussion:",
+      "Conclusions:"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Free Electron Laser"
+    },
+    {
+      "id": "facility_2",
+      "name": "European XFEL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ferric mitochondrial horse heart Cyt c",
+      "sample_description": "Ferric form of cytochrome c in room temperature aqueous solutions at pH 7.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Fe K-edge XANES",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Femtosecond X-ray absorption near-edge structure studies to probe structural changes and doming in ferric Cyt c.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Fe Kα and Kβ XES",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Femtosecond X-ray emission spectroscopy to identify spin states of the iron ion.",
+      "measurement_technique": "X-ray emission spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

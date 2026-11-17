@@ -1,0 +1,533 @@
+{
+  "bibliographic": {
+    "title": "Strain-tunable Berry curvature in quasi-two-dimensional chromium telluride",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Francis Bitter Magnet Laboratory, Plasma Science and Fusion Center, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "U.S. Army CCDC Army Research Laboratory, Adelphi, Maryland 20783, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Materials Science and Engineering, North Carolina State University, Raleigh, North Carolina 27695, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Electrical and Computer Engineering, University of California, Riverside, California 92521, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, University of Maryland, College Park, Maryland 20742, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Laboratory for Physical Sciences, College Park, Maryland 20740, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Neutron Scattering Division, Neutron Sciences Directorate, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Center for Nanophase Materials Sciences, Physical Science Directorate, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Physics, Georgetown University, Washington, District of Columbia 20057, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Department of Physics, Northeastern University, Boston, Massachusetts 02115, USA"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Department of Physics, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hang Chi",
+        "orcid": null,
+        "email": "chihang@mit.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yunbo Ou",
+        "orcid": null,
+        "email": "ybou@mit.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Tim B. Eldred",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Wenpei Gao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sohee Kwon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Joseph Murray",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Michael Dreyer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Robert E. Butera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Alexandre C. Foucher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Haile Ambaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jong Keum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Alice T. Greenberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Yuhang Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Mahesh R. Neupane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "George J. de Coster",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Owen A. Vail",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Patrick J. Taylor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Patrick A. Folkes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Charles Rong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Gen Yin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Roger K. Lake",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Frances M. Ross",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Valeria Lauter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "Don Heiman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "Jagadeesh S. Moodera",
+        "orcid": null,
+        "email": "moodera@mit.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_12"
+        ]
+      }
+    ],
+    "abstract": "Magnetic transition metal chalcogenides form an emerging platform for exploring spin-orbit driven Berry phase phenomena owing to the nontrivial interplay between topology and magnetism. Here we show that the anomalous Hall effect in pristine Cr2Te3 thin films manifests a unique temperaturedependent sign reversal at nonzero magnetization, resulting from the momentum-space Berry curvature as established by first-principles simulations. The sign change is strain tunable, enabled by the sharp and well-defined substrate/film interface in the quasi-two-dimensional Cr2Te3 epitaxial films, revealed by scanning transmission electron microscopy and depth-sensitive polarized neutron reflectometry. This Berry phase effect further introduces hump-shaped Hall peaks in pristine Cr2Te3 near the coercive field during the magnetization switching process, owing to the presence of strainmodulated magnetic domains. The versatile interface tunability of Berry curvature in Cr2Te3 thin films offers new opportunities for topological electronics.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-12-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Army Research Office",
+        "grant_id": "W911NF-20-2-0061"
+      },
+      {
+        "funder": "Army Research Office",
+        "grant_id": "DURIP W911NF20-1-0074"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF-DMR 1700137"
+      },
+      {
+        "funder": "Office of Naval Research",
+        "grant_id": "N00014-20-12306"
+      },
+      {
+        "funder": "Army Research Laboratory",
+        "grant_id": "W911NF-19-2-0015"
+      },
+      {
+        "funder": "Center for Integrated Quantum Materials",
+        "grant_id": "NSF-DMR 1231319"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1905662"
+      },
+      {
+        "funder": "Air Force Office of Scientific Research",
+        "grant_id": "FA9550-20-1-0247"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DGE 1633587"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ECCS-2025064"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR - 1419807"
+      },
+      {
+        "funder": "Army Research Laboratory Research Associateship Program",
+        "grant_id": "W911NF-16-2-0008"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ACI-1548562"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Atomic structure, interfaces and strain.",
+      "Magnetism, domains and PNR.",
+      "Strain-tunable AHE and sign reversal.",
+      "Hump-shaped Hall peaks at the coercive field."
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Center for Nanophase Materials Sciences"
+    },
+    {
+      "id": "facility_2",
+      "name": "Laboratory for Physical Sciences"
+    },
+    {
+      "id": "facility_3",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_4",
+      "name": "Analytical Instrumentation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cr2Te3 thin films on Al2O3(0001)",
+      "sample_description": "Epitaxial films with thickness ranging from 3 to 24 unit cells.",
+      "chemical_composition": "Cr2Te3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cr2Te3 thin films on SrTiO3(111)",
+      "sample_description": "Epitaxial films grown on SrTiO3(111) substrates.",
+      "chemical_composition": "Cr2Te3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction patterns used to determine lattice parameters and in-plane compressive strain.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "STM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Atomic resolution scanning tunneling microscopy of the surface morphology.",
+      "measurement_technique": "scanning tunneling microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "STEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_4"
+      ],
+      "dataset_description": "High-angle annular dark-field and integrated differential phase contrast imaging of the film structure and interfaces.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "VSM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Vibrating sample magnetometry to assess temperature and field dependence of magnetization.",
+      "measurement_technique": "vibrating sample magnetometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Polarized neutron reflectometry to probe chemical and magnetic depth profiles.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray reflectivity measurements used for depth profile refinement.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Magnetotransport",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of longitudinal and Hall resistivity as a function of temperature and magnetic field.",
+      "measurement_technique": "electrical transport measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

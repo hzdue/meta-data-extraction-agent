@@ -1,0 +1,357 @@
+{
+  "bibliographic": {
+    "title": "Dielectric response of BaTiO3 electronic states under AC fields via microsecond time-resolved X-ray absorption spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Graduate School of Advanced Science and Engineering, Hiroshima University, 1-3-1 Kagamiyama, Higashihiroshima, Hiroshima 739-8562, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Laboratory for Materials and Structures, Tokyo Institute of Technology, 4259-J2-19 Nagatsuta-cho, Midori-ku, Yokohama 226-8503, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Laboratory for Advanced Nuclear Energy, Tokyo Institute of Technology, 2-12-1 N1-16 Ookayama, Meguro-ku, Tokyo 152-8550, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "School of Materials and Chemical Technology, Tokyo Institute of Technology, 2-12-1 Ookayama, Meguro-ku, Tokyo 152-8550, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Department of Electronics and Materials Science, Faculty of Engineering, Shizuoka University, 3-5-1 Johoku, Naka-ku, Hamamatsu 432-8561, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Department of Engineering, Graduate School of Integrated Science and Technology, Shizuoka University, 3-5-1 Johoku, Naka-ku, Hamamatsu 432-8561, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Department of Optoelectronics and Nanostructure Science, Graduate School of Science and Technology, Shizuoka University, 3-5-1 Johoku, Naka-ku, Hamamatsu 432-8561, Japan"
+      },
+      {
+        "id": "aff_8",
+        "label": "h",
+        "text": "Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan"
+      },
+      {
+        "id": "aff_9",
+        "label": "i",
+        "text": "Institute of Solid State Physics, University of Latvia, Kengaraga street 8, Riga, LV-1063, Latvia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. Kato",
+        "orcid": null,
+        "email": "kato-seiya@hiroshima-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "N. Nakajima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Yasui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Yasuhara",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "D. Fu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. Adachi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "H. Nitani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. Takeichi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. Anspoks",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "For the first time, the dielectric response of a BaTiO3 thin film under an AC electric field is investigated using microsecond time-resolved X-ray absorption spectroscopy at the Ti K-edge in order to clarify correlated contributions of each constituent atom on the electronic states. Intensities of the pre-edge eg peak and shoulder structure just below the main edge increase with an increase in the amplitude of the applied electric field, whereas that of the main peak decreases in an opposite manner. Based on the multiple scattering theory, the increase and decrease of the eg and main peaks are simulated for different Ti off-center displacements. Our results indicate that these spectral features reflect the inter- and intra-atomic hybridization of Ti 3d with O 2p and Ti 4p, respectively. In contrast, the shoulder structure is not affected by changes in the Ti offcenter displacement but is susceptible to the effect of the corner site Ba ions. This is the first experimental verification of electronic contribution of Ba to polarization reversal.",
+    "keywords": [
+      "Ferroelectricity",
+      "Electrical properties",
+      "Electronic structure",
+      "External electric field",
+      "X-ray absorption spectroscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-02-01",
+    "venue": "Acta Meterialia",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "18H01153"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "19H02426"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "18K19126"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 Framework Programme",
+        "grant_id": "H2020-WIDESPREAD01-2016-2017-TeamingPhase2 under grant agreement No. 739508, project CAMART2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results & Discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Photon Factory of the High Energy Research Organization (KEK-PF)"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BaTiO3(001) film",
+      "sample_description": "Epitaxial film with a thickness of 650 nm grown on a (LaAlO3)0.3-(SrAl0.5Ta0.5O3)0.7(001) substrate with a SrRuO3(001) buffer layer.",
+      "chemical_composition": "BaTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "standard BaTiO3 powder",
+      "sample_description": null,
+      "chemical_composition": "BaTiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "ATiO3 powders",
+      "sample_description": "Commercial powders where A = Pb, Ba, and Sr.",
+      "chemical_composition": "ATiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "TiO, Ti2O3, and TiO2 powders",
+      "sample_description": "Powders of TiO, Ti2O3, and TiO2 (anatase, rutile, and brookite).",
+      "chemical_composition": "TiO, Ti2O3, TiO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ba1–xCaxTiO3 powders",
+      "sample_description": "Powders with x = 0, 0.1, 0.18, 0.233, and 0.3.",
+      "chemical_composition": "Ba1–xCaxTiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Verification of film growth and preferred (001) orientation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "P-E hysteresis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of polarization-electric field hysteresis loops using a ferroelectric tester.",
+      "measurement_technique": "polarization-electric field hysteresis",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TR-XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Microsecond time-resolved X-ray absorption spectroscopy at the Ti K-edge under an applied AC electric field.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Ti K-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Non-TR Ti K-edge spectra of the BaTiO3 thin film and standard powder.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Ti K-edge XAS of ATiO3",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room-temperature spectra of commercial ATiO3 powders (A = Pb, Ba, and Sr).",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Ti K-edge XAS of Ti oxides",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Ti-K edge spectra of TiO, Ti2O3, and TiO2 powders performed on beamline BM26A.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Ti pre-edge XAS of Ba1–xCaxTiO3",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ti pre-edge X-ray absorption spectra of Ba1–xCaxTiO3 powders for various x values.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

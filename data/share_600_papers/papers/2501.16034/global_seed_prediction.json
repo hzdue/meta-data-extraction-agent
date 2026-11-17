@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Circular dichroism in resonant inelastic x-ray scattering from birefringence in CuO",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Center for Photon Science, Forschungsstrasse 111, Paul Scherrer Institute, 5232 Villigen-PSI, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Indian Institute of Technology Roorkee, Uttarakhand 247667, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of Oxford, Clarendon Laboratory, Parks Road, Oxford OX1 3PU, UK."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Abhishek Nag",
+        "orcid": null,
+        "email": "abhishek.nag@ph.iitr.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Gérard Sylvester Perren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hiroki Ueda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. T. Boothroyd",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "D. Prabhakaran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "M. García-Fernández",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "S. Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Urs Staub",
+        "orcid": null,
+        "email": "urs.staub@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Resonant inelastic x-ray scattering (RIXS) has become a prominent technique to study quasiparticle excitations. With advances in polarization analysis capabilities at different facilities, RIXS offers exceptional potential for investigating symmetry-broken quasiparticles like chiral phonons and magnons. At optical wavelengths birefringence can severely affect polarization states in lowsymmetry systems. Here we show its importance for soft x-ray resonances. Given the growing interest in Circular Dichroism (CD) in RIXS, it is important to evaluate how birefringence may affect the RIXS spectra of anisotropic systems. We investigate CuO, a well-known anisotropic material, using Cu L 3-edge RIXS and detect significant CD in both magnetic and orbital excitations in the collinear antiferromagnetic phase. We demonstrate that the CD can be modeled by a proper treatment of RIXS scattering amplitudes derived from single-ion calculations with birefringence. Recognizing these effects is crucial for unambiguous identification of subtle dichroic effects induced by symmetry-broken quasiparticles. Furthermore, the combined sensitivity of RIXS and birefringence to local symmetry presents an opportunity to study microscopic changes driven by external perturbations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-01-28",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Marie Skłodowska-Curie",
+        "grant_id": "884104 (PSI-FELLOW-III-3i)"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "20021-196964"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. EXPERIMENTAL DETAILS",
+      "II. THEORY DETAILS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuO",
+      "sample_description": "A polished single crystal of CuO grown using floating-zone technique.",
+      "chemical_composition": "CuO",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption collected as fluorescence yield at the Cu L3-edge.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Cu L3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High energy-resolution RIXS spectra collected at Cu L3-edge in the AF1 phase and paramagnetic phase.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

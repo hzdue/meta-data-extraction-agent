@@ -1,0 +1,386 @@
+{
+  "bibliographic": {
+    "title": "Elucidating Norrish Type-I reactive pathways by ultrafast X-ray absorption spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Stanford PULSE Institute, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA 94025, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Ludwig-Maximilians-Universit¨at M¨unchen, Am Coulombwall 1, D-85748 Garching, Germany."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Chemistry, Stanford University, 333 Campus Drive, Stanford, CA 94305, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Linac Coherent Light Source, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA 94025, USA."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Chemistry, Columbia University, New York, New York 10027, United States."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Initiative for Computational Catalysis, Flatiron Institute, New York, New York 10010, United States."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "European XFEL, Holzkoppel 4, 22869 Schenefeld, Germany."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh EH9 3FJ, U.K."
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany."
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Chemistry, University of California, Davis, California 95616, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Martin Graßl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Pablo Unzueta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andreas E. Hillers-Bendtsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yusong Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Diptarka Hait",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alice E. Green",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Xinxin Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Felix Allum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Taran Driver",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Ruaridh Forbes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "James. M. Glownia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Erik Isele",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Kirk A. Larsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Xiang Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Ming-Fu Lin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Razib Obaid",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Adam Summers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Emily Thierstein",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Jun Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "James P. Cryan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Matthias F. Kling",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Todd J. Martinez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Thomas J. A. Wolf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Norrish type I reactions selectively cleave carbon-carbon bonds directly adjacent to carbonyl groups. Despite their broad use in combination with aromatic carbonyls for additive manufacturing and dental UV curing applications, the nature of the photochemically active state and its population mechanism remain insufficiently understood.\n\nDetailed mechanistic insight requires mapping of the photoexcited population flow involving internal conversion and intersystem crossing. We present a time-domain study of gas phase acetophenone as a prototypical aromatic carbonyl combining soft X-ray time-resolved near-edge X-ray absorption fine structure (TR-NEXAFS) spectroscopy at the oxygen K-edge with ab initio multiple spawning (AIMS) simulations. Exploiting the specific sensitivity of TR-NEXAFS spectroscopy to states with _nπ_<sup>_∗_</sup> character, we observe population transfer from the initially excited<sup>1</sup> _ππ_<sup>_∗_</sup> state to the<sup>1</sup> _nπ_<sup>_∗_</sup> state with a time constant of (0 _._ 13 _±_ 0 _._ 02) ps after an initial induction period of (0 _._ 12 _±_ 0 _._ 02) ps without population transfer, in quantitative agreement with the AIMS simulations. The population in the<sup>1</sup> _nπ_<sup>_∗_</sup> state subsequently decays via intersystem crossing, likely mediated by a 3 _ππ∗_ state, within (3 _._ 17 _±_ 0 _._ 66) ps to a long-lived 3 _nπ∗_ state, which is presumed to be active towards Norrish type I chemistry.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-03-20",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division",
+        "grant_id": "DE-AC02-76SF00515"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "MPS-Ascend Postdoctoral Research Fellowship, under Grant No. 2213324"
+      },
+      {
+        "funder": "Novo Nordisk Foundation",
+        "grant_id": "NNF24OC0089345"
+      },
+      {
+        "funder": "European Union",
+        "grant_id": "Horizon Europe Project No. 123-CO: 101067645"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0026078"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental",
+      "3 Results and discussion",
+      "4 Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Linac Coherent Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "acetophenone",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "gas",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma Aldrich"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "TR-NEXAFS spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved near-edge X-ray absorption fine structure spectroscopy at the oxygen K-edge of gas phase acetophenone.",
+      "measurement_technique": "near-edge X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

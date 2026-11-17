@@ -1,0 +1,305 @@
+{
+  "bibliographic": {
+    "title": "Low-Temperature Nanoscale Heat Transport in a Gadolinium Iron Garnet Heterostructure Probed by Ultrafast X-ray Diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "University of Wisconsin-Madison, Madison, WI 53706, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Université Grenoble Alpes, CNRS, Institut Néel, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Spallation Source, SE-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Aarhus University, Langelandsgade 140, DK-8000 Aarhus, Denmark"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "MAX IV Laboratory, Lund University, P.O. Box 118, SE-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Walther-Meißner-Institut, Bayerische Akademie der Wissenschaften, 85748 Garching, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Physik-Department, Technische Universität München, 85748 Garching, Germany."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Munich Center for Quantum Science and Technology (MCQST), Schellingstraße 7, 80799 München, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics, University of Gothenburg, SE-41296, Gothenburg, Sweden"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Physics, Lund University, P.O. Box 118, SE-221 00 Lund, Sweden"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Deepankar Sri Gyan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Danny Mannix",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Dina Carbone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "James L. Sumpter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Stephan Geprägs",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Maxim Dietlein",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Rudolf Gross",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Andrius Jurgilaitis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Van-Thai Pham",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Hélène CoudertAlteirac",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jörgen Larsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Daniel Haskel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jörg Strempfer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Paul G. Evans",
+        "orcid": null,
+        "email": "pgevans@wisc.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Time-resolved x-ray diffraction has been used to measure the low-temperature thermal transport properties of a Pt/Gd3Fe5O12//Gd3Ga5O12 metal/oxide heterostructure relevant to applications in spin caloritronics. A pulsed femtosecond optical signal produces a rapid temperature rise in the Pt layer, followed by heat transport into the Gd3Fe5O12 (GdIG) thin film and the Gd3Ga5O12 (GGG) substrate. The time dependence of x-ray diffraction from the GdIG layer was tracked using an accelerator-based femtosecond x-ray source. The ultrafast diffraction measurements probed the intensity of the GdIG (1 -1 2) x-ray reflection in a grazing-incidence x- ray geometry. The comparison of the variation of the diffracted x-ray intensity with a model including heat transport and the temperature dependence of the GdIG lattice parameter allows the thermal conductance of the Pt/GdIG and GdIG//GGG interfaces to be determined. Complementary synchrotron x-ray diffraction studies of the low-temperature thermal expansion properties of the GdIG layer provide a precise calibration of the temperature dependence of the GdIG lattice parameter. The interfacial thermal conductance of the Pt/GdIG and GdIG//GGG interfaces determined from the time-resolved diffraction study are of the same order of magnitude as previous reports for metal/oxide and epitaxial dielectric interfaces. The thermal parameters of the Pt/GdIG//GGG heterostructure will aid in the design and implementation of thermal transport devices and nanostructures.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. DOE, Basic Energy Sciences, Materials Sciences and Engineering",
+        "grant_id": "DE-FG02-04ER46147"
+      },
+      {
+        "funder": "Knut and Alice Wallenberg Foundation",
+        "grant_id": "2010.0098"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2015-06115"
+      },
+      {
+        "funder": "U.S. Department of Energy Office of Science",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENT",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FemtoMAX"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Pt/Gd3Fe5O12//Gd3Ga5O12",
+      "sample_description": "A heterostructure consisting of a 13 nm Pt layer on a 75-nm-thick (111)-oriented GdIG film on a (111) GGG substrate.",
+      "chemical_composition": "Pt/Gd3Fe5O12//Gd3Ga5O12",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Time-resolved x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the intensity of the GdIG (1 -1 2) x-ray reflection as a function of pump-probe delay time.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Temperature dependence of the lattice parameter",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Steady-state x-ray diffraction patterns of the GdIG (4 4 4) and GGG (4 4 4) reflections recorded during heating from 10 K to 150 K.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

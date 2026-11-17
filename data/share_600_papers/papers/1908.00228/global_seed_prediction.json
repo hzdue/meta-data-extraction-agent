@@ -1,0 +1,279 @@
+{
+  "bibliographic": {
+    "title": "Grazing incidence x-ray diffraction studies of lipid-peptide mixed monolayers during shear flow",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Science, Bangalore 560012, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Present address: Soft Condensed Matter, Debye Institute for Nanomaterials Science, Utrecht University, Princetonplein 1, 3584 CC Utrecht, The Netherlands"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Present address: School of Liberal Studies, Azim Premji University, Bangalore, 560100, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "SOLEIL Synchrotron, L’Orme des Merisiers, Saint-Aubin - BP48, 91192 GIF-sur-YVETTE CEDEX, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Laboratoire de Physique des Solides, Unit´e Mixte de Recherche 8502 Centre National de la Recherche Scientifique, Universit´e Paris-Sud 11, 91405 Orsay Cedex, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Saha Institute of Nuclear Physics, 1/AF, Bidhannagar, Kolkata-700064, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Pradip Kumar Bera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ajoy Kumar Kandar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Rema Krishnaswamy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Philippe Fontaine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Marianne Imp´eror-Clerc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Brigitte Pansu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Doru Constantin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Santanu Maiti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Milan K. Sanyal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "A.K. Sood",
+        "orcid": null,
+        "email": "asood@iisc.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Grazing Incidence X-ray Diffraction (GIXD) studies of monolayers of biomolecules at the air-water interface give quantitative information of in-plane packing, coherence lengths of the ordered diffracting crystalline domains and the orientation of hydrocarbon chains. Rheo-GIXD measurements revel quantitative changes in the monolayer under shear. Here we report GIXD studies of monolayers of Alamethicin peptide, DPPC lipid and their mixtures at the air-water interface under the application of steady shear stresses. The Alamethicin monolayer and the mixed monolayer show flow jamming transition. On the other hand, pure DPPC monolayer under the constant stress flows steadily with a notable enhancement of area/molecule, coherence length, and the tilt angle with increasing stress, suggesting fusion of nanocrystallites during flow. The DPPC-Alamethicin mixed monolayer shows no significant change in the area/DPPC molecule or in the DPPC chain tilt but the coherence length of both phases (DPPC and Alamethicin) increases suggesting that the crystallites of individual phases are merging to bigger size promoting more separation of phases in the system during flow. Our results show that Rheo-GIXD has the potential to explore in-situ molecular structural changes under rheological conditions for a diverse range of confined biomolecules at the interfaces.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology",
+        "grant_id": "CEFIPRA-SOLEIL-Synchrotron Programme (20140232, AP14/15)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Details",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Alamethicin",
+      "sample_description": "Alamethicin peptide monolayer prepared at 12 A2/molecule surface concentration.",
+      "chemical_composition": "Alamethicin",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "M/s Avanti Polar Lipids, Inc."
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DPPC",
+      "sample_description": "Pure DPPC lipid monolayer.",
+      "chemical_composition": "1, 2-dipalmitoyl-sn-glycero-3-phosphocholine",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "M/s Avanti Polar Lipids, Inc."
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DPPC-Alamethicin mixed monolayer",
+      "sample_description": "Mixed monolayer with molar ratio [Alamethicin]/[DPPC] = 1:2.",
+      "chemical_composition": "DPPC-Alamethicin",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "behenic acid",
+      "sample_description": "Used as a test sample to calibrate the GIXD setup.",
+      "chemical_composition": "behenic acid",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "cholesterol",
+      "sample_description": "Used as a test monolayer to check sensitivity to small imposed torque.",
+      "chemical_composition": "cholesterol",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "cholesterol + DPPC",
+      "sample_description": "Mixed monolayer with mole ratio 4:1.",
+      "chemical_composition": "cholesterol + DPPC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Rheo-GIXD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-situ Grazing Incidence X-ray Diffraction measurements of monolayers under steady shear stresses.",
+      "measurement_technique": "Grazing Incidence X-ray Diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "GIXD calibration",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Calibration of GIXD setup using behenic acid monolayer.",
+      "measurement_technique": "Grazing Incidence X-ray Diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Sensitivity check",
+      "sample_refs": [
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Checking sensitivity of monolayers to small imposed torque using cholesterol and cholesterol mixed monolayers.",
+      "measurement_technique": "interfacial rheology",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

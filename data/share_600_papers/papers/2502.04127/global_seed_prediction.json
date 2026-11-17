@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "An inelastic neutron scattering study of the magnetic field dependence of the quantum dipolar garnet: Yb3Ga5O12 .",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut N´eel, CNRS & Universit´e Grenoble Alpes, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "PSI Center for Neutron and Muon Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of Warwick, Coventry CV4 7AL, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Nanoscience Center, Niels Bohr Institute, University of Copenhagen, Universitetsparken 5, DK-2100 Copenhagen Ø, Denmark"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institut Laue Langevin, CS 20156, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Universit´e Grenoble Alpes, CEA, IRIG, MEM, MDN, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "European Spallation Source ERIC, 22363 Lund, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Edward Riordan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Monica Ciomaga Hatnean",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Geetha Balakrishnan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Kim Lefmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jacques Ollivier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Stephane Raymond",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Elsa Lhotel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Pascale P. Deen",
+        "orcid": null,
+        "email": "pascale.deen@ess.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "The garnet compound Yb3Ga5O12 is a fascinating material that is considered highly suitable for low-temperature refrigeration, via the magnetocaloric effect, in addition to enabling the exploration of quantum states with long-range dipolar interactions. It has previously been theorized that the magnetocaloric effect can be enhanced, in Yb3Ga5O12 , via magnetic soft mode excitations which in the hyperkagome structure would be derived from an emergent magnetic structure formed from nanosized 10-spin loops.\n\nWe study the magnetic field dependence of bands of magnetic soft mode excitations in the effective spin S = 1/2 hyperkagome compound Yb3Ga5O12 using single crystal inelastic neutron scattering. We probe the magnetically short ranged ordered state, in which we determine magnetic nanoscale structures coexisting with a fluctuating state, and the magnetically saturated state, from which we determine the relevant magnetic interactions. We determine that Yb3Ga5O12 can be described as a quantum dipolar magnet with perturbative weak near- neighbor and interhyperkagome exchange interaction. The magnetic excitations, under the application of a magnetic field, reveal highly robust soft modes with distinctive signatures of the quantum nature of the Yb3+ spins. Our results enhance our understanding of soft modes in topological frustrated magnets that drive both the unusual physics of quantum dipolar systems and future refrigerant material design.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-02-07",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Agence Nationale de la Recherche",
+        "grant_id": "ANR-18-CE05-0023"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/T005963/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. PREVIOUS EXPERIMENTAL MAGNETIC SIGNATURES OF YBGG.",
+      "III. EXPERIMENTAL DETAILS",
+      "IV. RESULTS",
+      "V. DISCUSSION AND CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YbGG",
+      "sample_description": "High quality single crystal of Yb3Ga5O12.",
+      "chemical_composition": "Yb3Ga5O12",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of magnetic field dependence of S(Q, ω) at TSRO using the IN5 cold chopper spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

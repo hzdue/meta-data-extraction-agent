@@ -1,0 +1,165 @@
+{
+  "bibliographic": {
+    "title": "Domain Wall Orientations in Ferroelectric Superlattices Probed with Synchrotron X-Ray Diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "London Centre for Nanotechnology and Department of Physics and Astronomy, University College London, 17-19 Gordon Street, WC1H 0AH, London, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ESRF - The European Synchrotron, 71 Avenue des Martyrs, 38000, Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Quantum Matter Physics, University of Geneva, CH-1211 Geneva, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Marios Hadjimichael",
+        "orcid": null,
+        "email": "marios.hadjimichael.14@ucl.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Edoardo Zatterin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stéphanie Fernandez-Peña",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Steven J. Leake",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pavlo Zubko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Ferroelectric domains in PbTiO3/SrTiO3 superlattices were studied using synchrotron X-ray diffraction. Macroscopic measurements revealed a change in the domain wall orientation from { 100 } to { 110 } crystallographic planes with increasing temperature. The temperature range of this reorientation depends on the ferroelectric layer thickness and domain period. Using a nanofocused beam, local changes in domain wall orientation within the buried ferroelectric layers were imaged, both in structurally uniform regions of the sample and near defect sites and argon ion etched patterns. Domain walls were found to exhibit preferential alignment with the straight edges of the etched patterns as well as with structural features associated with defect sites. The distribution of out-ofplane lattice parameters was mapped around one such feature, showing that it is accompanied by inhomogeneous strain and large strain gradients.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-11-22",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/M007073/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "1447654"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "(PTO5 | STO4)28",
+      "sample_description": "Superlattice deposited on a TiO2-terminated SrTiO3 substrate.",
+      "chemical_composition": "PbTiO3/SrTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "(PTO8 | STO4)19",
+      "sample_description": "Superlattice deposited on Nb-doped SrTiO3.",
+      "chemical_composition": "PbTiO3/SrTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent measurements using an incoherent X-ray beam to probe average domain behavior.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "nanofocused beam X-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Local changes in domain wall orientation and lattice parameters imaged using a nanofocused beam.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

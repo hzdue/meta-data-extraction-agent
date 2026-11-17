@@ -1,0 +1,331 @@
+{
+  "bibliographic": {
+    "title": "Exchange-biased quantum anomalous Hall effect",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Electrical and Computer Engineering, University of California Los Angeles, Los Angeles, CA 90095, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899-6102, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Fibertek Inc., Herndon, VA 20171, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "US Army Research Laboratory, Adelphi, MD 20783, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "US Army Research Laboratory, Playa Vista, CA 90094, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Electronic Engineering, Tohoku University, Sendai 980-8579, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Material Measurement Laboratory, National Institute of Standards and Technology (NIST), Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics and Astronomy, University of California Los Angeles, Los Angeles, CA 90095, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Materials Science and Engineering, University of California, Los Angeles, CA 90095, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Peng Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Purnima P. Balakrishnan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christopher Eckberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Peng Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tomohiro Nozaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sukong Chong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Patrick Quarterman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Megan E. Holtz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Brian B. Maranville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Lei Pan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Eve Emmanouilidou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Ni Ni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Masashi Sahashi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Alexander Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Kang L. Wang",
+        "orcid": null,
+        "email": "wang@ee.ucla.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_8",
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "The quantum anomalous Hall (QAH) effect is characterized by a dissipationless chiral edge state with a quantized Hall resistance at zero magnetic field. Manipulating the QAH state is of great importance in both the understanding of topological quantum physics and the implementation of dissipationless electronics. Here, we realized the QAH effect in the magnetic topological insulator Cr-doped (Bi,Sb)2Te3 (CBST) grown on an uncompensated antiferromagnetic insulator Al-doped Cr2O3. Through polarized neutron reflectometry (PNR), we find a strong exchange coupling between CBST and Al-Cr2O3 surface spins fixing interfacial magnetic moments perpendicular to the film plane. The interfacial coupling results in an exchange-biased QAH effect. We further demonstrate that the magnitude and sign of the exchange bias can be effectively controlled using a field training process to set the magnetization of the Al-Cr2O3 layer. Our work demonstrates the use of the exchange bias effect to effectively manipulate the QAH state, opening new possibilities in QAH-based spintronics.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF",
+        "grant_id": "1936383"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "2040737"
+      },
+      {
+        "funder": "U.S. Army Research Office MURI program",
+        "grant_id": "W911NF-20-2-0166"
+      },
+      {
+        "funder": "U.S. Army Research Office MURI program",
+        "grant_id": "W911NF-16-1-0472"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0021117"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al-doped Cr2O3",
+      "sample_description": "50 nm thick 3.7% Al-doped Cr2O3 deposited on α-Al2O3 (0001) substrates.",
+      "chemical_composition": "Al-doped Cr2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Al-Cr2O3/CBST bilayer (6 QL)",
+      "sample_description": "Cr doped (Bi,Sb)2Te3 (CBST) layers grown with a thickness of 6 quintuple layer (QL) on 50 nm thick Al-doped Cr2O3.",
+      "chemical_composition": "Cr-doped (Bi,Sb)2Te3/Al-doped Cr2O3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Al-Cr2O3/CBST bilayer (20 QL)",
+      "sample_description": "Cr doped (Bi,Sb)2Te3 (CBST) layers grown with a thickness of 20 quintuple layer (QL) on 50 nm thick Al-doped Cr2O3.",
+      "chemical_composition": "Cr-doped (Bi,Sb)2Te3/Al-doped Cr2O3",
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Out-of-plane magnetization profile of the Al-doped Cr2O3 measured at multiple temperatures.",
+      "measurement_technique": "superconducting quantum interference device (SQUID) magnetometer",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Depth-dependent magnetization of 20 QL CBST grown on 50 nm Al-doped Cr2O3 using specular reflectometry with in-plane applied fields.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Transport measurements",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of longitudinal resistance and Hall resistance to observe the exchange-biased QAH effect.",
+      "measurement_technique": "four-probe magnetoresistance and Hall measurements",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

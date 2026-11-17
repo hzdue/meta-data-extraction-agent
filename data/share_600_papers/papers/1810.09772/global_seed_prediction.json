@@ -1,0 +1,257 @@
+{
+  "bibliographic": {
+    "title": "Electronic structure by X-ray absorption spectroscopy and observation of field induced unusually slow spin relaxation from magnetic properties in pyrochlore Eu2-xFexTi2O7",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Technology (Banaras Hindu University), Varanasi-221005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Hiroshima Synchrotron Radiation Center, Hiroshima University, Kagamiyama 2-313, Higashi-Hiroshima 739-0046, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Banaras Hindu University, Varanasi-221005, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "UGC-DAE Consortium for Scientific Research, University Campus, KhandwaRoad, Indore-452001, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Arkadeb Pal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Surajit Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Shiv Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Eike F. Schwier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Masahiro Sawada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kenya Shimada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mukul Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "D. M. Phase",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. K. Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Sandip Chatterjee",
+        "orcid": null,
+        "email": "schatterji.app@iitbhu.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "X-ray absorption spectroscopy (XAS) as well as x-ray magnetic circular dichroism (XMCD) and magnetization of hybrid pyrochlore Eu2-xFexTi2O7 were investigated, where the rare earth Eu (4 f ) was replaced with transition metal Fe (3 d ) to introduce competing 4 f -3 d interactions. It is confirmed that the valence states of Eu and Fe ions are formally trivalent while that of Ti ions are tetravalent (3 d0 ). The analysis yielded that the tetravalent Ti ions occupy octahedral sites with distorted Oh symmetry which is triggered by the presence of vacant 8 a anionic site adjacent to TiO6 octahedra. Further study with Fe doping revealed that it essentially reduces the octahedral distortion by introducing anionic disorder (migration of 48 f oxygen ions to 8 a site). Analysis of O K edge XAS spectra further confirmed the Fe substitution causing the systematic change in the ligand (O2-) coordination of the Ti4+ cations. On the other hand, a new field induced transition (with Fe doping) at low temperature T* (4 K<T* < 8 K) in ac susceptibility with unusually slow spin relaxation was observed. The transition shifted towards higher temperatures both with increasing applied field and Fe concentration. However, the single ion spin freezing (T f ~35 K) appears to be suppressed with Fe substitution. Interestingly, small amount of Fe3+ ion substitution showed significant enhancement in the dc magnetization at lower temperatures (<100 K). Analysis further indicated rise of dipolar FM exchange interaction with Fe doping.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Experimental Detail:",
+      "III. Results and Discussion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Hiroshima Synchrotron Radiation Center"
+    },
+    {
+      "id": "facility_2",
+      "name": "Raja Ramanna Centre for Advanced Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Eu2-xFexTi2O7 x=0.0",
+      "sample_description": null,
+      "chemical_composition": "Eu2Ti2O7",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Eu2-xFexTi2O7 x=0.1",
+      "sample_description": null,
+      "chemical_composition": "Eu2-xFexTi2O7 x=0.1",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Eu2-xFexTi2O7 x=0.2",
+      "sample_description": null,
+      "chemical_composition": "Eu2-xFexTi2O7 x=0.2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD measurements to confirm single phase and perform Rietveld refinement.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dc and ac magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC and AC magnetization studies using SQUID magnetometer.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XAS and XMCD at Fe L2-3 and Eu M4-5 edges",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS and XMCD measurements at Fe L2-3 and Eu M4-5 edges in TEY mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XAS at Ti L2-3 and O K edges",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "XAS measurements at Ti L2-3 and O K edges.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

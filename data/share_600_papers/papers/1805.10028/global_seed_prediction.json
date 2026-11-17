@@ -1,0 +1,218 @@
+{
+  "bibliographic": {
+    "title": "Mechanism of silica-lysozyme composite formation unravelled by in situ fast SAXS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "German Research Centre for Geosciences, GFZ, Interface Geochemistry, Potsdam, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Earth and Environment, University of Leeds, Leeds, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Rock-Water Interaction Group, Institute of Geological Sciences, University of Bern, Bern, Switzerland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Nano-Science Centre, Department of Chemistry, University of Copenhagen, Copenhagen, Denmark"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Geochemistry Group, Department of Earth Sciences, Free University of Berlin, Berlin, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tomasz M. Stawski",
+        "orcid": null,
+        "email": "stawski@gfz-potsdam.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Daniela van den Heuvel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Rogier Besselink",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Dominique J. Tobler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Liane G. Benning",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "A quantitative understanding of aggregation mechanisms leading to the formation of inorganic nanoparticles (NPs) and protein composites in aqueous media is of paramount interest for colloid chemistry. In particular, the interactions between silica (SiO 2) NPs and lysozyme (LZM) have attracted attention, because LZM is well-known to adsorb strongly to silica NPs, while at the same time preserving its enzymatic activity. The inherent nature of the aggregation processes leading to NP-LZM composites involves structural changes at length-scales from few to hundreds of nanometres but also time scales << 1 second. To unravel these we used in situ synchrotronbased small-angle X-ray scattering (SAXS) and followed the subtle interparticle interactions in solution at a time resolution of 50 ms/frame (20 fps). We show that if the size of silica NPs (~5 nm diameter) is matched by the dimensions of LZM, the evolving scattering patterns contain a unique structure factor contribution originating from the presence of LZM. We developed a scattering model and applied it to analyse this structure function, which allowed us to extract structural information on the deformation of lysozyme molecules during aggregation, as well as to derive the mechanisms of composite formation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "https://github.com/tomaszstawski/SilicaLysozymeSAXS",
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Commission",
+        "grant_id": "703015"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "290040"
+      },
+      {
+        "funder": "Helmholtz Recruiting Initiative",
+        "grant_id": "I-044-16-01"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and Discussion",
+      "Implications",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "amorphous silica NPs",
+      "sample_description": "Starting silica NP solution neutralized to pH 7.5.",
+      "chemical_composition": "SiO2",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "lysozyme stock solution",
+      "sample_description": "5 wt.% lysozyme solution at pH 3.5.",
+      "chemical_composition": "C613H959N193O185S10",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "silica-lysozyme composites",
+      "sample_description": "Composites obtained by mixing silica NP solution with lysozyme stock solution.",
+      "chemical_composition": "SiO2-LZM",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "dried silica-lysozyme composites",
+      "sample_description": "Silica-lysozyme suspensions dried in an oven at 40 °C for ~ 48 hours and washed.",
+      "chemical_composition": "SiO2-LZM",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved small-angle X-ray scattering following the lysozyme induced aggregation of silica NPs at 50 ms resolution.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "background and reference SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS measurements of empty capillary, water, silica stock solution, and LZM solutions at different concentrations.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "mass spectrometry",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of total carbon content in dried solids to quantify lysozyme content.",
+      "measurement_technique": "mass spectrometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

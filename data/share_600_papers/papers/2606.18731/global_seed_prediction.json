@@ -1,0 +1,373 @@
+{
+  "bibliographic": {
+    "title": "d-wave altermagnetism revealed by resonant inelastic X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Shanghai Normal University, Shanghai 200234, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, The Chinese University of Hong Kong, Shatin, Hong Kong, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "State Key Laboratory of Quantum Information Technologies and Materials, The Chinese University of Hong Kong, Shatin, Hong Kong, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "PSI Center for Neutron and Muon Sciences, Paul Scherrer Institute, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Diamond Light Source, Harwell Campus, Didcot, Oxfordshire, UK"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "School of Physical Sciences, University of Chinese Academy of Sciences, Beijing 100049, China"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "National Laboratory of Solid State Microstructures and Department of Physics, Nanjing University, Nanjing, China"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Collaborative Innovation Center of Advanced Microstructures, Nanjing, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Guangkai Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yuehong Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Xubin Ye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vincent C. Morano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sze Tung Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jaewon Choi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Rebecca Scatena",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Shuai Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Maocai Pi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Mengqi Ye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Mirian Garcia-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Alessandro Bombardi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Xiaomei Qin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Zhao Pan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Daniel G. Mazzone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Qisi Wang",
+        "orcid": null,
+        "email": "qwang@cuhk.edu.hk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Yi Lu",
+        "orcid": null,
+        "email": "yilu@nju.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Yao Shen",
+        "orcid": null,
+        "email": "yshen@iphy.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Youwen Long",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Altermagnetism defines a third fundamental class of collinear magnetic order, featuring compensated magnetic moments with antiparallel spin alignment, yet lifted Kramers degeneracy without the need for relativistic spin-orbit coupling [1–4]. Its ability to host spin-polarized electronic bands and unconventional chiral magnons makes it a promising platform for functional materials [5–7]. However, experimental verification has proven challenging; while circular dichroism in resonant inelastic X-ray scattering (RIXS) has been suggested as a signature of chiral magnons [8–11], it remains controversial whether this effect is an intrinsic property of altermagnetism or an artifact of experimental geometry [10, 12]. In this work, we resolve this debate and provide unambiguous experimental evidence of d-wave altermagnetism in the strongly correlated Lieb-lattice magnet La2O3Mn2Se2. The RIXS spectra exhibit a d-wave-symmetry circular dichroism in the magnetic excitations that vanishes in the paramagnetic phase. Through RIXS-operator symmetry analysis and exact-diagonalization calculations, we prove that the observed dichroism is a direct consequence of altermagnetic symmetry constraints, independent of magnon branch splitting. Our results provide definitive evidence for the experimental realization of d-wave altermagnetism in La2O3Mn2Se2 and establish circularly polarized RIXS as a highly symmetry-sensitive spectroscopic framework for detecting magnetic phases that evade conventional probes.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-06-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Key R&D Program of China",
+        "grant_id": "2024YFA1408301"
+      },
+      {
+        "funder": "National Key R&D Program of China",
+        "grant_id": "2022YFA1403000"
+      },
+      {
+        "funder": "National Key R&D Program of China",
+        "grant_id": "2021YFA1400300"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12574139"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12274207"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12425403"
+      },
+      {
+        "funder": "Research Grants Council of Hong Kong",
+        "grant_id": "CUHK 24306223"
+      },
+      {
+        "funder": "Guangdong Provincial Quantum Science Strategic Initiative",
+        "grant_id": "GDZX2401012"
+      },
+      {
+        "funder": "1+1+1 CUHK-CUHK(SZ)-GDSTC Joint Collaboration Fund",
+        "grant_id": "2025A0505000079"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "19950"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Lattice symmetry",
+      "Circular dichroism in RIXS",
+      "Microscopic origin of the dichroism",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2O3Mn2Se2",
+      "sample_description": "Strongly correlated semiconductor crystallizing in a quasi-two-dimensional Lieb lattice.",
+      "chemical_composition": "La2O3Mn2Se2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "REXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant elastic x-ray scattering at the Mn K edge to observe anisotropic tensor susceptibility enhancement.",
+      "measurement_technique": "resonant elastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering at the Mn L3 edge using circular-left and circular-right polarizations to probe magnetic excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

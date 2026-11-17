@@ -1,0 +1,274 @@
+{
+  "bibliographic": {
+    "title": "Correlative analysis of structure and chemistry of LixFePO4 platelets using 4DSTEM and X-ray ptychography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Center for Electron Microscopy, Molecular Foundry, Lawrence Berkeley National Laboratory, Berkeley, CA 94708, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Depart. of Mat. Sci. & Eng., Stanford University, Stanford, CA 94305, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Toyota Research Institute, Los Altos, CA 94022, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Depart. of Mat. Sci. & Eng., University of California, Berkeley, CA 94720, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L.A. Hughes",
+        "orcid": null,
+        "email": "laurenhughes@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Benjamin H. Savitzky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Haitao D. Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Norman L. Jin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Eder G. Lomeli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Young-Sang Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "David A. Shapiro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Patrick Herring",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Abraham Anapolsky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "William C. Chueh",
+        "orcid": null,
+        "email": "wchueh@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Colin Ophus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Andrew M. Minor",
+        "orcid": null,
+        "email": "aminor@lbl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Lithium iron phosphate (LixFePO4), a cathode material used in rechargeable Li-ion batteries, phase separates upon de/lithiation under equilibrium. The interfacial structure and chemistry within these cathode materials affects Li-ion transport, and therefore battery performance. Correlative imaging of LixFePO4 was performed using four-dimensional scanning transmission electron microscopy (4D-STEM), scanning transmission X-ray microscopy (STXM), and X-ray ptychography in order to analyze the local structure and chemistry of the same particle set. Over 50,000 diffraction patterns from 10 particles provided measurements of both structure and chemistry at a nanoscale spatial resolution (16.6-49.5 nm) over wide (several micron) fields-of-view with statistical robustness.  LixFePO4 particles at varying stages of delithiation were measured to examine the evolution of structure and chemistry as a function of delithiation.  In lithiated and delithiated particles, local variations were observed in the degree of lithiation even while local lattice structures remained comparatively constant, and calculation of linear coefficients of chemical expansion suggest pinning of the lattice structures in these populations. Partially delithiated particles displayed broadly core-shell-like structures, however, with highly variable behavior both locally and per individual particle that exhibited distinctive intermediate regions at the interface between phases, and pockets within the lithiated core that correspond to FePO4 in structure and chemistry.  The results provide insight into the LixFePO4 system, subtleties in the scope and applicability of Vegard’s law  (linear lattice parameter-composition behavior) under local versus global measurements, and demonstrate a powerful new combination of experimental and analytical modalities for bridging the crucial gap between local and statistical characterization.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "https://data.matr.io/6/",
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Toyota Research Institute",
+        "grant_id": null
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Pixel-by-pixel correlation of LixFePO4 particles using 4D-STEM and X-ray microscopy",
+      "Structure-composition relationship for all LixPO4 particles",
+      "Detailed analysis of a single LxFP particle",
+      "Error analysis and statistics in LxFP Particle 10",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LFP",
+      "sample_description": "Fully lithiated particles.",
+      "chemical_composition": "LiFePO4",
+      "sample_state": "platelets",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FP",
+      "sample_description": "Fully delithiated particles.",
+      "chemical_composition": "FePO4",
+      "sample_state": "platelets",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LxFP",
+      "sample_description": "Partially delithiated particles.",
+      "chemical_composition": "LixFePO4",
+      "sample_state": "platelets",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "4D-STEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Acquisition of convergent beam electron diffraction patterns to extract lattice parameters and strain.",
+      "measurement_technique": "four-dimensional scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "STXM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements at the Fe L3 edge to determine local state of charge and composition.",
+      "measurement_technique": "scanning transmission X-ray microscopy",
+      "measurement_mode": [
+        "EnergyScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray ptychography",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High resolution imaging of partially delithiated particles.",
+      "measurement_technique": "X-ray ptychography",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

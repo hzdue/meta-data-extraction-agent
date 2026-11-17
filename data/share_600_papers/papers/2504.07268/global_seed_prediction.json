@@ -1,0 +1,367 @@
+{
+  "bibliographic": {
+    "title": "Magnetic excitations in Ndn + 1Nin O3n + 1Ruddlesden-Popper nickelates observed via resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Harvard University, Cambridge, MA, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Applied and Engineering Physics, Cornell University, Ithaca, NY, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Kavli Institute at Cornell for Nanoscale Science, Cornell University, Ithaca, NY, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Platform for the Accelerated Realization, Analysis and Discovery of Interface Materials (PARADIM), Cornell University, Ithaca, NY, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, UK"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sophia F. R. TenHuisen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Grace A. Pan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Qi Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Denitsa R. Baykusheva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Dan Ferenc Segedin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Berit H. Goodge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hanjong Paik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Yanhong Gu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Stefano Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Abhishek Nag",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Mirian Garc´ıa-Fern´andez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Lena F. Kourkoutis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Charles M. Brooks",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Julia A. Mundy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Mark P. M. Dean",
+        "orcid": null,
+        "email": "mdean@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Matteo Mitrano",
+        "orcid": null,
+        "email": "mmitrano@g.harvard.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Magnetic interactions are thought to play a key role in the properties of many unconventional superconductors, including cuprates, iron pnictides, and square-planar nickelates. Superconductivity was also recently observed in the bilayer and trilayer Ruddlesden-Popper nickelates, whose electronic structure is expected to differ from that of cuprates and square-planar nickelates. Here we study how electronic structure and magnetic interactions evolve with the number of layers, n , in thin film Ruddlesden-Popper nickelates Nd n + 1Ni n O3 n + 1 with n = 1 , 3, and 5 using resonant inelastic x-ray scattering (RIXS). The RIXS spectra are consistent with a high-spin | 3 d8L⟩ electronic configuration, resembling that of La2 −x Sr x NiO4 and the parent perovskite, NdNiO3. The magnetic excitations soften to lower energy in the structurally self-doped, higher- n films. Our observations confirm that structural tuning is an effective route for altering electronic properties, such as magnetic superexchange, in this prominent family of materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-04-11",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Division of Materials Science",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Basic Energy Sciences, Division of Materials Sciences and Engineering",
+        "grant_id": "DE-SC0021925"
+      },
+      {
+        "funder": "NSF Graduate Research Fellowship",
+        "grant_id": "DGE-1745303"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Office of Workforce Development for Teachers and Scientists, Office of Science Graduate Student Research (SCGSR) program",
+        "grant_id": "DE-SC0014664"
+      },
+      {
+        "funder": "Science and Technology Center for Integrated Quantum Materials, NSF",
+        "grant_id": "DMR-1231319"
+      },
+      {
+        "funder": "PARADIM, NSF",
+        "grant_id": "DMR-2039380"
+      },
+      {
+        "funder": "NSF-MRI",
+        "grant_id": "NSF-MRI-1429155"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-1539918"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. ORBITAL EXCITATIONS AND HOLE CONFIGURATION",
+      "IV. MAGNETIC EXCITATIONS MODIFIED BY STRUCTURE AND DOPING",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    },
+    {
+      "id": "facility_2",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Nd2NiO4",
+      "sample_description": "n = 1 compound synthesized on (110)-oriented NdGaO3",
+      "chemical_composition": "Nd2NiO4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Nd4Ni3O10",
+      "sample_description": "n = 3 compound synthesized on (110)-oriented NdGaO3",
+      "chemical_composition": "Nd4Ni3O10",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Nd6Ni5O16",
+      "sample_description": "n = 5 compound synthesized on (110)-oriented NdGaO3",
+      "chemical_composition": "Nd6Ni5O16",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Nd6Ni5O16 on LaAlO3",
+      "sample_description": "n = 5 compound synthesized on (001)-oriented LaAlO3",
+      "chemical_composition": "Nd6Ni5O16",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "RIXS measurements at the Ni L3-edge to study orbital and magnetic excitations in Ruddlesden-Popper nickelates.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

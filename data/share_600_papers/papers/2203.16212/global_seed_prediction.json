@@ -1,0 +1,241 @@
+{
+  "bibliographic": {
+    "title": "Temperature-dependent structure of an intermetallic ErPd2Si2 single crystal: A combined synchrotron and in-house X-ray diffraction study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Joint Key Laboratory of the Ministry of Education, Institute of Applied Physics and Materials Engineering, University of Macau, Avenida da Universidade, Taipa, Macao SAR 999078, China."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "State Key Laboratory of High Performance Ceramics and Superfine Microstructure, Shanghai Institute of Ceramics, Chinese Academy of Sciences, Shanghai 200050, China."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Guangdong–Hong Kong–Macao Joint Laboratory for Neutron Scattering Science and Technology, No. 1. Zhongziyuan Road, Dalang, DongGuan 523803, China."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Research and Development Institute of Northwestern Polytechnical University in Shenzhen, Shenzhen 518057, China."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "School of Physical Science and Technology, Northwestern Polytechnical University, Xian 710072, China."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kaitong Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yinghao Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Si Wu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Junchao Xia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pengfei Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Qian Zhao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chongde Cao",
+        "orcid": null,
+        "email": "caocd@nwpu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Hai-Feng Li",
+        "orcid": null,
+        "email": "haifengli@um.edu.mo",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We have grown intermetallic ErPd2Si2 single crystals employing laser-diodes with the floating-zone method. The temperature-dependent crystallography was determined using synchrotron and in-house X-ray powder diffraction measurements from 20 to 500 K. The diffraction patterns fit well with the tetragonal I 4 /mmm space group (No. 139) with two chemical formulas within one unit cell. Our synchrotron X-ray powder diffraction study shows that the refined lattice constants are a = 4.10320(2) Å, c = 9.88393(5) Å at 298 K and a = 4.11737(2) Å, c = 9.88143(5) Å at 500 K, resulting in the unit-cell volume V = 166.408(1) Å3 (298 K) and 167.517(2) Å3 (500 K). In the whole studied temperature range, we did not find any structural phase transition. Upon cooling, the lattice constants a and c are shortened and elongated, respectively.",
+    "keywords": [
+      "ErPd2Si2",
+      "structure",
+      "synchrotron and in-house X-ray powder diffraction",
+      "Rietveld refinement"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-03-28",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "State Key Laboratory of High Performance Ceramics and Superfine Microstructure",
+        "grant_id": "SKL201907SIC"
+      },
+      {
+        "funder": "Science and Technology Development Fund, Macao SAR",
+        "grant_id": "0051/2019/AFJ"
+      },
+      {
+        "funder": "Science and Technology Development Fund, Macao SAR",
+        "grant_id": "0090/2021/A2"
+      },
+      {
+        "funder": "Guangdong Basic and Applied Basic Research Foundation",
+        "grant_id": "2020B1515120025"
+      },
+      {
+        "funder": "University of Macau",
+        "grant_id": "MYRG2020-00278-IAPME"
+      },
+      {
+        "funder": "University of Macau",
+        "grant_id": "EF030/IAPME-LHF/2021/GDSTIC"
+      },
+      {
+        "funder": "Guangdong–Hong Kong–Macao Joint Laboratory for Neutron Scattering Science and Technology",
+        "grant_id": "2019B121205003"
+      },
+      {
+        "funder": "Shenzhen Fundamental Research Program",
+        "grant_id": "202103243003450"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "51971180"
+      },
+      {
+        "funder": "Shaanxi Provincial Key R&D Program",
+        "grant_id": "2021KWZ-13"
+      },
+      {
+        "funder": "Guangdong Provincial Key R&D Program",
+        "grant_id": "2019B090905009"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION",
+      "V. DEPOSITED DATA"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ErPd2Si2",
+      "sample_description": "Intermetallic single crystal pulverized into powder.",
+      "chemical_composition": "ErPd2Si2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution SXRPD patterns collected at 298 and 500 K to determine high-temperature crystallographic information.",
+      "measurement_technique": "synchrotron X-ray powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in-house X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRPD patterns collected at 20, 100, and 200 K using a Rigaku SmartLab 9 kW diffractometer.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

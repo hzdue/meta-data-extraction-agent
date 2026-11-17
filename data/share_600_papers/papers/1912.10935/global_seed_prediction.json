@@ -1,0 +1,274 @@
+{
+  "bibliographic": {
+    "title": "Successive incommensurate spin orderings and excitations in multiferroic SrMnGe2O6",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Université Grenoble Alpes, CNRS, Institut Néel, 38000, Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Harwell Oxford, Didcot OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Université Grenoble Alpes, CEA, IRIG, MEM, MDN, F-38000 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "National Institute for Materials Science, Sengen 1-2-1, Tsukuba, Ibaraki 305-0047, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Laboratoire Léon Brillouin, Université Paris-Saclay, CNRS, CEA, CEA-Saclay, Gif-sur-Yvette F- 91191, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Claire V. Colin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lei Ding",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Eric Ressouche",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Julien Robert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Noriki Terada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Frederic Gay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Pascal Lejay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Virginie Simonet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Céline Darie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Pierre Bordet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Sylvain Petit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Anisotropic multiferroic properties of SrMnGe2O6 pyroxene single crystals were systematically investigated by means of magnetization, heat capacity, pyroelectric current measurement and elastic and inelastic neutron scattering experiments. Single crystal neutron diffraction allows us to unambiguously reveal the presence of two incommensurate magnetic orderings: a non-polar amplitude-modulated collinear sinusoidal magnetic structure emerges at TN1=4.36(2)K followed by a polar elliptical cycloidal spin structure below TN2=4.05(2)K. Pyroelectric current measurements on single crystal confirm the appearance of a spontaneous polarization within the ( ac ) plane below TN2 associated with the latter magnetic symmetry through extended Dzyaloshinsky-Moriya mechanism. The magnetic phase diagram was calculated considering the three isotropic exchange couplings relevant in this system. The magnetic excitations spectra of SrMnGe2O6 measured by inelastic neutron scattering were successfully modeled using a set of exchange interactions consistent with this phase diagram.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "ANR",
+        "grant_id": "ANR-13-BS04-0013"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "Marie Skłodowska- Curie Grant Agreement No. 665593"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I introduction",
+      "II Experimental details",
+      "III Results",
+      "IV. Discussion",
+      "V. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "Laboratoire Léon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SrMnGe2O6",
+      "sample_description": "Pyroxene single crystals grown by the floating zone furnace technique.",
+      "chemical_composition": "SrMnGe2O6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "dc magnetic susceptibility measurements performed under zero-field-cooled (ZFC) and field-cooled (FC) procedures.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity recorded in the temperature range of 2–300 K without external field.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "pyroelectric current measurement",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of electric polarization obtained by the pyroelectric current method.",
+      "measurement_technique": "pyroelectric current measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Single crystal neutron diffraction to determine magnetic structures in ICM1 and ICM2 phases.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "INS measurement performed on a long single crystal to determine magnon dispersion.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "EnergyScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

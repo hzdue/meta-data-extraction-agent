@@ -1,0 +1,195 @@
+{
+  "bibliographic": {
+    "title": "Time resolved evolution of the 3D nanoporous structure of sintered Ag by X-Ray nanotomography: role of the interface with a copper substrate.",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Institut Pprime - UPR CNRS 3346, Dept. Physics and Mechanics of Materials, ENSMA – Université de Poitiers, 1 avenue Clément Ader, 86961 Chasseneuil-Futuroscope, France"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "LASIE – UMR CNRS 7356, Université de La Rochelle, Pôle Sciences et Technologie, Avenue Michel Crépeau, 17042 La Rochelle, France"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "CEMES – CNRS – 29 rue Jeanne Marvig 31055 Toulouse cedex 4, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kokouvi Happy N’Tsouaglo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Xavier Milhet",
+        "orcid": null,
+        "email": "xavier.milhet@ensma.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jérôme Colin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Loic Signor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Azdine Nait-Ali",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Juan Creus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Mikael Gueguen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Pascal Gadaud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Marc Legros",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The evolution of the nanoporous structure of cylindrical sintered silver samples during high temperature aging, ranging from 200 °C to 350 °C for 350 min, is studied through in-situ Computed X-Ray Tomography. Investigations were performed for two types of specimens: pure sintered silver and specimens containing a silver-copper interface. It is shown that the overall pore evolution is driven by the evolution of very few large ones. The smaller pores, although being more numerous, do not really evolve before being absorbed by the few bigger ones. In pure silver, pore evolution is driven by diffusion (Ostwald ripening) but the presence of an interface promotes faster growth kinetics until the aging time reaches a threshold value, after which a deviation from Ostwald ripening occurs. The transition is a function of the aging temperature. This behavior is associated with the competition between elastic relaxation and surface energy minimization.",
+    "keywords": [
+      "nanopores",
+      "sintered silver",
+      "in-situ nanotomography",
+      "Ostwald ripening",
+      "interface",
+      "thermal stress"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French Government program \"Investissements d'Avenir\"",
+        "grant_id": "ANR-18-EURE-0010"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results",
+      "3. Discussion",
+      "4. Conclusion",
+      "5. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Stanford Synchrotron Radiation Lightsource"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "s-Ag",
+      "sample_description": "pure sintered silver specimen",
+      "chemical_composition": "Ag",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "s-Ag/Cu",
+      "sample_description": "sintered silver specimens containing a silver-copper interface",
+      "chemical_composition": "Ag/Cu",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in-situ Computed X-Ray Tomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time resolved 3D analysis of the nanoporous structure of sintered silver during high temperature aging from 200 °C to 350 °C.",
+      "measurement_technique": "Computed X-Ray Tomography",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

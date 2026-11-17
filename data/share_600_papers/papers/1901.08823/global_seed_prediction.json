@@ -1,0 +1,432 @@
+{
+  "bibliographic": {
+    "title": "Tailoring Vanadium Dioxide Film Orientation using Nanosheets: A Combined Microscopy, Diffraction, Transport and Soft X-ray in Transmission Study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "MESA+ institute for nanotechnology, University ofTwente, PObox 217, Enschede, The Netherlands."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Electron Microscopy for Materials Science (EMAT), University of Antwerp, 2020 Antwerp, Belgium"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Helmholtz-Zentrum Berlin für Materialien und Energie, BESSY II, Albert-Einstein-Str. 15 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Synchrotron SOLEIL, L'Orme des Merisiers Saint-Aubin, BP 48 91192 Gif-sur-Yvette Cedex, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "CSNSM, Université Paris-Sud and CNRS/IN2P3, Bâtiments 104 et 108, 91405 Orsay cedex, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Van der Waals-Zeeman Institute, Institute of Physics, Science Park 904, 1098 XH, Amsterdam, The Netherlands"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "School of Material Science and Technology, Indian Institute of Technology (BHU), Varanasi 221005, India"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516 751 20 Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Phu Tran Phong Le",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kevin Hofhuis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Dr. Abhi Rana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Prof. Mark Huijben",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Prof. Hans Hilgenkamp",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Prof. G. Rijnders",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Prof. A. ten Elshof",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Prof. Gertjan Koster",
+        "orcid": null,
+        "email": "G.Koster@utwente.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Dr. Nicolas Gauquelin",
+        "orcid": null,
+        "email": "Nicolas.Gauquelin@uantwerpen.be",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Gunnar Lumbeeck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Dr. Christian Schlüßler-Langeheine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Dr. Horia Popescu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "F. Fortuna",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Steef Smit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Xanthe H. Verbeek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Georgios Araizi-Kanoutas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Dr. Shrawan Mishra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Dr. Igor Vakivskyi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Prof. Hermann A. Dürr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Prof. Mark S. Golden",
+        "orcid": null,
+        "email": "M.S.Golden@uva.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "VO2 is a much-discussed material for oxide electronics and neuromorphic computing applications. Here, heteroepitaxy of vanadium dioxide (VO2) was realized on top of oxide nanosheets that cover either the amorphous silicon dioxide surfaces of Si substrates or X-ray transparent silicon nitride membranes. The out-of-plane orientation of the VO2 thin films was controlled at will between (011)M1/(110)R  and (-402)M1/(002)R by coating the bulk substrates \n\n1 \n\nwith Ti0.87O2 and NbWO6 nanosheets, respectively, prior to VO2 growth. Temperaturedependent X-ray diffraction and automated crystal orientation mapping in microprobe TEM mode (ACOM-TEM) characterized the high phase purity, the crystallographic and orientational properties of the VO2 films. Transport measurements and soft X-ray absorption in transmission are used to probe the VO2 metal-insulator transition, showing results of a quality equal to those from epitaxial films on bulk single-crystal substrates. Successful local manipulation of two different VO2 orientations on a single substrate is demonstrated using VO2 grown on lithographically-patterned lines of Ti0.87O2 and NbWO6 nanosheets investigated by electron backscatter diffraction. Finally, the excellent suitability of these nanosheet-templated VO2 films for advanced lens-less imaging of the metal-insulator transition using coherent soft X-rays is discussed.",
+    "keywords": [
+      "nanosheets",
+      "vanadium dioxide",
+      "X-ray absorption",
+      "transmission",
+      "lens-less imaging"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NWO/CW ECHO",
+        "grant_id": "ECHO.15.CM2.043"
+      },
+      {
+        "funder": "Geconcentreerde Onderzoekacties (GOA)",
+        "grant_id": "Solarpaint"
+      },
+      {
+        "funder": "FLAG-ERA JTC 2017",
+        "grant_id": "GRAPH-EYE"
+      },
+      {
+        "funder": "Flemish Research Fund (FWO)",
+        "grant_id": "G.0365.15N"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results and discussion",
+      "3. Conclusion and outlook",
+      "4. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY II"
+    },
+    {
+      "id": "facility_2",
+      "name": "SOLEIL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ti0.87O2 nanosheets",
+      "sample_description": null,
+      "chemical_composition": "Ti0.87O2",
+      "sample_state": "nanosheets",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "NbWO6 nanosheets",
+      "sample_description": null,
+      "chemical_composition": "NbWO6",
+      "sample_state": "nanosheets",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "VO2 on TO nanosheets",
+      "sample_description": "VO2 thin films grown epitaxially on Ti0.87O2 nanosheets",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "VO2 on NWO nanosheets",
+      "sample_description": "VO2 thin films grown epitaxially on NbWO6 nanosheets",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "line-patterned VO2",
+      "sample_description": "VO2 grown on lithographically-patterned lines of Ti0.87O2 and NbWO6 nanosheets",
+      "chemical_composition": "VO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ACOM-TEM",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Automated crystal orientation mapping in microprobe TEM mode to characterize VO2 films in the rutile phase at 423K.",
+      "measurement_technique": "automated crystal orientation mapping in microprobe TEM mode",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent X-ray diffraction measured at 303 K and 403 K.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Transport measurements",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Resistance ratio of VO2 films as a function of temperature to probe the metal-insulator transition.",
+      "measurement_technique": "Transport measurements",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EBSD",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron backscatter diffraction maps providing crystallographic information on line-patterned VO2 films at room temperature.",
+      "measurement_technique": "electron backscatter diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Soft X-ray absorption in transmission",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "V-L2,3 and O-K edge XAS recorded in transmission at various temperatures and polarizations.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

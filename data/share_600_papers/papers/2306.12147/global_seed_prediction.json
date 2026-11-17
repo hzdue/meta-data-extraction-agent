@@ -1,0 +1,367 @@
+{
+  "bibliographic": {
+    "title": "Unveiling the Impact of Crosslinking Redox-Active Polymers on Their Electrochemical Behavior by 3D Imaging and Statistical Microstructure Analysis",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Institute of Stochastics, Ulm University, 89069 Ulm, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Helmholtz Institute Ulm (HIU), 89081 Ulm, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Karlsruhe Institute of Technology (KIT), P.O. Box 3640, 76021 Karlsruhe, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Institute of Applied Materials, Helmholtz-Zentrum für Materialien und Energie, 14109 Berlin, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Department of Materials Science and Engineering, National Yang Ming Chiao Tung University, Hsinchu 30010, Taiwan"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Department of Chemical Engineering, Chung Yuan Christian University, Taoyuan 32023, Taiwan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Marten Ademmer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Po-Hua Su",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lukas Dodell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jakob Asenbauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Markus Osenberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "André Hilger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jeng-Kuei Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ingo Manke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Matthias Neumann",
+        "orcid": null,
+        "email": "matthias.neumann@uni-ulm.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Volker Schmidt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Dominic Bresser",
+        "orcid": null,
+        "email": "dominic.bresser@kit.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Polymer-based batteries offer potentially higher power densities and a smaller ecological footprint compared to state-of-the-art lithium-ion batteries comprising inorganic active materials. However, in order to benefit from this potential advantages, further research to find suitable material compositions is required. In the present paper, we compare two different electrode composites of poly(2,2,6,6-tetramethylpiperidinyloxy-4-ylmethacrylate) (PTMA) and CMK-8, one produced with and one without crosslinking the PTMA. The influence of both approaches on the corresponding electrodes is comparatively investigated using electrochemical measurements and statistical 3D microstructure analysis based on synchrotron X-ray tomography. A particular focus is put on the local heterogeneity in the coating and how the crosslinking influences the interaction between PTMA and CMK-8. It is shown that crosslinked PTMA—compared to its non-crosslinked counterpart—exhibits a more heterogeneous microstructure and, furthermore, leads to better surface coverage of CMK-8, larger pores and shorter transportation pathways through the latter. These changes improve the electrochemical properties of the electrode.",
+    "keywords": [
+      "3D microstructure characterization",
+      "synchrotron X-ray tomography",
+      "nano-structured carbon",
+      "organic batteries",
+      "statistical image analysis"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "BR 5752/4-1"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "MA 5039/7-1"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "SCHM 997/39-1"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "390874152 (POLiS Cluster of Excellence)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials Synthesis, Experimental Details & Basic Characterization",
+      "3. 3D Microstructure Characterization – Tomographic Imaging & Statistical Data Analysis",
+      "4. Electrochemical Characterization and Discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "G-PTMA",
+      "sample_description": "non-crosslinked PTMA",
+      "chemical_composition": "poly(2,2,6,6-tetramethylpiperidinyloxy-4-ylmethacrylate)",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "XG-PTMA",
+      "sample_description": "crosslinked PTMA",
+      "chemical_composition": "poly(2,2,6,6-tetramethylpiperidinyloxy-4-ylmethacrylate)",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "G-PTMA-SC65",
+      "sample_description": "electrode comprising G-PTMA and nanoparticulate conductive carbon SC65",
+      "chemical_composition": "G-PTMA / SC65 / CMC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "XG-PTMA-SC65",
+      "sample_description": "electrode comprising XG-PTMA and nanoparticulate conductive carbon SC65",
+      "chemical_composition": "XG-PTMA / SC65 / CMC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "G-PTMA-CMK-8",
+      "sample_description": "electrode comprising G-PTMA and nanostructured mesoporous carbon CMK-8",
+      "chemical_composition": "G-PTMA / CMK-8 / SC65 / CMC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "XG-PTMA-CMK-8",
+      "sample_description": "electrode comprising XG-PTMA and nanostructured mesoporous carbon CMK-8",
+      "chemical_composition": "XG-PTMA / CMK-8 / SC65 / CMC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "CMK-8",
+      "sample_description": "nanostructured mesoporous carbon",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "ACS Material"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "FTIR spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Evaluation of successful synthesis of G-PTMA and crosslinked XG-PTMA.",
+      "measurement_technique": "Fourier-transform infrared spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DSC",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Differential scanning calorimetry recorded with a scan rate of 5 °C min-1.",
+      "measurement_technique": "differential scanning calorimetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Scanning electron microscopy of electrodes and CMK-8 particles.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EDX",
+      "sample_refs": [
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Energy-dispersive X-ray spectroscopy mapping of carbon and nitrogen.",
+      "measurement_technique": "energy-dispersive X-ray spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Nitrogen sorption",
+      "sample_refs": [
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of specific surface area and pore size distribution of CMK-8.",
+      "measurement_technique": "nitrogen sorption",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Synchrotron X-ray Tomography",
+      "sample_refs": [
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D images captured at 20 keV with 3001 projections over 180 degrees rotation.",
+      "measurement_technique": "synchrotron X-ray tomography",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Galvanostatic cycling",
+      "sample_refs": [
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electrochemical testing of electrodes at various specific currents from 25 mA g-1 to 10 A g-1.",
+      "measurement_technique": "galvanostatic cycling",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

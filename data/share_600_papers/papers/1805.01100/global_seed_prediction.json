@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Synchrotron X-ray tomography investigation of 3D morphology of intermetallic phases and pores and their effect on the mechanical properties of cast Al-Cu alloys",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Guangdong Key Laboratory for Advanced Metallic Materials Processing, South China University of Technology, Guangzhou, 510641, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "National Engineering Research Center of Near-net-shape Forming for Metallic Materials, South China University of Technology, Guangzhou, 510641, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "School of Engineering & Computer Science, University of Hull, East Yorkshire, HU6 7RX, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "School of Mechanics and Civil & Architecture, Northwestern Polytechnical University, Xi’an 710072, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yuliang Zhao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Zhi Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Chun Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Weiwen Zhang",
+        "orcid": null,
+        "email": "mewzhang@scut.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The influence of Fe content on the three-dimensional (3D) morphology of Fe-rich intermetallic phases (Fe phases), Al2Cu, and pores and their effect on the mechanical properties of cast Al-5.0Cu-0.6Mn alloys with 0.5 and 1.0 wt. % Fe are characterized using synchrotron X-ray tomography and a tensile test. The results show that both Fe phases and Al2Cu exhibit a complex 3D network structure, and the pores are irregular with complex interconnected and near-globular shape. As the Fe content increases from 0.5 % to 1.0 %, the volume fraction and equivalent diameter of Fe phases decrease, whereas Al2Cu shows the opposite trend; however, both their interconnectivities decrease. Skeletonization analysis of four different Fe phases shows that the Chinese-script-shaped Fe phase is relatively more compact than the plate-like Fe phases. The equivalent diameter and sphericity of pores vary with Fe content, and their relationships follow exponential functions, Y = 7.14*X-1.29 and Y = 7.06*X-1.20 , respectively. The addition of Fe results in a decrease in the ultimate tensile strength and elongation from 223.7 MPa to 199.8 MPa and from 5.51 % to 3.64 %, respectively, owing to more sharp-edged Fe phases and pores and less Al2Cu, resulting in stress concentration during tensile test.",
+    "keywords": [
+      "Tomography",
+      "Aluminum alloys",
+      "Intermetallic",
+      "Pores",
+      "Mechanical properties"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Natural Science Foundation of China",
+        "grant_id": "51374110"
+      },
+      {
+        "funder": "Natural Science Foundation of China",
+        "grant_id": "51701075"
+      },
+      {
+        "funder": "Natural Science Foundation of Guangdong Province",
+        "grant_id": "2015A030312003"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experiment",
+      "3. Results and Discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "TOMCAT beamline of the Swiss Light Source, Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "0.5Fe",
+      "sample_description": "Al-5.0%Cu-0.6%Mn-0.5%Fe alloy",
+      "chemical_composition": "Al-5.0%Cu-0.6%Mn-0.5%Fe",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1.0Fe",
+      "sample_description": "Al-5.0%Cu-0.6%Mn-1.0%Fe alloy",
+      "chemical_composition": "Al-5.0%Cu-0.6%Mn-1.0%Fe",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Synchrotron X-ray tomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D morphology of intermetallic phases and pores characterized using polychromatic radiation with 2000 projections over 180 degrees.",
+      "measurement_technique": "synchrotron X-ray tomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "2D microstructure characterization using a field emission gun scanning electron microscope.",
+      "measurement_technique": "scanning electron microscope",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "tensile test",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Evaluation of ultimate tensile strength and elongation of the alloys.",
+      "measurement_technique": "tensile test",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

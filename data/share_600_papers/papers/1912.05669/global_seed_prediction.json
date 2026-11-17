@@ -1,0 +1,236 @@
+{
+  "bibliographic": {
+    "title": "Unveiling charge density wave quantum phase transitions by x-ray diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Instituto de F´ısica, Universidade do Estado do Rio de Janeiro, 20550-900, Rio de Janeiro, RJ, Brazil"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Centro Brasileiro de Pesquisas F´ısicas, 22290-180, Rio de Janeiro, RJ, Brazil"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Deutsches Elektronen-Synchrotron (DESY), Notkestraβe 85, 22607, Hamburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "London Centre for Nanotechnology and Department of Physics and Astronomy, University College London, Gower Street, WC1E 6BT, London, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "F. B. Carneiro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L. S. I. Veiga",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. R. L. Mardegan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Khan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "C. Macchiutti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. L´opez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "E. M. Bittar",
+        "orcid": null,
+        "email": "bittar@cbpf.br",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We investigate the thermal-driven charge density wave (CDW) transition of two cubic superconducting intermetallic systems Lu(Pt1−xPdx)2In and (Sr1−xCax)3Ir4Sn13 by means of x-ray diffraction technique. A detailed analysis of the CDW modulation superlattice peaks as function of temperature is performed for both systems as the CDW transition temperature TCDW is suppressed to zero by an non-thermal control parameter. Our results indicate an interesting crossover of the classical thermal-driven CDW order parameter critical exponent from a three-dimensional universality class to a mean-field tendency, as TCDW vanishes. Such behavior might be associated with presence of quantum fluctuations which influences the classical second-order phase transition, strongly suggesting the presence of a quantum critical point (QCP) at TCDW = 0. This also provides experimental evidence that the effective dimensionality exceeds its upper critical dimension due to a quantum phase transition.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Funda¸c˜ao Carlos Chagas Filho de Amparo `a Pesquisa do Estado do Rio de Janeiro",
+        "grant_id": "E-26/202.798/2019"
+      },
+      {
+        "funder": "Conselho Nacional de Desenvlovimento Cient´ıfico e Tecnol´ogico",
+        "grant_id": "400633/2016-7"
+      },
+      {
+        "funder": "Engineer-ing and Physical Sciences Research Council",
+        "grant_id": "EP/N027671/1"
+      },
+      {
+        "funder": "Engineer-ing and Physical Sciences Research Council",
+        "grant_id": "EP/N034694/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Brazilian Synchrotron Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Lu(Pt1−xPdx)2In x = 0.3",
+      "sample_description": null,
+      "chemical_composition": "Lu(Pt1−xPdx)2In x = 0.3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Lu(Pt1−xPdx)2In x = 0.4",
+      "sample_description": null,
+      "chemical_composition": "Lu(Pt1−xPdx)2In x = 0.4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Lu(Pt1−xPdx)2In x = 0.5",
+      "sample_description": null,
+      "chemical_composition": "Lu(Pt1−xPdx)2In x = 0.5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Sr3Ir4Sn13",
+      "sample_description": null,
+      "chemical_composition": "Sr3Ir4Sn13",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ca3Ir4Sn13",
+      "sample_description": null,
+      "chemical_composition": "Ca3Ir4Sn13",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron PXRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependence of the (4.5, 1.5, 2) superlattice peak for Lu(Pt1−xPdx)2In samples.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SCXRD",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "High-pressure single crystal x-ray diffraction of the superlattice peaks of Sr3Ir4Sn13 and Ca3Ir4Sn13.",
+      "measurement_technique": "single crystal x-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

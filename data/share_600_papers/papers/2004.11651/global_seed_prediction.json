@@ -1,0 +1,245 @@
+{
+  "bibliographic": {
+    "title": "Crystalline and magnetic structure of Ba2CuO3+δ investigated by x-ray absorption spectroscopy and resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Dipartimento di Fisica, Politecnico di Milano, Piazza Leonardo da Vinci 32, I-20133 Milano, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Max Planck Institute for Chemical Physics of Solids, N¨othnitzerstr. 40, 01187 Dresden, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ESRF – The European Synchrotron, 71 Avenue des Martyrs, CS 40220, F-38043, Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "CNR-SPIN, Dipartimento di Fisica, Politecnico di Milano, 20133 Milano, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Roberto Fumagalli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Abhishek Nag",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stefano Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mirian Garcia-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andrew C. Walters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Davide Betto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Nicholas B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Lucio Braicovich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": "kejin.zhou@diamond.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Giacomo Ghiringhelli",
+        "orcid": null,
+        "email": "giacomo.ghiringhelli@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Marco Moretti Sala",
+        "orcid": null,
+        "email": "marco.moretti@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Motivated by the recent synthesis of Ba2CuO3+ δ (BCO), a high temperature superconducting cuprate with putative d 3 z 2 −r 2 ground state symmetry, we investigated its electronic structure by means of Cu L 3 x-ray absorption (XAS) and resonant inelastic x-ray scattering (RIXS) at the Cu L 3 edge on a polycrystalline sample. We show that the XAS profile of BCO is characterised by two peaks associated to inequivalent Cu sites, and that its RIXS response features a single, sharp peak associated to crystal-field excitations. We argue that these observations are only partially compatible with the previously proposed crystal structure of BCO. Based on our spectroscopic results and on previously published powder diffraction measurements, we propose a crystalline structure characterized by two inequivalent Cu sites located at alternated planes along the c axis: nominally trivalent Cu(1) belonging to very short Cu-O chains, and divalent Cu(2) in the oxygen deficient CuO1 . 5 planes. We also analyze the low-energy region of the RIXS spectra to estimate the magnitude of the magnetic interactions in BCO and find that in-plane nearest neighbor superexchange exceeds 120 meV, similarly to that of other layered cuprates. Although these results do not support the pure d 3 z 2 −r 2 ground state scenario, they hint at a significant departure from the common quasi-2D electronic structure of superconducting cuprates of pure dx 2 −y 2 symmetry.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-04-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry for University and Research (MIUR) of Italy",
+        "grant_id": "PRIN2017 “Quantum-2D” ID 2017Z8TS5B"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ba2CuO3+ δ",
+      "sample_description": "Powder sample with δ ≈ 0.2 and Tc ≈ 70 K.",
+      "chemical_composition": "Ba2CuO3+ δ",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LSCO",
+      "sample_description": "Single-layer superconductor reference system.",
+      "chemical_composition": "La2−x Sr x CuO4 x=0.15",
+      "sample_state": "single-crystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CCO",
+      "sample_description": "Infinite-layer insulator reference system.",
+      "chemical_composition": "CaCuO2",
+      "sample_state": "single-crystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Cu L3 edge x-ray absorption measurements carried out in total fluorescence yield mode.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering at the Cu L3 edge to investigate crystal-field and magnetic excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

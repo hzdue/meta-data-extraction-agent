@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Isostructural phase transition in Tb 2 Ti 2 O 7 under pressure and temperature: Insights from synchrotron X-ray diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Science, Bangalore 560012, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "UGC-DAE Consortium for Scientific Research, Khandwa Road, Indore 452001, Madhya Pradesh, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Photon Sciences, Deutsches Elektronen-Synchrotron DESY, D-22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Physics and Materials Science, Thapar Institute of Engineering and Technology, Punjab 147004, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Subrata Das",
+        "orcid": null,
+        "email": "subratadas@iisc.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sanjoy Kr Mahatha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Konstantin Glazyrin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R Ganesan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Suja Elizabeth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Tirthankar Chakraborty",
+        "orcid": null,
+        "email": "tirthankar@thapar.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Tb2Ti2O7, a pyrochlore system, has garnered significant interest due to its intriguing structural and physical properties and their dependence on external physical parameters. In this study, utilizing high-brilliance synchrotron X-ray diffraction, we conducted a comprehensive investigation of structural evolution of Tb2Ti2O7 under external pressure and temperature. We have conclusively confirmed the occurrence of an isostructural phase transition beyond the pressure of 10 GPa. The transition exhibits a distinct signature in the variation of lattice parameters under pressure and leads to changes in mechanical properties. The underlying physics driving this transition can be understood in terms of localized rearrangement of atoms while retaining the overall cubic symmetry of the crystal. Notably, the observed transition remains almost independent of temperature. Our findings provide insights into the distinctive behaviour of the isostructural phase transition in Tb2Ti2O7.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology, Government of India",
+        "grant_id": "India@DESY"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL DETAILS",
+      "RESULTS AND DISCUSSIONS",
+      "Structural Characterization",
+      "Pressure and temperature dependence of structure",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Tb2Ti2O7",
+      "sample_description": "Polycrystalline sample prepared using a solid-state synthesis route.",
+      "chemical_composition": "Tb2Ti2O7",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Room temperature XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room temperature XRD performed on the powdered sample using a Rigaku system.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman measurements carried out on a polished pallet using a 532 nm laser line in back-scattering geometry.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "synchrotron XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature and pressure-dependent synchrotron XRD experiments carried out at the P02.2 beamline.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

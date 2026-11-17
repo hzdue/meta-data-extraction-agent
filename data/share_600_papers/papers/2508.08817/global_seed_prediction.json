@@ -1,0 +1,138 @@
+{
+  "bibliographic": {
+    "title": "Magnetic field-induced chiral soliton lattice in the bulk magnetoelectric helimagnet Cu2OSeO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), Paul Scherrer Institute (PSI), CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, D-14109 Berlin, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Crystal Growth Facility, Institute of Physics, ´Ecole Polytechnique F´ed´erale de Lausanne, CH-1015 Lausanne, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Victor Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Arnaud Magrez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jonathan S. White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Chiral soliton lattices (CSLs) are anharmonic magnetic structures typically found in uniaxial chiral magnets. In this study, we report the observation of CSL in bulk Cu2OSeO3, a chiral insulator known for its magnetoelectric properties. Using small-angle neutron scattering (SANS) experiments, we demonstrate the formation of CSLs in Cu2OSeO3 at low temperatures, driven by the competition between cubic anisotropy and magnetic field. Our observations of higher harmonics in the SANS signal clearly indicate the anharmonic nature of the spiral. This finding underscores the complex interplay between magnetic interactions in Cu2OSeO3, offering insights for potential applications of CSLs in electric-field controlled spintronic devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-09-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SNSF Sinergia",
+        "grant_id": "CRSII5-171003 NanoSkyrmionics"
+      },
+      {
+        "funder": "SNSF Project",
+        "grant_id": "200021 188707"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Spallation Neutron Source SINQ"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu2OSeO3",
+      "sample_description": "Single crystal with the thin axis parallel to the cubic [001] direction.",
+      "chemical_composition": "Cu2OSeO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements conducted at T = 2 K under varying magnetic fields to observe CSL formation.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Background measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements carried out in the field-polarized state at µ0H = 150 mT for subtraction.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "background"
+    }
+  ]
+}

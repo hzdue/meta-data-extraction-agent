@@ -1,0 +1,287 @@
+{
+  "bibliographic": {
+    "title": "A complementary experimental study of epitaxial La0.67Sr0.33MnO3 to identify morphological and chemical disorder",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Molecular Materials and Nanosystems (M2N) - Department of Applied Physics - Eindhoven University of Technology, Eindhoven, Netherlands"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "MESA+ Institute for Nanotechnology, Faculty of Science and Technology, University of Twente, Enschede, Netherlands"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Department of Physics & Engineering Physics, University of Saskatchewan, Saskatoon, Canada"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Department of Computer Science, University of Saskatchewan, Saskatoon, Canada"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Stewart Blusson Quantum Matter Institute, University of British Columbia, Vancouver, Canada"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Peter Gruenberg Institute and JARA-FIT, Forschungszentrum Juelich GmbH, Juelich, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Michael Verhage",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Emma van der Minne",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ellen M. Kiens",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Lucas Korol",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Raymond J. Spiteri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Gertjan Koster",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Robert J. Green",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Christoph Baeumer",
+        "orcid": null,
+        "email": "c.baeumer@utwente.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Kees Flipse",
+        "orcid": null,
+        "email": "c.f.j.flipse@tue.nl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Gaining insight into the characteristics of epitaxial complex oxide films is essential to control the behavior of devices and catalytic processes. It is known that substrateinduced strain, doping, and layer growth can affect the electronic and magnetic properties of the film’s bulk. In this study, we demonstrate a clear distinction between the bulk and surface of thin films of La0.67Sr0.33MnO3 in terms of chemical composition, electronic disorder, and surface morphology. We employed a combined experimental approach of X-ray based characterization methods and scanning probe microscopy. X- ray diffraction and resonant X-ray reflectivity revealed surface non-stochiometry in the strontium and lanthanum, as well as an accumulation of oxygen vacancies. Scanning tunneling microscopy showed a staggered growth surface morphology accompanied by an electronic phase separation (EPS) related to this non-stochiometry. The EPS is likely responsible for the temperature-dependent resistivity transition and is a cause of a proposed mixed-phase ferromagnetic and paramagnetic state near room temperature in these thin films.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussion",
+      "Conclusion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Canadian Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La0.67Sr0.33MnO3",
+      "sample_description": "13 unit cell thick epitaxial thin film grown on SrTiO3 (001) substrates.",
+      "chemical_composition": "La0.67Sr0.33MnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RHEED",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In-situ monitoring of layer-by-layer growth of LSMO film.",
+      "measurement_technique": "reflection high-energy electron diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Wide angle 2Θ-ω scan and reciprocal space map to verify phase purity and strain state.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectivity to determine film thickness.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "RXR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant X-ray reflectivity at Ti L2,3, Mn L2,3, and La M4,5 resonances to obtain atomic depth profiles.",
+      "measurement_technique": "resonant X-ray reflectivity",
+      "measurement_mode": [
+        "EnergyScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface imaging using both 30 nm and 5 nm radius tips in FM-AFM and contact modes.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "STM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High resolution imaging of surface morphology revealing staggered growth.",
+      "measurement_technique": "scanning tunneling microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "STS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Scanning tunneling spectroscopy mapping of local density of states (LDOS) at 800 mV.",
+      "measurement_technique": "scanning tunneling spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "Resistance vs temperature",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent resistance measurements to study phase separation hysteresis.",
+      "measurement_technique": "transport measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

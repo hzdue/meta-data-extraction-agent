@@ -1,0 +1,208 @@
+{
+  "bibliographic": {
+    "title": "The First Direct Detection of Kirkwood Transitions in Concentrated Aqueous Electrolytes using Small Angle X-ray Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physical and Computational Sciences Directorate, Pacific Northwest National Laboratory, Richland WA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemical Engineering, University of Washington, Seattle WA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Chicago IL"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mohammadhasan Dinpajooh",
+        "orcid": null,
+        "email": "hadi.dinpajooh@pnnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Elisa Biasin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christopher J. Mundy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Gregory K. Schenter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Emily T. Nienhuis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sebastian T. Mergelsberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chris J. Benmore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "John L. Fulton",
+        "orcid": null,
+        "email": "john.fulton@pnnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Shawn M. Kathmann",
+        "orcid": null,
+        "email": "shawn.kathmann@pnnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We provide a quantitative approach to describe electrolyte phenomena beyond Debye-Hückel theory. Ion-ion correlations, screening, and equilibrium bulk structure in various concentrated electrolytes are investigated using synchrotron small angle X-ray scattering (SAXS), theory, and molecular simulation. Using SAXS measurements we provide the first direct detection of the Kirkwood Transition (KT) for a variety of aqueous electrolytes (NaCl, CaCl2, SrCl2, and ErCl3). The KT may be defined as the concentration above which the ion-ion correlations cease to decay exponentially with a single length scale given by the Debye length λ D, and instead decay as a damped oscillator with two length scales: an inverse screening length a 0 reflecting the decay of the electric potential and an oscillation frequency, Q 0 = 2 π/d , that reflects the ordering in ion-ion correlations. The nonlocal electric susceptibility χ ( Q ) is also calculated which provides further insight into the spatial response to external fields. We find that the idealized definition of the KT needs to be generalized as our analyses show that the concentration dependencies of a 0 and Q 0 for our 1:1, 2:1, and 3:1 electrolytes are different.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-08-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Office of Science, Office of Basic Energy Sciences, Division of Chemical Sciences, Geosciences and Biosciences",
+        "grant_id": "DE- AC05-76RL01830"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE)",
+        "grant_id": "DE- AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS AND DISCUSSION",
+      "III. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NaCl",
+      "sample_description": null,
+      "chemical_composition": "NaCl",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CaCl2",
+      "sample_description": null,
+      "chemical_composition": "CaCl2",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "SrCl2",
+      "sample_description": null,
+      "chemical_composition": "SrCl2",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "ErCl3",
+      "sample_description": "prepared at pH 1.5 using an HCl stock solution in order to avoid hydrolysis",
+      "chemical_composition": "ErCl3",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Small Angle X-ray Scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Synchrotron SAXS measurements used to detect the Kirkwood Transition and extract screening lengths and periodicities for various aqueous electrolytes.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

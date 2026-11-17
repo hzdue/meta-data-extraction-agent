@@ -1,0 +1,201 @@
+{
+  "bibliographic": {
+    "title": "Localized Magnetic States of Fe, Co, and Ni Impurities on Alkali Metal Films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut de Physique des Nanostructures, Ecole Polytechnique Fédérale de Lausanne, CH-1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "European Synchrotron Radiation Facility, BP 220, F-38043 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Istituto di Struttura della Materia, Consiglio Nazionale delle Ricerche, Area Science Park, I-34012 Trieste, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "LURE, Centre Universitaire Paris Sud, BP 34, F-91898 Orsay, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "P. Gambardella",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S. S. Dhesi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Gardonio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "C. Grazioli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "P. Ohresser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "C. Carbone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "X-ray absorption spectroscopy (XAS) and x-ray magnetic circular dichroism (XMCD) have been used to study transition metal impurities on K and Na films. The multiplet structure of the XAS spectra indicates that Fe, Co, and Ni have localized atomic ground states with predominantly d7 , d8 , and d9 character, respectively. XMCD shows that the localized impurity states possess large, atomiclike, magnetic orbital moments that are progressively quenched as clusters are formed. Ni impurities on Na films are found to be nonmagnetic, with a strongly increased d10 character of the impurity state. The results show that the high magnetic moments of transition metals in alkali hosts originate from electron localization.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe on K",
+      "sample_description": "Fe impurities deposited on a K film on Cu(111) substrate.",
+      "chemical_composition": "Fe/K",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Co on K",
+      "sample_description": "Co impurities deposited on a K film on Cu(111) substrate.",
+      "chemical_composition": "Co/K",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ni on K",
+      "sample_description": "Ni impurities deposited on a K film on Cu(111) substrate.",
+      "chemical_composition": "Ni/K",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Co on Na",
+      "sample_description": "Co impurities deposited on a Na film on Cu(111) substrate.",
+      "chemical_composition": "Co/Na",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ni on Na",
+      "sample_description": "Ni impurities deposited on a Na film on Cu(111) substrate.",
+      "chemical_composition": "Ni/Na",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy at the L2,3 edges performed in total electron yield mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray magnetic circular dichroism recorded by switching both photon polarization and sample magnetization.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

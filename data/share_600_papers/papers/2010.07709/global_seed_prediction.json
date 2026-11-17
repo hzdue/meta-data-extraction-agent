@@ -1,0 +1,225 @@
+{
+  "bibliographic": {
+    "title": "Unconventional superparamagnetic behavior in the modified cubic spinel compound LiNi0.5Mn1.5O4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics, Indian Institute of Science Education and Research Thiruvananthapuram-695551, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai 400 085, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. S. Islam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Vikram Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Somesh K",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Prashanta K Mukharjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Jain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. M. Yusuf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Nath",
+        "orcid": null,
+        "email": "rnath@iisertvm.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Structural, electronic, and magnetic properties of modified cubic spinel compound LiNi0.5Mn1.5O4 are studied via x-ray diffraction, resistivity, DC and AC magnetization, heat capacity, neutron diffraction, 7Li nuclear magnetic resonance, magnetocaloric effect, magnetic relaxation, and magnetic memory effect experiments. We stabilized this compound in a cubic structure with space group P 4332. It exhibits semiconducting character with an electronic band gap of ∆ /k B ≃ 0.4 eV. The interaction within each Mn4+ and Ni2+ sub-lattice and between Mn4+ and Ni2+ sublattices is found to be ferromagnetic (FM) and antiferromagnetic (AFM), respectively. This leads to the onset of a ferrimagnetic transition at T C ≃ 125 K. The reduced values of frustration parameter ( f ) and ordered moments reflect magnetic frustration due to competing FM and AFM interactions. From the 7Li NMR shift vs susceptibility plot, the average hyperfine coupling between 7Li nuclei and Ni2+ and Mn4+ spins is calculated to be ∼ 672.4 Oe/ µ B. A detailed critical behaviour study is done in the vicinity of T C using modified-Arrott plot, Kouvel-Fisher plot, and universal scaling of magnetization isotherms. The magnetic phase transition is found to be second order in nature and the estimated critical exponents correspond to the 3D XY universality class. A large magneto-caloric effect is observed with a maximum value of isothermal change in entropy ∆ Sm ≃− 11.3 J/Kg-K and a maximum relative cooling power of RCP ≃ 604 J/Kg for 9 T magnetic field change. The imaginary part of the AC susceptibility depicts a strong frequency dependent hump at T = T f2 well below the blocking temperature T b ≃ 120 K. The Arrhenius behaviour of frequency dependent T f2 and the absence of ZFC memory confirm the existence of superparamagnetism in the ferrimagnetically ordered state.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-10-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SERB, India",
+        "grant_id": "CRG/2019/000960"
+      },
+      {
+        "funder": "BRNS, India",
+        "grant_id": "37(3)/14/26/2017-BRNS"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dhruva reactor, Bhabha Atomic Research Center"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LNMO",
+      "sample_description": "Stoichiometric modified cubic spinel compound in polycrystalline form.",
+      "chemical_composition": "LiNi0.5Mn1.5O4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase purity and structural analysis of LNMO over a temperature range of 15 K to 300 K.",
+      "measurement_technique": "powder x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependent neutron powder diffraction to solve the magnetic structure from 5 to 300 K.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "DC magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of magnetic susceptibility and magnetization isotherms as a function of temperature (2 K to 600 K) and magnetic field (0 to 9 T).",
+      "measurement_technique": "vibrating sample magnetometer",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AC susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of AC susceptibility as a function of temperature (2 K to 200 K) and frequency (50 Hz to 10 kHz).",
+      "measurement_technique": "AC susceptibility",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent heat capacity measurement using the relaxation technique.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "electrical resistivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent electrical resistivity measured using the four probe technique.",
+      "measurement_technique": "electrical resistivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "7Li NMR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Pulsed NMR measurements on 7Li nuclei over a temperature range of 4 K to 290 K.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "bibliographic": {
+    "title": "Tracking thermal transport in colloidal quantum dot films",
+    "subtitle": "using in-situ time-resolved X-ray diffraction",
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Middlebury College, Middlebury, VT, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, Amherst College, Amherst, MA, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Chemistry, University of California at Berkeley, Berkeley, CA, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Engineering, Northwestern University"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "X-ray Science Division, Argonne National Laboratory, Lemont, IL, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemistry, University of Chicago, Chicago, IL, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Center for Nanoscale Materials, Argonne National Laboratory, Lemont, IL, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Mechanical Engineering, University of Vermont, Burlington, VT, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Eliza Wieman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nejc Nagelj",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ethan Curling",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Larry Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jin Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Paul Alivisatos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Aaron Lindenberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Benjamin T. Diroll",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jacob H. Olshansky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jihong Ma",
+        "orcid": null,
+        "email": "jihong.ma@uvm.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Burak Guzelturk",
+        "orcid": null,
+        "email": "burakg@anl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Benjamin L. Cotts",
+        "orcid": null,
+        "email": "bcotts@middlebury.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Colloidal quantum dots (QDs) and their thin-films are increasingly used in electronic and photonic devices replacing traditional bulk semiconductors. However, thermal properties of the QDs are comparatively underexplored relative to device development efforts. This study shows the use of time-resolved X-ray diffraction as a contact-free method to probe the thermal response of QDs in device-like environments, providing in-situ insights for future thermal management strategies. Through the extraction of Debye-Waller Factors on a sub-nanosecond timescale, we use time-resolved X-ray diffraction to directly capture the heating and cooling of core/shell CdSe/CdS QDs following pulsed optical excitation. In a QD thin-film that actively provides optical gain, the thermal conductivity is found to be as low as 0.55 W m-1 K-1 , because of the poor heat flow within close-packed QD solids. For QDs dispersed in liquids, interfacial thermal conductance is found to dominate the thermal relaxation with a conductance on the order of 15 MW m-2 K-1 .",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0023425"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussion",
+      "Thermal transport in device-like environment",
+      "Extracting thermal conductivity by modeling thermal relaxation"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Center for Nanoscale Materials"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "core/shell CdSe/CdS QDs",
+      "sample_description": "Core size of 3.5 nm and a total mean diameter of 9.4 nm with oleic acid ligands.",
+      "chemical_composition": "CdSe/CdS",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "core/shell CdSe/CdS QDs (11.6 nm)",
+      "sample_description": "Batch of samples with a mean diameter of 11.6 nm with oleic acid ligands.",
+      "chemical_composition": "CdSe/CdS",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CdSe/CdS QD thin-film",
+      "sample_description": "Randomly-oriented and closepacked QD thin-films with a thickness in the range of 100 – 1000 nm on a fused silica substrate.",
+      "chemical_composition": "CdSe/CdS",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CdSe/CdS QDs in dodecane",
+      "sample_description": "QDs transferred from toluene to dodecane solvent.",
+      "chemical_composition": "CdSe/CdS",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "time-resolved GIWAXS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements under ASE conditions to assess the dynamic thermal response during optical gain in QD thin-films.",
+      "measurement_technique": "grazing-incidence wide-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "time-resolved WAXS",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of QDs dispersed in a liquid jet to monitor thermal relaxation kinetics.",
+      "measurement_technique": "wide-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

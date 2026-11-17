@@ -1,0 +1,312 @@
+{
+  "bibliographic": {
+    "title": "Displacive Jahn–Teller transition in NaNiO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Cavendish Laboratory, University of Cambridge, JJ Thomson Avenue, Cambridge, CB3 0HE, United Kingdom."
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, United Kingdom."
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "European Synchrotron Radiation Facility, 38043 Grenoble Cedex 9, France."
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Spallation Neutron Source, Oak Ridge National Laboratory, Oak Ridge, TN 37831, United States of America."
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Inorganic Chemistry Laboratory, Department of Chemistry, University of Oxford, Oxford, OX1 3QR, United Kingdom."
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Department of Chemistry, Durham University, Durham, DH1 3LE, United Kingdom."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Liam A. V. Nagle-Cocco",
+        "orcid": null,
+        "email": "lavn2@cam.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Annalena R. Genreith-Schriever",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "James M. A. Steele",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Camilla Tacconis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Joshua D. Bocarsly",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Olivier Mathon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Joerg C. Neuefeind",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jue Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Christopher A. O’Keefe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Andrew L. Goodwin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Clare P. Grey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "John S. O. Evans",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Siˆan E. Dutton",
+        "orcid": null,
+        "email": "sed33@cam.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Below its Jahn–Teller transition temperature, T JT, NaNiO2 has a monoclinic layered structure consisting of alternating layers of edge-sharing NaO6 and Jahn–Tellerdistorted NiO6 octahedra. Above T JT where NaNiO2 is rhombohedral, diffraction measurements show the absence of a cooperative Jahn–Teller distortion, accompanied by an increase in the unit cell volume. Using neutron total scattering, solid-state Nuclear Magnetic Resonance (NMR), and extended X-ray absorption fine structure (EXAFS) experiments as local probes of the structure we find direct evidence for a displacive, as opposed to order-disorder Jahn–Teller transition at T JT. This is supported by ab initio molecular dynamics (AIMD) simulations. To our knowledge this study is the first to show a displacive Jahn–Teller transition in any material using direct observations with local probe techniques.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG001"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG017"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG024"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG060"
+      },
+      {
+        "funder": "Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R513180/1"
+      },
+      {
+        "funder": "EPSRC Cambridge NanoCDT",
+        "grant_id": "EP/L015978/1"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "788144"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Results",
+      "3 Discussion",
+      "4 Conclusion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NaNiO2",
+      "sample_description": null,
+      "chemical_composition": "NaNiO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Variable-temperature synchrotron X-ray powder diffraction performed to observe temperature-dependent changes in the average crystal structure.",
+      "measurement_technique": "synchrotron X-ray powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "23Na nuclear magnetic resonance",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Variable-temperature 23Na NMR experiment using both magic angle spinning (MAS) and static measurements.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron total scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Total scattering neutron experiments used to obtain Pair Distribution Functions (PDFs) at 293 K, 450 K, and 500 K.",
+      "measurement_technique": "neutron total scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "XAS at the Ni K edge focusing on XANES and EXAFS in real-space.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

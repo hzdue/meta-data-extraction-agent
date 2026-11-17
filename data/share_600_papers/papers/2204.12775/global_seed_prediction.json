@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "On the possibility of incorporation of the iron impurity into A sites in SrTiO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Physics Department, M.V. Lomonosov Moscow State University, Moscow, 119991 Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I. A. Sluchinskaya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A.I. Lebedev",
+        "orcid": null,
+        "email": "swan@scon155.phys.msu.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The local environment and oxidation state of the Fe impurity in strontium titanate are studied using XAFS spectroscopy. The influence of annealing temperature and deviation from stoichiometry on the possibility of incorporation of the impurity into the A and B sites of the perovskite structure is studied. The results obtained from the X-ray diffraction, XANES spectra, and EXAFS spectra suggest that at high annealing temperature the iron atoms, at least partially (up to 30%), enter the A sites in SrTiO3. The obtained results agree with results of first-principles calculations, according to which the iron at the A site exhibits strong off-centering (the displacement of ∼1˚ A), similar to that previously established in SrTiO3 samples doped with Mn and Co.",
+    "keywords": [
+      "strontium titanate",
+      "iron",
+      "doping",
+      "XAFS",
+      "off-center atoms"
+    ],
+    "doi": "10.21883/PSS.2022.03.53189.242",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022",
+    "venue": "Physics of the Solid State",
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL AND CALCULATION TECHNIQUES",
+      "III. RESULTS OF FIRST-PRINCIPLES CALCULATIONS",
+      "IV. RESULTS AND DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY synchrotron radiation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "2A1100",
+      "sample_description": "Sr0.98Fe0.02TiO3 sample annealed at 1100°C",
+      "chemical_composition": "Sr0.98Fe0.02TiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "3B1100",
+      "sample_description": "SrTiO3 sample with 3% Fe impurity annealed at 1100°C",
+      "chemical_composition": "SrTiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "2A1500",
+      "sample_description": "Sr0.98Fe0.02TiO3 sample annealed at 1500°C",
+      "chemical_composition": "Sr0.98Fe0.02TiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "3B1500",
+      "sample_description": "SrTiO3 sample with 3% Fe impurity annealed at 1500°C",
+      "chemical_composition": "SrTiO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "FeTiO3",
+      "sample_description": "reference compound",
+      "chemical_composition": "FeTiO3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Fe2O3",
+      "sample_description": "reference compound",
+      "chemical_composition": "Fe2O3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction patterns of SrTiO3(Fe) samples to determine crystal structure.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XANES spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption near-edge structure spectra recorded at the Fe K-edge to determine oxidation state.",
+      "measurement_technique": "X-ray absorption near-edge structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "EXAFS spectra",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure spectra recorded at the Fe K-edge to determine local environment.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "bibliographic": {
+    "title": "Three-Dimensional Structure of Hybrid Magnetic Skyrmions Determined by Neutron Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, University of Tennessee"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Materials Science and Engineering Department, University of Tennessee"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center for Neutron Research, National Institute for Standards and Technology"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Center for Memory and Recording Research, University of California, San Diego"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Unité Mixte de Physique, CNRS, Thales, Université Paris-Saclay, Palaiseau 91767, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "WLNC Liyanage",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nan Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lizabeth Quigley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Brian B. Maranville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Sunil K. Sinha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Nicolas Reyren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Sergio A. Montoya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Eric E. Fullerton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Lisa DeBeer-Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Dustin A. Gilbert",
+        "orcid": null,
+        "email": "dagilbert@utk.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Magnetic skyrmions are topologically protected chiral spin textures which present opportunities for nextgeneration magnetic data storage and logic information technologies. The topology of these structures originates in the geometric configuration of the magnetic spins – more generally described as the structure. While the skyrmion structure is most often depicted using a 2D projection of the three-dimensional structure, recent works have emphasized the role of all three dimensions in determining the topology and their response to external stimuli. In this work, grazing-incidence small-angle neutron scattering and polarized neutron reflectometry are used to determine the three-dimensional structure of hybrid skyrmions. The structure of the hybrid skyrmions, which includes a combination of Néel-like and Bloch-like components along their length, is expected to significantly contribute to their notable stability, which includes ambient conditions. To interpret the neutron scattering data, micromagnetic simulations of the hybrid skyrmions were performed, and the corresponding diffraction patterns were determined using a Born approximation transformation. The converged magnetic profile reveals the magnetic structure along with the skyrmion depth profile, including the thickness of the Bloch and Néel segments and the diameter of the core.",
+    "keywords": [
+      "skyrmions",
+      "neutron scattering",
+      "micromagnetic modeling"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Research Early Career program",
+        "grant_id": "DE-SC0021344"
+      },
+      {
+        "funder": "National Science Foundation, Division of Materials Research",
+        "grant_id": "2105400"
+      },
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR-2010792"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Procedure",
+      "Results",
+      "GISANS",
+      "Micromagnetic modeling",
+      "Discussion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[(Fe (3.6 Å)/Gd (4.0 Å)]120",
+      "sample_description": "Thin-film multilayers grown on a 1 cm × 1 cm Si (001) substrate with native oxide layer.",
+      "chemical_composition": "[(Fe (3.6 Å)/Gd (4.0 Å)]120",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements performed in the saturated state with a 500 mT in-plane field, and in the skyrmion state with a small out-of-plane guide field.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements performed with the neutron beam parallel to the film’s out-of-plane direction and near-zero magnetic field in stripe and skyrmion states.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GISANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements performed by illuminating the sample at grazing incidence with incident angles varied between 0.3° to 0.9°.",
+      "measurement_technique": "grazing-incidence small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

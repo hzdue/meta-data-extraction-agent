@@ -1,0 +1,162 @@
+{
+  "bibliographic": {
+    "title": "Tin (Sn) at high pressure: review, X-ray diffraction, DFT calculations, and Gibbs energy modeling",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "CEA, DAM, VALDUC, F-21120 Is-sur-Tille, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "CEA, DAM, DIF, F-91297, Arpajon, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Univ. Paris Est Creteil, CNRS, ICMPE, UMR 7182, 2 rue Henri Dunant, 94320 Thiais, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Guillaume Deffrennes",
+        "orcid": null,
+        "email": "deffrennes.guillaume@nims.go.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Philippe Faure",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "François Bottin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jean-Marc Joubert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Benoit Oudot",
+        "orcid": null,
+        "email": "benoit.oudot@cea.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "An assessment of the Sn unary system is presented. First, the literature on phase equilibria, the thermodynamic properties, the volume and related properties, and shock compression of tin is thoroughly reviewed. Second, the Sn system is investigated by means of synchrotron X- ray diffraction in a diamond-anvil cell up to pressures and temperatures of 57 GPa and 730 K. New information is obtained on the thermal stability and thermal expansion coefficient of the γ (𝐼4/𝑚𝑚𝑚) and γ’’ (𝐼𝑚3𝑚) phases. Third, density functional theory calculations are conducted on the six allotropic phases of tin observed in experiments using both a local density approximation (LDA) and a generalized gradient approximation (GGA) functional. This combined experimental and theoretical investigation provides further insights on the pronounced metastable nature of Sn in the 30 - 70 GPa range. Last, a Gibbs energy modeling is conducted using the recently proposed Joubert-Lu-Grover model which is compatible with the CALPHAD method. Special emphasis is placed on discussing extrapolations to high pressures and temperatures of the volume and of the thermodynamic properties. While the description of the heat capacity is approximate at moderate pressure, all available data are closely reproduced up to 2500 K, which is 5 times higher than the atmospheric pressure melting point of tin, and 150 GPa, which is almost 3 times the standard bulk modulus of β-Sn.",
+    "keywords": [
+      "High-pressure",
+      "Synchrotron radiation",
+      "DFT calculations",
+      "Thermodynamic modeling",
+      "Phase Diagrams",
+      "Tin"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Assessment of literature data",
+      "3. Methodology",
+      "4. Results and discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "tin sample",
+      "sample_description": "purity > 99.935% from Indonesian State Tin Corporation",
+      "chemical_composition": "Sn",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Indonesian State Tin Corporation"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "platinum foil",
+      "sample_description": "purity > 99.95% from GoodFellow",
+      "chemical_composition": "Pt",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "GoodFellow"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-pressure high-temperature X-ray diffraction experiments carried out up to 57 GPa and 730 K using a diamond-anvil cell.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DFT calculations",
+      "sample_refs": [],
+      "facility_refs": [],
+      "dataset_description": "Ab initio calculations of ground state properties for six allotropic phases of tin from 0 to 1500 GPa using LDA and GGA functionals.",
+      "measurement_technique": "density functional theory",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

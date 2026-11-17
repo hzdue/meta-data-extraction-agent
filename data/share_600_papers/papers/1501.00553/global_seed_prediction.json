@@ -1,0 +1,143 @@
+{
+  "bibliographic": {
+    "title": "Single Phase Synthesis and Room temperature Neutron Diffraction Studies on Multiferroic PbFe0.5Nb0.5O3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, JB Campus, Bangalore University, Bangalore –560056"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "UGC-DAE-CSR, Mumbai Centre, BARC, Mumbai – 400085"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shidaling Matteppanavar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Basavaraj Angadi",
+        "orcid": null,
+        "email": "brangadi@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sudhindra Rayprol",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The Lead-iron-niobate, (PbFe0.5Nb0.5O3 or PFN) was synthesized by low temperature sintering Single Step / Solid State Reaction Method.  The 700  C / 2 hrs calcined powder was sintered at 1050  C / 1 hr. The sintered pellets were characterized through X-Ray Diffraction and Neutron Diffraction at room temperature. It is found from the XRD pattern that the materials is in single phase with no traces of pyrochlore phase. It was also confirmed  from the neutron diffraction pattern, the structure of PFN to be monoclinic, belongs to space group Cm . Structural studies has been carried out by refining the obtained neutron diffraction data by Reitveld refinement method using Full Prof Program . The neutron diffraction pattern at 290K (near room temperature) was selected to refine the structure. The Lattice parameters obtained are; a = 5.6709 Å, b = 5.6732 Å, c = 4.0136 Å, and α = 90, β = 89.881, γ = 90.000.  The P-E measurements showed hysteretic behavior with high remnant polarization.",
+    "keywords": [
+      "Multiferroics",
+      "PbFe0.5Nb0.5O3 (PFN)",
+      "Neutron Diffraction",
+      "Ferroelectric hysteresis"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UGC-DAE-CSR, Mumbai Centre",
+        "grant_id": "CRS-M 159"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL",
+      "RESULTS AND DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dhruva reactor, BARC"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PFN",
+      "sample_description": "Sintered pellets synthesized by single step reaction method.",
+      "chemical_composition": "PbFe0.5Nb0.5O3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray powder diffraction using Phillips (1070 model) diffractometer with Cu K alpha radiation.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction measurements carried out on the PSD-based powder diffractometer using a wavelength of 1.48 A.",
+      "measurement_technique": "Neutron diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "P-E measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "P-E measurements done using sawer-tower circuit to observe hysteretic behavior.",
+      "measurement_technique": "P-E measurements",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

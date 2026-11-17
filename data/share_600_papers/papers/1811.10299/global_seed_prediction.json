@@ -1,0 +1,235 @@
+{
+  "bibliographic": {
+    "title": "X-ray diffraction and computer simulation studies of the structure of liquid aliphatic aldehydes: from propanal to nonanal",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Wigner Research Centre for Physics, Hungarian Academy of Sciences, Budapest, Konkoly Thege út 29-33., H-1121, Hungary"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "International Research Organisation for Advanced Science and Technology (IROAST), Kumamoto University, 2-39-1 Kurokami, Chuo-ku, Kumamoto 860-8555, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Faculty of Chemistry and Chemical Technology (FKKT), University of Ljubljana, Večna pot 113, 1000 Ljubljana, Slovenia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ildikó Pethes",
+        "orcid": null,
+        "email": "pethes.ildiko@wigner.mta.hu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "László Temleitner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Matija Tomšič",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Andrej Jamnik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "László Pusztai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Synchrotron X-ray diffraction experiments and molecular dynamics simulations have been performed on simple aliphatic aldehydes, from propanal to nonanal. The performance of the OPLS all-atom interaction potential model for aldehydes has been assessed via direct comparison of simulated and experimental total scattering structure factors. In general, MD results reproduce the experimental data at least semi-quantitatively. However, a slight mismatch can be observed between the two datasets in terms of the position of the main diffraction maxima. Partial radial distribution functions have also been calculated from the simulation results. Clear differences could be detected between the various O- \n\nH partial radial distribution functions, depending on whether the H atom is attached to the carbon atom that is doubly bonded to the oxygen atom of the aldehyde group or not.",
+    "keywords": [
+      "X-ray diffraction",
+      "aldehydes",
+      "structure",
+      "molecular dynamics simulation"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research, Development and Innovation Office",
+        "grant_id": "SNN 116198"
+      },
+      {
+        "funder": "National Research, Development and Innovation Office",
+        "grant_id": "TÉT_16-1-2016-0056"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "P1-0201"
+      },
+      {
+        "funder": "Slovenian Research Agency",
+        "grant_id": "N1-0042"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Molecular dynamics simulations",
+      "4. Results and discussion",
+      "5. Summary and Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Japan Synchrotron Radiation Research Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "propanal",
+      "sample_description": null,
+      "chemical_composition": "CH3CH2CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "butanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)2CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "pentanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)3CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "hexanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)4CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "heptanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)5CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "octanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)6CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "nonanal",
+      "sample_description": null,
+      "chemical_composition": "CH3(CH2)7CHO",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Transmission mode diffraction patterns recorded between scattering variable Q values of 0.16 and 16 Å-1.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Molecular dynamics simulations",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Simulations performed using the OPLS-AA force field in NVT ensemble at T = 293.15 K to calculate partial radial distribution functions and total scattering structure factors.",
+      "measurement_technique": "molecular dynamics simulation",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "bibliographic": {
+    "title": "Layering of magnetic nanoparticles at amorphous magnetic templates with perpendicular anisotropy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Department for Physics and Astronomy, Uppsala University, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "NIST Center for Neutron Research, Gaithersburg, 20899-6102, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "University of Applied Sciences Bremerhaven, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Apurve Saini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sebastian George",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Brian B. Maranville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kathryn L. Krycka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Joseph A, Dura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Katharina Theis-Bröhl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Max Wolff",
+        "orcid": null,
+        "email": "max.wolff@physics.uu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We reveal the assembly of monodisperse magnetite nanoparticles of sizes 5 nm, 15 nm and 25 nm from dilute water-based ferrofluids onto an amorphous magnetic template with out-of-plane anisotropy. From neutron reflectometry experiments we extract density profiles and show that the particles self-assemble into layers at the magnetic surface. The layers are extremely stable against cleaning and rinsing of the substrate. The density of the layers is determined by and increases with the remanent magnetic moment of the particles.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1508249"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FF5",
+      "sample_description": "Magnetite nanoparticles of size 5 nm coated with N-Hydroxysuccinimide.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FF15",
+      "sample_description": "Magnetite nanoparticles of size 15 nm coated with N-Hydroxysuccinimide.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma Aldrich"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "FF25",
+      "sample_description": "Magnetite nanoparticles of size 25 nm coated with N-Hydroxysuccinimide.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma Aldrich"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "magnetic template",
+      "sample_description": "Ferrimagnetic amorphous film with out-of-plane magnetic anisotropy.",
+      "chemical_composition": "Al70Zr30/Tb15Co85/Al70Zr30/SiO2/Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of size distribution and shape of the NPs.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns of the iron oxide nanocrystals to calculate mean crystal sizes.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of hysteresis loops of the powder samples at 300 K.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle neutron scattering measurements of NPs diluted in D2O/H2O mixture.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "magnetic force microscopy",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Verification of the worm-like domain pattern of the Tb15Co85 film.",
+      "measurement_technique": "magnetic force microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "PNR measurements of NPs in contact with the magnetic substrate and after cleaning.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SEM images of samples deposited onto TbCo before and after cleaning.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

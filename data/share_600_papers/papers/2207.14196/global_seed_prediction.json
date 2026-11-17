@@ -1,0 +1,224 @@
+{
+  "bibliographic": {
+    "title": "Evolution of short-range magnetic correlations in ferromagnetic Ni-V alloys",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physics Department, Kent State University, Kent OH 44242, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Jazan University, Jazan 45142, Kingdom of Saudi-Arabia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center of Neutron Research, National Institute of Standards and Technology, Gaithersburg MD 20899, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shiva Bhattarai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Hind Adawi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jean-Guy Lussier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Adane Gebretsadik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Maxim Dzero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kathryn L. Krycka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Almut Schroeder",
+        "orcid": null,
+        "email": "aschroe2@kent.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We experimentally study how the magnetic correlations develop in a binary alloy close to the ferromagnetic quantum critical point with small-angle neutron scattering (SANS). Upon alloying the itinerant ferromagnet nickel with vanadium, the ferromagnetic order is continuously suppressed. The critical temperature Tc vanishes when vanadium concentrations reach the critical value of xc = 0 . 116 indicating a quantum critical point separating the ferromagnetic and paramagnetic phases. Earlier magnetization and µ SR data have indicated the presence of magnetic inhomogeneities in Ni1 −x V x and, in particular, recognize the magnetic clusters close to xc , on the paramagnetic and on the ferromagnetic sides with nontrivial dynamical properties [R. Wang et al. , Phys. Rev. Lett. 118 , 267202 (2017)]. We present the results of SANS study with full polarization analysis of polycrystalline Ni1 −x V x samples with x = 0 . 10 and x = 0 . 11 with low critical temperatures Tc < 50 K. For both Ni-V samples close to xc we find isotropic magnetic short-range correlations on the nanometer-scale persisting at low temperatures. They are suppressed gradually in higher magnetic fields. In addition, signatures of long-range ordered magnetic domains are present below Tc . The fraction of these magnetic clusters embedded in the ferromagnetic ordered phase grows toward xc and agrees well with the cluster fraction estimate from the magnetization and µ SR data. Our SANS studies provide new insights into the nature of the inhomogeneities in a ferromagnetic alloy close to a quantum critical point.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation",
+        "grant_id": "GBMF5305"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF- DMR-2002795"
+      },
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR1508249"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS OF SANS STUDY",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni0.9V0.10",
+      "sample_description": null,
+      "chemical_composition": "Ni0.9V0.10",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ni0.89V0.11",
+      "sample_description": "made with 58Ni",
+      "chemical_composition": "Ni0.89V0.11",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "pure Ni",
+      "sample_description": null,
+      "chemical_composition": "Ni",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Full polarization analysis of polycrystalline Ni-V samples to probe magnetic microstructure and inhomogeneity.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Unpolarized SANS measurements at GPSANS.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "polarized SANS Ni",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarized SANS measurement of pure Ni at 300 K for comparison with alloys.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    }
+  ]
+}

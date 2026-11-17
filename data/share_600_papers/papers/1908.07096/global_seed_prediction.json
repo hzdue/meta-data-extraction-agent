@@ -1,0 +1,411 @@
+{
+  "bibliographic": {
+    "title": "Coherent Epitaxial Semiconductor - Ferromagnetic Insulator InAs/EuS Interfaces: Band Alignment and Magnetic Structure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Center for Quantum Devices, Niels Bohr Institute, University of Copenhagen & Microsoft Quantum Materials Lab Copenhagen, Denmark."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Niels Bohr Institute, University of Copenhagen, DK-2100 Copenhagen, Denmark."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Catalan Institute of Nanoscience and Nanotechnology (ICN2), CSIC and BIST, Campus UAB, Bellaterra, 08193 Barcelona, Catalonia, Spain."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg 22603, Germany."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Paul Scherrer Institute, CH-5232 Villigen, Switzerland."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "ETH CH- 8093 Zürich and EPFL CH-1015 Lausanne, Switzerland."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "ICREA, Pg. Lluís Companys 23, 08010 Barcelona, Catalonia, Spain."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yu Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Alessandra Luchini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sara Martí-Sánchez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Christian Koch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sergej Schuwalow",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sabbir A. Khan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Tomaš Stankevič",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sonia Francoual",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jose R. L. Mardegan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jonas A. Krieger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Vladimir N. Strocov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jochen Stahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Carlos A. F. Vaz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Mahesh Ramakrishnan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Urs Staub",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Kim Lefmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Gabriel Aeppli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Jordi Arbiol",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Peter Krogstrup",
+        "orcid": null,
+        "email": "krogstrup@nbi.dk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Hybrid semiconductor ‐ ferromagnetic insulator heterostructures are interesting due to their tunable electronic transport, self‐sustained stray field and local proximitized magnetic exchange. In this work, we present lattice matched hybrid epitaxy of semiconductor ‐ ferromagnetic insulator InAs/EuS heterostructures and analyze the atomic‐scale structure as well as their electronic and magnetic characteristics. The Fermi level at the InAs/EuS interface is found to be close to the InAs conduction band and in the bandgap of EuS, thus preserving the semiconducting properties. Both neutron and X‐ray reflectivity measurements show that the ferromagnetic component is mainly localized in the EuS thin film with a suppression of the Eu moment in the EuS layer nearest the InAs. Induced moments in the adjacent InAs layers were not detected although our ab initio calculations indicate a small exchange field in the InAs layer. This work presents a step towards realizing high quality semiconductor ‐ ferromagnetic insulator hybrids, which is a critical requirement for development of various quantum and spintronic applications without external magnetic fields.",
+    "keywords": [
+      "quantum computing",
+      "proximity effects",
+      "MBE",
+      "hybrid materials"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021_165910"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CR-SII2 147606"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "716655"
+      },
+      {
+        "funder": "international training network ‘INDEED’",
+        "grant_id": "722176"
+      },
+      {
+        "funder": "Generalitat de Catalunya",
+        "grant_id": "2017 SGR 327"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "SEV-2017-0706"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. EXPERIMENTAL SECTION",
+      "3. RESULTS AND DISCUSSION",
+      "4. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institute"
+    },
+    {
+      "id": "facility_3",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_4",
+      "name": "DESY"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "InAs/EuS",
+      "sample_description": "Planar InAs layers of 50 nm grown on GaSb wafers with epitaxially grown EuS.",
+      "chemical_composition": "InAs/EuS",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "bare InAs",
+      "sample_description": "Pristine InAs sample used for band structure measurement.",
+      "chemical_composition": "InAs",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "HAADF-STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Structural characterization using High Angle Annular Dark Field imaging.",
+      "measurement_technique": "High Angle Annular Dark Field imaging",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SX-ARPES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Energy band alignment measured using soft-X-ray angle resolved photoemission spectroscopy.",
+      "measurement_technique": "soft-X-ray angle resolved photoemission spectroscopy",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarized neutron reflectivity measurements collected at 2 K and 50 K.",
+      "measurement_technique": "polarized neutron reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XANES/XMCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_4"
+      ],
+      "dataset_description": "X-ray absorption near edge structure and X-ray magnetic circular dichroism measurements at Eu L3, In L3, and As K edges.",
+      "measurement_technique": "X-ray absorption near edge structure and X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "RXRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Resonant x-ray reflectivity measurements at the Eu M5-absorption edge.",
+      "measurement_technique": "resonant x-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

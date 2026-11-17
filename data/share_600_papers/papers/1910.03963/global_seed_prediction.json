@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "Long and short range magnetism in the frustrated double perovskite Ba2MnWO6",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Material Science and Engineering, University of Sheffield, Mappin Street, Sheffield, S1 3JD, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Pulsed Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Johnson Matthey Battery Materials, Blount’s Court, Sonning Common, Reading, RG4 9NH United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Heather Mutch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Otto Mustonen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Helen C. Walker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Peter J. Baker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Gavin B. G. Stenning",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fiona C. Coomer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Edmund J. Cussen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The structural and magnetic properties of the face-centered cubic double perovskite Ba2MnWO6 were investigated using neutron powder diffraction, DC-magnetometry, muon spin relaxation and inelastic neutron scattering. Ba2MnWO6 undergoes Type II long-range antiferromagnetic ordering at a Néel temperature of 8(1) K with a frustration index, f ≈ 8. Inelastic neutron scattering was used to identify the magnetic coupling constants J 1 and J 2, which were found to equal -0.080 meV and -0.076 meV respectively. This indicated that both of the magnetic coupling constants were antiferromagnetic with similar magnitudes, which is in contrast to other known 3 d metal double perovskites Ba2 M WO6. Above the Néel temperature, muon spin relaxation measurements and inelastic neutron scattering techniques identify a short-range correlated magnetic state that is similar to that observed in the archetypical face-centered cubic lattice antiferromagnet MnO.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Leverhulme Trust",
+        "grant_id": "RPG-2017-109"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Rutherford Appleton Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ba2MnWO6",
+      "sample_description": null,
+      "chemical_composition": "Ba2MnWO6",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Observed the low temperature nuclear structure and the long-range magnetic structure using the GEM diffractometer.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DC-magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependent magnetic susceptibility measured between 2 K and 300 K under ZFC and FC conditions.",
+      "measurement_technique": "DC-magnetometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "muon spin relaxation",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Zero, transverse and longitudinal field measurements to identify transition temperature and short-range correlations.",
+      "measurement_technique": "muon spin relaxation",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurements performed on the LET spectrometer to quantify magnetic coupling constants and identify short range excitations.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

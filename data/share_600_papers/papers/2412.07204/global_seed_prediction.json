@@ -1,0 +1,357 @@
+{
+  "bibliographic": {
+    "title": "X-ray magnetic circular dichroism and resonant inelastic X-ray scattering explained: role of many-body correlation and valence fluctuations",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Seoul National University, Seoul 08826, Republic of Korea"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for Theoretical Physics of Complex Systems, Institute for Basic Science, Daejeon 34126, Republic of Korea"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials Science and Institute of Optoelectronics, Fudan University, Shanghai 200433, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Materials Science and Engineering, University of California, Davis, CA 95616, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics and Materials Research Laboratory, University of Illinois, Urbana, Illinois 61801, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "National Institute of Standards and Technology, Boulder, CO 80305, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics, Kyungpook National University, Daegu 41566, Republic of Korea"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Beom Hyun Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sang-Jun Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "H. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "D. Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. S. Hong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "P. Abbamonte",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Y. I. Joe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "P. Szypryt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "W. B. Doriese",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "D. S. Swetz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "J. N. Ullom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "C.-C. Kao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "J.-S. Lee",
+        "orcid": null,
+        "email": "jslee@slac.stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Bongjae Kim",
+        "orcid": null,
+        "email": "bongjae@knu.ac.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "X-ray magnetic circular dichroism (XMCD) and resonant inelastic X-ray scattering with magnetic circular dichroism (RIXS-MCD) provide unparalleled insights into the electronic and magnetic dynamics of complex materials. However, interpreting their spectra in mixed-valence systems remains challenging due to intricate many-body interactions and enhanced charge fluctuations. In this study, by utilizing the Anderson impurity model with a full consideration of charge transfer (CT), many-body core-valence exchange correlation (CVEC) effects, and Jahn-Teller (JT) distortions, we systematically investigate the XMCD and RIXS-MCD spectra for a prototypical mixedvalence ferromagnet, La0.7Sr0.3MnO3 film. We demonstrate that simple calculation with limited CT effects fails to capture characteristic substructures observed experimentally. In contrast, an adequate treatment of CT and CVEC effects yields a more consistent description of both XMCD and RIXS-MCD spectra, providing practical guidance for the interpretation of dichroic x-ray spectroscopies in mixed-valence transitionmetal oxides. Furthermore, we discuss the role of the JT effect in Mn3+ ions in the determination of their spectra.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-06-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-76SF00515"
+      },
+      {
+        "funder": "Institute for Basic Science",
+        "grant_id": "IBSR024-D1"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS-2023-00256050"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS-2024-00401881"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS2022-NR068223"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS-2026-25472078"
+      },
+      {
+        "funder": "KISTI Supercomputing Center",
+        "grant_id": "KSC-2023-CRE0413"
+      },
+      {
+        "funder": "Science and Technology Commission of Shanghai Municipality",
+        "grant_id": "21JC1400200"
+      },
+      {
+        "funder": "Gordon and Betty Moore Foundation’s EPiQS Initiative",
+        "grant_id": "GBMF9452"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS2020-NR049405"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "RESULTS",
+      "Experimental results",
+      "Theoretical XMCD spectra",
+      "Theoretical RIXS-MCD spectra",
+      "CONCLUSION",
+      "METHODS",
+      "Experiments",
+      "Theoretical calculation"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Stanford Synchrotron Radiation Lightsource"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La0.7Sr0.3MnO3 film",
+      "sample_description": "Epitaxial LSMO films with 20 unit cells thick grown on (001) SrTiO3 single-crystal substrates.",
+      "chemical_composition": "La0.7Sr0.3MnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS measured with right circular polarization (RCP) and left circular polarization (LCP) in total electron yield (TEY) mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray magnetic circular dichroism spectrum generated as the difference of RCP and LCP XAS spectra.",
+      "measurement_technique": "X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic X-ray scattering map as functions of energy loss and photon energy measured by a TES spectrometer.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "RIXS-MCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS-MCD map obtained from the difference of two RIXS maps with RCP and LCP incident photons.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

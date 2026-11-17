@@ -1,0 +1,423 @@
+{
+  "bibliographic": {
+    "title": "Atom-Specific Probing of Electron Dynamics in an Atomic Adsorbate by Time-Resolved X-ray Spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, AlbaNova University Center, Stockholm University, SE-10691 Stockholm, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "CNR-IOM, SS 14 – km 163.5, 34149 Basovizza, Trieste, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "FERMI, Elettra-Sincrotrone Trieste, SS 14 – km 163.5, 34149 Basovizza, Trieste, Italy"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California 94025"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Schmid College of Science and Technology, Chapman University, Orange, California 92866"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Physics Department, University of Trieste, Via Valerio 2, 34127 Trieste, Italy"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestrasse 85, Hamburg 22607, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Applied Physics, Stanford University, Stanford, California 94305"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Simon Schreck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Elias Diesen",
+        "orcid": null,
+        "email": "diesen@fhi.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Martina Dell’Angela",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Chang Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Matthew Weston",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Flavio Capotondi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hirohito Ogasawara",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jerry LaRue",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Roberto Costantini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Martin Beye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Piter S. Miedema",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Joakim Halldin Stenlid",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jörgen Gladh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Boyang Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Hsin-Yi Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Fivos Perakis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Filippo Cavalca",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Sergey Koroidov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Peter Amann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Emanuele Pedersoli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Denys Naumenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Ivaylo Nikolov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Lorenzo Raimondi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "Frank Abild-Pedersen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "Tony F. Heinz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_26",
+        "full_name": "Johannes Voss",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_27",
+        "full_name": "Alan C. Luntz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_28",
+        "full_name": "Anders Nilsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The electronic excitation occurring on adsorbates at ultrafast time scales from optical lasers that initiate surface chemical reactions is still an open question. Here, we report the ultrafast temporal evolution of X-ray absorption spectroscopy (XAS) and X-ray emission spectroscopy (XES) of a simple well known adsorbate prototype system, namely carbon (C) atoms adsorbed on a nickel (Ni(100)) surface, following intense laser optical pumping at 400 nm. We observe ultrafast (~100 fs) changes in both XAS and XES showing clear signatures of the formation of a hot electron-hole pair distribution on the adsorbate. This is followed by slower changes on a few ps time scale, shown to be consistent with thermalization of the complete C/Ni system. Density functional theory spectrum simulations support this interpretation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division, Catalysis Science Program",
+        "grant_id": "FWP 100435"
+      },
+      {
+        "funder": "Knut and Alice Wallenberg Foundation",
+        "grant_id": "2016.0042"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2013-8823"
+      },
+      {
+        "funder": "Italian MIUR",
+        "grant_id": "SUNDYN [Nr RBSI14G7TL, CUP B82I15000910001]"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FERMI"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "C/Ni(100)",
+      "sample_description": "carbon (C) atoms adsorbed on a nickel (Ni(100)) surface with coverage 0.5 ML",
+      "chemical_composition": "C/Ni",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "C K-edge XAS measured with a fluorescence detector at different delay times following 400 nm laser pumping.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray emission spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "C K-edge XES measured with a soft X-ray spectrometer at different delay times following 400 nm laser pumping.",
+      "measurement_technique": "X-ray emission spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

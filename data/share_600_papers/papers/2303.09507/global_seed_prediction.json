@@ -1,0 +1,320 @@
+{
+  "bibliographic": {
+    "title": "Data descriptor: Resonant inelastic x-ray scattering data for Ruddlesden-Popper and reduced Ruddlesden-Popper nickelates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Oklahoma State University, Stillwater, Oklahoma 74078, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Materials Science Division, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute of Crystal Materials, Shandong University, Jinan, Shandong 250100, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics and Astronomy, The University of Tennessee, Knoxville, Tennessee 37966, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institute of Advanced Materials and Manufacturing, The University of Tennessee, Knoxville, Tennessee 37996, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Sorbonne Universit´e, CNRS, Laboratoire de Chimie Physique-Mati`ere et Rayonnement, 75005 Paris, France"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Synchrotron SOLEIL, L’Orme des Merisiers, Saint-Aubin, BP 48, 91192 Gif-sur-Yvette, France"
+      },
+      {
+        "id": "aff_11",
+        "label": "+",
+        "text": "Institute of Advanced Science Facilities, Shenzhen 518000, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "G. Fabbris",
+        "orcid": null,
+        "email": "gfabbris@anl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "D. Meyers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Y. Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "V. Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. F. Mitchell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. R. Norman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. Johnston",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "G. S. Chiuzb˘aian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "A. Nicolaou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "N. Jaouen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "M. P. M. Dean",
+        "orcid": null,
+        "email": "mdean@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Ruddlesden-Popper and reduced Ruddlesden-Popper nickelates are intriguing candidates for mimicking the properties of high-temperature superconducting cuprates. The degree of similarity between these nickelates and cuprates has been the subject of considerable debate. Resonant inelastic x-ray scattering (RIXS) has played an important role in exploring their electronic and magnetic excitations, but these efforts have been stymied by inconsistencies between different samples and the lack of publicly available data for detailed comparison. To address this issue, we present open RIXS data on La4Ni3O10 and La4Ni3O8.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0022311"
+      },
+      {
+        "funder": "U.S. DOE Office of Science-Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "U.S. DOE Office of Science",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "Agence Nationale de la Recherche",
+        "grant_id": "ANR-05-NANO-074 (HR-RXRS)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Background & Summary",
+      "Methods",
+      "Data Records",
+      "Technical Validation",
+      "Usage Notes",
+      "Code availability"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La4Ni3O10",
+      "sample_description": "Parent Ruddlesden-Popper nickelate.",
+      "chemical_composition": "La4Ni3O10",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "La4Ni3O8",
+      "sample_description": "Reduced Ruddlesden-Popper nickelate prepared by heating in a flowing 4% H2/Ar gas mixture at 350◦ C for five days.",
+      "chemical_composition": "La4Ni3O8",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ni L3,2 RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering measurements at the Ni L edges.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "O K XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy measurements at the O K edge.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Ni L3,2 XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy measurements at the Ni L edges.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

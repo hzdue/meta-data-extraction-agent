@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Neutron Reflectometry Reveals Conformational Changes in a Mechanosensitive Protein Induced by an Antimicrobial Peptide in Tethered Lipid Bilayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics & Astronomy, James Clerk Maxwell Building, University of Edinburgh, Edinburgh, EH9 3FD, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Lund University, Lund 22100, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, Harwell Campus, Chilton, OX11 0QX, UK"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sophie E. Ayscough",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Maximilian W. A. Skoda",
+        "orcid": null,
+        "email": "maximilian.skoda@stfc.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "James Doutch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Andrew Caruana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Christy Kinane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Luke Clifton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Simon Titmuss",
+        "orcid": null,
+        "email": "simon.titmuss@ed.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Hypothesis Membrane proteins serve a wide range of vital roles in the functioning of living organisms. They are responsible for many cellular functions, such as signaling, ion and molecule transport, binding and catalytic reactions. Compared to other classes of proteins, determining membrane protein structures remains a challenge, in large part due to the difficulty in establishing experimental conditions that can preserve the correct conformation and function of the protein in isolation from its native environment. Many therapeutics target membrane proteins which are accessible on the surface of cells. Here we hypothesize that the observed efficacy of antimicrobial peptides (AMPs) that interact with bacterial membranes may in part be associated with their triggering of a conformational change in the Mechansensitive Ion Channel of Large Conductance (MscL).\n\nExperiments We investigated the ion channel in lipid vesicles and in a planar lipid bilayer. We developed a novel method for protein-lipid planar bilayer formation, avoiding the use of detergents. By using a polymeric tether our planar membrane mimetic was not constrained by the underlying solid substrate, making it sufficiently flexible to allow for increases in bilayer curvature and changes in membrane tension. We used quartz crystal microbalance with dissipation (QCM-D), and polarised neutron reflectivity (PNR) to show the formation of MscL containing phospholipid bilayers, tethered with a high density PEG layer onto gold substrates from vesicle rupture. The MscL containing vesicles were separately characterised with small angle neutron scattering (SANS).\n\nFindings MscL was expressed into vesicles using cell free protein expression. Analysing these vesicles with small angle neutron scattering, the radius of gyration of the protein was determined to be between 26-29˚ A, consistent with the crystal structure of individual MscL channels. The MscL composition of the formed bilayer was 14%v/v, close to the initial composition of the vesicles, and a protein protrusion extending ca. 46˚ A into the solvent was determined by PNR. Addition of 1.6 and 3.2 µM pexiganan resulted in a decrease in the protrusion of MscL (from ∼46 to ∼38˚ A). To our knowledge, these findings represent the first direct experimental evidence of a structural change in the C-terminus containing protrusion of MscL, triggered by an antimicrobial peptide.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC CDT on “Soft and Functional Interfaces”",
+        "grant_id": "EP/L015536/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. MATERIALS AND METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST center for Nanoscience and Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MscL containing vesicles",
+      "sample_description": "Vesicles of 3:1 POPC:POPG lipid composition containing MscL protein.",
+      "chemical_composition": "POPC:POPG (3:1)",
+      "sample_state": "vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "tethered MscL/lipid bilayer",
+      "sample_description": "MscL containing phospholipid bilayer tethered with a PEG layer onto gold substrates.",
+      "chemical_composition": "POPC:POPG (3:1)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle neutron scattering of MscL containing vesicles in D2O buffer to determine protein radius of gyration.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "QCM-D",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Quartz crystal microbalance with dissipation measurements during bilayer formation from vesicle rupture.",
+      "measurement_technique": "quartz crystal microbalance with dissipation",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarised neutron reflectivity measurements of the tethered bilayer before and after exposure to pexiganan.",
+      "measurement_technique": "polarised neutron reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

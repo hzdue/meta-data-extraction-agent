@@ -1,0 +1,278 @@
+{
+  "bibliographic": {
+    "title": "Melting Domain Size and Recrystallization Dynamics of Ice Revealed by Time-Resolved X-ray Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Pohang University of Science and Technology (POSTECH), Pohang, Gyeongbuk 37673, Republic of Korea."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, AlbaNova University Center, Stockholm University, SE-106 91 Stockholm, Sweden."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "SLAC National Accelerator Laboratory, 2575 Sand Hill Road, 'Menlo Park, CA 94025, USA."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Pohang Accelerator Laboratory, Pohang, Gyeongbuk 37673, Republic of Korea."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Cheolhee Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marjorie Ladd-Parada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Kyeongmin Nam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sangmin Jeong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Seonju You",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alexander Späh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Harshad Pathak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tobias Eklund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Thomas J. Lane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jae Hyuk Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Intae Eom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Minseok Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Katrin AmannWinkel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Fivos Perakis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Anders Nilsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Kyung Hwan Kim",
+        "orcid": null,
+        "email": "kyunghwankim@postech.ac.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The phase transition between water and ice is ubiquitous and one of the most important phenomena in nature. Here, we performed time-resolved x-ray scattering experiments capturing the melting and recrystallization dynamics of ice. The ultrafast heating of ice I is induced by an IR laser pulse and probed with an intense x-ray pulse, which provided us with direct structural information on different length scales. From the wide-angle x-ray scattering (WAXS) patterns, the molten fraction, as well as the corresponding temperature at each delay, were determined. The small-angle x-ray scattering (SAXS) patterns, together with the information extracted from the WAXS analysis, provided the time-dependent change of the size and the number of the liquid domains. The results show partial melting (~13 %) and superheating of ice occurring at around 20 ns. After 100 ns, the average size of the liquid domains grows from about 2.5 nm to 4.5 nm by the coalescence of approximately six adjacent domains. Subsequently, we capture the recrystallization of the liquid domains, which occurs on microsecond timescales due to the cooling by heat dissipation and results to a decrease of the average liquid domain size.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "2019R1C1C1006643"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "2020R1A5A1019141"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "667205"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Methods",
+      "Preparation of ice I sample",
+      "Time-resolved x-ray scattering experiment",
+      "Integrated intensities of the difference scattering pattern",
+      "Temperature and thickness estimation of the molten domain",
+      "Radius estimation of the molten domain",
+      "Estimation of the heat diffusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PAL-XFEL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ice I",
+      "sample_description": "Ice I sample with a thickness of ~84 μm prepared on a Cu-grid.",
+      "chemical_composition": "H2O",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "wide-angle x-ray scattering (WAXS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of scattering patterns to determine molten fraction and temperature of the molten domain at various time delays.",
+      "measurement_technique": "wide-angle x-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "small-angle x-ray scattering (SAXS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of scattering patterns to determine the size and number of liquid domains at various time delays.",
+      "measurement_technique": "small-angle x-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

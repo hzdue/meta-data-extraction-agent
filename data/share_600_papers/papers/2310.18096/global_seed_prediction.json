@@ -1,0 +1,140 @@
+{
+  "bibliographic": {
+    "title": "The magnetic exciton of EuS revealed by resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "The Rossendorf Beamline (ROBL) at the ESRF, 71 Avenue des Martyrs, Grenoble 38043, France"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Institute of Resource Ecology, Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Bautzner Landstraße 400, 01328 Dresden, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "LumiLab, Department of Solid State Sciences, Ghent University, Krijgslaan 281-S1, B-9000 Gent, Belgium"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "ESRF – The European Synchrotron, 71 Avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Institute of Physics (FZU), Czech Academy of Sciences, Na Slovance 2, 182 00 Prague, Czech Republic"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Lucia Amidani",
+        "orcid": null,
+        "email": "lucia.amidani@esrf.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jonas J. Joos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Pieter Glatzel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jindřich Kolorenč",
+        "orcid": null,
+        "email": "kolorenc@fzu.cz",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "We report the valence-to-core resonant inelastic x-ray scattering (RIXS) of EuS measured at the L3 edge of Eu. The obtained data reveal two sets of excitations: one set is composed of a hole in the S 3p bands and an electron excited to extended Eu 5d band states, the other is made up from a hole in the Eu 4f states and an electron in localized Eu 5d states bound to the 4f hole by its Coulomb potential. The delocalized excitations arise from the dipole-allowed 5d → 2p emissions, whereas the localized excitations result from the dipole-forbidden (quadrupole-allowed) 4f → 2p emissions. Both these emission channels have a comparable intensity thanks to a small number of occupied 5d states (≈ 0 . 6) combined with a large number of occupied 4f states (seven). We identify the localized electron-hole pairs with the “magnetic excitons” suggested in the past as an interpretation of the sharp features seen in the optical absorption spectra. Our observations provide a direct experimental evidence of these excitons which has been missing up to now.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-10-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "759696"
+      },
+      {
+        "funder": "Czech Science Foundation",
+        "grant_id": "21-09766S"
+      },
+      {
+        "funder": "Ghent University Special Research Fund",
+        "grant_id": "BOF/PDO/2017/002101"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ESRF"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "EuS",
+      "sample_description": null,
+      "chemical_composition": "EuS",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "experimental RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Valence-to-core resonant inelastic x-ray scattering of EuS collected on the ID26 beamline at the Eu L3 edge.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

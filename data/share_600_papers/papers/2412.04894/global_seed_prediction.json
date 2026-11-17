@@ -1,0 +1,307 @@
+{
+  "bibliographic": {
+    "title": "Polymyxin B-enriched exogenous lung surfactant: thermodynamics and structure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physical Chemistry of Drugs, Faculty of Pharmacy, Comenius University Bratislava, 832 32 Bratislava, Slovakia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ALBA Synchrotron Light Source, Cerdanyola del Vallés, 08290 Barcelona, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Laboratoire Léon-Brillouin (LLB), UMR12 CEA, CNRS, Université Paris-Saclay, F-91191 Gif-sur-Yvette CEDEX, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nina Královič – Kanjaková",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ali Asi Shirazi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lukáš Hubčík",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mária Klacsová",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Atoosa Keshavarzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Juan Carlos Martínez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Sophie Combet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "José Teixeira",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Daniela Uhríková",
+        "orcid": "0000-0002-4397-1283",
+        "email": "uhrikova@fpharm.uniba.sk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The use of exogenous pulmonary surfactant (EPS) to deliver other relevant drugs to the lung is a promising strategy for combined therapy. We evaluated the interaction of polymyxin B (PxB) with clinically used EPS, the poractant alfa Curosurf® (PSUR). The effect of PxB on the protein-free model system (MS) composed of four phospholipids (diC16:0PC/16:0-18:1PC/16:0-18:2PC/16:0-18:1PG) was examined in parallel to distinguish the specificity of the composition of PSUR. We used several experimental techniques (differential scanning calorimetry, small- and wide-angle X-ray scattering, small angle neutron scattering, fluorescence spectroscopy, and zeta potential) to characterize the binding of PxB to both EPS. Electrostatic interactions PxB - EPS are dominant. The results obtained support the concept of cationic PxB molecules lying on the surface of the PSUR bilayer, strengthening the multilamellar structure of the PSUR as derived from SAXS and SANS. A protein-free model MS mimics natural EPS well but was found to be less resistant to penetration of PxB into the lipid bilayer. PxB does not affect the gel-to-fluid phase transition temperature Tm of PSUR, while Tm increased ~ +2° C in MS. The thickness of the lipid bilayer ( dL ) of PSUR slightly decreases as a result of PxB binding, however, the hydrophobic tail of the PxB molecule does not penetrate the bilayer as derived from SANS data analysis and changes in lateral pressure monitored by excimer fluorescence at two depths of the hydrophobic region of the bilayer. Changes in dL of protein-free MS show a biphasic dependence on the adsorbed amount of PxB with a minimum close to the point of electroneutrality of the mixture. Our results do not discourage the concept of a combined treatment with PxB - enriched Curosurf®. However, the amount of PxB must be carefully assessed (less than 5 wt% relative to the mass of the surfactant) to avoid inversion of the surface charge of the membrane.",
+    "keywords": [
+      "polymyxin B",
+      "pulmonary surfactant",
+      "DSC",
+      "SAXS/WAXS",
+      "SANS",
+      "lateral pressure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "VEGA",
+        "grant_id": "1/0223/20"
+      },
+      {
+        "funder": "VEGA",
+        "grant_id": "1/0305/24"
+      },
+      {
+        "funder": "APVV",
+        "grant_id": "17-0250"
+      },
+      {
+        "funder": "FaF",
+        "grant_id": "27/2023"
+      },
+      {
+        "funder": "FaF",
+        "grant_id": "28/2023"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "654000"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Material and Methods:",
+      "Results and discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "Laboratoire Léon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PSUR",
+      "sample_description": "poractant alfa Curosurf® porcine pulmonary surfactant",
+      "chemical_composition": null,
+      "sample_state": "suspension",
+      "sample_mass": null,
+      "supplier_or_creator": "Chiesi Farmaceutici"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MS",
+      "sample_description": "protein-free model system of pulmonary surfactant",
+      "chemical_composition": "DPPC:POPC:PLPC:POPG=50:24:16:10 wt%",
+      "sample_state": "lipid bilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PxB/PSUR",
+      "sample_description": "mixtures of poractant alfa Curosurf® and polymyxin B",
+      "chemical_composition": null,
+      "sample_state": "suspension",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PxB/MS",
+      "sample_description": "mixtures of protein-free model system and polymyxin B",
+      "chemical_composition": null,
+      "sample_state": "lipid bilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Zeta Potential Measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the surface charge of PSUR and MS vesicles incubated with PxB at 37 °C.",
+      "measurement_technique": "electrophoretic light scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Differential scanning calorimetry (DSC)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Characterization of thermodynamic properties and gel-to-fluid phase transition temperature Tm.",
+      "measurement_technique": "differential scanning calorimetry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SAXS/WAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Examination of structural changes in lamellar packing and repeat distance d at 40 °C.",
+      "measurement_technique": "X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Analysis of lipid bilayer thickness dL and aggregation of unilamellar vesicles into oligolamellar vesicles at 37 °C.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Lateral pressure measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Monitoring bilayer lateral pressure change using excimer fluorescence spectrometry at 45 °C.",
+      "measurement_technique": "excimer fluorescence spectrometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

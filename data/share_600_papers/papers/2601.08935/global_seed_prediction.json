@@ -1,0 +1,253 @@
+{
+  "bibliographic": {
+    "title": "Effect of Niobium Doping on the Crystal Structure and Hydrogen Sorption Properties of TiFe: Combined Synchrotron X-ray Diffraction and Extended X-ray Absorption Fine Structure Study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Mathematics and Physics, University of Stavanger, Stavanger P.O. Box 8600, NO-4036 Forus, Norway"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Department of for Hydrogen Technology, Institute for Energy Technology, P.O. Box 40, NO-2027 Kjeller, Norway"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Abhishek Banerjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Stefano Deledda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Olena Zavorotynska",
+        "orcid": null,
+        "email": "olena.zavorotynska@uis.no",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "TiFe alloys are attractive compounds for solid-state stationary hydrogen storage. They can absorb hydrogen gas reversibly at near ambient temperatures and practical pressures with high volumetric capacities surpassing that of cryogenically liquified H2. The main drawback of TiFe-based storage systems is a costly activation procedure required due to the formation of oxide surface layer, which hinders hydrogen diffusion into the bulk. Doping the alloy with various additives is known to improve hydrogen diffusion softening the conditions of the activation procedure. Hydrogen sorption properties of the modified alloys have been the focus of most studies whereas less attention has been dedicated to the fundamental understanding of the effects of hydrogen sorption on the alloys’ structure. The latter, however, is an important information in the knowledge-guided design of novel materials. \n\nIn this work, we investigated effects of Nb-doping on crystallographic structure of TiFe metalalloy compounds and their hydrogen sorption properties. TiFe samples with two different Nb stoichiometries were synthesized using arc-melting (AM) and characterised with synchrotron powder X-ray diffraction (SR-PXRD) and extended X-ray absorption fine structure (EXAFS) analysis. Overall, H 2 absorption measurements (at 50 ± 2 ℃ and 40 ± 2 bar), have shown that doping of TiFe with Nb can improve matrix activation and kinetics of hydrogen sorption without compromising the overall storage capacities. Refinement of SR-PXRD and EXAFS data showed significant Nb occupancy in secondary Ti phases, which improved the hydrogenation properties of the alloys.",
+    "keywords": [
+      "EXAFS",
+      "Nb additives",
+      "TiFe alloys",
+      "in situ synchrotron X-ray diffraction",
+      "hydrogen storage"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "206021_189629"
+      },
+      {
+        "funder": "Research Council of Norway",
+        "grant_id": "296087"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results and Discussions",
+      "4. Hydrogenation Properties",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "TiFe_BH",
+      "sample_description": "Before hydrogenation",
+      "chemical_composition": "TiFe",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "TiFe_AH",
+      "sample_description": "After H2 act/abs/desorption",
+      "chemical_composition": "TiFe",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "TiFe0.9_BH",
+      "sample_description": "Before hydrogenation",
+      "chemical_composition": "TiFe0.9",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "TiFe0.9_AH",
+      "sample_description": "After H2 act/abs/desorption",
+      "chemical_composition": "TiFe0.9",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Nb0.05_BH",
+      "sample_description": "Before hydrogenation",
+      "chemical_composition": "TiFe0.9Nb0.05",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Nb0.05_AH",
+      "sample_description": "After H2 act/abs/desorption",
+      "chemical_composition": "TiFe0.9Nb0.05",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Nb0.1_BH",
+      "sample_description": "Before hydrogenation",
+      "chemical_composition": "TiFe0.9Nb0.1",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Nb0.1_AH",
+      "sample_description": "After H2 act/abs/desorption",
+      "chemical_composition": "TiFe0.9Nb0.1",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SR-PXRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Synchrotron powder X-ray diffraction patterns collected in transmission mode at room temperature and as a function of temperature (300-500 K).",
+      "measurement_technique": "synchrotron powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Micro-structural images and energy dispersive spectroscopy analysis to understand alloy morphology and average composition.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure spectroscopy data collected at Nb k-edge in transmission mode.",
+      "measurement_technique": "extended X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "H2 absorption measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Hydrogen activation, absorption, and desorption isotherms measured at 50 ± 2 ℃ and 40 ± 2 bar.",
+      "measurement_technique": "Sievert’s type apparatus",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

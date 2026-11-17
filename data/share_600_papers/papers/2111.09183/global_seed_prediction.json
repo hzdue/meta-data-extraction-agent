@@ -1,0 +1,362 @@
+{
+  "bibliographic": {
+    "title": "Interfacial Magnetic Vortex Formation in ExchangeCoupled Hard-Soft Magnetic Bilayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Science and Engineering, University of Maryland, College Park, Maryland 20742, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Rowan University, Glassboro, NJ 08028, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, California 94720, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics and Astronomy and Nebraska Center for Materials and Nanoscience, University of Nebraska, Lincoln, Nebraska 68588, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Division of Materials Science and Engineering, Ames Laboratory, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, Iowa State University, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Quantum Materials Center, University of Maryland, College Park, Maryland 20742, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "X. H. Zhang",
+        "orcid": null,
+        "email": "xhzhang@umd.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "T. R. Gao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "L. Fang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Fackler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "B. J. Kirby",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "B. B. Maranville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. E. Lofland",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. T. N’Diaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "E. Arenholz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "A. Ullah",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "J. Cui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "R. Skomski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "I. Takeuchi",
+        "orcid": null,
+        "email": "takeuchi@umd.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "The exchange coupling between a hard magnetic layer MnBi and a soft magnetic layer Co-Fe has been found to significantly improve the maximum energy product.  In this work, the spin structure of exchange-coupled MnBi:Co-Fe bilayers is experimentally investigated by X-ray magnetic circular dichroism (XMCD) and polarized neutron reflectometry (PNR). We find that the out-ofplane magnetization reversal process of the MnBi:Co-Fe bilayer structure involves formation of a curling-type twisting of the magnetization in the film plane at low or intermediate reversal fields. Micromagnetic simulations are further performed to provide a detailed view of the spins at the curling center. Reminiscent of chiral spin structures known as spin bobbers, this curling in the exchange-coupled hard-soft magnetic bilayers is a new type of skyrmionic spin structure and worth further investigation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Energy ARPA-E REACT",
+        "grant_id": "0472-1549"
+      },
+      {
+        "funder": "NIST Cooperative Agreement",
+        "grant_id": "70NANB17H301"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "EQUATE (OIA-2044049)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnBi",
+      "sample_description": "Mn-Bi film with a Mn:Bi ratio of 50:50",
+      "chemical_composition": "MnBi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MnBi(20 nm)/Co70Fe30(3 nm)",
+      "sample_description": "Bilayer structure with a capping layer of Pt or SiO2",
+      "chemical_composition": "MnBi/Co70Fe30",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "MnBi(20 nm)/Co70Fe30(5 nm)",
+      "sample_description": "Bilayer structure used for in-plane XMCD",
+      "chemical_composition": "MnBi/Co70Fe30",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "MnBi(25 nm)/Co70Fe30(5 nm)",
+      "sample_description": "Bilayer structure used for PNR measurements",
+      "chemical_composition": "MnBi/Co70Fe30",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "VSM",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In-plane and out-of-plane hysteresis loops of a MnBi(20 nm)/Co70Fe30(3 nm) bilayer structure.",
+      "measurement_technique": "vibrating-sample magnetometer",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Element-specific out-of-plane hysteresis loops of Mn and Fe in the bilayer structure.",
+      "measurement_technique": "X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "in-plane XMCD",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-plane XMCD hysteresis loops of Fe obtained by applying a magnetic field in the film plane.",
+      "measurement_technique": "X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Non-spin-flip and spin-flip reflectivities measured at different magnetic fields from 0.004 T to 0.77 T.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction pattern of a MnBi (100 nm) film measured at room temperature.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectivity measurements to confirm the thickness of each layer.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

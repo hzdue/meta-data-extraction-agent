@@ -1,0 +1,522 @@
+{
+  "bibliographic": {
+    "title": "Local Inversion Symmetry Breaking and Thermodynamic Evidence for Ferrimagnetism in Fe3GaTe2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National High Magnetic Field Laboratory, Tallahassee, Florida 32310, United States"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Florida State University, Tallahassee, Florida 32306, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Materials Science Division, Argonne National Laboratory, Lemont, Illinois 60439, United States"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Pohang University of Science and Technology, Pohang 37673, Republic of Korea"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Chemistry & Biochemistry, Baylor University, Waco, Texas 76706, United States"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute for Condensed Matter and Complex Systems, School of Physics and Astronomy, The University of Edinburgh, Edinburgh EH9 3FD, U.K."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, Hanyang University, Seoul 04763, Republic of Korea"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "NIST Center for Neutron Research National Institute of Standards and Technology Gaithersburg, MD 20899, USA."
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "University of Missouri Research Reactor, University of Missouri, Columbia, Missouri 65211, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Physics and Astronomy, University of Missouri, Columbia, Missouri 65211, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "MU Materials Science and Engineering Institute, University of Missouri, Columbia, Missouri 65211, USA"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_13",
+        "label": "13",
+        "text": "Department of Physics, University of Maryland, College Park, Maryland 20742, United States"
+      },
+      {
+        "id": "aff_14",
+        "label": "14",
+        "text": "Department of Materials Science and Engineering, University of Maryland, College Park, Maryland 20742, United States"
+      },
+      {
+        "id": "aff_15",
+        "label": "15",
+        "text": "Higgs Centre for Theoretical Physics, The University of Edinburgh, Edinburgh EH9 3FD, U.K."
+      },
+      {
+        "id": "aff_16",
+        "label": "16",
+        "text": "Donostia International Physics Center (DIPC), 20018 Donostia-San Sebastián, Basque Country, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sang-Eon Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yue Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yeonkyu Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "W. Kice Brown",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "PeiYu Cai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jinyoung Yun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chanyoung Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Alex Moon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Lingrui Mei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jaeyong Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Yan Xin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Thomas W. Heitmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Matthias Frontzek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "William D. Ratcliff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_13",
+          "aff_14"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Gregory T. McCandless",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Julia Y. Chan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Elton J. G. Santos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_15",
+          "aff_16"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Jeehoon Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Charudatta M. Phatak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Vadym Kulichenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Luis Balicas",
+        "orcid": null,
+        "email": "balicas@magnet.fsu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The layered compound Fe3GaTe2 is attracting attention due to its high Curie temperature, low dimensionality, and the presence of topological spin textures above room temperature, making Fe3GaTe2 a good candidate for applications in spintronics. Here, we show, through transmission electron microscopy (TEM) techniques, that Fe3GaTe2 single crystals break local inversion symmetry while maintaining global inversion symmetry according to X-ray diffraction. Coupled to the observation of Néel skyrmions via Lorentz-TEM, our structural analysis provides a convincing explanation for their presence in centrosymmetric materials. Magnetization measurements as a function of the temperature displays a sharp first-order thermodynamic phasetransition leading to a reduction in the magnetic moment. This implies that the ground state of Fe3GaTe2 is globally ferrimagnetic and not a glassy magnetic state composed of ferrimagnetic, and ferromagnetic domains as previously claimed. Neutron diffraction studies indicate that the ferromagnetic to ferrimagnetic transition upon reducing the external magnetic field is associated with a change in the magnetic configuration/coupling between Fe1 and Fe2 moments. We observe a clear correlation between the hysteresis observed in both the skyrmion density and the magnetization of Fe3GaTe2. This indicates that its topological spin textures are affected by the development of ferrimagnetism upon cooling. Observation, via magnetic force microscopy, of magnetic bubbles at the magnetic phase boundary suggests skyrmions stabilized by the competition among magnetic phases and distinct exchange interactions.  Our study provides an explanation for the observation of Néel skyrmions in centrosymmetric systems, while exposing a correlation between the distinct magnetic phases of Fe3GaTe2 and topological spin textures.",
+    "keywords": [
+      "van der Waals ferromagnets",
+      "anomalous Hall-effect",
+      "skyrmions",
+      "topological Hall-effect",
+      "ferrimagnetism",
+      "transmission electron microscopy",
+      "magnetic force microscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "US DoE, BES program",
+        "grant_id": "DE-SC0002613"
+      },
+      {
+        "funder": "US-NSF-DMR",
+        "grant_id": "2219003"
+      },
+      {
+        "funder": "Office Naval Research DURIP Grant",
+        "grant_id": "11997003"
+      },
+      {
+        "funder": "DOE",
+        "grant_id": "DE-SC0022854"
+      },
+      {
+        "funder": "Welch Foundation",
+        "grant_id": "AA-2056-20240404"
+      },
+      {
+        "funder": "US-NSF Cooperative agreement Grant",
+        "grant_id": "DMR-2128556"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "National Research Foundation of Korea (NRF)",
+        "grant_id": "RS-2024-00410027"
+      },
+      {
+        "funder": "National Research Foundation of Korea (NRF)",
+        "grant_id": "2022H1D3A3A01077468"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/P020267/1"
+      },
+      {
+        "funder": "EPSRC grant",
+        "grant_id": "EP/X035891/1"
+      },
+      {
+        "funder": "EPSRC Open Fellowship",
+        "grant_id": "EP/T021578/1"
+      },
+      {
+        "funder": "China Scholarship Council",
+        "grant_id": "202208060246"
+      },
+      {
+        "funder": "National Research Foundation of Korea (NRF)",
+        "grant_id": "RS-202400412446"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and Discussion",
+      "Structural characterization of Fe3GaTe2",
+      "Magnetic properties of Fe3GaTe2",
+      "Analysis of the neutron scattering data collected under applied magnetic fields",
+      "The anomalous Hall conductivity of Fe3GaTe2",
+      "Magnetic domains in Fe3GaTe2 and their evolution as a function of magnetic field",
+      "LTEM images unveil Néel skyrmions in Fe3GaTe2",
+      "Unconventional Hall effect in Fe3GaTe2",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "University of Missouri Research Reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe3GaTe2",
+      "sample_description": "Single crystals prepared via chemical vapor transport.",
+      "chemical_composition": "Fe3GaTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Crystallographic structure determination of Fe3GaTe2.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HAADF-STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of atomic structure and local inversion symmetry breaking.",
+      "measurement_technique": "High-Angle Annular Dark-Field Scanning Transmission Electron Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of magnetic susceptibility and magnetization as a function of temperature and field.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Study of magnetic configuration and coupling between Fe1 and Fe2 moments.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Hall effect measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of anomalous and unconventional Hall conductivity.",
+      "measurement_technique": "Hall effect measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "MFM imaging",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of magnetic domains and bubbles at the magnetic phase boundary.",
+      "measurement_technique": "Magnetic Force Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "LTEM imaging",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of Néel skyrmions and their temperature dependence.",
+      "measurement_technique": "Lorentz transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

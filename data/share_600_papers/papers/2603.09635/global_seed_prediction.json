@@ -1,0 +1,331 @@
+{
+  "bibliographic": {
+    "title": "Pressure-Stabilized MnSb2 with Complex Incommensurate Magnetic Order",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Michigan State University, East Lansing, Michigan 48824, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Ames National Laboratory, Iowa State University, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Iowa State University, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mingyu Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Matt Boswell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Qing-Ping Ding",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Cheng Peng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Aashish Sapkota",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Qiang Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Danielle Yahne",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sergey. L. Bud’ko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yuji Furukawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Paul. C. Canfield",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Raquel A. Ribeiro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Weiwei Xie",
+        "orcid": null,
+        "email": "xieweiwe@msu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Marcasite-type compounds have been proposed as promising hosts of exotic magnetic quantum states, yet experimental realizations in stoichiometric, disorder-free systems remain limited. Here, we report the high-pressure stabilization and magnetic characterization of MnSb2, a marcasitetype compound that is thermodynamically metastable under ambient pressure. Single crystals were synthesized using a cubic multi-anvil press, and powder and single-crystal X-ray diffraction confirm the orthorhombic Pnnm structure. These crystals are stable at ambient pressure for a long time up to between 450-500 K. Heat-capacity measurements reveal phase transitions at approximately 220 K and 118 K. Neutron diffraction uncovers an unconventional magnetic state below 220 K. Magnetic powder neutron diffraction refinements reveal possible multiple magnetic configurations that provide comparably acceptable fits to the experimental data. While most solutions are consistent with a spindensity-wave (SDW) description, helical models systematically yield inferior agreement factors. Across a broad range of models, the Mn ordered moment reaches a maximum value of approximately 2 μB and remains predominantly collinear, with minimal canting along the c -axis.  At 200 K, the magnetic propagation vector is q = (0, 0.3975, 0.3783); upon cooling, the b component increases toward 0.5, reflecting a temperature-dependent evolution of the modulation. The need for modification of the magnetic model between high and low temperatures further highlights the complex and strongly temperature-dependent nature of the magnetic order in this system. These results establish MnSb2 as a pressure-stabilized marcasite magnet with a tunable, complex magnetic state and a compelling stoichiometric platform for exploring unconventional magnetic behavior, including potential altermagnetism.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Energy",
+        "grant_id": "DE-SC-0023648"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC02-07CH11358"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-2422361"
+      },
+      {
+        "funder": "ORAU",
+        "grant_id": "DESC0014664"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Methods",
+      "Results and Discussion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnSb2",
+      "sample_description": "High-pressure stabilized marcasite-type compound.",
+      "chemical_composition": "MnSb2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MnSb2",
+      "sample_description": "Polycrystalline matrix of MnSb2.",
+      "chemical_composition": "MnSb2",
+      "sample_state": "polycrystalline",
+      "sample_mass": "6 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Single Crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of the crystal structure of the obtained single crystal.",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase identification and structural characterization of MnSb2.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "DC magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature- and magnetic-field-dependent DC magnetization data.",
+      "measurement_technique": "DC magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Electrical resistance",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "AC electrical resistance measurements in a standard four-contact geometry.",
+      "measurement_technique": "electrical resistance",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Specific heat",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent specific heat measurements on polycrystalline sample.",
+      "measurement_technique": "specific heat",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Neutron Powder Diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Determination of crystal and magnetic structures using POWGEN and HB-2A beamlines.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Nuclear Magnetic Resonance",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "NMR measurements of 55Mn, 121Sb, and 123Sb nuclei on polycrystalline powder samples.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "MagneticFieldScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

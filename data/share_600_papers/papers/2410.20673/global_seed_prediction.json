@@ -1,0 +1,304 @@
+{
+  "bibliographic": {
+    "title": "Effect of antisite disorder on the magnetic and transport properties of a quaternary Heusler alloy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Technology (Banaras Hindu University), Varanasi 221005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Deen Dayal Upadhyaya Gorakhpur University, Gorakhpur, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Material Science and Technology, Indian Institute of Technology (Banaras Hindu University), Varanasi 221005, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai 400085, India and Homi Bhabha National Institute, Anushaktinagar, Mumbai 400094, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute for solid State Physics, University of Tokyo, Kashiwa, 2778581, Chiba, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Max Planck Institute for Chemical Physics of Solids, Nöthnitzer Str. 40, 01187 Dresden, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Srishti Dixit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Swayangsiddha Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sanskar Mishra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Nisha Shahi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Prashant Shahi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sanjay Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. K. Bera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. M. Yusuf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Yoshiya Uwatoko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "C.-F. Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Sandip Chatterjee",
+        "orcid": null,
+        "email": "schatterji.app@itbhu.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Spin gapless semiconductors based Heusler alloys are the special class of materials due to their unique band structure, high spin polarization and high Curie temperature. These materials exhibit a distinct electronic structure: a nonzero band gap in one spin channel while the other spin channel remains gapless, making them highly suitable for tunable spintronics. In this study, a comprehensive analysis of structural, magnetic, thermoelectric, and transport properties of the quaternary Heusler alloy CoFeMnSn is conducted. X-ray diffraction and Neutron diffraction analyses confirm a wellordered structure with partial antisite disorder between Co ⇄ Fe and Mn ⇄ Sn atoms. Magnetic studies show that the material exhibits room-temperature ferromagnetism, with a Curie temperature of around 660 K. Notably, we observe an anomalous Hall effect (AHE) linked to intrinsic mechanisms driven by Berry curvature, underscoring the intricate relationship between structural disorder and electronic behavior. Transport measurements also highlight the impact of antisite disorder on the systems, with resistivity decreasing as temperature increases. These insights position CoFeMnSn as a promising material for future spintronic devices and advanced technological applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSIONS",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dhruva reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CoFeMnSn",
+      "sample_description": "Polycrystalline quaternary Heusler alloy with partial antisite disorder between Co ⇄ Fe and Mn ⇄ Sn atoms.",
+      "chemical_composition": "CoFeMnSn",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room temperature XRD pattern used to determine crystal structure and purity.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Room temperature and temperature-dependent neutron diffraction patterns to determine site occupancies and magnetic ordering.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray Absorption Spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XAS and XMCD measurements on Co, Fe, and Mn elements at 40 K.",
+      "measurement_technique": "X-ray Absorption Spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Photoelectron spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "PES wide scan at 1000 eV and valence band scan.",
+      "measurement_technique": "Photoelectron spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Isothermal Magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "M(H) curves and temperature-dependent magnetization M(t) from 2 K to 300 K.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "longitudinal resistivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent longitudinal conductivity and resistivity from 2 K to 300 K.",
+      "measurement_technique": "resistivity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Hall Resistivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Field dependent Hall resistivity measured between 2 K to 300 K to analyze AHE.",
+      "measurement_technique": "Hall resistivity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "Thermoelectric Power",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature variation of the Seebeck coefficient from 100 K to 300 K.",
+      "measurement_technique": "Seebeck coefficient",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

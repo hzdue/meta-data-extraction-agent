@@ -1,0 +1,316 @@
+{
+  "bibliographic": {
+    "title": "Pressure-Induced Structural and Magnetic Evolution in Layered Antiferromagnet YbMn2Sb2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Michigan State University, East Lansing, MI, 48864, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institutes of Physical Science and Information Technology, Anhui University, Hefei 230601, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Anhui Province Key Laboratory of Low-Energy Quantum Materials and Devices, High Magnetic Field Laboratory, HFIPS, Chinese Academy of Sciences, Hefei, Anhui 230031, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mingyu Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Matt Boswell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Aya Rutherford",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Cheng Peng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Ying Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Shuyang Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Zhaorong Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Antonio M. dos Santos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Haidong Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Weiwei Xie",
+        "orcid": null,
+        "email": "xieweiwe@msu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Electronic states under pressure exhibit unconventional spin and charge dynamics that provide a powerful route to uncover exotic phases in quantum materials. Here, we present the structural, magnetic, and electronic evolution of YbMn2Sb2 under pressure. Single-crystal X-ray diffraction reveals a pressure-induced structural transition from the space group trigonal P 3m 1 to the monoclinic P 2₁/ m phase near 3.5 GPa, which remains stable up to 10 GPa. Magnetization measurements display an anomalously weak net magnetic moment and the absence of Curie-Weiss behavior up to 400 K, suggesting the formation of short-range Mn moment pairs that cancel macroscopically and subsequently evolve into long-range order upon cooling. Temperaturedependent resistivity shows semiconducting behavior with a transition at ~119 K at ambient pressure, while pressure induces a dramatic suppression of resistance and the emergence of metallic-like temperature dependence, stabilized beyond 5 GPa. This pressure-driven semiconductor-metal transition is consistent with our density functional theory calculations, confirming the closing of the band gap under compression. Neutron diffraction under pressure identifies an incommensurate magnetic structure with antiparallel correlations between paired spins. Together, these results demonstrate how pressure-driven structural tuning and competing exchange interactions stabilize unconventional magnetic states in this low-dimensional magnetic semiconductor.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE), Division of Basic Energy Sciences",
+        "grant_id": "DE-SC0023648"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-2003117"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12204004"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2023YFA1406102"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Methods",
+      "Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Oak Ridge National Laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "Center for Nanophase Materials Science"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YbMn2Sb2",
+      "sample_description": "Single-crystalline sample synthesized using a two-step high-temperature solution growth method.",
+      "chemical_composition": "YbMn2Sb2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YbMn2Sb2 powder",
+      "sample_description": "Powdered sample used for high-pressure neutron diffraction.",
+      "chemical_composition": "YbMn2Sb2",
+      "sample_state": "powder",
+      "sample_mass": "500 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ambient pressure Single Crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements performed between 100-400 K at ambient pressure using Mo Kα radiation.",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "High-Pressure SCXRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High-pressure single-crystal XRD performed at room temperature up to 8.8 GPa.",
+      "measurement_technique": "single crystal X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature- and magnetic-field-dependent magnetization measurements.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "resistance measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC electrical resistance measured in a standard four-contact geometry.",
+      "measurement_technique": "electrical resistance",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "High-pressure Electrical Resistance Measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High-pressure electrical resistance measurements on single-crystalline YbMn2Sb2 up to 50.3 GPa.",
+      "measurement_technique": "electrical resistance",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "High-pressure neutron diffraction measurements",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction experiments performed at the SNAP beamline (BL-3) up to 8.2 GPa.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Energy Dispersive Spectroscopy (EDS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Elemental analysis of plate-like crystals using a JEOL 6610LV SEM.",
+      "measurement_technique": "energy dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "bibliographic": {
+    "title": "Structural peculiarities of ε-Fe2O3 / GaN epitaxial layers unveiled by high-resolution transmission electron microscopy and neutron reflectometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Division of Solid State Physics, Division of Physics of Dielectrics and Semiconductors, Centre of nanoheterostructure Physics, Ioffe Institute, St. Petersburg, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratory for Neutron Scattering and Imaging (LNS), Paul Scherrer Institute (PSI), Villigen, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Neutron Science and Technology Center, CROSS, Tokai 319-1106, Japan"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Catalan Institute of Nanoscience and Nanotechnology (ICN2), CSIC and BIST, Campus UAB, Bellaterra, Barcelona, 08193, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sergey M. Suturin",
+        "orcid": null,
+        "email": "suturin@mail.ioffe.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Polina A. Dvortsova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Leonid A. Snigirev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Victor A. Ukleev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Takayasu Hanashima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Marcos Rosado",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Belén Ballesteros",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "The present paper is dedicated to the structural study of crystallographic peculiarities appearing in epitaxial films of metastable epsilon iron oxide (ε-Fe2O3) grown by pulsed laser deposition onto a semiconductor GaN (0001) substrate. The columnar structure of the nanoscale ε-Fe2O3 films has been for the first time investigated using high resolution electron microscopy (HRTEM) direct space technique complemented by reciprocal space methods of high-energy electron diffraction and color-enhanced HRTEM image Fourier filtering. The study of ε-Fe2O3 / GaN interface formation has been further expanded by carrying out a depth resolved analysis of density and chemical composition by neutron reflectometry and energy-dispersive X-ray spectroscopy. The obtained results shed light onto the properties and the origin of the enigmatic few-nanometer thick low density transition layer residing at the ε-Fe2O3 / GaN interface. A detailed knowledge of the properties of this layer is believed to be highly important for the development of ε-Fe2O3 / GaN heterostructures that can potentially become part of the iron-oxide based ferroicon-semiconductor devices with room temperature magneto-electric coupling.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EU’s Framework Program",
+        "grant_id": "654360"
+      },
+      {
+        "funder": "Ministry of Education and Science of the Russian Federation",
+        "grant_id": "RFMEFI62119X0021"
+      },
+      {
+        "funder": "SNSF",
+        "grant_id": "200021_188707"
+      },
+      {
+        "funder": "SNSF",
+        "grant_id": "Sinergia CRSII5-171003"
+      },
+      {
+        "funder": "Spanish Ministry of Economy and Competitiveness",
+        "grant_id": "SEV20170706"
+      },
+      {
+        "funder": "Generalitat de Catalunya",
+        "grant_id": "SGR 327"
+      },
+      {
+        "funder": "Ministry of Science and Higher Education of the Russian Federation",
+        "grant_id": "075-15-2021-1349"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. EXPERIMENTAL",
+      "3. RESULTS AND DISCUSSION",
+      "3.1. TEM and EDX-STEM composition profiling",
+      "3.2. Depth profiling by PNR",
+      "3.3. FFT analysis of HRTEM images",
+      "3.4. Direct space modelling of HRTEM images",
+      "3.5. Structural analysis of the interface area",
+      "4. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "J-PARC MLF"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "sample A",
+      "sample_description": "Epitaxial ε-Fe2O3 film grown at 830 °C with thickness of 85 nm.",
+      "chemical_composition": "ε-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "sample B",
+      "sample_description": "Epitaxial ε-Fe2O3 film grown at 830 °C with thickness of 100 nm.",
+      "chemical_composition": "ε-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "sample C",
+      "sample_description": "Epitaxial ε-Fe2O3 film grown at 650 °C with thickness of 80 nm.",
+      "chemical_composition": "ε-Fe2O3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RHEED",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In-situ 3D reciprocal space mapping of the crystal structure during growth.",
+      "measurement_technique": "reflection high-energy electron diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HRTEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Examination of the crystal structure of the film cross-section.",
+      "measurement_technique": "high-resolution transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "EDX",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of chemical composition, interface sharpness and element mixing.",
+      "measurement_technique": "energy-dispersive X-ray spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Depth resolved analysis of density and chemical composition using polarized neutron reflectometry.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

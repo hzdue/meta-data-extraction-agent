@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "Absence of first order magnetic transition, a curious case of Mn3InC",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Goa University, Taleigao Plateau, Goa 403206 India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics, Division, Bhabha Atomic Research Centre, Trombay, Mumbai 400085"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Helmholtz-Zentrum Berlin, 14109, Berlin, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute of Scientific and Industrial Research, Osaka University, Osaka, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Tata Institute of Fundamental Research, Dr. Homi Bhabha Road, Colaba, Mumbai 400005, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "E. T. Dias",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Hoser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Emura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. K. Nigam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "K. R. Priolkar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The volume expanding magnetostructural transition in Mn3GaC and Mn3SnC has been identified to be due to distortion of Mn6C octahedra. Despite a similar lattice volume as Mn3SnC and similar valence electron contribution to density of states as in Mn3GaC, Mn3InC does not undergo a first order magnetostructural transformation like the Ga and Sn antiperovskite counterparts. A systematic investigation of its structure and magnetic properties using probes like x-ray diffraction, magnetization measurements, neutron diffraction and extended x-ray absorption fine structure (EXAFS) reveal that though the octahedra are distorted resulting in long and short Mn – Mn bonds and different magnetic moments on Mn atoms, the interaction between them remains ferromagnetic. This has been attributed to the strain on the Mn6C octahedra produced due to relatively larger size of In atom compared to Sn and Ga. The size of In atom constricts the deformation of Mn6C octahedra giving rise to Mn – Mn distances that favor only ferromagnetic interactions in the compound.",
+    "keywords": [
+      "Antiperovskites",
+      "magnetostructural transformation",
+      "EXAFS",
+      "Mn3GaC"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-02-19",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Council for Scientific and Industrial Research",
+        "grant_id": "03(1343)/16/EMR-II"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dhruva reactor, Bhabha Atomic Research Center"
+    },
+    {
+      "id": "facility_2",
+      "name": "BER II reactor at Helmholtz Zentrum Berlin"
+    },
+    {
+      "id": "facility_3",
+      "name": "Photon Factory Synchrotron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Mn3InC",
+      "sample_description": null,
+      "chemical_composition": "Mn3InC",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Crystallographic symmetry and phase purity identification using Mo Kα radiation.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Field and temperature dependent magnetization measurements carried out in a Vibrating Sample Magnetometer.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Temperature dependent variations in the crystallographic and magnetic structures.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Room temperature EXAFS spectra recorded in transmission mode at the Mn/In K edges.",
+      "measurement_technique": "extended x-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

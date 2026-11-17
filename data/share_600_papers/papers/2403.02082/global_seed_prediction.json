@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Double magnetic transition, complex field-induced phases, and large magnetocaloric effect in the frustrated garnet compound Mn3Cr2Ge3O12",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics, Indian Institute of Science Education and Research Thiruvananthapuram-695551, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai 400 085, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Felix Bloch Institute for Solid-State Physics, Leipzig University, 04103 Leipzig, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. Mohanty",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Magar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Vikram Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. S. Islam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. Guchhait",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Jain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "S. M. Yusuf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "A. A. Tsirlin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "R. Nath",
+        "orcid": null,
+        "email": "rnath@iisertvm.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "A detailed study of the magnetic and magnetocaloric properties of a garnet compound Mn3Cr2Ge3O12 is carried out using x-ray diffraction, magnetization, heat capacity, and neutron diffraction measurements as well as ab initio band-structure calculations. This compound manifests two successive magnetic transitions at TN1 ≃ 4.5 K and TN2 ≃ 2.7 K. Neutron powder diffraction experiments reveal that these two transitions correspond to the collinear and non-collinear antiferromagnetic ordering of the nonfrustrated Cr3+ and frustrated Mn2+ sublattices, respectively. The interactions within each of the Cr and Mn sublattices are antiferromagnetic, while the intersublattice interactions are ferromagnetic. The H − T phase diagram is quite complex and displays multiple phases under magnetic field, which can be attributed to the frustrated nature of the spin lattice. Mn3Cr2Ge3O12 shows a large magnetocaloric effect with a maximum value of isothermal entropy change ∆Sm ≃−23 J/kg-K and adiabatic temperature change ∆Tad ≃ 9 K for a field change of 7 T. Further, a large value of the relative cooling power (RCP ≃ 360 J/kg) demonstrates the promise of using this compound in magnetic refrigeration.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-03-14",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SERB, India",
+        "grant_id": "CRG/2022/000997"
+      },
+      {
+        "funder": "DRDO, India",
+        "grant_id": "CARS Grant No. DLJ/TC/1025/I/73"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dhruva reactor, Bhaba Atomic Research Center (BARC)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Mn3Cr2Ge3O12",
+      "sample_description": "Green-colored polycrystalline sample.",
+      "chemical_composition": "Mn3Cr2Ge3O12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "powder x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase purity confirmation and Rietveld refinement of the polycrystalline sample at room temperature.",
+      "measurement_technique": "powder x-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of magnetic susceptibility and isotherms as a function of temperature and magnetic field.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of heat capacity as a function of temperature and magnetic field.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent experiments to solve the magnetic structure.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "neutron-depolarization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "One-dimensional measurements to investigate FM correlations.",
+      "measurement_technique": "neutron-depolarization measurements",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

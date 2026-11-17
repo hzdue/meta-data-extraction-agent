@@ -1,0 +1,210 @@
+{
+  "bibliographic": {
+    "title": "Freezing-induced self-assembly of amphiphilic molecules",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Laboratoire de Physique des Solides, CNRS, Université Paris-Sud, Université Paris-Saclay, 91 400, Orsay, France."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Laboratoire de Synthèse et Fonctionnalisation des Céramiques, UMR3080, CNRS/Saint-Gobain, 550 Av. Alphonse Jauffret, 84306 Cavaillon Cedex, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Indian Institute of Science Education and Research, Pune, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "SWING beamline, Synchrotron Soleil, BP 48, 91 192 Gif-sur-Yvette, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "P. A. Albouy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S. Deville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Fulkar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "K. Hakouk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Impéror-Clerc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "M. Klotz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Q. Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Marcellini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. Perez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "The self-assembly of amphiphilic molecules usually takes place in a liquid phase, near room temperature. Here, using small angle X-ray scattering (SAXS) experiments performed in real time, we show that freezing of aqueous solutions of copolymer amphiphilic molecules can induce self-assembly below 0°C.",
+    "keywords": [],
+    "doi": "10.1039/c6sm02154a",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "278004 (FreeCo)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SWING beamline, Synchrotron Soleil"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "P123 13 wt%",
+      "sample_description": null,
+      "chemical_composition": "EO20PO70EO20",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "BASF®"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "P123 10 wt%",
+      "sample_description": null,
+      "chemical_composition": "EO20PO70EO20",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "BASF®"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "P123 8 wt%",
+      "sample_description": null,
+      "chemical_composition": "EO20PO70EO20",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "BASF®"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "P123 5 wt%",
+      "sample_description": null,
+      "chemical_composition": "EO20PO70EO20",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "BASF®"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time monitoring of self-assembly during freezing of P123 aqueous solutions.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

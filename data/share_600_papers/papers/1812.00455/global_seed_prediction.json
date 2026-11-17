@@ -1,0 +1,280 @@
+{
+  "bibliographic": {
+    "title": "Direct detection of induced magnetic moment and efficient spin-to-charge conversion in graphene/ferromagnetic structures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Departamento de Física, Universidade Federal de Viçosa, 36570-900, Viçosa, MG, Brazil"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Departamento de Física, Universidade Federal de Pernambuco, 50670-901, Recife, PE, Brazil."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Departamento de Física, Universidade Federal de Minas Gerais, 31270-901, Belo Horizonte, MG, Brazil."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratório Nacional de Luz Síncrotron, Centro Nacional de Pesquisa em Energia e Materiais, 13083-970 Campinas, SP, Brazil"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "J. B. S. Mendes",
+        "orcid": null,
+        "email": "joaquim.mendes@ufv.br",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "O. Alves Santos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "T. Chagas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Magalhães-Paniago",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "T. J. A. Mori",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. Holanda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L. M. Meireles",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "R. G. Lacerda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. Azevedo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "S. M. Rezende",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "This article shows that the spin-to-charge current conversion in single-layer graphene (SLG) by means of the inverse Rashba-Edelstein effect (IREE) is made possible with the integration of this remarkable 2D-material with the unique ferrimagnetic insulator yttrium iron garnet (YIG = Y3Fe5O12) as well as with the ferromagnetic metal permalloy (Py = Ni81Fe19). By means of X-ray absorption spectroscopy (XAS) and magnetic circular dichroism (XMCD) techniques, we show that the carbon atoms of the SLG acquires an induced magnetic moment due to the proximity effect with the magnetic layer. The spin currents are generated in the magnetic layer by spin pumping from microwave driven ferromagnetic resonance and are detected by a dc voltage along the graphene layer, at room temperature. The spin-to-charge current conversion, occurring at the graphene layer, is explained by the extrinsic spin-orbit interaction (SOI) induced by the proximity effect with the ferromagnetic layer.  The results obtained for the SLG/YIG and SLG/Py systems confirm very similar values for the IREE parameter, which are larger than the values reported in previous studies for SLG. We also report systematic investigations of the electronic and magnetic properties of the SLG/YIG by means of scanning tunneling microscopy (STM).",
+    "keywords": [
+      "graphene",
+      "magnetic proximity",
+      "magnetic circular dichroism",
+      "spin-pumping",
+      "spin-to-charge conversion",
+      "inverse Rashba-Edelstein effect",
+      "extrinsic SOI in graphene"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I - INTRODUCTION",
+      "II - SAMPLE PREPARATION AND CHARACTERIZATION",
+      "III - STM/STS EXPERIMENTS",
+      "IV - XAS AND XMCD EXPERIMENTS",
+      "V - SPIN-PUMPING EXPERIMENTS",
+      "VI - SPIN-TO-CHARGE CURRENT CONVERSION RESULTS",
+      "VII - CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Brazilian Synchrotron Light Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "sample A: YIG/SLG",
+      "sample_description": "Single-layer graphene interfaced with a ferrimagnetic insulator yttrium iron garnet film on a GGG substrate.",
+      "chemical_composition": "Y3Fe5O12/SLG",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "sample B: Py/SLG",
+      "sample_description": "Single-layer graphene interfaced with a conductive ferromagnetic permalloy layer on a SiO2/Si substrate.",
+      "chemical_composition": "Ni81Fe19/SLG",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "HOPG",
+      "sample_description": "Highly oriented pyrolytic graphite reference sample.",
+      "chemical_composition": "C",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "STM/STS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Scanning tunneling microscopy and spectroscopy measurements of the electronic response and local density of states of SLG/YIG.",
+      "measurement_technique": "scanning tunneling microscopy/spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy near carbon K and iron L3,2 edges to determine orbital orientation and electronic properties.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray magnetic circular dichroism measurements to detect induced magnetic moments at carbon atoms.",
+      "measurement_technique": "magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "FMR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ferromagnetic resonance microwave absorption measurements to determine spin mixing conductance and linewidth.",
+      "measurement_technique": "ferromagnetic resonance",
+      "measurement_mode": [
+        "AngleScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Spin-pumping voltage",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of dc voltage generated by spin-to-charge conversion via the inverse Rashba-Edelstein effect.",
+      "measurement_technique": "spin pumping",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

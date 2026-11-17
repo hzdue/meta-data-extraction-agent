@@ -1,0 +1,218 @@
+{
+  "bibliographic": {
+    "title": "Structural evolution of bismuth sodium titanate induced by A-site non-stoichiometry: Neutron powder diffraction studies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics Education & Research Center for Dielectrics and Advanced Matter Physics, Pusan National University, Busan, 609-735, Korea."
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Material Science and Engineering, POSTECH, Pohang, Gyeongbuk, 790-784, Korea."
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "School of Nano and Advanced Materials Engineering, Changwon National University, Gyeongnam, 641-773, Korea."
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Lujan Neutron Scattering Center, Los Alamos National Laboratory, Los Alamos, NM 87545, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I.-K. Jeong",
+        "orcid": null,
+        "email": "Jeong@pusan.ac.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Y. S. Sung",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "T. K. Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M.-H. Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Llobet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "We performed neutron powder diffraction measurements on (Bi0.5Na0.5+x)TiO3 and (Bi0.5+yNa0.5)TiO3 to study structural evolution induced by the non-stoichiometry. Despite the non-stoichiometry, the local structure (r ≤ 3.5˚ A) from the pair distribution function analysis is barely affected by the sodium deficit of up to -5 mol%. With increasing pair distance, however, the atomic pair correlations weaken due to the disorder caused by the sodium deficiency. Although the sodium and the bismuth share the same crystallographic site, their non-stoichiometry have rather opposite effects as revealed from a distinctive distortion of the Bragg peaks. In addition, Rietveld refinement demonstrates that the octahedral tilting is continually suppressed by the sodium deficit of up to -5 mol%. This is contrary to the effect of the bismuth deficiency, which enhances the octahedral tilting.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-06-07",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "NRF-2013R1A1A2012499"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Lujan Neutron Scattering Center"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "(Bi0.5Na0.5)TiO3",
+      "sample_description": "Stoichiometric BNT ceramic sample.",
+      "chemical_composition": "(Bi0.5Na0.5)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "(Bi0.5Na0.5+x)TiO3 x=-5 mol%",
+      "sample_description": "Non-stoichiometric BNT with sodium deficit.",
+      "chemical_composition": "(Bi0.5Na0.5+x)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "(Bi0.5Na0.5+x)TiO3 x=-2 mol%",
+      "sample_description": "Non-stoichiometric BNT with sodium deficit.",
+      "chemical_composition": "(Bi0.5Na0.5+x)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "(Bi0.5Na0.5+x)TiO3 x=+1 mol%",
+      "sample_description": "Non-stoichiometric BNT with sodium excess.",
+      "chemical_composition": "(Bi0.5Na0.5+x)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "(Bi0.5+yNa0.5)TiO3 y=-1 mol%",
+      "sample_description": "Non-stoichiometric BNT with bismuth deficit.",
+      "chemical_composition": "(Bi0.5+yNa0.5)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "(Bi0.5+yNa0.5)TiO3 y=-0.5 mol%",
+      "sample_description": "Non-stoichiometric BNT with bismuth deficit.",
+      "chemical_composition": "(Bi0.5+yNa0.5)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "(Bi0.5+yNa0.5)TiO3 y=+1 mol%",
+      "sample_description": "Non-stoichiometric BNT with bismuth excess.",
+      "chemical_composition": "(Bi0.5+yNa0.5)TiO3",
+      "sample_state": "ceramic",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-of-flight neutron powder diffraction measurements performed on the NPDF instrument at T = 180 K.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron pair distribution function analysis",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "PDF spectra obtained via Fourier transform of experimental total scattering structure functions with Qmax=25˚ A−1.",
+      "measurement_technique": "neutron pair distribution function analysis",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

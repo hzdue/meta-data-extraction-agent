@@ -1,0 +1,106 @@
+{
+  "paper_id": "1312.5648",
+  "split_role": "pseudo_validation",
+  "source_pdf": "papers/1312.5648/paper.pdf",
+  "pdf_sha256": "70ea370396479aa7014edf7c18d022e0565869a720ab5f2226627a5cf5e31742",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "preparation_source_sha256": "59235265f67baafeacde2e77b754c2aded1ba43fe0c1621282dd5fafe4596d48",
+  "text_sha256": "907476cc4fd4a25538057cbfe6c6538f530c3e54006f567abecc8530c27e1b65",
+  "text_chars": 53660,
+  "pages": 16,
+  "plain_text_chars": 48592,
+  "warnings": [
+    "invalid marked content and clip nesting",
+    "... repeated 2 times..."
+  ],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 4670,
+      "word_presence": 0.8488
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 4970,
+      "word_presence": 0.8929
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 5075,
+      "word_presence": 0.8945
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 3711,
+      "word_presence": 0.9153
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 4661,
+      "word_presence": 0.9288
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 2164,
+      "word_presence": 0.9538
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 1827,
+      "word_presence": 0.9211
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 5083,
+      "word_presence": 0.8873
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 3692,
+      "word_presence": 0.9094
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 4302,
+      "word_presence": 0.879
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 5399,
+      "word_presence": 0.9667
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 671,
+      "word_presence": 1.0
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 614,
+      "word_presence": 1.0
+    },
+    {
+      "page": 14,
+      "plain_text_chars": 461,
+      "word_presence": 1.0
+    },
+    {
+      "page": 15,
+      "plain_text_chars": 411,
+      "word_presence": 1.0
+    },
+    {
+      "page": 16,
+      "plain_text_chars": 851,
+      "word_presence": 1.0
+    }
+  ],
+  "low_word_presence_pages": []
+}

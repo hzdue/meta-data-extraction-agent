@@ -1,0 +1,231 @@
+{
+  "bibliographic": {
+    "title": "Structural and Magnetic Characterization of CuxMn1-xFe2O4 ( x= 0.0, 0.25 ) Ferrites Using Neutron Diffraction and Other Techniques",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Nuclear Science and Technology, Bangladesh Atomic Energy Commission, GPO Box No.3787, Dhaka-1000 Bangladesh"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Applied Chemistry and Chemical Engineering, University of Dhaka, Dhaka-1000"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Materials Science Division, Atomic Energy Centre, Dhaka-1000"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, University of Dhaka, Dhaka-1000"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Bangladesh Atomic Energy Commission, Agargaon, Dhaka-1207"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I.B.Elius",
+        "orcid": null,
+        "email": "iftakhar.elius@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A.K.M. Zakaria",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J.Maudood",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Hossain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M.M. Islam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Nahar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Md Sazzad Hossain",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "I. Kamal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Manganese ferrite (MnFe2O4) and copper doped manganese ferrite (Mn0.75Cu0.25Fe2O4) soft materials were synthesized through solid-state sintering method. The phase purity and quality were confirmed from x-ray diffraction patterns. Then the samples were subjected to neutron diffraction experiment and the diffraction data were analyzed using FullProf software package. The surface morphology of the soft material samples was studied using a scanning electron microscope (SEM). Crystal parameters, crystallite parameters, occupancy at A and B sites of the spinel structure, magnetic moments of the atoms at various locations, symmetries, oxygen position parameters, bond lengths etc. were measured and compared with the reference data. In MnFe2O4, both octahedral (A) and tetrahedral (B) positions are shared by Mn2+ and Fe2+/3+ cations, here A site is predominantly occupied by Fe2+ and B site is occupied by Mn at 0.825 occupancy. The Cu2+ ions in Cu0.25Mn0.75Fe2O4 mostly occupy the B site. Copper mostly occupy the Octahedral (16d) sites. The length of the cubic lattice decreases with the increasing Copper content. The magnetic properties, i.e. A or B site magnetic moments, net magnetic moment etc. were measured using neutron diffraction analysis and compared with the bulk magnetic properties measured with VSM studies.",
+    "keywords": [
+      "Spinel Ferrites",
+      "Neutron Diffraction",
+      "structural parameters",
+      "magnetic materials",
+      "Electron microscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results and Discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "CARS, University of Dhaka"
+    },
+    {
+      "id": "facility_2",
+      "name": "Savar Neutron Diffractometer (SAND)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MnFe2O4",
+      "sample_description": null,
+      "chemical_composition": "MnFe2O4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Mn0.75Cu0.25Fe2O4",
+      "sample_description": null,
+      "chemical_composition": "Mn0.75Cu0.25Fe2O4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction experiment to determine phase purity and quality using Cu(Kα) radiation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction experiment to investigate magnetic and molecular structure using a thermal neutron beam.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Scanning Electron Microscopy (SEM)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SEM experiment to study grain size distribution and surface properties.",
+      "measurement_technique": "Scanning Electron Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "VSM studies",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Bulk magnetic properties measured with VSM to determine M-H curves.",
+      "measurement_technique": "Vibrating Sample Magnetometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

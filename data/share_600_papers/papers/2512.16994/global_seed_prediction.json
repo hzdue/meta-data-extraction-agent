@@ -1,0 +1,271 @@
+{
+  "bibliographic": {
+    "title": "Cascade of Spin Moiré Superlattices with In-Plane Field in Triangle Lattice Semimetal EuAg4Sb2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Division of Physics, Mathematics and Astronomy, California Institute of Technology, Pasadena, California 91125, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue Langevin, 71 Avenue des Martyrs, F-38000 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Graduate School of Science, Hokkaido University, Sapporo 060-0810, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "PSI Center for Neutron and Muon Sciences, CH-5232 Villigen PSI, Switzerland."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Paul M. Neves",
+        "orcid": null,
+        "email": "pmneves@mit.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Takashi Kurumaji",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Joshua P. Wakefield",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Chi Ian Jess Ip",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Robert Cubitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Satoru Hayami",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jonathan S. White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Joseph G. Checkelsky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "EuAg4Sb2 is a rhombohedral europium triangle lattice material that exhibits a rich phase diagram of spin moiré superlattices (SMS) and single- q magnetic phases. In this paper, we characterize the incommensurate phases accessible with field applied in the plane with small angle neutron scattering (SANS). A variety of phases with unusual SANS patterns are accessible with magnetic field applied along the a and a∗ directions. Many of these phases can be understood to be multi- q phases. One phase in particular, ICM2b (ICM=incommensurate magnetic phase), is rather unconventional in that it is an anisotropic multi- q phase that can rotate freely within the ab -plane, dependent on magnetic field direction and history. The stabilization of tunable multi- q incommensurate spin textures via in-plane field sets this class of materials apart from conventional skyrmion materials. We further identify that the propagation vectors of the in-plane phases have a significant commensuration with the diameter of the smallest pocket of the Fermi surface (2 k F). The multi/single- q nature is also correlated with the enhancement of resistivity, suggesting that a gap opens in the electron bands at q = 2 k F. We also compare with a phenomenological model of the phase diagram. The richness of phases revealed in this study hint at the frustrated nature of the incommensurate magnetism present in EuAg4Sb2 and motivate further probes of these phases and the origin of the stability of spin moiré superlattices. Finally, the coupling of the multi- q nature and q = 2 k F commensuration condition reveals the key requirements for a strong SMS transport response.",
+    "keywords": [
+      "Spin Moiré Superlattice",
+      "Multiple-Q Magnetism",
+      "Fermi Surface Reconstruction",
+      "Superzone Gap",
+      "Magnetic Phase Diagram"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-12-22",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation EPiQS Initiative",
+        "grant_id": "GBMF9070"
+      },
+      {
+        "funder": "US Department of Energy (DOE) Office of Science, Basic Energy Sciences",
+        "grant_id": "DE-SC0022028"
+      },
+      {
+        "funder": "Office of Naval Research (ONR)",
+        "grant_id": "N00014-21-1-2591"
+      },
+      {
+        "funder": "Air Force Office of Scientific Research (AFOSR)",
+        "grant_id": "FA9550-22-1-0432"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP23H04869"
+      },
+      {
+        "funder": "JST CREST",
+        "grant_id": "JPMJCR23O4"
+      },
+      {
+        "funder": "JST FOREST",
+        "grant_id": "JPMJFR2366"
+      },
+      {
+        "funder": "Swiss National Science Foundation (SNF)",
+        "grant_id": "200021_188707"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. ABSTRACT",
+      "II. INTRODUCTION",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "Swiss spallation neutron source SINQ"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "S1",
+      "sample_description": null,
+      "chemical_composition": "EuAg4Sb2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "S2",
+      "sample_description": null,
+      "chemical_composition": "EuAg4Sb2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle neutron scattering to identify propagation vectors and multi-q nature of in-plane phases.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Transport",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electrical transport measurements to probe longitudinal resistivity and its correlation with propagation vectors.",
+      "measurement_technique": "electrical transport",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetization measurements used to map out the in-plane phase diagrams.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Heat capacity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity measurements used to map the phase diagram.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

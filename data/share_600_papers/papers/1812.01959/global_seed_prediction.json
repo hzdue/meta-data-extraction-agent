@@ -1,0 +1,125 @@
+{
+  "bibliographic": {
+    "title": "A neutron tomography study: probing the spontaneous crystallization of randomly packed granular assemblies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee, 37831, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut LaueLangevin, 71 Avenue des Martyrs, 38000, Grenoble, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Max Planck Institute for Mathematics in the Sciences, Inselstrasse 22, 04103, Leipzig, Germany."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Université Bourgogne-Franche Comté, Université de Bourgogne, ICBLaboratoire Interdisciplinaire Carnot de Bourgogne, Bâtiment Sciences Mirande, 9 Avenue Alain Savary, B-P. 47870, 21078, Dijon Cedex, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Indu Dhiman",
+        "orcid": null,
+        "email": "dhimani@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Simon A. J. Kimber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anita Mehta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tapan Chatterji",
+        "orcid": null,
+        "email": "chatterji@ill.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We study the spontaneous crystallization of an assembly of highly monodisperse steel spheres under shaking, as it evolves from localized icosahedral ordering towards a packing reaching crystalline ordering. Towards this end, real space neutron tomography measurements on the granular assembly are carried out, as it is systematically subjected to a variation of frequency and amplitude. As expected, we see a presence of localized icosahedral ordering in the disordered initial state (packing fraction ≈ 0.62). As the frequency is increased for both the shaking amplitudes (0.2 and 0.6 mm) studied here, there is a rise in packing fraction, accompanied by an evolution to crystallinity. The extent of crystallinity is found to depend on both the amplitude and frequency of shaking. We find that the icosahedral ordering remains localized and its extent does not grow significantly, while the crystalline ordering grows rapidly as an ordering transition point is approached. In the ordered state, crystalline clusters of both face centered cubic (FCC) and hexagonal close packed (HCP) types are identified, the latter of which grows from stacking faults. Our study shows that an earlier domination of FCC gives way to HCP ordering at higher shaking frequencies, suggesting that despite their coexistence, there is a subtle dynamical competition at play. This competition depends on both shaking amplitude and frequency, as our results as well as those of earlier theoretical simulations demonstrate. It is likely that this involves the very small free energy difference between the two structures.",
+    "keywords": [],
+    "doi": "10.1038/s41598-018-36331-1",
+    "arxiv_id": null,
+    "url": "https://doi.org/10.1038/s41598-018-36331-1",
+    "publication_date": "2018-11-20",
+    "venue": "Scientific Reports",
+    "publisher": "Springer Nature",
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Experimental Details",
+      "Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "steel spheres",
+      "sample_description": "Highly monodisperse steel spheres of 1 mm diameter poured into a cylindrical Al container.",
+      "chemical_composition": "steel",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real space neutron tomography measurements on granular assembly subjected to variation of frequency and amplitude.",
+      "measurement_technique": "neutron tomography",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

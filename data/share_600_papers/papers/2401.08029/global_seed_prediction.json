@@ -1,0 +1,198 @@
+{
+  "bibliographic": {
+    "title": "Freezing of short-range ordered antiferromagnetic clusters in the CrFeTi2O7 system",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Indian Institute of Science Education and Research (IISER) Pune411008, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Arun Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Soumendra Nath Panja",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lukas Keller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sunil Nair",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report on the CrFeTi2O7 (CFTO) system using a combination of x-ray diffraction, dc magnetization, ac susceptibility, specific heat and neutron diffraction measurements. CFTO is seen to crystallize in a monoclinic P21/a symmetry. It shows a glassy freezing at Tf ~ 22 K, characterized by the observation of bifurcation between ZFC and FC χ (T) curves, frequency dispersion across Tf in ac susceptibility, appearance of non-zero remanent magnetization and coercivity below Tf , very slow relaxation of iso-thermal remanent magnetization with time and a linear temperature dependence of magnetic contribution to specific heat Cm below Tf . The microscopic neutron diffraction analysis of CFTO not only confirms the absence of long-range antiferromagnetic ordering but also exhibits diffuse scattering due to the presence of shortrange ordered antiferromagnetically correlated spin clusters.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SERB-DST, Government of India",
+        "grant_id": "PDF/2020/002116"
+      },
+      {
+        "funder": "Air Force Research Laboratory",
+        "grant_id": "FA2386-21-1-4051"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Details",
+      "Results and Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Paul Scherrer Institut"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CrFeTi2O7",
+      "sample_description": "Polycrystalline specimens prepared by a conventional solidstate route.",
+      "chemical_composition": "CrFeTi2O7",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room temperature x-ray diffraction measurements to verify phase purity and refine crystal structure.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dc magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature and field dependent magnetic measurements including ZFCW and FCW protocols.",
+      "measurement_technique": "dc magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ac susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of the real part of ac susceptibility at different frequencies.",
+      "measurement_technique": "ac susceptibility",
+      "measurement_mode": [
+        "TemperatureScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "specific heat",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity as a function of temperature measured by the relaxation method.",
+      "measurement_technique": "specific heat",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction measurements collected at temperatures of 2 and 300 K.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "iso-thermal remanent magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Decay of magnetization as a function of time for different applied magnetic fields.",
+      "measurement_technique": "iso-thermal remanent magnetization",
+      "measurement_mode": [
+        "TimeScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

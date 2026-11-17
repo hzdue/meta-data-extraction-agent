@@ -1,0 +1,252 @@
+{
+  "bibliographic": {
+    "title": "Interplay of Orbital Degeneracy and Vacancies in Stabilizing Collinear Magnetic Order in Cr1+ δ Te2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physical Sciences, Indian Association for the Cultivation of Science, 2A & B Raja S. C. Mullick Road, Jadavpur, Kolkata 700 032, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Condensed Matter and Materials Physics, S. N. Bose National Centre for Basic Sciences, JD Block, Sector III, Salt Lake, Kolkata 700106, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Physical Sciences, Indian Institute of Technology Goa, Farmagudi, Goa 403401, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ISIS Neutron and Muon Source, Science and Technology Facilities Council, Rutherford Appleton Laboratory, Chilton Didcot OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Elettra-Sincrotrone Trieste, Strada Statale 14 km, km 163.5 in AREA Science Park 34149, Trieste, Italy"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box-516, S-75120 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Highly Correlated Matter Research Group, Physics Department, University of Johannesburg, Auckland Park 2006, South Africa"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Prasanta Chowdhury",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jyotirmoy Sau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Mohamad Numan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jhuma Sannigrahi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Matthias Gutmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Gangadhar Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "D. T. Adroja",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Saurav Giri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Manoranjan Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Subham Majumdar",
+        "orcid": null,
+        "email": "sspsm2@iacs.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Cr1+ δ Te2, a two-dimensional van der Waals ferromagnet, displays a contested magnetic structure, poised between collinear and non-collinear spin configurations. In this work, we investigate the magnetic structure of Cr1 . 33Te2 at the microscopic level by combining single-crystal neutron diffraction, X-ray absorption spectroscopy, and first-principles calculations. Neutron diffraction measurements reveal a distinct collinear spin alignment, whereas spectroscopic analyses reveal inherent structural vacancies at both Cr and Te sites. These vacancies lead to local symmetry breaking that elevates the orbital degeneracy of the Cr 3 d states, as demonstrated by our first-principles analysis. The resulting modification of magnetocrystalline anisotropy emerges as the key mechanism stabilising the collinear magnetic ground state over the non-collinear one in the presence of vacancies. Our findings uncover a vacancy-driven route to control spin anisotropy and magnetic ordering in layered ferromagnets, offering new insights into the design of tunable 2D magnetic materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "DST-INSPIRE program",
+        "grant_id": "DST/INSPIRE Fellowship/2019/IF190532"
+      },
+      {
+        "funder": "India-RAL collaborative project",
+        "grant_id": "SR/NM/Z-07/2015"
+      },
+      {
+        "funder": "ISIS facility, RAL, UK",
+        "grant_id": "RB2410336"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Single crystal neutron diffraction",
+      "EXAFS",
+      "Theoretical Study",
+      "Summary and Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Elettra-Sincrotrone Trieste"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cr1.33Te2",
+      "sample_description": "High quality single crystals synthesized by chemical vapor transport method.",
+      "chemical_composition": "Cr1.33Te2",
+      "sample_state": "single crystal",
+      "sample_mass": "40 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependent single-crystal neutron diffraction performed on the SXD instrument using time-of-flight Laue technique to map the three-dimensional reciprocal space.",
+      "measurement_technique": "single-crystal neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Cr K-edge EXAFS spectra analyzed over the k-range of 3 to 13.2 A^-1 at room temperature.",
+      "measurement_technique": "Extended X-ray Absorption Fine Structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SQUID magnetometer",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Bulk magnetization data recorded under a 5 T applied field along the c-axis and field-dependent magnetization curves at different angles.",
+      "measurement_technique": "SQUID magnetometer",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Diffuse Inelastic Neutron Scattering from Anharmonic Vibrations in Cuprite",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "California Institute of Technology, Pasadena, California 91125, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "The University of California, Los Angeles, Los Angeles, California 90095, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "C. N. Saunders",
+        "orcid": null,
+        "email": "clairenicolesaunders@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. V. Ladygin",
+        "orcid": null,
+        "email": "vladygin@caltech.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "D. S. Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "C. M. Bernal-Choban",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. H. Lohaus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "G. E. Granroth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "D. L. Abernathy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "B. Fultz",
+        "orcid": null,
+        "email": "btf@caltech.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Atomic vibrational dynamics in cuprite, Cu2O, was studied by inelastic neutron scattering and molecular dynamics (MD) simulations from 10 K to 900 K. Above 300 K, a diffuse inelastic intensity (DII) appeared, obscuring the high-energy phonon modes. Classical MD simulations with a machine learning interatomic potential reproduced general features of the DII, especially with a Langevin thermostat. The DII originates from random phase shifts of vibrating O-atoms that have anharmonic interactions with neighboring Cu-atoms.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-09-06",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "DOE Office of Science, BES",
+        "grant_id": "DEFG02-03ER46055"
+      },
+      {
+        "funder": "DOE Office of Science",
+        "grant_id": "DEAC02-05CH11231"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National Energy Research Scientific Computing Center"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "cuprite",
+      "sample_description": null,
+      "chemical_composition": "Cu2O",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Phonon spectra of cuprite measured from 10 K to 900 K using the ARCS chopper spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "molecular dynamics simulations",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Classical MD simulations using a machine learning interatomic potential to reproduce diffuse inelastic intensity.",
+      "measurement_technique": "molecular dynamics simulations",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

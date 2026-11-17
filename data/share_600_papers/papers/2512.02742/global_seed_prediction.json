@@ -1,0 +1,405 @@
+{
+  "bibliographic": {
+    "title": "Nanoscale Protein Diffusion in Supercooled Cryoprotectant Solutions",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, AlbaNova University Center, Stockholm University, S-106 91 Stockholm, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut für Angewandte Physik, Universität Tübingen, Auf der Morgenstelle 10, 72076 Tübingen, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department Physik, Universität Siegen, Walter-Flex-Strasse 3, 57072, Siegen, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Fakultät Physik/DELTA, TU Dortmund, Maria-Goeppert-Mayer-Str. 2, 44221 Dortmund, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "D3 Center, The University of Osaka, Toyonaka, Osaka, 560-0043, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, The University of Osaka, Toyonaka, Osaka, 560-0043, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute for Molecular Science, Myodaiji, Okazaki, Aichi 444-8585, Japan"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "The Graduate University for Advanced Studies (SOKENDAI), Myodaiji, Okazaki, Aichi 444-8585, Japan"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "ESRF - The European Synchrotron, 71 Avenue des Martyrs, Grenoble, 38000, France"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Fakultät Physik/DELTA, TU Dortmund, 44221 Dortmund, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Maddalena Bin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anita Girelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Mariia Filianina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mario Reiser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sharon Berkowicz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Milla Åhlfeldt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Michelle Dargasz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sonja Timmermann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jaqueline Savelkouls",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Takeshi Kawasaki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Shinji Saito",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Federico Zontone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Yuriy Chushkin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Fajun Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Frank Schreiber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Michael Paulus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Christian Gutt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Fivos Perakis",
+        "orcid": null,
+        "email": "f.perakis@fysik.su.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Vitrification during cryopreservation requires a quantitative understanding of protein transport in deeply supercooled cryoprotectant solutions, yet direct measurements at molecular length scales remain scarce. Here, we combine X-ray Photon Correlation Spectroscopy (XPCS) and small-angle X-ray scattering (SAXS) to investigate ferritin diffusion in glycerol–water mixtures from ambient conditions down to 210 K. The measured diffusion coefficients reveal that ferritin retains a higher mobility upon cooling than expected from hydrodynamic scaling based on measurements of larger silica reference tracers, with the difference emerging below approximately 230 K. A minimal fluctuating-friction model reproduces the observed relative enhancement in diffusion, illustrating how local variations in the effective friction can give rise to such behavior. These measurements provide direct experimental benchmarks for future theoretical and simulation studies aimed at understanding molecular transport in deeply supercooled liquids approaching the glass transition.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish National Research Council (Vetenskapsrådet)",
+        "grant_id": "201905542"
+      },
+      {
+        "funder": "Swedish National Research Council (Vetenskapsrådet)",
+        "grant_id": "2023-05339"
+      },
+      {
+        "funder": "Röntgen-Ångström Cluster",
+        "grant_id": "2019-06075"
+      },
+      {
+        "funder": "Knut och Alice Wallenberg foundation",
+        "grant_id": "2023.0052"
+      },
+      {
+        "funder": "Carl Tryggers",
+        "grant_id": "CTS21:1589"
+      },
+      {
+        "funder": "Wenner-Gren Foundations",
+        "grant_id": "UPD2021-0144"
+      },
+      {
+        "funder": "European Union’s Horizon Europe research and innovation program",
+        "grant_id": "101149230 (CRYSTAL-X)"
+      },
+      {
+        "funder": "BMBR ErUM-Pro",
+        "grant_id": "05K22PS1"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "05K19PS1"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "05K20PSA"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "05K19VTB"
+      },
+      {
+        "funder": "DFG-ANR",
+        "grant_id": "SCHR700/28-1"
+      },
+      {
+        "funder": "DFG-ANR",
+        "grant_id": "SCHR700/42-1"
+      },
+      {
+        "funder": "DAPHNE4NFDI",
+        "grant_id": "46024879"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP21H04676"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP23K17361"
+      },
+      {
+        "funder": "JST FOREST Program",
+        "grant_id": "JPMJFR212T"
+      },
+      {
+        "funder": "AMED Moonshot Program",
+        "grant_id": "JP22zf0127009"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "JP24H02203"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. METHODS",
+      "II. RESULTS & DISCUSSION",
+      "III. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Dortmund Synchrotron Radiation Source DELTA"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ferritin",
+      "sample_description": "Equine spleen ferritin in glycerol–water mixtures with a 23 mol% glycerol fraction.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma–Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "silica nanoparticle suspensions",
+      "sample_description": "Hydroxyl-terminated silica nanoparticles in 23 mol% glycerol–water mixture.",
+      "chemical_composition": null,
+      "sample_state": "suspension",
+      "sample_mass": null,
+      "supplier_or_creator": "Alpha Nanotech"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle X-ray scattering to monitor structural stability of ferritin between 293 K and 193 K.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPCS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "X-ray Photon Correlation Spectroscopy to probe nanoscale dynamics and collective diffusion from 250 K to 210 K.",
+      "measurement_technique": "X-ray Photon Correlation Spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

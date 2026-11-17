@@ -1,0 +1,143 @@
+{
+  "bibliographic": {
+    "title": "Local lattice dynamics of hcp zinc from EXAFS and machine-learning interatomic potentials",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Institute of Solid State Physics, University of Latvia, Kengaraga street 8, Riga, LV-1063, Latvia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, Hamburg, 22607, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Vitalijs Dimitrijevs",
+        "orcid": "0000-0002-3892-9857",
+        "email": "vitalijs.dimitrijevs@cfi.lu.lv",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Pjotrs Žguns",
+        "orcid": "0000-0002-3387-2919",
+        "email": "pjotrs.zguns@cfi.lu.lv",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Inga Pudza",
+        "orcid": "0000-0002-8692-3089",
+        "email": "inga.pudza@cfi.lu.lv",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Aleksandr Kalinko",
+        "orcid": "0000-0002-0615-4735",
+        "email": "aleksandr.kalinko@desy.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexei Kuzmin",
+        "orcid": "0000-0003-4641-6354",
+        "email": "a.kuzmin@cfi.lu.lv",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The lattice dynamics of hexagonal close-packed (hcp) zinc, a prototypical anisotropic metal, is studied using temperature-dependent Zn K-edge extended X-ray absorption fine structure (EXAFS) spectroscopy combined with atomistic simulations. The reverse Monte Carlo method enable the extraction of mean-square relative displacements (MSRDs) for eight coordination shells, providing a shell-resolved description of thermal motion. The MSRD temperature dependence, analysed using the correlated Einstein model, yields effective interatomic force constants and reveals pronounced anisotropy between in-plane and out-of-plane interactions. This anisotropy is further quantified by the ratio of MSRDs for the first and second coordination shells, which closely matches the anisotropic displacement parameters from diffraction experiments. Molecular dynamics simulations using the CHGNet universal machine-learning interatomic potential show that the original model overestimates thermal disorder, while a fine-tuned version substantially improves agreement with experimental EXAFS spectrum and radial distribution function. Overall, EXAFS-informed analysis is effective for validating and refining machine-learning interatomic potentials.",
+    "keywords": [
+      "Zinc",
+      "hcp metals",
+      "EXAFS",
+      "reverse Monte Carlo",
+      "molecular dynamics",
+      "lattice dynamics"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": "Elsevier",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Latvian Council of Science",
+        "grant_id": "LZP-2022/1-0608"
+      },
+      {
+        "funder": "European Regional Development Fund",
+        "grant_id": "1.1.1.9/LZP/1/24/016"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental and calculations",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "hcp zinc foil",
+      "sample_description": "99.9% purity foil with a thickness of 5 μm",
+      "chemical_composition": "Zn",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Goodfellow Cambridge Ltd."
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Zn K-edge EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent Zn K-edge X-ray absorption spectra collected in transmission mode at seven temperatures (10, 50, 100, 150, 200, 250, and 300 K).",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

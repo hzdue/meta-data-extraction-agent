@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "Solid-like to Liquid-like Behavior of Cu Diffusion in Superionic Cu2X (X=S, Se): An Inelastic Neutron Scattering and Ab-Initio Molecular Dynamics Investigation",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Trombay, Mumbai 400085, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Homi Bhabha National Institute, Anushaktinagar, Mumbai 400094, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Mechanical Engineering and Materials Science, Duke University, NC 27708, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai 400005, India"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institut Laue-Langevin, BP 156, 38042 Grenoble Cedex 9, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sajan Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. K. Gupta",
+        "orcid": null,
+        "email": "mayankg@barc.gov.in",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Prabhatasree Goel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Mittal",
+        "orcid": null,
+        "email": "rmittal@barc.gov.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Olivier Delaire",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Thamizhavel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "S. Rols",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. L. Chaplot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Cu2Se and Cu2S are excellent model systems of superionic conductors with large diffusion coefficients that have been reported to exhibit different solid - liquid-like Cu-ion diffusion. In this paper, we clarify the atomic dynamics of these compounds with temperature-dependent ab-initio molecular dynamics (AIMD) simulations and inelastic neutron scattering (INS) experiments. Using the dynamical structure factor and Van-Hove correlation function, we interrogate the jump-time, hopping length distribution and associated diffusion coefficients. In cubic-Cu2Se at 500 K, we find solid-like diffusion with Cu-jump lengths matching well the first-neighbour Cu-Cu distance of ~3 Å in the crystal, and clearly defined optic phonons involving Cu-vibrations. Above 700 K, the jump-length distribution becomes a broad maximum cantered around 4 Å, spanning the first and second neighbour lattice distances, and a concurrent broadening of the Cu-phonon density of states. Further, above 900 K, the Cu-diffusion becomes close to liquid-like, with distributions of Cu-atoms continuously connecting crystal sites, while the vibrational modes involving Cu motions are highly damped, though still not fully over-damped as in a liquid. At low temperatures, the solid-like diffusion is consistent with previous X-ray diffraction and quasielastic neutron scattering experiments, while the higher-temperature observation of the liquid-like diffusion is in agreement with previous AIMD simulations. We also report AIMD simulations in Cu2S in the hexagonal and cubic superionic phases, and observe similar solid and liquid-like diffusion at low- and hightemperatures, respectively. The calculated ionic-conductivity is in fair agreement with reported experimental values.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. COMPUTATIONAL DETAILS",
+      "IV RESULTS AND DISCUSSIONS",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu1.85Se",
+      "sample_description": "Slightly Cu deficient polycrystalline sample.",
+      "chemical_composition": "Cu1.85Se",
+      "sample_state": "polycrystalline",
+      "sample_mass": "10 grams",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cu2Se",
+      "sample_description": null,
+      "chemical_composition": "Cu2Se",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Cu2S",
+      "sample_description": null,
+      "chemical_composition": "Cu2S",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the phonon density of states (PDOS) in the temperature range from 100-450 K using the time-of-flight IN4C spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "ab-initio molecular dynamics",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Simulations performed in NVT ensemble to investigate Cu diffusion and calculate PDOS, MSD, and dynamical structure factor across various phases and temperatures.",
+      "measurement_technique": "ab-initio molecular dynamics",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

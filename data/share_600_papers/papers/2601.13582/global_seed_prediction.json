@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Revealing mesoscale bubble and particle dynamics in ultrasound-driven multiphase fluids by ultrafast synchrotron X-ray radiography and hybrid modelling",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Engineering and Technology, University of Hull, East Yorkshire, HU6 7RX, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Centre of Innovation for Flow Through Porous Media, Department of Energy and Petroleum Engineering, University of Wyoming, Laramie, WY 82071, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Mechanical Engineering and Mathematical Sciences, Oxford Brookes University, Oxford, OX3 0BP, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Brunel Centre for Advanced Solidification Technology, Brunel University London, Uxbridge, UB8 3PH, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "The Advanced Photon Source, Argonne National Laboratory, Argonne, 60439, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ling Qin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kang Xiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Iakovos Tzanakis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Dmitry Eskin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Samuel Clark",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kamel Fezzaa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jiawei Mi",
+        "orcid": null,
+        "email": "j.mi@hull.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Multiphase fluid flows comprising of mesoscale solid particles, liquid droplets, and/or gas bubbles are common in both natural and man-made systems, but quantifying the energy transfer is challenging due to complex bubble-particle interactions. In this study, we used ultrafast synchrotron X-ray imaging to study the mesoscale dynamic interactions among ultrasonic cavitation bubbles and hydrophobic particles/clusters. Critical dynamic information and data were extracted from the vast amount of X-ray images and then fed into the hybrid analytical-numerical model for calculating the energy transfer from the oscillating bubble and the imploding bubble to the nearby hydrophobic particles. Using the Ni spherical microparticles as an example, at bubble oscillation ~16% (80–320 nJ) of the local energy was transferred to the particle. At bubble implosion, the transferred energy increased ~26% (0.135–1.09 μJ). Local energy transfer occurred on timescales of ~1 μs to 1 ms and length scales of 1 μm to 1 mm. Within each ultrasound cycle, kinetic and potential energy underwent complex exchanges, with local energy exhibiting a stepwise decay at the end of each cycle. The transferred energy was mainly consumed for enabling highly efficient particle dispersion. This research provides quantitative insights into optimizing hydrophobic nanomaterial dispersion and has broader implications for interfacial energy transfer processes such as making suspensions, composite materials and exfoliated 2D materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UK Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R031665/1"
+      },
+      {
+        "funder": "UK Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R031401/1"
+      },
+      {
+        "funder": "UK Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R031819/1"
+      },
+      {
+        "funder": "UK Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R031975/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "The experiment and operando measurements",
+      "Bubble boundary evolution in ultrasound field and numerical simulation",
+      "Bubble-particle interaction - the spherical particles",
+      "Bubble-particle interaction - the flake particles",
+      "Energy transfer during bubble-particle interactions and dispersion dynamics",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni spherical microparticles",
+      "sample_description": "Spherical hydrophobic Ni particles, 10~15 μm in diameter.",
+      "chemical_composition": "Ni",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Alfa"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MoS2 clusters",
+      "sample_description": "Hydrophobic MoS2 clusters with 6~10 μm flakes.",
+      "chemical_composition": "MoS2",
+      "sample_state": "powder",
+      "sample_mass": "11g",
+      "supplier_or_creator": "Nanoshel"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ultrafast synchrotron X-ray phase-contrast imaging",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Observation of oscillation and movement of ultrasonic bubbles and their dynamic interactions with hydrophobic microparticles under operando conditions.",
+      "measurement_technique": "synchrotron X-ray phase-contrast imaging",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SEM images",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of the size and morphology of Ni and MoS2 particles.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

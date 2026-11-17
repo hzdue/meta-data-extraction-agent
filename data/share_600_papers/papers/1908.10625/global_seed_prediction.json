@@ -1,0 +1,131 @@
+{
+  "bibliographic": {
+    "title": "High pressure anomalies in exfoliated MoSe2: Resonance Raman and X-ray diffraction studies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Centre for High Pressure Studies, Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur Campus, Mohanpur 741246, Nadia, West Bengal, India."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Pinku Saha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Bishnupada Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Aritra Mazumder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Goutam Dev Mukherjee",
+        "orcid": null,
+        "email": "goutamdev@iiserkol.ac.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Detailed high pressure Resonance Raman (RR) Spectroscopy and X-ray diffraction (XRD) studies are carried out on 3-4 layered MoSe2 obtained by liquid exfoliation. Analysis of ambient XRD pattern and RR spectra indicate the presence of a triclinic phase along with its parent hexagonal phase. Pressure evolution of prominent Raman modes and their full width at half maximum (FWHM) show slope changes at about 13 GPa and 33 GPa, respectively. Slope change in the linear behavior of reduced pressure (H) with respect to Eulerian strain (fE) is observed at about 13 GPa. A minimum in the FWHM values of E21 g and A 22 u modes at the same pressureindicate to an electronic topological transition (ETT ). Above 33 GPa the sample completely gets converted to the triclinic structure, which indicates the importance of strain in structural as well as electronic properties of two dimensional materials.",
+    "keywords": [
+      "Transition metal dichalcogenides",
+      "high pressure",
+      "Raman Spectroscopy",
+      "X-ray diffraction",
+      "crystal structure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Elettra synchrotron source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "exfoliated MoSe2",
+      "sample_description": "3-4 layered MoSe2 obtained by liquid exfoliation.",
+      "chemical_composition": "MoSe2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Resonance Raman Spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High pressure Raman measurements carried out at 488 nm excitation energy to study mode evolution and FWHM.",
+      "measurement_technique": "Resonance Raman Spectroscopy",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High pressure XRD studies carried out at the XPRESS beamline using monochromatic X-ray radiation of wavelength 0.4957 Å.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

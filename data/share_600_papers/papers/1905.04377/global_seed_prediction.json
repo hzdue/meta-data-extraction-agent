@@ -1,0 +1,149 @@
+{
+  "bibliographic": {
+    "title": "Crystal structure of the unconventional spin-triplet superconductor UTe2 at low temperature",
+    "subtitle": "by single crystal neutron diffraction.",
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Crystallography, RWTH Aachen University and Jülich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz Zentrum (MLZ), D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Nanophysics and Advanced Materials, Department of Physics, University of Maryland, College Park, MD 20742, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Jülich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz Zentrum (MLZ), D-85748 Garching, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Hutanu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "H. Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Ran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "W. T. Fuhrman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "H. Thoma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "N. P. Butch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The crystal structure of the new superconductor UTe2 has been investigated for the first time at low temperature (LT) of 2.7 K, just closely above the superconducting transition temperature of about 1.7 K by single crystal neutron diffraction, in order to prove, whether the orthorhombic structure of type _Immm_ (Nr. 71 Int. Tabl.) reported for room temperature (RT) persists down to the superconducting phase and can be considered as a parent symmetry for the development of spin triplet superconductivity. Our results show that the RT structure reported previously obtained by single crystal X-Ray diffraction indeed describes also the LT neutron diffraction data with high precision. No structural change from RT down to 2.7 K is observed. Detailed structural parameters for UTe2 at LT are reported.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRM II reactor at the Heinz-Maier-Leibnitz Zentrum (MLZ)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "UTe2",
+      "sample_description": "High quality single crystals with triangular plate-like shape.",
+      "chemical_composition": "UTe2",
+      "sample_state": "single crystal",
+      "sample_mass": "20-60 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Single-crystal neutron diffraction performed at 2.7 K and 1.7 K using a wavelength of 0.9 Å to determine the crystal structure.",
+      "measurement_technique": "single-crystal neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

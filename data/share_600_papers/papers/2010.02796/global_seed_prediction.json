@@ -1,0 +1,309 @@
+{
+  "bibliographic": {
+    "title": "Size Effects in Nanocrystalline Thoria",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Lomonosov Moscow State University, Department of Chemistry, Moscow, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Kurnakov Institute of General and Inorganic Chemistry, Russian Academy of Sciences, Moscow, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "National Research Centre “Kurchatov Institute”, Moscow, Russia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Rossendorf Beamline at ESRF – The European Synchrotron, Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Helmholtz Zentrum Dresden-Rossendorf (HZDR), Institute of Resource Ecology, Dresden, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tatiana V. Plakhova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anna Yu. Romanchuk",
+        "orcid": null,
+        "email": "romanchuk.anna@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Daria V. Likhosherstova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Alexander E. Baranchikov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pavel V. Dorovatovskii",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Roman D. Svetogorov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Tatiana B. Shatalova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tolganay B. Egorova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Alexander L. Trigub",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Kristina O. Kvashnina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Vladimir K. Ivanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Stepan N. Kalmykov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The facile chemical precipitation method and subsequent thermal treatment were shown to be suitable for preparation of crystalline ThO2 nanoparticles (NPs) in a wide range of particle sizes (from 2.5 to 34.3 nm). The obtained NPs were investigated with X-ray diffraction, high-resolution transmission electron microscopy and X-ray absorption techniques to find out the possible size effects associated with nanocrystalline thoria. For 2.5 nm NPs, the lattice parameter of ThO2 was found to increase by up to 1.1 %, in comparison with the bulk material. The decrease in the particle size was also accompanied by a significant decrease in the Th-Th coordination number.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Foundation for Basic Research",
+        "grant_id": "16-33-60043mol_a_dk"
+      },
+      {
+        "funder": "European Commission Council",
+        "grant_id": "ERC grant N759696"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Kurchatov Synchrotron Radiation Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ThO2 NPs (ammonia precipitant)",
+      "sample_description": "Precipitated from thorium nitrate solutions using 3M NH3·H2O.",
+      "chemical_composition": "ThO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "ThO2 NPs (NaOH precipitant)",
+      "sample_description": "Precipitated from thorium nitrate solutions using 3M NaOH.",
+      "chemical_composition": "ThO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "ThO2 NPs (1M NaOH precipitant)",
+      "sample_description": "Precipitated from thorium nitrate solutions using 1M NaOH.",
+      "chemical_composition": "ThO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "hydrothermally treated ThO2 NPs",
+      "sample_description": "Precursor precipitated from 0.1M Th(NO3)4·5H2O using 3M NaOH, treated at 120-210 °C in water or 3M NaOH.",
+      "chemical_composition": "ThO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "annealed ThO2 NPs",
+      "sample_description": "Synthesized from 1M Th(NO3)4·5H2O and 3M NH3·H2O, annealed at 300-700 °C.",
+      "chemical_composition": "ThO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns used for structure analysis and unit cell parameter calculation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "high-resolution transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Microstructure evaluation and particle size distribution estimation.",
+      "measurement_technique": "high-resolution transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TGA/MS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Thermal behavior and composition of gaseous products evolved upon heating for samples of 2.5, 3.8 and 5.8 nm size.",
+      "measurement_technique": "TGA/MS",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XAS spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Th LIII-edge XANES and EXAFS spectra to analyze Th local atomic geometry.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

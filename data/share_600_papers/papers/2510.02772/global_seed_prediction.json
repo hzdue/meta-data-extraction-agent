@@ -1,0 +1,282 @@
+{
+  "bibliographic": {
+    "title": "Bimagnon dispersion of La2CuO4 probed by resonant inelastic X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Synchrotron Radiation Research Center, Hsinchu 30076, Taiwan."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Astrophysics, University of Delhi, New Delhi 110007, India."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Synchrotron Radiation Research Center, National Institutes for Quantum Science and Technology, Hyogo 679-5148, Japan."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Applied Physics, Tokyo University of Science, Tokyo 125-8585, Japan."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Central Research Institute of Electric Power Industry, Yokosuka, Kanagawa 240-0196, Japan."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Center for Quantum Science and Technology and Department of Physics, National Tsing Hua University, Hsinchu 30013, Taiwan."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, University of Tokyo, Bunkyo-ku, Tokyo 113-0033, Japan."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics, National Tsing Hua University, Hsinchu 30013, Taiwan."
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Electrophysics, National Yang Ming Chiao Tung University, Hsinchu 30093, Taiwan."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "H. Y. Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. Tsutsui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "T. Tohyama",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "S. Komiya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. Okamoto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "C. T. Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "A. Fujimori",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "D. J. Huang",
+        "orcid": null,
+        "email": "djhuang@nsrrc.org.tw",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_8",
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "We report on the study of the magnetic excitations of Mott insulator La 2 CuO 4 by using resonant inelastic x-ray scattering (RIXS) and cluster calculations within the framework of exact diagonalization. Our results demonstrate experimentally that the bimagnon excitation in Cu L 3-edge RIXS is enhanced if the incident x-ray energy is slightly above the absorption edge. Through incident-energy-dependent momentum-resolved RIXS, we investigated the excitation of the bimagnon with predominantly A 1 g symmetry. The bimagnons of La 2 CuO 4 exhibit a nearly flat dispersion with momentum along the Cu-O bond direction. This observation agrees with the bimagnon dispersion from the calculations on a single-band Hubbard model rather than a Heisenberg model with only the nearest neighbor exchange interaction. This means that the effect of the higher-order spin couplings such as the cyclic or ring exchange interactions caused by the coherent motion of electrons beyond nearest-neighbor sites is important for understanding the bimagnon dynamics of cuprates.",
+    "keywords": [],
+    "doi": "10.1038/s41598-025-15435-5",
+    "arxiv_id": null,
+    "url": "https://doi.org/10.1038/s41598-025-15435-5",
+    "publication_date": "2025-08-07",
+    "venue": "Scientific Reports",
+    "publisher": "Springer Nature",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSCT of Taiwan",
+        "grant_id": "109-2112-M-213-010-MY3"
+      },
+      {
+        "funder": "NSCT of Taiwan",
+        "grant_id": "1092923-M-213-001"
+      },
+      {
+        "funder": "NSCT of Taiwan",
+        "grant_id": "113-2112-M-007-033"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP19K03741"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP22K03535"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP22K03500"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP19H01829"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "JP19H05825"
+      },
+      {
+        "funder": "JSPS",
+        "grant_id": "24K00560"
+      },
+      {
+        "funder": "MEXT",
+        "grant_id": "JPMXP1020200104"
+      },
+      {
+        "funder": "ANRF (SERB)",
+        "grant_id": "2023/000242"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Results",
+      "Discussion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Taiwan Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2CuO4",
+      "sample_description": "Single crystal grown by the traveling-solvent floating zone method and annealed to remove oxygen defects.",
+      "chemical_composition": "La2CuO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Incident-energy-dependent RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Cu L3-edge RIXS spectra measured for various incident energies across the absorption edge at q|| = (0.5π, 0).",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Momentum-dependent RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Cu L3-edge RIXS spectra for various in-plane momentum transfers with incident energy tuned to L3+0.6 eV.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray absorption spectra",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS measured using a photodiode in the fluorescence yield mode.",
+      "measurement_technique": "X-ray absorption spectra",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

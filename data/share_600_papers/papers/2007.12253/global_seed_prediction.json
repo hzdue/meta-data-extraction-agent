@@ -1,0 +1,208 @@
+{
+  "bibliographic": {
+    "title": "Nanoscale dynamics during self-organized ion beam patterning of Si: I. Ar+ Bombardment",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Division of Materials Science and Engineering, Boston University, Boston, MA 02215 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "X-ray Science Division, Argonne National Laboratory, Lemont, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Department of Physics and Division of Materials Science and Engineering, Boston University, Boston, MA 02215 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "National Synchrotron Light Source II, Brookhaven National Lab, Upton, NY 11973 USA"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, VT 05405 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Peco Myint",
+        "orcid": null,
+        "email": "peco@bu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Karl F. Ludwig, Jr.",
+        "orcid": null,
+        "email": "ludwig@bu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Lutz Wiegart",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yugang Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andrei Fluerasu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Xiaozhi Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "X-ray Photon Correlation Spectroscopy (XPCS) is used to investigate the fluctuation dynamics during self-organized nanopatterning of silicon by Ar+ bombardment at 65◦ polar angle. Rich structure is observed in the development of the correlation dynamics as seen in the evolving correlation time τ ( q|| ) and fluctuation relaxation exponent n ( q|| ). On length scales of the ripple structure, local structure becomes ever more long-lived as coarsening progresses. In addition, τ ( q|| ) develops a peak on length scales corresponding to the ripple wavelength. As patterning progresses, correlation times become asymmetric between the positive and negative directions, suggesting the possibility of different dynamics on the slopes facing toward and away from the ion beam. Relaxation exponents show evolution from linear dynamics at early times to compressed exponential relaxation at low wavenumbers and stretched exponential relaxation at high wavenumbers. Compressed exponential behavior is reminiscent of stress relaxation processes observed in glasses.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-05-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1709380"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DESC0017802"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DE-SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. OVERVIEW",
+      "IV. SPECKLE-AVERAGED EARLY-TIME KINETICS",
+      "V. SPECKLE-AVERAGED LATE-TIME KINETICS AND POST FACTO AFM",
+      "VI. SPECKLE CORRELATION STUDY OF FLUCTUATION DYNAMICS",
+      "VII. DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "p-doped (B) Si(100)",
+      "sample_description": "640 µm thick wafers cut into 1 × 1 cm2 pieces",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Co-GISAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time X-ray scattering to probe the dominant direction of ripple formation during Ar+ bombardment.",
+      "measurement_technique": "Coherent grazing-incidence small-angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Post facto AFM topographs to show the development of ripple structures.",
+      "measurement_technique": "Atomic Force Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XPCS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of temporal correlations of the detailed speckle pattern to illuminate fluctuation dynamics.",
+      "measurement_technique": "X-ray Photon Correlation Spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "bibliographic": {
+    "title": "Tailoring Magnetic Properties of Zigzag Structured Thin Films via Interface Engineering and Columnar Nano-structuring",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "UGC-DAE Consortium for Scientific Research, Khandwa Road, Indore-452001, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Indian Institute of Science, Bangalore 520016, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Raja Ramanna Centre for Advanced Technology, Indore 452013, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg 22607, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sharanjeet Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Manisha Priyadarsini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anup Kumar Bera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Smritiparna Ghosh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pooja Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S.K. Rai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Varimalla R. Reddy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Velaga Srihari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Sarathlal Koyiloth Vayalil",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Benedikt Sochor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Dileep Kumar",
+        "orcid": null,
+        "email": "dkumar@csr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the emergence of a novel interface-induced shape anisotropy component in zigzag-structured thin films fabricated via Sequential Oblique Angle Deposition (S-OAD). In this study, we systematically investigate cobalt (Co) and Co₂FeAl (CFA) thin films by varying column length, number of bilayers, and magneto-crystalline anisotropy (MCA) to explore how structural modulation affects magnetic behavior. Using magneto-optical Kerr effect (MOKE) measurements in conjunction with synchrotron-based grazing-incidence small-angle X-ray scattering (GISAXS) and 2D X-ray diffraction (2DXRD), we reveal that the interplay between interface-induced, shape, and crystalline anisotropies allows for a tunable magnetic response, ranging from isotropic to anisotropic behavior. The observed uniaxial magnetic anisotropy (UMA) exceeds that of conventional OAD films, while column merging is effectively suppressed through precise multilayer engineering. Structural analysis confirms that periodic, high-density interfaces at the junctions of oppositely tilted columns are central to this anisotropy control. These findings demonstrate that interface engineering and columnar nanostructuring within zigzag nanostructures offer a powerful route for tailoring magnetic properties in zigzag thin films, enabling their application in next-generation spintronic and magnetic sensor technologies.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Indus-2 synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "3-bilayer Co zigzag",
+      "sample_description": "Cobalt zigzag thin film with 3 bilayers.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "4-bilayer Co zigzag",
+      "sample_description": "Cobalt zigzag thin film with 4 bilayers.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "5-bilayer Co zigzag",
+      "sample_description": "Cobalt zigzag thin film with 5 bilayers.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "7-bilayer Co zigzag",
+      "sample_description": "Cobalt zigzag thin film with 7 bilayers.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "conventional OAD Co",
+      "sample_description": "Conventional OAD cobalt film with thickness 50 nm.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "1-bilayer Co zigzag",
+      "sample_description": "Single bilayer zigzag cobalt sample with layers of 25 nm.",
+      "chemical_composition": "Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "3-bilayer CFA zigzag",
+      "sample_description": "Co2FeAl zigzag thin film with 3 bilayers.",
+      "chemical_composition": "Co2FeAl",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "MOKE measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Hysteresis loops recorded at multiple azimuthal angles to investigate magnetic anisotropy.",
+      "measurement_technique": "Magneto-Optical Kerr Effect",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_4",
+        "sample_6",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing-incidence small-angle X-ray scattering to explore morphology and structure.",
+      "measurement_technique": "grazing-incidence small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GIXRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Grazing-incidence X-ray diffraction to investigate evolution of crystalline structure.",
+      "measurement_technique": "grazing-incidence X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "2DXRD",
+      "sample_refs": [
+        "sample_4",
+        "sample_5",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "2D X-ray diffraction to investigate crystallographic texture.",
+      "measurement_technique": "2D X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

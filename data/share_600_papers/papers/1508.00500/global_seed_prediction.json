@@ -1,0 +1,232 @@
+{
+  "bibliographic": {
+    "title": "Co-GISAXS as a New Technique to Investigate Surface Growth Dynamics",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "‡",
+        "text": "Division of Materials Science and Engineering, Boston University, Boston, Massachusetts 02215 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "||",
+        "text": "Department of Physics, Boston University, Boston, Massachusetts 02215 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "†",
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, Vermont 05405 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Advanced Photon Source, Argonne National Lab, Argonne, IL, 60439 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Meliha G. Rainville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christa Hoskin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jeffrey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Suresh Narayanan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alec R. Sandy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hua Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Karl F. Ludwig, Jr.",
+        "orcid": null,
+        "email": "ludwig@bu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Detailed quantitative measurement of surface dynamics during thin film growth is a major experimental challenge. Here X-­‐ray Photon Correlation Spectroscopy with coherent hard X-­‐rays is used in a Grazing-­‐Incidence Small-­‐Angle X-­‐ray Scattering (i.e. Co-­‐GISAXS) geometry as a new tool to investigate nanoscale surface dynamics during sputter deposition of a-­‐Si and a-­‐WSi2 thin films. For both films, kinetic roughening during surface growth reaches a dynamic steady state at late times in which the intensity autocorrelation function g2(q,t) becomes stationary. The g2(q,t) functions exhibit compressed exponential behavior at all wavenumbers studied. The overall dynamics are complex, but the most surface sensitive sections of the structure factor and correlation time exhibit power law behaviors consistent with dynamical scaling.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science, Office of Basic Energy Sciences (BES)",
+        "grant_id": "DE-FG02-03ER46037"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science, Office of Basic Energy Sciences (BES)",
+        "grant_id": "DE-FG02-07ER46380"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Background",
+      "III. Experimental",
+      "IV. Results",
+      "V. Discussion and Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-Si",
+      "sample_description": "Amorphous silicon thin films deposited on Si (111) wafers.",
+      "chemical_composition": "a-Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "a-WSi2",
+      "sample_description": "Amorphous tungsten disilicide thin films grown onto SiO2 templates.",
+      "chemical_composition": "a-WSi2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Co-GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of surface dynamics during sputter deposition using X-ray Photon Correlation Spectroscopy in a Grazing-Incidence Small-Angle X-ray Scattering geometry.",
+      "measurement_technique": "Grazing-Incidence Small-Angle X-ray Scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Post-growth specular X-ray reflectivity investigations to measure critical angle and density.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ cross-sectional SEM study of thin film structural domains.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Post-facto AFM analysis of surface roughness.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

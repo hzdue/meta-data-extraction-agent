@@ -1,0 +1,183 @@
+{
+  "bibliographic": {
+    "title": "Tannin-controlled micelles and fibrils of κ-casein",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "PASTEUR, D´epartement de Chimie, ´Ecole Normale Sup´erieure, PSL University, Sorbonne Universit, CNRS, 24, rue Lhomond, F-75005 Paris, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "State Key Laboratory for Mechanical Behavior of Materials, Xian Jiaotong University, Xian 710049, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "INRA UR1268 BIA Polyphenols, Reactivity, Processes, F-35653 Le Rheu, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Universit´e de Paris VII Denis Diderot, 5 rue Thomas Mann, 75013 Paris, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Wei Ma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christophe Tribet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sylvain Guyot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Draˇzen Zanchi",
+        "orcid": null,
+        "email": "zanchi@ens.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Effects of green tea tannin epigallocatechin-gallate (EGCG) on thermal-stressinduced amyloid fibril formation of reduced carboxymethylated bovine milk protein κ -casein (RCMK) were studied by dynamical light scattering (DLS) and small angle x-rays scattering (SAXS). Two populations of aggregates, micelles and fibrils, dominated the time evolution of light scattering intensity and of effective hydrodynamic diameter. SAXS experiments allowed to resolve micelles and fibrils so that the time dependence of scattering profile revealed structural evolution of the two populations. The low-Q scattering intensity prior to an expected increase with time due to fibril growth, shows an intriguing rapid decrease which is interpreted as the release of monomers from micelles. This phenomenon, observed both in the absence and in the presence of EGCG, indicates that under thermal stress free native monomers are converted to amyloid-prone monomers that do not form micelles. The consumption of free native monomers results in a release of native monomers from micelles, because only native protein participate in micelle-monomer (quasi)equilibrium. This release is reversible, indicating also that native-to-amyloid-prone monomers conversion is reversible as well. We show that EGCG does not bind to protein in fibrils, neither does it affect/prevent the pro-amyloid conversion of monomers. EGCG hinders the addition of monomers to growing fibrils. These facts allowed us to propose kinetics model for EGCG-controlled amyloid aggregation of micellar proteins. Therein, we introduced the growth-rate inhibition function which quantitatively accounts for the effect of EGCG on the fibril growth at any degree of thermal stress.",
+    "keywords": [
+      "polyphenol",
+      "protein aggregation",
+      "EGCG",
+      "κ-casein",
+      "micelles"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Programme Investissement d’Avenir",
+        "grant_id": "ANR-11-LBX-0011"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. MATERIALS AND METHODS",
+      "III. RESULTS",
+      "IV. MODEL-FREE INTERPRETATIONS",
+      "V. MODELLING",
+      "VI. DISCUSSION",
+      "VII. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Soleil synchrotron facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "RCMK",
+      "sample_description": "reduced carboxymethylated bovine milk protein κ-casein",
+      "chemical_composition": "reduced carboxymethylated κ-casein",
+      "sample_state": "amorphous powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "RCMK with EGCG",
+      "sample_description": "RCMK in presence of epigallocatechin-gallate",
+      "chemical_composition": "reduced carboxymethylated κ-casein and epigallocatechin-gallate",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Light scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Monitoring of scattering intensity and effective hydrodynamic diameter during thermal stress at 45°C.",
+      "measurement_technique": "dynamical light scattering",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved X-ray scattering profiles to resolve micelles and fibrils during incubation at 40°C.",
+      "measurement_technique": "small angle x-rays scattering",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of micelles and fibrils on mica plates.",
+      "measurement_technique": "Atomic Force Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

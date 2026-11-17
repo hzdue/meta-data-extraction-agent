@@ -1,0 +1,364 @@
+{
+  "bibliographic": {
+    "title": "Evolution of structural properties of iron oxide nano particles during temperature treatment from 250°C – 900°C: X-ray diffraction and Fe K-shell pre-edge X-ray absorption study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory for High Performance Ceramics Empa, Swiss Federal Laboratories for Material Science and Technology CH-8600 Dübendorf, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, University of Basel, CH-4056 Basel, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Hawaii Natural Energy Institute, School of Ocean and Earth Science and Technology University of Hawaii at Manoa, Honolulu, HI 96822, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Nonmetallic Inorganic Materials ETH Zürich-Swiss Federal Institute of Technology, CH-8037 Zürich, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Swiss Norwegian Beamline, European Synchrotron Radiation Facility (ESRF) Grenoble-38043, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "5",
+        "text": "Technische Universität Bergakademie Freiberg D-09596 Freiberg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Debajeet K. Bora",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Artur Braun",
+        "orcid": null,
+        "email": "artur.braun@alumni.ethz.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Selma Erat",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Olga Safonova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Thomas Graule",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Edwin C. Constable",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Iron oxide nano particles with nominal Fe2O3 stoichiometry were synthesized by a wet, soft chemical method with the heat treatment temperatures from 250°C to 900°C in air. The variation in the structural properties of the nano particles with the heat treatment temperature was studied by X-ray diffraction and Fe K shell X –ray absorption study. X-ray diffractograms show that at lower annealing temperatures nano particle comprises both maghemite and hematite phases. With increasing temperature, the remainder of the maghemite phase transformed completely to hematite. Profile analysis of the leading Bragg reflections reveals that the average crystallite size increases from 50 nm to 150 nm with increasing temperature. The mean primary particle size decreased from 105 nm to 90 nm with increasing heat treatment temperature . The X-ray diffraction results are paralleled by systematic changes in the pre-edge structure of the Fe K-edge X-ray absorption spectra, in particular by a gradual decrease of the t2g/eg peak height ratio of the two leading pre-edge resonances, confirming oxidation of the Fe from Fe2+ towards Fe3+ . Transmission electron microscopy (TEM) on the samples treated at temperatures as high as 900°C showed particles with prismatic morphology along with the formation of stacking fault like defects. High resolution TEM with selected area electron diffraction (SAED) of samples heat treated above 350°C showed that the nano particles have well developed lattice fringes corresponding to that of (110) plane of hematite.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Community's Sixth Framework Marie Curie International Reintegration Program",
+        "grant_id": "042095"
+      },
+      {
+        "funder": "Seventh Framework Program (FP7/2007-2013), Novel Materials for Energy Applications",
+        "grant_id": "227179"
+      },
+      {
+        "funder": "Swiss NSF",
+        "grant_id": "200021-116688"
+      },
+      {
+        "funder": "Swiss NSF",
+        "grant_id": "IZK0Z2-133944"
+      },
+      {
+        "funder": "Swiss Federal Office of Energy",
+        "grant_id": "153613-102809"
+      },
+      {
+        "funder": "Swiss Federal Office of Energy",
+        "grant_id": "153476-102691"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Experiment",
+      "III. Results and Discussion",
+      "IV. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "iron oxide nano particles 250°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 250°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "iron oxide nano particles 300°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 300°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "iron oxide nano particles 350°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 350°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "iron oxide nano particles 500°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 500°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "iron oxide nano particles 550°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 550°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "iron oxide nano particles 600°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 600°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "iron oxide nano particles 650°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 650°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "iron oxide nano particles 700°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 700°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "iron oxide nano particles 750°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 750°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "iron oxide nano particles 800°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 800°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "iron oxide nano particles 900°C",
+      "sample_description": "Synthesized by heat treatment of iron fatty acid precursor complex at 900°C.",
+      "chemical_composition": "Fe2O3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase composition and crystallite size analysis of iron oxide nano particles treated from 250°C to 900°C.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6",
+        "sample_11"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of particle morphology, crystallinity, and SAED patterns.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "particle size analyzer",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of mean primary particle size distribution.",
+      "measurement_technique": "particle size analyzer",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Fe K-edge XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectra at the Fe K edge to probe oxidation state and site symmetry.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Fe foil reference",
+      "sample_refs": [],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "7-µm thin Fe foil used for X-Ray energy calibration.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

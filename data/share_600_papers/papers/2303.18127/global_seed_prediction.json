@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "Exploiting synchrotron X-ray tomography for a novel insight into flax-fibre defects ultrastructure",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Univ. de Toulouse, Laboratoire Génie de Production, LGP, INP-ENIT, F-65016 Tarbes, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "IPC Laval, Rue Léonard De Vinci, Changé, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Univ. Bretagne Sud, UMR CNRS 6027, IRDL, F-56100 Lorient, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Univ. de Lorraine, UMR-CNRS 7239, LEM3, F-57078 Metz cedex 03, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Synchrotron SOLEIL, F-91190 Saint-Aubin, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Delphine Quereilhac",
+        "orcid": null,
+        "email": "delphine.quereilhac@enit.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lola Pinsard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Elouan Guillou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Marina Fazzini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Emmanuel De Luycker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alain Bourmaud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Marwa Abida",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jonathan Perrin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Timm Weitkamp",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Pierre Ouagne",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": []
+      }
+    ],
+    "abstract": "Flax fibres are valuable reinforcements for tomorrow’s composites. However, defects called kinkbands, which mainly appear on fibres during the extraction and transformation phases, might affect their mechanical properties. Defects induced pores, within the kink-band are investigated in this work. They were morphologically explored using synchrotron phase-contrast X-ray microtomography, a technique that displays a sharp 3D representation of the pores. The study highlights the link between kink-bands and secondary cell wall ultrastructure. Pores are organised concentrically around the lumen, and their low thickness suggest that they are located at the interface between cellulose layers within S2 (G) layer. Moreover, the pores inclination with reference to the lumen axis follows the typical microfibrillar angle changes observed in the literature in the kink-band region. The volumes of the pores were measured, and a local increase in porosity was revealed in zones where defects are most severe along the fibre.",
+    "keywords": [
+      "flax fibres",
+      "kink-bands",
+      "pores",
+      "X-ray tomography",
+      "synchrotron radiation"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-03-30",
+    "venue": "Industrial Crops & Products",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-21-CE10-0008"
+      },
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-11-EQPX-0031"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and methods",
+      "3. Results and discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ANATOMIX beamline of Synchrotron SOLEIL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "industrial Flax Bolchoï variety",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "fibre",
+      "sample_mass": null,
+      "supplier_or_creator": "Van Robaeys Frères"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Synchrotron-radiation X-ray phase contrast microtomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D representation of the pores and internal structure of individual flax fibres, specifically focusing on kink-band areas.",
+      "measurement_technique": "X-ray phase contrast microtomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "bibliographic": {
+    "title": "Small-Angle Neutron Scattering study of solubilization of tributyl phosphate in aqueous solutions of L64 Pluronic triblock copolymers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "§",
+        "text": "Institut Charles Gerhardt CNRS UMR-5253 équipe « Agrégats Interfaces Matériaux pour l’Energie », Université Montpellier II, Case 015, Place E. Bataillon, 34095 Montpellier Cedex 05, France."
+      },
+      {
+        "id": "aff_2",
+        "label": "±",
+        "text": "Laboratoire des Colloïdes, Verres et Nanomatériaux (LCVN, CNRS UMR-5587), Université Montpellier II, Case 015, Place E. Bataillon, 34095 Montpellier Cedex 05, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "¥",
+        "text": "Laboratoire Léon Brillouin (LLB, UMR 12 CEA-CNRS), CEA Saclay, 91191 Gif-sur-Yvette Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "¢",
+        "text": "Laboratoire des Procédés Avancés de Décontamination (DEN/DTCD/SPDE/LPAD), CEA Marcoule, Bât. 438, BP17171, 30207 Bagnols Sur Cèze, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "J. CAUSSE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. OBERDISSE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. JESTIN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. LAGERGE",
+        "orcid": null,
+        "email": "slagerge@univ-montp2.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We have studied the solubilization behaviour of tributylphosphate (TBP) in aqueous solutions of L64-Pluronics, using light and small angle neutron scattering (SANS). Varying the temperature and the oil-content, the system presents a non trivial phase behaviour. In particular, at 308K, a first solubilization followed by an emulsification failure and a resolubilization is found. We have measured the microstructure by SANS and characterized the microemulsion droplet core-size, corona-thickness, polydispersity, and interactions. It is shown that at low oil content, the system is made of small swollen micelles. After the phase separation, the resolubilization is carried by larger oil droplets decorated by copolymer. From specific surface measurements at large angles, a surprising change in surfactant conformation is found to accompany this morphological evolution which is also supported by previous results obtained from 1H NMR experiments. In independent measurements, our structural modelling is confirmed using contrast-variation SANS.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUDING REMARKS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Laboratoire Léon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "pure L64",
+      "sample_description": "Aqueous solutions of Pluronic L64 copolymer.",
+      "chemical_composition": "Pluronic L64",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "BASF Corporation (France)"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "L64-TBP c/csat = 25",
+      "sample_description": "Ternary microemulsion system before phase separation.",
+      "chemical_composition": "L64-TBP",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "L64-TBP c/csat = 50",
+      "sample_description": "Ternary microemulsion system before phase separation.",
+      "chemical_composition": "L64-TBP",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "L64-TBP c/csat = 190",
+      "sample_description": "Ternary microemulsion system after resolubilization.",
+      "chemical_composition": "L64-TBP",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "L64-TBP c/csat = 220",
+      "sample_description": "Ternary microemulsion system after resolubilization.",
+      "chemical_composition": "L64-TBP",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "L64-TBP c/csat = 250",
+      "sample_description": "Ternary microemulsion system after resolubilization.",
+      "chemical_composition": "L64-TBP",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "L64-TBPd c/csat = 50",
+      "sample_description": "Sample using fully deuterated TBP for contrast variation.",
+      "chemical_composition": "L64-TBPd",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "L64-TBPd c/csat = 250",
+      "sample_description": "Sample using fully deuterated TBP for contrast variation.",
+      "chemical_composition": "L64-TBPd",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS of pure L64",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Structural study of pure aqueous copolymer solutions at 308 K.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS before phase separation",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Scattering patterns of L64-TBP-D2O systems with increasing TBP content before phase separation.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SANS after resolubilization",
+      "sample_refs": [
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Scattering patterns of L64-TBP systems at high oil concentrations after resolubilization.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "contrast-variation SANS",
+      "sample_refs": [
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS using fully deuterated TBP and H2O/D2O mixtures to determine TBP distribution.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "DLS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of hydrodynamic radii of aggregates.",
+      "measurement_technique": "Dynamic light scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Turbidity measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Detection of the solubility limit of TBP in polymeric solution to construct phase diagrams.",
+      "measurement_technique": "turbidity measurements",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

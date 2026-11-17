@@ -1,0 +1,373 @@
+{
+  "bibliographic": {
+    "title": "Ge epitaxy at ultra-low growth temperatures enabled by a pristine growth environment",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Institute of Semiconductor and Solid State Physics, Johannes Kepler University Linz, Altenberger Straße 69, 4040, Linz, Austria"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Christian Doppler Laboratory for Nanoscale Phase Transformations, Center for Surface And Nanoanalytics (ZONA), Johannes Kepler University Linz, Altenberger Straße 69, 4040, Linz, Austria"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Helmholtz-Zentrum Dresden-Rossendorf e.V., Institute of Radiation Physics, Dresden, 01328, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "ESRF – European Synchrotron Radiation Facility, 71, Avenue des Martyrs, CS 40220, 38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "IHP – Leibniz-Institut für innovative Mikroelektronik, - Im Technologiepark 25, D-15236, Frankfurt(Oder), Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "Dipartimento di Scienze, Università Roma Tre, V.le G. Marconi 446, 00146 Roma, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christoph Wilflingseder",
+        "orcid": null,
+        "email": "christoph.wilflingseder@jku.at",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Johannes Aberl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Enrique Prado Navarette",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Günter Hesser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Heiko Groiss",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Maciej O. Liedke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Maik Butterling",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Andreas Wagner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Eric Hirschmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Cedric CorleyWiciak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Marvin H. Zoellner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Giovanni Capellini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Thomas Fromherz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Moritz Brehm",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Germanium (Ge), the next-in-line group-IV material, bears great potential to add functionality and performance to next-generation nanoelectronics and solid-state quantum transport based on silicon (Si) technology. Here, we investigate the direct epitaxial growth of two-dimensional high-quality crystalline Ge layers on Si deposited at ultra-low growth temperatures (T Ge = 100°C - 350°C) and pristine growth pressures (≲ 10-10 mbar). First, we show that T Ge does not degrade the crystal quality of homoepitaxial Ge/Ge(001) by comparing the point defect density using positron annihilation lifetime spectroscopy. Subsequently, we present a systematic investigation of the Ge/Si(001) heteroepitaxy, varying the Ge coverage (Θ Ge, 1, 2, 4, 8, 12, and 16 nm) and T Ge (100°C to 300°C, in increments of 50°C) to assess the influence of these parameters on the layer’s structural quality. Atomic force microscopy revealed a rippled surface topography with superimposed grainy features and the absence of three-dimensional structures, such as quantum dots. Transmission electron microscopy unveiled pseudomorphic, grains of highly crystalline growth separated by defective domains. Thanks to nanobeam scanning x-ray diffraction measurements, we were able to evidence the lattice strain fluctuations due to the ripple-like structure of the layers. We conclude that the heteroepitaxial strain contributes to the formation of the ripples, which originate from the kinetic limitations of the ultra-low temperatures.",
+    "keywords": [
+      "germanium",
+      "silicon",
+      "epitaxy",
+      "strain",
+      "transmission electron microscopy",
+      "nanobeam x-ray diffraction",
+      "positron annihilation lifetime spectroscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Austrian Science Fund",
+        "grant_id": "10.55776/Y1238"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Methods",
+      "2.3. Results and Discussion",
+      "2.4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "mono-energetic positron source (MePS) beamline at HZDR"
+    },
+    {
+      "id": "facility_2",
+      "name": "hard x-ray nanoprobe beamline ID01/ESRF"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ge/Ge(001) TGe=350°C",
+      "sample_description": "Homoepitaxial Ge layer grown at 350°C.",
+      "chemical_composition": "Ge",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ge/Ge(001) TGe=200°C",
+      "sample_description": "Homoepitaxial Ge layer grown at 200°C.",
+      "chemical_composition": "Ge",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ge/Ge(001) TGe=150°C",
+      "sample_description": "Homoepitaxial Ge layer grown at 150°C.",
+      "chemical_composition": "Ge",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Ge/Ge(001) TGe=100°C",
+      "sample_description": "Homoepitaxial Ge layer grown at 100°C.",
+      "chemical_composition": "Ge",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ge/Si(001) matrix",
+      "sample_description": "Heteroepitaxial Ge layers with varying thickness (1, 2, 4, 8, 12, 16 nm) and growth temperatures (100, 150, 200, 250, 300°C).",
+      "chemical_composition": "Ge/Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Si buffer",
+      "sample_description": "75.5 nm thick Si buffer layer.",
+      "chemical_composition": "Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Si homoepitaxy",
+      "sample_description": "50 nm of Si deposited at 200°C on a 50 nm thick Si buffer.",
+      "chemical_composition": "Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "VEPALS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Variable energy positron annihilation lifetime spectroscopy to evaluate point defect density.",
+      "measurement_technique": "variable energy positron annihilation lifetime spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Atomic force microscopy to investigate surface topography and ripple periodicity.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TEM",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Transmission electron microscopy including HRTEM, BF, and DF imaging to analyze crystalline growth and defects.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Laboratory X-ray diffraction using Reciprocal Space Maps (RSM) to calculate lattice strain and relaxation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SXDM",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Scanning x-ray diffraction microscopy to probe local strain landscape and lattice rotation.",
+      "measurement_technique": "scanning x-ray diffraction microscopy",
+      "measurement_mode": [
+        "PositionScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

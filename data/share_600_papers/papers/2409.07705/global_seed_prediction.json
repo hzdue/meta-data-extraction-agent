@@ -1,0 +1,261 @@
+{
+  "bibliographic": {
+    "title": "Orbital inversion and emergent lattice dynamics in infinite layer CaCoO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Stanford Institute for Materials and Energy Sciences, SLAC National Accelerator Laboratory, Menlo Park, CA, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Science and Engineering, Stanford University, Stanford, CA, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, UK."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Geballe Laboratory for Advanced Materials, Stanford University, Stanford, CA, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Applied Physics, Stanford University, Stanford, CA, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, Stanford University, Stanford, CA, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Daniel Jost",
+        "orcid": null,
+        "email": "daniel.jost@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Eder G. Lomeli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Woo Jin Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Emily M. Been",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Matteo Rossi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Stefano Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Kejin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Chunjing Jia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Brian Moritz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Zhi-Xun Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Harold Y. Hwang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Thomas P. Devereaux",
+        "orcid": null,
+        "email": "tpd@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Wei-Sheng Lee",
+        "orcid": null,
+        "email": "leews@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The layered cobaltate CaCoO2 exhibits a unique herringbone-like structure. Serving as a potential prototype for a new class of complex lattice patterns, we study the properties of CaCoO2 using X- ray absorption spectroscopy (XAS) and resonant inelastic X-ray scattering (RIXS). Our results reveal a significant inter-plane hybridization between the Ca 4 s− and Co 3 d− orbitals, leading to an inversion of the textbook orbital occupation of a square planar geometry. Further, our RIXS data reveal a strong low energy mode, with anomalous intensity modulations as a function of momentum transfer close to a quasi-static response suggestive of electronic and/or orbital ordering. These findings indicate that the newly discovered herringbone structure exhibited in CaCoO2 may serve as a promising laboratory for the design of materials having strong electronic, orbital and lattice correlations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-09-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation’s Emergent Phenomena in Quantum Systems Initiative",
+        "grant_id": "GBMF9072"
+      },
+      {
+        "funder": "National Energy Research Scientific Computing Center (NERSC)",
+        "grant_id": "BES-ERCAP0027203"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CaCoO2",
+      "sample_description": "Infinite layer material grown via topotactic reduction of CaCoO2.5 thin films.",
+      "chemical_composition": "CaCoO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray Absorption Spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS measurements taken in total electron yield (TEY) for photon polarizations perpendicular and parallel to the scattering plane.",
+      "measurement_technique": "X-ray Absorption Spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Resonant Inelastic X-ray Scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS measurements conducted along (h,0), (h,k) and (-0.05,-0.05, l) directions to study orbital excitations and lattice vibrations.",
+      "measurement_technique": "Resonant Inelastic X-ray Scattering",
+      "measurement_mode": [
+        "EnergyScan",
+        "AngleScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

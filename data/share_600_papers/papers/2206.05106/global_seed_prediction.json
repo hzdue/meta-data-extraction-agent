@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Energy Landscape of Sugar Conformation Controls the Sol-to-Gel Transition in Self-assembled Bola Glycolipid Hydrogels",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Sorbonne Université, Centre National de la Recherche Scientifique, Laboratoire de Chimie de la Matière Condensée de Paris, LCMCP, F-75005 Paris, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "ESRF – The European Synchrotron, CS40220, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c,d",
+        "text": "Centre for Industrial Biotechnology and Biocatalysis (InBio.be), Department of Biotechnology, Faculty of Bioscience Engineering, Ghent University, Coupure Links 653, 9000 Ghent, Belgium"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Bio Base Europe Pilot Plant, Rodenhuizenkaai 1, 9042 Ghent, Belgium"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alexandre Poirier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Patrick Le Griel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Thomas Zinn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Petra Pernot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sophie L. K. W. Roelants",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Wim Soetaert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Niki Baccile",
+        "orcid": null,
+        "email": "niki.baccile@sorbonne-universite.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Self-assembled fibrillar network (SAFIN) hydrogels and organogels are commonly obtained by a crystallization process into fibers induced by external stimuli like temperature or pH. The gelto-sol-to-gel transition is generally readily reversible and the change rate of the stimulus determines the fiber homogeneity and eventual elastic properties of the gels. However, recent work shows that in some specific cases, fibrillation occurs for a given molecular conformation and the sol-to-gel transition depends on the relative energetic stability of one conformation over the other, and not on the rate of change of the stimuli. We observe such a phenomenon on a class of bolaform glycolipids, sophorosides, similar to the well-known sophorolipid biosurfactants, but composed of two symmetric sophorose units. A combination of oscillatory rheology, small-angle X-ray scattering (SAXS) cryogenic transmission electron microscopy (cryo-TEM) and in situ rheo-SAXS using synchrotron radiation shows that below 14°C, twisted nanofibers are the thermodynamic phase. Between 14°C and about 33°C, nanofibers coexist with micelles and a strong hydrogel forms, the sol-to-gel transition being readily reversible in this temperature range. However, above the annealing temperature of about 40°C, the micelle morphology becomes kinetically-trapped over hours, even upon cooling, whichever the rate, to 4°C. A combination of solution and solid-state nuclear magnetic resonance (NMR) suggests two different conformations of the 1ˈˈ, 1ˈ and 2ˈ carbon stereocenters of sophorose, precisely at the β(1,2) glycosidic bond, for which several combinations of the dihedral angles are known to provide at least three energetic minima of comparable magnitude and each corresponding to a given sophorose conformation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French ANR",
+        "grant_id": "SELFAMPHI - 19-CE43-0012-01"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Material and methods",
+      "Results",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European synchrotron, ESRF-EBS"
+    },
+    {
+      "id": "facility_2",
+      "name": "ESRF synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SSbolaC18:1",
+      "sample_description": "Monounsaturated symmetrical sophoroside containing a nonacetylated sophorose group at each extremity of the aliphatic chain.",
+      "chemical_composition": "SSbolaC18:1",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Bio Base Europe Pilot Plant, Gent, Belgium"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "oscillatory rheology",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of elastic and viscous moduli (G' and G'') using strain sweep and frequency sweep experiments.",
+      "measurement_technique": "oscillatory rheology",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle X-ray scattering spectra of SSbolaC18:1 hydrogel at different weight fractions.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "cryo-TEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cryogenic transmission electron microscopy images of 0.05 wt% SSbolaC18:1.",
+      "measurement_technique": "cryogenic transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "in situ rheo-SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Coupled rheology and SAXS measurements during temperature cycles and shear experiments.",
+      "measurement_technique": "rheo-SAXS",
+      "measurement_mode": [
+        "TemperatureScan",
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "1H solution-state NMR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Solution-state 1H NMR spectra recorded from 4°C to 50°C to determine micellar fraction.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "13C solid-state NMR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "13C CP-MAS NMR experiments on lyophilized samples prepared at different temperatures.",
+      "measurement_technique": "nuclear magnetic resonance",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

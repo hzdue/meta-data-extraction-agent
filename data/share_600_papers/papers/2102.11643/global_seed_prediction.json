@@ -1,0 +1,366 @@
+{
+  "bibliographic": {
+    "title": "Insight into the structure-property relation of UO2 nanoparticles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "The Rossendorf Beamline at ESRF – The European Synchrotron, CS40220, 38043 Grenoble Cedex 9, France."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Institute of Resource Ecology, PO Box 510119, 01314, Dresden."
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Lomonosov Moscow State University, Department of Chemistry, 119991 Moscow, Russia."
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Institute for Nuclear Waste Disposal (INE), Karlsruhe Institute of Technology, P.O. 3640, D-76021 Karlsruhe, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Department of Chemistry, X-ray Imaging and Microspectroscopy Research Group, Ghent University, Ghent, Belgium"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Dutch-Belgian Beamline (DUBBLE), European Synchrotron Radiation Facility, 71 Avenue des Martyrs, CS 40220, 38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Department of Chemistry, KU Leuven, Celestijnenlaan 200F, Box 2404, B-3001 Leuven, Belgium"
+      },
+      {
+        "id": "aff_8",
+        "label": "h",
+        "text": "Molecular and Condensed Matter Physics, Department of Physics and Astronomy, Uppsala University, P.O. Box 516, Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Evgeny Gerber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anna Yu. Romanchuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stephan Weiss",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Stephen Bauters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Bianca Schacherl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Tonya Vitova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "René Hübner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Salim Shams Aldin Azzam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Dirk Detollenaere",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Dipanjan Banerjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Sergei M. Butorin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Stepan N. Kalmykov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Kristina O. Kvashnina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Highly crystalline UO2 nanoparticles (NPs) with sizes of 2-3 nm were produced by fast chemical deposition of uranium(IV) under reducing conditions at pH 8-11. The particles were then characterized by microscopic and spectroscopic techniques including high-resolution transmission electron microscopy (HRTEM), X-ray diffraction (XRD), high-energy resolution fluorescence detection (HERFD) X-ray absorption spectroscopy at the U M4 edge and extended X-ray absorption fine structure (EXAFS) spectroscopy at the U L3 edge. The results of this investigation show that despite U(IV) being the dominant oxidation state of the freshly prepared UO2 NPs, they oxidize to U4O9 with time and under the X-ray beam, indicating the high reactivity of U(IV) under these conditions. Moreover, it was found that the oxidation process of NPs is accompanied by their growth in size to 6 nm. We highlight here the major differences and similarities of the UO2 NPs properties with PuO2, ThO2 and CeO2 NP s.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Commission Council",
+        "grant_id": "ERC [grant N759696]"
+      },
+      {
+        "funder": "RFBR",
+        "grant_id": "No. 19-33-90127"
+      },
+      {
+        "funder": "Russian Ministry of Science and Education",
+        "grant_id": "№ 075-15-2019-1891"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "201706465"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Helmholtz-Zentrum Dresden-Rossendorf"
+    },
+    {
+      "id": "facility_2",
+      "name": "KARA"
+    },
+    {
+      "id": "facility_3",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "0.1 M U(IV) pH > 11",
+      "sample_description": null,
+      "chemical_composition": "UO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "0.01 M U(IV) pH > 11",
+      "sample_description": null,
+      "chemical_composition": "UO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "0.1 M U(IV) pH 8",
+      "sample_description": null,
+      "chemical_composition": "UO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "0.01 M U(IV) pH 8",
+      "sample_description": null,
+      "chemical_composition": "UO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "UO2 reference",
+      "sample_description": "industrially obtained uranium dioxide powder pressed into a pellet and sintered at 1700°C under H2/Ar stream",
+      "chemical_composition": "UO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "HRTEM images and SAED patterns were recorded to confirm size distribution and crystallinity.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XRD diffractograms collected in Bragg-Brentano θ-2θ geometry to estimate crystallite size.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "HERFD X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "U M4 edge HERFD spectra recorded to identify oxidation states and detect impurities.",
+      "measurement_technique": "high-energy resolution fluorescence detection X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EXAFS spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "U L3 edge EXAFS spectra collected in transmission mode to investigate local chemical environment.",
+      "measurement_technique": "extended X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "bibliographic": {
+    "title": "Polymer-Regulated Freezing of Water Droplets Revealed by Synchrotron X-ray Imaging and Raman Spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Physics, Ulsan National Institute of Science and Technology (UNIST), Ulsan, Republic of Korea"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Korea Polar Research Institute (KOPRI), Incheon, Republic of Korea"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Pohang Accelerator Laboratory, Pohang University of Science and Technology (POSTECH), Pohang, Republic of Korea"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "UNIST Research Center for Soft and Living Matter, Ulsan National Institute of Science and Technology (UNIST), Ulsan, Republic of Korea"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hyeonjun An",
+        "orcid": "0009-0000-5316-6264",
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Bomi Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jae Kwan Im",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Min Woo Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Seob-Gu Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jae-Hong Lim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Kitae Kim",
+        "orcid": "0000-0002-3952-0287",
+        "email": "ktkim@kopri.re.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Joonwoo Jeong",
+        "orcid": "0000-0002-3082-783X",
+        "email": "jjeong@unist.ac.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Adding a polymer to a sessile water droplet not only lowers its freezing point but also suppresses the tip singularity that forms during its freezing on cold substrates. Here, we employ synchrotron X-ray and Raman imaging to elucidate the spatiotemporal mechanism underlying tip suppression in an aqueous polyvinyl alcohol (PVA) solution, a model polymer solution. As the polymer concentration increases, we observe slower propagation of the freezing front, reduced bubble entrapment, and a progressively more rounded apex across the volumes and molecular weights examined. X-ray tomography reveals that frozen PVA droplets retain low X-ray transmittance domains in their interiors and at the surface, and Raman spectral mapping confirms that these domains correspond to PVA-enriched regions, providing direct evidence of freeze-induced polymer segregation. These findings indicate that PVA is redistributed heterogeneously during water solidification rather than shifting bulk properties homogeneously, providing a spatially resolved framework for interpreting the observed tip blunting and the suppression of discrete bubble entrapment. Our work identifies freeze-induced polymer segregation as a pathway by which a dissolved polymer regulates both the external shape and the internal structure of a freezing droplet, and these findings shed light on potential applications in freezing-based processes such as freeze-casting and cryopreservation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": "Elsevier",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Korea Polar Research Institute",
+        "grant_id": "KOPRI PE25900"
+      },
+      {
+        "funder": "Korea Polar Research Institute",
+        "grant_id": "PE26120"
+      },
+      {
+        "funder": "Korean National Research Foundation",
+        "grant_id": "RS-2024-00437443"
+      },
+      {
+        "funder": "Ministry of Science and ICT",
+        "grant_id": "RS-2022-00164805"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Methods",
+      "3. Results and Discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Pohang Light Source-II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "neat water",
+      "sample_description": null,
+      "chemical_composition": "H2O",
+      "sample_state": "liquid",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PVA 13–23 kDa",
+      "sample_description": "Polyvinyl alcohol solution with molecular weight 13,000–23,000, 98% hydrolyzed.",
+      "chemical_composition": "polyvinyl alcohol",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PVA 85–124 kDa",
+      "sample_description": "Polyvinyl alcohol solution with molecular weight 85,000–124,000, 99+% hydrolyzed.",
+      "chemical_composition": "polyvinyl alcohol",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PEG",
+      "sample_description": "Polyethylene glycol solution, 3 wt%, 35 kDa.",
+      "chemical_composition": "polyethylene glycol",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "PVP",
+      "sample_description": "Polyvinylpyrrolidone solution, 3 wt%, 1.3 MDa.",
+      "chemical_composition": "polyvinylpyrrolidone",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Dextran",
+      "sample_description": "Dextran solution, 3 wt%, 100 kDa.",
+      "chemical_composition": "dextran",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray imaging",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved X-ray radiography and tomography to track the evolution of the freezing front and internal structure of droplets.",
+      "measurement_technique": "X-ray imaging",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman imaging",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Confocal Raman spectral mapping of horizontal cross-sections of frozen PVA droplets to identify polymer distribution.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

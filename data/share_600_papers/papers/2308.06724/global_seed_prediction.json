@@ -1,0 +1,241 @@
+{
+  "bibliographic": {
+    "title": "The impact of the near-surface region on the interpretation of x-ray absorption spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Andrew and Erna Viterbi Department of Electrical and Computer Engineering, Technion – Israel Institute of Technology, Haifa 3200003, Israel"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Electron Microscopy Center, Department of Materials Science and Engineering, Technion – Israel Institute of Technology, Haifa 3200003, Israel"
+      },
+      {
+        "id": "aff_3",
+        "label": "†",
+        "text": "Swiss Light Source, Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Graduate School of Human and Environmental Studies, Kyoto University, Sakyo-ku, Kyoto 606- 8501, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Department of Physics, Osaka University, Toyonaka, Osaka, 560-0043, Japan."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Lishai Shoham",
+        "orcid": null,
+        "email": "lishai@campus.technion.ac.il",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Maria Baskin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yaron Kauffmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anna Zakharova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Teppei Yoshida",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Shigeki Miyasaka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Cinthia Piamonteze",
+        "orcid": null,
+        "email": "cinthia.piamonteze@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Lior Kornblum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Transition metal oxides (TMOs) exhibit a broad spectrum of electronic, magnetic, and optical properties, making them intriguing materials for various technological applications. Soft x-ray absorption spectroscopy (XAS) is widely used to study TMOs, shedding light on their chemical state, electronic structure, orbital polarization, element-specific magnetism, and more. Different XAS acquisition modes feature different information depth regimes in the sample. Here, we employ two XAS acquisition modes, having surface-sensitive versus “bulk” probing depths, on the prototypical TMO SrVO3. We illustrate and elucidate a strong apparent discrepancy between the different modes, emphasizing the impact of the near-surface region on the interpretation of XAS data. These findings highlight the importance of the acquisition mode selection in XAS analysis. Moreover, the results highlight the role of the near-surface region not only in the characterization of TMOs, but also in the design of future nanoscale oxide electronics.",
+    "keywords": [
+      "transition metal oxides",
+      "correlated electrons",
+      "strontium vanadate",
+      "x-ray absorption spectroscopy"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Israel Science Foundation",
+        "grant_id": "1351/21"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021_169467"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results and Discussion",
+      "2.1. XAS by TEY",
+      "2.2. XAS by XEOL",
+      "2.3. EELS Analysis",
+      "2.4. The Near-Surface Region",
+      "3. Conclusions",
+      "4. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SVO-LAO",
+      "sample_description": "SVO films grown on LaAlO3 substrates subjecting the SVO to compressive biaxial strain.",
+      "chemical_composition": "SrVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SVO-LSAT",
+      "sample_description": "SVO films grown on (LaAlO3)0.3(Sr2AlTaO3)0.7 substrates subjecting the SVO to tensile biaxial strain.",
+      "chemical_composition": "SrVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "unstrained SVO",
+      "sample_description": "SVO single crystal.",
+      "chemical_composition": "SrVO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS by TEY",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS spectra at the V L2,3-edge acquired in total electron yield mode.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS by XEOL",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS spectra at the V L2,3-edge acquired in x-ray excited optical luminescence mode.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "EELS Analysis",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron energy loss spectroscopy at the V L2,3-edge taken from the middle of the film.",
+      "measurement_technique": "electron energy loss spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Electronic properties of ultra-thin YCrO3 films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Rutgers University, Piscataway, New Jersey 08854, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Advanced Light Source, Lawrence Berkley National Laboratory, Berkeley, California 94720, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Banabir Pal",
+        "orcid": null,
+        "email": "bp435@physics.rutgers.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Xiaoran Liu",
+        "orcid": null,
+        "email": "xiaoran.liu@rutgers.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Fangdi Wen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mikhail Kareev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. T. N’Diaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "P. Shafer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "E. Arenholz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jak Chakhalian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report on the heteroepitaxial stabilization of YCrO3 ultra-thin films on LSAT (001) substrate. Using a combination of resonant X-ray absorption spectroscopy (XAS) and atomic multiplet cluster calculation, the electronic structure of YCrO3 thin film was investigated. Polarization dependent Cr L3 _,_ 2 edge XAS measurement reveal the presence of an anomalous orbital polarization uncharacteristic of a 3d3 electronic system. Atomic multiplet calculation demonstrate the critical importance of charge transfer energy, coulomb correlation strength and hopping interaction in stabilizing this unusual orbital polarized state likely connected to the bulk multiferroicity.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-11-09",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Gordon and Betty Moore Foundation EPiQS Initiative",
+        "grant_id": "GBMF4534"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DOE de-sc 00012375"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YCO grown at ~10-1 Torr",
+      "sample_description": "YCO thin film grown at a relatively high oxygen pressure.",
+      "chemical_composition": "YCrO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YCO grown at ~10-3 Torr",
+      "sample_description": "YCO thin film synthesized at lower oxygen partial pressure to suppress secondary phases.",
+      "chemical_composition": "YCrO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "YCO grown at ~10-5 Torr",
+      "sample_description": "YCO thin film grown at very low oxygen pressure resulting in 3D growth.",
+      "chemical_composition": "YCrO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "optimized YCO",
+      "sample_description": "YCO films grown at ~10-3 Torr oxygen pressure and post annealed in vacuum for 15 min.",
+      "chemical_composition": "YCrO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RHEED",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "In-situ reflection-high-energy-electron diffraction used to monitor the layer-by-layer growth of YCO films.",
+      "measurement_technique": "reflection-high-energy-electron diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Core-level XPS measurements of Cr 2p to investigate charge states and stoichiometry.",
+      "measurement_technique": "X-ray Photoelectron Spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High-resolution XRD 2θ-ω scans in the vicinity of the (002) reflection of LSAT substrate.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray reflectivity curves used to determine the thickness of the YCO film.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "polarization dependent XAS",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarization dependent Cr L2,3 edge XAS measurements acquired in luminescence detection mode at 15 K.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan",
+        "PolarizationScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

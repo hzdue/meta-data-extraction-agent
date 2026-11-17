@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "Probing the Manipulation of Antiferromagnetic Order in CuMnAs Films Using Neutron Diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics and Astronomy, University of Nottingham, University Park, Nottingham, NG7 2RD, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Chilton, Didcot, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Physics, Czech Academy of Sciences, 162 00 Praha 6, Czech Republic"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. F. Poole",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L. X. Barton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "P. Manuel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "D. Khalyavin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Langridge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "K. W. Edmonds",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "R. P. Campion",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "V. Novák",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "P. Wadley",
+        "orcid": null,
+        "email": "Peter.Wadley@nottingham.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We describe measurements of the uniaxial magnetic anisotropy and spin-flop rotation of the Néel vector in antiferromagnetic CuMnAs thin films using neutron diffraction. The suppression of the magnetic (100) peak under magnetic fields is observed for films as thin as 20 nm indicating that they undergo a spin-flop transition. Good agreement is found between neutron diffraction and electron transport measurements of the spin-flop rotation in the same layer, with a similar shape and hysteresis of the obtained curves, while the neutron measurements provide a quantitative determination of the spin flop extent throughout the antiferromagnet layer.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-10-21",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EU FET Open RIA",
+        "grant_id": "766566"
+      },
+      {
+        "funder": "Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/P019749/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuMnAs 45 nm film",
+      "sample_description": "Grown on GaP(001) substrates using molecular beam epitaxy.",
+      "chemical_composition": "CuMnAs",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CuMnAs 20 nm film",
+      "sample_description": "Grown on GaP(001) substrates using molecular beam epitaxy.",
+      "chemical_composition": "CuMnAs",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of the (100), (010), and (001) reflections under magnetic fields at 100 K to determine spin-flop rotation.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "electrical transport measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetoresistance measurements of the 45 nm sample patterned into an L-shaped Hall bar at 4 K.",
+      "measurement_technique": "electrical transport measurements",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "bibliographic": {
+    "title": "Structural and Topological Nature of Plasticity in Sheared Granular Materials",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics and Astronomy, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Laboratoire Charles Coulomb, UMR 5521, University of Montpellier and CNRS, 34095 Montpellier, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Materials Genome Initiative Center, Shanghai Jiao Tong University, 800 Dong Chuan Road, Shanghai 200240, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute of Natural Sciences, Shanghai Jiao Tong University, Shanghai 200240, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, 210093, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yixin Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jindong Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Binquan Kou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Chengjie Xia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Zhifeng Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Rongchang Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Honglan Xie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Tiqiao Xiao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Walter Kob",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Liang Hong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jie Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Yujie Wang",
+        "orcid": null,
+        "email": "yujiewang@sjtu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "Upon mechanical loading, granular materials yield and undergo plastic deformation. The nature of plastic deformation is essential for the development of the macroscopic constitutive models and the understanding of shear band formation. However, we still do not fully understand the microscopic nature of plastic deformation in disordered granular materials. Here we used synchrotron X-ray tomography technique to track the structural evolutions of threedimensional granular materials under shear. We establish that highly distorted coplanar tetrahedra are the structural defects responsible for microscopic plasticity in disordered granular packings. The elementary plastic events occur through flip events which correspond to a neighbor switching process among these coplanar tetrahedra (or equivalently as the rotation motion of 4-ring disclinations). These events are discrete in space and possess specific orientations with the principal stress direction.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11175121"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11675110"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "synchrotron X-ray tomography"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "1.5g_W=25d",
+      "sample_description": "Sample prepared with tapping intensity 1.5g and thickness W=25d.",
+      "chemical_composition": "glass",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Duke Scientific"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1.5g_W=15d",
+      "sample_description": "Sample prepared with tapping intensity 1.5g and thickness W=15d.",
+      "chemical_composition": "glass",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Duke Scientific"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "4.5g_W=15d",
+      "sample_description": "Sample prepared with tapping intensity 4.5g and thickness W=15d.",
+      "chemical_composition": "glass",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Duke Scientific"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray tomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Tracking structural evolutions and particle trajectories of 3D granular materials under quasi-static shear.",
+      "measurement_technique": "synchrotron X-ray tomography",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

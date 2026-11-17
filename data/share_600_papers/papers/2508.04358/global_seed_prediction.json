@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "Probing the statistics of sequence-dependent DNA conformations in solution using SAXS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "School of Molecular Sciences, The University of Western Australia, 35 Stirling Highway, Crawley, WA 6009, Western Australia, Australia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Australian Nuclear Science and Technology Organisation (ANSTO), New Illawarra Rd, Lucas Heights, New South Wales 2234,Australia"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Laboratoire de Physique CNRS UMR 5672, Ecole Normale Sup´erieure de Lyon, 46 all´ee d’Italie, 69007 Lyon, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Heidar J. Koning",
+        "orcid": "0000-0001-8290-0499",
+        "email": "heidar.koning@research.uwa.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anuradha Pullakhandam",
+        "orcid": "0000-0002-2709-2545",
+        "email": "anuradha.pullakhandam@research.uwa.edu.au",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andrew E. Whitten",
+        "orcid": "0000-0001-8856-3120",
+        "email": "awh@ansto.gov.au",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Charles S. Bond",
+        "orcid": "0000-0002-9584-6783",
+        "email": "charles.bond@uwa.edu.au",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Michel Peyrard",
+        "orcid": "0000-0002-4047-1363",
+        "email": "michel.peyrard@ens-lyon.fr",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "SAXS studies of four 60 base-pair DNA duplexes with sequences closely related to part of the GAGE6 (G-antigen 6) promoter have been performed to study the role of DNA conformations in solution and their potential relationship to DNAprotein binding. We show that the SAXS data can be analysed using a simple polymer model which nevertheless quantitatively describes the average persistence length and torsional rigidity of the DNA double helix to determine the statistical distribution of local conformations of the DNA in solution to a high accuracy. Although the SAXS data is averaged over time and all spatial orientations of the molecules, for sequences which have some asymmetry in the data we show that the conformations can be oriented with respect to the sequence. This allows specific features detected by the analysis to be precisely related to the DNA sequence, opening up new opportunities for SAXS to investigate the properties of DNA in solution. The biological implications of these results are discussed.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Acta Crystallographica Section D Structural Biology",
+    "publisher": "International Union of Crystallography",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP220103667"
+      },
+      {
+        "funder": "National Health and Medical Research Council of Australia",
+        "grant_id": "APP1147496"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Methods",
+      "3. Results and Discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Australian Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "GAGE6",
+      "sample_description": "Native 60bp dsDNA oligonucleotide fragment of the GAGE6 promoter.",
+      "chemical_composition": "60 bp dsDNA",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Integrated DNA Technologies"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "GAGE6 1",
+      "sample_description": "Variant of GAGE6 where TTTT sequence at sites 28-31 is replaced by GCGC.",
+      "chemical_composition": "60 bp dsDNA",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Integrated DNA Technologies"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "GAGE6 2",
+      "sample_description": "Variant of GAGE6 where AT pairs at sites 28-31 and 38-44 are replaced by GC pairs.",
+      "chemical_composition": "60 bp dsDNA",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Integrated DNA Technologies"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "GAGE6 3",
+      "sample_description": "Variant of GAGE6 where AT-rich domains at sites 28-31, 38-44, and 50-54 are replaced by GC tracts.",
+      "chemical_composition": "60 bp dsDNA",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Integrated DNA Technologies"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SEC-SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Size Exclusion Chromatography coupled with Small Angle X-ray Scattering measurements of four GAGE6 DNA variants in buffer.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

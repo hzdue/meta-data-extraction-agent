@@ -1,0 +1,257 @@
+{
+  "bibliographic": {
+    "title": "MoP3SiO11 : a 4d3 honeycomb antiferromagnet with disconnected octahedra",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Theoretical Physics and Applied Mathematics Department, Ural Federal University, 620002 Yekaterinburg, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Harwell Oxford, Didcot, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut N´eel, CNRS and Universit´e Joseph Fourier, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institut Laue-Langevin, BP 156, F-38042 Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Experimental Physics VI, Center for Electronic Correlations and Magnetism, Institute of Physics, University of Augsburg, 86135 Augsburg, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "School of Physics, Indian Institute of Science Education and Research Thiruvananthapuram-695551, India"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Dresden High Magnetic Field Laboratory (HLD-EMFL), Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Danis I. Badrtdinov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lei Ding",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Clemens Ritter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jan Hembacher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Niyaz Ahmed",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Yurii Skourski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alexander A. Tsirlin",
+        "orcid": null,
+        "email": "altsirlin@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the crystal structure and magnetic behavior of the 4 d3 spin-3/2 silicophosphate MoP3SiO11 studied by high-resolution synchrotron x-ray diffraction, neutron diffraction, thermodynamic measurements, and ab initio band-structure calculations. Our data revise the crystallographic symmetry of this compound and establish its rhombohedral space group ( R̄ 3 c ) along with the geometrically perfect honeycomb lattice of the Mo3+ ions residing in disconnected MoO6 octahedra. Long-range antiferromagnetic order with the propagation vector k = 0 observed below TN = 6 . 8 K is a combined effect of the nearest-neighbor in-plane exchange coupling J ≈ 2 . 6 K, easy-plane singleion anisotropy D ≈ 2 . 2 K, and a weak interlayer coupling Jc ≈ 0 . 8 K. The 12% reduction in the ordered magnetic moment of the Mo3+ ions and the magnon gap of Δ ≈ 7 K induced by the singleion anisotropy further illustrate the impact of spin-orbit coupling on the magnetism. Our analysis puts forward single-ion anisotropy as an important ingredient of 4 d3 honeycomb antiferromagnets despite their nominally quenched orbital moment.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "21-72-10136"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "107745057 (TRR80)"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "Marie Skłodowska-Curie Grant Agreement No. 665593"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. MICROSCOPIC MODELING",
+      "V. DISCUSSION AND SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_3",
+      "name": "Dresden High Magnetic Field Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MoP3SiO11",
+      "sample_description": "Phase-pure polycrystalline samples prepared by a two-step solid-state reaction.",
+      "chemical_composition": "MoP3SiO11",
+      "sample_state": "polycrystalline",
+      "sample_mass": "0 . 1 – 0 . 2 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "high-resolution x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution XRD data collected at room temperature to verify rhombohedral symmetry.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction data collected at 1.5 K and 295 K to determine crystal and magnetic structure.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "magnetic susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent magnetic susceptibility measured in applied fields up to 7 T.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Magnetization measurements up to 56 T performed at 1.4 K.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity measured in the temperature range of 1 . 8 – 300 K in magnetic fields up to 14 T.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

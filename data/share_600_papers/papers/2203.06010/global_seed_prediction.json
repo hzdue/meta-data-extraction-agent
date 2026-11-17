@@ -1,0 +1,230 @@
+{
+  "bibliographic": {
+    "title": "Emergence of a hidden magnetic phase in LaFe 11 . 8 Si 1 . 2 investigated by inelastic neutron scattering as a function of field and temperature",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Centre for the Science of Materials, Loughborough University, Loughborough LE11 3TU"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Science and Engineering, University of Sheffield, Sheffield, S1 3JD, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ISIS Pulsed Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxon, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Technical University Darmstadt, Material Science, Functional Materials, Darmstadt, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "The Blackett Laboratory, Imperial College London, South Kensington Campus, London, UK"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. Morrison",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. J. Betouras",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "G. Venkat",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R.A. Ewings",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Caruana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "K. Skokov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "O. Gutfleisch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "L.F. Cohen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The NaZn13 type itinerant magnet LaFe13 −x Si x has seen considerable interest due to its unique combination of large magnetocaloric effect and low hysteresis. Here we demonstrate, with a combination of magnetometry, bespoke microcalorimetry and inelastic neutron scattering that this is due to the presence of paramagnetic spin fluctuations, which build up as the critical point is approached. While thermal measurements show significant latent heat independent changes in the heat capacity, inelastic neutron scattering reveals the presence of broad quasielastic scattering that persists above T c , in addition to a finite Q quasielastic peak at Q=0.52˚ A−1 (close to a { 100 } Bragg reflection in this system at Q = 0.54˚ A−1 ). This finite Q quasielastic peak appears only in the paramagnetic state and when in proximity to the itinerant metamagnetic transition. We associate these observations with a hidden (competing) phase and spin fluctuations close to the transition temperature and magnetic field, that persist across the magnetic transition.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-03-14",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Community’s 7th Framework Programme",
+        "grant_id": "CP-FP 214864-2"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/P002811/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/T034351/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental setup",
+      "Results",
+      "Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Pulsed Neutron and Muon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LaFe11.8Si1.2",
+      "sample_description": "Polycrystalline ingot prepared by arc melting and annealing.",
+      "chemical_composition": "LaFe11.8Si1.2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetisation as a function of magnetic field for temperatures ranging from 180 to 230 K.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "INS measurements performed on MARI and LET spectrometers to explore spin fluctuations about Tc.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns obtained using a Bruker D2 Phaser to confirm phase composition.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AC microcalorimetry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of heat expelled/absorbed due to first order phase transition and background changes in heat capacity.",
+      "measurement_technique": "AC microcalorimetry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

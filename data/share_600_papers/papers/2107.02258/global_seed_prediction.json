@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "The influence of Zn2+ ions on the local structure and thermochromic properties of Cu1 _−x_ Zn _x_ MoO4 solid solutions",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Institute of Solid State Physics, University of Latvia, Kengaraga Street 8, LV-1063 Riga, Latvia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Deutsches Elektronen-Synchrotron (DESY) – A Research Centre of the Helmholtz Association, Notkestrasse 85, D-22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Inga Pudza",
+        "orcid": null,
+        "email": "inga.pudza@cfi.lu.lv",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Andris Anspoks",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Arturs Cintins",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Aleksandr Kalinko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Edmund Welter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alexei Kuzmin",
+        "orcid": null,
+        "email": "a.kuzmin@cfi.lu.lv",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The influence of zinc ions on the thermochromic properties of polycrystalline Cu1 _−x_ Zn _x_ MoO4 ( _x_ =0.10, 0.50, 0.90) solid solutions was studied by X-ray absorption spectroscopy at the Cu, Zn and Mo K-edges. Detailed structural information on the local environment of metal ions was obtained from the simultaneous analysis of EXAFS spectra measured at three metal absorption edges using the reverse Monte Carlo method. Thermochromic phase transition with the hysteretic behaviour between _α_ and _γ_ phases was observed in Cu0 _._ 90Zn0 _._ 10MoO4 solid solution. It was found that the local environment of molybdenum ions is most susceptible to the substitution of copper for zinc and, upon cooling, transforms from tetrahedral MoO4 to distorted octahedral MoO6.",
+    "keywords": [
+      "Cu1 _−x_ Zn _x_ MoO4",
+      "solid solutions",
+      "thermochromism",
+      "EXAFS",
+      "XANES"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-07-07",
+    "venue": "Materials Today Communications",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Latvian Council of Science",
+        "grant_id": "lzp-2019/1-0071"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 Framework Programme",
+        "grant_id": "730872"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 Framework Programme",
+        "grant_id": "H2020-WIDESPREAD-01-2016-2017-TeamingPhase2 under grant agreement No. 739508, project CAMART2"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details and data analysis",
+      "3. Reverse Monte-Carlo simulations",
+      "4. Results and discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "HASYLAB PETRA III P65 undulator beamline"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu1 _−x_ Zn _x_ MoO4 (x=0.10)",
+      "sample_description": null,
+      "chemical_composition": "Cu0.90Zn0.10MoO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cu1 _−x_ Zn _x_ MoO4 (x=0.50)",
+      "sample_description": null,
+      "chemical_composition": "Cu0.50Zn0.50MoO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Cu1 _−x_ Zn _x_ MoO4 (x=0.90)",
+      "sample_description": null,
+      "chemical_composition": "Cu0.10Zn0.90MoO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "pure CuMoO4",
+      "sample_description": null,
+      "chemical_composition": "CuMoO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "pure α-ZnMoO4",
+      "sample_description": null,
+      "chemical_composition": "ZnMoO4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase purity control of all samples using a benchtop Rigaku MiniFlex 600 diffractometer.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent measurements at the Cu, Zn and Mo K-edges from 10 K to 300 K.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

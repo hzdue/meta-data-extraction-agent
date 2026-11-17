@@ -1,0 +1,262 @@
+{
+  "bibliographic": {
+    "title": "3D characterization of the primary Al3Sc phases in an Al-Sc alloy using Synchrotron X-ray tomography and electron microscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Neutron Scattering Technical Engineering Research Centre, School of Mechanical Engineering, Dongguan University of Technology, Dongguan, 523808, P.R. China"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "National Engineering Research Centre of Near-net-shape Forming for Metallic Materials, South China University of Technology, Guangzhou, 510641, P.R. China"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Engineering, University of Hull, East Yorkshire, HU6 7RX, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot, Oxfordshire, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Shanghai Key Laboratory of Advanced High-Temperature Materials and Precision Forming, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, P.R. China"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "ESRF-The European Synchrotron, 71 Avenue des Martyrs, 38000 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yuliang Zhao",
+        "orcid": null,
+        "email": "zhaoyl@dgut.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Weiwen Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Billy Koe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Wenjia Du",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Mengmeng Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Weilin Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Elodie Boller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Alexander Rack",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Zhenzhong Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jiawei Mi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The three-dimensional structures of the primary Al3Sc particles in an Al-2%Sc master alloy were studied by synchrotron X-ray microtomography, scanning and transmission electron microscopy. The Al3Sc phases were found to be a single cube and a cluster of cubes. The surface area, equivalent diameter of the Al3Sc cubes increased with the increasing of cube volume, but the specific surface area decreases. The primary Al3Sc cubes and Al-matrix have the same crystal orientation, indicating that the Al3Sc phases are the heterogeneous nucleation sites for Al. The experimental results show that α-Al2O3 are the possible nucleation sites for the Al3Sc cubes.",
+    "keywords": [
+      "Synchrotron X-ray tomography",
+      "Aluminium",
+      "Scandium",
+      "Intermetallic",
+      "Microstructure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UK-EPSRC",
+        "grant_id": "EP/L019965/1"
+      },
+      {
+        "funder": "Natural Science Foundation of Guangdong Province",
+        "grant_id": "2015A030312003"
+      },
+      {
+        "funder": "National Engineering Research Centre of Near-Net-Shape Forming for Metallic Materials",
+        "grant_id": "2018014"
+      },
+      {
+        "funder": "Science and Technology Project of Zhaoqing",
+        "grant_id": "2018K009"
+      },
+      {
+        "funder": "Scientific Research Foundation of Advanced Talents (Innovation Team), DGUT",
+        "grant_id": "KCYCXPT2016004"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al-2%Sc alloy",
+      "sample_description": "Al-2.0 wt.% Sc master alloy used in this study.",
+      "chemical_composition": "Al-2%Sc",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "scanning electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Conventional 2D microstructure characterisation using a Nova SEM 430 Field Emission Gun SEM.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "electron backscatter diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Crystal orientation and grain size maps obtained using the HKL Channel 5 EBSD acquisition system.",
+      "measurement_technique": "electron backscatter diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Examination of TEM thin foils in a JEOL 2100F TEM operated at 200 kV.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "synchrotron X-ray tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D characterization of primary Al3Sc phases performed at the ID 19 beamline.",
+      "measurement_technique": "synchrotron X-ray tomography",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

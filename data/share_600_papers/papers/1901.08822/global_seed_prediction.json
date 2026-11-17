@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Self-assembly of a binary mixture of iron oxide nanoparticles in Langmuir film: X-ray scattering study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "National Research Centre ”Kurchatov Institute” B. P. Konstantinov Petersburg Nuclear Physics Institute, 188300 Gatchina, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institute of Polymer Materials of the Department of Materials Science Friedrich-Alexander University Erlangen-N¨urnberg, Martensstrasse 7, D-91058 Erlangen, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "European Synchrotron Radiation Facility, 71, Avenue des Martyrs, CS40220, F-38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, 751 20, Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Ukleev",
+        "orcid": null,
+        "email": "ukleev@lns.pnpi.spb.ru",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Khassanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "I. Snigireva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "O. Konovalov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Dudnik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "I. Dubitskiy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Vorobiev",
+        "orcid": null,
+        "email": "avorobiev@ill.fr",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "In present study we exploited Langmuir technique to produce self-assembled arrays composed of monodisperse iron oxide nanoparticles 10 nm and 20 nm in diameter and of their binary mixture. A combination of in-situ X-ray reflectometry and Grazing-incident small-Angle X-ray scattering was used to obtain in-plane and out-of-plane structure of the arrays directly on the water surface. Surface pressure isotherms and X-ray reflectometry analysis showed that monodisperse 10 nm nanoparticles form a highly ordered monolayer, while 20 nm particles pack in three-dimensional clusters with a short-range (nearest-neighbor) correlations between the particles. In a binary mixture of 10 nm and 20 nm nanoparticles composed in proportion 3:1 the self-assembly process results in a structure where the monolayer of 10 nm particles is perturbed by the larger particles. Non-trivial mixing causes an enlargement of interparticle distance but keeps the symmetry of two-dimensional lattice of smaller nanoparticles. Estimation of the acting interactions and micromagnetic simulation suggest the optimal formation for monodisperse and binary ensembles.",
+    "keywords": [
+      "Magnetic nanoparticles",
+      "X-ray scattering",
+      "Langmuir film"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-05-27",
+    "venue": "Materials Chemistry and Physics",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Foundation for Basic Research",
+        "grant_id": "12-02-12066-ofi m"
+      },
+      {
+        "funder": "Russian Foundation for Basic Research",
+        "grant_id": "14-22-01113-ofi m"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Samples",
+      "3. Experiment",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MD10",
+      "sample_description": "Monodisperse iron oxide nanoparticles with a mean diameter of 10 nm.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "Ocean NanoTech, USA"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MD20",
+      "sample_description": "Monodisperse iron oxide nanoparticles with a mean diameter of 20 nm.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "Ocean NanoTech, USA"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "BM10320",
+      "sample_description": "Binary mixture of 10 nm and 20 nm iron oxide nanoparticles in a particle number ratio of 3:1.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Surface pressure isotherms",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of surface pressure-area isotherms during compression of the layers.",
+      "measurement_technique": "Surface pressure isotherms",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray Reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Examination of the transverse structure of the layer to obtain scattering length density profiles.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Grazing-incident small-Angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Investigation of in-plane ordering and determination of lattice constants.",
+      "measurement_technique": "Grazing-incident small-Angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Scanning Electron Microscopy",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Imaging of deposited samples to observe monolayer and agglomerate structures.",
+      "measurement_technique": "Scanning Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

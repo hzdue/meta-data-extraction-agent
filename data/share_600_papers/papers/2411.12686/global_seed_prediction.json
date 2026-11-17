@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "Probing Langmuir monolayer self-assembly in condensed and collapsed phases: grazing incidence X-ray diffraction and X-ray standing waves studies",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Moscow Institute of Physics and Technology, Dolgoprudny, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Research Center Kurchatov Institute, Moscow, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "MIREA – Russian Technological University, Moscow, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K.V. Nikolaev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "L.R. Muftakhova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "G.M. Kuz’micheva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yu.N. Malakhova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A.V. Rogachev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "N.N. Novikova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "S.N. Yakunin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Ce-induced effects on the self-assembly of arachidic acid monolayer was studied. The monolayers were formed on the cerium nitrate solution and studied in condensed and collapsed phases at two different temperatures 𝑇 = 21∘ C and 𝑇 = 23∘ C. Grazing incidence X-ray diffraction and X-ray standing waves were applied to monitor in real time the changes in molecular packing. A new type of molecular organization was found, in which the monolayer maintains its lattice structure despite being overcompressed. Instead of forming crystalline aggregates or anisotropic cracking, the collapsed monolayer at 𝑇 = 21∘ C appeared to be corrugated. The diffraction pattern for the monolayer in a new collapse mode is represented by the unclosed diffraction rings with maxima near the sample horizon. Theoretical formalism based on the distorted wave Born approximation was developed for quantitative analysis of the full 2D maps of diffraction scattering. The collapsed monolayer at 𝑇 = 21∘ C was shown to consist of crystalline flat domains, which are inclined from the horizontal position. The crystalline structure of a domain was identified as the pseudoherringbone packing mode.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-12-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Science and Higher Education of the Russian Federation",
+        "grant_id": "FSFZ-2024-0003"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Results",
+      "3 Discussion",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Kurchatov Center for Synchrotron Radiation"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "AA monolayer on pure water",
+      "sample_description": "Control sample of arachidic acid monolayer deposited on pure water subphase.",
+      "chemical_composition": "arachidic acid",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "AA monolayer on Ce(NO3)3 solution",
+      "sample_description": "Arachidic acid monolayer formed on a 20 mM cerium nitrate solution.",
+      "chemical_composition": "arachidic acid, Ce(NO3)3 · 6H2O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "compression isotherm measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of surface pressure-area isotherms at T = 21°C.",
+      "measurement_technique": "compression isotherm measurements",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "BAM measurements",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Visualization of morphological properties at different monolayer phases and temperatures (21°C and 23°C).",
+      "measurement_technique": "Brewster angle microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GID measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence X-ray diffraction measurements across four series and one control to study molecular packing.",
+      "measurement_technique": "grazing incidence X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XSW measurements",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray standing wave measurements to monitor the vertical localization of Ce3+ ions.",
+      "measurement_technique": "X-ray standing waves",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

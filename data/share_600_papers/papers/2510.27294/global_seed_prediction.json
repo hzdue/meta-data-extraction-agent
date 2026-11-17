@@ -1,0 +1,246 @@
+{
+  "bibliographic": {
+    "title": "Influence of Hydrogen-Incorporation on the Bulk Electronic Structure and Chemical Bonding in Palladium",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Faculty of Applied Sciences, Delft University of Technology, Mekelweg 15, 2629 JB Delft, The Netherlands."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Photon Science, Deutsches Elektronen-Synchrotron DESY, 22607 Hamburg, Germany."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Stockholm University, 10691 Stockholm, Sweden."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Wallenberg Initiative Materials Science for Sustainability, Department of Physics, Stockholm University, 114 28 Stockholm, Sweden."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Centre for Computational Chemistry, School of Chemistry, University of Bristol, Bristol BS8 1TS, United Kingdom."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Hylleraas Centre for Quantum Molecular Sciences, Department of Chemistry, UiT The Arctic University of Norway, N-9037 Tromsø, Norway."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Chemistry, University of Oxford, Inorganic Chemistry Laboratory, Oxford OX1 3QR, United Kingdom."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Chemistry, University College London, London WC1H 0AJ, United Kingdom."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L. J. Bannenberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "F. Garc´ıa-Mart´ınez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "P. L¨omker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Y. Engel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "C. Schlueter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "H. Schreuders",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Navarathna",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "L. E. Ratcliff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. Regoutz",
+        "orcid": null,
+        "email": "anna.regoutz@chem.ox.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "Palladium hydride is a model system for studying metal-hydrogen interactions. Yet, its bulk electronic structure has proven difficult to directly probe, with most studies to date limited to surface-sensitive photoelectron spectroscopy approaches. This work reports the first in-situ ambientpressure hard X-ray photoelectron spectroscopy (AP-HAXPES) study of hydrogen incorporation in Pd thin films, providing direct access to bulk chemical and electronic information at elevated hydrogen pressures. Structural characterisation by in-situ X-ray diffraction and neutron reflectometry under comparable conditions establishes a direct correlation between hydrogen loading, lattice expansion, and electronic modifications. Comparison with density functional theory (DFT) reveals how hydrogen stoichiometry and site occupancy govern the density of occupied states near the Fermi level. These results resolve long-standing questions regarding PdH and establish AP-HAXPES as a powerful tool for probing the bulk electronic structure of metal hydrides under realistic conditions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/X035891/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "TU Delft Reactor Institute"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Pd thin film",
+      "sample_description": "50 nm layer of Pd and a 4 nm Ti layer on a Si wafer.",
+      "chemical_composition": "Pd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements to check the thickness, roughness, and density of the Pd layer.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ and in-situ measurements to identify the phase and hydrogen-to-metal ratio in the Pd film.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron reflectometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-situ measurements to determine the hydrogen-to-palladium ratio x and layer expansion.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AP-HAXPES",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Ambient-pressure hard X-ray photoelectron spectroscopy to investigate chemical bonding and electronic structure upon hydrogen incorporation.",
+      "measurement_technique": "hard X-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

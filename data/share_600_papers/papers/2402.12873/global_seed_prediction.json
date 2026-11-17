@@ -1,0 +1,391 @@
+{
+  "bibliographic": {
+    "title": "The Behavior of the Intercalant AlCl4 Anion during the Formation of Graphite Intercalation Compound: An X-ray Absorption Fine Structure Study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Helmholtz-Zentrum Berlin für Materialien und Energie GmbH Hahn-Meitner-Platz 1, D-14109 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "[+]",
+        "text": "Department of Fusion and Technology for Nuclear Safety and Security, ENEA Centro Ricerche Casaccia, Via Anguillarese 301, 00123 Rome, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "[++]",
+        "text": "Université de Lyon, Institut des Nanotechnologies de Lyon (INL) UMR CNRS 5270, Ecole Centrale Lyon, 69131 Ecully, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "[+++]",
+        "text": "Department of Applied Science and Technology (DISAT), Politecnico di Torino, Corso Duca degli Abruzzi 24, 10129 Torino, Italy"
+      },
+      {
+        "id": "aff_5",
+        "label": "[++++]",
+        "text": "Max Planck Institute for Chemical Energy Conversion (MPI CEC), Stiftstr. 34-36, 45470 Mülheim an der Ruhr, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "Chemistry Department Sapienza University of Rome P.le Aldo Moro 5, 00185 Roma, Italy"
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "Technical University of Berlin Research Center of Microperipheric Technologies Gustav-Meyer-Allee 25, D-13355 Berlin, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": null,
+        "text": "Physikalisch Technische Bundesanstalt (PTB) Abbestr. 2-12, 10587 Berlin, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": null,
+        "text": "School of Engineering RMIT University Melbourne, VIC 3001, Australia"
+      },
+      {
+        "id": "aff_10",
+        "label": null,
+        "text": "Fraunhofer IZM Institut für Zuverlässigkeit und Mikrointegration Gustav-Meyer-Allee 25, D-13355 Berlin, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Giorgia Greco",
+        "orcid": null,
+        "email": "giorgia.greco@uniroma1.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Giuseppe Antonio Elia",
+        "orcid": null,
+        "email": "giuseppe.elia@polito.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yves Kayser",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Burkhard Beckhoff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Marko Perestjuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Simone Raoux",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Rober Hahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_10"
+        ]
+      }
+    ],
+    "abstract": "This work aims to study the insertion of AlCl4 anion in the crystalline structure of oriented pyrolytic graphite (PG) at the point of view of the anion itself. The electronic and atomic structures of the anion at different intercalation stages are studied. In particular double-edge (bicolor) X-ray absorption spectroscopy at the Al and Cl K-edges is carried out, highlighting a contraction of the anion bonding at the highest intercalation degree obtained electrochemically (stage 3), while the electronic population changes for both the edges upon cycle.",
+    "keywords": [
+      "electrochemically induced phase transitions",
+      "electronic structures",
+      "graphite intercalation compounds",
+      "superlattices",
+      "thermodynamics",
+      "X-ray absorption fine structure"
+    ],
+    "doi": "10.1002/pssa.202300776",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024",
+    "venue": "physica status solidi (a) applications and materials science",
+    "publisher": "Wiley-VCH GmbH",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Unions Horizon 2020 research and innovation programme",
+        "grant_id": "101029608"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "646286"
+      },
+      {
+        "funder": "German Federal Ministry of Education and Research",
+        "grant_id": "03SF0486"
+      },
+      {
+        "funder": "German Federal Ministry of Education and Research",
+        "grant_id": "03XP0128E"
+      },
+      {
+        "funder": "European Partnership on Metrology",
+        "grant_id": "21GRD01 (OpMetBat)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results and Discussion",
+      "3. Conclusion",
+      "4. Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Physikalisch Technische Bundesanstalt"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "1 cycle, 25 mAh g-1 charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "1 cycle, 50 mAh g-1 charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "1 cycle, fully charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "1 cycle, 25 mAh g-1 discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "1 cycle, 50 mAh g-1 discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "1 cycle, fully discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "5 cycle, 25 mAh g-1 charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "5 cycles, 50 mAh g-1 charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "5 cylcles, fully charged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "5 cycles, 25 mAh g-1 discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "5 cycles, 50 mAh g-1 discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "5 cycles, fully discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "500 cycles, fully discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "1000 cycles, fully discharged",
+      "sample_description": null,
+      "chemical_composition": "AlCl4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_15",
+      "sample_name": "AlCl3 powder",
+      "sample_description": null,
+      "chemical_composition": "AlCl3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Al K-edge XAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11",
+        "sample_12",
+        "sample_13",
+        "sample_14",
+        "sample_15"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption fine structure measurements at the Al K-edge to study the electronic and atomic structure of the intercalated anion.",
+      "measurement_technique": "X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Cl K-edge XAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11",
+        "sample_12",
+        "sample_13",
+        "sample_14",
+        "sample_15"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption fine structure measurements at the Cl K-edge to study the electronic and atomic structure of the intercalated anion.",
+      "measurement_technique": "X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

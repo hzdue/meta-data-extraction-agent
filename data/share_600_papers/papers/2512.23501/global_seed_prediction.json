@@ -1,0 +1,255 @@
+{
+  "bibliographic": {
+    "title": "Operando study of the evolution of peritectic structures in metal solidification by quasi-simultaneous synchrotron X-ray diffraction and tomography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Engineering and Technology, University of Hull, Hull, HU6 7RX, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Engineering and Westlake Institute for Advanced Study, Westlake University, Hangzhou, 310030, P.R. China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Diamond Light Source Ltd., Didcot, Oxfordshire, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Research Complex at Harwell, Didcot, Oxfordshire, OX11 0FA, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Faculty of Material Science and Engineering, Yunnan Key Laboratory of Integrated Computational Materials Engineering for Advanced Light Alloys, Kunming University of Science and Technology, Kunming, 650093, P.R. China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kang Xiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yueyuan Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Shi Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Hongyuan Song",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alberto Leonardi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Peter Garland",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Sharif Ahmed",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Michał M. Kłosowski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Hongmei Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Mengnie Li",
+        "orcid": null,
+        "email": "limengnie@kust.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Jiawei Mi",
+        "orcid": null,
+        "email": "J.Mi@hull.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Using quasi-simultaneous synchrotron X-ray diffraction and tomography techniques, we have studied in-situ and in real-time the nucleation and co-growth dynamics of the peritectic structures in an Al-Mn alloy during solidification. We collected ~30 TB 4D datasets which allow us to elucidate the phases’ co-growth dynamics and their spatial, crystallographic and compositional relationship. The primary Al4Mn hexagonal prisms nucleate and grow with high kinetic anisotropy -70 times faster in the axial direction than the radial direction. In all cases, a ~5 µm Mn-rich diffusion layer forms at the liquid-solid interface, creating a sharp local solute gradient that governs subsequent phase transformation. The peritectic Al6Mn phases nucleate epitaxially within this diffusion zone, initially forming a thin shell surrounding the Al4Mn with an orientation relationship of {1010} ¯ HCP // {110}O, [0001]HCP // [001]O. Such ~5 µm Mn-rich diffusion layers also cause solute depletion at the liquid side of the liquid-solid interface, limiting further epitaxial phase growth, but prompting phase re-nucleation and branching at crystal edges, resulting tetragonal prism structures that no longer follow the initial orientation relationship. The anisotropic diffusion also led to the formation of core defects at the centre of both phases. Furthermore, increasing cooling rate from 0.17 to 20 °C/s can disrupt the stability of the solute diffusion zone, effectively suppressing the formation of the core defects and forcing a transition from faceted to non-faceted morphologies. Our work establishes a new theoretical framework for how to tailor and control the peritectic structures in metallic alloys through solidification processes.",
+    "keywords": [
+      "Synchrotron X-ray",
+      "Diffraction",
+      "Tomography",
+      "Dynamics",
+      "Al-Mn alloy",
+      "Peritectic reaction",
+      "Intermetallics",
+      "Solidification"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UK Engineering and Physical Science Research Council",
+        "grant_id": "EP/L019965/1"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "52104373"
+      },
+      {
+        "funder": "Yunnan International Cooperation Base in Cloud Computation for Non-ferrous Metal Processing",
+        "grant_id": "202203AE140011"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experiments and methods",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al-8wt.%Mn",
+      "sample_description": "Al-Mn binary system model alloy.",
+      "chemical_composition": "Al-8wt.%Mn",
+      "sample_state": "cylindrical bar",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Diffraction patterns collected on a grid of 5 x 3 points to study phase transformation during solidification.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "synchrotron X-ray tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D tomographic scans used to observe the morphological evolution of Al-Mn intermetallics.",
+      "measurement_technique": "synchrotron X-ray tomography",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "EBSD and EDXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ analysis of the coupled peritectic structures of the fully solidified alloy sample.",
+      "measurement_technique": "electron backscattered diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

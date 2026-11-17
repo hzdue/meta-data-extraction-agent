@@ -1,0 +1,451 @@
+{
+  "bibliographic": {
+    "title": "Spin State Disproportionation in Insulating Ferromagnetic LaCoO3 Epitaxial Thin Films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Materials Science and Engineering, Harbin Institute of Technology, Shenzhen, 518055, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Electrophysics, National Yang Ming Chiao Tung University, Hsinchu, 30010, Taiwan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Beijing National Laboratory for Condensed Matter Physics and Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Electronic Science, East China Normal University, 200241, Shanghai, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "NYU-ECNU Institute of Physics, NYU Shanghai, Shanghai 200122, China"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Hefei National Research Center for Physical Sciences at the Microscale and Anhui Laboratory of Advanced Photon Science and Technology, University of Science and Technology of China, Hefei 230026, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, Faculty of Science, National University of Singapore, Singapore 117551, Singapore"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Shanghai Key Laboratory of High Temperature Superconductors, Physics Department, Shanghai University, Shanghai 200444, China"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics, Southern University of Science and Technology, Shenzhen, 518055, China"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Department of Physics, New York University, New York, NY, 10012, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Max-Planck Institute for Chemical Physics of Solids, Nöthnitzer Str. 40, 01187 Dresden, Germany"
+      },
+      {
+        "id": "aff_12",
+        "label": "12",
+        "text": "National Synchrotron Radiation Research Center, 101 Hsin-Ann Road, Hsinchu, 30076, Taiwan"
+      },
+      {
+        "id": "aff_13",
+        "label": "13",
+        "text": "Flexible Printed Electronics Technology Center, Harbin Institute of Technology, Shenzhen, 518055, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shanquan Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jhong-Yi Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Qinghua Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Qiuyue Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Ting Lin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fanqi Meng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Haoliang Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Shengwei Zeng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Xinmao Yin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "My Ngoc Duong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Yalin Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Lang Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Er-Jia Guo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Hanghui Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Chun-Fu Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Chang-Yang Kuo",
+        "orcid": null,
+        "email": "changyangkuo@nycu.edu.tw",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_12"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Zuhuang Chen",
+        "orcid": null,
+        "email": "zuhuang@hit.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_13"
+        ]
+      }
+    ],
+    "abstract": "The origin of insulating ferromagnetism in epitaxial LaCoO3 films under tensile strain remains elusive despite extensive research efforts have been devoted. Surprisingly, the spin state of its Co ions, the main parameter of its ferromagnetism, is still to be determined. Here, we have systematically investigated the spin state in epitaxial LaCoO3 thin films to clarify the mechanism of strain induced ferromagnetism using element-specific x-ray absorption spectroscopy and dichroism. Combining with the configuration interaction cluster calculations, we unambiguously demonstrate that Co3+ in LaCoO3 films under compressive strain (on LaAlO3 substrate) are practically a low spin state, whereas Co3+ in LaCoO3 films under tensile strain (on SrTiO3 substrate) have mixed high spin and low spin states with a ratio close to 1:3. From the identification of this spin state ratio, we infer that the dark strips observed by highresolution scanning transmission electron microscopy indicate the position of Co3+ high spin state, i.e. , an observation of a spin state disproportionation in tensile-strained LaCoO3 films. This consequently explains the nature of ferromagnetism in LaCoO3 films.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "U1932116"
+      },
+      {
+        "funder": "Guangdong Basic and Applied Basic Research Foundation",
+        "grant_id": "2020B1515020029"
+      },
+      {
+        "funder": "Shenzhen Science and Technology Innovation project",
+        "grant_id": "JCYJ20200109112829287"
+      },
+      {
+        "funder": "Shenzhen Science and Technology Program",
+        "grant_id": "KQTD20200820113045083"
+      },
+      {
+        "funder": "Fundamental Research Funds for the Central Universities",
+        "grant_id": "HIT.OCEF.2022038"
+      },
+      {
+        "funder": "Ministry of Science and Technology in Taiwan",
+        "grant_id": "MOST 110-2636-M-006-003"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "52072400"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "52025025"
+      },
+      {
+        "funder": "Beijing Natural Science Foundation",
+        "grant_id": "Z190010"
+      },
+      {
+        "funder": "Ministry of Science and Technology of China",
+        "grant_id": "2021YFE0107900"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL RESULTS",
+      "III. SUMMARY",
+      "IV. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Radiation Research Center"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LCO/STO",
+      "sample_description": "LaCoO3 thin films grown on [001]-oriented SrTiO3 substrates under tensile strain.",
+      "chemical_composition": "LaCoO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LCO/LAO",
+      "sample_description": "LaCoO3 thin films grown on [001]-oriented LaAlO3 substrates under compressive strain.",
+      "chemical_composition": "LaCoO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of magnetization-temperature curves and magnetic hysteresis loops.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "transport measurement",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC transport measurements to reveal insulating behavior.",
+      "measurement_technique": "transport measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy at Co L2,3 edges at 30 K.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XLD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray linear dichroism spectra in grazing incidence geometry at 30 K.",
+      "measurement_technique": "x-ray linear dichroism spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Remanent x-ray magnetic circular dichroism experiments at 30 K.",
+      "measurement_technique": "magnetic circular dichroism spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "STEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High-angle angular dark-field STEM imaging with varying electron dose.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "EELS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron-energy-loss spectroscopy of bright and dark stripes.",
+      "measurement_technique": "electron-energy-loss spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

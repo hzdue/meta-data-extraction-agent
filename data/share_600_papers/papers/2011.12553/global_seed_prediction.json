@@ -1,0 +1,208 @@
+{
+  "bibliographic": {
+    "title": "Evolution from sinusoidal to collinear A-type antiferromagnetic spinordered magnetic phase transition in Tb0.6Pr0.4MnO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, 221005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Instituto de Ciencia de Materiales de Madrid, CSIC, Cantoblanco, E-28049, Madrid, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Departamento de Física Aplicada, EPS, Universidad Carlos III, Avenida Universidad 30, E-28911, Leganés- Madrid, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "UGC-DAE Consortium of Scientific Research, Indore, 452017, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Harshit Agarwal",
+        "orcid": null,
+        "email": "harshit.physics@gmail.com",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "José Antonio Alonso",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ángel Muñoz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R J Choudhary",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "O N Srivastava",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "M A Shaz",
+        "orcid": null,
+        "email": "shaz2001in@yahoo.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The present study reports on the structural and magnetic phase transitions in Pr-doped polycrystalline Tb0.6Pr0.4MnO3, using high-resolution neutron powder diffraction (NPD) collected at SINQ spallation source (PSI), to emphasize the suppression of the sinusoidal magnetic structure of pure TbMnO3 and the evolution to a collinear A-type antiferromagnetic ordering. The phase purity, Jahn-Teller distortion, and one-electron bandwidth for eg orbital of Mn3+ cation have been calculated for polycrystalline Tb0.6Pr0.4MnO3, in comparison to the parent materials TbMnO3 and PrMnO3, through the Rietveld refinement study from X-ray diffraction data at room temperature. The temperature-dependent zero field-cooled and field-cooled dc magnetization study at low temperature down to 5 K reveals a variation in the magnetic phase transition due to the effect of Pr3+ substitution at the Tb3+ site, which gives the signature of the antiferromagnetic nature of the sample, with a weak ferromagnetic component at low temperature induced by an external magnetic field. The field-dependent magnetization study at low temperatures gives the weak coercivity having the order of 2 kOe, which is expected due to canted-spin arrangement or ferromagnetic nature of Terbium ordering. The NPD data for Tb0.6Pr0.4MnO3 confirms that the nuclear structure of the synthesized sample maintains its orthorhombic symmetry down to 1.5 K. Also, the magnetic structures have been solved at 50 K, 25 K, and 1.5 K through the NPD study, which shows A-type antiferromagnetic spin arrangement.",
+    "keywords": [
+      "dc Magnetization",
+      "Jahn-Teller distortion",
+      "Neutron diffraction",
+      "Manganites"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Spanish MINECO",
+        "grant_id": "MAT2017-84496-R"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction:",
+      "2. Experimental:",
+      "3. Result and discussion",
+      "3.1 Structural observation using X-ray diffraction",
+      "3.2 dc Magnetization study of Tb0.6Pr0.4MnO3",
+      "3.3 Neutron Diffraction study of Tb0.6Pr0.4MnO3",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SINQ spallation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Tb0.6Pr0.4MnO3",
+      "sample_description": "Pr-doped polycrystalline manganite",
+      "chemical_composition": "Tb0.6Pr0.4MnO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": "4 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "TbMnO3",
+      "sample_description": "Parent material",
+      "chemical_composition": "TbMnO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PrMnO3",
+      "sample_description": "Parent material",
+      "chemical_composition": "PrMnO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns used to confirm crystallinity and phase purity and evaluate lattice and structural distortion via Rietveld refinement.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DC magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent and field-dependent DC magnetization measurements to study magnetic phase transitions.",
+      "measurement_technique": "DC magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent NPD measurements from 300 K down to 1.5 K to solve nuclear and magnetic structures.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

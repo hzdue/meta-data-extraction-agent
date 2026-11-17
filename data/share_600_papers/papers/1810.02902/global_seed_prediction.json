@@ -1,0 +1,336 @@
+{
+  "bibliographic": {
+    "title": "Phase separation and self-assembly in vitrimers: hierarchical morphology of molten and semi-crystalline polyethylene/dioxaborolane maleimide systems",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Matière Molle et Chimie, École Supérieure de Physique et de Chimie Industrielles de la Ville de Paris (ESPCI)–CNRS, UMR-7167, Paris Sciences et Lettres (PSL) Research University, 10 Rue Vauquelin, 75005 Paris, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "UMR CNRS 7083 Gulliver, ESPCI Paris, PSL Research University, 10 Rue Vauquelin, 75005 Paris, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ralm G. Ricarte",
+        "orcid": "0000-0003-1018-6083",
+        "email": "ralm.ricarte@espci.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "François Tournilhac",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ludwik Leibler",
+        "orcid": null,
+        "email": "ludwik.leibler@espci.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Vitrimers – a class of polymer networks which are covalently crosslinked and insoluble like thermosets, but flow when heated like thermoplastics – contain dynamic links and/or crosslinks that undergo an associative exchange reaction. These dynamic crosslinks enable vitrimers to have interesting mechanical/rheological behavior, self-healing, adhesive, and shape memory properties. We demonstrate that vitrimers can self-assemble into complex meso- and nanostructures when crosslinks and backbone monomers strongly interact. Vitrimers featuring polyethylene (PE) as the backbone and dioxaborolane maleimide as the crosslinkable moiety were studied in both the molten and semi-crystalline states. We observed that PE vitrimers macroscopically phase separated into dioxaborolane maleimide rich and poor regions, and characterized the extent of phase separation by optical transmission measurements. This phase separation can explain the relatively low insoluble fractions and overall crystallinities of PE vitrimers. Using synchrotronsourced small-angle X-ray scattering (SAXS), we discovered that PE vitrimers and their linear precursors micro-phase separated into hierarchical nanostructures. Fitting of the SAXS patterns to a scattering model strongly suggests that the nanostructures – which persist in both the melt and amorphous fraction of the semi-crystalline state – may be described as dioxaborolane maleimide rich aggregates packed in a mass fractal arrangement. These findings of hierarchical meso- and nanostructures point out that incompatibility effects between network components and resulting self-assembly must be considered for understanding behavior and the rational design of vitrimer materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "People Programme (Marie Curie Actions) of the European Union’s Seventh Framework Programme (FP7/2007-2013)",
+        "grant_id": "PCOFUND-GA-2013-609102"
+      },
+      {
+        "funder": "PRESTIGE programme",
+        "grant_id": "2017-2-0012"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental section",
+      "Results",
+      "Discussion and conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL Synchrotron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PE",
+      "sample_description": "High-density polyethylene",
+      "chemical_composition": "polyethylene",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "PE-g-4",
+      "sample_description": "Graft-functionalized PE with targeted graft density 4",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PE-g-6",
+      "sample_description": "Graft-functionalized PE with targeted graft density 6",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PE-g-8",
+      "sample_description": "Graft-functionalized PE with targeted graft density 8",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "PE-g-12",
+      "sample_description": "Graft-functionalized PE with targeted graft density 12",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "PE-v-4-0.5",
+      "sample_description": "PE vitrimer with targeted graft density 4 and crosslinker ratio 0.5",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "PE-v-6-0.5",
+      "sample_description": "PE vitrimer with targeted graft density 6 and crosslinker ratio 0.5",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "PE-v-8-0.5",
+      "sample_description": "PE vitrimer with targeted graft density 8 and crosslinker ratio 0.5",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "PE-v-12-0.5",
+      "sample_description": "PE vitrimer with targeted graft density 12 and crosslinker ratio 0.5",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "PE-v-12-0.3",
+      "sample_description": "PE vitrimer with targeted graft density 12 and crosslinker ratio 0.3",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "PE-v-12-0.2",
+      "sample_description": "PE vitrimer with targeted graft density 12 and crosslinker ratio 0.2",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_12",
+      "sample_name": "Insoluble portion of PE-v",
+      "sample_description": "Insoluble fraction recovered from PE vitrimers",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_13",
+      "sample_name": "Soluble portion of PE-v-4-0.5",
+      "sample_description": "Soluble fraction isolated from PE-v-4-0.5",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_14",
+      "sample_name": "peroxide crosslinked PE",
+      "sample_description": "PE crosslinked with dicumyl peroxide",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Fourier transform infrared spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6",
+        "sample_12",
+        "sample_13"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Quantification of graft and crosslink densities using characteristic peaks.",
+      "measurement_technique": "Fourier transform infrared spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "high-temperature size-exclusion chromatography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of molecular weight distribution of neat PE.",
+      "measurement_technique": "high-temperature size-exclusion chromatography",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Optical transmission measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of sample turbidity to detect macro-phase separation in the melt state.",
+      "measurement_technique": "Optical transmission measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Differential scanning calorimetry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6",
+        "sample_12",
+        "sample_14"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of crystallization and melting temperatures and enthalpy.",
+      "measurement_technique": "Differential scanning calorimetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6",
+        "sample_12",
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Probing the nanostructure of PE vitrimers in molten and semi-crystalline states.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "wide-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_6",
+        "sample_12",
+        "sample_14"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Measurement of PE crystallite unit cell parameters.",
+      "measurement_technique": "wide-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Polarized optical microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_14",
+        "sample_2",
+        "sample_6",
+        "sample_12"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of spherulite growth and surface morphology.",
+      "measurement_technique": "Polarized optical microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

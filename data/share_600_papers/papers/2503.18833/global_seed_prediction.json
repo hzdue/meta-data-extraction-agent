@@ -1,0 +1,219 @@
+{
+  "bibliographic": {
+    "title": "Dome-like pressure-temperature phase diagram of the cooperative Jahn–Teller distortion in NaNiO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Cavendish Laboratory, University of Cambridge, JJ Thomson Avenue, Cambridge, CB3 0HE, United Kingdom."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, United Kingdom."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Diamond Light Source, Diamond House, Harwell Science and Innovation Campus, Didcot, OX11 ODE, Oxfordshire, United Kingdom."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "British Management University Tashkent, 35 Bobur Mirza Street, Tashkent, Uzbekistan."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Kazakh-British Technical University, 59 Tole Bi Str., 050000, Almaty, Kazakhstan."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Liam A. V. Nagle-Cocco",
+        "orcid": null,
+        "email": "lnc@stanford.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "James M. A. Steele",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Shiyu Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Xiaotian Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Dominik Daisenberger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Annalena R. Genreith-Schriever",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Siddharth S. Saxena",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Clare P. Grey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Siˆan E. Dutton",
+        "orcid": null,
+        "email": "sed33@cam.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "NaNiO2 is a Ni3+-containing layered material consisting of alternating triangular networks of Ni and Na cations, separated by octahedrally-coordinated O anions. At ambient pressure, it features a collinear Jahn–Teller distortion below T onsetJT≈480 K, which disappears in a first-order transition on heating to TendJT≈500 K,correspondingtotheincreaseinsymmetryfrommonoclinictorhombohe- dral. It was previously studied by variable-pressure neutron diffraction [ACS Inorganic Chemistry 61.10 (2022): 4312-4321] and found to exhibit an increasing TonsetJTwithpressureupto ∼ 5 GPa.In this work, powdered NaNiO2 was studied via variable-pressure synchrotron x-ray diffraction up to pressures of ∼ 67 GPa at 294 K and 403 K. Suppression of the collinear Jahn–Teller ordering is observed via the emergence of a high-symmetry rhombohedral phase, with the onset pressure occurring at ∼ 18 GPa at both studied temperatures. Further, a discontinuous decrease in unit cell volume is observed on transitioning from the monoclinic to the rhombohedral phase. These results taken together suggest that in the vicinity of the transition, application of pressure causes the Jahn–Teller transition temperature, TonsetJT,todecreaserapidly. We conclude that the pressure-temperature phase diagram of the cooperative Jahn–Teller distortion in NaNiO2 is dome-like.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "doi.org/10.17863/CAM.112461",
+    "publication_date": "2025-04-15",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG001"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG017"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG024"
+      },
+      {
+        "funder": "Faraday Institution",
+        "grant_id": "FIRG060"
+      },
+      {
+        "funder": "Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/R513180/1"
+      },
+      {
+        "funder": "EPSRC Cambridge NanoCDT",
+        "grant_id": "EP/L015978/1"
+      },
+      {
+        "funder": "BEIS",
+        "grant_id": "G115693"
+      },
+      {
+        "funder": "Department of Science Innovation and Technology, United Kingdom",
+        "grant_id": "G117669"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NaNiO2",
+      "sample_description": "Powdered NaNiO2 prepared by solid state synthesis.",
+      "chemical_composition": "NaNiO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "variable-pressure synchrotron x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Variable-pressure x-ray diffraction performed at 294 K and 403 K up to pressures of ~67 GPa.",
+      "measurement_technique": "synchrotron x-ray diffraction",
+      "measurement_mode": [
+        "PressureScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

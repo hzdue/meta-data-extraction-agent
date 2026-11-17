@@ -1,0 +1,307 @@
+{
+  "bibliographic": {
+    "title": "Resonant Inelastic X-ray Scattering Study of Ca3Ru2O7",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physik-Institut, Universit¨at Z¨urich, Winterthurerstrasse 190, CH-8057 Z¨urich, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "CNR-SPIN, I-84084 Fisciano, Salerno, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Dipartimento di Fisica “E.R. Caianiello”, Universit`a di Salerno, I-84084 Fisciano, Salerno, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Chalmers University of Technology, SE-412 96 Gothenburg, Sweden"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute of Physics, ´Ecole Polytechnique Fed´erale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Swiss Light Source, Photon Science Division, Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. von Arx",
+        "orcid": null,
+        "email": "karin.vonarx@uzh.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "F. Forte",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. Horio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "V. Granata",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Q. Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "L. Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Y. Sassa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "R. Fittipaldi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "C. G. Fatuzzo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "O. Ivashko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Y. Tseng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "E. Paris",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Vecchione",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "T. Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "M. Cuoco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "J. Chang",
+        "orcid": null,
+        "email": "johan.chang@physik.uzh.ch",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We present a combined oxygen K -edge x-ray absorption spectroscopy (XAS) and resonant inelastic x-ray scattering (RIXS) study of the bilayer ruthenate Ca3Ru2O7. Our RIXS experiments on Ca3Ru2O7 were carried out on the overlapping planar and inter-planar oxygen resonances, which are distinguishable from the apical one. Comparison to equivalent oxygen K -edge spectra recorded on band-Mott insulating Ca2RuO4 is made. In contrast to Ca2RuO4 spectra, which contain excitations linked to Mott physics, Ca3Ru2O7 spectra feature only intra- t 2 g ones that do not directly involve the Coulomb energy scale. As found in Ca2RuO4, we resolve two intra- t 2 g excitations in Ca3Ru2O7. Moreover, the lowest lying excitation in Ca3Ru2O7 shows a significant dispersion, revealing a collective character differently from what is observed in Ca2RuO4. Theoretical modelling supports the interpretation of this lowest energy excitation in Ca3Ru2O7 as a magnetic transverse mode with multi-particle character, whereas the corresponding excitation in Ca2RuO4 is assigned to combined longitudinal and transverse spin modes. These fundamental differences are discussed in terms of the inequivalent magnetic ground-state manifestations in Ca2RuO4 and Ca3Ru2O7.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "MIUR (PRIN) Bando 2017",
+        "grant_id": "20177SL7HC"
+      },
+      {
+        "funder": "Swedish Research Council (VR)",
+        "grant_id": "No.2017-05078"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CRSII2 1 41962"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CR-SII2 1 60765"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ca3Ru2O7",
+      "sample_description": null,
+      "chemical_composition": "Ca3Ru2O7",
+      "sample_state": "single crystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ca2RuO4",
+      "sample_description": "band-Mott insulating",
+      "chemical_composition": "Ca2RuO4",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Oxygen K-edge x-ray absorption spectroscopy spectra recorded with LH polarization.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering study on the overlapping planar and inter-planar oxygen resonances.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

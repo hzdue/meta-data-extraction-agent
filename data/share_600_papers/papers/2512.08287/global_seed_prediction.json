@@ -1,0 +1,434 @@
+{
+  "bibliographic": {
+    "title": "Ultrafast light-induced formation of a metastable hidden state in bismuth vanadate",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Walter Schottky Institute, Technical University of Munich, 85748 Garching, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physics Department, TUM School of Natural Sciences, Technical University of Munich, 85748 Garching, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Physikalisch-Chemisches Institut, Universität Heidelberg, 69120 Heidelberg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "X-ray Science Division, Argonne National Laboratory, Lemont, IL, 60527 USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "European XFEL, 22869 Schenefeld, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute of Physics, Johannes Gutenberg University Mainz, 55128 Mainz, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Atomistic Modeling Center, Munich Data Science Institute, Technical University of Munich, 85748 Garching, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Viktoria F. Kunzelmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Verena Streibel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Philip Schwinghammer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Philipp Kollenz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Burak Guzelturk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Franziska S. Hegner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Lissa Eyre",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Frederico P. Delgado",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Tsedenia A. Zewdie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Markus W. Heindl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Danyellen D. Monteiro Galindo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Daniel Sandner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Guanda Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Elise Sirotti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Stanislav Bodnar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Yifeng Jiang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Yohei Uemura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Tobias Eklund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Frederico Lima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Xinchao Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Doriana Vinci",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Fernando Ardana Lamas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Peter Zalden",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "Hristo Iglev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "David A. Egger",
+        "orcid": null,
+        "email": "david.egger@tum.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_26",
+        "full_name": "Felix Deschler",
+        "orcid": null,
+        "email": "deschler@uni-heidelberg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_27",
+        "full_name": "Ian D. Sharp",
+        "orcid": null,
+        "email": "sharp@wsi.tum.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Bismuth vanadate (BiVO4) is a key photocatalyst for solar fuel applications, yet fundamental questions remain regarding the nature of photogenerated polaronic states and the lattice dynamics that govern its light-to-chemical pathways. Here, we use femtosecond optical pump–Xray probe measurements to track the photoinduced electronic and structural dynamics in BiVO4 across multiple length and time scales. Transient X-ray absorption spectroscopy captures sub-picosecond electron localization within VO4 tetrahedra, consistent with small polaron formation, whereas time-resolved X-ray diffraction reveals a slower, multi-picosecond lattice reorganization into a hidden photoexcited state that is structurally distinct from both the monoclinic ground state and the high-temperature tetragonal phase. Supported by density functional theory, we show that hole-lattice interactions dynamically reduce the ground state monoclinic distortion, stabilizing the hidden state. Our results demonstrate that electron- and holelattice coupling jointly shape the excited state landscape, with implications for carrier transport, interfacial energetics, and light-to-chemical energy conversion pathways.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "864234"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "EXC 2089/1 – 390776260"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "HE 8878/1-1"
+      },
+      {
+        "funder": "Federal Ministry of Research, Technology and Space",
+        "grant_id": "033RC034"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "387651688"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Ultrafast photoinduced electronic state dynamics",
+      "Photoinduced structural dynamics",
+      "Mechanism of long-range photoinduced structural transformations",
+      "Conclusion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European XFEL"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "epi-BiVO4",
+      "sample_description": "Epitaxial BiVO4 thin films on yttria-stabilized zirconia (YSZ) substrates.",
+      "chemical_composition": "BiVO4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "poly-BiVO4",
+      "sample_description": "Polycrystalline BiVO4 thin films on sapphire wafers.",
+      "chemical_composition": "BiVO4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "tr-XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved X-ray absorption spectroscopy at the V K-edge to probe photocarrier localization.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "tr-XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Time-resolved X-ray diffraction to track photoinduced long-range structural transformations.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

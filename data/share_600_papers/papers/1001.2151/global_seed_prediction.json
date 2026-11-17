@@ -1,0 +1,170 @@
+{
+  "bibliographic": {
+    "title": "HYDROPHOBIC POLYELECTROLYTES IN BETTER POLAR SOLVENT. STRUCTURE AND CHAIN CONFORMATION AS SEEN BY SAXS AND SANS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut National de Recherche et d’Analyse Physico-Chimique, Pôle Technologique de Sidi Thabet, 2020 Sidi Thabet – Tunisie"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratoire Léon Brillouin, UMR 12 CNRS- IRAMIS CEA Saclay, 91191 Gif sur Yvette Cedex, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Physique de la Matière Condensée, UMR 7125 CNRS - Collège de France, 11 Place Marcelin Berthelot, F 75321 Paris, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Wafa ESSAFI",
+        "orcid": null,
+        "email": "wafa.essafi@wanadoo.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marie-Noelle SPITERI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Claudine WILLIAMS",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "François BOUE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We demonstrate in this paper the influence of solvent quality on the structure of the semidilute solution of a hydrophobic polyelectrolyte, partially sulfonated Poly-Styrene Sulfonate. Two solvents are used: (i) one mixture of water and an organic solvent: THF, which is also slightly polar; (ii) DMSO, a polar organic solvent. In case (i), it is shown by SAXS study that the structure - namely the scattering from all chains, characterised by a maximum (“polyelectrolyte peak”), of the aqueous hydrophobic polyelectrolyte solutions (PSS) depends on the solvent quality through the added amount of organic solvent THF. This dependence is more pronounced when the sulfonation rate is low (more hydrophobic polyelectrolyte). It is proposed that when THF is added, the chain conformation evolves from the pearl necklace shape already reported in pure water, towards the conformation in pure water for fully sulfonated PSS, which is string-like as also reported previously. On the contrary, for a hydrophilic polyelectrolyte, AMAMPS, no evolution occurs with added THF in the aqueous solution. In case (ii), it is shown directly by SANS study that PSS can behave as a classical solvophilic polyelectrolyte when dissolved in an organic polar solvent such as DMSO: the structure (total scattering) as well as the form factor (single chain scattering measured by SANS using the Zero Average Contrast method) of the PSS chains is independent of the charge content in agreement with Manning condensation, and identical to the one of a fully charged PSS chain in pure water, which has a classical polyelectrolyte behaviour in the semidilute regime.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I-INTRODUCTION",
+      "II-MATERIAL",
+      "III-METHODS",
+      "IV-RESULTS AND DISCUSSION",
+      "V-CONCLUSION :"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "LURE"
+    },
+    {
+      "id": "facility_2",
+      "name": "Laboratoire Léon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PSS",
+      "sample_description": "partially sulfonated Poly-Styrene Sulfonate",
+      "chemical_composition": "poly-(styrene sulfonate) f – (styrene) 1-f",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "AMAMPS",
+      "sample_description": "hydrophilic polyelectrolyte",
+      "chemical_composition": "poly- co-(sodium-2acrylamido-2-methylpropane sulfonate) f -(acrylamide) .(1-f)",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "d-PS",
+      "sample_description": "perdeuteriated polystyrene",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "Polymer Standard Service"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "h-PS",
+      "sample_description": "non-deuterated polystyrene",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "Polymer Standard Service"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small Angle X-ray Scattering to determine the structure function of PSS and AMAMPS in water and water/THF mixtures.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Small Angle Neutron Scattering to measure total scattering and form factor of PSS in DMSO.",
+      "measurement_technique": "Small Angle Neutron Scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "bibliographic": {
+    "title": "X-ray Absorption Linear Dichroism at the Ti K-edge of Anatase TiO2 Single Crystals",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory of Ultrafast Spectroscopy, Ecole Polytechnique F´ed´erale de Lausanne SB-ISIC, and Lausanne Centre for Ultrafast Science (LACUS), Station 6, Lausanne, CH-1015, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratory for Femtochemistry - MicroXAS beamline project, Paul Scherrer Institute, Villigen, CH-5232, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Bioenergy and Catalysis Laboratory, Paul Scherrer Institute, Villigen, CH-5232, Switzerland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratory for Multiscale Materials Experiments, Paul Scherrer Institute, Villigen, CH-5232, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Electrochemistry Laboratory, Paul Scherrer Institute, Villigen, CH-5232, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemistry and Applied Biosciences, Laboratory of Inorganic Chemistry, ETH Z¨urich, Vladimir-Prelog-Weg 1-5/10, 8093 Z¨urich, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "T. C. Rossi",
+        "orcid": null,
+        "email": "thomas.rossi@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "D. Grolimund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. Nachtegaal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "O. Cannelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. F. Mancini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "C. Bacellar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "D. Kinschel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "J. R. Rouxel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "N. Ohannessian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "D. Pergolesi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "T. Lippert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "M. Chergui",
+        "orcid": null,
+        "email": "majed.chergui@epfl.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Anatase TiO2 (a-TiO2) exhibits a strong X-ray absorption linear dichroism with the X-ray incidence angle in the pre-edge, the XANES and the EXAFS at the titanium K-edge. In the pre-edge region, the behaviour of the A1-A3 and B peaks originating from the 1s-3d transitions, is due to the strong p-orbital polarization and strong p − d orbital mixing. An unambiguous assignment of the pre-edge peak transitions is made in the monoelectronic approximation with the support of ab initio finite difference method calculations and spherical tensor analysis in quantitative agreement with the experiment. Our results suggest that several previous studies relying on octahedral crystal field splitting assignments are not accurate due to the significant p-d orbital hybridization induced by the broken inversion symmetry in a-TiO2. It is found that A1 is mostly an on-site 3d-4p hybridized transition, while peaks A3 and B are non-local transitions, with A3 being mostly dipolar and influenced by the 3d-4p intersite hybridization, while B is due to interactions at longer range. Peak A2 which was previously assigned to a transition involving pentacoordinated titanium atoms is shown for the first time to exhibit a quadrupolar angular evolution with incidence angle which implies that its origin is primarily related to a transition to bulk energy levels of a-TiO2 and not to defects, in agreement with theoretical predictions (Vorwerk et al , Phys. Rev. B, 95, 155121 (2017)). Finally, ab initio calculations show that the occurence of an enhanced absorption at peak A2 in defect rich a-TiO2 materials originates from defect related p density of states due to the formation of doubly ionized oxygen vacancies. The formation of peak A2 at almost the same energy for single crystals and nanomaterials is a coincidence while the origin is different. These results pave the way to the use of the pre-edge peaks at the Ti K-edge of a-TiO2 to characterize the electronic structure of related materials and in the field of ultrafast X-ray absorption spectroscopy where the linear dichroism can be used to compare the photophysics along different axes.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-05-28",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200020 169914"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021 175649"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "H2020 ERCEA 695197 DYNAMOX"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL SETUP",
+      "III. THEORY",
+      "IV. RESULTS",
+      "V. DISCUSSION",
+      "VI. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "microXAS beamline of the SLS"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-TiO2 thin film",
+      "sample_description": "(001)-oriented crystalline a-TiO2 thin film of 30 nm thickness.",
+      "chemical_composition": "TiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Linear dichroism",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS spectrum obtained in total fluorescence yield at the Ti K-edge with varying incidence angle theta and rotation angle phi.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "bibliographic": {
+    "title": "Exploring itinerant states in divalent hexaborides using rare-earth L edge resonant inelastic X-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, University of Connecticut, Storrs, CT 06269, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Material Science, University of Connecticut, Storrs, CT 06269, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Dartmouth College, Hanover, NH 03755, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, University of California, Irvine, CA 92697, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, Kent State University, Kent, OH 44240, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Los Alamos National Laboratory, New Mexico 87545,USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, NY 11973, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Donal Sheets",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Vincent Flynn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jungho Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mary Upton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Diego Casa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Thomas Gog",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Zachary Fisk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Maxim Dzero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Priscilla F. S. Rosa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Daniel G. Mazzone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Ignace Jarrige",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jian-Xin Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jason Hancock",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We present a study of resonant inelastic X-ray scattering (RIXS) spectra collected at the rareearth L edges of divalent hexaborides YbB6 and EuB6. In both systems, RIXS-active features are observed at two distinct resonances separated by ∼ 10 eV in incident energy, with angle-dependence suggestive of distinct photon scattering processes. RIXS spectra collected at the divalent absorption peak strongly resemble the unoccupied 5 d density of states calculated using density functional theory, an occurrence we ascribe to transitions between weakly-dispersing 4 f and strongly dispersing 5 d states. In addition, anomalous resonant scattering is observed at higher incident energy, where no corresponding absorption feature is present. Our results suggest the far-reaching utility of L -edge RIXS in determining the itinerant-state properties of f -electron materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-05-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "de-sc0016481"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "P2EZP2-175092"
+      },
+      {
+        "funder": "U.S. DOE BES Core Program",
+        "grant_id": "E3B5"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR-1506547"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. EXPERIMENTAL RESULTS AT THE DIVALENT RESONANCE",
+      "IV. GEOMETRICAL DEPENDENCE OF RIXS PROCESSES",
+      "V. DISCUSSION",
+      "VI. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YbB6",
+      "sample_description": "non-magnetic small-gap semiconductor",
+      "chemical_composition": "YbB6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "EuB6",
+      "sample_description": "magnetic semiconductor with a ferromagnetic ordering transition at 15.5 K",
+      "chemical_composition": "EuB6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic X-ray scattering spectra collected at the L2 edge of YbB6 and L3 edge of EuB6.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy collected in total fluorescence yield mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

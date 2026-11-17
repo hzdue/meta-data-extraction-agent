@@ -1,0 +1,301 @@
+{
+  "bibliographic": {
+    "title": "Resonant Inelastic X-ray Scattering from Electronic Excitations in α-RuCl3 Nanolayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Max Planck Institute for Solid State Research, Heisenbergstrasse 1, D-70569 Stuttgart, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Institute for Materials Science, 1-1 Namiki, Tsukuba, 305-0044, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestraße 85, D-22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Zichen Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lichen Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Dong Zhao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mingdi Luo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Sourav Laha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Achim Güth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Takashi Taniguchi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Kenji Watanabe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Bettina V. Lotsch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Jurgen H. Smet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Matteo Minola",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Hlynur Gretarsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Bernhard Keimer",
+        "orcid": null,
+        "email": "B.Keimer@fkf.mpg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We present Ru L 3-edge resonant inelastic x-ray scattering (RIXS) measurements of spin-orbit and d-d excitations in exfoliated nanolayers of the Kitaev spin-liquid candidate RuCl3. Whereas the spinorbit excitations are independent of thickness, we observe a pronounced red-shift and broadening of the d-d excitations in layers with thickness below ∼ 7 nm. Aided by model calculations, we attribute these effects to distortions of the RuCl6 octahedra near the surface. Our study paves the way towards RIXS investigations of electronic excitations in various other 2D materials and heterostructures.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-03-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "669550 (Com4Com)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "RuCl3 bulk crystal",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "RuCl3 nanoflake 20.7 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "RuCl3 nanoflake 16.4 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "RuCl3 nanoflake 15.6 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "RuCl3 nanoflake 13.0 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "RuCl3 nanoflake 10.7 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "RuCl3 nanoflake 7.0 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "RuCl3 nanoflake 5.9 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "RuCl3 nanoflake 3.5 nm",
+      "sample_description": null,
+      "chemical_composition": "RuCl3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "Si/SiO2 substrate",
+      "sample_description": null,
+      "chemical_composition": "Si/SiO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ru L3-edge RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of spin-orbit and d-d excitations in RuCl3 nanolayers and bulk crystal at the Ru-L3 absorption edge.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

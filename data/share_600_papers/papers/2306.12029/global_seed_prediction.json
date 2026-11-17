@@ -1,0 +1,356 @@
+{
+  "bibliographic": {
+    "title": "The effect of direct electron beam patterning on the water uptake and ionic conductivity of Nafion thin films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "School of Physics, University of New South Wales, Sydney NSW 2052, Australia"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Centre for Integrative Semiconductor Materials, Department of Physics, Swansea University Bay Campus, Fabian Way, Swansea SA1 8EN"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Australian Nuclear Science and Technology Organisation, Lucas Heights NSW 2234, Australia"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Solid State Physics and NanoLund, Lund University, Box 118, 22100 Lund, Sweden"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Isis Neutron and Muon Source, Rutherford Appleton Laboratory, Science and Technology Facilities Council, Didcot OX11 0QX, U.K."
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "SPECIFIC, College of Engineering, Bay Campus, Swansea University, Fabian Way, Crymlyn Burrows, Swansea SA1 8EN, Wales, U.K."
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "School of Mathematics and Physics, University of Queensland, Brisbane QLD 4072, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ky V. Nguyen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jan G. Gluschke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. Bernardus Mostert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Andrew Nelson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Gregory Burwell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Roman W. Lyttleton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hamish Cavaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Rebecca J.L. Welbourn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jakob Seidl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Maxime Lagier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Marta Sanchez Miranda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "James D. McGettrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Trystan Watson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Paul Meredith",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Adam P. Micolich",
+        "orcid": null,
+        "email": "adam.micolich@nanoelectronics.physics.unsw.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the effect of electron-beam patterning on the water uptake and ionic conductivity of Nafion films using a combination of x-ray photoelectron spectroscopy, quartz crystal microbalance studies, neutron reflectometry, and AC impedance spectroscopy. The aim was to more fully characterize the nature of the nanoscale patterned Nafion structures recently used as a key element in novel ion-to-electron transducers by Gluschke et al. To enable these studies, we develop the electron beam patterning process for large areas, achieving patterning speeds approaching 1 cm2 /hr, and patterned areas as large as 7 cm2 for the neutron reflectometry studies. We ultimately show that electron-beam patterning affects both the water uptake and the ionic conductivity, depending on film thickness. We see Type-II adsorption isotherm behaviour for all films. For thick films (~230 nm), we see a strong reduction in water uptake with electron-beam patterning. In contrast, for thin films (~30 nm), electron-beam patterning enhances water uptake. Notably, we find that for either thickness the reduction in ionic conductivity arising from electron-beam patterning is kept to less than an order of magnitude. We propose mechanisms for the observed behaviour based on the known complex morphology of Nafion films to motivate future studies of electron-beam processed Nafion.",
+    "keywords": [
+      "Nafion",
+      "electron-beam patterning",
+      "bioelectronics",
+      "neuromorphic computing",
+      "ionic conductivity"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP170104024"
+      },
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP170102552"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "Marie Skłodowska-Curie grant agreement No 663830"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results and discussion",
+      "2.1. Effects of key parameters in the electron-beam patterning process",
+      "2.2. Materials characterization of electron-beam patterned Nafion films",
+      "2.2.1. Exposure, preparation, and handling details for materials characterisation",
+      "2.2.2. Chemical changes induced in Nafion by the electron-beam",
+      "2.2.3. Water absorption of electron-beam patterned films",
+      "2.2.4. Ionic Conductivity of electron-beam patterned films",
+      "3. Conclusions",
+      "4. Methods Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Isis Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "OPAL reactor"
+    },
+    {
+      "id": "facility_3",
+      "name": "Australian Nuclear Science and Technology Organisation"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "pristine thick Nafion film",
+      "sample_description": "Unpatterned Nafion film with target thickness 230 nm.",
+      "chemical_composition": "Nafion-117",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "electron-beam patterned thick Nafion film",
+      "sample_description": "Nafion film with target thickness 230 nm patterned by electron-beam.",
+      "chemical_composition": "Nafion-117",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "pristine thin Nafion film",
+      "sample_description": "Unpatterned Nafion film with target thickness 30 nm.",
+      "chemical_composition": "Nafion-117",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "electron-beam patterned thin Nafion film",
+      "sample_description": "Nafion film with target thickness 30 nm patterned by electron-beam.",
+      "chemical_composition": "Nafion-117",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray Photoelectron Spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of chemical changes in 230 nm Nafion films caused by electron-beam exposure.",
+      "measurement_technique": "X-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Quartz crystal microbalance studies",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of hydration number lambda versus water activity for 230 nm and 30 nm Nafion films.",
+      "measurement_technique": "quartz crystal microbalance",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Neutron reflectometry",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Measurement of water uptake and swelling for 30 nm thick Nafion films using D2O.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "AC impedance spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of AC film ionic conductivity sigma versus water activity.",
+      "measurement_technique": "AC impedance spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

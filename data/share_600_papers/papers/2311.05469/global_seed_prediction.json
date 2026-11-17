@@ -1,0 +1,310 @@
+{
+  "bibliographic": {
+    "title": "Skyrmion-Excited Spin Wave Fractal Network",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Science Department, University of Tennessee, Knoxville, TN"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville, TN"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Memory and Recording Research, University of California, San Diego, La Jolla, CA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Naval Information Warfare Center Pacific, San Diego, CA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Physics Department, University of California, San Diego, CA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Electrical and Computer Engineering, University of California, San Diego, La Jolla, CA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nan Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "W.L.N.C. Liyanage",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sergio A. Montoya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sheena Patel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lizabeth J. Quigley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Michael R. Fitzsimmons",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Sunil Sinha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Eric E. Fullerton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Lisa DeBeer-Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Dustin A. Gilbert",
+        "orcid": null,
+        "email": "dagilbert@utk.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Magnetic skyrmions exhibit unique, technologically relevant pseudo-particle behaviors which arise from their topological protection, including well-defined, three-dimensional dynamic modes that occur at microwave frequencies. During dynamic excitation, spin waves are ejected into the interstitial regions between skyrmions, creating the magnetic equivalent of a turbulent sea. However, since the spin waves in these systems have a well-defined length scale, and the skyrmions are on an ordered lattice, ordered structures from spin wave interference can precipitate from the chaos. This work uses small angle neutron scattering (SANS) to capture the dynamics in hybrid skyrmions and investigate the spin wave structure. Performing simultaneous ferromagnetic resonance and SANS, the diffraction pattern shows a large increase in low-angle scattering intensity which is present only in the resonance condition. This scattering pattern is best fit using a mass fractal model, which suggests the spin waves form a long-range fractal network. The fractal structure is constructed of fundamental units with a size that encodes the spin wave emissions and are constrained by the skyrmion lattice. These results offer critical insights into the nanoscale dynamics of skyrmions, identify a new dynamic spin wave fractal structure, and demonstrates SANS as a unique tool to probe high-speed dynamics.",
+    "keywords": [
+      "magnetic dynamics",
+      "spin waves",
+      "skyrmion",
+      "SANS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Research Early Career program",
+        "grant_id": "DESC0021344"
+      },
+      {
+        "funder": "National Science Foundation, Division of Materials Research",
+        "grant_id": "2105400"
+      },
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR- 2010792"
+      },
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR-1508249"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Conclusion",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "High-Flux Isotope Reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Hybrid Skyrmion Thin films",
+      "sample_description": "Thin films with a nominal structure of Si/Ta(50 Å)/[Fe(3.6 Å)/Gd(4.0 Å)]120/Ta(50 Å).",
+      "chemical_composition": "Si/Ta/Fe/Gd/Ta",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ta(50 Å)/[Fe(3.6 Å)/Gd(4.0 Å)]120/Ta(50 Å)",
+      "sample_description": null,
+      "chemical_composition": "Ta(50 Å)/[Fe(3.6 Å)/Gd(4.0 Å)]120/Ta(50 Å)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ta(50 Å)/[Fe(3.4 Å)/Gd(4.1 Å)]120/Ta(50 Å)",
+      "sample_description": null,
+      "chemical_composition": "Ta(50 Å)/[Fe(3.4 Å)/Gd(4.1 Å)]120/Ta(50 Å)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ferromagnetic Resonance",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Transmission spectra S1,2 measured as a function of frequency and magnetic field to map skyrmion resonant modes.",
+      "measurement_technique": "ferromagnetic resonance",
+      "measurement_mode": [
+        "FrequencyScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle neutron scattering patterns captured at various magnetic fields to investigate spin wave structure during resonance.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "vSANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "SANS measurements discussed in the Supplementary Material.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

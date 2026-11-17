@@ -1,0 +1,232 @@
+{
+  "bibliographic": {
+    "title": "Inelastic neutron scattering investigation of the crystal field excitations of NdCo5",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory for Quantum Matter under Extreme Conditions, Institute of Physics, University of São Paulo, São Paulo, Brazil"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Pulsed Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Didcot OX11 0QX, UK"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Mathematics and Physics, University of Stavanger, 4036 Stavanger, Norway"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Materials, University of Oxford, Oxford OX1 3PH, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, University of Warwick, Coventry CV4 7AL, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Condensed Matter Physics and Materials Science, Tata Institute of Fundamental Research, Mumbai 400005, India"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute of Physics, University of São Paulo, São Paulo, Brazil"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "F. de Almeida Passos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "G. J. Nilsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "C. E. Patrick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. D. Le",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. Balakrishnan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Santosh Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Thamizhavel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "D. R. Cornejo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. Larrea Jiménez",
+        "orcid": null,
+        "email": "larrea@if.usp.br",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We present an inelastic neutron scattering study of the crystal electric field (CEF) levels in the intermetallic ferrimagnets RECo5 (RE = Nd and Y). In NdCo5, measurements at 5 K reveal two levels at approximately 28.9 and 52.9 meV. Crystal field calculations including the exchange field B exc from the Co sites account for both of these, as well as the spectrum at temperatures above the spin-reorientation transition at ∼ 280 K. In particular, it is found that both a large hexagonal crystal field parameter A6 6⟨r6⟩ and B exc are required to reproduce the data, with the latter having a much larger value than that deduced from previous computational and experimental studies. Our study sheds light on the delicate interplay of terms in the rare-earth Hamiltonian of RECo5 systems, and is therefore expected to stimulate further experimental and computational work on the broader family of rare-earth permanent magnets.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-06-02",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "FAPESP-Young Investigator Grant",
+        "grant_id": "2018/08845-3"
+      },
+      {
+        "funder": "CNPq",
+        "grant_id": "31005/2021-6"
+      },
+      {
+        "funder": "FAPESP",
+        "grant_id": "2019/247971"
+      },
+      {
+        "funder": "FAPESP",
+        "grant_id": "2019/24711-0"
+      },
+      {
+        "funder": "Print CAPES",
+        "grant_id": "2022/33002010002P2"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/M02941/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/T005963/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "MARI spectrometer at the ISIS Neutron and Muon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NdCo5",
+      "sample_description": null,
+      "chemical_composition": "NdCo5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YCo5",
+      "sample_description": null,
+      "chemical_composition": "YCo5",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of the dynamical structure factor S(|Q|, ΔE) at 5 K and 300 K using incident neutron energies of 180/30 meV and 80/11 meV.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

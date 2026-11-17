@@ -1,0 +1,321 @@
+{
+  "bibliographic": {
+    "title": "Multiple-magnon excitations shape the spin spectrum of cuprate parent compounds",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "European Synchrotron Radiation Facility, B.P. 220, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Dipartimento di Fisica, Politecnico di Milano, piazza Leonardo da Vinci 32, 20133 Milano, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "ISC-CNR and Dipartimento di Fisica, Universit`a di Roma “La Sapienza”, p.le Aldo Moro 5, 00185 Roma, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "The Institute for Solid State Physics, The University of Tokyo, Kashiwa-shi, Chiba, 277-8581, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Dipartimento di Ingegneria Civile e Ingegneria Informatica, Universit`a di Roma Tor Vergata,, Via del Politecnico 1, 00133 Roma, Italy"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "CNR-SPIN, Universit`a di Roma Tor Vergata, Via del Politecnico 1, 00133 Roma, Italy"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Dipartimento di Fisica “E. Pancini”, Universit`a degli Studi di Napoli “Federico II”, Complesso Monte Sant’Angelo via Cinthia, 80126 Napoli, Italy"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "CNR-SPIN, Complesso Monte Sant’Angelo via Cinthia, 80126 Napoli, Italy"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics and Astronomy, University of British Columbia,Vancouver, British Columbia V6T 1Z1, Canada"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "CNR-SPIN, Dipartimento di Fisica, Politecnico di Milano, piazza Leonardo da Vinci 32, 20133 Milano, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Davide Betto",
+        "orcid": null,
+        "email": "davide.betto@esrf.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Roberto Fumagalli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Leonardo Martinelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Matteo Rossi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Riccardo Piombo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kazuyoshi Yoshimi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Daniele Di Castro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Emiliano Di Gennaro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Alessia Sambri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Doug Bonn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "George A. Sawatzky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Lucio Braicovich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Nicholas B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Jos´e Lorenzana",
+        "orcid": null,
+        "email": "jose.lorenzana@uniroma1.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Giacomo Ghiringhelli",
+        "orcid": null,
+        "email": "giacomo.ghiringhelli@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_10"
+        ]
+      }
+    ],
+    "abstract": "Thanks to high resolution and polarization analysis, resonant inelastic x-ray scattering (RIXS) magnetic spectra of La2CuO4, Sr2CuO2Cl2 and CaCuO2 reveal a rich set of properties of the spin1 / 2 antiferromagnetic square lattice of cuprates. The leading single-magnon peak energy dispersion is in excellent agreement with the corresponding inelastic neutron scattering measurements. However, the RIXS data unveil an asymmetric lineshape possibly due to odd higher order terms. Moreover, a sharp bimagnon feature emerges from the continuum at (1 / 2,0), coincident in energy with the bimagnon peak detected in optical spectroscopy. These findings show that the inherently complex spin spectra of cuprates, an exquisite manifestation of quantum magnetism, can be effectively explored by exploiting the richness of RIXS cross sections.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-02-09",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Fondazione CARIPLO",
+        "grant_id": "ERC-P-ReXS Project No. 2016-0790"
+      },
+      {
+        "funder": "MIUR Italian Ministry for Research",
+        "grant_id": "PIK Polarix"
+      },
+      {
+        "funder": "MIUR Italian Ministry for Research",
+        "grant_id": "PRIN Project No. 2017Z8TS5B"
+      },
+      {
+        "funder": "Regione Lazio",
+        "grant_id": "L. R. 13/08 under project SIMAP"
+      },
+      {
+        "funder": "ISCRA",
+        "grant_id": "Class C project HP10C72OM1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La2CuO4",
+      "sample_description": "thin film (~ 100 nm-thick)",
+      "chemical_composition": "La2CuO4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sr2CuO2Cl2",
+      "sample_description": null,
+      "chemical_composition": "Sr2CuO2Cl2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CaCuO2",
+      "sample_description": null,
+      "chemical_composition": "CaCuO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Mapping of the magnon dispersion for the three compounds with π polarization along the (1/4, 1/4) → (1/2, 0) → (0, 0) → (1/4, 1/4) path in reciprocal space.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "polarimetric RIXS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of the scattered light polarization at three different q values for SCOC.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "bibliographic": {
+    "title": "Unraveling the magnetic softness in Fe-Ni-B based nanocrystalline material by magnetic small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Laboratory for Neutron Scattering, ETH Zurich & Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Materials Science and Engineering, Monash University, Clayton, VIC 3800, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Mathias Bersweiler",
+        "orcid": null,
+        "email": "mathias.bersweiler@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Michael P. Adams",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Inma Peral",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kiyonori Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We employ magnetic small-angle neutron scattering to investigate the magnetic interactions in (Fe0.7Ni0.3)86B14 alloy, a HiB-NANOPERM-type soft magnetic nanocrystalline material, which exhibits an ultrafine microstructure with an average grain size below 10 nm. The neutron data reveal a significant spin-misalignment scattering, which is mainly related to the jump of the longitudinal magnetization at internal particle-matrix interfaces. The field dependence of the neutron data can be well described by the micromagnetic small-angle neutron scattering theory. In particular, the theory explains the “cloverleaf-type” angular anisotropy observed in the purely magnetic neutron scattering cross section. The presented neutron-data analysis also provides access to the magnetic interaction parameters, such as the exchange-stiffness constant, which plays a crucial role towards the optimization of the magnetic softness of Fe-based nanocrystalline materials.",
+    "keywords": [
+      "small-angle neutron scattering",
+      "micromagnetic theory",
+      "soft magnetic materials",
+      "nanocrystalline alloys"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": null
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental details",
+      "3. Micromagnetic SANS theory",
+      "4. Results and discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "(Fe0.7Ni0.3)86B14 alloy",
+      "sample_description": "HiB-NANOPERM-type soft magnetic nanocrystalline material ribbons.",
+      "chemical_composition": "(Fe0.7Ni0.3)86B14",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "wide-angle x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Estimation of average crystallite size and lattice parameter.",
+      "measurement_technique": "wide-angle x-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "magnetic measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of hysteresis loop, coercivity, and saturation magnetization at room temperature.",
+      "measurement_technique": "vibrating sample magnetometer",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "differential thermal analysis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of crystallization temperature.",
+      "measurement_technique": "differential thermal analysis",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "thermo-magneto-gravimetric analysis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of Curie temperature of the residual amorphous phase.",
+      "measurement_technique": "thermo-magneto-gravimetric analysis",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "small-angle neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Investigation of magnetic interactions and spin-misalignment scattering by decreasing the field from 8.0 T to 0.02 T.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

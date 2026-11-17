@@ -1,0 +1,248 @@
+{
+  "bibliographic": {
+    "title": "Magnetic characterization of oblique angle deposited Co/CoO on gold nanoparticles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "KU Leuven, Laboratorium voor Vaste-Stoffysica en Magnetisme, Celestijnenlaan 200D, 3001 Leuven, Belgium"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "KU Leuven, Instituut voor Kern- en Stralingsfysica, Celestijnenlaan 200 D, 3001 Leuven, Belgium"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Hasselt University, Institute for Materials Research (IMO-IMOMEC), Wetenschapspark 1, 3590 Diepenbeek, Belgium"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Johanna K. Jochum",
+        "orcid": null,
+        "email": "jjochum@frm2.tum.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Thomas Saerbeck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Vera Lazenka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vincent Joly",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lianchen Shan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hans-Gerd Boyen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Kristiaan Temst",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Andr´e Vantomme",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Margriet J. Van Bael",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The influence of a patterned substrate on obliquely deposited, exchange biased Co/CoO films was studied. It was found that substrates decorated with nanoparticle patterns provide the option to manipulate the orientation of the magnetic easy axis in obliquely deposited thin films. The complementary methods of SQUID magnetometry and polarized neutron reflectometry were used to disentangle the different contributions to the magnetic hysteresis of such complex magnetic systems.",
+    "keywords": [
+      "exchange bias",
+      "polarized neutron reflectometry",
+      "nanoparticles",
+      "magnetometry"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-05-03",
+    "venue": "Journal of Magnetism and Magnetic Materials",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Research Foundation Flanders",
+        "grant_id": "FWO"
+      },
+      {
+        "funder": "KU Leuven",
+        "grant_id": "GOA/14/007"
+      },
+      {
+        "funder": "KU Leuven",
+        "grant_id": "C14/18/074"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Methods",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "OANP",
+      "sample_description": "Co deposited under an oblique angle on Au nanoparticle decorated SiO2 terminated Si(111) substrates.",
+      "chemical_composition": "Co/CoO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "OA",
+      "sample_description": "Control sample without nanoparticles (300 nm SiO2 on Si(001)) with Co deposited under an oblique angle.",
+      "chemical_composition": "Co/CoO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "AFM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface structure investigation of the nanopatterned sample before and after deposition.",
+      "measurement_technique": "Atomic force microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of the chemical layer structure of the samples.",
+      "measurement_technique": "x-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Combined structural and magnetic depth profiles obtained at 10 K after field cooling in 5 kOe.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Investigation of bulk magnetic properties, including hysteresis loops at 300 K and 1.8 K.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

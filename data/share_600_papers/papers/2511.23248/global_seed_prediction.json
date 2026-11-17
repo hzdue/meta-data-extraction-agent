@@ -1,0 +1,220 @@
+{
+  "bibliographic": {
+    "title": "Quantifying surfactant adsorption at fluid interfaces by combining X-ray reflectivity and simulations",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Institute for Condensed Matter Physics, Technische Universität Darmstadt, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Jožef Stefan Institute, Ljubljana, Slovenia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kay-Robert Dormann",
+        "orcid": null,
+        "email": "kay-robert.dormann@pkm.tu-darmstadt.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Joshua Reed",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Chen Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Daniel Mitlewski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Matej Kanduč",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Benno Liebchen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Emanuel Schneck",
+        "orcid": null,
+        "email": "emanuel.schneck@pkm.tu-darmstadt.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Adsorption of surfactants to fluid interfaces occurs in numerous daily-life and technological contexts. The surfactant surface coverage Γ governs interface characteristics like tension γ , viscoelastic properties, and the stability of thin foam films. Directly measuring Γ as a function of the bulk concentration c is highly desirable but challenging, particularly for non-ionic surfactants that lack easily detectable labels. Neutron reflectometry is currently the only generally applicable method, but it is not available for routine experiments. Here, we propose a simulation-assisted approach to deduce the adsorption isotherm Γ( c ) from X-ray reflectivity data: As a first step, we use atomistic molecular dynamics simulations of surfactant-loaded air/water interfaces with prespecified Γ to obtain interfacial electron density profiles. From these profiles, we compute theoretical X-ray reflectivity curves and compare them with experimental measurements to determine the matching bulk concentration. We focus on two non-ionic surfactants (C12EO6 and β -C12G2) with previously established force fields to illustrate how this combined approach of experiments and simulations can determine the adsorption isotherm. Additional insights are gained through comparison with the measured surface tension isotherms γ ( c ), based on the equation of state γ (Γ) from simulations.",
+    "keywords": [
+      "monolayer",
+      "surface tension",
+      "critical micelle concentration",
+      "adsorption models"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Slovenian Research and Innovation Agency",
+        "grant_id": "P1-0055"
+      },
+      {
+        "funder": "Slovenian Research and Innovation Agency",
+        "grant_id": "J1-4382"
+      },
+      {
+        "funder": "Slovenian Research and Innovation Agency",
+        "grant_id": "J1-70038"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and discussion",
+      "Conclusions",
+      "Materials and methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "C12EO6",
+      "sample_description": null,
+      "chemical_composition": "C12EO6",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Merck"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "β-C12G2",
+      "sample_description": null,
+      "chemical_composition": "β-C12G2",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Glycon"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRR curves of the surfaces of aqueous C12EO6 solutions with bulk concentrations ranging from 0.5 to 30 µM.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "surface tension measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface tension measured in a Teflon trough with a Wilhelmy paper plate.",
+      "measurement_technique": "tensiometry",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GIXS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence X-ray scattering data as a function of the vertical scattering angle β for β-C12G2.",
+      "measurement_technique": "grazing incidence X-ray scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Complementary XRR measurements of β-C12G2.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

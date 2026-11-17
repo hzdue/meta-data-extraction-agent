@@ -1,0 +1,273 @@
+{
+  "bibliographic": {
+    "title": "Easy-cone state mediating the spin reorientation in topological kagome magnet Fe3Sn2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Experimentalphysik V, Center for Electronic Correlations and Magnetism, Institute of Physics, University of Augsburg, D-86159 Augsburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Sustainable Energy Technology, SINTEF Industry, Oslo, Norway"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Experimentalphysik VI, Center for Electronic Correlations and Magnetism, Institute of Physics, University of Augsburg, D-86159 Augsburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "PSI Center for Neutron and Muon Sciences, Paul Scherrer Institut, CH-5232 Villigen-PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Felix Bloch Institute for Solid-State Physics, Leipzig University, D-04103 Leipzig, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Theoretische Physik III, Institute of Physics, University of Augsburg, D-86135 Augsburg, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institute of Applied Physics, Moldova State University, MD 2028 Chis, in˘au, R. Moldova"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L. Prodan",
+        "orcid": null,
+        "email": "lilian.prodan@uni-a.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "D. M. Evans",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "A. S. Sukhanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. E. Nikitin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. A. Tsirlin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "L. Puntingam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. C. Rahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "L. Chioncel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "V. Tsurkan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "I. K´ezsm´arki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We investigated temperature-driven spin reorientation (SR) in the itinerant kagome magnet Fe3Sn2 using high-resolution synchrotron x-ray diffraction, neutron diffraction, magnetometry, and magnetic force microscopy (MFM), further supported by phenomenological analysis. Our study reveals a crossover from the state with easy-plane anisotropy to the high-temperature state with uniaxial easy-axis anisotropy taking place between ∼ 40 − 130 K through an intermediate easy-cone (or tilted spin) state. This state, induced by the interplay between the anisotropy constants K 1 and K 2, is clearly manifested in the thermal evolution of the magnetic structure factor, which reveals a gradual change of the SR angle θ between 40 − 130 K. We also found that the SR is accompanied by a magnetoelastic effect. Zero-field MFM images across the SR range show a transformation in surface magnetic patterns from a dendritic structure at 120 K, to domain wall dominated MFM contrast at 40 K.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "TRR 360 – 492547816"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "EV 305/1-1"
+      },
+      {
+        "funder": "ANCD",
+        "grant_id": "011201"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institut"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe3Sn2",
+      "sample_description": "Single crystals grown by the chemical transport reaction method.",
+      "chemical_composition": "Fe3Sn2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "polycrystalline Fe3Sn2",
+      "sample_description": null,
+      "chemical_composition": "Fe3Sn2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "high-resolution x-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XRD data collected in transmission geometry to derive structural parameters between 300 K and 10 K.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Isothermal magnetization curves and temperature-dependent magnetization measured between 2 and 400 K.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of the (003) Bragg peak intensity to track the spin reorientation angle.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "magnetic force microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Zero-field MFM imaging of the ab plane to investigate magnetic domain textures across the SR range.",
+      "measurement_technique": "magnetic force microscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

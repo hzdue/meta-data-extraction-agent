@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "In Situ Three-Dimensional Mapping of Lithiation Heterogeneity in NMC Electrodes using XANES Nanotomography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratoire de R´eactivit´e et de Chimie des Solides (LRCS), CNRS UMR 7314, Universit´e UPJV, Hub de l’Energie, Rue Baudelocque, 80039 Amiens Cedex, France."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Renault Technocentre, 78084 Guyancourt, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "R´eseau sur le Stockage Electrochimique de l’Energie (RS2E), CNRS FR 3459, Hub de l’Energie, Rue Baudelocque, 80039 Amiens Cedex, France."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ALISTORE-European Research Institute, CNRS FR 3104, Hub de l’Energie, Rue Baudelocque, 80039 Amiens Cedex, France."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Lemont, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tuan-Tu Nguyen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jiahui Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Zeliang Su",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vincent De Andrade",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alejandro A. Franco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Bruno Delobel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Charles Delacourt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Arnaud Demorti`ere",
+        "orcid": null,
+        "email": "arnaud.demortiere@cnrs.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "Spatial heterogeneity in lithiation complicates the interpretation of electrodeaveraged electrochemical measurements and the assessment of local active-material utilization. Here, we use three-energy X-ray absorption near-edge structure (XANES) nanotomography to investigate lithiation distributions in NMC532 composite electrodes with active-material loadings of 3 and 15 mg cm−2 . Tomographic acquisitions at 8.30, 8.35, and 8.43 keV combine three-dimensional particle morphology with Ni K-edge chemical sensitivity at a processed voxel size of 210 nm. The normalized absorption contrast serves as a relative lithiation indicator, without assigning absolute lithium concentrations. Measurements were performed in situ after 1 h of open-circuit relaxation at selected electrochemical states. In the lowerloading electrode, four successive states during interrupted discharge at 2 mA cm−2 reveal an increasing lithium-rich volume fraction alongside core–shell-like distributions, nonuniform peripheral enrichment, and particle-to-particle variability. In the higher-loading electrode, two regions examined at 50% depth of discharge exhibit different lithiation-sensitive contrast distributions despite sharing the same nominal electrochemical state. These observations document heterogeneity within particles, between particles, and between electrode regions, showing how overall lithiation progression can coexist with spatially nonuniform local states. Three-energy XANES nanotomography thus provides a means of examining lithiation heterogeneity in dense composite electrodes with limited spectral sampling. Correlative phasecontrast imaging could further relate these distributions to the arrangement of the carbon–binder domain and pore network.",
+    "keywords": [
+      "NMC532 cathodes",
+      "three-energy XANES nanotomography",
+      "in situ chemical imaging",
+      "multiscale lithiation heterogeneity",
+      "three-dimensional electrode characterization",
+      "highloading composite electrodes"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-10-19",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-22-CE42-0025"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "772873"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental Section",
+      "3 Results",
+      "4 Discussion",
+      "5 Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MX-A",
+      "sample_description": "Low loading electrode with 30% porosity after calendaring.",
+      "chemical_composition": "LiNi0.5Mn0.3Co0.2O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MX-B",
+      "sample_description": "Commercial electrode with 28% porosity after calendaring.",
+      "chemical_composition": "LiNi0.5Mn0.3Co0.2O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "three-energy XANES nanotomography",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Three-dimensional mapping of relative lithiation heterogeneity using acquisitions at 8.30, 8.35, and 8.43 keV at the Ni K-edge.",
+      "measurement_technique": "X-ray absorption near-edge structure nanotomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

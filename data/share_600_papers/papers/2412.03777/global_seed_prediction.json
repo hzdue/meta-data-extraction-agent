@@ -1,0 +1,437 @@
+{
+  "bibliographic": {
+    "title": "Signatures of Floquet Engineering in the proximal Kitaev Quantum Spin Liquid H3LiIr2O6 by tr-RIXS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Argonne, IL, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "XFEL Division, Pohang Accelerator Laboratory, POSTECH, Pohang, Gyeongbuk 37673, Republic of Korea"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Northeastern University, Boston, MA, 02115, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Quantum Materials and Sensing Institute, Northeastern University, Burlington, MA, 01803 USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, Chung-Ang University, Seoul 06974, Republic of Korea"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, Ewha Womans University, Seoul 03760, Republic of Korea"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, Sungkyunkwan University, Suwon 16419, Republic of Korea"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics, Boston College, Chestnut Hill, MA, 02467, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, Pennsylvania 19104, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Center for Computational Quantum Physics, Flatiron Institute, 162 5th Ave, New York, NY 10010"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "JUNGHO KIM",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "TAE-KYU CHOI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "EDWARD MERCER",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "LIAM T. SCHMIDT",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "JAEKU PARK",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "SANG-YOUN PARK",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "DOGEUN JANG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "SEO HYOUNG CHANG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "AYMAN SAID",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "SAE HWAN CHUN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "KYEONG JUN LEE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "SANG WOOK LEE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "HYUNJEONG JEONG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "HYEONHUI JEONG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "CHANHYEON LEE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "KWANG-YONG CHOI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "FARANAK BAHRAMI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "FAZEL TAFTI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "MARTIN CLAASSEN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "ALBERTO DE LA TORRE",
+        "orcid": null,
+        "email": "a.delatorreduran@northeastern.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "We present the first circularly polarized Floquet engineering time-resolved Resonant Inelastic X-ray Scattering (tr-RIXS) experiment in H3LiIr2O6, an iridium-based Kitaev system. Our calculations and experimental results are consistent with the modification of the low energy magnetic excitations in H3LiIr2O6 only during illumination by the laser pulse, consistent with the Floquet engineering of the exchange interactions. However, the penetration length mismatch between the X-ray probe and laser pump and the intrinsic complexity of Kitaev magnets prevented us from unequivocally extracting towards which ground H3LiIr2O6 was driven. We outline possible solutions to these challenges for Floquet stabilization and observation of the Kitaev Quantum Spin Liquid limit by RIXS.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Science and ICT of Korea",
+        "grant_id": "RS-2022-00164805"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Sciences, Division of Physical Behavior of Materials",
+        "grant_id": "DE-SC0023124"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0024494"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Materials and Methods",
+      "3. Results and discussion",
+      "4. Conclusions and Outlook"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Pohang Accelerator Laboratory X-ray Free-Electron Laser"
+    },
+    {
+      "id": "facility_2",
+      "name": "Canadian Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "H3LiIr2O6",
+      "sample_description": "Single crystals grown via topotactic exchange from alpha-Li2IrO3.",
+      "chemical_composition": "H3LiIr2O6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "IrO2 powder",
+      "sample_description": null,
+      "chemical_composition": "IrO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Scotch tape",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Na2IrO3",
+      "sample_description": null,
+      "chemical_composition": "Na2IrO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Bi (111)",
+      "sample_description": null,
+      "chemical_composition": "Bi",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectrum",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectrum of IrO2 powder sample measured in total fluorescence yield at room temperature.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Elastic scattering",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Elastic scattering from a Scotch tape to calibrate the energy resolution of the spectrometer.",
+      "measurement_technique": "elastic scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "RIXS spectrum of Na2IrO3",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Room temperature RIXS spectrum of Na2IrO3 measured at Gamma.",
+      "measurement_technique": "Resonant Inelastic X-ray Scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Transient light-induced modulation of Bi (111)",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Transient modulation of the Bi (111) Bragg peak intensity after arrival of a 1900 nm laser pulse to determine spatiotemporal overlap.",
+      "measurement_technique": "Bragg diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "tr-RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Time-resolved RIXS of H3LiIr2O6 with and without a 1900 nm circularly polarized laser pulse at various time delays.",
+      "measurement_technique": "Resonant Inelastic X-ray Scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "bibliographic": {
+    "title": "Neutron reflectometry on superspreading and non-superspreading trisiloxane surfactants",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Institute for Condensed Matter Physics; TU Darmstadt; Hochschulstrasse 8; 64289 Darmstadt; Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institute for Technical Thermodynamics; TU Darmstadt; Peter-Grünberg-Str. 10; 64287 Darmstadt; Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institut Laue-Langevin; 71 Av. des Martyrs; 38000 Grenoble; France"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Research Interfacial Technology; Evonik Operations GmbH; Goldschmidtstr. 100; 45127 Essen; Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Joshua Reed",
+        "orcid": null,
+        "email": "joshua.reed@pkm.tu-darmstadt.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S´eforah Carolina Marques Silva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Philipp Gutfreund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Joachim Venzmer",
+        "orcid": null,
+        "email": "joachim.venzmer@evonik.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tatiana Gambaryan-Roisman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Emanuel Schneck",
+        "orcid": null,
+        "email": "emanuel.schneck@pkm.tu-darmstadt.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Certain trisiloxane surfactants have the remarkable property of being able to superspread: Small volumes of water rapidly wet large areas of hydrophobic surfaces. The molecular properties of the surfactants which govern this technologically relevant effect are still under debate. To gain a deeper understanding, the surfactant behaviour during the spreading process needs to be studied at molecular length scales. Here, we present neutron reflectivity analyses of two trisiloxane surfactants of similar chemical structure, of which only one exhibits superspreading properties. We present an approach to determining the composition of the adsorbed surfactant layer in spread surfactant films at the solid-liquid interface, accounting for contributions from attenuated back-reflections of the neutron beam in films with thicknesses in the range of several tens to hundreds of micrometers. Differences between superspreading and non-superspreading surfactants with regard to their volume fraction profiles at the solid/liquid interface obtained in the self-consistent analysis of the reflectivity curves are in agreement with a simple explanation of the difference in spreading behaviour based on thermodynamics.",
+    "keywords": [
+      "solid/liquid interface",
+      "air/water interface",
+      "trisiloxane surfactants",
+      "neutron reflectometry",
+      "thin liquid films",
+      "X-ray fluorescence",
+      "monolayer"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-07-22",
+    "venue": null,
+    "publisher": "Elsevier",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "955612 (NanoPaInt)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Results",
+      "3. Discussion",
+      "4. Conclusions",
+      "5. Experimental section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "S240",
+      "sample_description": "A superspreading trisiloxane surfactant with p = 6 and q = 3.",
+      "chemical_composition": "BREAK-THRU® S 240",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Evonik Operations GmbH"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "S233",
+      "sample_description": "A non-superspreading trisiloxane surfactant with p = 10 and q = 2.",
+      "chemical_composition": "BREAK-THRU® S 233",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Evonik Operations GmbH"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "silanized silicon block",
+      "sample_description": "Silicon single crystal blocks hydrophobically functionalised with chlorotrimethylsilane (CTMS).",
+      "chemical_composition": "Si",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Reference Measurements",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity of bare silanized silicon blocks in air and under water.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "air-water interface of a 0.1% surfactant solution",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity of S240 and S233 surfactants at the air-water interface using a Langmuir trough.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "thick droplet of S240 solution",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity of a thick droplet of S240 solution on a silanized silicon block.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Superspread S240 film",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity of a thin superspread film of 0.1% S240 solution on a hydrophobic substrate.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Non-Superspreading Surfactant S233",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity of S233 solution on a silanized silicon block.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "TRXF and GIXOS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Total-reflection X-ray fluorescence and grazing-incidence X-ray off-specular scattering of surfactant-loaded liquid/air interfaces.",
+      "measurement_technique": "total-reflection X-ray fluorescence / grazing-incidence X-ray off-specular scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

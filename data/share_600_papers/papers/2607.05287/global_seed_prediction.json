@@ -1,0 +1,241 @@
+{
+  "bibliographic": {
+    "title": "Near itinerancy and slow singlet formation in the triangular lattice NaRuO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Materials Department, University of California Santa Barbara, Santa Barbara, California 93106 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Theoretical Solid State Physics, Leibniz IFW Dresden, Helmholtzstraße 20, Dresden 01069, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Hochfeld-Magnetlabor Dresden (HLD-EMFL), Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Hamburg D-22607, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Charles C. Tam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Alon Hendler Avidor",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Pritam Bhattacharyya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yongseong Choi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Daniel Haskel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sven Luther",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Hlynur Gretarsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Liviu Hozoi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Stephen D. Wilson",
+        "orcid": null,
+        "email": "stephendwilson@ucsb.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "NaRuO2 forms a delafossite-like structure that contains triangular sublattices of edge-sharing RuO6 octahedra. It shows no evidence of magnetic order down to 100 mK and persistent spin fluctuations, suggestive of a quantum disordered magnetic ground state. In order to characterize the physical regime from which this disordered state arises, we use resonant inelastic X-ray scattering (RIXS) and X-ray absorption spectroscopy (XAS) at the Ru- L 2 , 3-edge, along with pulsed high-field magnetization to characterize both the local electronic structure and the magnetic interactions. Despite significant spin-orbit coupling inferred from XAS measurements, a spin-orbit exciton, characteristic of a spin-orbit assisted Mott insulator, was not observed with RIXS due to the presence of damped intraorbital excitations, which are characteristic of a metal. Corroborated by models of the high-field magnetization to a random singlet model, we propose a picture of a nearly itinerant system with strong magnetic and charge fluctuations that destabilize long-range magnetic order.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "US Department of Energy, Office of Science, Basic Energy Sciences",
+        "grant_id": "DE-SC0017752"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION AND CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA-III"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "Dresden High Magnetic Field Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NaRuO2",
+      "sample_description": "Polycrystalline sample densified using spark plasma sintering and polished to a mirror finish.",
+      "chemical_composition": "NaRuO2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ru-L3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic X-ray scattering measurements taken at 20 K with a fixed incident angle of 20 degrees and scattering angle of 90 degrees.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Ru-L2,3-edge XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy performed in fluorescence yield mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "pulsed high-field magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Isothermal high-field magnetization measurements conducted at low temperatures.",
+      "measurement_technique": "pulsed high-field magnetization",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "magnetic susceptibility and magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements performed in a Quantum Design MPMS on NaRuO2 powder.",
+      "measurement_technique": "magnetic susceptibility and magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

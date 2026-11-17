@@ -1,0 +1,258 @@
+{
+  "bibliographic": {
+    "title": "Resonant inelastic X-ray scattering in topological semimetal FeSi",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Boston University, Boston, MA, 02215, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Centre for the Science of Materials, Loughborough University, Loughborough LE11 3TU, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Tokyo Institute of Technology, Okayama, Meguro-ku, Tokyo, Japan"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Tokodai Institute for Element Strategy, Tokyo Institute of Technology, Nagatsuta, Midori-ku, Yokohama, Kanagawa, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institut quantique & D´epartement de physique, Universit´e de Sherbrooke, J1K 2R1, Qu´ebec, Canada"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yao Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anirudh Chandrasekaran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jennifer Sears",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tiantian Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Xin Han",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Youguo Shi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jiemin Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Mark P. M. Dean",
+        "orcid": null,
+        "email": "mdean@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Stefanos Kourtis",
+        "orcid": null,
+        "email": "Stefanos.Kourtis@usherbrooke.ca",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The energy spectrum of topological semimetals contains protected degeneracies in reciprocal space that correspond to Weyl, Dirac, or multifold fermionic states. To exploit the unconventional properties of these states, one has to access the electronic structure of the three-dimensional bulk. In this work, we present the first joint theory-experiment study of the electronic structure of a candidate topological semimetal with resonant inelastic X-ray scattering (RIXS). We resolve the bulk electronic states of FeSi using momentum-dependent RIXS at the Fe L 3 edge. We observe a broad excitation continuum devoid of sharp features, consistent with particle-hole scattering in an underlying electronic band structure. Using density functional theory (DFT), we calculate the electronic structure of FeSi and derive a band theory formulation of RIXS in the fast collision approximation to model the scattering process with zero adjustable parameters. While band theory predicts an excitation continuum with broad spectral features similar to the observed ones, discrepancies between theory and experiment suggest the presence of low-energy processes that DFT alone does not account for. This first study of RIXS in a topological semimetal shows that RIXS is a useful tool for revealing unanticipated behavior of bulk electronic states in this class of materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-12-25",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "DOE",
+        "grant_id": "DE-FG0206ER46316"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/T034351/1"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "U2032204"
+      },
+      {
+        "funder": "Strategic Priority Research Program of the Chinese Academy of Sciences",
+        "grant_id": "XDB33010000"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. THEORY",
+      "III. EXPERIMENTAL METHODS",
+      "IV. DENSITY FUNCTIONAL THEORY AND TIGHT-BINDING MODEL",
+      "V. RIXS SPECTRUM OF FeSi",
+      "VI. DISCUSSION & CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FeSi",
+      "sample_description": "Single crystals prepared using a Ga flux method.",
+      "chemical_composition": "FeSi",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Momentum-dependent RIXS at the Fe L 3 edge to resolve bulk electronic states.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectrum used to determine the absolute energy scale Eg and core hole inverse lifetime.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Structural studies of the sol-gel glasses with copper selenide nanoparticles by SANS technique",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Research Institute for Physical Chemical Problems, Minsk, Belarus"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Joint Institute for Nuclear Research, Dubna, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Gomel State Technical University, Gomel, Belarus"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Kazan Federal University, Kazan, Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V.S. Gurin",
+        "orcid": null,
+        "email": "gurin@ bsu.by",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A.V. Rutkauskas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yu.E. Gorshkova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S.E. Kichanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A.A. Alexeenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D.P. Kozlenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The sol-gel silica glasses doped with copper selenide nanoparticles were studied through small-angle neutron scattering (SANS) and transmission electron microscopy (TEM). SANS intensities demonstrate the complicated dependence on the scattering parameter (transferred momentum within the framework of this technique), however, with no pronounced maxima throughout the full q interval. The multicomponent power-law-exponential model was applied for the approximation and evaluation of the scattering objects sizes at different levels (up to hundreds of nm). Also, fitting to the monoexponential fractal model was elaborated for SANS data. From the results of both simulations we derive the sizes of copper selenide nanoparticles about 60 nm and the noticeable modification of the glass matrix at the scale of the one order more (the long-range effect of particles upon the glass). The fractal dimension of the above scattering objects is varied from 1.5 through 4.2 indicating the formation of complex structure „particle-in-glass” which may not be reduced to a simple model of single insolated particles in solid matrix.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results and discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "YUMO spectrometer"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "sol-gel glasses with copper selenide nanoparticles",
+      "sample_description": "Silica glasses doped with copper selenide nanoparticles fabricated through the sol-gel technique.",
+      "chemical_composition": "CuxSe-doped silica",
+      "sample_state": "glass",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements performed at room temperature with a transferred momentum (q) interval of 0.006 - 0.6 Å-1.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "TEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Transmission electron microscopy study carried out through the “replica with extraction” procedure.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

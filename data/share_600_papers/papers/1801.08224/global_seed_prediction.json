@@ -1,0 +1,161 @@
+{
+  "bibliographic": {
+    "title": "Polarized Neutron Reflectometry Study of Depth Dependent Magnetization Variation in Co Thin Film on a PMN-PT Substrate",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Mechanical and Nuclear Engineering, Virginia Commonwealth University, Richmond, VA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Electrical and Computer Engineering, Virginia Commonwealth University, Richmond, VA."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "NIST Center for Neutron Research, NIST, Gaithersburg, MD."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Md Mamun Al-Rashid",
+        "orcid": null,
+        "email": "alrashidmm@vcu.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Alexander Grutter",
+        "orcid": null,
+        "email": "alexander.grutter@nist.gov",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Brian Kirby",
+        "orcid": null,
+        "email": "brian.kirby@nist.gov",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jayasimha Atulasimha",
+        "orcid": null,
+        "email": "jatulasimha@vcu.edu",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We studied the depth dependent magnetization profile of the magnetostrictive Co thin film layer in a PMN-PT (011)/Ta/Co/Ta structure under both zero and nonzero applied electric field using polarized neutron reflectometry. Application of electric field across the PMN-PT substrate generates a strain, which rotates the magnetization of the Co layer consistent with the Villari effect. At low magnetic fields (near remanence and coercive field conditions), we find that the depth dependent magnetization profile is non-uniform, under both zero and nonzero applied electric fields.  These variations are attributable to the depth dependent strain profile in the Co film, as determined by finite element analysis simulations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "CCF Career 1253370"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ECCS 1609303"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. Experimental Methods",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "Center for Nanoscale Science and Technology (CNST) Nanofab at NIST"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PMN-PT (011)/Ta/Co/Ta",
+      "sample_description": "Magnetostrictive Co thin film layer on a PMN-PT substrate with Ta adhesion and cap layers.",
+      "chemical_composition": "PMN-PT/Ta/Co/Ta",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "sample 2",
+      "sample_description": "Sample without the Ta capping layer.",
+      "chemical_composition": "PMN-PT/Ta/Co",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Vibrating sample magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the magnetic hysteresis loop of the sample under zero voltage.",
+      "measurement_technique": "Vibrating sample magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Study of depth dependent magnetization profile under various magnetic fields and applied voltages.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

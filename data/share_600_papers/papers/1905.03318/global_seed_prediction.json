@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Incommensurate magnetism in K2MnS2−xSex and prospects for tunable frustration in a triangular lattice of pseudo-1D spin chains",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Science and Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, United States"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Chemical Sciences, University of Illinois at Urbana-Champaign, Urbana, Illinois, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ankita Bhutani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Piush Behera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Rebecca D. McAuliffe",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Huibo Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Ashfia Huq",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Melanie J. Kirkham",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Clarina dela Cruz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Toby Woods",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Daniel P. Shoemaker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report the first detailed investigation of K2MnS2 and K2MnSe2 from the K2MnS2 structure type and their magnetic solid solution K2MnS2 −x Se x and find that compounds of this structure type consist of strongly-coupled pseudo-one-dimensional antiferromagnetic chains that collectively represent a frustrated two-dimensional triangular antiferromagnet. Bulk samples of K2MnS2 −x Se x with 0 ≤ x ≤ 2 are characterized using X-ray diffraction, neutron diffraction, magnetization and heat capacity measurements. An incommensurate cycloid magnetic structure with a magnetic propagation vector k = [0 . 58 0 1] is observed for all samples in K2MnS2 −x Se x , and the ordering is robust despite a 12% increase in cell volume. Geometric frustration of chains results in incommensurability along a and a two-step magnetic transition. The varying geometries accessible in compounds of this structure type are presented as promising avenues to tune frustration.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-03-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Center for Emergent Superconductivity",
+        "grant_id": "DEAC0298CH1088"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL PROCEDURE",
+      "III. RESULTS AND DISCUSSIONS",
+      "IV. SUMMARY AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "K2MnS2−xSex",
+      "sample_description": "Bulk samples in the solid solution range with 0 ≤ x ≤ 2 in increments of 0.2.",
+      "chemical_composition": "K2MnS2−xSex",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "K2MnS2 single crystals",
+      "sample_description": "Needle-shaped single crystals.",
+      "chemical_composition": "K2MnS2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Laboratory powder X-ray diffraction measurements conducted in transmission with a Bruker D8 diffractometer.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction performed in vanadium cans on the POWGEN instrument.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Single crystal neutron diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Single crystal neutron diffraction collected on the HB-3A four-circle diffractometer.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Magnetic susceptibility",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetic susceptibility measurements collected on a Quantum Design MPMS3 magnetometer.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Heat capacity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Heat capacity measurements performed using a Quantum Design Dynacool Physical Property Measurement System.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

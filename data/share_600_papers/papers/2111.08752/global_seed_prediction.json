@@ -1,0 +1,236 @@
+{
+  "bibliographic": {
+    "title": "The relativistic 5f electronic structure of delocalized α-U and localized δ-Pu from the self consistent vertex corrected GW approach and X-ray Emission Spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, NY 11973"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Departments of Physics and Chemistry, University of Wisconsin-Oshkosh, Oshkosh, Wisconsin 54901"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Lawrence Livermore National Laboratory, Livermore, California 94550"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "AWE plc, Aldermaston, Reading, Berkshire RG7 4PR, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. L. Kutepov",
+        "orcid": null,
+        "email": "akutepov@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. G. Tobin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S.-W. Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "B. W. Chung",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "P. Roussel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Nowak",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Alonso-Mori",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "T. Kroll",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "D. Nordlund",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "T.-C. Weng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "D. Sokaras",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The recently developed self-consistent vertex corrected GW method is used to calculate the 5f electronic structure in delocalized α -U and localized δ -Pu, each of which is confirmed by the historical experimental approaches of direct and inverse photoemission. Tender X-Ray Emission Spectroscopy (XES), in a novel application to 5f electronic structure, is used to experimentally prove the existence of 5f delocalization in α -U.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Solar Energy Technology Office BRIDGE Program",
+        "grant_id": null
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Methods and calculation setups",
+      "Computation Results and Comparison to Photoemission and Inverse Photoemission",
+      "X-Ray Emission Spectroscopy",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Stanford Synchrotron Radiation Lightsource"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-U",
+      "sample_description": null,
+      "chemical_composition": "U",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "δ-Pu",
+      "sample_description": null,
+      "chemical_composition": "Pu",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "UO2",
+      "sample_description": null,
+      "chemical_composition": "UO2",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "UF4",
+      "sample_description": null,
+      "chemical_composition": "UF4",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray Emission Spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Tender X-ray emission spectroscopy measurements of U metal, UO2, and UF4 to study 5f electronic structure.",
+      "measurement_technique": "X-ray Emission Spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

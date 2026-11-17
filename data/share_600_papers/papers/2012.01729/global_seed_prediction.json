@@ -1,0 +1,276 @@
+{
+  "bibliographic": {
+    "title": "Spin-spiral state of a Mn monolayer on W(110) studied by soft x-ray absorption spectroscopy at variable temperatures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "FZU – Institute of Physics, Academy of Sciences of the Czech Republic, Na Slovance 2, CZ-182 21 Prague, Czech Republic"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Max Planck Institute for Solid State Research, Heisenbergstrasse 1, D-70569 Stuttgart, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of Hamburg, Jungiusstr. 11A, D-20355 Hamburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "European Synchrotron Radiation Facility (ESRF), 71 Avenue des Martyrs, F-38000 Grenoble, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Chemistry, Ludwig-Maximilians-Universit¨at M¨unchen Butenandtstr. 11, D-81377 M¨unchen, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "New Technologies Research Centre, University of West Bohemia, Univerzitn´ı 8, CZ-301 00 Pilsen, Czech Republic"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "FZU – Institute of Physics ASCR, Cukrovarnick´a 10, CZ-162 53 Prague, Czech Republic"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "J. Honolka",
+        "orcid": null,
+        "email": "honolka@fzu.cz",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S. Krotzky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. Menzel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "T. Herden",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "V. Sessi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "H. Ebert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. Min´ar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "K. von Bergmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "R. Wiesendanger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "O. Sipr",
+        "orcid": null,
+        "email": "sipr@fzu.cz",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "The noncollinear magnetic state of epitaxial Mn monolayers on tungsten (110) crystal surfaces is investigated by means of soft x-ray absorption spectroscopy, to complement earlier spin-polarized STM experiments. X-ray absorption spectra (XAS), x-ray linear dichroism (XLD) and x-ray magnetic circular dichroism (XMCD) Mn L 2 , 3-edge spectra were measured in the temperature range from 8 to 300 K and compared to results of fully-relativistic ab initio calculations. We show that antiferromagnetic (AFM) helical and cycloidal spirals give rise to significantly different Mn L 2 , 3- edge XLD signals, enabling thus to distinguish between them. It follows from our results that the magnetic ground state of a Mn monolayer on W(110) is an AFM cycloidal spin spiral. Based on temperature-dependent XAS, XLD and field-induced XMCD spectra we deduce that magnetic properties of the Mn monolayer on W(110) vary with temperature, but this variation lacks a clear indication of a phase transition in the investigated temperature range up to 300 K — even though a crossover exists around 170 K in the temperature dependence of XAS branching ratios and in XLD profiles.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-12-04",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "GA ČR",
+        "grant_id": "20-18725S"
+      },
+      {
+        "funder": "Ministry of Education, Youth and Sport",
+        "grant_id": "CEDAMNF CZ.02.1.01/0.0/0.0/15 ~~0~~ 03/0000358"
+      },
+      {
+        "funder": "Projects of Large Research, Development and Innovations Infrastructures",
+        "grant_id": "e-INFRA LM2018140"
+      },
+      {
+        "funder": "DFG",
+        "grant_id": "EXC 2056, project ID 390715994"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Mn/W(110)",
+      "sample_description": "Mn monolayer stripes on W(110) single crystal substrates.",
+      "chemical_composition": "Mn/W(110)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MnO reference sample",
+      "sample_description": "Polycrystalline MnO powder used for photon energy calibration.",
+      "chemical_composition": "MnO",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Mn L2,3-edge X-ray absorption spectra measured in TEY mode from 8 to 300 K.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XLD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray linear dichroism measured in polar geometry for two azimuthal crystal orientations from 8 to 300 K.",
+      "measurement_technique": "x-ray linear dichroism",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XMCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Field-induced x-ray magnetic circular dichroism measured at polar and grazing incidence for temperatures 8, 200, and 300 K.",
+      "measurement_technique": "x-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "MnO reference measurement",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS and XLD signals of a polycrystalline MnO sample to verify photon energy calibration.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

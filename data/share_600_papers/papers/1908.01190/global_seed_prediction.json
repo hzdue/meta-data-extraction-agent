@@ -1,0 +1,164 @@
+{
+  "bibliographic": {
+    "title": "Resonant inelastic x-ray scattering study of α-RuCl3 : a progress report",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, University of Toronto, Toronto, Ontario, Canada M5S 1A7"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, NY, 11973, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Blair W Lebert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Subin Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ignace Jarrige",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andi M Barbour",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Young-June Kim",
+        "orcid": null,
+        "email": "yjkim@physics.utoronto.ca",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Ru M3-edge resonant inelastic x-ray scattering (RIXS) measurements of α -RuCl3 with 27 meV resolution reveals a spin-orbit exciton without noticeable splitting. We extract values for the spin-orbit coupling constant ( λ = 154 ± 2 meV) and trigonal distortion field energy (| ∆ | < 65 meV) which support the j eff = 1 / 2 nature of α -RuCl3. We demonstrate the feasibility of M- edge RIXS for 4 d systems, which allows ultra high-resolution RIXS of 4 d systems until instrumentation for L-edge RIXS improves.",
+    "keywords": [
+      "Kitaev quantum spin liquid",
+      "resonant inelastic x-ray scattering",
+      "honeycomb lattice",
+      "spin-orbit coupling",
+      "crystal field"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2017-07-11",
+    "venue": "J. Phys.: Condens. Matter",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "PHY-1607611"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science",
+        "grant_id": "DE-SC0012704"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-RuCl3",
+      "sample_description": "Platelike single crystals with crystallographic c axis perpendicular to the surface.",
+      "chemical_composition": "α-RuCl3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectroscopy performed at the Ru M2 and M3 edges in total electron yield mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Ru M3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering measurements at the Ru M3 edge to probe dd excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

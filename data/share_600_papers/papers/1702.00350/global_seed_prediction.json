@@ -1,0 +1,320 @@
+{
+  "bibliographic": {
+    "title": "Effect of iron oxide loading on magnetoferritin structure in solution as revealed by SAXS and SANS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Experimental Physics, SAS, Watsonova 47, 040 01 Kosice, Slovakia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Joint Institute for Nuclear Research, Joliot-Curie 6, 141980 Dubna, Moscow region, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Kyiv Taras Shevchenko National University, Volodymyrska Street 64, Kyiv, 01033 Ukraine"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Helmholtz-Zentrum Geesthacht: Centre for Materials and Coastal Research, Max-Planck-Street 1, 21502 Geesthacht, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Wigner Research Centre for Physics, HAS, H-1525 Budapest, POB 49, Hungary"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "L. Melníková",
+        "orcid": null,
+        "email": "melnikova@saske.sk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V.I. Petrenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M.V. Avdeev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "V.M. Garamus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "L. Almásy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "O.I. Ivankov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L.A. Bulavin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Z. Mitróová",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "P. Kopčanský",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Synthetic biological macromolecule of magnetoferritin containing an iron oxide core inside a protein shell (apoferritin) is prepared with different content of iron. Its structure in aqueous solution is analyzed by small-angle synchrotron X-ray (SAXS) and neutron (SANS) scattering. The loading factor (LF) defined as the average number of iron atoms per protein is varied up to LF=800. With an increase of the LF, the scattering curves exhibit a relative increase in the total scattered intensity, a partial smearing and a shift of the match point in the SANS contrast variation data. The analysis shows an increase in the polydispersity of the proteins and a corresponding effective increase in the relative content of magnetic material against the protein moiety of the shell with the LF growth. At LFs above ~150, the apoferritin shell undergoes structural changes, which is strongly indicative of the fact that the shell stability is affected by iron oxide presence.",
+    "keywords": [
+      "magnetoferritin",
+      "apoferritin",
+      "biorelevant magnetic nanoparticles",
+      "small-angle neutron scattering",
+      "small-angle X-ray scattering",
+      "contrast variation"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2014",
+    "venue": "Colloids and Surfaces B: Biointerfaces",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Slovak Scientific Grant Agency VEGA",
+        "grant_id": "0041"
+      },
+      {
+        "funder": "Slovak Scientific Grant Agency VEGA",
+        "grant_id": "0045"
+      },
+      {
+        "funder": "European Structural Funds",
+        "grant_id": "NANOKOP No. 26110230061"
+      },
+      {
+        "funder": "European Structural Funds",
+        "grant_id": "NANOKOP No. 26220120021"
+      },
+      {
+        "funder": "European Structural Funds",
+        "grant_id": "PHYSNET No. 26110230097"
+      },
+      {
+        "funder": "European Structural Funds",
+        "grant_id": "PROMATECH No. 26220220186"
+      },
+      {
+        "funder": "APVV",
+        "grant_id": "0171– 10 (METAMYLC)"
+      },
+      {
+        "funder": "M-ERA.NET MACOSYS",
+        "grant_id": "226507-NMI3"
+      },
+      {
+        "funder": "National Development Agency (NDA) of Hungary",
+        "grant_id": "KMR12-1-2012-0226"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. MATERIALS AND METHODS",
+      "3. RESULTS AND DISCUSSIONS",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "P12 BioSAXS beamline of the European Molecular Biology Laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_3",
+      "name": "SANS-II"
+    },
+    {
+      "id": "facility_4",
+      "name": "SINQ spallation neutron source"
+    },
+    {
+      "id": "facility_5",
+      "name": "YuMO"
+    },
+    {
+      "id": "facility_6",
+      "name": "IBR-2 pulsed reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "apoferritin",
+      "sample_description": "Natural apoferritin (horse spleen).",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "magnetoferritin",
+      "sample_description": "Magnetoferritin with various LFs up to 800.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "ferritin",
+      "sample_description": "Natural ferritin with LF = 1990.",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Dynamic light scattering",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements of hydrodynamic radius of magnetoferritin solutions.",
+      "measurement_technique": "Dynamic light scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Small-angle synchrotron X-ray scattering of apoferritin, magnetoferritin, and ferritin.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_4",
+        "facility_5",
+        "facility_6"
+      ],
+      "dataset_description": "Small-angle neutron scattering of apoferritin, magnetoferritin, and ferritin.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "SANS contrast variation",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_4"
+      ],
+      "dataset_description": "SANS measurements with varying D2O volume fraction for magnetoferritin samples with LF=160 and LF=510.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

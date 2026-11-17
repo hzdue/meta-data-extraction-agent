@@ -1,0 +1,14 @@
+version: "1.0.0"
+source_dir: data/share_600_papers
+source_manifest: data/share_600_papers/manifest.jsonl
+existing_split_manifest: data/finetune/splits.json
+split_manifest: data/finetune/pseudo_label_supervision/splits.json
+output_dir: data/finetune/pseudo_label_supervision/prepared
+split_seed: 42
+split_counts:
+  pseudo_train: 508
+  pseudo_validation: 57
+  future_test: 30
+parse_workers: 8
+parse_timeout_seconds: 3600
+

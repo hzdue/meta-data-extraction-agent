@@ -1,0 +1,274 @@
+{
+  "bibliographic": {
+    "title": "Effect of chemical substitution on the skyrmion phase in Cu2OSeO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Institute of Standards and Technology Center for Neutron Research, Gaithersburg, Maryland 20878, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "University of Maryland, College Park, College Park, Maryland 20742, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Materials Science and Engineering, University of Tennessee, Knoxville, Tennessee 37996, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Paul M. Neves",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Dustin A. Gilbert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sheng Ran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "I-Lin Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Shanta Saha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "John Collini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Markus Bleuel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Johnpierre Paglione",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Julie A. Borchers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Nicholas P. Butch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Magnetic skyrmions have been the focus of intense research due to their unique qualities which result from their topological protections. Previous work on Cu2OSeO3, the only known insulating multiferroic skyrmion material, has shown that chemical substitution alters the skyrmion phase. We chemically substitute Zn, Ag, and S into powdered Cu2OSeO3 to study the effect on the magnetic phase diagram. In both the Ag and the S substitutions, we find that the skyrmion phase is stabilized over a larger temperature range, as determined via magnetometry and small-angle neutron scattering (SANS). Meanwhile, while previous magnetometry characterization suggests two high temperature skyrmion phases in the Zn-substituted sample, SANS reveals the high temperature phase to be skyrmionic while we are unable to distinguish the other from helical order. Overall, chemical substitution weakens helical and skyrmion order as inferred from neutron scattering of the |q| ≈ 0 . 01˚ A − 1 magnetic peak.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-02-28",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Center for High Resolution Neutron Scattering",
+        "grant_id": "DMR-1508249"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu2OSeO3",
+      "sample_description": "Parent compound",
+      "chemical_composition": "Cu2OSeO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "(Cu1-x Ag x)2OSeO3 x=0.05",
+      "sample_description": null,
+      "chemical_composition": "(Cu1-x Ag x)2OSeO3 x=0.05",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "(Cu1-x Ag x)2OSeO3 x=0.10",
+      "sample_description": null,
+      "chemical_composition": "(Cu1-x Ag x)2OSeO3 x=0.10",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Cu2(O1-x S x)2SeO2 x=0.05",
+      "sample_description": null,
+      "chemical_composition": "Cu2(O1-x S x)2SeO2 x=0.05",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Cu2(O1-x S x)2SeO2 x=0.10",
+      "sample_description": null,
+      "chemical_composition": "Cu2(O1-x S x)2SeO2 x=0.10",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "(Cu1-x Zn x)2OSeO3 x=0.05",
+      "sample_description": "Contains a coexistence of two distinct stoichiometries",
+      "chemical_composition": "(Cu1-x Zn x)2OSeO3 x=0.05",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "(Cu1-x Zn x)2OSeO3 x=0.10",
+      "sample_description": "Contains a coexistence of two distinct stoichiometries",
+      "chemical_composition": "(Cu1-x Zn x)2OSeO3 x=0.10",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetization measurements conducted with a SQUID magnetometer at fixed temperatures while stepping the field.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [
+        "TemperatureScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements performed on the NG-7 30 m SANS instrument, including rotation techniques to resolve skyrmion phases.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

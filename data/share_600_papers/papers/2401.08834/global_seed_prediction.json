@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Structure and lattice excitations of the copper substituted lead oxyapatite Pb 9 . 06(7) Cu 0 . 94(6) (PO 3 . 92(4) ) 6 O 0 . 96(3)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Pennsylvania State University, University Park, Pennsylvania 16802, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Nanophase Materials Sciences, Oak Ridge national Laboratory, Oak Ridge, Tennessee 37831, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Qiang Zhang",
+        "orcid": null,
+        "email": "zhangq6@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yingdong Guan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Yongqiang Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Lujin Min",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jong K. Keum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Zhiqiang Mao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Matthew B. Stone",
+        "orcid": null,
+        "email": "stonemb@ornl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The copper substituted lead oxyapatite, Pb10 _−x_ Cu _x_ (PO3 _._ 92(4))6O0 _._ 96(3) (x=0.94(6)) was studied using neutron and x-ray diffraction and neutron spectroscopy techniques. The crystal structure of the main phase of our sample, which has come to be colloquially known as LK-99, is verified to possess a hexagonal structure with space group _P_ 63 _/m_ , alongside the presence of impurity phases Cu and Cu2S. We determine the primary substitution location of the Cu as the Pb1 (6 _h_ ) site, with a small substitution at the Pb2 (4 _f_ ) site. Consequently, no clear Cu-doping-induced structural distortion was observed in the investigated temperature region between 10 K and 300 K. Specially, we did not observe a reduction of coordinate number at the Pb2 site or a clear tilting of PO4 tetrahedron. Magnetic characterization reveals a diamagnetic signal in the specimen, accompanied by a very weak ferromagnetic component at 2 K. No long-range magnetic order down to 10 K was detected by the neutron diffraction. Inelastic neutron scattering measurements did not show magnetic excitations for energies up to 350 meV. There is no sign of a superconducting resonance in the excitation spectrum of this material. The measured phonon density of states compares well with density functional theory calculations performed for the main LK-99 phase and its impurity phases. Our study may shed some insight into the role of the favored substitution site of copper in the absence of structural distortion and superconductivity in LK-99.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-01-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC05-00OR22725"
+      },
+      {
+        "funder": "US Department of Energy",
+        "grant_id": "DESC0019068"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "DMR 2011839"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL AND THEORETICAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Pb9 . 06(7)Cu0 . 94(6)(PO3 . 92(4))6O0 . 96(3)",
+      "sample_description": "Copper substituted lead oxyapatite colloquially known as LK-99.",
+      "chemical_composition": "Pb10 _−x_ Cu _x_ (PO3 _._ 92(4))6O0 _._ 96(3) (x=0.94(6))",
+      "sample_state": "powder",
+      "sample_mass": "0.5 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature and field dependence of the magnetization of the synthesized material.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD measurements conducted at room temperature.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron powder diffraction measurements conducted at 10 and 300 K using the POWGEN instrument.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Inelastic neutron scattering measurements performed using the SEQUOIA instrument at 5 K and 300 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "EnergyScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

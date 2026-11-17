@@ -1,0 +1,227 @@
+{
+  "bibliographic": {
+    "title": "Probing deuterium-induced magnetic phase transitions in TbCo alloys with _in-situ_ polarized neutron reflectometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, SE-75120, Uppsala, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut Laue-Langevin, Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Robbie G. Hunt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Gunnar K. Pálsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Matías P. Grassi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Victoria Kabanova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexey Vorobiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Gabriella Andersson",
+        "orcid": null,
+        "email": "gabriella.andersson@physics.uu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Hydrogen-based magneto-ionics is a promising approach for rapid magnetoelectric control of spintronic devices. Most investigations so far into the magneto-ionic manipulation of rare-earth transition-metal alloys have used electrochemical methods for evaluating the magnetoelectric properties, but this technique makes it difficult to discriminate between the effects of competing ionic species. In this work, we use atmospheric loading to evaluate the effect of an isotope of hydrogen, deuterium, on the magnetic properties of TbCo films using _in-situ_ polarized neutron reflectometry. With this approach, we are able to simultaneously measure the magnetization, thickness expansion and deuterium concentration of TbCo films. We quantitatively observe the deuterium concentrations at which the paramagnetic phase transition occurs for a Tb-rich film, and the weakening of out-of-plane magnetic anisotropy for a Co-rich film. For the Tb-rich film the expansion of the film thickness is the primary mechanism identified for the paramagnetic phase transition, while for the Co-rich film no thickness expansion is observed. We also find that an oxidized interface is insensitive to deuterium loading, but remains exchange coupled to the rest of the film and can be indirectly manipulated by loading of deuterium in the alloy. We expect these results to be directly translatable to that of hydrogen.",
+    "keywords": [
+      "Magneto-ionics",
+      "ferrimagnetism",
+      "rare-earth transition-metal alloys",
+      "polarized neutron reflectometry"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "202306359"
+      },
+      {
+        "funder": "Swedish Research Council VR-RFI",
+        "grant_id": "2019 00191"
+      },
+      {
+        "funder": "Carl-Trygger Foundation",
+        "grant_id": "CTS 22:2039"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Methods",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Tb35Co65",
+      "sample_description": "Tb-rich film with in-plane magnetic anisotropy.",
+      "chemical_composition": "Tb35Co65",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Tb14Co86",
+      "sample_description": "Co-rich film with out-of-plane net magnetization.",
+      "chemical_composition": "Tb14Co86",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Initial characterization to confirm structure and composition.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Rutherford back-scattering spectrometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Initial characterization to confirm Tb-Co composition.",
+      "measurement_technique": "Rutherford back-scattering spectrometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "magneto-optic Kerr effect",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Initial characterization to verify magnetic properties.",
+      "measurement_technique": "magneto-optic Kerr effect",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In-situ measurements of magnetization, thickness expansion and deuterium concentration during atmospheric loading.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "neutron magnetometry",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "First quadrant measurements of reflectivity as the magnetic field is varied to determine in-plane coercivity.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

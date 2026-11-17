@@ -1,0 +1,244 @@
+{
+  "bibliographic": {
+    "title": "Direct in situ determination of the surface area and structure of deposited metallic lithium within lithium metal batteries using ultra small and small angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organization, Locked Bag 2001, Kirrawee DC, NSW 2232, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christophe Didier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Elliot P. Gilbert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jitendra Mata",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vanessa Peterson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Despite being the major cause of battery safety issues and detrimental performance, a comprehensive growth mechanism for metallic lithium deposited at electrode surfaces in lithium metal batteries remains elusive. While lithium surface morphology is often derived indirectly, here, detailed information is directly obtained using in situ small and ultra-small angle neutron scattering, in bulk and non-destructively. Features of 1-10 µm and 100-300 nm are identified; the latter contribute to most of the surface area and their size inversely correlates to applied current density. Surface area per unit volume increases continuously during charging from 1-4 h at 2 mA/cm2 but more slowly during discharge. Comparatively higher values are reached after just 1 h at 20 mA/cm2 which remain constant in subsequent cycles. Such quantitative insight into the processes of metallic lithium growth within batteries may enable the development of safer high performance lithium metal batteries.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "654000"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Individual cell component scattering and cell construction",
+      "3. Post cycling SANS and USANS",
+      "4. Surface area from Porod’s law",
+      "5. Debye-Anderson-Brumberger modelling",
+      "6. Conclusions",
+      "7. Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Australian Centre for Neutron Scattering"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "nickel mesh",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "TOB New Energy"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "copper mesh",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "The Mesh Company"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "rough electrodeposited copper foil",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "MTI"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "smooth roll-annealed copper foil",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Goodfellow"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Celgard polypropylene",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Celgard"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "polyvinylidene fluoride (PVDF)",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Merck"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "quartz glass microfibre",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "laminated aluminium pouch",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "multilayer",
+      "sample_mass": null,
+      "supplier_or_creator": "MTI"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "lithium foil",
+      "sample_description": null,
+      "chemical_composition": "Li",
+      "sample_state": "thin film",
+      "sample_mass": "62 µg",
+      "supplier_or_creator": "Goodfellow"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "symmetrical lithium metal pouch cell",
+      "sample_description": "Symmetrical cell containing lithium foil electrodes, PVDF separator, and 1 M LiPF6 in EC/DMC electrolyte.",
+      "chemical_composition": null,
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "USANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ultra-small angle neutron scattering measurements on individual components and the assembled in situ cell.",
+      "measurement_technique": "ultra-small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small angle neutron scattering measurements on individual components and the assembled in situ cell.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "in situ USANS cycling",
+      "sample_refs": [
+        "sample_10"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ USANS measurements of the symmetrical cell during galvanostatic cycling at 2 mA/cm2 and 20 mA/cm2.",
+      "measurement_technique": "ultra-small angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "bibliographic": {
+    "title": "Unraveling higher-order corrections in the spin dynamics of RIXS spectra",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Theoretical Division, Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Beijing National Laboratory for Condensed Matter Physics and Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "H. H. Wills Physics Laboratory, University of Bristol, Bristol BS8 1TL, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institut de Chimie Moléculaire et des Matériaux d’Orsay, Université Paris-Saclay, UMR 8182, 91405 Orsay, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "European X-Ray Free-Electron Laser Facility GmbH, Holzkoppel 4, 22869 Schenefeld, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics and Astronomy, The University of Tennessee, Knoxville, TN 37996, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Umesh Kumar",
+        "orcid": null,
+        "email": "umesh.kumar@rutgers.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Abhishek Nag",
+        "orcid": null,
+        "email": "abhishek.nag@diamond.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jiemin Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "H. C. Robarts",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. C. Walters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Mirian García-Fernández",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Saint-Martin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "A. Revcolevschi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Justine Schlappa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Thorsten Schmitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Steve Johnston",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": "kejin.zhou@diamond.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Resonant inelastic x-ray scattering (RIXS) is an evolving tool for investigating spin dynamics of strongly correlated materials, which complements inelastic neutron scattering. Both techniques have found that non-spin-conserving (NSC) excitations in quasi-1D isotropic quantum antiferromagnets are confined to the two-spinon phase space. Outside this phase space, only spin-conserving (SC) four-spinon excitations have been detected using O K -edge RIXS. Here, we investigate SrCuO2 and find four-spinon excitations outside the two-spinon phase space at both O K - and Cu L 3-edges. Using the Kramers-Heisenberg formalism, we demonstrate that the four-spinon excitations arise from both SC and NSC processes at Cu L 3-edge. We show that these new excitations only appear in the second-order terms of the ultra-fast core-hole lifetime expansion and arise from long-range spin fluctuations. These results thus open a new window to the spin dynamics of quantum magnets.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-10-08",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. DOE NNSA",
+        "grant_id": "89233218CNA000001"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR1842056"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021 1 78867"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021L 1 41325"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SrCuO2",
+      "sample_description": "1D HAFM with edge-shared CuO4 plaquettes arranged in a zig-zag geometry.",
+      "chemical_composition": "SrCuO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Cu L3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution RIXS spectra collected at the Cu L3-edge to probe spin dynamics.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "O K-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution RIXS spectra collected at the O K-edge to probe spin dynamics.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "O K-edge XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray absorption spectra collected at the O K-edge to determine resonant energies.",
+      "measurement_technique": "X-ray absorption spectra",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Cu L3-edge XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray absorption spectra collected at the Cu L3-edge to determine resonant energies.",
+      "measurement_technique": "X-ray absorption spectra",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "bibliographic": {
+    "title": "X-ray diffraction characterization of suspended structures for MEMS applications",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "LMP-UMR 6630 CNRS, Université de Poitiers, SP2MI, Bvd Marie et Pierre Curie, BP30179, F-86962 Futuroscope Chasseneuil Cedex."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley 94720, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "CEMES, UPR 8011 CNRS, 29 rue Jeanne Marvig, F-31055 Toulouse Cedex 4."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ENIT, avenue d’Azereix, BP 1669, F-65000 Tarbes."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "IEF, UMR 8622 CNRS, Université Paris XI – Bât. 220, F-91405 Orsay Cedex."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "CNES, Agence Spatiale Française, 18 avenue Edouard Belin, F-31401 Toulouse cedex 4."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "P. Goudeau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "N. Tamura",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "B. Lavelle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Rigo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "T. Masri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Bosseboeuf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "T. Sarnet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "J.-A. Petit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J.-M. Desmarres",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "Mechanical stress control is becoming one of the major challenges for the future of micro and nanotechnologies. Micro scanning X-ray diffraction is one of the promising techniques that allows stress characterization in such complex structures at sub micron scales. Two types of MEMS structure have been studied: a bilayer cantilever composed of a gold film deposited on poly-silicon and a boron doped silicon bridge. X-ray diffraction results are discussed in view of numerical simulation experiments.",
+    "keywords": [
+      "MEMS",
+      "residual stresses",
+      "failure",
+      "X-ray diffraction",
+      "micrometer scale"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-AC03-76SF00098"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL",
+      "RESULTS AND DISCUSSION",
+      "CONCLUDING REMARKS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced light source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Gold coated silicon cantilever",
+      "sample_description": "A bilayer cantilever composed of a gold top layer on a polysilicon bottom layer.",
+      "chemical_composition": "Au/poly-Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Si(B) bridges",
+      "sample_description": "Boron doped Si bridges elaborated using laser doping and selective etching.",
+      "chemical_composition": "Si(B)",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Scanning Electron Microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Used for characterizing the structures to be analyzed and to identify markers for calibrating the x-y sample stage.",
+      "measurement_technique": "Scanning Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "white micro X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements using a white x-ray beam to measure stress and grain orientation maps.",
+      "measurement_technique": "micro X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "monochromatic micro X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements using a monochromatic x-ray beam to analyze small gold grains.",
+      "measurement_technique": "micro X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "conventional XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Grain orientation measurements using an x-ray beam of 1 mm2 for extracting pole figures.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Silicon substrate calibration",
+      "sample_refs": [],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Silicon substrate used for experiment calibration.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "calibration"
+    }
+  ]
+}

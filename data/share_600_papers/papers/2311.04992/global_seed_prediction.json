@@ -1,0 +1,350 @@
+{
+  "bibliographic": {
+    "title": "Depth resolved study of annealing in IrMn/(Fe, Co, CoFe) exchange bias systems",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Seagate Technology, Derry, Northern Ireland, BT48 0BF, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Seagate Technology, Bloomington, MN 55435, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Diamond Light Source, Didcot, Oxfordshire, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "HUN-REN Institute for Nuclear Research (ATOMKI), Debrecen, Hungary"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yu. Khaydukov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Dobrynin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Hassan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Ormston",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "K. Nikolaev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "P. Bencok",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "P. Steadman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. Csik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "A. Vorobiev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Depth resolved study of structural and magnetic profiles of antiferromagnetic/ferromagnetic (AFM/FM) system upon annealing was performed in this work. We studied systems comprising of AFM IrMn and FM (Co, Fe, Co70Fe30) structures using polarized neutron and soft X-ray scattering, secondary neutral spectrometry, and magnetometry. Structural depth profiles obtained from neutron reflectometry indicate non-homogeneity of the AFM layer even before annealing, which is associated with the migration of manganese to the surface of the sample. Annealing of samples with CoFe and Co layers leads to a slight increase ( _∼_ 5 %) in the migration of manganese, which, however, does not lead to significant degradation of the exchange coupling at the AFM/FM interface. A significantly different picture was observed in the Fe/IrMn systems where a strong migration of iron into the AFM layer was observed upon annealing of the sample, leading to erosion of the magnetic profile, the formation of a non-magnetic alloy and degradation of the pinning strength. This study can be useful in the design of AF/FM systems in different spintronics devices, including HDD read heads, where thermal annealing is applied at different stages of the device manufacturing process.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "201700651"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Samples preparation and characterization techniques",
+      "3. PNR data analysis",
+      "4. XMCD results",
+      "5. Discussion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ILL"
+    },
+    {
+      "id": "facility_2",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CF0",
+      "sample_description": "As-deposited sample with CoFe layer.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co70Fe30(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CF1",
+      "sample_description": "Sample with CoFe layer annealed for 6 hours at 250°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co70Fe30(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CF2",
+      "sample_description": "Sample with CoFe layer annealed for 6 hours at 300°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co70Fe30(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Co0",
+      "sample_description": "As-deposited sample with Co layer.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Co1",
+      "sample_description": "Sample with Co layer annealed for 6 hours at 250°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Co2",
+      "sample_description": "Sample with Co layer annealed for 6 hours at 300°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Co(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Fe0",
+      "sample_description": "As-deposited sample with Fe layer.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Fe(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Fe1",
+      "sample_description": "Sample with Fe layer annealed for 6 hours at 250°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Fe(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "Fe2",
+      "sample_description": "Sample with Fe layer annealed for 6 hours at 300°C.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(4nm) Fe(3nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "SNMS sample",
+      "sample_description": "Sample with thicker layers for SNMS detection.",
+      "chemical_composition": "Ta(2nm)/Ru(2.5nm)/IrMn3(6nm) CoFe(4nm)/Ru(3nm)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of nuclear and magnetic depth profiles using a polarizer-only set-up at room temperature.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Soft X-ray magnetic circular dichroism",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Absorption spectra measured across Fe and Co L2/3 edges using total electron yield detection.",
+      "measurement_technique": "soft X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of exchange biased hysteresis loops to extract coercivity and exchange bias field.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Secondary Neutral Mass Spectrometry",
+      "sample_refs": [
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of normalized intensity distributions for Mn, Co+Fe, and Ru to analyze elemental migration.",
+      "measurement_technique": "secondary neutral mass spectrometry",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

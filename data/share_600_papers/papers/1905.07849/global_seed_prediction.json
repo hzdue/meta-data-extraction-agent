@@ -1,0 +1,144 @@
+{
+  "bibliographic": {
+    "title": "Structure-property relationships via recovery rheology in viscoelastic materials",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Illinois, USA 61801"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Johnny Ching-Wei Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Katie M. Weigandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Elizabeth G. Kelley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Simon A. Rogers",
+        "orcid": null,
+        "email": "sarogers@illinois.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The recoverable strain is shown to correlate to the temporal evolution of microstructure via time-resolved small-angle neutron scattering (SANS) and dynamic shear rheology. Investigating two distinct polymeric materials of wormlike micelles and fibrin network, we demonstrate that, in addition to the nonlinear structure-property relationships, the shear and normal stress evolution is dictated by the recoverable strain. A distinct sequence of physical processes under large amplitude oscillatory shear (LAOS) is identified that clearly contains information regarding both the steadystate flow curve and the linear-regime frequency sweep, contrary to most interpretations that LAOS responses are either distinct from, or somehow intermediate between the two cases. This work provides a physically-motivated and straightforward path to further explore the structure-property relationships of viscoelastic materials under dynamic flow conditions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-04-30",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1508249"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "1727605"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "wormlike micelles",
+      "sample_description": "entangled solution of wormlike micelles",
+      "chemical_composition": "8 wt% cetylpyridinium chloride in 0.5M brine/D2O with a molar ratio of sodium salicylate to CPCl of 0.5",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "fibrin network",
+      "sample_description": "biopolymer network of fibrin",
+      "chemical_composition": "6 mg/mL fibrinogen and 0.2 NIHU/mL thrombin",
+      "sample_state": "network",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "rheo-SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Simultaneous monitoring of micellar segment alignment and recovery rheology using time-resolved small-angle neutron scattering.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dynamic shear rheology",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of shear and normal stress evolution under large amplitude oscillatory shear (LAOS) and constrained recovery tests.",
+      "measurement_technique": "dynamic shear rheology",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

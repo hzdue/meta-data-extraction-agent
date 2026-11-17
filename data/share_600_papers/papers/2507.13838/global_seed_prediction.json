@@ -1,0 +1,400 @@
+{
+  "bibliographic": {
+    "title": "Tuning the Surface States of Fe3O4 Nanoparticles for Enhanced Magnetic Anisotropy and Induction Efficacy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute for Superconducting and Electronic Materials, Faculty of Engineering and Information Science, University of Wollongong, NSW 2500, Australia."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Australian Centre for Neutron Scattering, Australian Nuclear Science and Technology Organization, Lucas Heights, New South Wales 2234, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Kyle A. Portwin",
+        "orcid": null,
+        "email": "kyleportwin@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Pablo Galaviz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Xiaoning Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Chongyang Hao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Lachlan A. Smillie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Mengyun You",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Caleb Stamper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Richard Mole",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Dehong Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Kirrily C. Rule",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "David L. Cortie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Zhenxiang Cheng",
+        "orcid": null,
+        "email": "cheng@uow.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Magnetite (Fe3O4) nanoparticles are crucial for biomedical applications, including magnetic hyperthermia, targeted drug delivery, and MRI contrast enhancement, due to their biocompatibility and unique physicochemical properties. Here, we investigate how surface states influence their induction performance. Heat treatment removes surface water and FeOOH, forming a γ- Fe2O3 shell, as confirmed by synchrotron powder diffraction, neutron powder diffraction, thermogravimetric analysis, X-ray photoelectron spectroscopy, X-ray absorption spectroscopy, and timeof-flight inelastic neutron spectroscopy. AC magnetic susceptibility measurements reveal that this surface modification enhances magnetic anisotropy and reduces the spin relaxation time, leading to a 140% increase in the specific absorption rate. Additionally, the increased anisotropy suppresses the low-temperature clustered spin-glass transition and raises the blocking temperature. These findings highlight surface-state engineering as a powerful approach to optimizing Fe3O4 nanoparticles for biomedical applications.",
+    "keywords": [
+      "Magnetic nanoparticles",
+      "Magnetite",
+      "Maghemite",
+      "Superparamagnetic iron oxide",
+      "Targeted heating",
+      "Spinglasses",
+      "Surface functionalization",
+      "Time-of-flight inelastic neutron scattering",
+      "Quasielastic neutron scattering"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP210101436"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS",
+      "MATERIALS AND METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Australian synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "Electron Microscopy Centre (EMC) at the University of Wollongong (UOW)"
+    },
+    {
+      "id": "facility_3",
+      "name": "Australian Nuclear Science and Technology Organization (ANSTO)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "UNP",
+      "sample_description": "Untreated nanoparticles with surface water and FeOOH.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "US Research Nanomaterials, Inc."
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "HNP",
+      "sample_description": "Heat-treated nanoparticles with a γ-Fe2O3 shell.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "200 nm reference sample",
+      "sample_description": "Bulk reference sample.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of crystal structures and lattice parameters.",
+      "measurement_technique": "synchrotron powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "pair distribution function",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of atomic pair probabilities as a function of separation distance.",
+      "measurement_technique": "pair distribution function",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "thermogravimetric analysis",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Mass loss measurement during heating from room temperature to 400 °C.",
+      "measurement_technique": "thermogravimetric analysis",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "X-ray photoelectron spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Probing core/shell composition and electronic states using Fe L edge and O K edge spectra.",
+      "measurement_technique": "X-ray photoelectron spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of Fe L edge and O K edge spectra to elucidate electronic structure.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Imaging to reveal crystallinity and size distribution.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Scanning electron microscopy and energy dispersive spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Morphology and elemental mapping of Fe and O.",
+      "measurement_technique": "Scanning electron microscopy and energy dispersive spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "time-of-flight inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Analysis of scattering function S(Q,ω) and quasielastic neutron scattering signal at 200 K and 300 K.",
+      "measurement_technique": "time-of-flight inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_9",
+      "dataset_name": "induction heating",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of temperature evolution under AC magnetic field for 0.315 g and 5 g samples.",
+      "measurement_technique": "induction heating",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_10",
+      "dataset_name": "Vibrating sample magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of hysteresis loops, coercivity, and saturation magnetization from 5 K to 350 K.",
+      "measurement_technique": "Vibrating sample magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_11",
+      "dataset_name": "AC Magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of real (χ′) and imaginary (χ′′) susceptibility over frequency and temperature ranges.",
+      "measurement_technique": "AC Magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

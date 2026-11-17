@@ -1,0 +1,190 @@
+{
+  "bibliographic": {
+    "title": "Spin-ordering and magnetoelastic coupling in the extended Kagome system YBaCo4O7",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "ISIS facility, Rutherford Appleton Laboratory-CCLRC, Chilton, Didcot, Oxfordshire, OX11 0QX, UK."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute Laue-Langevin, 6 Rue Jules Horowitz, BP 156, 38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Materials Science Division, Argonne National Laboratory, Argonne, Illinois 60439, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "D.D. Khalyavin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "P. Manuel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "B. Ouladdiaf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. Huq",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "H. Zheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J.F. Mitchell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L.C. Chapon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Low temperature magnetic and structural behavior of the extended Kagome system YBaCo4O7 has been studied by single crystal neutron diffraction and high-resolution powder X-ray diffraction. Long-range magnetic ordering associated with a structural transition from orthorhombic Pbn21 to monoclinic P 21 symmetry has been found at T1 ∼ 100 K. The interplay between the structural and magnetic degrees of freedom testifies that the degeneracy of the magnetic ground state, present in the orthorhombic phase, is lifted through a strong magnetoelastic coupling, as observed in other frustrated systems. At T2 ∼ 60 K, an additional magnetic transition is observed, though isosymmetric. Models for the magnetic structures below T1 and T2 are presented, based on refinements using a large number of independent reflections. The results obtained are compared with previous single crystal and powder diffraction studies on this and related compositions.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-12-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy Office of Science Laboratory",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL PART",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institute Laue-Langevin"
+    },
+    {
+      "id": "facility_3",
+      "name": "National Synchrotron Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YBaCo4O7.0",
+      "sample_description": "Single crystal grown by floating zone technique.",
+      "chemical_composition": "YBaCo4O7.0",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YBaCo4O6.95(5)",
+      "sample_description": "Ceramic samples treated in nitrogen at 1150°C.",
+      "chemical_composition": "YBaCo4O6.95(5)",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction measurements performed on PRISMA and D10 to study magnetic and nuclear structures.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "high-resolution powder X-ray diffraction",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "X-ray powder diffraction collected on beamline X16C to determine structural symmetry.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

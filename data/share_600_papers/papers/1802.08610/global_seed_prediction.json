@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "Revisiting the Magnetic Structure and Charge Ordering in La 1/3 Sr 2/3 FeO 3 by Neutron Powder Diffraction and M¨ossbauer Spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Jean Lamour, UMR-CNRS 7198, Universit´e de Lorraine, BP 70239, 54506 Vandoeuvre-l`es-Nancy Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratory for Scientific Developments and Novel Materials, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "F. Li",
+        "orcid": null,
+        "email": "Fei.Li@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. Pomjakushin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "T. Mazet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Sibille",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "B. Malaman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "R. Yadav",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L. Keller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Medarde",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "K. Conder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "E. Pomjakushina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The magnetic ordering of La1/3Sr2/3FeO3 perovskite has been studied by neutron powder diffraction and57 Fe M¨ossbauer spectroscopy down to 2 K. From symmetry analysis, a chiral helical model and a collinear model are proposed to describe the magnetic structure. Both are commensurate, with propagation vector k = (0,0,1) in R3c space group. In the former model, the magnetic moments of Fe adopt the magnetic space group P 3221 and have helical and antiferromagnetic ordering propagating along the c axis. The model allows only single Fe site, with a magnetic moment of 3.46(2) µB at 2 K. In the latter model, the magnetic moments of iron ions adopt the magnetic space group C2/c or C2' /c' and are aligned collinearly. The model allows the presence of two inequivalent Fe sites with magnetic moments of amplitude 3.26(3) µB and 3.67(2) µB, respectively. The neutron diffraction pattern is equally well fitted by either model. The M¨ossbauer spectroscopy study suggests a single charge state Fe3.66+ above the magnetic transition and a charge disproportionation into Fe(3.66−ζ)+ and Fe(3.66+2ζ)+ below the magnetic transition. The compatibility of the magnetic structure models with the M¨ossbauer spectroscopy results is discussed.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-05-18",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Schweizerischer Nationalfonds zur F¨orderung der Wissenschaftlichen Forschung",
+        "grant_id": "200021 157009"
+      },
+      {
+        "funder": "Horizon 2020",
+        "grant_id": "654000"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY AND CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Spallation Neutron Source (SINQ)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "La1/3Sr2/3FeO3",
+      "sample_description": "Polycrystalline sample prepared by solid state reactions.",
+      "chemical_composition": "La1/3Sr2/3FeO3",
+      "sample_state": "powder",
+      "sample_mass": "1 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction measurements performed on HRPT and DMC instruments to study magnetic and crystal structure.",
+      "measurement_technique": "neutron powder diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "57Fe M¨ossbauer spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "M¨ossbauer spectra recorded in transmission geometry to study hyperfine structure and charge states.",
+      "measurement_technique": "M¨ossbauer spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

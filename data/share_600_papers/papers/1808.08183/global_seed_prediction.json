@@ -1,0 +1,154 @@
+{
+  "bibliographic": {
+    "title": "Paramagnon dispersion in β -FeSe observed by Fe L -edge resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, University of Oxford, Clarendon Laboratory, Oxford, OX1 3PU, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "European Synchrotron Radiation Facility, Boˆıte Postale 220, F-38043 Grenoble Cedex, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. C. Rahn",
+        "orcid": null,
+        "email": "rahn@lanl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "K. Kummer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "N. B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. A. Haghighirad",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "K. Gilmore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. T. Boothroyd",
+        "orcid": null,
+        "email": "a.boothroyd@physics.ox.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We report an Fe L -edge resonant inelastic x-ray scattering (RIXS) study of the unusual superconductor β - FeSe. The high energy resolution of this RIXS experiment ( ≈ 55 meV FWHM) made it possible to resolve lowenergy excitations of the Fe 3 d manifold. These include a broad peak which shows dispersive trends between 100 and 200 meV along the ( π, 0) and ( π, π ) directions of the one-Fe square reciprocal lattice, and which can be attributed to paramagnon excitations. The multiband valence state of FeSe is among the most metallic in which such excitations have been discerned by soft x-ray RIXS.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-01-04",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/J017124/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENT",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "β-FeSe",
+      "sample_description": "High quality single crystals of tetragonal space group P 4/ nmm.",
+      "chemical_composition": "FeSe",
+      "sample_state": "single crystal",
+      "sample_mass": "1 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "TEY-XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Total electron yield x-ray absorption spectrum of the Fe L2,3 edges.",
+      "measurement_technique": "x-ray absorption spectrum",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Fe L3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant inelastic x-ray scattering at the Fe L3 edge to observe low-energy excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

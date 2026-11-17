@@ -1,0 +1,309 @@
+{
+  "bibliographic": {
+    "title": "Spin-disorder-induced angular anisotropy in polarized magnetic neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faiencerie, 1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials Science and Engineering, Monash University, Clayton, Victoria 3800, Australia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute Laue-Langevin, 71 Avenue des Martyrs, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ISIS Neutron and Muon Facility, Rutherford Appleton Laboratory, Didcot, OX110QX, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department CITIMAC, Facultad de Ciencias, Universidad de Cantabria, 39005 Santander, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ivan Titov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Mathias Bersweiler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Michael P. Adams",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Evelyn Pratami Sinaga",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Venus Rai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Štefan Liščák",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Max Lahr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Thomas L. Schmidt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Vladyslav M. Kuchkin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Andreas Haller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Kiyonori Suzuki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Nina-Juliane Steinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Diego Alba Venero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Luis Fernández Barquín",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We experimentally report a hitherto unseen angular anisotropy in the polarized small-angle neutron scattering (SANS) cross section of a magnetically strongly inhomogeneous material. Based on an analytical prediction using micromagnetic theory, the difference between the spin-up and spindown SANS cross sections is expected to show a spin-disorder-induced anisotropy. The effect is particularly pronounced in inhomogeneous magnetic materials, such as nanoporous ferromagnets, magnetic nanocomposites, or steels, which exhibit large nanoscale jumps in the saturation magnetization at internal pore-matrix or particle-matrix interfaces. Analysis of the experimental neutron data constitutes a method for determining the exchange-stiffness constant. Our results are generic to the nuclear-magnetic interference terms contained in the polarized magnetic neutron scattering cross section and might also be of relevance to other neutron techniques.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-09-01",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "PRIDE MASSENA Grant"
+      },
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "AFR Grant No. 15639149"
+      },
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "AFR/23/17951349"
+      },
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "DeQuSky Grant No. C22/MS/17415246"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation program",
+        "grant_id": "Marie Skłodowska-Curie grant agreement No. 101203692 (QUANTHOPF)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Micromagnetic SANS theory",
+      "Polarized SANS cross section",
+      "Experimental Results and Discussion",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "ISIS Neutron and Muon Facility"
+    },
+    {
+      "id": "facility_3",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "nanoporous Fe",
+      "sample_description": "Inert-gas condensed nanoporous iron consisting of a distribution of nanosized pores in an Fe matrix.",
+      "chemical_composition": "Fe",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Nanoperm",
+      "sample_description": "Melt-spun nanocrystalline alloy with a two-phase microstructure consisting of Fe nanoparticles embedded in an amorphous magnetic matrix.",
+      "chemical_composition": "Fe89Zr7B3Cu",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Polarized small-angle neutron scattering measurements to investigate nuclear-magnetic interference terms and angular anisotropy.",
+      "measurement_technique": "polarized small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

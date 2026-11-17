@@ -1,0 +1,116 @@
+{
+  "bibliographic": {
+    "title": "Solid-Liquid Phase Transition in the Octadecanoic Acid Film Adsorbed on the Toluene-Water Interface",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Kapitza Institute for Physical Problems, Russian Academy of Sciences, Moscow, 119334 Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institute of Solid State Physics, Russian Academy of Sciences, Chernogolovka, Moscow region, 142432 Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Aleksey M. Tikhonov",
+        "orcid": null,
+        "email": "tikhonov@kapitza.ras.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The structure of the soluble protonated (pH=2) octadecanoic acid film adsorbed on the saturated hydrocarbon (n-hexane) - water and aromatic hydrocarbon (toluene)-water interfaces is studied by X-ray reflectometry using synchrotron radiation. The experimental data demonstrate that a solid phase of a Gibbs monolayer 26 ± 1 A° thick, in which aliphatic tails are perpendicular to the surface and the area per molecule is A = 18 ± 2° A² , forms in the film at the n-hexane - water interface. The solid monolayer on the toluene - water interface in the adsorbed film melts when temperature increases, and this transition is caused by disordering the hydrocarbon tails of the acid. During the solid - liquid transition, the Gibbs monolayer thickness remains almost the same, 22 ± 1 A.° In the solid phase, we have A = 20 ± 2° A² and the angle of deviation of the molecular tails from the normal to the surface is about ≈ 30° . The density of the liquid monolayer phase with A = 24 ± 2° A² corresponds to liquid n-octadecane.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "18-12-00108"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL",
+      "THEORY",
+      "RESULTS AND DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NSLS synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "octadecanoic acid film on n-hexane - water interface",
+      "sample_description": "Soluble protonated (pH=2) octadecanoic acid film adsorbed on the saturated hydrocarbon (n-hexane) - water interface.",
+      "chemical_composition": "C18H36O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "octadecanoic acid film on toluene - water interface",
+      "sample_description": "Soluble protonated (pH=2) octadecanoic acid film adsorbed on the aromatic hydrocarbon (toluene)-water interface.",
+      "chemical_composition": "C18H36O2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Wilhelmy plate method",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the surface tension of the toluene-water interface as a function of temperature.",
+      "measurement_technique": "Wilhelmy plate method",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the reflection coefficient R as a function of qz for n-hexane-water and toluene-water interfaces at different temperatures.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

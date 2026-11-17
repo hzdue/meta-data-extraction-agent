@@ -1,0 +1,203 @@
+{
+  "bibliographic": {
+    "title": "Spin-lattice-coupled helical magnetic order in breathing pyrochlore magnets, CuAlCr4S8 and CuGaCr4S8",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute for Solid State Physics, University of Tokyo, Kashiwa 277-8581, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Advanced Materials Science, University of Tokyo, Kashiwa 277-8561, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Masaki Gen",
+        "orcid": null,
+        "email": "masaki.gen@riken.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Taro Nakajima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hiraku Saito",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Yusuke Tokunaga",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Taka-hisa Arima",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "We report low-temperature powder X-ray and neutron diffraction studies on breathing pyrochlore magnets CuMCr4S8 (M = Al, Ga), which undergo a magnetic transition at TN ≈ 21 and 31 K for M = Al and Ga, respectively. X-ray diffraction reveals that the magnetic transition accompanies a structural transition from cubic F43m to polar orthorhombic Imm2 symmetry for both the compounds, with larger distortion observed for M = Ga at low temperatures. Neutron diffraction reveals incommensurate magnetic modulation Q = (qIC, 0.5, 0) in the orthorhombic setting, where qIC ≈ 0.39 and 0.31 for M = Al and Ga, respectively. Our magnetic-structure analysis suggests cycloid-type magnetic order but not properscrew type for both the compounds. We find strong correlation between the local spin configuration and Cr–Cr bond lengths, indicating that the spin-lattice coupling as well as the magnetic frustration play an important role in determining the ground state. CuMCr4S8 potentially offers a platform to explore magnetoelectric effects arising from the helimagnet driven electric polarity.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Journal of the Physical Society of Japan",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "JSPS KAKENHI Grants-In-Aid for Scientific Research",
+        "grant_id": "23K13068"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Method",
+      "3. Results",
+      "3.1 Magnetization and thermal expansion",
+      "3.2 Powder X-ray diffraction experiments",
+      "3.3 Powder neutron diffraction experiments",
+      "4. Discussion",
+      "5. Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Materials Characterization Support Team, RIKEN CEMS"
+    },
+    {
+      "id": "facility_2",
+      "name": "JRR-3 of the Japan Atomic Energy Agency"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuAlCr4S8",
+      "sample_description": null,
+      "chemical_composition": "CuAlCr4S8",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CuGaCr4S8",
+      "sample_description": null,
+      "chemical_composition": "CuGaCr4S8",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of magnetic susceptibility M/H measured at 1 T.",
+      "measurement_technique": "Magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Thermal expansion",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of thermal expansion ∆L/L at 0 T.",
+      "measurement_technique": "Thermal expansion",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Powder XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Powder X-ray diffraction experiments to reveal structural transitions across TN.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Powder ND",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Powder neutron diffraction experiments to reveal magnetic modulation and structure.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

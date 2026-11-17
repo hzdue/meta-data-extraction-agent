@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "High Pressure Structural Behavior of Silicon Telluride (Si2Te3) Nanoplates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, University of California Davis, Davis, CA 95616, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Chemistry, University of California Davis, Davis, CA 95616, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Bohan Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Frank Cerasoli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ethan Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Martin Kunz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Davide Donadio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kristie J. Koski",
+        "orcid": null,
+        "email": "koski@ucdavis.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The high-pressure behavior of silicon telluride (Si2Te3), a two-dimensional (2D) layered material, was investigated using synchrotron X-ray powder diffraction in a diamond anvil cell to 11 . 5 GPa coupled with first-principles theory. Si2Te3 undergoes a phase transition at < 1 GPa from a trigonal to a hexagonal crystal structure. At higher pressures ( > 8 . 5 GPa), X-ray diffraction showed the appearance of new peaks possibly coincident with a new phase transition, though we suspect Si2Te3 retains a hexagonal structure. Density functional theory calculations of the band structure reveal metallization above 9 . 1 GPa consistent with previous measurements of the Raman spectra and disappearance of color and transparency at pressure. The theoretical Raman spectra reproduce the prominent features of the experiment, though a deeper analysis suggests that the orientation of Si dimers dramatically influences the vibrational response. Given the complex structure of Si2Te3, simulation of the resulting high-pressure phase is complicated by disordered vacancies and the initial orientations of Si–Si dimers in the crushed layered phase.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-10-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF-DMR-2202472"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Basic Energy Sciences, Division of Materials Science and Engineering",
+        "grant_id": "DE-SC0022288"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Si2Te3 nanoplates",
+      "sample_description": "Vapor-phase grown nanoplates.",
+      "chemical_composition": "Si2Te3",
+      "sample_state": "nanoplates",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Powder X-ray diffraction of Si2Te3 at ambient conditions collected on a Bruker Eco Advance.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman spectra",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra acquired on a home-built system with an inverted Leica DMi8.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Ultraviolet (UPS)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ultraviolet photoelectron spectroscopy collected on the Kratos Axis Supra.",
+      "measurement_technique": "ultraviolet photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "High-pressure X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ synchrotron X-ray diffraction patterns acquired in a diamond anvil cell up to 11.5 GPa.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

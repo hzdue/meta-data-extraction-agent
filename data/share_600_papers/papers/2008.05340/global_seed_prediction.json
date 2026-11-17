@@ -1,0 +1,284 @@
+{
+  "bibliographic": {
+    "title": "Controlled electrochemical functionalization of CNT fibers: structure-chemistry relations and application in current collector-free all-solid supercapacitors.",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "IMDEA Materials Institute, c/ Eric Kandel 2, Getafe 28906, Madrid, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "IMDEA Energy Institute, Parque Tecnológico de Móstoles, Avda. De la Sagra 3, 28935 Móstoles, Madrid, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "E. T. S. de Ingenieros de Caminos, Universidad Politécnica de Madrid, 28040 Madrid, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Evgeny Senokos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Moumita Rana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Cleis Santos",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Rebeca Marcilla",
+        "orcid": null,
+        "email": "rebeca.marcilla@imdea.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Juan J. Vilatela",
+        "orcid": null,
+        "email": "juanjose.vilatela@imdea.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Chemical functionalization of nanocarbons is an important strategy to produce electrochemical systems with higher energy/power density by generating surface functional groups with additional faradaic contribution, by increasing their surface area and correspondent capacitive contribution and by improving compatibility with aqueous electrolytes and other active materials, such as pseudocapacitive metal-oxides. Here we present an electrochemical method to simultaneously swell and functionalize large electrodes consisting of fabrics of macroscopic fibers of carbon nanotubes that renders the material hydrophilic and produces a substantial increase of specific capacitance and energy density in aqueous electrolytes. Through in-depth characterization of the carbon nanotube fibres (CNTF) by Raman spectroscopy, transmission electron microscopy, X-ray photoelectrocn spectroscopy (XPS) and small-angle X-ray scattering (SAXS) we identify various contributions to such improvements, including surface oxidation, tubular unzipping, debundling and inter-bundle swelling. Changes in hydrophilicity of functionalized CNTF are determined by analyzing the dynamics of spreading of polar and nonpolar liquids in the electrode. The extracted contact angles and polar and dispersive surface energy components for different treatment conditions are in agreement with changes in dipole-moment obtained by XPS. Finally, functionalized CNTF electrodes were employed in current collector-free solid flexible supercapacitors, which show enhanced electrochemical properties compared to as-produced hydrophobic ones.",
+    "keywords": [
+      "CNT fiber",
+      "electrochemical functionalization",
+      "flexible supercapacitor",
+      "SAXS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union Seventh Framework Program",
+        "grant_id": "678565 (ERC-STEM)"
+      },
+      {
+        "funder": "Clean Sky-II",
+        "grant_id": "738085 (SORCERER JTI-CS2-2016-CFP03-LPA-0211)"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "MAT2015-62584 ERC"
+      },
+      {
+        "funder": "MINECO",
+        "grant_id": "RyC-2014-15115"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. EXPERIMENTAL SECTION",
+      "3. RESULTS AND DISCUSSION",
+      "4. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA Synchrotron Light Facilities"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "pristine CNTF",
+      "sample_description": "As-spun material densified through exposure to acetone forming CNT fiber film.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "f-CNTF@2.5 V",
+      "sample_description": "CNT fibers treated by chronoamperometry at 2.5V for one minute in 0.1 M Na2SO4 aqueous solution.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "f-CNTF@5 V",
+      "sample_description": "CNT fibers treated by chronoamperometry at 5V for one minute in 0.1 M Na2SO4 aqueous solution.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "f-CNTF@10 V",
+      "sample_description": "CNT fibers treated by chronoamperometry at 10V for one minute in 0.1 M Na2SO4 aqueous solution.",
+      "chemical_composition": null,
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of D, G, and 2D bands to monitor the relative degree of disorder in CNTs caused by functionalization.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of microstructural changes including holes, broken layers, partial unzipping and debundling of CNTs.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray photoelectron spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface elemental analysis and deconvolution of C1s peaks to estimate relative population of carbon hybridizations and oxygenated functional groups.",
+      "measurement_technique": "X-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Collection of SAXS patterns to provide indication of surface-to-volume ratio and descriptors of the porous structure.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "water droplet spreading experiment",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Time-resolved wicking area covered by polar and nonpolar liquids to determine changes in hydrophilicity.",
+      "measurement_technique": "optical microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "cyclic voltammetry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Evaluation of electrochemical properties in 1M Na2SO4 aqueous electrolyte medium.",
+      "measurement_technique": "cyclic voltammetry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "electrochemical impedance spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Impedance measurements to evaluate electrical conductivity of functionalized fibers.",
+      "measurement_technique": "electrochemical impedance spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "galvanostatic charge-discharge",
+      "sample_refs": [
+        "sample_1",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Testing of symmetric supercapacitors in 1M KOH or 1M Na2SO4 electrolytes.",
+      "measurement_technique": "galvanostatic charge-discharge",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

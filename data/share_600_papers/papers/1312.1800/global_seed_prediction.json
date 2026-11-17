@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "Dynamic synchrotron X-ray imaging study of effective temperature in a vibrated granular medium",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Shanghai Jiao Tong University - 800 Dongchuan Rd. Shanghai 200240, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "X-ray Science Division, Argonne National Laboratory, 9700 South Cass Avenue, IL 60439, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yixin Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Xiaodan Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Binquan Kou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Xiangting Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Xianghui Xiao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kamel Fezzaa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Yujie Wang",
+        "orcid": null,
+        "email": "yujiewang@sjtu.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We present a dynamic synchrotron X-ray imaging study of the effective temperature Teff in a vibrated granular medium. By tracking the directed motion and the fluctuation dynamics of the tracers inside, we obtained Teff of the system using Einstein relation. We found that as the system unjams with increasing vibration intensities Γ, the structural relaxation time τ increases substantially which can be fitted by an Arrhenius law using Teff . And the characteristic energy scale of structural relaxation yielded by the Arrhenius fitting is E = 0.21 ± 0.02 pd3 , where p is the pressure and d is the background particle diameter, which is consistent with those from hard sphere simulations in which the structural relaxation happens via the opening up of free volume against pressure.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-10-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Chinese National Science Foundation",
+        "grant_id": "11175121"
+      },
+      {
+        "funder": "National Basic Research Program of China (973 Program)",
+        "grant_id": "2010CB834301"
+      },
+      {
+        "funder": "U. S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "EXPERIMENTAL SETUP AND IMAGING TECHNIQUE",
+      "CONVECTION AND SURFACE TILTING",
+      "MOTION CHARACTERISTICS OF THE TRACERS",
+      "EQUATION OF MOTION AND EFFECTIVE VISCOSITY",
+      "FLUCTUATION AND DIFFUSION DYNAMICS",
+      "EFFECTIVE TEMPERATURE AND ACTIVATION ENERGY",
+      "KINETIC TEMPERATURE",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source of Argonne National Laboratory"
+    },
+    {
+      "id": "facility_2",
+      "name": "Shanghai Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "polydisperse glass particles",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "steel tracer balls",
+      "sample_description": null,
+      "chemical_composition": "steel",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray imaging",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Dynamic X-ray imaging used to track the trajectories and fluctuation dynamics of steel tracers inside a vibrated granular medium of glass particles.",
+      "measurement_technique": "synchrotron X-ray imaging",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

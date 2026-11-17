@@ -1,0 +1,209 @@
+{
+  "bibliographic": {
+    "title": "CAGE OCCUPANCIES OF METHANE HYDRATES: RESULTS FROM SYNCHROTRON X-RAY DIFFRACTION AND RAMAN SPECTROSCOPY",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "GZG Abt. Kristallographie, Georg-August-Universität Göttingen, Göttingen 37077, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Junfeng QIN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christiane D. HARTMANN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Werner F. KUHS",
+        "orcid": null,
+        "email": "wkuhs1@gwdg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "An accurate knowledge of cage occupancy of methane is central for understanding the physicalchemical properties of gas hydrates, the actual inventory of natural gas in hydrate deposits and the description of gas exchange processes. Here we report the absolute cage occupancies, the cage occupancy ratios and hydration numbers of the synthetic CH4-H2O and CH4-D2O hydrates formed from the ice-gas system under different pressures and temperatures. The results were obtained from Rietveld refinement using high-resolution synchrotron X-ray powder diffraction patterns and from Raman spectroscopic measurements. The small-cage occupancies of methane in the deuterated hydrates are found to be slightly higher than in the hydrogenated form, likely due to their different lattice constants. The CH4 occupancy in the small cages agrees fairly well with the predictions of CSMGem at the formation pressure of 3.5 MPa, but with the increasing formation pressure the disagreement grows up to 11 percent. While some deficiency of the prediction model cannot be excluded, the observed discrepancy may well be due to experimental difficulties of reaching true equilibrium at higher pressures. The experimentally-determined large-to-small cage occupancy ratios of the synthetic and natural CH4 hydrates formed from the water-gas system are consistently higher than the results of CSMGem calculations. Possible reasons for these discrepancies will be discussed.",
+    "keywords": [
+      "methane hydrates",
+      "cage occupancy",
+      "diffraction",
+      "Raman",
+      "hydration number",
+      "lattice constants"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2014-08-01",
+    "venue": "Proceedings of the 8th International Conference on Gas Hydrates (ICGH8-2014)",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Ministry of Education and Research",
+        "grant_id": "03G0819B (TP B23)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "STRUCTURAL ANALYSIS",
+      "RESULTS AND DISCUSSION",
+      "Synchrotron X-ray diffraction",
+      "Raman spectroscopy",
+      "Comparison of absolute cage occupancies",
+      "Comparison of cage occupancy ratios",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CH4-D2O hydrate 3.5 MPa",
+      "sample_description": "Synthetic methane hydrate formed from D2O ice at 271 K and 3.5 MPa.",
+      "chemical_composition": "CH4-D2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CH4-D2O hydrate 6 MPa",
+      "sample_description": "Synthetic methane hydrate formed from D2O ice at 271 K and 6 MPa.",
+      "chemical_composition": "CH4-D2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CH4-D2O hydrate 10 MPa",
+      "sample_description": "Synthetic methane hydrate formed from D2O ice at 271 K and 10 MPa.",
+      "chemical_composition": "CH4-D2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CH4-D2O hydrate 15 MPa",
+      "sample_description": "Synthetic methane hydrate formed from D2O ice at 271 K and 15 MPa.",
+      "chemical_composition": "CH4-D2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CH4-H2O hydrate 3.5 MPa",
+      "sample_description": "Synthetic methane hydrate formed from H2O ice at 268 K and 3.5 MPa.",
+      "chemical_composition": "CH4-H2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "CH4-H2O hydrate 6 MPa",
+      "sample_description": "Synthetic methane hydrate formed from H2O ice at 268 K and 6 MPa.",
+      "chemical_composition": "CH4-H2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "CH4-H2O hydrate 10 MPa",
+      "sample_description": "Synthetic methane hydrate formed from H2O ice at 268 K and 10 MPa.",
+      "chemical_composition": "CH4-H2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "CH4-H2O hydrate 15 MPa",
+      "sample_description": "Synthetic methane hydrate formed from H2O ice at 268 K and 15 MPa.",
+      "chemical_composition": "CH4-H2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron X-ray powder diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution powder diffraction patterns used for Rietveld refinement of cage occupancies and lattice parameters.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra collected to determine cage occupancy ratios and absolute occupancies via peak intensities.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

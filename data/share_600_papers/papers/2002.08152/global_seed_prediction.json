@@ -1,0 +1,615 @@
+{
+  "bibliographic": {
+    "title": "Strain Wave Pathway to Semiconductor-to-Metal Transition revealed by time resolved X-ray powder diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Univ Rennes, CNRS, IPR (Institut de Physique de Rennes) - UMR 6251, F-35000 Rennes, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Univ Rennes, CNRS, ISCR (Institut des Sciences Chimiques de Rennes) - UMR 6226, F-35000 Rennes, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut des Matériaux Jean Rouxel (IMN), Université de Nantes, CNRS, 2 rue de la Houssinière, F-44322 Nantes, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "GREMAN – UMR 7347 CNRS, Université de Tours, Parc de Grandmont, F-37000 Tours, France."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Chemistry, School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Materials Science, Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, Japan"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "SwissFEL, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Laboratory of Ultrafast Spectroscopy, Lausanne Center for Ultrafast Science (LACUS), École Polytechnique Fédérale de Lausanne,14 CH-1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "European Synchrotron Radiation Facility, 71, avenue desMartyrs, F-38000 Grenoble, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "C. Mariette",
+        "orcid": null,
+        "email": "celine.mariette@univ-rennes1.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. Lorenc",
+        "orcid": null,
+        "email": "maciej.lorenc@univ-rennes1.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "H. Cailleau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "E. Collet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "L. Guérin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Volte",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "E. Trzop",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "R. Bertoni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "X. Dong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "B. Lépine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "O Hernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "E. Janod",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "L. Cario",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "V. Ta Phuoc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "S. Ohkoshi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "H. Tokoro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "L. Patthey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "A. Babic",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "I. Usov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "D. Ozerov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "L. Sala",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "S. Ebner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "P. Böhler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "A Keller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "A. Oggenfuss",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_26",
+        "full_name": "T. Zmofing",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_27",
+        "full_name": "S. Redford",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_28",
+        "full_name": "S. Vetter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_29",
+        "full_name": "R. Follath",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_30",
+        "full_name": "P. Juranic",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_31",
+        "full_name": "A. Schreiber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_32",
+        "full_name": "P. Beaud",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_33",
+        "full_name": "V. Esposito",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_34",
+        "full_name": "Y Deng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_35",
+        "full_name": "G. Ingold",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_36",
+        "full_name": "M. Chergui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_37",
+        "full_name": "G. F. Mancini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_38",
+        "full_name": "R. Mankowsky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_39",
+        "full_name": "C. Svetina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_40",
+        "full_name": "S. Zerdane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_41",
+        "full_name": "A. Mozzanica",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_42",
+        "full_name": "M. Wulff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_43",
+        "full_name": "M. Levantino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_44",
+        "full_name": "H. Lemke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_45",
+        "full_name": "M. Cammarata",
+        "orcid": null,
+        "email": "marco.cammarata@univ-rennes1.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Thanks to the remarkable developments of ultrafast science, one of today's challenges is to modify material state by controlling with a light pulse the coherent motions that connect two different phases. Here we show how strain waves, launched by electronic and structural precursor phenomena, determine a macroscopic transformation pathway for the semiconducting-to-metal transition with large volume change in bistable Ti 3 O 5 nanocrystals. Femtosecond powder X-ray diffraction allowed us to quantify the structural deformations associated with the photoinduced phase transition on relevant time scales. We monitored the early intra-cell distortions around absorbing metal dimers, but also long range crystalline deformations dynamically governed by acoustic waves launched at the laser-exposed Ti 3 O 5 surface. We rationalize these observations with a simplified elastic model, demonstrating that a macroscopic transformation occurs concomitantly with the propagating acoustic wavefront on the picosecond timescale, several decades earlier than the subsequent thermal processes governed by heat diffusion.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Agence Nationale de la Recherche",
+        "grant_id": "ANR-16-CE30-0018 (“Elastica”)"
+      },
+      {
+        "funder": "European Union Horizon 2020",
+        "grant_id": "637295"
+      },
+      {
+        "funder": "JSPS Grant-in-Aid for specially promoted Research Grant",
+        "grant_id": "15H05697"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "16H06521 Coordination Asymmetry"
+      },
+      {
+        "funder": "European Research Council (ERC) H2020",
+        "grant_id": "695197"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SwissFEL"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ti3O5 nanocrystals pellet",
+      "sample_description": "Pellet containing 72.5 % β phase and 27.5 % residual metastable λ phase at room temperature.",
+      "chemical_composition": "Ti3O5",
+      "sample_state": "nanocrystals",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "time resolved powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Femtosecond powder X-ray diffraction to quantify structural deformations associated with the photoinduced phase transition.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "time resolved powder diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Time-resolved powder diffraction probing longer time scales with resolution around 100 ps.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Static powder laboratory X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Static powder XRD as a function of temperature from 300K to 700 K.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

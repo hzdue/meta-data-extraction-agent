@@ -1,0 +1,359 @@
+{
+  "bibliographic": {
+    "title": "Probing electron-phonon interactions away from the Fermi level with resonant inelastic x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "London Centre for Nanotechnology and Department of Physics and Astronomy, University College London, London, WC1E 6BT, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Max Planck POSTECH/KOREA Research Initiative, 37673 Pohang, South Korea"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "London Centre for Nanotechnology and Department of Electronic and Electrical Engineering, University College London, London, WC1E 6BT, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Condensed Matter Physics and Materials Science Department, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, Oklahoma State University, Stillwater, Oklahoma 74078, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Synchrotron SOLEIL, L’Orme des Merisiers, Saint-Aubin, BP 48, 91192 Gif-sur-Yvette, France"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Sorbonne Universit´e, CNRS, Laboratoire de Chimie Physique-Mati´ere et Rayonnement, UMR 7614, 4 place Jussieu, 75252 Paris Cedex 05, France"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Diamond Light Source, Didcot, Oxfordshire, OX11 0DE, UK"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Physics Department and IRIS Adlershof, Humboldt-Universit¨at zu Berlin, Zum Großen Windkanal 2, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "European Theoretical Spectroscopy Facility (ETSF)"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "C. D. Dashwood",
+        "orcid": null,
+        "email": "cameron.dashwood.17@ucl.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. Geondzhian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. G. Vale",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "A. C. Pakpour-Tabrizi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "C. A. Howard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Q. Faure",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "L. S. I. Veiga",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "D. Meyers",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "S. G. Chiuzb˘aian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "A. Nicolaou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "N. Jaouen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "R. B. Jackman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Nag",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "M. Garc´ıa-Fern´andez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "A. C. Walters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "K. Gilmore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_10",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "D. F. McMorrow",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "M. P. M. Dean",
+        "orcid": null,
+        "email": "mdean@bnl.gov",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Interactions between electrons and lattice vibrations are responsible for a wide range of material properties and applications. Recently, there has been considerable interest in the development of resonant inelastic x-ray scattering (RIXS) as a tool for measuring electron-phonon ( e -ph) interactions. Here, we demonstrate the ability of RIXS to probe the interaction between phonons and specific electronic states both near to, and away from, the Fermi level. We performed carbon K - edge RIXS measurements on graphite, tuning the incident x-ray energy to separately probe the interactions of the π∗ and σ∗ electronic states. Our high-resolution data reveals detailed structure in the multi-phonon RIXS features that directly encodes the momentum dependence of the e -ph interaction strength. We develop a Green’s-function method to model this structure, which naturally accounts for the phonon and interaction-strength dispersions, as well as the mixing of phonon momenta in the intermediate state. This model shows that the differences between the spectra can be fully explained by contrasting trends of the e -ph interaction through the Brillouin zone, being concentrated at the Γ and K points for the π∗ states, while being significant at all momenta for the σ∗ states. Our results advance the interpretation of phonon excitations in RIXS, and extend its applicability as a probe of e -ph interactions to a new range of out-of-equilibrium situations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Engineering and Physical Sciences Research Council",
+        "grant_id": "EP/L015277/1"
+      },
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "2016K1A4A4A01922028"
+      },
+      {
+        "funder": "U.S. National Science Foundation",
+        "grant_id": "DMR-1904716"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "SEP-210184415"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/N027671/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/N034872/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/H020055/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/N004159/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RIXS MEASUREMENTS ON GRAPHITE",
+      "III. ELECTRON-PHONON INTERACTIONS IN RIXS",
+      "IV. ELECTRON-PHONON INTERACTIONS NEAR THE FERMI LEVEL",
+      "V. ELECTRON-PHONON INTERACTIONS AWAY FROM THE FERMI LEVEL",
+      "VI. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Synchrotron SOLEIL"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "graphite",
+      "sample_description": "natural graphite single crystal",
+      "chemical_composition": "C",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "carbon K-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Carbon K-edge RIXS measurements on graphite tuning incident x-ray energy to probe π* and σ* electronic states.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

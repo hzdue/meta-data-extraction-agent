@@ -1,0 +1,322 @@
+{
+  "bibliographic": {
+    "title": "Evaluating covalency using RIXS spectral weights: Silver fluorides vs. cuprates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "ISC-CNR, Istituto dei Sistemi Complessi, via dei Taurini 19, 00185 Rome, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Dipartimento di Fisica, Sapienza Università di Roma, 00185 Rome, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "University of Warsaw, Center of New Technologies, Żwirki i Wigury 93, 02-089 Warsaw, Poland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Dipartimento di Scienze, Università Roma Tre, Viale Guglielmo Marconi 446, 00146 Rome, Italy"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "SPIN-CNR, Istituto Superconduttori, Materiali Innovativi e Dispositivi, Area della Ricerca di Tor Vergata, via del Fosso del Cavaliere 100, 00133 Rome, Italy"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Dipartimento di Fisica, Politecnico di Milano, piazza Leonardo da Vinci 32, 20133 Milano, Italy"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "CNR-SPIN, Dipartimento di Fisica, Politecnico di Milano, piazza Leonardo da Vinci 32, 20133 Milano, Italy"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "ESRF – The European Synchrotron, 71, avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Jožef Stefan Institute, Department of Inorganic Chemistry and Technology, Jamova cesta 39, 1000 Ljubljana, Slovenia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ilya Degtev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Daniel Jezierski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Adrián Gómez Pueyo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Luciana Di Gaspare",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Monica De Seta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Paolo Barone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Giacomo Ghiringhelli",
+        "orcid": null,
+        "email": "giacomo.ghiringhelli@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Pieter Glatzel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Zoran Mazej",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Wojciech Grochala",
+        "orcid": null,
+        "email": "w.grochala@cent.uw.edu.pl",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Marco Moretti Sala",
+        "orcid": null,
+        "email": "marco.moretti@polimi.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "José Lorenzana",
+        "orcid": null,
+        "email": "jose.lorenzana@cnr.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "We investigate the electronic structure of AgF2, AgFBF4, AgF and Ag2O using X-ray absorption spectroscopy (XAS) and resonant inelastic X-ray scattering (RIXS) at the Ag L 3 edge. XAS results were compared with density functional theory computations of the spectra, allowing an identification of main features and an assessment of the theoretical approximations. Our RIXS measurements reveal that AgF2 exhibits charge transfer excitations and dd excitations, analogous to those observed in La2CuO4. We propose to use the ratio of dd to CT spectral weight as a measure of the covalence of the compounds and provide explicit equations for the weights as a function of the scattering geometry for crystals and powders. The measurements at the metal site L 3 edge and previous measurement in the ligand K edge reveal a striking similarity between the fluorides and cuprates materials, with fluorides somewhat more covalent than cuprates. These findings support the hypothesis that silver fluorides are an excellent platform to mimic the physics of cuprates, providing a promising avenue for exploring high- Tc superconductivity and exotic magnetism in quasi-two-dimensional (AgF2) and quasi-one-dimensional (AgFBF4) materials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-12-12",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Italian Ministry of University and Research",
+        "grant_id": "PRIN 20207ZXT4Z"
+      },
+      {
+        "funder": "Slovenian Research and Innovation Agency",
+        "grant_id": "P1-0045"
+      },
+      {
+        "funder": "National Science Center (NCN)",
+        "grant_id": "OPUS M(Ag)NET (2024/53/B/ST5/00631)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ID26 Tender X-ray Emission Spectrometer (TEXS) beamline"
+    },
+    {
+      "id": "facility_2",
+      "name": "ESRF – The European Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "AgF2",
+      "sample_description": null,
+      "chemical_composition": "AgF2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "AgFBF4",
+      "sample_description": null,
+      "chemical_composition": "AgFBF4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ag2O",
+      "sample_description": null,
+      "chemical_composition": "Ag2O",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "AgF",
+      "sample_description": null,
+      "chemical_composition": "AgF",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ag",
+      "sample_description": "pure silver",
+      "chemical_composition": "Ag",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "La2CuO4",
+      "sample_description": null,
+      "chemical_composition": "La2CuO4",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "High-energy-resolution fluorescence-detected (HERFD) XAS measurements at the Ag L3 edge.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Resonant inelastic X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "RIXS measurements at the Ag L3 edge to investigate dd and charge transfer excitations.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

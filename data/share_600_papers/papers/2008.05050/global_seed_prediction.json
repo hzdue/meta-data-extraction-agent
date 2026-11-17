@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "Strongly two-dimensional exchange interactions in the in-plane metallic antiferromagnet Fe2As probed by inelastic neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Science and Engineering and Materials Research Laboratory, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Purdue University, West Lafayette, IN 47907, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Manohar H. Karigerasi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kisung Kang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Garrett E. Granroth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Arnab Banerjee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andr´e Schleife",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Daniel P. Shoemaker",
+        "orcid": null,
+        "email": "dpshoema@illinois.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "To understand spin interactions in materials of the Cu2Sb structure type, inelastic neutron scattering of Fe2As single crystals was examined at different temperatures and incident neutron energies. The experimental phonon spectra match well with the simulated phonon spectra obtained from density functional theory (DFT) calculations. The measured magnon spectra were compared to the simulated magnon spectra obtained via linear spin wave theory with the exchange coupling constants calculated using the spin polarized, relativistic Korringa-Kohn-Rostoker method in Zhang et al. (2013). The simulated magnon spectra broadly agree with the experimental data although, the energy values are underestimated along the K direction. Exchange coupling constants between Fe atoms were refined by fits to the experimental magnon spectra, revealing stronger nearest neighbor Fe1-Fe1 exchange coupling than previously reported. The strength of this exchange coupling is almost an order of magnitude higher than other exchange interactions despite the three-dimensional nature of the phonon interactions. The lack of scattering intensity at energies above 60 meV makes unconstrained determination of the full set of exchange interactions difficult, which may be a fundamental challenge in metallic antiferromagnets.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation MRSEC program",
+        "grant_id": "DMR-1720633"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "OCI-0725070"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ACI-1238993"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe2As",
+      "sample_description": "Large single crystals grown from elements.",
+      "chemical_composition": "Fe2As",
+      "sample_state": "single crystal",
+      "sample_mass": "3 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron powder X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Phase purity confirmation of Fe2As crystals.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of phonon and magnon spectra at different temperatures (5 K, 200 K, 400 K) and incident energies (30, 70, 200, 300 meV).",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

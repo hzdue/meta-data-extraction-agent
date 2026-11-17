@@ -1,0 +1,261 @@
+{
+  "bibliographic": {
+    "title": "“Phonon Invisibility” Driven by Robust Magneto-Elastic Coupling in AlFeO3 Thin Film",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "UGC-DAE-Consortium for Scientific Research, Devi Ahilya University Campus, Indore 452001, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shekhar Tyagi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Gaurav Sharma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "R. J. Choudhary",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vasant G. Sathe",
+        "orcid": null,
+        "email": "vasant@csr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The thin films of lead free magneto-electric compound AlFeO3 have been deposited using pulsed laser deposition technique. X-ray diffraction, X-ray absorption spectroscopy and reflectivity measurements established the orthorhombic structure and material density of 4.5g/cc which is comparable with bulk AlFeO3. The Raman mode corresponding to AlFeO3 was found to vanish when magnetic field of 800 Oe was applied at room temperature. Additionally, it was observed that the Raman phonon mode present at the room temperature becomes invisible in the temperature window of 280K-236K and reappears below it. The detailed analysis of magnetization showed a change in magnetic order in this temperature interval. The invisibility of Raman phonon mode corresponding to AlFeO3 have been attributed to the lattice deformation caused by the magnetoelastic effect. The presence of strong spin-lattice coupling is also validated by the renormalization of phonon frequencies below 200 K.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental techniques",
+      "3. Results and discussions",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Indus-II synchrotron radiation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "A1",
+      "sample_description": "AlFeO3 deposited on LSAT (001) substrate with a SrRuO3 buffer layer",
+      "chemical_composition": "AlFeO3/SrRuO3/LSAT(001)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "A2",
+      "sample_description": "AlFeO3 deposited directly on LSAT (001) substrate",
+      "chemical_composition": "AlFeO3/LSAT(001)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "bulk AlFeO3",
+      "sample_description": null,
+      "chemical_composition": "AlFeO3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "SrRuO3/LSAT(001) film",
+      "sample_description": "deposited for comparison",
+      "chemical_composition": "SrRuO3/LSAT(001)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "α-Fe2O3",
+      "sample_description": "reference sample",
+      "chemical_composition": "α-Fe2O3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "γ-Fe2O3",
+      "sample_description": "reference sample",
+      "chemical_composition": "γ-Fe2O3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns collected in θ-2θ mode to confirm phase purity and orientation.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRR measurements used to calculate film thickness and material density.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "reciprocal space mapping",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "RSM measurements to investigate epitaxial nature of the films.",
+      "measurement_technique": "reciprocal space mapping",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_2",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS analysis in total electron yield mode at O K-edge and Fe L-edge for chemical composition analysis.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra collected at 300 K to identify phonon modes.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Raman spectroscopy under magnetic field",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra recorded in the presence of an external applied magnetic field of ~ 800 Oe at room temperature.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Temperature dependent Raman spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra collected as a function of temperature in the range of 360K to 83K.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "SQUID-vibrating sample magnetometer",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent magnetization (M-T) study in 5-350K range under field cooled (FC) and zero field cooled (ZFC) protocol.",
+      "measurement_technique": "vibrating sample magnetometer",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

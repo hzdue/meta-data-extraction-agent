@@ -1,0 +1,437 @@
+{
+  "bibliographic": {
+    "title": "Towards the surface hydroxyl species in CeO2 nanoparticles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Lomonosov Moscow State University, Department of Chemistry, Leninskije Gory 1, Moscow, Russia."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Molecular and Condensed Matter Physics, Department of Physics and Astronomy, Uppsala University, P.O. Box 516, Uppsala, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Frumkin Institute of Physical Chemistry and Electrochemistry of Russian Academy of Science, Moscow, Russia"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Kurnakov Institute of General and Inorganic Chemistry, Russian Academy of Sciences, Moscow, Russia"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "National Research Centre “Kurchatov Institute”, Moscow, Russia"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Paul Scherrer Institute, Swiss Light Source, WLGA 211, CH-5232, Villigen, The Switzerland"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "The Rossendorf Beamline at ESRF – The European Synchrotron, CS40220, 38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_8",
+        "label": "h",
+        "text": "Helmholtz Zentrum Dresden-Rossendorf (HZDR), Institute of Resource Ecology, PO Box 510119, 01314 Dresden, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tatiana V. Plakhova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Anna Yu. Romanchuk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sergei M. Butorin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anastasia D. Konyukhova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexander V. Egorov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Andrey A. Shiryaev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alexander E. Baranchikov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Pavel V. Dorovatovskii",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Thomas Huthwelker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Evgeny Gerber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Stephen Bauters",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Madina M. Sozarukova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Andreas C. Scheinost",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Vladimir K. Ivanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Stepan N. Kalmykov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Kristina O. Kvashnina",
+        "orcid": null,
+        "email": "kristina.kvashnina@esrf.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "Understanding the complex chemistry of functional nanomaterials is of fundamental importance. Controlled synthesis and characterization at the atomic level is essential to gain deeper insight into the unique chemical reactivity exhibited by many nanomaterials. Cerium oxide nanoparticles have many industrial and commercial applications, resulting from very strong catalytic, pro- and anti-oxidant activity. However, the identity of the active species and the chemical mechanisms imparted by nanoceria remain elusive, impeding the further development of new applications. Here, we explore the behavior of cerium oxide nanoparticles of different sizes at different temperatures and trace the electronic structure changes by stateof-the-art soft and hard X-ray experiments combined with computational methods. We confirm the absence of the Ce(III) oxidation state at the surface of CeO2 nanoparticles, even for particles as small as 2 nm. Synchrotron X-ray absorption experiments at Ce L3 and M5 edges, combined with X-ray diffraction (XRD), high-resolution transmission electron microscopy (HRTEM) and small angle X-ray scattering (SAXS) and theoretical calculations demonstrate that in addition to the nanoceria charge stability, the formation of hydroxyl groups at the surface profoundly affects the chemical performance of these nanomaterials.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Commission Council",
+        "grant_id": "ERC grant No. 759696"
+      },
+      {
+        "funder": "RFBR",
+        "grant_id": "18-33-20129"
+      },
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "19-13-00416"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2017-06465"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "730872"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental section",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Kurchatov Synchrotron Radiation Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_3",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CeO2 2 nm",
+      "sample_description": "Nanoparticles prepared from 0.001M Ce(NO3)3.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CeO2 5 nm",
+      "sample_description": "Nanoparticles prepared from 0.1M Ce(NO3)3.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CeO2 8 nm",
+      "sample_description": "Nanoparticles prepared from 0.8M Ce(NO3)3.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "bulk CeO2",
+      "sample_description": "Particles larger than 25 nm in diameter.",
+      "chemical_composition": "CeO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "as-prepared sample",
+      "sample_description": "CeO2 NPs after washing procedure without any thermal treatment.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "sample dried at 40 °C",
+      "sample_description": "as-prepared NP after drying overnight under ambient environment at 40 °C.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "sample dried at 150 °C",
+      "sample_description": "as-prepared NP after drying overnight under an ambient environment at 150 °C.",
+      "chemical_composition": "CeO2",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Synchrotron-based XRD measurements performed in transmission mode to determine crystalline phases and size.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HRTEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Microstructural evaluation and electron diffraction patterns.",
+      "measurement_technique": "high-resolution transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Small-angle X-ray scattering patterns registered using monochromatic Cu Kα radiation.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "HERFD-XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "High energy resolution fluorescence detected X-ray absorption spectroscopy at the Ce L3 edge.",
+      "measurement_technique": "high energy resolution fluorescence detected hard X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "soft XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Soft X-ray absorption spectroscopy at the Ce M5 edge measured in total-electron-yield mode.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

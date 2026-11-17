@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "title": "Origin of forbidden reflections in multiferroic Ba2CoGe2O7 by neutron diffraction: Symmetry lowering or Renninger effect?",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Crystallography, RWTH Aachen University and J¨ulich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz Zentrum (MLZ), 85747 Garching, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Crystallography, RWTH Aachen University, 52056 Aachen, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Heinz Maier-Leibnitz Zentrum (MLZ) and Physics Department E21, Technical University of Munich, 85747 Garching, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Budapest University of Technology and MTA-BME Lend¨ulet Magneto-optical Spectroscopy Research Group, 1111 Budapest, Hungary"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "RIKEN Center for Emergent Matter Science (CEMS), Wako 351-0198, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Andrew Sazonov",
+        "orcid": null,
+        "email": "mail@sazonov.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Martin Meven",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Georg Roth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Robert Georgii",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Istv´an K´ezsm´arki",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Vilmos Kocsis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Vladimir Hutanu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "For a symmetry consistent theoretical description of the multiferroic phase of Ba2CoGe2O7 a precise knowledge of its crystal structure is a prerequisite. In our previous synchrotron X-ray diffraction experiment on multiferroic Ba2CoGe2O7 at room temperature we found forbidden reflections that favour the tetragonal-toorthorhombic symmetry lowering of the titled compound. Here, we report the results of room-temperature single-crystal diffraction studies with both hot and cold neutrons to differentiate between the real symmetry lowering and multiple diffraction (the Renninger effect). A comparison of the experimental multiple diffraction patterns with simulated ones rules out the symmetry lowering. Thus, the structural model based on the tetragonal space group P¯421m was selected to describe the Ba2CoGe2O7 symmetry at room temperature. The precise structural parameters from neutron diffraction at 300 K are presented and compared with the previous X-ray diffraction results.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2015-11-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "A. Room temperature crystal structure model",
+      "B. Room temperature structural details",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRM II reactor, Heinz-Maier-Leibnitz Zentrum (MLZ)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ba2CoGe2O7",
+      "sample_description": "Cylindrical shape of approximately 5 mm in height and about the same diameter.",
+      "chemical_composition": "Ba2CoGe2O7",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "single-crystal neutron diffraction (short wavelength)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of ψ scans and full data collection at room temperature using the HEiDi diffractometer with λ = 0.793 ¹A.",
+      "measurement_technique": "single-crystal neutron diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "single-crystal neutron diffraction (long wavelength)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements of ψ scans at room temperature using the MIRA diffractometer with λ = 4.488 ¹A.",
+      "measurement_technique": "single-crystal neutron diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

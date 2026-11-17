@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Role of local structural distortion in driving ferroelectricity in GdCrO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of physics, Sachivalaya Marg, Bhubaneswar - 751005, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Homi Bhabha National Institute, Training School Complex, Anushakti Nagar, Mumbai - 400085, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "CSIR -Institute of Minerals and Materials Technology, Bhubaneswar - 751013, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Deutsches Elektronen-Synchrotron, Hamburg - 22607, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Physics, Goa University, Taleigao Plateau, Goa - 403206, India"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sudipta Mahana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "U. Manju",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Pronoy Nandi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Edmund Welter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "K. R. Priolkar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. Topwal",
+        "orcid": null,
+        "email": "dinesh.topwal@iopb.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Temperature dependent synchrotron x-ray diffraction and extended x-ray absorption fine structure (EXAFS) studies were performed to understand the role of structural characteristics in driving the magnetoelectric multiferoic properties of GdCrO3. The results suggest that the distortion in the structure appears to be associated with the off-center displacement of Gd-atoms together with octahedral rotations via displacement of the oxygen ions in GdCrO3. In addition, the magnetic coupling below magnetic transition temperature leads to additional distortion in the system via magnetostriction effect, playing a complementary role in the enhancement of ferroelectric polarization. Further, a comparative EXAFS study of GdCrO3 with a similar system YCrO3 suggests that oxygen environment of Gd in GdCrO3 is different from Y in YCrO3, which resulting in an orthorhombic Pna 21 structure in GdCrO3 in contrast to the monoclinic P 21 structure in YCrO3.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-03-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology, India",
+        "grant_id": "DST-DESY project"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Elettra synchrotron radiation facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRAIII synchrotron source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "GdCrO3",
+      "sample_description": null,
+      "chemical_composition": "GdCrO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "YCrO3",
+      "sample_description": null,
+      "chemical_composition": "YCrO3",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Temperature-dependent XRD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependent x-ray diffraction measurements carried out at the XRD1 beamline.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Temperature dependent EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Temperature dependent EXAFS measurements at Gd-L3, Cr-K, and Y-K edges.",
+      "measurement_technique": "extended x-ray absorption fine structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

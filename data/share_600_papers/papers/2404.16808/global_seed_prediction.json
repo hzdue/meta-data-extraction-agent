@@ -1,0 +1,401 @@
+{
+  "bibliographic": {
+    "title": "Enhancing nanoscale charged colloid crystallization near a metastable liquid binodal",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Department of Chemistry, University of California, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Department of Chemistry, James Franck Institute, and Pritzker School of Molecular Engineering, University of Chicago, Chicago, IL 60637, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Present Address: AMOLF, Science Park 104, 1098 XG, Amsterdam, The Netherlands"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Present Address: Sorbonne Universit´e, CNRS, Institut des NanoSciences de Paris, INSP, 75005 Paris, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Department of Physics, Arizona State University, Tempe, AZ 85287, USA"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "Present Address: Department of Physics, Stanford University, Stanford, CA 94305, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "#",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "@",
+        "text": "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Menlo Park, CA 94025, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "△",
+        "text": "Chemical Sciences and Materials Sciences Divisions, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_10",
+        "label": "∇",
+        "text": "Kavli Energy NanoSciences Institute, University of California, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_11",
+        "label": "††",
+        "text": "Center for Nanoscale Materials, Argonne National Laboratory, Argonne, IL 60517, USA"
+      },
+      {
+        "id": "aff_12",
+        "label": "‡‡",
+        "text": "Department of Physics, University of California, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_13",
+        "label": "¶¶",
+        "text": "Molecular Biophysics and Integrated Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_14",
+        "label": "§§",
+        "text": "Materials Sciences and Chemical Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      },
+      {
+        "id": "aff_15",
+        "label": "∥∥",
+        "text": "STROBE, NSF Science & Technology Center, Berkeley, CA 94720, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christian P. N. Tanner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Vivian R. K. Wall",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Joshua Portner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ahhyun Jeong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Avishek Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "James K. Utterback",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Leo M. Hamerlynck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jonathan G. Raybin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Matthew J. Hurley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Nicholas Leonard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Rebecca B. Wai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Jenna A. Tan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Mumtaz Gababa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Chenhui Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Eric Schaible",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Christopher J. Tassone",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "David T. Limmer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Samuel W. Teitelbaum",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Dmitri V. Talapin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Naomi S. Ginsberg",
+        "orcid": null,
+        "email": "nsginsberg@berkeley.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_12",
+          "aff_13",
+          "aff_14",
+          "aff_10",
+          "aff_15"
+        ]
+      }
+    ],
+    "abstract": "Achieving predictive control over crystallization using non-classical nucleation while avoiding kinetic traps is a roadblock toward designing materials with new functionalities. We address these challenges by inducing bottom-up assembly of nanocrystals (NCs) into ordered arrays, or superlattices (SLs). Using electrostatics, rather than density, to tune the interactions between particles, we watch self-assembly proceeding through a metastable liquid phase. We systematically investigate the phase behavior as a function of quench conditions in situ and in real time using small angle X-ray scattering (SAXS). Through quantitative fitting to colloid, liquid, and SL models, we extract the time evolution of each phase and the system phase diagram, which we find to be consistent with short-range attractive interactions. Using the phase diagram’s predictive power, we establish control of the self-assembly rate over three orders of magnitude, and identify one- and two-step self-assembly regimes, with only the latter implicating the metastable liquid as an intermediate. Importantly, the presence of the metastable liquid increases SL formation rates relative to the equivalent one-step pathway, and SL order counterintuitively increases with the rate, revealing a highly desirable and generalizable kinetic strategy to promote and enhance ordered assembly.",
+    "keywords": [
+      "nanocrystals",
+      "self-assembly",
+      "crystallization",
+      "X-ray scattering",
+      "in situ measurement",
+      "non-classical nucleation"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Office of Basic Energy Sciences (BES), US Department of Energy (DOE)",
+        "grant_id": "DE-SC0019375"
+      },
+      {
+        "funder": "DOE, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-76SF00515"
+      },
+      {
+        "funder": "DOE, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC0205CH11231"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Phases and phase evolution of selfassembling short-range-interacting nanocrystals.",
+      "Deducing features of electrostatically tunable nanoscale interparticle potentials.",
+      "Liquid-containing kinetic pathways for control of nanoscale self-assembly.",
+      "Key factors for increasing crystallinity concomittantly with crystallization driving force."
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Stanford Synchrotron Radiation Lightsource"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PbS NCs",
+      "sample_description": "5.8 ± 0.3 nm diameter electrostatically stabilized PbS NCs with multivalent, inorganic thiostannate (Sn2S4 6⁻) ligands",
+      "chemical_composition": "PbS",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Au NCs",
+      "sample_description": "electrostatically stabilized Au NCs coated with the same thiostannate surface ligands",
+      "chemical_composition": "Au",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Real-time measurement of phase evolution (colloidal, liquid, and SL phases) as a function of quench depth and volume fraction.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in situ DLS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the average size of individual dense clusters during self-assembly.",
+      "measurement_technique": "dynamic light scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

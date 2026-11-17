@@ -1,0 +1,247 @@
+{
+  "bibliographic": {
+    "title": "Giant Electrostatic Modification of Magnetism via Electrolyte-Gate-Induced Cluster Percolation in La1-x Sr x CoO3-δ",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, MN 55455, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Neutron Scattering Division, Oak Ridge National Lab, Oak Ridge, TN 37830, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics and Astronomy, Iowa State University, Ames, IA 52242, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "School of Physics and Astronomy, University of Minnesota, Minneapolis, MN 55455, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jeff Walter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "T. Charlton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "H. Ambaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M.R. Fitzsimmons",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Peter P. Orth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "R.M. Fernandes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Chris Leighton",
+        "orcid": null,
+        "email": "leighton@umn.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Electrical control of magnetism is a long-standing goal in physics and technology, recently developed electrolyte gating techniques providing a promising route to realization. Validating a recent theoretical prediction, here we demonstrate large enhancement of electrostatic modulation of ferromagnetic order in ion-gel-gated ultrathin La0.5Sr0.5CoO3-d by thickness-tuning to the brink of a magnetic percolation transition. Application of only 3-4 V then drives a transition from a short-range-ordered insulator to a robust long-range ferromagnetic metal, realizing giant electrostatic Curie temperature modulation over a 150 K window. In operando polarized neutron reflectometry confirms gate-controlled ferromagnetism, also demonstrating unusually deep penetration of induced magnetization, in further agreement with theory.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1420013"
+      },
+      {
+        "funder": "DOE",
+        "grant_id": "DE-FG0206ER46275"
+      },
+      {
+        "funder": "DOE",
+        "grant_id": "DE-SC-0016371"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Characterization Facility, UMN"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "LSCO x=0.15",
+      "sample_description": "Film with thickness t_exp = 12 unit cells.",
+      "chemical_composition": "La1-x Sr x CoO3-δ x=0.15",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LSCO x=0.22",
+      "sample_description": "Film with thickness t_exp = 12 unit cells.",
+      "chemical_composition": "La1-x Sr x CoO3-δ x=0.22",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "LSCO x=0.5 (8 u.c.)",
+      "sample_description": "Film with thickness t_exp = 8 unit cells.",
+      "chemical_composition": "La1-x Sr x CoO3-δ x=0.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "LSCO x=0.5 (6 u.c.)",
+      "sample_description": "Film with thickness t_exp = 6 unit cells.",
+      "chemical_composition": "La1-x Sr x CoO3-δ x=0.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "LSCO x=0.5 (5 u.c.)",
+      "sample_description": "Film with thickness t_exp = 5 unit cells.",
+      "chemical_composition": "La1-x Sr x CoO3-δ x=0.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Transport studies",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Temperature dependence of resistivity and anomalous Hall effect measurements under varying gate voltages.",
+      "measurement_technique": "transport",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Magnetoresistance measurements",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Temperature and magnetic field dependence of magnetoresistance for 6 u.c. LSCO films.",
+      "measurement_technique": "magnetoresistance",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "in operando polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of specular neutron reflectivity and spin asymmetry to determine depth profiles of magnetization.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

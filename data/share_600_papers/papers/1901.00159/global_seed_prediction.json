@@ -1,0 +1,216 @@
+{
+  "bibliographic": {
+    "title": "Hard X-ray spectroscopy of the itinerant magnets R Fe 4 Sb 12 ( R = Na, K, Ca, Sr, Ba)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "IQUSP, Univ. de São Paulo, 05508-090, São Paulo-SP, Brazil"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "IFUSP, Univ. de São Paulo, 05508-090, São Paulo-SP, Brazil"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Centro Brasileiro de Pesquisas Físicas, Rio de Janeiro, RJ 22290-180, Brazil"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Max Planck Institute for Chemical Physics of Solids, D-01187 Dresden, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Bassim Mounssef Jr.",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marli R. Cantarino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Eduardo M. Bittar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Tarsis M. Germano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andreas Leithe-Jasper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fernando A. Garcia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Ordered states in itinerant magnets may be related to magnetic moments displaying some weak local moment characteristics, as in intermetallic compounds hosting transition metal coordination complexes. In this paper, we report on the Fe K -edge X-ray absorption spectroscopy (XAS) of the itinerant magnets R Fe4Sb12 ( R =Na, K, Ca, Sr, Ba), aiming at exploring the electronic and structural properties of the octahedral building block formed by Fe and the Sb ligands. We find evidence for strong hybridization between the Fe 3 d and Sb 5 p states at the Fermi level, giving experimental support to previous electronic structure calculations of the R Fe4Sb12 skutterudites. The electronic states derived from Fe 3 d Sb 5 p mixing are shown to be either more occupied and/or less localized in the cases of the magnetically ordered systems, for which R = Na or K, connecting the local Fe electronic structure to the itinerant magnetic properties. Moreover, the analysis of the extended region of the XAS spectra (EXAFS) suggests that bond disorder may be a more relevant parameter to explain the suppression of the ferromagnetic ordered state in CaFe4Sb12 than the decrease of the density of states.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. SUMMARY AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Brazilian Synchrotron Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NaFe4Sb12",
+      "sample_description": null,
+      "chemical_composition": "NaFe4Sb12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "KFe4Sb12",
+      "sample_description": null,
+      "chemical_composition": "KFe4Sb12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CaFe4Sb12",
+      "sample_description": null,
+      "chemical_composition": "CaFe4Sb12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "SrFe4Sb12",
+      "sample_description": null,
+      "chemical_composition": "SrFe4Sb12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "BaFe4Sb12",
+      "sample_description": null,
+      "chemical_composition": "BaFe4Sb12",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Fe foil",
+      "sample_description": "used as a reference",
+      "chemical_composition": "Fe",
+      "sample_state": "foil",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Fe K-edge X-ray absorption near edge structure spectra measured in fluorescence and transmission modes.",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure investigation at T = 10 K to evaluate the Fe coordination structure.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

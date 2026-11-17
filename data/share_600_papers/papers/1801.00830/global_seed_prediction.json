@@ -1,0 +1,246 @@
+{
+  "bibliographic": {
+    "title": "EXAFS and electrical studies of new narrow-gap semiconductors: InTe 1 −x Se x and In 1 −x Ga x Te",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physics Department, Moscow State University, 119899 Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Chemistry Department, Moscow State University, 119899 Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "CCLRC, Daresbury Laboratory, Warrington, WA4 4AD, UK"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. I. Lebedev",
+        "orcid": null,
+        "email": "swan@scon155.phys.msu.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. V. Michurin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "I. A. Sluchinskaya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "V. N. Demin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "I. H. Munro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The local environment of Ga, Se, and Tl atoms in InTe-based solid solutions was studied by EXAFS technique. It was shown that all investigated atoms are substitutional impurities, which enter the In(1), Te, and In(2) positions in the InTe structure, respectively. The electrical measurements revealed that In1 −x Ga x Te and InTe1 −x Se x solid solutions become semiconductors at x > 0 . 24 and x > 0 . 15, respectively.",
+    "keywords": [
+      "Semiconductors",
+      "EXAFS",
+      "X-ray diffraction",
+      "Crystal structure",
+      "Electric properties"
+    ],
+    "doi": "10.1016/S0022-3697(00)00196-7",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-03-20",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. SAMPLES",
+      "III. EXPERIMENT",
+      "IV. DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Daresbury synchrotron radiation source"
+    },
+    {
+      "id": "facility_2",
+      "name": "NSLS"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "InTe1 −x Se x",
+      "sample_description": "Solid solutions studied as polycrystalline samples and single crystals.",
+      "chemical_composition": "InTe1 −x Se x",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "In1 −x Ga x Te",
+      "sample_description": "Solid solutions studied as polycrystalline samples and single crystals.",
+      "chemical_composition": "In1 −x Ga x Te",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "In1 −x Tl x Te",
+      "sample_description": "Solid solutions studied as polycrystalline samples and single crystals.",
+      "chemical_composition": "In1 −x Tl x Te",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "InSe",
+      "sample_description": "Reference compound for the Se edge.",
+      "chemical_composition": "InSe",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ga2Te3",
+      "sample_description": "Reference compound for the Ga edge.",
+      "chemical_composition": "Ga2Te3",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "TlI",
+      "sample_description": "Reference compound for the Tl edge.",
+      "chemical_composition": "TlI",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "InSb",
+      "sample_description": "Standard for InTe EXAFS data.",
+      "chemical_composition": "InSb",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "EXAFS studies",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements carried out at the K edges of Ga and Se, and at the L III edge of Tl in transmission mode at 80 K.",
+      "measurement_technique": "EXAFS",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction studies",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Studies to establish solubility of impurities and determine variation of lattice parameters.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Electrical measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependence of specific resistivity measured on needle-shaped samples.",
+      "measurement_technique": "electrical measurements",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "InTe EXAFS",
+      "sample_refs": [
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "EXAFS data at the In K edge for InTe collected on station X23A2.",
+      "measurement_technique": "EXAFS",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

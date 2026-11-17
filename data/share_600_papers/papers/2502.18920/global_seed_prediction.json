@@ -1,0 +1,177 @@
+{
+  "bibliographic": {
+    "title": "Unveiling Crystalline Order from Glassy Behavior of Charged Rods at Very Low Salt Concentrations",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Univ. Bordeaux, CNRS, Centre de Recherche Paul-Pascal (CRPP, UMR 5031), 115 Avenue Schweitzer, F-33600 Pessac, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Dipartimento di Scienze Molecolari e Nanosistemi, Universit`a Ca’ Foscari di Venezia Campus Scientifico, Edificio Alfa, via Torino 155,30170 Venezia Mestre, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Centre for Living Technology (ECLT) Ca’ Bottacin, 3911 Dorsoduro Calle Crosera, 30123 Venice, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Hanna Anop",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Laura Dal Compare",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Fr´ed´eric Nallet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Achille Giacometti",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Eric Grelet",
+        "orcid": null,
+        "email": "eric.grelet@crpp.cnrs.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Charged colloids can form ordered structures like Wigner crystals or glasses at very low concentrations due to long-range electrostatic repulsions. Here, we combine small-angle x-ray scattering (SAXS) and optical experiments with simulations to investigate the phase behavior of charged rodlike colloids across a wide range of salt concentrations and packing fractions. At ultra low ionic strength and packing fractions, we reveal both experimentally and numerically a direct transition from a nematic to a crystalline smectic-B phase, previously identified as a glass state. This transition, bypassing the smectic-A intermediate phase, results from minimizing Coulomb repulsion and maximizing entropic gains due to fluctuations in the crystalline structure. This demonstrates how long-range electrostatic repulsion significantly alters the phase behavior of rod-shaped particles and highlights its key-role in driving the self-organization of anisotropic particles.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-02-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Union Horizon 2020 research and innovation program",
+        "grant_id": "Marie Sk�lodowska-Curie Grant Agreement No. 641839"
+      },
+      {
+        "funder": "MIUR",
+        "grant_id": "PRIN-COFIN2022 grant 2022JWAF7Y"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "fd viruses",
+      "sample_description": "Filamentous bacteriophages used as a paradigmatic example of charged rod-like colloids.",
+      "chemical_composition": null,
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "optical microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Observation of phase behavior, including chiral nematic and smectic phases, using polarizing and differential interference contrast microscopy.",
+      "measurement_technique": "optical microscopy",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "single-particle tracking",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Probing the dynamics of the system using dye-labeled rods to distinguish between nematic and smectic-B phases.",
+      "measurement_technique": "single-particle tracking",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "small-angle X-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Probing in-plane order normal to the long-rod axis at different virus concentrations using a 16 keV x-ray beam.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "molecular dynamics simulations",
+      "sample_refs": [],
+      "facility_refs": [],
+      "dataset_description": "Simulations of rod-like charged particles interacting via Coulomb potential with tunable screening to determine the phase diagram.",
+      "measurement_technique": "molecular dynamics simulations",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "bibliographic": {
+    "title": "Spin and Orbital Effects on Asymmetric Exchange Interaction in Polar Magnets: M(IO3)2 (M = Cu, Mn)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemistry, Clemson University, Clemson, SC 29634, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Faculty of Applied Physics and Mathematics and Advanced Materials Center, Gdansk University of Technology, ul. Narutowicza 11/12, 80-233 Gdansk, Poland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Chemical Engineering, University of the Philippines Diliman, Quezon City 1101, Philippines"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, 9500 Spallation Dr, Oak Ridge, TN 37830, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ebube E. Oyeka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Michał J. Winiarski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Maurice Sorolla II",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Keith M. Taddei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Allen Scheie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Thao T. Tran",
+        "orcid": null,
+        "email": "thao@clemson.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Magnetic polar materials feature an astonishing range of physical properties, such as magnetoelectric coupling, chiral spin textures and related new spin topology physics. This is primarily attributable to their lack of space inversion symmetry in conjunction with unpaired electrons, potentially facilitating an asymmetric Dzyaloshinskii-Moriya (DM) exchange interaction supported by spin-orbital and electron-lattice coupling. However, engineering the appropriate ensemble of coupled degrees of freedom necessary for enhanced DM exchange has remained elusive for polar magnets. Here we study how spin and orbital components influence the capability of promoting the magnetic interaction by studying the two magnetic polar materials, α -Cu(IO3)2 (2 D) and Mn(IO3)2 (6 S) and connecting their electronic and magnetic properties with their structures. The chemically controlled low-temperature synthesis of these complexes resulted in pure polycrystalline samples, providing a viable pathway to prepare bulk forms of transition-metal iodates. Rietveld refinements of the powder synchrotron X-ray diffraction data reveal that these materials exhibit different crystal structures but crystallize in the same polar and chiral P 21 space group, giving rise to an electric polarization along the b -axis direction. The presence and absence of an evident phase transition to a possible topologically distinct state observed in α -Cu(IO3)2 and  Mn(IO3)2, respectively, implies the important role of spin orbit coupling. Neutron diffraction experiments reveal helpful insights into the magnetic ground state of these materials. While the long-wavelength incommensurability of α -Cu(IO3)2 is in harmony with sizable asymmetric DM interaction and low dimensionality of electronic structure, the commensurate stripe AFM ground state of Mn(IO3)2 is attributed to negligible DM exchange and isotropic orbital overlapping.  The work demonstrates connections between combined spin and orbital effects, magnetic coupling dimensionality and DM exchange, providing a worthwhile approach for tuning asymmetric interaction which promotes evolution of topologically distinct spin phases.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Center (Poland)",
+        "grant_id": "SONATA-15 grant (no. 2019/35/D/ST5/03769)"
+      },
+      {
+        "funder": "U. S. Department of Energy, Office of Science, Office of Basic Energy Sciences",
+        "grant_id": "DE-AC02-06CH11357"
+      },
+      {
+        "funder": "US Department of Energy (DOE)",
+        "grant_id": "DE-AC05-00OR22725"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "High Flux Isotope Reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "α-Cu(IO3)2",
+      "sample_description": null,
+      "chemical_composition": "α-Cu(IO3)2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Mn(IO3)2",
+      "sample_description": null,
+      "chemical_composition": "Mn(IO3)2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Zn(IO3)2",
+      "sample_description": null,
+      "chemical_composition": "Zn(IO3)2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Cu(IO3)2.2/3H2O",
+      "sample_description": "hydrated precursor",
+      "chemical_composition": "Cu(IO3)2.2/3H2O",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Synchrotron X-ray Diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Data collected at T = 295 K and λ = 0.45789 Å.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Powder X-ray Diffraction",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements performed using Rigaku Ultima IV diffractometer equipped with Cu Kα radiation.",
+      "measurement_technique": "powder X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TGA/DSC",
+      "sample_refs": [
+        "sample_4",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Thermogravimetric analysis and differential scanning calorimetry measurements from room temperature to 1000 °C.",
+      "measurement_technique": "TGA/DSC",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "ATR-FTIR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Spectra collected in 400 to 4000 cm-1 frequency range.",
+      "measurement_technique": "attenuated total reflection Fourier transform infrared spectroscopy",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "DC Magnetization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurements performed with VSM option of PPMS from T = 2 K – 300 K.",
+      "measurement_technique": "DC magnetization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Heat capacity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measured using the PPMS semiadiabatic pulse technique from T = 2 K – 300 K.",
+      "measurement_technique": "heat capacity",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Neutron Diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measured using the HB2A diffractometer with neutrons of incident wavelength 2.41 Å.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

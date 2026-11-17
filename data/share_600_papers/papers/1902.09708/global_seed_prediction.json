@@ -1,0 +1,355 @@
+{
+  "bibliographic": {
+    "title": "Oriented Three-Dimensional Magnetic Biskyrmion in MnNiGa Bulk Crystals",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Beijing National Laboratory for Condensed Matter Physics Institute of Physics Chinese Academy of Sciences Beijing 100190, China"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Physics, Clarendon Laboratory University of Oxford Oxford OX1 3PU, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "ISIS STFC Rutherford Appleton Laboratory Chilton, Didcot OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Laboratory for Neutron Scattering and Imaging Paul Scherrer Institute CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Institut Laue-Langevin 6 rue Jules Horowitz, 38042, Grenoble, France"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "NIST Center for Neutron Research National Institute of Standards and Technology 100 Bureau Drive, Gaithersburg, MD 20899, United States"
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "China Spallation Neutron Source Dongguan 523808, China"
+      },
+      {
+        "id": "aff_8",
+        "label": null,
+        "text": "Magnetic Spectroscopy Group Diamond Light Source Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_9",
+        "label": null,
+        "text": "School of Physical Sciences University of Chinese Academy of Sciences Beijing 101408, China"
+      },
+      {
+        "id": "aff_10",
+        "label": null,
+        "text": "Songshan Lake Materials Laboratory Dongguan 523808, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Xiyang Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Shilei Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Hang Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Diego Alba Venero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jonathan S White",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Robert Cubitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Qingzhen Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Jie Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Lunhua He",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Gerrit van der Laan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Wenhong Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Thorsten Hesjedal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Fangwei Wang",
+        "orcid": null,
+        "email": "fwwang@iphy.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9",
+          "aff_10"
+        ]
+      }
+    ],
+    "abstract": "A biskyrmion consists of two bound, topologically stable skyrmion spin textures. These coffee-bean-shaped objects have been observed in real-space in thin plates using Lorentz transmission electron microscopy (LTEM). From LTEM imaging alone, it is not clear whether biskyrmions are surface-confined objects, or, analogously to skyrmions in noncentrosymmetric helimagnets, three-dimensional tube-like structures in bulk sample. Here, we investigate the biskyrmion form factor in single- and polycrystalline MnNiGa samples using small angle neutron scattering (SANS). We find that biskyrmions are not long-range ordered, not even in single-crystals. Surprisingly all of the disordered biskyrmions have their in-plane symmetry axis aligned along certain directions, governed by the magnetocrystalline anisotropy. This anisotropic nature of biskyrmions may be further exploited to encode information.",
+    "keywords": [
+      "Biskyrmion",
+      "Disorder",
+      "Small angle neutron scattering",
+      "MnNiGa"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11675255"
+      },
+      {
+        "funder": "National Key R&D Program by MOST of China",
+        "grant_id": "2016YFA0401503"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/N032128/1"
+      },
+      {
+        "funder": "National Key R&D Program by MOST of China",
+        "grant_id": "2017YFA0303202"
+      },
+      {
+        "funder": "Key Research Program of the Chinese Academy of Sciences",
+        "grant_id": "KJZD-SW-M01"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "CRSII5-171003"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Experimental Section"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_3",
+      "name": "National Institute of Standards and Technology"
+    },
+    {
+      "id": "facility_4",
+      "name": "China Spallation Neutron Source"
+    },
+    {
+      "id": "facility_5",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Polycrystalline MnNiGa",
+      "sample_description": "A disc with a diameter of 13 mm and thickness of 1 mm.",
+      "chemical_composition": "MnNiGa",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Single-crystalline MnNiGa",
+      "sample_description": "A cube measuring 2.5 × 2.5 × 2.5 mm3.",
+      "chemical_composition": "MnNiGa",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS on polycrystalline samples",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS measurements performed using the SANS2d instrument with applied magnetic field perpendicular to the neutron beam direction at 215 K.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS on single-crystalline sample",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "SANS measurements performed using the D11 instrument with applied magnetic field parallel to the neutron beam and approximately parallel to the sample [001] axis at 215 K.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Neutron powder-diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_3",
+        "facility_4"
+      ],
+      "dataset_description": "Neutron powder-diffraction measurements performed at 400 K and 300 K to determine crystal structure.",
+      "measurement_technique": "neutron powder-diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Magnetic measurements",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Single-crystalline sample magnetization data measured by applying a magnetic field of 0.3 T at 215 K and field dependence of magnetization for H || [001].",
+      "measurement_technique": "magnetization measurement",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "bibliographic": {
+    "title": "Accelerating the laser-induced demagnetization of a ferromagnetic film by antiferromagnetic order in an adjacent layer",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut f¨ur Experimentalphysik, Freie Universit¨at Berlin, Arnimallee 14, 14195 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, Albert-Einstein-Straße 15, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, SE-75120, Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I. Kumberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "E. Golias",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "N. Pontius",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Hosseinifar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "K. Frischmuth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "I. Gelen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "T. Shinwari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. Thakur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "C. Sch¨ußler-Langeheine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "P. M. Oppeneer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "W. Kuch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "We study the ultrafast demagnetization of Ni/NiMn and Co/NiMn ferromagnetic/antiferromagnetic bilayer systems after excitation by a laser pulse. We probe the ferromagnetic order of Ni and Co using magnetic circular dichroism in time-resolved pump–probe resonant X-ray reflectivity. Tuning the sample temperature across the antiferromagnetic ordering temperature of the NiMn layer allows to investigate effects induced by the magnetic order of the latter. The presence of antiferromagnetic order in NiMn speeds up the demagnetization of the ferromagnetic layer, which is attributed to bidirectional laser-induced superdiffusive spin currents between the ferromagnetic and the antiferromagnetic layer.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-08-13",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "CRC/TRR 227"
+      },
+      {
+        "funder": "K. and A. Wallenberg Foundation",
+        "grant_id": "2015.0060"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENT",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "20 ML Cu /15 ML Co /20 ML Ni31Mn69/Cu(001)",
+      "sample_description": null,
+      "chemical_composition": "Cu/Co/Ni31Mn69/Cu",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "20 ML Cu /12 ML Ni /14 ML Ni38Mn62/Cu(001)",
+      "sample_description": null,
+      "chemical_composition": "Cu/Ni/Ni38Mn62/Cu",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "static reflectivity scans",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Static reflectivity scans to identify optimum angle and photon energy for magnetic contrast.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "time-resolved pump–probe resonant X-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the transmitted or reflected intensity of the circularly polarized X-ray probe pulse following the pump laser pulse to probe magnetization via XMCD.",
+      "measurement_technique": "resonant X-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

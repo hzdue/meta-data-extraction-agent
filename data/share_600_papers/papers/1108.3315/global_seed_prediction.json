@@ -1,0 +1,150 @@
+{
+  "bibliographic": {
+    "title": "Strain-stiffening in random packings of entangled granular chains",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "James Franck Institute and Department of Physics, The University of Chicago, Chicago, IL 60637"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Natural Sciences, University of California, Merced, CA 95343"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Eric Brown",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Alice Nasto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Athanasios G. Athanassiadis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Heinrich M. Jaeger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Random packings of granular chains are presented as a model polymer system to investigate the contribution of entanglements to strain-stiffening in the absence of Brownian motion. The chain packings are sheared in triaxial compression experiments. For short chain lengths, these packings yield when the shear stress exceeds a the scale of the confining pressure, similar to packings of spherical particles. In contrast, packings of chains which are long enough to form loops exhibit strain-stiffening, in which the effective stiffness of the material increases with strain, similar to many polymer materials. The latter packings can sustain stresses orders-of-magnitude greater than the confining pressure, and do not yield until the chain links break. X-ray tomography measurements reveal that the strain-stiffening packings contain system-spanning clusters of entangled chains.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-08-04",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "NSF MRSEC program",
+        "grant_id": "DMR-0820054"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "brass beads chains ξ = 8",
+      "sample_description": "Hollow spherical brass beads with diameter 1.9 mm.",
+      "chemical_composition": "brass",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "brass beads chains ξ = 11",
+      "sample_description": "Hollow spherical brass beads with diameter 2.1 mm.",
+      "chemical_composition": "brass",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "aluminum chains",
+      "sample_description": "Aluminum chains with bead diameter 2.5 mm and ξ = 7.5.",
+      "chemical_composition": "aluminum",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "triaxial compression",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of average compressive stress τ vs compressive strain γ for various chain lengths N.",
+      "measurement_technique": "triaxial compression",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "x-ray tomography",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Reconstruction of the positions of each bead and link in three dimensions to identify entanglements.",
+      "measurement_technique": "x-ray tomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

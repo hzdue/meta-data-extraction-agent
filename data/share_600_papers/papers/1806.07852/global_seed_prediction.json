@@ -1,0 +1,307 @@
+{
+  "bibliographic": {
+    "title": "Atomic level structure of Ge-Sb-S glasses: chemical short range order and long Sb-S bonds",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Wigner Research Centre for Physics, Hungarian Academy of Sciences, H-1525 Budapest, POB 49, Hungary"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institut Sciences Chimiques de Rennes, UMR-CNRS 6226, Campus de Beaulieu, Université de Rennes 1, 35042 Rennes Cedex, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Department of Graphic Arts and Photophysics, Faculty of Chemical Technology, University of Pardubice, Studentská 573, 53210 Pardubice, Czech Republic"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Center for Optics, Photonics and Lasers (COPL), 2375 rue de la Terrasse, Université Laval, Québec (Qc), Canada"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "IFW Dresden, Institute for Complex Materials, Helmholtzstr. 20, 01069 Dresden, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Laboratoire Léon Brillouin, CEA-Saclay 91191 Gif sur Yvette Cedex France"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Deutsches Elektronen-Synchrotron − A Research Centre of the Helmholtz Association, Notkestraße 85, D- 22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "I. Pethes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. Nazabal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. Ari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "I. Kaban",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Darpentigny",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "E. Welter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "O. Gutowski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "B. Bureau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Y. Messaddeq",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "P. Jóvári",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The structure of Ge20Sb10S70, Ge23Sb12S65 and Ge26Sb13S61 glasses was investigated by neutron diffraction (ND), X-ray diffraction (XRD), extended X-ray absorption fine structure (EXAFS) measurements at the Ge and Sb K-edges as well as Raman scattering. For each composition, large scale structural models were obtained by fitting simultaneously diffraction and EXAFS data sets in the framework of the reverse Monte Carlo (RMC) simulation technique. Ge and S atoms have 4 and 2 nearest neighbors, respectively. The structure of these glasses can be described by the chemically ordered network model: Ge-S and Sb-S bonds are always preferred. These two bond types adequately describe the structure of the stoichiometric glass while S-S bonds can also be found in the S-rich composition. Raman scattering data show the presence of Ge-Ge, Ge-Sb and Sb-Sb bonds in the S- deficient glass but only Ge-Sb bonds are needed to fit diffraction and EXAFS datasets. A significant part of the Sb-S pairs has 0.3-0.4 Å longer bond distance than the usually accepted covalent bond length (~2.45 Å). From this observation it was inferred that a part of Sb atoms have more than 3 S neighbors.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Czech Science Foundation",
+        "grant_id": "16-17921S"
+      },
+      {
+        "funder": "National Research, Development and Innovation Office",
+        "grant_id": "SNN 116198"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Reverse Monte Carlo simulations",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Petra III"
+    },
+    {
+      "id": "facility_2",
+      "name": "LLB"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ge20Sb10S70",
+      "sample_description": null,
+      "chemical_composition": "Ge19.7Sb9.8S70.5",
+      "sample_state": "glass",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ge23Sb12S65",
+      "sample_description": null,
+      "chemical_composition": "Ge23.3Sb11.4S65.3",
+      "sample_state": "glass",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ge26Sb13S61",
+      "sample_description": null,
+      "chemical_composition": "Ge25.8Sb13.2S61",
+      "sample_state": "glass",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray diffraction structure factors measured at beamline P07 of Petra III using incident radiation of 82.9 keV.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffraction experiment carried out at the 7C2 liquid and amorphous diffractometer of LLB with a wavelength of 0.724Å.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Ge K-edge EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ge K-edge EXAFS spectra measured in fluorescence mode at beamline P65 of the Petra III source.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Sb K-edge EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Sb K-edge EXAFS data recorded at beamline P65 of the Petra III source in transmission mode.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Raman scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman spectra collected using LabRam HR800 spectrometer at room temperature using 785 nm laser excitation.",
+      "measurement_technique": "Raman scattering",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

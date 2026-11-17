@@ -1,0 +1,259 @@
+{
+  "bibliographic": {
+    "title": "Relating spin-polarized STM imaging and inelastic neutron scattering in the van-der-Waals ferromagnet Fe3GeTe2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "SUPA, School of Physics and Astronomy, University of St Andrews, North Haugh, St Andrews, Fife, KY16 9SS, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Physics and Astronomy, University of Edinburgh, Edinburgh EH9 3JZ, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "School of Chemistry and Centre for Science at Extreme Conditions, University of Edinburgh, Edinburgh EH9 3FJ, United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "ISIS Pulsed Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxon, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Institute Laue-Langevin, 6 rue Jules Horowitz, Boite Postale 156, 38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, University of Maryland, College Park, Maryland 20742, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Christopher Trainer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Olivia R. Armitage",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Harry Lane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Luke C. Rhodes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Edmond Chan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Izidor Benediˇciˇc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. A. Rodriguez-Rivera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "O. Fabelo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Chris Stock",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Peter Wahl",
+        "orcid": null,
+        "email": "wahl@st-andrews.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Van-der-Waals (vdW) ferromagnets have enabled the development of heterostructures assembled from exfoliated monolayers with spintronics functionalities, making it important to understand and ultimately tune their magnetic properties at the microscopic level. Information about the magnetic properties of these systems comes so far largely from macroscopic techniques, with little being known about the microscopic magnetic properties. Here, we combine spin-polarized scanning tunneling microscopy and quasi-particle interference imaging with neutron scattering to establish the magnetic and electronic properties of the metallic vdW ferromagnet Fe3GeTe2. By imaging domain walls at the atomic scale, we can relate the domain wall width to the exchange interaction and magnetic anisotropy extracted from the magnon dispersion as measured in inelastic neutron scattering, with excellent agreement between the two techniques. From comparison with Density Functional Theory calculations we can assign the quasi-particle interference to be dominated by spin-majority bands. We find a dimensional dichotomy of the bands at the Fermi energy: bands of minority character are predominantly two-dimensional in character, whereas the bands of majority character are three-dimensional. We expect that this will enable new design principles for spintronics devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-11-17",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/R031924/1"
+      },
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/T031441/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS",
+      "III. DISCUSSION",
+      "V. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "MACS cold triple axis spectrometer"
+    },
+    {
+      "id": "facility_2",
+      "name": "hot neutron four-circle diffractometer D9"
+    },
+    {
+      "id": "facility_3",
+      "name": "Institute Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe3GeTe2",
+      "sample_description": "Single crystal with iron deficiency y = 0.14.",
+      "chemical_composition": "Fe3-yGeTe2",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Single-crystal neutron diffraction to determine crystal structure and stoichiometry.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the spin-wave dispersion around q = (H, H, -2).",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "spin-polarized STM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Imaging of ferromagnetic domain walls and extraction of spin polarization via dI/dV spectra.",
+      "measurement_technique": "spin-polarized scanning tunneling microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "quasi-particle interference imaging",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Fourier transform of quasi-particle interference maps at different bias voltages.",
+      "measurement_technique": "quasi-particle interference imaging",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

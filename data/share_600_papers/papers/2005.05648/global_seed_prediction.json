@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Anisometric mesoscale nuclear and magnetic texture in sintered Nd–Fe–B magnets",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Materials Science, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physik-Department, Technische Universität München, James-Franck-Straße, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Forschungszentrum Jülich GmbH, Jülich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz Zentrum (MLZ), Lichtenbergstraße 1, D-85748, Garching, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Paul Scherrer Institute, CH-5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Nuclear Physics Institute, Department of Neutron Physics, CZ-25068 Řež, Czech Republic"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ivan Titov",
+        "orcid": null,
+        "email": "ivan.titov@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Denis Mettus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Artem Feoktystov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Joachim Kohlbrecher",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Pavel Strunz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "By means of temperature and wavelength-dependent small-angle neutron scattering (SANS) experiments on sintered isotropic and textured Nd-Fe-B magnets we provide evidence for the existence of an anisometric structure in the microstructure of the textured magnets. This conclusion is reached by observing a characteristic cross-shaped angular anisotropy in the total unpolarized SANS cross section at temperatures well above the Curie temperature. Comparison of the experimental SANS data to a microstructural model based on the superquadrics form factor allows us to estimate the shape and lower bounds for the size of the structure. Subtraction of the scattering cross section in the paramagnetic regime from data taken at room temperature provides the magnetic SANS cross section. Surprisingly, the anisotropy of the magnetic scattering is very similar to the nuclear SANS signal, suggesting that the nuclear structure is decorated by the magnetic moments via spin-orbit coupling. Based on the computation of the two-dimensional correlation function we estimate lower bounds for the longitudinal and transversal magnetic correlation lengths.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Jülich Centre for Neutron Science"
+    },
+    {
+      "id": "facility_2",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "isotropic Nd-Fe-B",
+      "sample_description": "grade: N42",
+      "chemical_composition": "Nd-Fe-B",
+      "sample_state": "sintered",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "textured Nd-Fe-B",
+      "sample_description": "grade: N38",
+      "chemical_composition": "Nd-Fe-B",
+      "sample_state": "sintered",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Temperature-dependent SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurements performed between 30 - 1000 °C using the KWS-1 instrument.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Wavelength-dependent SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurements at room temperature with wavelengths between 5 - 18 Å carried out at SANS-1.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "WavelengthScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

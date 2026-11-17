@@ -1,0 +1,221 @@
+{
+  "bibliographic": {
+    "title": "Connecting Structure, Conformation and Energetics of Human Telomere G-quadruplex Multimers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Dipartimento di Fisica e Geologia Università degli Studi di Perugia Perugia 06123, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "IOM-CNR c/o Dipartimento di Fisica e Geologia Università degli Studi di Perugia Perugia 06123, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Dipartimento di Fisica Università degli Studi di Roma “La Sapienza” Rome 00185, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Institut de Biologie Structurale CNRS Grenoble 38000, France"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "European Synchrotron Radiation Facility (ESRF) Grenoble 38043, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Benedetta Petra Rosi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Valeria Libera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andrea Orecchini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Silvia Corezzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Giorgio Schirò",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Petra Pernot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Caterina Petrillo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Lucia Comez",
+        "orcid": null,
+        "email": "comez@iom.cnr.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Cristiano De Michele",
+        "orcid": null,
+        "email": "cristiano.demichele@uniroma1.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Alessandro Paciaroni",
+        "orcid": null,
+        "email": "alessandro.paciaroni@unipg.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "G-quadruplexes (G4s) are helical four-stranded structures forming from guanine-rich nucleic acid sequences, which are thought to play a role in cancer development and malignant transformation. Most current studies focus on G4 monomers, yet under suitable and biologically relevant conditions G4s undergo multimerization. Here, we address the structural, conformational and energetic features of G4 multimers formed in solutions by the human telomere sequence. A novel multi-technique approach is used combining Small Angle X-ray Scattering (SAXS) and circular dichroism experiments with coarse-grained simulations, to provide quantitative information about large-scale structural features and the stability of G4 multimers. The latter show a significant polydispersity with an exponential distribution of contour lengths, suggesting a step-growth polymerization. On increasing DNA concentration, the strength of G4 stacking interaction increases, as well as the number of the units in the aggregates, with dimers and trimers as the most probable forms. At the same time, a variation of G4 conformation is observed. Our findings provide a quantitative picture of human telomere G4 multimers, which must be accounted for to achieve a rational design of anticancer drugs targeting DNA structures.",
+    "keywords": [
+      "DNA",
+      "Small Angle X-ray Scattering",
+      "Coarse-Grained Simulations",
+      "Circular Dichroism",
+      "Structural Biology"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "MIUR-PRIN",
+        "grant_id": "2017RX9XXY"
+      },
+      {
+        "funder": "MIUR-PRIN",
+        "grant_id": "2017Z55KCW"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Results and Discussion",
+      "3 Conclusions",
+      "4 Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Tel22",
+      "sample_description": "Human telomere sequence",
+      "chemical_composition": "AG3(T2AG3)3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Eurogentec"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Small-angle X-ray Scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS measurements on G4 solutions at different DNA concentrations (0.6 mM, 1.2 mM, and 4.5 mM).",
+      "measurement_technique": "Small-angle X-ray Scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Circular dichroism",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "CD measurements as a function of the DNA concentration.",
+      "measurement_technique": "Circular dichroism",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

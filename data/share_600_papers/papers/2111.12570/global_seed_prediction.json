@@ -1,0 +1,213 @@
+{
+  "bibliographic": {
+    "title": "SAXS measurements of azobenzene lipid vesicles reveal buffer-dependent photoswitching and quantitative Z→E isomerisation by X-rays",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Faculty of Physics and CeNS, Ludwig-Maximilians-Universiät München, Geschwister-Scholl-Platz 1, 80539 Munich, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Pharmacy, Ludwig-Maximilians-Universität München, Butenandtstraße 5-13, 81377 Munich, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Inorganic Chemistry, Graz University of Technology, Stremayrgasse 9, 8010 Graz, Austria"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Martina F. Ober",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Adrian Müller-Deku",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Anna Baptist",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Heinz Amenitsch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Oliver ThornSeshold",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Bert Nickel",
+        "orcid": null,
+        "email": "nickel@lmu.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Photoresponsive materials feature properties that can be adjusted nearinstantaneously, reversibly, and with high spatiotemporal precision, by light. There is considerable interest in maximising the degree of switching, and in measuring this degree during illumination in complex environments. We study the switching of photoresponsive lipid membranes that allow precise and reversible manipulation of membrane shape, permeability, and fluidity. Though these macroscopic photoresponses are clear, it is unclear how large the changes of trans/cis ratio are, and whether they can be improved. Here, we used small-angle X-ray scattering to measure the thickness of photoswitchable lipid membranes, and correlate thickness to trans/cis ratios. This revealed an unexpected dependency of photoswitching upon aqueous phase composition, highlighting smaller-than-expected photoswitching with deionized water, and showed thickness variations twice as large as previously observed. Soft X-rays can quantitatively isomerise photolipid membranes to the alltrans state: both enabling more powerful X-ray-based membrane control and underlining the role of high energy X-rays for observation-only soft matter experiments.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "201269156"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "239283807"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "TH2231/1-1"
+      },
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "426018126"
+      },
+      {
+        "funder": "BMBF",
+        "grant_id": "05K19WMA (LUCENT)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Materials and Methods",
+      "Synthesis of azo-PC and reference photoswitch FAzoM",
+      "Synthesis of azo-PC and reference photoswitches for benchmarking",
+      "Preconditioning and mixing of azo-PC",
+      "Small unilamellar vesicle (SUV) preparation",
+      "UV-A/blue light illumination",
+      "SAXS measurements at 17.4 keV",
+      "SAXS measurements at 8 keV",
+      "SAXS measurements at 54 keV",
+      "Results and discussion",
+      "Conclusions and summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ELETTRA synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "azo-PC",
+      "sample_description": null,
+      "chemical_composition": "azo-PC",
+      "sample_state": "small unilamellar vesicle",
+      "sample_mass": null,
+      "supplier_or_creator": "Avanti Polar Lipids, Inc."
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FAzoM",
+      "sample_description": "reference photoswitch",
+      "chemical_composition": "FAzoM",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SAXS measurements at 17.4 keV",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray data from azo-PC SUVs with preconditioned trans:cis ratios recorded at a Mo-sourced setup.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS measurements at 8 keV",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS data from azo-PC SUVs recorded at the Austrian SAXS beamline at ELETTRA synchrotron.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SAXS measurements at 54 keV",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "High energy SAXS data from azo-PC SUVs recorded at beamline P21.1 at the PETRA III ring at DESY.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

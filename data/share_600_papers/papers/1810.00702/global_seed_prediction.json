@@ -1,0 +1,305 @@
+{
+  "bibliographic": {
+    "title": "Temperature-dependent local structure of superconducting BaPd2As2 and SrPd2As2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Research Institute for Interdisciplinary Science, Okayama University, Okayama, 700-8530, Japan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Dipartimento di Fisica, Universit´a di Roma “La Sapienza” - P. le Aldo Moro 2, 00185, Roma, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "CELLS - ALBA Synchrotron Radiation Facility, Carrer de la Llum 2-26, 08290, Cerdanyola del Valles, Barcelona, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "4,5",
+        "text": "Instituto de Ciencia de Materiales de Madrid, ICMM-CSIC, Sor Juana In´es de la Cruz 3, 28049 Madrid, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Spanish CRG BM25 Spline, ESRF - The European Synchrotron, 71 avenue des Martyrs, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "CRG-LISA, ESRF, 71 avenue des Martyrs, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Applied Physics, Waseda University, Tokyo, 169-8555, Japan"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. Terashima",
+        "orcid": null,
+        "email": "k-terashima@cc.okayama-u.ac.jp",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "E. Paris",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "L. Simonelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "E. Salas-Colera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "A. Puri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "T. Wakita",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Y. Yamada",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. Nakano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "H. Idei",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "K. Kudo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "M. Nohara",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Y. Muraoka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "T. Mizokawa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "T. Yokoya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "N. L. Saini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The local structures of 122-type paradium arsenides, namely BaPd2As2 and SrPd2As2, are examined by As K-edge extended x-ray absorption fine structure measurements to find a possible correlation between the variation of their superconducting transition temperature and the local structure. The local atomic distances are found to be consistent with average distances measured by diffraction techniques. The temperature dependence of mean square relative displacements reveal that, while BaPd2As2 is characterized by a local As-Pd soft mode, albeit with larger atomic disorder, SrPd2As2 shows anomalous As-Pd correlations with a kink at ∼160 K due to hardening by raising temperature. We have discussed implications of these results and possible mechanism of differing superconducting transition temperature in relation with the structural instability.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-06-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Program for Advancing Strategic International Networks to Accelerate the Circulation of Talented Researchers from JSPS",
+        "grant_id": "R2705"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "15H05886"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "15K21732"
+      },
+      {
+        "funder": "JSPS KAKENHI",
+        "grant_id": "16K05451"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BaPd2As2",
+      "sample_description": "ThCr2Si2-type structure selectively synthesized by controlling the synthesis conditions.",
+      "chemical_composition": "BaPd2As2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SrPd2As2",
+      "sample_description": null,
+      "chemical_composition": "SrPd2As2",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CaPd2As2",
+      "sample_description": null,
+      "chemical_composition": "CaPd2As2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "As K-edge extended x-ray absorption fine structure",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature dependent As K-edge EXAFS measurements performed at the Spline beamline in transmission mode.",
+      "measurement_technique": "extended x-ray absorption fine structure",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "As K-edge x-ray absorption spectra",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "As K-edge x-ray absorption spectra measured on CaPd2As2 using the LISA beamline.",
+      "measurement_technique": "x-ray absorption",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

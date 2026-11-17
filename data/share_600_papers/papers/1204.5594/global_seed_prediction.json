@@ -1,0 +1,151 @@
+{
+  "bibliographic": {
+    "title": "A study of flux lines lattice order and critical current with time of flight small angle neutron scattering.",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratoire CRISMAT, UMR 6508 du CNRS, ENSICAEN et Universite´ de Caen, 6 Bd Mare´chal Juin, F-14050 Caen 4, France."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Laboratoire L´eon Brillouin, UMR 12 du CNRS et du CEA, CEA Saclay, 91191 Gif/Yvette, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Laboratoire Pierre Aigrain de l’Ecole Normale Sup´erieure, UMR 8551 du CNRS, associee aux universit´es Paris 6 et 7, 75231 Paris Cedex5, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Alain Pautrat",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Annie Brulet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Charles Simon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Patrice Mathieu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Small angle neutron scattering (SANS) is an historical technique to study the flux lines lattice (FLL) in a superconductor. Structural characteristics of the FLL can be revealed, providing fundamental information for the physics of vortex lattice. However, the spatial resolution is limited and all the correlation lengths of order are difficult to extract with precision. We show here that a time of flight technique reveals the Bragg peak of the FLL, and also its translational order with a better resolution. We discuss the implication of these results for pinning mechanisms in a Niobium sample.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Laboratoire Leon Brillouin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "pure Niobium",
+      "sample_description": "A slab of pure Niobium with critical temperature Tc=9.2 K, Ginzburg-Landau parameter κ ≈ 1 and second critical field Bc2=0.385 T at T=2 K.",
+      "chemical_composition": "Niobium",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "steady state SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the FLL Bragg peak using a mechanical velocity selector at λ=10˚A and T=2K.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "TOF SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the FLL Bragg peak as a function of (θ, λ) at T=2K for different magnetic fields.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "WavelengthScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "normal state background",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Background measurement in the normal state at B=4000 G > Bc2.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "background"
+    }
+  ]
+}

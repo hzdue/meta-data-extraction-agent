@@ -1,0 +1,192 @@
+{
+  "bibliographic": {
+    "title": "Study of anharmonicity in Zirconium Hydrides using inelastic neutron scattering and ab-initio computer modeling",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Computational Sciences and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jiayong Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yongqiang Cheng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alexander I. Kolesnikov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "J. Bernholc",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Wenchang Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Anibal J. Ramirez-Cuesta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The anharmonic phenomena in Zirconium Hydrides and Deuterides, including ε-ZrH2, γ-ZrH, and γ-ZrD, have been investigated from aspects of inelastic neutron scattering (INS) and lattice dynamics calculations within the framework of density functional theory (DFT). The observed multiple sharp peaks below harmonic multi-phonon bands in the experimental spectra of all three materials did not show up in the simulated INS spectra based on the harmonic approximation, indicating the existence of strong anharmonicity in those materials and the necessity of further explanations. We present a detailed study on the anharmonicity of zirconium hydrides/deuterides by exploring the 2D potential energy surface of hydrogen/deuterium atoms, and solving the corresponding 2D single-particle Schrodinger equation to get the eigenfrequencies. The obtained results well describe the experimental INS spectra and show harmonic behavior in the fundamental modes and strong anharmonicity at higher energies.",
+    "keywords": [
+      "Zirconium Hydrides",
+      "anharmonicity",
+      "inelastic neutron scattering"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DEAC0500OR22725"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Spallation Neutron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "ISIS"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "ε-ZrH2",
+      "sample_description": null,
+      "chemical_composition": "ε-ZrH2",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "γ-ZrH",
+      "sample_description": null,
+      "chemical_composition": "γ-ZrH",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "γ-ZrD",
+      "sample_description": "sample has been contaminated by ~1 at.% H, and also contained a- and d-phases",
+      "chemical_composition": "γ-ZrD",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "INS spectra for ε-ZrH2 measured at the VISION spectrometer at 5K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "INS spectra for γ-ZrH and γ-ZrD measured at the TFXA spectrometer.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "bibliographic": {
+    "title": "Tracking solid oxide cell electrode microstructural evolution during annealing by scanning 3D X-ray diffraction microscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Energy Conversion and Storage, Technical University of Denmark, Kgs. Lyngby 2800, Denmark"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Department of Civil and Mechanical Engineering, Technical University of Denmark, 2800, Kongens Lyngby, Denmark"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "European Synchrotron Radiation Facility, 38043, Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Physics, Technical University of Denmark, Kgs. Lyngby 2800, Denmark"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Xnovo Technology ApS, Galoche Alle 15, 1st floor, 4600, Køge, Denmark"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Shukla",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "S De Angelis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "J. Wright",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Y. Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "J. Oddershede",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "H.F. Poulsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J.W. Andreasen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Ni particle coarsening is a primary degradation mechanism in Ni/YSZ solid oxide cells, limiting the lifespan of these devices. In this study, we demonstrate the use of Scanning 3D X-ray diffraction (S3DXRD) with an unprecedented spatial resolution of 100 nm, to monitor the microstructural evolution within the 3D volume of a solid oxide cell subjected to ex situ heat treatment. Unlike conventional tomography, S3DXRD combines crystallographic information with spatial maps, enabling precise identification of grain boundaries and the determination of local curvature changes in the Ni microstructure. Our study reveals that the Ni phase undergoes significant structural changes during annealing, driven by grain growth. This transformation is characterized by a reduction in local curvature, particularly in regions where grains disappear. We observe that the disappearing grains are the smallest grains in the size distribution and are often located near pores. As a result, the most notable reduction in local curvature occurs at the Ni-pore interface. The quantitative characterization of polycrystalline microstructural evolution in Ni/YSZ system provides new insights into the mechanisms of Ni particle coarsening in SOC devices, potentially guiding strategies to enhance the long-term stability of SOC devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Microstructure quantification",
+      "Overall evolution of the Ni microstructure",
+      "Grain sizes, grain boundaries and texture",
+      "Disappearing grains",
+      "Grain growth and Ni particle coarsening",
+      "Discussion",
+      "onclusion",
+      "Outlook",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni/YSZ SOC electrode",
+      "sample_description": "A sub-volume of the SOC device, measuring 11*11*4 µm3, prepared as a cylindrical pillar.",
+      "chemical_composition": "Ni/YSZ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "S3DXRD and XRF",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Simultaneous S3DXRD and XRF experiments conducted at the nanoscope end station at the ID11 beamline to monitor microstructural evolution before and after annealing at 800°C.",
+      "measurement_technique": "Scanning 3D X-ray diffraction",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

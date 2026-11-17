@@ -1,0 +1,485 @@
+{
+  "bibliographic": {
+    "title": "Size Dependence of Lattice Parameter and Electronic Structure in CeO2 Nanoparticles",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Helmholtz Zentrum Dresden-Rossendorf (HZDR), Institute of Resource Ecology, PO Box 510119, 01314 Dresden, Germany."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "The Rossendorf Beamline at ESRF—The European Synchrotron, CS40220, 38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Commission, Joint Research Centre, P.O. Box 2340, D-76125 Karlsruhe, Germany."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Chemistry and Alexandra Navrotsky Institute for Experimental Thermodynamics, Washington State University, Pullman, WA 99164"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Environmental Molecular Sciences Laboratory, Pacific Northwest National Lab, Richland, WA 99352"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Institute for Nuclear Waste Disposal, Karlsruhe Institute of Technology, P.O. Box 3640, 76021 Karlsruhe, Germany."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "CEA, DEN, DMRC, SFMA, LCC, F30207 Bagnols sur Cèze cedex, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Damien Prieur",
+        "orcid": null,
+        "email": "d.prieur@hzdr.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Walter Bonani",
+        "orcid": null,
+        "email": "walter.bonani@ec.europa.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Karin Popa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Olaf Walter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kyle W. Kriegsman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Mark H. Engelhard",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Xiaofeng Guo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Rachel Eloirdi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Thomas Gouder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Aaron Beck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Tonya Vitova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Andreas C. Scheinost",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Kristina Kvashnina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Philippe Martin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "Intrinsic properties of a compound (e.g. electronic structure, crystallographic structure, optical and magnetic properties) define notably its chemical and physical behavior. In the case of nanomaterials, these fundamental properties depend on the occurrence of quantum mechanical size effects and on the considerable increase of the surface to bulk ratio. However, the literature on this size-dependence and on the involved mechanisms is quite elusive and scarce. Here, we explore the size-dependence of both crystal and electronic properties of CeO2 nanoparticles (NPs) with different sizes by state-of-the art spectroscopic techniques. XRD, XPS and HERFD-XANES demonstrate that the as-synthesized NPs crystallize in the fluorite structure and they are predominantly composed of CeIV ions. The strong dependence of the lattice parameter with the NPs size was attributed to the presence of adsorbed species at the NPs surface thanks to FTIR and TGA measurements. In addition, the size-dependence of the t2g level in the Ce LIII XANES spectra was experimentally observed by HERFD-XANES and confirmed by theoretical calculations.",
+    "keywords": [
+      "Lanthanide",
+      "CeO2",
+      "HEFRD-XANES",
+      "Electronic Structure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Research Council",
+        "grant_id": "N 75969"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL METHODS",
+      "Synthesis method",
+      "Transmission Electron Microscopy",
+      "Fourier transform infrared spectroscopy",
+      "Thermogravimetric analysis",
+      "Raman",
+      "X-ray Photoelectron Spectroscopy",
+      "High-Energy Resolution Fluorescence-Detected X-ray Absorption Near Edge Structure",
+      "Theoretical calculations",
+      "RESULTS AND DISCUSSION",
+      "Ce valence in the as-synthesized CeO2 nanoparticles.",
+      "Size dependence of the lattice parameter",
+      "Size dependence of the electronic structure",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "KIT synchrotron light source"
+    },
+    {
+      "id": "facility_2",
+      "name": "ESRF"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ce_2",
+      "sample_description": "Nanoparticles obtained by hydrothermal condensation at 150°C.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Ce_4.2",
+      "sample_description": "Nanoparticles obtained by hydrothermal condensation at 180°C.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Ce_5.6",
+      "sample_description": "Nanoparticles obtained by hydrothermal condensation at 200°C.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Ce_8.4",
+      "sample_description": "Ce_2 heated 1h at 350°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Ce_12.2",
+      "sample_description": "Ce_4.2 heated 1h at 500°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Ce_18.2",
+      "sample_description": "Ce_4.2 heated 1h at 700°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Ce_20.8",
+      "sample_description": "Ce_4.2 heated 1h at 800°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Ce_34",
+      "sample_description": "Ce_4.2 heated 1h at 900°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "Ce_59",
+      "sample_description": "Ce_4.2 heated 1h at 925°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "Ce_91",
+      "sample_description": "Ce_4.2 heated 1h at 950°C in air.",
+      "chemical_composition": "CeO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "bulk CeO2",
+      "sample_description": "Reference bulk ceria.",
+      "chemical_composition": "CeO2",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray diffraction used to estimate crystallite size and lattice parameters.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "TEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Transmission electron microscopy to determine size and lattice parameter.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "FTIR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Fourier transform infrared spectroscopy in attenuated total reflectance mode to determine surface species.",
+      "measurement_technique": "Fourier transform infrared spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "TGA",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_9"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Thermogravimetric analysis to investigate thermal behavior and adsorbed species.",
+      "measurement_technique": "thermogravimetric analysis",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Raman",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Raman measurements of nanocrystalline samples at room temperature.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "XPS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray photoelectron spectroscopy to assess Ce valence and electronic structure.",
+      "measurement_technique": "X-ray Photoelectron Spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "HERFD-XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-energy resolution fluorescence-detected X-ray absorption near-edge structure at the Ce LIII edge.",
+      "measurement_technique": "high-energy resolution fluorescence-detected X-ray absorption near-edge structure",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

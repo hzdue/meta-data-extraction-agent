@@ -1,0 +1,422 @@
+{
+  "bibliographic": {
+    "title": "Superconductivity in the Parent Infinite-Layer Nickelate NdNiO2",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Laboratory of Atomic and Solid State Physics, Department of Physics, Cornell University, Ithaca, NY 14853, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Materials Science and Engineering, Cornell University, Ithaca, NY 14853, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Kavli Institute at Cornell for Nanoscale Science, Cornell University, Ithaca, NY 14853, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Canadian Light Source, Inc., 44 Innovation Boulevard, Saskatoon, SK S7N 2V3, Canada"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, NY 11973, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institut de Ciència de Materials de Barcelona (ICMAB-CSIC), Campus UAB Bellaterra 08193, Spain"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Chemistry, Indiana University, Bloomington, IN 47405, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics and Astronomy, University of Waterloo, Waterloo ON N2L 3G1, Canada"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Leibniz-Institut für Kristallzüchtung, Max-Born-Straße 2, 12489 Berlin, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "C. T. Parzyck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Y. Wu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "L. Bhatt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "M. Kang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Z. Arthur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "T. M. Pedersen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "R. Sutarto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "V. Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "G. Herranz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "A. B. Georgescu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "D. G. Hawthorn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "L. F. Kourkoutis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "D. A. Muller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "D. G. Schlom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "K. M. Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "We report evidence for superconductivity with onset temperatures up to 11 K in thin films of the infinite-layer nickelate parent compound NdNiO2. A combination of oxide molecular-beam epitaxy and atomic hydrogen reduction yields samples with high crystallinity and low residual resistivities, a substantial fraction of which exhibit superconducting transitions. We survey a large series of samples with a variety of techniques, including electrical transport, scanning transmission electron microscopy, x-ray absorption spectroscopy, and resonant inelastic x-ray scattering, to investigate the possible origins of superconductivity. We propose that superconductivity could be intrinsic to the undoped infinite-layer nickelates but suppressed by disorder due to its nodal order parameter, a finding which would necessitate a reconsideration of the nickelate phase diagram. Another possible hypothesis is that the parent materials can be hole doped from randomly dispersed apical oxygen atoms, which would suggest an alternative pathway for achieving superconductivity.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Air Force Office of Scientific Research",
+        "grant_id": "FA955021-1-0168"
+      },
+      {
+        "funder": "Air Force Office of Scientific Research",
+        "grant_id": "FA9550-23-1-0161"
+      },
+      {
+        "funder": "US Department of Energy (DOE), Office of Basic Energy Sciences",
+        "grant_id": "DE-SC0019414"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2104427"
+      },
+      {
+        "funder": "Platform for the Accelerated Realization, Analysis, and Discovery of Interface Materials (PARADIM)",
+        "grant_id": "DMR-2039380"
+      },
+      {
+        "funder": "Gordon and Betty Moore Foundation’s EPiQS Initiative",
+        "grant_id": "GBMF3850"
+      },
+      {
+        "funder": "Gordon and Betty Moore Foundation’s EPiQS Initiative",
+        "grant_id": "GBMF9073"
+      },
+      {
+        "funder": "Spanish Agencia Estatal de Investigación",
+        "grant_id": "CEX2023-001263-S"
+      },
+      {
+        "funder": "Spanish Agencia Estatal de Investigación",
+        "grant_id": "PID2023-152225NB-I00"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NNCI-2025233"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. RESULTS",
+      "III. DISCUSSION & CONCLUSIONS",
+      "IV. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Canadian Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NdNiO2",
+      "sample_description": "20 unit cell thick thin films capped with 2-3 u.c. of SrTiO3",
+      "chemical_composition": "NdNiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "NdNiO3",
+      "sample_description": "unreduced perovskite films",
+      "chemical_composition": "NdNiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "electrical transport",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Resistivity and Hall coefficient measurements of NdNiO2 and NdNiO3 films.",
+      "measurement_technique": "electrical transport",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "scanning transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ADF-STEM imaging of reduced NdNiO2 films to investigate interfaces and oxygen ordering.",
+      "measurement_technique": "scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "x-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ni L-edge and O K-edge XAS measurements to determine hole doping and impurity phases.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "RIXS measurements at the Ni L3-edge to probe d-d excitations and magnons.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "pulsed IV measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Pulsed I-V measurements to estimate critical current density Jc.",
+      "measurement_technique": "pulsed IV measurements",
+      "measurement_mode": [
+        "OtherScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Lab-based XRD measurements to determine structural quality and phase purity.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

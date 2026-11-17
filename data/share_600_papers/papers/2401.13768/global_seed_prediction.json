@@ -1,0 +1,228 @@
+{
+  "bibliographic": {
+    "title": "Mesoscale self-organization of polydisperse magnetic nanoparticles at the water surface",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, D-14109 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Polymer Materials of the Department of Materials Science Friedrich-Alexander University Erlangen-N¨urnberg Martensstrasse 7, D-91058 Erlangen"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Synchrotron Radiation Facility, 71, Avenue des Martyrs, CS40220, F-38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, 751 20, Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Victor Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Artoem Khassanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Irina Snigireva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Oleg Konovalov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alexei Vorobiev",
+        "orcid": null,
+        "email": "avorobiev@ill.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "In this study, we investigated the self-ordering process in Langmuir films of polydisperse iron oxide nanoparticles on a water surface, employing in-situ X-ray scattering, surface pressure-area isotherm analysis, and Brewster angle microscopy. X-ray reflectometry confirmed the formation of a monolayer, while grazing incidence small-angle X-ray scattering revealed short-range lateral correlations with a characteristic length equal to the mean particle size. Remarkably, our findings indicated that at zero surface pressure, the particles organized into submicrometer clusters, merging upon compression to form a homogeneous layer. These layers were subsequently transferred to a solid substrate using the Langmuir-Schaefer technique and further characterized via scanning electron microscopy and polarized neutron reflectometry. Notably, our measurements unveiled a second characteristic length in the lateral correlations, orders of magnitude longer than the mean particle diameter, with polydisperse particles forming circular clusters densely packed in a hexagonal lattice. Furthermore, our evidence suggested that the lattice constant of this mesocrystal depended on the characteristics of the particle size distribution, specifically the mean particle size and the width of the size distribution. Additionally, we observed internal size separation within these clusters, where larger particles were positioned closer to the center of the cluster. Finally, polarized neutron reflectometry measurements provided valuable insights into the magnetization profile across the layer.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-01-26",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "IO-T30",
+      "sample_description": "Iron oxide nanoparticles with a mean size value of D = 10.8 nm and a dispersion of σ = 3.5 nm.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "IO-S26",
+      "sample_description": "Polydisperse iron oxide nanoparticles with slightly larger average particle sizes than IO-T30.",
+      "chemical_composition": "iron oxide",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "surface pressure-area isotherm",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Recording of surface pressure isotherms during Langmuir film formation.",
+      "measurement_technique": "surface pressure-area isotherm analysis",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Brewster angle microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ex-situ observation of monolayers forming on the water surface.",
+      "measurement_technique": "Brewster angle microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XRR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Specular X-ray reflectometry at the air/liquid interface to investigate the Langmuir film profile.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "GISAXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence small-angle X-ray scattering to examine in-plane interparticle correlations.",
+      "measurement_technique": "grazing incidence small-angle X-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Scanning electron microscopy of MNP films transferred onto solid substrates.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "PNR",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarized neutron reflectometry to investigate the depth distribution of the magnetic moment within the thin film.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

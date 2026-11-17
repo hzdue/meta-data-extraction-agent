@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "Stroboscopic X-ray Diffraction Microscopy of Dynamic Strain in Diamond Thin-film Bulk Acoustic Resonators for Quantum Control of Nitrogen Vacancy Centers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Cornell University, Ithaca, NY, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Elmore Family School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Nanoscale Materials, Argonne National Laboratory, Lemont, IL"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Applied and Engineering Physics, Cornell University, Ithaca, NY, USA"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Kavli Institute at Cornell for Nanoscale Science, Ithaca, NY"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Anthony D’Addario",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Johnathan Kuan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Noah F. Opondo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ozan Erturk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tao Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Sunil A. Bhave",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Martin V. Holt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Gregory D. Fuchs",
+        "orcid": null,
+        "email": "gdf9@cornell.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Bulk-mode acoustic waves in a crystalline material exert lattice strain through the thickness of the sample, which couples to the spin Hamiltonian of defect-based qubits such as the nitrogen-vacancy (NV) center defect in diamond. This mechanism has been previously harnessed for unconventional quantum spin control, spin decoherence protection, and quantum sensing. Bulk-mode acoustic wave devices are also important in the microelectronics industry as microwave filters. A key challenge in both applications is a lack of appropriate operando microscopy tools for quantifying and visualizing gigahertz-frequency dynamic strain. In this work, we directly image acoustic strain within NV center-coupled diamond thin-film bulk acoustic wave resonators using stroboscopic scanning hard X-ray diffraction microscopy at the Advanced Photon Source. The far-field scattering patterns of the nano-focused X-ray diffraction encode strain information entirely through the illuminated thickness of the resonator. These patterns have a real-space spatial variation that is consistent with the bulk strain’s expected modal distribution and a momentum-space angular variation from which the strain amplitude can be quantitatively deduced. We also perform optical measurements of strain-driven Rabi precession of the NV center spin ensemble, providing an additional quantitative measurement of the strain amplitude. As a result, we directly measure the NV spin-stress coupling parameter b = 2 . 73(2) MHz/GPa by correlating these measurements at the same spatial position and applied microwave power. Our results demonstrate a unique technique for directly imaging AC lattice strain in micromechanical structures and provide a direct measurement of a fundamental constant for the NV center defect spin Hamiltonian.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "DARPA DRINQS program",
+        "grant_id": "Cooperative Agreement #D18AC00024"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NNCI-2025233"
+      },
+      {
+        "funder": "NSF MRSEC program",
+        "grant_id": "DMR-1719875"
+      },
+      {
+        "funder": "U.S. DOE, Office of Basic Energy Sciences",
+        "grant_id": "Contract No. DEAC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. DEVICE",
+      "III. RESULTS",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "diamond thin-film bulk acoustic resonators",
+      "sample_description": "Diamond FBARs with a 1.5 µm thick pentagonal AlN transducer layer and platinum electrodes.",
+      "chemical_composition": "diamond",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "stroboscopic scanning hard X-ray diffraction microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Direct imaging of AC lattice strain in diamond FBARs using stroboscopic X-ray diffraction at the [113] Bragg condition.",
+      "measurement_technique": "scanning hard X-ray diffraction microscopy",
+      "measurement_mode": [
+        "TimeScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "mechanical Rabi oscillations",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Optical measurements of strain-driven Rabi precession of the NV center spin ensemble in diamond FBARs.",
+      "measurement_technique": "confocal microscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

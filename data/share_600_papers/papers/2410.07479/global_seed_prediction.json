@@ -1,0 +1,275 @@
+{
+  "bibliographic": {
+    "title": "Chiral effects at the metal center in Fe(III) spin crossover coordination salts.",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Astronomy, Jorgensen Hall, University of Nebraska-Lincoln, Lincoln, NE 68588-0299, USA."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Berry College, 2277 Martha Berry Hwy. NW., Mount Berry, GA 30149, USA."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Chemistry, Hamilton Hall, University of Nebraska-Lincoln, Lincoln, NE, 68588-0304, USA."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Advanced Light Source, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. Zaid Zaz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Wai Kiat Chin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Gauthami Viswan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Arjun Subedi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Esha Mishra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kayleigh A. McElveen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Binny Tamang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "David Shapiro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Alpha T N’Diaye",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Rebecca Y Lai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Peter A Dowben",
+        "orcid": null,
+        "email": "pdowben@unl.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Evidence of chirality was observed at the Fe metal center in Fe(III) spin crossover coordination salts [Fe(qsal) 2][ Ni(dmit)2] and [Fe(qsal)2](TCNQ)2 from X-ray absorption spectroscopy at the Fe 2p3/2 core threshold. This indicates the formation of chiral domains that influence the octahedral coordination on the Fe core.",
+    "keywords": [
+      "Chirality",
+      "Spin crossover",
+      "Dichroism"
+    ],
+    "doi": "10.XXXX/XXXX",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Journal XX",
+    "publisher": "IOP Publishing Ltd",
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "NSF-DMR-EPM 2317464"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Section heading"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Nebraska Center for Materials and Nanoscience"
+    },
+    {
+      "id": "facility_2",
+      "name": "Advanced Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[Fe(qsal)2][Ni(dmit)2]",
+      "sample_description": null,
+      "chemical_composition": "[Fe(qsal)2][Ni(dmit)2]",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "[Fe(qsal)2](TCNQ)2",
+      "sample_description": null,
+      "chemical_composition": "[Fe(qsal)2](TCNQ)2",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "[Fe(qsal)2]Cl",
+      "sample_description": null,
+      "chemical_composition": "[Fe(qsal)2]Cl",
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "DC magnetic susceptibility",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Magnetometry measurements of DC magnetic susceptibility times temperature.",
+      "measurement_technique": "DC magnetic susceptibility",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Spatially resolved X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "XAS performed on a single Fe(qsal)2X chiral crystallite domain at the Fe L3 edge (Fe 2p3/2) using circularly polarized X-rays.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray magnetic circular dichroism",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Investigation of relative local Ni and Fe moments using TEY and circularly polarized x-rays with an applied field of 1.8 T.",
+      "measurement_technique": "X-ray magnetic circular dichroism",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Inverse photoemission",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Experiments acquired in the isochromatic mode to investigate the unoccupied density of states.",
+      "measurement_technique": "inverse photoemission",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

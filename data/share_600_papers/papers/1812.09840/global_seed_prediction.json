@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Resolving solution conformations of the model semi-flexible polyelectrolyte homogalacturonan using molecular dynamics simulations and small-angle x-ray scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Chemical Engineering, National Tsing Hua University, Hsinchu 30013, Taiwan"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Fundamental Sciences, Massey University, Palmerston North 4474, New Zealand"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Australian Synchrotron, Clayton, VIC 3168, Australia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "School of Chemical Sciences, University of Auckland, Private Bag 90219, Auckland, New Zealand"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "The MacDiarmid Institute for Advanced Materials and Nanotechnology, Wellington 6140, New Zealand"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Riddet Institute, Massey University, Palmerston North 4474, New Zealand"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Bradley W. Mansel",
+        "orcid": null,
+        "email": "bmansel@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Amir Hossein Irani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Timothy M. Ryan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Duncan J. McGillivray",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Hsin-Lung Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Martin A. K. Williams",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_5",
+          "aff_6"
+        ]
+      }
+    ],
+    "abstract": "The conformation of polyelectrolytes in the solution state has long been of interest in polymer science. Herein we utilize all atom molecular dynamics simulations (MD) and small-angle x-ray scattering experiments (SAXS) to elucidate the molecular structure of the model polyelectrolyte homogalacturonan. Several degrees of polymerization were studied and in addition partial methylesterification of the otherwise charge-carrying carboxyl groups was used in order to generate samples with varying intra-chain charge distributions. It is shown that at length scales above around 1 nm the conformation of isolated chains has surprisingly little dependence on the charge distribution or the concentration of attendant monovalent salts, reflective of the intrinsic stiffness of the saccharide rings and the dynamical constraints of the glycosidic linkage. Indeed the conformation of isolated chains over all accessible length-scales is well described by the atomic co-ordinates available from fibre diffraction studies. Furthermore, in more concentrated systems it is shown that, after careful analysis of the SAXS data, the form of the inter-particle effects heralded by the emergence of a so-called polyelectrolyte peak, can be extracted, and that this phenomena can be reproduced by multiple chain MD simulations.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Science and Technology, Taiwan",
+        "grant_id": "MOST 105-2221-E-007-137-MY3"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Methods and materials",
+      "3 Results and discussion",
+      "4 Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Australian Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "DP 6",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DP 10",
+      "sample_description": null,
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DP 25",
+      "sample_description": "oligomeric sample containing DPs between 25-50",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "Elicityl"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Pectin Samples",
+      "sample_description": "consisting predominantly of homogalacturonan (85% galacturonic acid content), with DP ≈ 500",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "CP Kelco"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "HG 40",
+      "sample_description": "single blocky pure HG made by removing the homogalacturonan sections DP ≈ 100 from a commercial sample",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "R47",
+      "sample_description": "randomly distributed charged groups, 47% of the galacturonic acid residues are methylesterified",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "B48",
+      "sample_description": "blockwise distributed charged groups, 48% of the galacturonic acid residues are methylesterified",
+      "chemical_composition": null,
+      "sample_state": null,
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "small-angle x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SAXS measurements performed on homogalacturonan oligomers and pectins to study solution conformations and inter-particle effects.",
+      "measurement_technique": "small-angle x-ray scattering",
+      "measurement_mode": [
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "molecular dynamics simulations",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "All atom MD simulations using GROMACS and GLYCAM force field to elucidate molecular structure and inter-chain correlations.",
+      "measurement_technique": "molecular dynamics simulations",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

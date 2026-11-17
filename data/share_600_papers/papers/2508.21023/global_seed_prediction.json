@@ -1,0 +1,463 @@
+{
+  "bibliographic": {
+    "title": "Topotactic phase transition in epitaxial La0.7Sr0.3MnO3-δ films induced by oxygen getter assisted thermal annealing",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Heinrich Heine University Düsseldorf, Faculty of Mathematics and Natural Sciences, Düsseldorf, 40225, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Jülich Centre for Neutron Science (JCNS-2), JARA-FIT, Forschungszentrum Jülich GmbH, Jülich, 52428, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "Θ",
+        "text": "School of Advanced Materials, Peking University, Shenzhen Graduate School, Shenzhen, 518055, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "Δ",
+        "text": "Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (ER-C), JARA-FIT, Forschungszentrum Jülich GmbH, Jülich, 52428, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "±",
+        "text": "Peter Grünberg Institut (PGI-7), JARA-FIT, Forschungszentrum Jülich GmbH, Jülich, 52428, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "§",
+        "text": "Peter Grünberg Institut (PGI-6), JARA-FIT, Forschungszentrum Jülich GmbH, Jülich, 52428, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "#",
+        "text": "Institute of Ion Beam Physics and Materials Research, Helmholtz-Zentrum DresdenRossendorf (HZDR), Dresden, 01328, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "&",
+        "text": "Laboratory of Micro-Nano Optics, College of Physics and Electronic Engineering, Sichuan Normal University, Chengdu, 610101, China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chenyang Yin",
+        "orcid": null,
+        "email": "c.yin@fz-juelich.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lei Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Xue Bai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Suqin He",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Hengbo Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Tomas Duchon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Felix Gunkel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Yunxia Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Mao Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Anton Kaus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Janghyun Jo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Rafal E. DuninBorkowski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Shengqiang Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Thomas Brückel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Oleg Petracic",
+        "orcid": null,
+        "email": "o.petracic@fz-juelich.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Oxygen vacancies play a crucial role in controlling the physical properties of complex oxides. In La0.7Sr0.3MnO3-δ, the topotactic phase transition from Perovskite (PV) to Brownmillerite (BM) can be triggered e.g. via oxygen removal during thermal annealing. Here we report on a very efficient thermal vacuum annealing method using aluminum as an oxygen getter material. The topotactic phase transition is characterized by X-ray Diffraction which confirms a successful transition from PV to BM in La0.7Sr0.3MnO3-δ thin films grown via physical vapor deposition. The efficiency of this method is confirmed using La0.7Sr0.3MnO3-δ micron-sized bulk powder. The accompanying transition from the original Ferromagnetic (FM) to an Antiferromagnetic (AF) state and the simultaneous transition from a metallic to an insulating state is characterized using Superconducting Quantum Interference Device (SQUID)-magnetometry and Alternating Current (AC) resistivity measurements, respectively. The near surface manganese oxidation states are probed by synchrotron X-ray Absorption Spectroscopy. Moreover, X-ray Reflectivity, Atomic Force Microscopy and Scanning Transmission Electron Microscopy reveal surface segregation and cation redistribution during the oxygen getter assisted annealing process.",
+    "keywords": [
+      "Transition Metal Oxides",
+      "Complex Oxides",
+      "Oxygen Vacancies",
+      "Cation Diffusion",
+      "Topotactic Phase Transition"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "ZH 225/10-1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Jülich Centre for Neutron Science (JCNS-2)"
+    },
+    {
+      "id": "facility_2",
+      "name": "Peter Grünberg Institut (PGI-7)"
+    },
+    {
+      "id": "facility_3",
+      "name": "Helmholtz-Zentrum DresdenRossendorf (HZDR)"
+    },
+    {
+      "id": "facility_4",
+      "name": "BESSY"
+    },
+    {
+      "id": "facility_5",
+      "name": "Ernst Ruska-Centre for Microscopy and Spectroscopy with Electrons (ERC)"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PV-LSMO",
+      "sample_description": "As-prepared epitaxial LSMO film grown via HOPSD on STO substrates.",
+      "chemical_composition": "La0.7Sr0.3MnO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "E-PV350",
+      "sample_description": "LSMO film annealed at 350 °C for 12 hours using Al-assisted thermal annealing.",
+      "chemical_composition": "La0.7Sr0.3MnO3-δ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "BM400",
+      "sample_description": "LSMO film annealed at 400 °C for 12 hours using Al-assisted thermal annealing.",
+      "chemical_composition": "La0.7Sr0.3MnO2.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "LSMO bulk powder",
+      "sample_description": "Micron-sized LSMO bulk powder annealed at 550 °C for 20 hours.",
+      "chemical_composition": "La0.7Sr0.3MnO3-δ",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "PLD400",
+      "sample_description": "LSMO thin film grown via PLD and annealed at 400 °C for 12 hours.",
+      "chemical_composition": "La0.7Sr0.3MnO3-δ",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray Diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Crystal structure characterization of as-prepared and annealed LSMO films and powder.",
+      "measurement_technique": "X-ray Diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Reciprocal Space Mapping",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Probing the (103) Bragg reflection to compare in-plane strain state.",
+      "measurement_technique": "X-ray Diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray Reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Probing surface and in-depth information of as-prepared and annealed samples.",
+      "measurement_technique": "X-ray Reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Atomic Force Microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Topographic information and surface morphology of thin film samples.",
+      "measurement_technique": "Atomic Force Microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SQUID-magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of ZFC curves, FC curves and hysteresis loops.",
+      "measurement_technique": "SQUID-magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "AC resistivity measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Resistivity vs. temperature behaviors characterized via the van der Pauw method.",
+      "measurement_technique": "resistivity measurement",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "X-ray Absorption Spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_4"
+      ],
+      "dataset_description": "Probing near surface oxidation states of manganese, oxygen, and lanthanum using TEY signals.",
+      "measurement_technique": "X-ray Absorption Spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "Rutherford Backscattering Spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Characterization of thin film cation stoichiometry and depth-distribution.",
+      "measurement_technique": "Rutherford Backscattering Spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_9",
+      "dataset_name": "Scanning Transmission Electron Microscopy",
+      "sample_refs": [
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_5"
+      ],
+      "dataset_description": "Detailed characterization of film structure including HAADF, ADF, EDS, and EELS.",
+      "measurement_technique": "Scanning Transmission Electron Microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

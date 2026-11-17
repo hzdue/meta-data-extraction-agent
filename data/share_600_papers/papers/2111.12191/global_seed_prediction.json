@@ -1,0 +1,300 @@
+{
+  "bibliographic": {
+    "title": "Controlling magnetic configuration in soft-hard bilayers probed by polarized neutron reflectometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Science and Engineering, University of Tennessee, Knoxville, TN 37996, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Cavendish Laboratory, University of Cambridge, Cambridge CB3 0HE, U.K"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Bartol Research Institute, University of Delaware, Newark, DE 19716, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institut Laue-Langevin, BP 156, 41 Avenue des Martyrs, 38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "LPMMC (UMR 5493), Université de Grenobles-Alpes and CNRS, Maison des Magistères, BP 166, 38042 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Physics, Georgetown University, Washington, DC 20057, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, National Tsing Hua University, Hsinchu, 300044, Taiwan"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, 100 Bureau Dr., Gaithersburg, MD 20899, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Physics and Astronomy, University of Tennessee, Knoxville, TN 37996, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Nan Tang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jung-Wei Liao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Siu-Tat Chui",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Timothy Ziman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Kai Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Chih-Huang Lai",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Brian J. Kirby",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Dustin A. Gilbert",
+        "orcid": null,
+        "email": "dagilbert@utlk.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "Hard/soft magnetic bilayer thin films have been widely used in data storage technologies and permanent magnet applications. The magnetic configuration and response to temperatures and magnetic fields in these heterostructures are considered to be highly dependent on the interfacial coupling. However, the intrinsic properties of each of the layers, such as the saturation magnetization and layer thickness, also strongly influence the magnetic configuration. Changing these parameters provides an effective method to tailor magnetic properties in composite magnets. Here, we use polarized neutron reflectometry (PNR) to experimentally probe the interfacial magnetic configurations in hard/soft bilayer thin films: L 10-FePt/ A 1-FePt, [Co/Pd] /CoPd, [Co/Pt] /FeNi and L 10-FePt/Fe, which all have a perpendicular magnetic anisotropy in the hard layer. These films were designed with different soft and hard layer thicknesses (𝑡𝑠𝑜𝑓𝑡 and 𝑡ℎ𝑎𝑟𝑑) and saturation magnetization (𝑀𝑠𝑠𝑜𝑓𝑡 and 𝑀𝑠ℎ𝑎𝑟𝑑), respectively. The influences of an in-plane magnetic field ( 𝐻𝑖𝑝 ) and temperature ( T ) are also studied using a L 10-FePt/ A 1-FePt bilayer sample. Comparing the PNR results to micromagnetic simulations reveals that the interfacial magnetic configuration is highly dependent on 𝑡𝑠𝑜𝑓𝑡, 𝑀𝑠𝑠𝑜𝑓𝑡 and the external factors (𝐻𝑖𝑝 and T ), and has a relatively weak dependence on 𝑡ℎ𝑎𝑟𝑑 and 𝑀𝑠ℎ𝑎𝑟𝑑. Key among these results, for thin 𝑡𝑠𝑜𝑓𝑡, the hard and soft layers are rigidly coupled in the out-of-plane direction, then undergo a transition to relax in-plane. This transition can be delayed to larger 𝑡𝑠𝑜𝑓𝑡 by decreasing 𝑀𝑠𝑠𝑜𝑓𝑡. Understanding the influence of these parameters on the magnetic configuration is critical to designing functional composite magnets for applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences Energy Early Career Research Program",
+        "grant_id": "DE-SC0021344"
+      },
+      {
+        "funder": "NSF",
+        "grant_id": "ECCS- 1933527"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Methods",
+      "Experimental results",
+      "Discussion and micromagnetic simulation",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "L10-FePt/A1-FePt tsoft=2 nm",
+      "sample_description": null,
+      "chemical_composition": "L10-FePt/A1-FePt",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "L10-FePt/A1-FePt tsoft=5 nm",
+      "sample_description": null,
+      "chemical_composition": "L10-FePt/A1-FePt",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "L10-FePt/Fe",
+      "sample_description": null,
+      "chemical_composition": "L10-FePt/Fe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "[Co/Pd]/CoPd tsoft=9 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pd]/CoPd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "[Co/Pt]/FeNi tsoft=7 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pt]/FeNi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "[Co/Pd]/CoPd tsoft=2 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pd]/CoPd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "[Co/Pd]/CoPd tsoft=5 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pd]/CoPd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "[Co/Pt]/FeNi tsoft=1 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pt]/FeNi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "[Co/Pt]/FeNi tsoft=3 nm",
+      "sample_description": null,
+      "chemical_composition": "[Co/Pt]/FeNi",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "polarized neutron reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Experimental probe of interfacial magnetic configurations in hard/soft bilayer thin films using PBR and MAGIK instruments.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "PNR on L10-FePt/A1-FePt (2 nm)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Study of the influence of in-plane magnetic field and temperature on the magnetic configuration of L10-FePt/A1-FePt (2 nm) bilayer.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "MagneticFieldScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

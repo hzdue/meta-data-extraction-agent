@@ -1,0 +1,344 @@
+{
+  "bibliographic": {
+    "title": "Detection of a two-phonon mode in a cuprate superconductor via polarimetric RIXS",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Yale University, New Haven, Connecticut 06520, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Energy Sciences Institute, Yale University, West Haven, Connecticut 06516, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, University of California San Diego, La Jolla, California 92093, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, Grenoble F-38043, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Condensed Matter Physics and Materials Science, Brookhaven National Laboratory, Upton, NY, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Physics, North Carolina State University, Raleigh, NC 27695, U.S.A."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Solid State Spectroscopy Dept, Max Planck Institute for Solid State Research, Stuttgart 70569, Germany"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Energie Materiaux Telecommunications, Institut National de la Recherche Scientifique, Varennes, Quebec J3X 1S2, Canada"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "Canadian Institute for Advanced Research, Toronto, ON, M5G 1M1, Canada"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Department of Applied Physics, Yale University, New Haven, Connecticut 06520, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. Scott",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "E. Kisiel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "F. Yakhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Agrestini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Garcia-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "K. Kummer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. Choi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "R. D. Zhong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "J. A. Schneeloch",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "G. D. Gu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "N. B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. F. Kemper",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "M. Minola",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "F. Boschini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "A. Frano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "A. Gozar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "E. H. da Silva Neto",
+        "orcid": null,
+        "email": "eduardo.dasilvaneto@yale.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_11"
+        ]
+      }
+    ],
+    "abstract": "Recent improvements in the energy resolution of resonant inelastic x-ray scattering experiments (RIXS) at the Cu- L 3 edge have enabled the study of lattice, spin, and charge excitations. Here, we report on the detection of a low intensity signal at 140 meV, twice the energy of the bondstretching (BS) phonon mode, in the cuprate superconductor Bi2Sr2CaCu2O8+ x (Bi-2212). Ultrahigh resolution polarimetric RIXS measurements allow us to resolve the outgoing polarization of the signal and identify this feature as a two-phonon excitation. Further, we study the connection between the two-phonon mode and the BS one-phonon mode by constructing a joint density of states toy model that reproduces the key features of the data.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR2034345"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2145080"
+      },
+      {
+        "funder": "US Department of Energy, office of Basic Energy Sciences",
+        "grant_id": "DOE-sc0012704"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR1752713"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL DETAILS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Bi-2212",
+      "sample_description": "underdoped cuprate superconductor",
+      "chemical_composition": "Bi2Sr2CaCu2O8+ x",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Standard RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Cu-L3 RIXS measurements at Diamond's I21 beamline to map the energy-momentum structure of the BS phonon and detect the 140 meV mode.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Polarimetric RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarimetric Cu-L3 RIXS measurements at ESRF's ID32 beamline to resolve the outgoing polarization of the 140 meV mode.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

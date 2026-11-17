@@ -1,0 +1,151 @@
+{
+  "bibliographic": {
+    "title": "Investigation of the magnetic ground state of GaV4S8 using powder neutron diffraction",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "University of Warwick, Department of Physics, Coventry, CV4 7AL, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, CS20156, 38042 Grenoble C´edex 9, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "S. J. R. Holt",
+        "orcid": null,
+        "email": "S.J.R.Holt@warwick.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "C. Ritter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M. R. Lees",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "G. Balakrishnan",
+        "orcid": null,
+        "email": "G.Balakrishnan@warwick.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The magnetic ground state of polycrystalline N´eel skyrmion hosting material GaV4S8 has been investigated using ac susceptibility and powder neutron diffraction. In the absence of an applied magnetic field GaV4S8 undergoes a transition from a paramagnetic to a cycloidal state below 13 K and then to a ferromagnetic-like state below 6 K. With evidence from ac susceptibility and powder neutron diffraction, we have identified the commensurate magnetic structure at 1.5 K, with ordered magnetic moments of 0 . 23(2) μ B on the V1 sites and 0 . 22(1) μ B on the V2 sites. These moments have ferromagnetic-like alignment but with a 39(8)◦ canting of the magnetic moments on the V2 sites away from the V4 cluster. In the incommensurate magnetic phase that exists between 6 and 13 K, we provide a thorough and careful analysis of the cycloidal magnetic structure exhibited by this material using powder neutron diffraction.",
+    "keywords": [
+      "Skyrmion Materials",
+      "Powder Neutron Diffraction",
+      "Magnetism",
+      "Magnetic Structure",
+      "Cycloidal Magnetic Structure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "J. Phys.: Condens. Matter",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC UK Skyrmion Project",
+        "grant_id": "EP/N032128/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Details",
+      "3. Results and Discussion",
+      "4. Summary and Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institute Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "GaV4S8",
+      "sample_description": "Polycrystalline samples synthesised by solid-state reaction.",
+      "chemical_composition": "GaV4S8",
+      "sample_state": "powder",
+      "sample_mass": "9 . 5 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "GaV4S8 single crystal",
+      "sample_description": null,
+      "chemical_composition": "GaV4S8",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "ac susceptibility",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ac susceptibility measurements as a function of dc applied field on a single crystal.",
+      "measurement_technique": "ac susceptibility",
+      "measurement_mode": [
+        "TemperatureScan",
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "powder neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Magnetic structure determination measurements performed on the D20 diffractometer at 1.5, 9, and 15 K.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

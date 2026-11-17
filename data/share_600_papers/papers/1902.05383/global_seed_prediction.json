@@ -1,0 +1,146 @@
+{
+  "bibliographic": {
+    "title": "Revisiting the crystal structure of the equilibrium S (Al2CuMg) phase in Al-Cu-Mg alloys using X-ray absorption spectroscopy (XAFS)",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "University Wuerzburg, Department of Chemistry and Pharmacy, LCTM Roentgenring 11, D-97070 Wuerzburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "University Wuerzburg, Department of Chemistry and Pharmacy, LCTM Roentgenring 11, D-97070 Wuerzburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "University Wuerzburg, Department of Chemistry and Pharmacy, LCTM Roentgenring 11, D-97070 Wuerzburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Danny Petschke",
+        "orcid": null,
+        "email": "danny.petschke@uni-wuerzburg.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Frank Lotter",
+        "orcid": null,
+        "email": "frank.lotter@uni-wuerzburg.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Torsten E. M. Staab",
+        "orcid": null,
+        "email": "torsten.staab@uni-wuerzburg.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Even though, the crystal structure of the intermediate (S’) and the equilibrium S (Al2CuMg) phase were subject of many investigations by using mostly imaging or diffraction techniques, the results remain still controversial. In this study, we used X-ray absorption spectroscopy (XAFS) to verify the correct crystal structure considering the well-known models reported by Perlitz & Westgren (PW), Mondolfo, Radmilovic & Kilaas and Yan et al. The S phase structure was confirmed by direct comparison to simulated XAFS spectra using FDMNES. Our results support the widely accepted PW model as the correct structure while other models do not match our observations.",
+    "keywords": [
+      "XAFS",
+      "Al-Cu-Mg",
+      "S phase",
+      "DSC",
+      "crystal structure"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "STA-527/5-1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Methodology",
+      "3 Results and discussion",
+      "4 Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Al - 2.2wt.% (1.0at.%) Cu - 1.6wt.% (1.8at.%) Mg",
+      "sample_description": "High purity alloy solution heat treated for 1h at 515°C and quenched into ice-water (AQ).",
+      "chemical_composition": "Al - 2.2wt.% (1.0at.%) Cu - 1.6wt.% (1.8at.%) Mg",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "artificially aged Al-Cu-Mg alloy",
+      "sample_description": "Sample artificially aged for one day at 200°C.",
+      "chemical_composition": "Al - 2.2wt.% (1.0at.%) Cu - 1.6wt.% (1.8at.%) Mg",
+      "sample_state": "bulk",
+      "sample_mass": "45mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Differential scanning calorimetry (DSC)",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DSC measurements carried out from -20°C up to 530°C to verify the presence of S phase precipitates.",
+      "measurement_technique": "Differential scanning calorimetry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray absorption fine structure spectroscopy (XAFS)",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAFS spectra recorded at the Cu-K edge (8979eV) to verify the crystal structure of the S phase.",
+      "measurement_technique": "X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

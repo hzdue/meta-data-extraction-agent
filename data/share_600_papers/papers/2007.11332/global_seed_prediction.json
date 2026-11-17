@@ -1,0 +1,226 @@
+{
+  "bibliographic": {
+    "title": "Atomic structure of CdS magic-size clusters by X-ray absorption spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Centre of Condensed Matter and Materials Physics, Queen Mary University of London, Mile End Road, E1 4NS, London, UK"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Diamond Light Source Ltd., Harwell Science and Innovation Campus, Didcot, OX11 0DE, UK."
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institute of Atomic and Molecular physics, Sichuan University, Chengdu People’s Republic of China"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Physics, School of Sciences, Wuhan University of Technology, 205 Luoshi Road, Hongshan district, Wuhan, Hubei, 430070, People’s Republic of China"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "College of Computer Science, Sichuan University, Chengdu 610065, People’s Republic of China"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ying Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lei Tan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Giannantonio Cibin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Diego Gianolio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Shuo Han",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Kui Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Martin T. Dove",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Andrei V. Sapelkin",
+        "orcid": null,
+        "email": "a.sapelkin@qmul.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Magic-size clusters are ultra-small colloidal semiconductor systems that are intensively studied due to their monodisperse nature and sharp UV-vis absorption peak compared with regular quantum dots. However, the small size of such clusters (<2 nm), and the large surface-to-bulk ratio significantly limit characterisation techniques that can be utilised. Here we demonstrate how a combination of EXAFS and XANES  can be used to obtain information about sample stoichiometry and cluster symmetry. Investigating two types of clusters that show sharp UV-vis absorption peaks at 311 nm and 322 nm, we found that both samples possess approximately 2:1 Cd:S ratio and have similar nearest-neighbour structural arrangement ~~s.~~ However, both samples demonstrate a significant departure from the tetrahedral structural arrangement, with an average bond angle determined to be around 106.1o showing a bi-fold bond angle distribution. Our ~~re~~ sults ~~suggest that both samples are quazi-isome~~ rs – their core structure has identical chemical composition but a different atomic arrangement with distinct bond a ~~ngle distributions.~~",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "BBSRC",
+        "grant_id": "BB/J001473/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and discussion",
+      "Conclusion",
+      "Experiment"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond synchrotron light source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "MSC-311",
+      "sample_description": "Magic-size cluster with UV-vis absorption peak at 311 nm.",
+      "chemical_composition": "Cd39S24",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MSC-322",
+      "sample_description": "Magic-size cluster with UV-vis absorption peak at 322 nm.",
+      "chemical_composition": "Cd39S24",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "RQD-355",
+      "sample_description": "Regular quantum dot with UV-vis absorption peak at 355 nm.",
+      "chemical_composition": "CdS",
+      "sample_state": "nanoparticles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "bulk CdS",
+      "sample_description": "Crystalline reference with zinc-blende structure.",
+      "chemical_composition": "CdS",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure measurements recorded at liquid N2 temperature for Cd K edge and room temperature for Cd L3 edge.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption near edge structure measurements at K and L3 absorption edges.",
+      "measurement_technique": "X-ray absorption near edge structure",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

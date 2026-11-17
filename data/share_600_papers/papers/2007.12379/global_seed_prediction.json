@@ -1,0 +1,254 @@
+{
+  "bibliographic": {
+    "title": "Synthesis of multilamellar walls vesicles polyelectrolyte-surfactant complexes from pH-stimulated phase transition using microbial biosurfactants",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Sorbonne Université, Centre National de la Recherche Scientifique, Laboratoire de Chimie de la Matière Condensée de Paris , LCMCP, F-75005 Paris, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Diamond Light Source Ltd, Diamond House, Harwell Science & Innovation Campus, Didcot, Oxfordshire, OX11 0DE"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Synchrotron SOLEIL, L'Orme des Merisiers Saint-Aubin, BP 48 91192 Gif-sur-Yvette Cedex"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chloé Seyrig",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Patrick Le Griel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Nathan Cowieson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Javier Perez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Niki Baccile",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Multilamellar wall vesicles (MLWV) are an interesting class of polyelectrolyte-surfactant complexes (PESCs) for wide applications ranging from house-care to biomedical products. If MLWV are generally obtained by a polyelectrolyte-driven vesicle agglutination under pseudoequilibrium conditions, the resulting phase is often a mixture of more than one structure. In this work, we show that MLWV can be massively and reproductively prepared from a recently developed method involving a pH-stimulated phase transition from a complex coacervate phase ( Co ). We employ a biobased pH-sensitive microbial glucolipid biosurfactant in the presence of a natural, or synthetic, polyamine (chitosan, poly-L-Lysine, polyethylene imine, polyallylamine). In situ small angle X-ray scattering (SAXS) and cryogenic transmission electron microscopy (cryo-TEM) show a systematic isostructural and isodimensional transition from the Co to the MLWV phase, while optical microscopy under polarized light experiments and cryo-TEM reveal a massive, virtually quantitative, presence of MLWV. Finally, the multilamellar wall structure is not perturbed by filtration and sonication, two typical methods employed to control size distribution in vesicles. In summary, this work highlights a new, robust, non-equilibrium phase-change method to develop biobased multilamellar wall vesicles, promising soft colloids with applications in the field of personal care, cosmetics and pharmaceutics among many others.",
+    "keywords": [
+      "Polyelectrolyte-Surfactant Complex",
+      "complex coacervates",
+      "biosurfactants",
+      "polyelectrolytes",
+      "multilamellar walls vesicles"
+    ],
+    "doi": "10.1016/j.jcis.2020.07.021",
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Journal of Colloid and Interface Science",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Sorbonne Université",
+        "grant_id": "contract N°3083/2018"
+      },
+      {
+        "funder": "French ANR",
+        "grant_id": "Project N° SELFAMPHI - 19-CE43-0012-01"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental section",
+      "Chemicals",
+      "Preparation of stock solutions",
+      "Preparation of samples",
+      "Dynamic light scattering measurements (DLS)",
+      "pH-resolved in situ Small angle X-ray scattering (SAXS)",
+      "Polarized Light Microscopy (PLM)",
+      "Cryogenic transmission electron microscopy (cryo-TEM)",
+      "Results",
+      "Quantitativity and size control",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source Synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "Soleil Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "G-C18:1 + CHL",
+      "sample_description": null,
+      "chemical_composition": "G-C18:1 + CHL",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "G-C18:1 + PLL",
+      "sample_description": null,
+      "chemical_composition": "G-C18:1 + PLL",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "G-C18:1 + PAH",
+      "sample_description": null,
+      "chemical_composition": "G-C18:1 + PAH",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "G-C18:1 + PEI",
+      "sample_description": null,
+      "chemical_composition": "G-C18:1 + PEI",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "G-C18:1 + gelatin",
+      "sample_description": null,
+      "chemical_composition": "G-C18:1 + gelatin",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "gelatin",
+      "sample_description": null,
+      "chemical_composition": "gelatin",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Aldrich"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "DLS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Intensity-filtered DLS experiments to evaluate the impact of filtration and sonication on MLWV size distribution.",
+      "measurement_technique": "Dynamic light scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "in situ SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "pH-resolved in situ SAXS experiments during pH variation to monitor the Co-to-MLWV phase transition.",
+      "measurement_technique": "Small angle X-ray scattering",
+      "measurement_mode": [
+        "pHScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PLM",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Optical microscopy under polarized light to differentiate between MLWV and agglutinated vesicles.",
+      "measurement_technique": "Polarized Light Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "cryo-TEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Cryogenic transmission electron microscopy to visualize the structure of Co and MLWV phases.",
+      "measurement_technique": "cryogenic transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

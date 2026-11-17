@@ -1,0 +1,199 @@
+{
+  "bibliographic": {
+    "title": "3D Imaging of directional multi-scale cellulose nanostructures through multi-directional dark-field neutron tomography",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Applied Materials Group, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Materials and Environmental Chemistry, Stockholm University, SE-10691 Stockholm, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Matteo Busi",
+        "orcid": null,
+        "email": "matteo.busi@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Elisabetta Nocerino",
+        "orcid": null,
+        "email": "elisabetta.nocerino@mmk.su.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Agnes A¸hl",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Lennart Bergström",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Markus Strobl",
+        "orcid": null,
+        "email": "markus.strobl@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Hierarchical biomaterials embody nature’s intricate design principles, offering advanced functionalities through the complex, multi-level organization of their molecular and nanosized building blocks. However, the comprehensive characterization of their 3D structure remains a challenge, particularly due to radiation damage caused by conventional X-ray- and electron-based imaging techniques, as well as due to the length scale limitations of scattering-based investigation methods. Here, we present a study utilizing multi-directional dark-field neutron imaging in tomographic mode to visualize the 3D nanoarchitecture of nanocellulose solid foams, a class of sustainable materials possessing complex and highly tunable hierarchical structures. By exploiting the unique properties of neutrons as a probe, this non-destructive method circumvents the inherent limitations of damage-inducing ionizing radiation, preserving the structural and chemical integrity of the biomaterials, and allowing for truly multiscale characterization of the spatial orientation and distribution of cellulose nano fibrils within large-volume samples. In particular, the study showcases the 3-dimensional anisotropic orientation and degree of alignment of nanofibrils with different crystallinity, across various length scales, from nanometers to centimeters. This approach offers a valuable and generally applicable tool for multi-scale characterisation of biobased materials where complex nanoscale arrangements inform macroscopic properties.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "SSF-Swedness",
+        "grant_id": "SNP21-0004"
+      },
+      {
+        "funder": "SSF funded graduate school SwedNess",
+        "grant_id": "GSn15-008"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Main",
+      "Discussion",
+      "2 Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ICON beamline of the Paul Scherrer Institut"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    },
+    {
+      "id": "facility_3",
+      "name": "Swiss Federal Laboratories for Materials Science and Technology"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CNC mit",
+      "sample_description": "Nanocellulose foam prepared by multi-directional ice-templating of cellulose nanocrystals.",
+      "chemical_composition": "cellulose nanocrystals",
+      "sample_state": "foam",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CNF mit",
+      "sample_description": "Nanocellulose foam prepared by multi-directional ice-templating of cellulose nanofibrils.",
+      "chemical_composition": "cellulose nanofibrils",
+      "sample_state": "foam",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CNF uit",
+      "sample_description": "Nanocellulose foam prepared by uni-directional ice-templating of cellulose nanofibrils.",
+      "chemical_composition": "cellulose nanofibrils",
+      "sample_state": "foam",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "multi-directional NDFI",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Tomographic acquisition of attenuation and directional dark-field images to resolve 3D nanostructure and anisotropy.",
+      "measurement_technique": "neutron dark-field imaging",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "2D SAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Local 2D small angle X-ray scattering measurements to validate fiber alignment and calculate Hermans orientation parameter.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Scanning electron microscopy imaging of the foam walls morphology.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

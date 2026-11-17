@@ -1,0 +1,202 @@
+{
+  "bibliographic": {
+    "title": "Experimental evidence of non-equilibrium phase separation in supercritical fluids",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics, POSTECH, Pohang, Republic of Korea"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Neutron Science Division, Korea Atomic Energy Research Institute, Daejeon, Republic of Korea"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Department of Chemical Engineering, Kyung Hee University, Yongin, Republic of Korea"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Division of Advanced Nuclear Engineering, POSTECH, Pohang, Republic of Korea"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Juho Lee",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yeonguk Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jong Dae Jang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Changwoo Do",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Min Young Ha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Gunsu Yun",
+        "orcid": null,
+        "email": "gunsu@postech.ac.kr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "Supercritical fluids (SCFs) have long been considered homogeneous and structureless, yet recent studies suggest the existence of transient, liquid-like clusters under dynamic processes. In this study, we provide experimental evidence of semi-stable non-equilibrium phase separation in SCFs through opacity measurements and small-angle neutron scattering (SANS). By investigating the thermophysical properties of helium, argon, and krypton during adiabatic expansion, we show that cooling dynamics vary significantly among species, influencing cluster formation. Neutron scattering measurements reveal distinct variations in signal intensity, supporting that the clusters slowly dissolve into the background with a surprisingly long time scale of tens of minutes. Given that SCFs in industrial applications frequently experience dynamic, non-equilibrium conditions rather than in strict thermodynamic equilibrium, our results provide crucial insights with potential implications for advanced material processing, energy systems, and chemical engineering.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Foundation of Korea",
+        "grant_id": "RS-2024-00349684"
+      },
+      {
+        "funder": "Korea Atomic Energy Research Institute",
+        "grant_id": "2710007349"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL APPARATUS AND CONDITIONS",
+      "GENERATION OF LIQUID-LIKE PARTICLES BY TEMPERATURE DROP",
+      "SANS RESULTS",
+      "DISCUSSION",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "HANARO experimental reactor"
+    },
+    {
+      "id": "facility_2",
+      "name": "Spallation Neutron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "helium",
+      "sample_description": null,
+      "chemical_composition": "He",
+      "sample_state": "supercritical fluid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "argon",
+      "sample_description": null,
+      "chemical_composition": "Ar",
+      "sample_state": "supercritical fluid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "krypton",
+      "sample_description": null,
+      "chemical_composition": "Kr",
+      "sample_state": "supercritical fluid",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "opacity measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the ratio between incident and transmitted laser power to determine the opacity of SCFs during compression.",
+      "measurement_technique": "opacity measurements",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Small-angle neutron scattering measurements on krypton SCF to observe the time-dependent evolution of clusters.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "TimeScan",
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

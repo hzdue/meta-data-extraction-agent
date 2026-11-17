@@ -1,0 +1,126 @@
+{
+  "bibliographic": {
+    "title": "Detachment limited interlayer transport processes during SrTiO3 pulsed laser epitaxy.",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, Vermont 05405, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "*",
+        "text": "X-ray Science Division, Advanced Photon Source, Argonne National Laboratory, Lemont, IL, 60439, USA."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Je9rey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Xiaozhi Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": "rheadrick@uvm.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Pulsed laser epitaxial growth is characterized by high instantaneous deposition rates that leads to the nucleation of transient islands, both on surface terraces, and on top of stable islands formed during previous deposition pulses. We report results from combined in-situ X-ray reflectivity and kinetic Monte Carlo (kMC) simulations. Specular reflectivity monitors interlayer transport, while di9use scattering reveals the evolution of in-plane length scales, both during the recovery time between individual laser pulses and over multiple deposited layers.   The initial stage after each laser pulse is faster than the temporal resolution of the experiment, while subsequent recovery occurs over seconds. The results suggest that transient islands on top of stable two-dimensional islands form immediately after the deposition pulse, and then ripen via detachment and di9usion, leading to the slower component. kMC simulations show that the detachment energy barrier plays a dominant role in determining the recovery time constant.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": "Physical Review Materials",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2336506"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. EXPERIMENTAL RESULTS",
+      "IV. COMPUTATIONAL RESULTS",
+      "V. DISCUSSION",
+      "VI. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Integrated In-situ and Resonant Hard X-ray (ISR) beamline at the National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "SrTiO3",
+      "sample_description": "TiO2-terminated surface produced by etching in buffered NH4F-HF and high-temperature annealing.",
+      "chemical_composition": "SrTiO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in-situ X-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time specular and diffuse X-ray scattering recorded at the [0 0 1/2] anti-Bragg position using 11.3 keV photons during film growth.",
+      "measurement_technique": "X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "kinetic Monte Carlo simulations",
+      "sample_refs": [],
+      "facility_refs": [],
+      "dataset_description": "Simulations of surface morphology evolution using a solid-on-solid model to track atomic-scale processes like diffusion and detachment.",
+      "measurement_technique": "kinetic Monte Carlo",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

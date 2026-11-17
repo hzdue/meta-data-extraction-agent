@@ -1,0 +1,189 @@
+{
+  "bibliographic": {
+    "title": "Inelastic neutron scattering: A novel approach towards determination of equilibrium isotopic fractionation factors. Size effects on heat capacity and beta-factor of diamond",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "A.N. Frumkin Institute of physical chemistry and electrochemistry RAS, Leninsky pr. 31 korp. 4, 119071, Moscow"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "D.S.Korzhinskii Institute of Experimental Mineralogy RAS, Academica Osypyana ul., 4, Chernogolovka, Moscow region, 142432, Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble, Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Instituto de Fusión Nuclear, Dep. Ingeniería Energética, ETSI Industriales, Universidad Politécnica de Madrid, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Adámas Nanotechnologies, 8100 Brownleigh Drive, Raleigh, NC 2761, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Andrey A. Shiryaev",
+        "orcid": null,
+        "email": "a_shiryaev@mail.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Veniamin B. Polyakov",
+        "orcid": null,
+        "email": "polyakov@iem.ac.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stephane Rols",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Antonio Rivera",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Olga Shenderova",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "A new experimental method of determination of equilibrium isotopic properties of substances based on Inelastic Neutron Scattering (INS) is proposed. We present mathematical formalism allowing calculation of beta-factor of single-element solids based on INS-derived Phonon Density of States (PDOS). PDOS data for nanodiamonds of widely different sizes and of macroscopic diamond were determined from Inelastic Neutron Scattering experiment. This allowed determination of heat capacities and, for the first time, β-factors for the diamond nanoparticles. We demonstrate considerable size-dependent increase of the heat capacities and decrease of the beta-factors for nanodiamonds relative to bulk diamond. Contributions of surface impurities/phases and phonon confinement to the size effects are evaluated. Applications to formation of diamond nanoparticles in nature are briefly discussed.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Russian Foundation of Basic Research",
+        "grant_id": "19-0500865a"
+      },
+      {
+        "funder": "Russian Foundation of Basic Research",
+        "grant_id": "13-05-91320-SIG-a"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. INTRODUCTION",
+      "2. Samples and experimental details",
+      "Theory.",
+      "Calculating the β-factor and heat capacity from the PDOS.",
+      "Extraction of the12 C component from the diamond PDOS",
+      "Results",
+      "INS spectra of nanodiamonds.",
+      "INS-derived β-factor and heat capacity for bulk diamond",
+      "Heat capacity of nanodiamond",
+      "β-factor for nanodiamond",
+      "Applicability of different methods for calculation of the β-factor",
+      "Implications for natural nanodiamonds",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institute Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "nanodiamonds 170 nm",
+      "sample_description": "milled High-Pressures – High Temperature synthetic diamonds",
+      "chemical_composition": "C",
+      "sample_state": "powder",
+      "sample_mass": "2-4 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "nanodiamonds 40 nm",
+      "sample_description": "milled High-Pressures – High Temperature synthetic diamonds",
+      "chemical_composition": "C",
+      "sample_state": "powder",
+      "sample_mass": "2-4 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "synthetic detonation nanodiamond (DND) 5 nm",
+      "sample_description": null,
+      "chemical_composition": "C",
+      "sample_state": "powder",
+      "sample_mass": "2-4 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "macrodiamond",
+      "sample_description": "powder of synthetic diamond with grain sizes between 10 and 50 microns",
+      "chemical_composition": "C",
+      "sample_state": "powder",
+      "sample_mass": "2-4 g",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Inelastic Neutron Scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "INS spectra obtained at temperatures between 150 and 500 K in vacuum using the IN4C instrument to derive the phonon density of states.",
+      "measurement_technique": "Inelastic Neutron Scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

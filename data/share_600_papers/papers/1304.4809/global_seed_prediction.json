@@ -1,0 +1,182 @@
+{
+  "bibliographic": {
+    "title": "The search for Nanobubbles by using specular and off-specular Neutron Reflectometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Institut Laue-Langevin, 38000 Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "TIMC-IMAG, Université Joseph Fourier, 38706 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Department of Chemistry, Technical University Berlin, 10623 Berlin, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Department of Physics and Astronomy, University of Sheffield, S102TN Sheffield, UK"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Materials Physics, Department of Physics and Astronomy, Uppsala University, 75121 Uppsala, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Philipp Gutfreund",
+        "orcid": null,
+        "email": "gutfreund@ill.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marco Maccarini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Andrew J.C. Dennison",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_1",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Max Wolff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "We apply specular and off-specular neutron reflection at the hydrophobic silicon/water interface to check for evidence of nanoscopic air bubbles whose presence is claimed after an ad hoc procedure of solvent exchange. Nanobubbles and/or a depletion layer at the hydrophobic/water interface have long been discussed and generated a plethora of controversial scientific results. By combining neutron reflectometry (NR), off-specular reflectometry (OSS) and grazing incidence small angle neutron scattering (GISANS), we studied the interface between hydrophobized silicon and heavy water before and after saturation with nitrogen gas. Our specular reflectometry results can be interpreted by assuming a sub-molecular sized depletion layer and the off-specular measurements show no change with nitrogen super saturated water. This picture is consistent with the assumption that, following the solvent exchange, no additional nanobubbles are introduced at significant concentrations (if present at all). Furthermore, we discuss the results, in terms of the maximum surface coverage of nanobubbles that could be present on the hydrophobic surface compatibly with the sensitivity limit of these techniques.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish research council VR",
+        "grant_id": "A0505501"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Details",
+      "Results and Discussion",
+      "Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "OTS-D2O interface",
+      "sample_description": "Hydrophobized silicon substrate coated with OTS in contact with heavy water.",
+      "chemical_composition": "OTS/D2O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "N2 enriched D2O",
+      "sample_description": "Hydrophobized silicon substrate in contact with nitrogen saturated heavy water after solvent exchange.",
+      "chemical_composition": "OTS/N2-D2O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "specular NR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Specular neutron reflectivity measurements of the OTS-D2O interface before and after nitrogen enrichment.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "off-specular NR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Off-specular neutron reflectivity measurements to probe in-plane density fluctuations.",
+      "measurement_technique": "neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "GISANS",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Grazing incidence small angle neutron scattering to check for bubbles in the range of 10 nm - 400 nm.",
+      "measurement_technique": "grazing incidence small angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

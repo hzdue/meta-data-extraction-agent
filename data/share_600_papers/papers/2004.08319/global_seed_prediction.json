@@ -1,0 +1,290 @@
+{
+  "bibliographic": {
+    "title": "Magnetic correlations in subsystems of the misfit [Ca2CoO3]0.62[CoO2] cobaltate",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Aligarh Muslim University, Aligarh 202002, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "UGC-DAE Consortium for Scientific Research, Indore 452001, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, Central University of Punjab, Bathinda Punjab 151001, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "LSNCM-NFA, Institute of Physics, UnB, Brasilia DF 70910 900, Brazil"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "ISIS Facility, Rutherford Appleton Laboratory, Chilton, Didcot OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Deutsches Elektronen-Synchrotron, Notkestrasse 85, D-22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Abdul Ahad",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "K. Gautam",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. Dey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. S. Majid",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "F. Rahman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. K. Sharma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "J. A. H. Coaquira",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Ivan da Silva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "E. Welter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "D. K. Shukla",
+        "orcid": null,
+        "email": "dkshukla@csr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "[Ca2CoO3]0.62[CoO2], a two dimensional misfit metallic compound, is famous for its rich phases accessed by temperature, i.e. high temperature spin-state transition, metal-insulator transition (MIT) at intermediate temperature ( ∼ 100 K) and low temperature spin density wave (SDW). It enters into SDW phase below T MIT which becomes long range at 27 K. Information on the independent role of misfit layers (rocksalt/Ca2CoO3 & triangular/CoO2) in these phases is scarce. By combining a set of complementary macroscopic (DC magnetization and resistivity) and microscopic (neutron diffraction and X-ray absorption fine structure spectroscopy) measurements on pure (CCO) and Tb substituted in the rocksalt layer of CCO (CCO1), magnetic correlations in both subsystems of this misfit compound are unraveled. CCO is found to exhibit glassiness, as well as exchange bias (EB) effects, while CCO1 does not exhibit glassiness, albeit it shows weaker EB effect. By combining local structure investigations from extended X-ray absorption fine structure (EXAFS) spectroscopy and neutron diffraction results on CCO, we confirm that the SDW arises in the CoO2 layer. Our results show that the magnetocrystalline anisotropy associated with the rocksalt layer acts as a source of pinning, which is responsible for EB effect. Ferromagnetic clusters in the Ca2CoO3 affects SDW in CoO2 and ultimately glassiness arises.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2020-10-20",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "UGC, New Delhi",
+        "grant_id": "201617/MANF-2015-17-UTT-53853"
+      },
+      {
+        "funder": "DST-New Delhi",
+        "grant_id": "INT/RUS/RFBR/P-269"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CCO",
+      "sample_description": "Pure misfit cobaltate.",
+      "chemical_composition": "[Ca2CoO3]0.62[CoO2]",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CCO1",
+      "sample_description": "Tb substituted in the rocksalt layer of CCO.",
+      "chemical_composition": "[Ca1.959Tb0.041CoO3]0.62[CoO2]",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Phase purity confirmation of the samples.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray photoemission spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XPS performed using an Omicron energy analyzer with Al Kα X-ray source.",
+      "measurement_technique": "X-ray photoemission spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC magnetization including isotherms, virgin and full loop M(H), and M(T) in FC and ZFC modes.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "ZFC relaxation measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ZFC relaxation measurements at 5 and 30 K.",
+      "measurement_technique": "magnetization",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron diffraction patterns collected at General Materials Diffractometer (GEM) in the temperature range 6-110 K.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure spectroscopy measurements at Co K edge in fluorescence and transmission mode.",
+      "measurement_technique": "extended X-ray absorption fine structure spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Resistivity measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature dependent resistivity of both samples.",
+      "measurement_technique": "resistivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

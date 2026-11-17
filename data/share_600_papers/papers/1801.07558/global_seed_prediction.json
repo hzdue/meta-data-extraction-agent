@@ -1,0 +1,185 @@
+{
+  "bibliographic": {
+    "title": "Dynamic characterization of cellulose nanofibrils in sheared and extended semi-dilute dispersions",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Linné FLOW Center, KTH Mechanics, Qsquars backe 18, Royal Institute of Technology, SE-100 44 Stockholm, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "Wallenberg Wood Science Center, Royal Institute of Technology, SE-100 44 Stockholm, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Department of Chemistry, Stony Brook University, Stony Brook, NY 11794-3400, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "DESY, Notkestrasse 85, Hamburg, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Department of Fibre and Polymer Technology, Teknikringen 56-58, Royal Institute of Technology, SE-100 44 Stockholm, Sweden"
+      },
+      {
+        "id": "aff_6",
+        "label": "⊥",
+        "text": "INM-Leibniz Institute for New Materials, Campus D2 2, 66123 Saarbruecken, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tomas Rosén",
+        "orcid": null,
+        "email": "rosen@mech.kth.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Nitesh Mittal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stephan V. Roth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Peng Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4",
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "L. Daniel Söderberg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Fredrik Lundell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "New materials made through controlled assembly of dispersed cellulose nanofibrils (CNF) has the potential to develop into biobased competitors to some of the highest performing materials today. The performance of these new cellulose materials depends on how easily CNF alignment can be controlled with hydrodynamic forces, which are always in competition with a different process driving the system towards isotropy, called rotary diffusion . In this work, we present a flow-stop experiment using polarized optical microscopy (POM) to study the rotary diffusion of CNF dispersions in process relevant flows and concentrations. This is combined with small angle X-ray scattering (SAXS) experiments to analyze the true orientation distribution function (ODF) of the flowing fibrils. It is found that the rotary diffusion process of CNF occurs at multiple time scales, where the fastest scale seems to be dependent on the deformation history of the dispersion before the stop. At the same time, the hypothesis that rotary diffusion is dependent on the initial ODF does not hold as the same distribution can result in different diffusion time scales. The rotary diffusion is found to be faster in flows dominated by shear compared to pure extensional flows. Furthermore, the experimental setup can be used to quickly characterize the dynamic properties of flowing CNF and thus aid in determining the quality of the dispersion and its usability in material processes.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Wallenberg Wood Science Center",
+        "grant_id": "WWSC"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental section",
+      "Results: FFC geometry",
+      "Results: CC geometry",
+      "Discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cellulose nanofibrils (CNF)",
+      "sample_description": "Prepared from chemically bleached wood fibers (60% Norwegian spruce and 40% Scots pine).",
+      "chemical_composition": null,
+      "sample_state": "dispersion",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "POM flow-stop experiment",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of birefringence decay to study rotary diffusion of CNF dispersions.",
+      "measurement_technique": "polarized optical microscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SAXS measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ measurements to analyze the orientation distribution function (ODF) of flowing fibrils.",
+      "measurement_technique": "small angle X-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "bibliographic": {
+    "title": "How Nanoporous Silicon-Polypyrrole Hybrids Flex Their Muscles in Aqueous Electrolytes: In Operando High-Resolution X-Ray Diffraction and Electron Tomography-Based Micromechanical Computer Simulations",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Hamburg University of Technology, Institute for Materials and X-Ray Physics, Denickestr. 10, 21073 Hamburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for X-Ray and Nano Science CXNS, Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Center for Hybrid Nanostructures CHyN, Hamburg University, Luruper Chaussee 149, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute of Materials Physics and Technology, Hamburg University of Technology, 21073 Hamburg, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Electron Microscopy Unit BEEM, Hamburg University of Technology, 21073 Hamburg, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Physics Department, University of Hamburg, 20355 Hamburg, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institute of Materials Research, Materials Mechanics, Helmholtz-Zentrum Hereon, 21502 Geesthacht, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Manuel Brinker",
+        "orcid": null,
+        "email": "manuel.brinker@tuhh.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Marc Thelen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Manfred May",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Dagmar Rings",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Tobias Krekeler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Pirmin Lakner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Thomas F. Keller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Florian Bertram",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Norbert Huber",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Patrick Huber",
+        "orcid": null,
+        "email": "patrick.huber@tuhh.de",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Macroscopic strain experiments have revealed that silicon crystals traversed by parallel, channel-like nanopores functionalized with the artificial muscle polymer polypyrrole (PPy) exhibit large and reversible electrochemo-mechanical actuation in aqueous electrolytes. On a macroscopic scale these actuation properties are well understood. However, on the microscopical level this system still bears open questions, as to how the electrochemical expansion and contraction of PPy acts on to np-Si pore walls and how the collective motorics of the pore array emerges from the single-nanopore behavior. Here we present synchrotron-based, in operando X-ray diffraction on the evolving electrostrains in epilayers of this material grown on bulk silicon. An analysis of these experiments with micromechanical finite element simulations, that are based on a full 3D reconstruction of the nanoporous medium by transmission electron microscopy (TEM) tomography, shows that the in-plane mechanical response is dominantly isotropic despite the anisotropic elasticity of the single crystalline host matrix. However, the structural anisotropy originating from the parallel alignment of the nanopores lead to significant differences between the in- and out-of-plane electromechanical response. This response is not describable by a simple 2D arrangement of parallel cylindrical channels. Rather, the simulations highlight that the dendritic shape of the silicon pore walls, including pore connections between the main channels, cause complex, highly inhomogeneous stress-strain fields in the crystalline host. Time-dependent X-ray scattering experiments on the dynamics of the actuator properties hint towards the importance of diffusion limitations, plastic deformation and creep in the nanoconfined polymer upon (counter-)ion adsorption and desorption, the very pore-scale processes causing the macroscopic electroactuation. From a more general perspective, our study demonstrates that the combination of TEM tomography-based micromechanical modeling with high-resolution X-ray scattering experiments provides a powerful approach for in operando analysis of nanoporous composites from the single-nanopore up to the porous-medium scale.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": "https://doi.org/10.15480/336.4675",
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "192346071"
+      },
+      {
+        "funder": "European Innovation Council",
+        "grant_id": "964524 EHAWEDRY"
+      },
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "402553194"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "MATERIALS AND METHODS",
+      "RESULTS",
+      "DISCUSSION",
+      "SUMMARY"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Srefl",
+      "sample_description": "np-Si/PPy layer attached to a thicker bulk silicon support, used for reflection geometry measurements.",
+      "chemical_composition": "np-Si/PPy",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Strans",
+      "sample_description": "np-Si/PPy layer attached to a thicker bulk silicon support, used for transmission geometry measurements.",
+      "chemical_composition": "np-Si/PPy",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "unfilled np-Si",
+      "sample_description": "Nanoporous silicon layer without polymer filling.",
+      "chemical_composition": "np-Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction (reflection)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In operando XRD measurements of the (400) Bragg peak in the out-of-plane direction under varying electrochemical potentials.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction (transmission)",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In operando XRD measurements of the (440) Bragg peak in the in-plane direction.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "TEM tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "3D reconstruction of the nanoporous medium using STEM HAADF detector.",
+      "measurement_technique": "transmission electron microscopy tomography",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Cyclic voltammetry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electrochemical characterization to determine capacitance and ion diffusion limitations.",
+      "measurement_technique": "cyclic voltammetry",
+      "measurement_mode": [
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

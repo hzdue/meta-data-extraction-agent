@@ -1,0 +1,265 @@
+{
+  "bibliographic": {
+    "title": "Ultrafast light-induced shear strain probed by time-resolved X-ray diffraction: the model multiferroic BiFeO3 as a case study",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut des Molécules et Matériaux du Mans, UMR 6283 CNRS, Le Mans Université, 72085 Le Mans, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Centre de NanoSciences et de Nanotechnologies, UMR 9001 CNRS Université Paris Saclay, Palaiseau, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Laboratoire d’Acoustique de Le Mans Université, UMR CNRS 6613, Le Mans Université, 72085 Le Mans, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "SPEC UMR CEA/CNRS, Université Paris-Saclay, L’Orme les Merisiers, 91191 Cedex, Gif-sur-Yvette, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Universit Paris-Saclay, Synchrotron Soleil, 91190, Saint-Aubin, France."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Laboratoire Structures, Propriétés et Modélisation des Solides, CentraleSupélec, UMR CNRS 8580, Université Paris-Saclay, 91190 Gif-sur-Yvette, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "V. Juvé",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "R. Gu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "S. Gable",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "T. Maroutian",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. Vaudel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Matzen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "N. Chigarev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "S. Raetz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "V. E. Gusev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "M. Viret",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "A. Jarnac",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "C. Laulhé",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Maznev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "B. Dkhil",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "P. Ruello",
+        "orcid": null,
+        "email": "pascal.ruello@univ-lemans.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Enabling the light-control of complex systems on ultra-short timescales gives rise to rich physics with promising applications. While crucial, the quantitative determination of both the longitudinal and shear photo-induced strains still remains challenging. Here, by scrutinizing asymmetric Bragg peaks pairs ( ±h 01) using picosecond time-resolved X-ray diffraction experiments in BiFeO3, we simultaneously determine the longitudinal and shear strains. The relative amplitude of those strains can be explained only if both thermal and non-thermal processes contribute to the acoustic phonon photogeneration process. Importantly, we also reveal a difference of the dynamical response of the longitudinal strain with respect to the shear one due to an interplay of quasi-longitudinal and quasi-transverse acoustic modes, well reproduced by our model.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French National Research Agency",
+        "grant_id": "ANR-18-CE090026-04"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SOLEIL Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "BiFeO3 single crystal",
+      "sample_description": "Single crystal oriented along the [001]c direction.",
+      "chemical_composition": "BiFeO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "all-optical pump-probe experiment",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the change of the probe's reflectivity as a function of the pump-probe delay to detect coherent acoustic phonons.",
+      "measurement_technique": "all-optical pump-probe",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "time-resolved X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the transient evolution of the asymmetric Bragg reflection pairs (±h 01) in grazing incidence geometry.",
+      "measurement_technique": "time-resolved X-ray diffraction",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

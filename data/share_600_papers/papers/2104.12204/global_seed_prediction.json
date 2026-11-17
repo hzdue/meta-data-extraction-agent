@@ -1,0 +1,159 @@
+{
+  "bibliographic": {
+    "title": "Analysis of a Three-Dimensional Slip Field in a Hexagonal Ti Alloy from in-situ High-Energy X-ray Diffraction Microscopy Data",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "The Pennsylvania State University, University Park, PA 16802 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Cornell High Energy Synchrotron Source, Ithaca, NY 14853 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Cornell University, Ithaca, NY 14853 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Darren C. Pagan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Kelly E. Nygren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Matthew P. Miller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "Here we analyze a three-dimensional distribution of crystallographic slip measured in-situ during the uniaxial deformation of hexagonal Ti-7Al. The slip field is reconstructed using a novel methodology that combines spatially resolved lattice orientation fields and grainaveraged stresses measured using high-energy X-ray diffraction microscopy (HEDM) with crystal plasticity. Analysis is performed to explore lattice orientation dependence, stress dependence, and connectivity (network relationships) of grains experiencing elevated amounts of slip. Elevated slip is found to be primarily associated with a single large network of connected grains, and within this network, a clustered group of grains oriented favorably for slip are found to have outsized structural importance. The effect of different rate sensitivities of families of slip systems on reconstructed slip activity is also discussed.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-04-27",
+    "venue": "arXiv",
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Office of Naval Research, United States Department of Defense",
+        "grant_id": "N00014-16-1-2982"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1829070"
+      },
+      {
+        "funder": "Air Force Research Laboratory",
+        "grant_id": "FA865019-2-5220"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Material and Methods",
+      "3. Slip Reconstruction Algorithm",
+      "4. Results",
+      "5. Discussion",
+      "6. Summary"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Cornell High Energy Synchrotron Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ti-7Al",
+      "sample_description": "Cast ingot, hot isostatically pressed and extruded into a bar, recrystallized at 955°C for 24 h and furnace cooled.",
+      "chemical_composition": "Ti-7Al",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "nf-HEDM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of spatial distribution of lattice orientation in a 0.75 mm tall volume of the specimen.",
+      "measurement_technique": "near-field high-energy X-ray diffraction microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "ff-HEDM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of grain-averaged elastic strain tensors and stresses as the specimen was continuously loaded.",
+      "measurement_technique": "far-field high-energy X-ray diffraction microscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "µCT",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray microcomputed tomography scan to establish boundaries of the specimen.",
+      "measurement_technique": "X-ray microcomputed tomography",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

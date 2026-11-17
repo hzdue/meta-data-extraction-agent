@@ -1,0 +1,316 @@
+{
+  "bibliographic": {
+    "title": "Effect of substituting non-polar chains with polar chains on the structural dynamics of small organic molecule and polymer semiconductors",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Department of Physics and Centre for Plastic Electronics, Imperial College London, Prince Consort Road, London SW7 2AZ, United Kingdom."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Materials Research Institute and School of Biological and Chemical Sciences, Queen Mary University of London, Mile End Road, London E1 4NS, United Kingdom."
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "School of Physics and Astronomy, Queen Mary University of London, London E1 4NS United Kingdom"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Department of Chemistry and Material Innovation Factory, University of Liverpool, Crown Street, Liverpool L69 7ZD, United Kingdom."
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, Grenoble Cedex 9 38042, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Anne A. Y. Guilbert",
+        "orcid": null,
+        "email": "a.guilbert09@imperial.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Zachary S. Parr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Theo Kreouzis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Duncan J. Woods",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Reiner S. Sprick",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Isaac Abrahams",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Christian B. Nielsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Mohamed Zbiri",
+        "orcid": null,
+        "email": "zbiri@ill.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The processability and optoelectronic properties of organic semiconductors can be tuned and manipulated via chemical design. The substitution of the popular alkyl side chains by oligoethers has recently been successful for applications such as bioelectronic sensors and photocatalytic water-splitting. Beyond the differences in polarity, the carbon-oxygen bond in oligoethers is likely to render the system softer and more prone to dynamical disorder that can be detrimental to charge transport for example. In this context, we use neutron spectroscopy as a master method of probe, in addition to characterisation techniques such as X-Ray diffraction, differential scanning calorimetry and polarized optical microscopy to study the effect of the substitution of n-hexyl (Hex) chains by triethylene glycol (TEG) chains on the structural dynamics of two organic semiconducting materials: a phenylene-bithiophene-phenylene (PTTP) small molecule and a fluorene-codibenzothiophene (FS) polymer. Counterintuitively, inelastic neutron scattering (INS) reveals a general softening of the modes of PTTP and FS materials with Hex chains, pointing towards an increased dynamical disorder in the Hex-based systems. However, temperature-dependent X-Ray and neutron diffraction as well as INS and differential scanning calorimetry evidence an extra reversible transition close to room temperature for PTTP with TEG chains. The observed extra structural transition, which is not accompanied by a change in birefringence, can also be observed by quasi-elastic neutron scattering (QENS). A fastening of the TEG chains dynamics is observed in the case of PTTP and not FS. We therefore assign this transition to the melt of the TEG chains. Overall the TEG chains are promoting dynamical order at room temperature, but if crystallising, may introduce an extra reversible structural transition above room temperature leading to thermal instabilities. Ultimately, a deeper understanding of chain polarity and structural dynamics can help guide new materials design and navigate the intricate balance between electronic charge transport and aqueous swelling that is being sought for a number of emerging organic electronic and bioelectronic applications.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/P00928X/1"
+      },
+      {
+        "funder": "Academy of Medical Sciences & Wellcome Trust",
+        "grant_id": "SBF002/1158"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results and discussion",
+      "Experimental",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "National Crystallography Service at the University of Southampton"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FS-Hex",
+      "sample_description": null,
+      "chemical_composition": "fluorene-co-dibenzothiophene sulfone",
+      "sample_state": "polymer",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FS-TEG",
+      "sample_description": null,
+      "chemical_composition": "fluorene-co-dibenzothiophene sulfone",
+      "sample_state": "polymer",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "PTTP-Hex",
+      "sample_description": null,
+      "chemical_composition": "phenylene-bithiophene-phenylene",
+      "sample_state": "small molecule",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "PTTP-TEG",
+      "sample_description": null,
+      "chemical_composition": "phenylene-bithiophene-phenylene",
+      "sample_state": "small molecule",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron diffractograms at room temperature and temperature-dependent measurements.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "specular X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Specular X-ray diffractograms at room temperature and temperature-dependent measurements.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "single crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-Ray diffraction carried out on a single crystal grown from slow cooling of a hot toluene solution.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "differential scanning calorimetry",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DSC traces performed at a scan rate of 10 °C/min.",
+      "measurement_technique": "differential scanning calorimetry",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "polarized optical microscopy",
+      "sample_refs": [
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Micrographs recorded during the second heating cycle.",
+      "measurement_technique": "polarized optical microscopy",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Generalized density of state (GDOS) measurements at various temperatures.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "quasi-elastic neutron scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Q-dependent and temperature-dependent QENS spectra using the IN6 spectrometer.",
+      "measurement_technique": "quasi-elastic neutron scattering",
+      "measurement_mode": [
+        "AngleScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

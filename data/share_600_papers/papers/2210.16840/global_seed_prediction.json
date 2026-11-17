@@ -1,0 +1,172 @@
+{
+  "bibliographic": {
+    "title": "The creep deformation of a new nickel-base alloy-by-design",
+    "subtitle": "studied using synchrotron X-ray diffraction",
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "MBLEM, Department of Engineering Science, University of Oxford, Parks Road, Oxford OX1 3PJ, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Williams Advanced Engineering, Wantage, Oxfordshire, OX12 0DQ, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jingwei Chen",
+        "orcid": null,
+        "email": "jingwei.chen@eng.ox.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Zifan Wang",
+        "orcid": null,
+        "email": "zifan.wang@exeter.ox.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Chrysanthi Papadaki",
+        "orcid": null,
+        "email": "chrysanthi.papadaki@wae.com",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Alexander M. Korsunsky",
+        "orcid": null,
+        "email": "Alexander.korsunsky@eng.ox.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Understanding the creep mechanisms and deformation response at different stresses and temperatures \n\nis crucial for design using nickel-base superalloys for high-temperature applications. In this study, the \n\ncreep behaviour of a newly designed superalloy (nominated Alloy 11) at 750 ℃ /400MPa and 700℃/800MPa was systematically investigated using SEM, STEM, EBSD and synchrotron X-ray diffraction. Material properties and mechanical response were analysed by considering such properties as lattice parameters and misfit, phase volume fraction, microstrain in reference and crept samples. Detwinning and dynamic recrystallization were observed for the crept samples. STEM characterization \n\nof deformed materials reveals that multiple deformation mechanisms and defects could be identified \n\nin crept samples, namely, dislocations in the 𝛾 matrix channels and in 𝛾<sup>!</sup> precipitates, along with continuous and isolated stacking faults. The highest values of lattice misfit, microstrain and lattice parameter change were observed at the centre of dogbone-shaped crept samples. This was associated \n\nwith the hump-shaped temperature distribution profile during creep testing. The significant spatial variation detected in terms of lattice parameters, misfit and microstrain support the conclusion that it is important to perform spatially resolved measurements instead of considering each sample as a single measurement point when investigating creep response. It is also worth noting that the statistics of the lattice-parameter distribution for the 𝛾 and 𝛾<sup>!</sup> phases obey a Gaussian distribution. In conclusion, a discussion is given for the meaning and implications of these findings for future research.",
+    "keywords": [
+      "Nickel-base superalloy",
+      "Creep",
+      "Synchrotron X-ray diffraction",
+      "Residual strain",
+      "Statistical mechanics"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "EPSRC",
+        "grant_id": "EP/V007785/1"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental procedure",
+      "3. Results and discussion",
+      "4. Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sample A",
+      "sample_description": "Reference sample, no creep",
+      "chemical_composition": "Alloy 11",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Sample B",
+      "sample_description": "Crept at 750℃/400MPa",
+      "chemical_composition": "Alloy 11",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Sample C",
+      "sample_description": "Crept at 700℃/800MPa",
+      "chemical_composition": "Alloy 11",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Synchrotron XRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Ex-situ synchrotron X-ray diffraction performed on reference and pre-crept samples to study lattice parameters, misfit, phase fraction and microstrain.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "EBSD characterization",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electron backscatter diffraction mapping of the outer surface of samples.",
+      "measurement_technique": "electron backscatter diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM and STEM characterization",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Visualization of deformation mechanisms, cracks, and dislocations in crept samples.",
+      "measurement_technique": "scanning electron microscopy and scanning transmission electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

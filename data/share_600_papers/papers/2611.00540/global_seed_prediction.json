@@ -1,0 +1,260 @@
+{
+  "bibliographic": {
+    "title": "RIXS study of strain-tuned coupled valence and spin-state transition in epitaxial (Pr0.85Y0.15)0.7Ca0.3CoO3 films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, University of Oxford, Clarendon Laboratory, Oxford OX1 3PU, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Chemical Engineering and Materials Science, University of Minnesota, Minneapolis, MN 55455, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "National Synchrotron Light Source II, Brookhaven National Laboratory, Upton, New York 11973, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Yiu-Fung Chiu",
+        "orcid": null,
+        "email": "yiufung.chiu@physics.ox.ac.uk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jaewon Choi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Nileena Nandakumaran",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Mirian Garcia-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Shiyu Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Valentina Bisogni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Chris Leighton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Stefano Agrestini",
+        "orcid": null,
+        "email": "stefano.agrestini@diamond.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Strain-tuned (Pr0 . 85Y0 . 15)0 . 7Ca0 . 3CoO3 thin films provide a model system for controlling coupled valence, spin-state, structural and metal-insulator transitions (VSSTs) in perovskite cobaltite materials. Here, we use Co L 2 , 3 and Pr M 4 , 5 X-ray Absorption Spectroscopy (XAS), along with Co L 3 edge Resonant Inelastic X-ray Scattering (RIXS), to probe the local electronic structure across the strain-controlled VSST in epitaxial (Pr,Y,Ca)CoO3 thin films. In compressively strained films on YAlO3 (YAO) substrates, cooling through the transition produces Pr4+ -like spectral weight, suppresses Co4+ -like character, and favors predominantly low-spin Co3+ . The changes at the Pr and Co edges are quantitatively consistent with a reduction of approximately 0.15 holes per Co in the Co–O network. By contrast, tensile-strained thin films on La0 . 18Sr0 . 82Al0 . 59Ta0 . 41O3 (LSAT) substrates have nearly temperature-independent spectra. Multiplet calculations reproduce the principal XAS lineshapes and local dd excitations at high energy loss. Additionally, low-energy RIXS intensity recovered above the transition is consistent with a combination of Co4+ -like local excitations and a broader particle–hole continuum associated with the metallic phase. These results provide element-resolved evidence for charge compensation between the Pr and Co–O sublattices and support cooperative coupling among charge-transfer, spin-state, and lattice structure at the strain-controlled VSST.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-11-03",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "University of Oxford",
+        "grant_id": "STU0477"
+      },
+      {
+        "funder": "Department of Energy",
+        "grant_id": "DE-SC0016371"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-2011401"
+      },
+      {
+        "funder": "U.S. Department of Energy",
+        "grant_id": "DE-SC0012704"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "21-037"
+      },
+      {
+        "funder": "Brookhaven National Laboratory",
+        "grant_id": "25-022"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENT",
+      "III. THEORY",
+      "IV. XAS RESULTS",
+      "V. RIXS RESULTS",
+      "VI. COOPERATIVE PICTURE OF THE VSST",
+      "VII. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "National Synchrotron Light Source II"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "YAO/PYCCO",
+      "sample_description": "Compressively strained thin film on YAlO3 substrate.",
+      "chemical_composition": "(Pr0.85Y0.15)0.7Ca0.3CoO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "LSAT/PYCCO",
+      "sample_description": "Tensile-strained thin film on La0.18Sr0.82Al0.59Ta0.41O3 substrate.",
+      "chemical_composition": "(Pr0.85Y0.15)0.7Ca0.3CoO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Co L 2, 3-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Temperature-dependent X-ray Absorption Spectroscopy at the Co L edge measured in TEY and TFY modes.",
+      "measurement_technique": "X-ray Absorption Spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Pr M 4, 5-edge XAS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Temperature-dependent X-ray Absorption Spectroscopy at the Pr M edge.",
+      "measurement_technique": "X-ray Absorption Spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Co L 3-edge RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Resonant Inelastic X-ray Scattering at the Co L 3 edge to probe local electronic excitations.",
+      "measurement_technique": "Resonant Inelastic X-ray Scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

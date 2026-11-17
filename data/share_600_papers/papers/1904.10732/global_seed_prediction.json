@@ -1,0 +1,283 @@
+{
+  "bibliographic": {
+    "title": "Probing the stability and magnetic properties of magnetosome chains in freeze-dried magnetotactic bacteria",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Physics and Materials Science Research Unit, University of Luxembourg, 1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Helmholtz-Zentrum Berlin für Materialien und Energie, 12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Dpto. Electricidad y Electrónica, Universidad del País Vasco UPV/EHU, 48940 Leioa, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "SGIker, Universidad del País Vasco UPV/EHU, 48940 Leioa, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "ISIS Neutron and Muon Facility, Rutherford Appleton Laboratory, Chilton, OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Large Scale Structures group, Institut Laue-Langevin, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "CITIMAC, Universidad de Cantabria, 39005 Santander, Spain"
+      },
+      {
+        "id": "aff_8",
+        "label": "h",
+        "text": "BCMaterials, Basque Center for Materials, Applications and Nanostructures, UPV/EHU Science"
+      },
+      {
+        "id": "aff_9",
+        "label": "i",
+        "text": "Dpto. Immunologia, Microbiologia y Parasitologia, Universidad del País Vasco UPV/EHU, 48940 Leioa, Spain"
+      },
+      {
+        "id": "aff_10",
+        "label": "j",
+        "text": "Dpto. Electricidad y Electrónica, Universidad del País Vasco UPV/EHU, 48940 Leioa, Spain"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Philipp Bender",
+        "orcid": null,
+        "email": "philipp.bender@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lourdes Marcano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Iñaki Orue",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Diego Alba Venero",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Luis Fernández Barquín",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alicia Muela",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8",
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Luisa Fdez-Gubieda",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "Magnetospirillum gryphiswaldense biosynthesize high quality magnetite nanoparticles, called magnetosomes, and arrange them into a chain that behaves like a magnetic compass. Here we perform magnetometry and polarized small-angle neutron scattering (SANS) experiments on a powder of freeze-dried and immobilized M. gryphiswaldense . We confirm that the individual magnetosomes are single-domain nanoparticles and that an alignment of the particle moments along the magnetic field direction occurs exclusively by an internal, coherent rotation. Our magnetometry results of the bacteria powder indicate an absence of dipolar interactions between the particle chains and a dominant uniaxial magnetic anisotropy. Finally, we can verify by SANS that the chain structure within the immobilized, freeze-dried bacteria is preserved also after application of large magnetic fields up to 1 T.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "CORE SANS4NCC"
+      },
+      {
+        "funder": "Basque Government",
+        "grant_id": "POS_2018_1_0070"
+      },
+      {
+        "funder": "European Commission Framework Programme 7",
+        "grant_id": "604448 (NanoMag)"
+      },
+      {
+        "funder": "Spanish Government",
+        "grant_id": "MAT2017-83631-C3-R"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1 Introduction",
+      "2 Experimental section",
+      "3 Results and Discussion",
+      "4 Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "M. gryphiswaldense",
+      "sample_description": "Freeze-dried and immobilized bacteria powder containing magnetosome chains.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "bacteria without magnetosomes",
+      "sample_description": "Freeze-dried bacteria grown without magnetosomes used as background.",
+      "chemical_composition": null,
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "transmission electron microscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "TEM imaging of unstained bacteria to determine particle size and chain structure.",
+      "measurement_technique": "transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "DC magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Isothermal magnetization loops, IRM, and DCD curves measured between 1 and -1 T.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "FORC measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "First-order reversal curves measured between a saturating field of 0.1 T and increasing reversal fields.",
+      "measurement_technique": "vibrating sample magnetometer",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Polarized small-angle neutron scattering conducted at room temperature with fields up to 1 T.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SANS background",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS signal of empty bacteria used to subtract from the magnetotactic bacteria signal.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "background"
+    }
+  ]
+}

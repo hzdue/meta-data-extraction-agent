@@ -1,0 +1,196 @@
+{
+  "bibliographic": {
+    "title": "Helical Magnetic Nature of β -Mn Structured CoZn Thin-Films Determined by a Bayesian Approach to Modeling Polarized Neutron Reflectivity Data",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "School of Physics and Astronomy, University of Leeds, Leeds LS2 9JT, United Kingdom"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "ISIS Neutron and Muon Source, STFC Rutherford Appleton Laboratory, Didcot, Oxon. OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics, School of Science, Loughborough University, Loughborough LE11 3TU, United Kingdom"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. Dearg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "A. J. Caruana",
+        "orcid": null,
+        "email": "andrew.caruana@stfc.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "C. J. Kinane",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "N. Satchell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "G. Burnell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "S. Langridge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "C. H. Marrows",
+        "orcid": null,
+        "email": "c.h.marrows@leeds.ac.uk",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Chiral magnetic materials can host skyrmions and hence are of interest for numerous spintronic applications including low-power storage. To reach this goal, room temperature operation and a thin film form are needed. We have studied the chiral magnetism in a β –Mn structured CoZn sputtered film, with a Curie temperature of ≈ 130 °C, by means of polarized neutron reflectometry (PNR) in order to reveal its magnetic field-temperature phase diagram. In bulk this material has a helimagnetic ground state. Here we use PNR data to show that the helimagnetism survives in a CoZn film only 100 nm thick, roughly half a helical period. Given the subtlety of differentiating the helical state from a uniform state with reduced interfacial magnetism, we have developed and employed a Bayesian approach that uses model selection to analyze our PNR data and to map out the field-temperature phase diagram of our thin film.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-11-03",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ISIS Neutron and Muon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CoZn thin film",
+      "sample_description": "Amorphous/polycrystalline cobalt-zinc film with a ZnO capping layer on a SiO2/Si substrate.",
+      "chemical_composition": "CoZn",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRR measurement to determine film thickness and structural smoothness.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD pattern to confirm the predominant ⟨221⟩ β-Mn texture.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "SQUID-VSM measurements of magnetization vs temperature and isothermal hysteresis loops.",
+      "measurement_technique": "superconducting quantum interference device vibrating sample magnetometer",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Polarized Neutron Reflectivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "PNR measurements to investigate depth dependent inplane magnetization profiles across various temperatures and fields.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

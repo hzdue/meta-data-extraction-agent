@@ -1,0 +1,240 @@
+{
+  "bibliographic": {
+    "title": "Extended X-ray absorption fine structure study of the Er bonding in AlNO:Er x films with x  3.6%",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, Aristotle University of Thessaloniki, GR-54124 Thessaloniki, Greece."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Diamond Light Source Ltd, Diamond House, Chilton, Didcot, Oxfordshire, OX11 0DE, UK."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Jean Lamour, UMR 7198, CNRS, Université de Lorraine, Campus Artem, 2 allée André Guinier, BP 50840, 54011 Nancy, France."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "SUPA Department of Physics, University of Strathclyde, 107 Rottenrow, Glasgow, G4 0NG, Scotland, United Kingdom."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "M. Katsikini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "V. Kachkanov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "P. Boulet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "P. R. Edwards",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "K. P. O'Donnell",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "V. Brien",
+        "orcid": null,
+        "email": "valerie.brien@univ-lorraine.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The structural properties of Er-doped AlNO epilayers grown by radio frequency magnetron sputtering were studied by Extended X-ray Absorption Fine Structure (EXAFS) spectra recorded at the Er L3 edge. The analysis revealed that Er substitutes for Al in all the studied samples and the increase in Er concentration from 0.5 to 3.6 at.% is not accompanied by formation of ErN, Er2O3 or Er clusters. Simultaneously recorded X-ray Absorption Near Edge Structure (XANES) spectra verify that the bonding configuration of Er is similar in all studied samples. The Er-N distance is constant at 2.18-2.19 Å i.e. approximately 15% larger than the Al-N bondlength, revealing that the introduction of Er in the cation sublattice causes considerable local distortion. The Debye-Waller factor, which measures the static disorder, of the second nearest shell of Al neighbors, has a local minimum for the sample containing 1% Er that coincides with the highest photoluminescence efficiency of the sample set.",
+    "keywords": [
+      "EXAFS",
+      "AlN",
+      "Er",
+      "rare earth",
+      "semiconductor doping"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. Introduction",
+      "II. Growth conditions and experimental details",
+      "III. Results and discussion",
+      "IV. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "AlNO:Er x=0.5",
+      "sample_description": "500 nm-thick film deposited on silicon substrates by R.F. reactive magnetron sputtering.",
+      "chemical_composition": "AlNO:Er x=0.5",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "AlNO:Er x=1.0",
+      "sample_description": "500 nm-thick film deposited on silicon substrates by R.F. reactive magnetron sputtering.",
+      "chemical_composition": "AlNO:Er x=1.0",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "AlNO:Er x=1.4",
+      "sample_description": "500 nm-thick film deposited on silicon substrates by R.F. reactive magnetron sputtering.",
+      "chemical_composition": "AlNO:Er x=1.4",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "AlNO:Er x=2.8",
+      "sample_description": "500 nm-thick film deposited on silicon substrates by R.F. reactive magnetron sputtering.",
+      "chemical_composition": "AlNO:Er x=2.8",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "AlNO:Er x=3.6",
+      "sample_description": "500 nm-thick film deposited on silicon substrates by R.F. reactive magnetron sputtering.",
+      "chemical_composition": "AlNO:Er x=3.6",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "EDX spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Chemical compositions of the AlNO:Er samples were obtained using a Princeton Gamma-Tech spectrometer in nano-probe mode.",
+      "measurement_technique": "Energy Dispersive X-ray spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Rutherford Backscattering Spectrometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "RBS measurements used to validate the calibration of EDX measurements.",
+      "measurement_technique": "Rutherford Backscattering Spectrometry",
+      "measurement_mode": [],
+      "purpose": "calibration"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "XANES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray Absorption Near Edge Structure spectra recorded at the Er L3 edge at 8357.9 eV.",
+      "measurement_technique": "X-ray Absorption Near Edge Structure",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray Absorption Fine Structure spectra recorded at the Er L3 edge to study local bonding configuration.",
+      "measurement_technique": "Extended X-ray Absorption Fine Structure",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

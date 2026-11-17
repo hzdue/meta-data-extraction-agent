@@ -1,0 +1,346 @@
+{
+  "bibliographic": {
+    "title": "Evidence for the formation of nanoprecipitates with magnetically disordered regions in bulk Ni50Mn45In5 Heusler alloys",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physics and Materials Science Research Unit, University of Luxembourg, 162A Avenue de la Faïencerie, L-1511 Luxembourg, Grand Duchy of Luxembourg"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physik-Department, Technische Universität München, James-Franck-Straße, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue-Langevin, 71 avenue des Martyrs, F-38042 Grenoble, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Australian Centre for Neutron Scattering, ANSTO, Locked Bag 2001, Kirrawee DC, NSW 2232, Australia"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "European Synchrotron Radiation Facility, 6 Rue Jules Horowitz, B.P. 220, F-38043 Grenoble Cedex 9, France"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "German Engineering Materials Science Centre (GEMS) at Heinz Maier-Leibnitz Zentrum (MLZ), Helmholtz-Zentrum Geesthacht GmbH, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Heinz Maier-Leibnitz Zentrum (MLZ), Technische Universität München, D-85748 Garching, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Metallurgical and Materials Engineering, Mugla University, 48000 Mugla, Turkey"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Faculty of Physics, Duisburg-Essen University, D-47057 Duisburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Giordano Benacchio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Ivan Titov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Artem Malyeyev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Inma Peral",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Mathias Bersweiler",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Philipp Bender",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Denis Mettus",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Dirk Honecker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Elliot Paul Gilbert",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Mauro Coduri",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Andr´e Heinemann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Sebastian M¨uhlbauer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Aslı C¸akır",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Mehmet Acet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Andreas Michels",
+        "orcid": null,
+        "email": "andreas.michels@uni.lu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Shell ferromagnetism is a new functional property of certain Heusler alloys which has been recently observed in Ni50Mn45In5. We report the results of a comparative study of the magnetic microstructure of bulk Ni50Mn45In5 Heusler alloys using magnetometry, synchrotron x-ray diffraction, and magnetic small-angle neutron scattering (SANS). By combining unpolarized and spin-polarized SANS (POLARIS) we demonstrate that a number of important conclusions regarding the mesoscopic spin structure can be made. In particular, the analysis of the magnetic neutron data suggests that nanoprecipitates with an effective ferromagnetic component form in an antiferromagnetic matrix on field annealing at 700 K. These particles represent sources of perturbation, which seem to give rise to magnetically disordered regions in the vicinity of the particle-matrix interface. Analysis of the spin-flip SANS cross section via the computation of the correlation function yields a value of ∼ 55 nm for the particle size and ∼ 20 nm for the size of the spin-canted region.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "PRIDE MASSENA"
+      },
+      {
+        "funder": "National Research Fund of Luxembourg",
+        "grant_id": "CORE SANS4NCC"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION AND OUTLOOK"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "Australian Nuclear Science and Technology Organisation"
+    },
+    {
+      "id": "facility_3",
+      "name": "Heinz Maier-Leibnitz Zentrum"
+    },
+    {
+      "id": "facility_4",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "initial state",
+      "sample_description": "As-prepared sample used as a reference.",
+      "chemical_composition": "Ni50Mn45In5",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "650 K",
+      "sample_description": "Field-annealed at 650 K during 6 h under an applied magnetic field of 5 T.",
+      "chemical_composition": "Ni50Mn45In5",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "700 K",
+      "sample_description": "Field-annealed at 700 K during 12 h under an applied magnetic field of 5 T.",
+      "chemical_composition": "Ni50Mn45In5",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Room-temperature magnetization curves for the 650 K and 700 K samples and 200 K for the initial-state sample.",
+      "measurement_technique": "magnetometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "synchrotron X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_4"
+      ],
+      "dataset_description": "High-energy synchrotron X-ray diffraction measurements in transmission mode.",
+      "measurement_technique": "synchrotron X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "unpolarized SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "Unpolarized total (nuclear and magnetic) SANS cross sections at selected applied magnetic fields.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "polarized SANS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Spin-polarized SANS measurements using the POLARIS setup to separate nuclear and magnetic contributions.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

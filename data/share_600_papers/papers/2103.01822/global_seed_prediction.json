@@ -1,0 +1,330 @@
+{
+  "bibliographic": {
+    "title": "Structural Study of a Self-Assembled Gold Mesocrystal Grain by Coherent X-ray Diffraction Imaging",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Deutsches Elektronen-Synchrotron DESY, Notkestrasse 85, D-22607 Hamburg, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "┴",
+        "text": "University of Konstanz, Universitätsstraße 10, 78457 Konstanz, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "Leibniz Institute for Solid State and Materials Research, Helmholtzstraße 20, 01069 Dresden, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "$",
+        "text": "TU Dresden, Bergstraße 66b, 01062 Dresden, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "‡",
+        "text": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), Kashirskoe shosse 31, 115409 Moscow, Russia"
+      },
+      {
+        "id": "aff_6",
+        "label": "§",
+        "text": "Saint-Petersburg State University, University Embankment 7/9, 199034 St Petersburg, Russia"
+      },
+      {
+        "id": "aff_7",
+        "label": "&",
+        "text": "Present address: Bruker AXS Advanced X-ray Solutions GmbH, Östliche Rheinbrückenstraße 49, 76187 Karlsruhe, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jerome Carnis",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Felizitas Kirner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Dmitry Lapkin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sebastian Sturm",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Young Yong Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Igor A. Baburin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Ruslan Khubbutdinov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Alexandr Ignatenko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Ekaterina Iashina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Alexander Mistonov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Tristan Steegemans",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Thomas Wieck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Thomas Gemming",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Axel Lubk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Sergey Lazarev",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Michael Sprung",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Ivan A. Vartanyants",
+        "orcid": null,
+        "email": "ivan.vartaniants@desy.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Elena V. Sturm",
+        "orcid": null,
+        "email": "elena.sturm@unikonstanz.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Mesocrystals are nanostructured materials consisting of individual nanocrystals having a preferred crystallographic orientation. On mesoscopic length scales, the properties of mesocrystals are strongly affected by structural heterogeneity. Here, we report the detailed structural characterization of a faceted mesocrystal grain self-assembled from 60 nm sized gold nanocubes. Using coherent X-ray diffraction imaging, we determined the structure of the mesocrystal with the resolution sufficient to resolve each gold nanoparticle. The reconstructed electron density of the gold mesocrystal reveals its intrinsic structural heterogeneity, including local deviations of lattice parameters, and the presence of internal defects. The strain distribution shows that the average superlattice obtained by angular X-ray cross-correlation analysis and the real, “multidomain” structure of a mesocrystal are very close to each other, with a deviation less than 10%. These results will provide an important impact to understanding of the fundamental principles of structuring and self-assembly including ensuing properties of mesocrystals.",
+    "keywords": [
+      "nanoparticle self-assembly",
+      "gold mesocrystal grain",
+      "defects",
+      "coherent X-ray diffraction imaging"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-03-02",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Helmholtz Associations Initiative Networking Fund",
+        "grant_id": "HRSF-0002"
+      },
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "18-41-06001"
+      },
+      {
+        "funder": "European Research Council",
+        "grant_id": "715620"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Results and Discussion",
+      "CONCLUSION",
+      "METHODS",
+      "Synthesis of Gold Nanocubes",
+      "Preparation of Gold Mesocrystals.",
+      "X-ray experiment",
+      "Iterative phasing and resolution estimate"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "gold mesocrystal grain",
+      "sample_description": "A faceted mesocrystal grain self-assembled from 60 nm sized gold nanocubes.",
+      "chemical_composition": "Au",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "rectangular cuboid",
+      "sample_description": "A cuboid with dimensions about 1.25 μm × 1.25 μm × 1.5 μm cut from the central part of a grown mesocrystal using a focused ion beam.",
+      "chemical_composition": "Au",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "coherent X-ray diffraction imaging",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D diffraction pattern measured by rotating the sample by steps of 0.5° over a range of 180° to determine the 3D electron density of the gold mesocrystal grain.",
+      "measurement_technique": "coherent X-ray diffraction imaging",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "angular X-ray cross-correlation analysis",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Analysis of 3D reciprocal space data to determine unit cell parameters and NC orientation.",
+      "measurement_technique": "angular X-ray cross-correlation analysis",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

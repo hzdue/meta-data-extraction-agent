@@ -1,0 +1,204 @@
+{
+  "bibliographic": {
+    "title": "Annealing of swift heavy ion tracks in amorphous silicon dioxide",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Materials Physics, Research School of Physics, Australian National University, Canberra ACT 2601, Australia"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "GSI Helmholtzzentrum für Schwerionenforschung, Planckstr. 1, 64291 Darmstadt, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Technische Universtät Darmstadt, 64289 Darmtadt, Germany"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "ANSTO-Australian Synchrotron, Melbourne, Australia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shankar Dutt",
+        "orcid": null,
+        "email": "shankar.dutt@anu.edu.au",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christian Notthoff",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Xue Wang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Christina Trautmann",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Pablo Mota-Santiago",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Patrick Kluth",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The annealing kinetics of the high energy ion damage in amorphous silicon dioxide (aSiO2) are still not well understood, despite the material's widespread application in material science, physics, geology, and biology. This study investigates how annealing temperature, duration, and ambient environment affect the recovery of irradiation damage produced along the trajectory of swift heavy ions in a-SiO2. The track-annealing kinetics and the changing ion track morphology were investigated using synchrotron-based small-angle X-ray scattering (SAXS) and etching methods. We found that track annealing proceeds quicker near the sample surface demonstrated by a changing track etch rate as a function of depth. Measurements of ion tracks using SAXS show only small changes in the radial density distribution profile of the ion tracks. Activation energy of the annealing process at different sample depths was determined and the effect of the capping layer during the annealing process was also studied. Combination of oxygen diffusion and stress relaxation may contribute to the observed behaviour of preferential and anisotropic healing of the ion track. The results add to the fundamental understanding of ion track damage recovery and may have direct implications for materials for radioactive waste storage and solid state nanopores.",
+    "keywords": [
+      "Small angle X-ray scattering",
+      "swift heavy ion irradiation",
+      "annealing",
+      "a-SiO2",
+      "latent ion tracks",
+      "radioactive waste"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Australian Research Council",
+        "grant_id": "DP180100068"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental Procedures",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "UNILAC accelerator facility at the GSI Helmholtz Centre for Heavy Ion Research"
+    },
+    {
+      "id": "facility_2",
+      "name": "ANSTO Australian Synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-SiO2",
+      "sample_description": "2 µm thick a-SiO2 grown on Si (100) by wet thermal oxidation of silicon",
+      "chemical_composition": "SiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Ion Track Etching",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Conversion of ion tracks into etch pits to study track profile and variation with depth and temperature.",
+      "measurement_technique": "chemical etching",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Scanning electron microscopy imaging",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Plan-view and cross-section imaging of etch pits to determine radii and half cone angles.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Reactive Ion Etching",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Removal of surface layers to study track annealing as a function of depth.",
+      "measurement_technique": "Inductively Coupled Plasma Reactive Ion Etching",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Small angle X-ray scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Measurement of the radial density profile of un-etched ion tracks.",
+      "measurement_technique": "small-angle X-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

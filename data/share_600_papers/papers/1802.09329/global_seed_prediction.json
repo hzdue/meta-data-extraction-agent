@@ -1,0 +1,246 @@
+{
+  "bibliographic": {
+    "title": "Direct observation of multi-spinon excitations outside of the twospinon continuum in the antiferromagnetic spin chain cuprate Sr2CuO3",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "European X-Ray Free-Electron Laser Facility GmbH, Schenefeld, Germany."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Swiss Light Source, Paul Sherrer Institut, CH-5232 Villigen PSI, Switzerland."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, The University of Tennessee, Knoxville, Tennessee 37996, USA."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot, Oxfordshire."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Indian Institute of Science Education and Research, Pashan, Pune, India."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Université Paris-Sud, Orsay Cedex, France."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "École Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "J. Schlappa",
+        "orcid": null,
+        "email": "justine.schlappa@xfel.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "U. Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "K. J. Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "S. Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. Mourigal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "V. N. Strocov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Revcolevschi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "L. Patthey",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "H. M. Rønnow",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "S. Johnston",
+        "orcid": null,
+        "email": "sjohn145@utk.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "T. Schmitt",
+        "orcid": null,
+        "email": "thorsten.schmitt@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "One-dimensional (1D) magnetic insulators have attracted significant interest as a platform for studying emergent phenomena such as quasiparticle fractionalization and quantum criticality. The antiferromagnetic Heisenberg chain of spins-1/2 is an important reference system; its elementary excitations are spin1/2 quasiparticles called spinons that are always created in pairs. However, while inelastic neutron scattering (INS) experiments routinely observe the excitation continuum associated with two-spinon states, the presence of more complex dynamics associated with four-spinon states has only been inferred from comparison with theory. Here, we show that resonant inelastic x-ray scattering (RIXS) is capable of accessing the four-spinon excitations directly, in a spectroscopic region separated from the two-spinon continuum. Our results provide the first direct measurement of four-spinon excitations, which is made possible by the fundamentally different correlation functions probed by RIXS compared to INS. This advance holds great promise as a tool in the search for novel quantum states, in particular quantum spin liquids.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Discussion",
+      "Conclusions",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Sr2CuO3",
+      "sample_description": "Single-crystal samples grown by the floating-zone method.",
+      "chemical_composition": "Sr2CuO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "O K-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Momentum-resolved resonant inelastic x-ray scattering at the oxygen K-edge to observe two- and four-spinon excitations.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XAS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectra measured in total fluorescence yield at the O K edge.",
+      "measurement_technique": "x-ray absorption",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Cu L3-edge RIXS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Comparison RIXS data at the Cu L3-edge.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "reference"
+    }
+  ]
+}

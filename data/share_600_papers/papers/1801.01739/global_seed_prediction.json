@@ -1,0 +1,211 @@
+{
+  "bibliographic": {
+    "title": "Density and Microstructure of a-C Thin Films",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "UGC-DAE Consortium for Scientific Research, University Campus, Khandwa Road, Indore 452 001, India"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institut, CH-5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Prabhat Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Mukul Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "U. P. Deshpande",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "D. M. Phase",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "V. Ganesan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jochen Stahn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "In this work, we studied amorphous carbon (a-C) thin films deposited using direct current (dc) and high power impulse magnetron sputtering (HiPIMS) techniques. The microstructure and electronic properties reveal subtle differences in a-C thin films deposited by two techniques. While, films deposited with dcMS have a smooth texture typically found in a-C thin films, those deposited with HiPIMS consist of dense hillocks surrounded by a porous microstructure. The density of a-C thin films is a decisive parameter to judge their quality. Often, x-ray reflectivity (XRR) has been used to measure the density of carbon thin films. From the present work, we find that determination of density of carbon thin films, specially those with a thickness of few tens of nm, may not be accurate with XRR due to a poor scattering contrast between the film and substrate. By utilizing neutron reflectivity (NR) in the time of flight mode, a technique not commonly used for carbon thin films, we could accurately measure differences in the densities of a-C thin films deposited using dcMS and HiPIMS.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-01-08",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology, India",
+        "grant_id": "SR/NM/Z07/2015"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL DETAILS",
+      "RESULTS AND DISCUSSION",
+      "Atomic Force Microscopy",
+      "X-ray and Neutron Reflectivity",
+      "X-ray Photoelectron Spectroscopy",
+      "X-ray Absorption Near Edge Spectroscopy",
+      "CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SINQ/PSI"
+    },
+    {
+      "id": "facility_2",
+      "name": "Indus-2 synchrotron radiation source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-C thin film deposited by dcMS",
+      "sample_description": null,
+      "chemical_composition": "C",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "a-C thin film deposited by HiPIMS",
+      "sample_description": null,
+      "chemical_composition": "C",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Atomic Force Microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface morphologies of the deposited samples.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "x-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of thickness, density and roughnesses using a standard diffractometer.",
+      "measurement_technique": "x-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "neutron reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron reflectivity measurements in the time of flight mode at AMOR reflectometer.",
+      "measurement_technique": "neutron reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "x-ray absorption near edge spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Electronic structure determined using XANES technique at the C K-edge in total electron yield mode at BL01 beamline.",
+      "measurement_technique": "x-ray absorption near edge spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "x-ray photoelectron spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Study of electronic structure and sp2 and sp3 fractions.",
+      "measurement_technique": "x-ray photoelectron spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

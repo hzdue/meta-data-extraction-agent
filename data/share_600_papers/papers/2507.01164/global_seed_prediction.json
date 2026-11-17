@@ -1,0 +1,181 @@
+{
+  "bibliographic": {
+    "title": "Helical spin dynamics in Cu2OSeO3 as measured with small-angle neutron scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, D-12489 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Applied Physics and Quantum-Phase Electronics Center, The University of Tokyo, Bunkyo, Tokyo 113-8656, Japan"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institut Laue–Langevin, 71 avenue des Martyrs, CS 20156, Grenoble, 38042 Cedex 9, France"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute of Physics, ´Ecole Polytechnique F´ed´erale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Center for Theoretical Physics of Complex Systems, Institute for Basic Science, Daejeon 34126, Republic of Korea"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Victor Ukleev",
+        "orcid": null,
+        "email": "victor.ukleev@helmholtz-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Priya R. Baral",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Robert Cubitt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Nina-Juliane Steinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Arnaud Magrez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Oleg I. Utesov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The insulating chiral magnet Cu2OSeO3 exhibits a rich array of low-temperature magnetic phenomena, making it a prime candidate for the study of its spin dynamics. Using spin wave small-angle neutron scattering (SWSANS), we systematically investigated the temperature-dependent behavior of the helimagnon excitations in the field-polarized phase of Cu2OSeO3. Our measurements, spanning 5–55 K, reveal the temperature evolution of spin-wave stiffness and damping constant with unprecedented resolution, facilitated by the insulating nature of Cu2OSeO3. These findings align with theoretical predictions and resolve discrepancies observed in previous studies, emphasizing the enhanced sensitivity of the SWSANS method. The results provide deeper insights into the fundamental magnetic properties of Cu2OSeO3, contributing to a broader understanding of chiral magnets.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2025-07-07",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "P500PT ~~2~~ 17697"
+      },
+      {
+        "funder": "Institute for Basic Science",
+        "grant_id": "IBS-R024-D1"
+      },
+      {
+        "funder": "Institute for Basic Science",
+        "grant_id": "IBS-R024Y3"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL",
+      "III. THEORETICAL FRAMEWORK",
+      "IV. RESULTS AND DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Cu2OSeO3",
+      "sample_description": "disk-shaped single crystal containing (001) plane which has the diameter of 1 cm and thickness of 2 mm",
+      "chemical_composition": "Cu2OSeO3",
+      "sample_state": "single crystal",
+      "sample_mass": "200 mg",
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SWSANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Temperature-dependent behavior of helimagnon excitations in the field-polarized phase of Cu2OSeO3 measured from 5 to 55 K.",
+      "measurement_technique": "spin-wave small-angle neutron scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Background SANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Background SANS signal measured at 2 K and 1 T.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "background"
+    }
+  ]
+}

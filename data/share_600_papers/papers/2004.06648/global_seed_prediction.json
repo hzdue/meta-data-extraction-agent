@@ -1,0 +1,132 @@
+{
+  "bibliographic": {
+    "title": "Synchrotron X-Ray Reflectivity Study of the Adsorption Film of Octadecanamide at the Toluene – Water Interface",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Kapitza Institute for Physical Problems, Russian Academy of Sciences, Moscow, Russia"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institute of Solid State Physics, Russian Academy of Sciences, Chernogolovka, Moscow region, 142432 Russia"
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Shubnikov Institute of Crystallography, Federal Research Center Crystallography and Photonics, Russian Academy of Sciences, Moscow, 119333 Russia"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Aleksey M. Tikhonov",
+        "orcid": null,
+        "email": "tikhonov@kapitza.ras.ru",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yurii O. Volkov",
+        "orcid": null,
+        "email": "neko.crys@gmail.com",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      }
+    ],
+    "abstract": "The structure of an adsorption octadecanamide film at the planar toluene – water interface is studied by X-ray reflectometry using synchrotron radiation with photon energy of 15 keV. The electron density (polarizability) profiles, according to which the interface structure is determined by the pH level in the water subphase, are reconstructed from experimental data with the help of a modelindependent approach. For a high pH≈ 11, the adsorption film is a crystalline octadecanamide monolayer with a thickness of about 26° A, in which aliphatic tails of surfactant are extended along the normal to the surface. For low pH≈ 2, the thickness of the surface structure consisting of the crystalline monolayer directly on the toluene – water interface and a thick layer of deposited octadecanamide micelles reaches about 500° A. In our opinion, the condensation of nonionogenic surfactant micelles for which the surface concentration of the surfactant increases significantly is caused by a change in the polarization direction upon a decrease in the pH level in the electric double layer at the interface between the water subphase and the octadecanamide monolayer. The shape of the reconstructed electron density profiles also indicates the existence of a plane of the closest approach of surfactant micelles to the interface at a distance of about 70° A from it.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "US Department of Energy",
+        "grant_id": "DE-AC02-98CH10886"
+      },
+      {
+        "funder": "Russian Science Foundation",
+        "grant_id": "18-12-00108"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL",
+      "THEORY",
+      "RESULTS AND DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "NSLS synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "octadecanamide adsorption film pH≈ 2",
+      "sample_description": "Adsorption film of octadecanamide at the toluene-water interface with water subphase pH≈ 2.",
+      "chemical_composition": "C18H37NO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "octadecanamide adsorption film pH≈ 7",
+      "sample_description": "Adsorption film of octadecanamide at the toluene-water interface with water subphase pH≈ 7.",
+      "chemical_composition": "C18H37NO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "octadecanamide adsorption film pH≈ 11",
+      "sample_description": "Adsorption film of octadecanamide at the toluene-water interface with water subphase pH≈ 11.",
+      "chemical_composition": "C18H37NO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Measurement of the reflectivity factor R as a function of qz for octadecanamide films at different pH levels using 15 keV photons.",
+      "measurement_technique": "X-ray reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "bibliographic": {
+    "title": "Local geometry around B atoms in B/Si(111) from polarized x-ray absorption spectroscopy",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "New Technologies Research Centre, University of West Bohemia, Univerzitn´ı 2732, 306 14 Pilsen, Czech Republic"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Physics ASCR v. v. i., Na Slovance 2, CZ-182 21 Prague, Czech Republic"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Materials Chemistry, TU Vienna, Getreidemarkt 9, A-1060 Vienna, Austria"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institute of Physics ASCR v. v. i., Cukrovarnick´a 10, CZ-162 53 Prague, Czech Republic"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Saleem Ayaz Khan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Martin Vondr´aˇcek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Peter Blaha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Kateˇrina Hor´akov´a",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Jan Min´ar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Ondˇrej Sipr",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Vladim´ır Ch´ab",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The arrangement of B atoms in a doped Si(111)-(√3 × √3)R30◦ :B system was studied using near-edge x-ray absorption fine structure (NEXAFS). Boron atoms were deposited via segregation from the bulk by flashing the sample repeatedly. The positions of B atoms are determined by comparing measured polarized (angle-dependent) NEXAFS spectra with spectra calculated for various structural models based on ab-initio total energy calculations. It is found that most of boron atoms are located in sub-surface Lc 1positions,beneathaSiatom.However,dependingontheprepara- tion method a significant portion of B atoms may be located elsewhere. A possible location of these non-Lc 1-atoms is at the surface, next to those Si atoms which form the (√3×√3)R30◦ reconstruction.",
+    "keywords": [
+      "ab-initio",
+      "structure analysis",
+      "XAS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-02-19",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministry of Education, Youth and Sports (Czech Republic)",
+        "grant_id": "CEDAMNF (CZ.02.1.01/0.0/0.0/15 003/0000358)"
+      },
+      {
+        "funder": "Ministry of Education, Youth and Sports (Czech Republic)",
+        "grant_id": "LM2015088"
+      },
+      {
+        "funder": "Ministry of Education, Youth and Sports (Czech Republic)",
+        "grant_id": "LO1409"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODOLOGICAL FRAMEWORK",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Materials Science Beamline, Elettra Sincrotrone Trieste"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "sample 1100",
+      "sample_description": "B-doped Si(111) prepared by flashing at 1100◦ C",
+      "chemical_composition": "B/Si(111)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "sample 900",
+      "sample_description": "B-doped Si(111) prepared by flashing at 900◦ C",
+      "chemical_composition": "B/Si(111)",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "B K-edge NEXAFS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "B K-edge NEXAFS spectra recorded via surface sensitive Auger electron yield measurements at four angles.",
+      "measurement_technique": "near-edge x-ray absorption fine structure",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

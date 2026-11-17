@@ -1,0 +1,282 @@
+{
+  "bibliographic": {
+    "title": "TRACKING THE EMERGENCE AND PERSISTENCE OF ABNORMAL GRAIN GROWTH IN AN ALUMINUM ALLOY USING DIFFRACTION-CONTRAST TOMOGRAPHY",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institute of Functional Nanosystems, Ulm University, 89081 Ulm, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Institute of Stochastics, Ulm University, 89069 Ulm, Germany"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "SDU Applied AI and Data Science Unit, University of Southern Denmark, 5230 Odense, Denmark"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Civil and Mechanical Engineering, Technical University of Denmark, DK-2800 Kgs. Lyngby, Denmark"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Xnovo Technology ApS, Galoche All´e 15, 1st floor, 4600, Køge, Denmark"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, 3800 Grenoble, France"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Universit´e de Lyon, INSA Lyon, CNRS MATEIS, 69621 Villeurbanne, France"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Mines Paris, PSL University, Centre for Material Forming (CEMEF), UMR CNRS, 06904 Sophia Antipolis, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "HELMUTH-ANDRE SCHULZ-HARDER",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "KAROL´ INA GUTBROD",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "MADLEN ATZEN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "MARKUS ZIEHMER",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "THOMAS WILHELM",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "ORKUN FURAT",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "YUBIN ZHANG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "JETTE ODDERSHEDE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "HAIXING FANG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "PIERRE-OLIVIER AUTRAN",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "WOLFGANG LUDWIG",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "MARC BERNACKI",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "VOLKER SCHMIDT",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "CARL E. KRILL III",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "JULES M. DAKE",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Abnormal grain growth is inherently three-dimensional, making 3D tracking of grain evolution essential for understanding its underlying mechanisms. This study combines synchrotron-based diffraction-contrast tomography and phase-contrast tomography to characterize the three-dimensional grain structure and quantify the size and spatial distribution of second-phase particles in the aluminum alloy AA5252. Using an interrupted annealing protocol, we tracked the persistent growth of abnormal grains and the emergence of abnormal growth in a grain initially belonging to the matrix. Although second-phase particles effectively suppressed grain growth in the matrix, variations in local particle density showed no apparent correlation with either the emergence or subsequent rapid growth of abnormal grains. Instead, crystallographic misorientation and, more notably, neighboring grain size were identified as stronger predictors of abnormal growth rate. Matrix grains were consumed more rapidly when they were relatively small and shared high-angle grain boundaries with the growing abnormal grain. The same trends were observed for the grain that underwent a transition from normal to abnormal growth. Remarkably, even before the onset of abnormal growth, this grain was surrounded by smaller matrix grains with exclusively high-angle grain boundaries, while the local particle density was slightly higher than average. These findings suggest that the same microstructural characteristics facilitate both the emergence and persistence of abnormal grain growth, although the mechanism triggering the transition to rapid growth remains unresolved.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "German Research Foundation",
+        "grant_id": "453092613 (KR 1658/9-1, SCHM 997/41-1)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Material and methods",
+      "3. Results",
+      "4. Discussion",
+      "5. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "AA5252",
+      "sample_description": "Cylindrical specimen prepared by wire electrical discharge machining of a cold-rolled sheet.",
+      "chemical_composition": "AA5252",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "Constellium"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "diffraction-contrast tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "3D grain maps reconstructed from diffraction images following sequential annealing steps at 500°C.",
+      "measurement_technique": "diffraction-contrast tomography",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "phase-contrast tomography",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Identification and quantification of second-phase particles in the aluminum alloy.",
+      "measurement_technique": "phase-contrast tomography",
+      "measurement_mode": [
+        "TimeScan",
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

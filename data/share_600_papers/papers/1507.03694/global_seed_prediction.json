@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Using coherent X-rays to directly measure the propagation velocity of defects during thin film deposition",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics and Materials Science Program, University of Vermont, Burlington, Vermont 05405 USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Division of Materials Science and Engineering, Boston University, Boston, Massachusetts 02215 USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Advanced Photon Source, Argonne National Lab, Argonne, IL, 60439 USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Physics, Boston University, Boston, Massachusetts 02215 USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Jeffrey G. Ulbrandt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Meliha G. Rainville",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Christa Hoskin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Suresh Narayanan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Alec R. Sandy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Hua Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Karl F. Ludwig, Jr.",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Randall L. Headrick",
+        "orcid": null,
+        "email": "rheadrick@uvm.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The properties of artificially grown thin films are often strongly affected by the dynamic relationship between surface growth processes and subsurface structure. Coherent mixing of X-ray signals promises to provide an approach to better understand such processes. Here, we demonstrate the continuously variable mixing of surface and bulk scattering signals during real-time studies of sputter deposition of a-Si and a-WSi2 films by controlling the X-ray penetration and escape depths in coherent grazing incidence small angle X-ray scattering (Co-GISAXS). Under conditions where the X-ray signal comes from both the growth surface and the thin film bulk, oscillations in temporal correlations arise from coherent interference between scattering from stationary bulk features and from the advancing surface.  We also observe evidence that elongated bulk features propagate upward at the same velocity as the surface.  Additionally, a highly surface sensitive mode is demonstrated that can access the surface dynamics independently of the subsurface structure.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science, Office of Basic Energy Sciences (BES)",
+        "grant_id": "DE-FG02-07ER46380"
+      },
+      {
+        "funder": "U.S. Department of Energy (DOE) Office of Science, Office of Basic Energy Sciences (BES)",
+        "grant_id": "DE-FG02-03ER46037"
+      },
+      {
+        "funder": "U.S. DOE Office of Science",
+        "grant_id": "DE-AC02-06CH11357"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Results",
+      "Conclusions",
+      "Methods"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "a-Si",
+      "sample_description": "Amorphous silicon thin film.",
+      "chemical_composition": "Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "a-WSi2",
+      "sample_description": "Amorphous tungsten silicide thin film.",
+      "chemical_composition": "WSi2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Co-GISAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Real-time monitoring of grazing incidence small angle X-ray scattering speckle patterns during sputter deposition.",
+      "measurement_technique": "coherent grazing incidence small angle X-ray scattering",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "XPCS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray photon correlation spectroscopy to characterize fluctuation time scales as a function of length scale.",
+      "measurement_technique": "X-ray photon correlation spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

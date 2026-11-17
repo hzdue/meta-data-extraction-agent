@@ -1,0 +1,324 @@
+{
+  "bibliographic": {
+    "title": "Probing electronic excitations in iridates with resonant inelastic x-ray scattering and emission spectroscopy techniques",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Physics, University of Colorado Boulder, Boulder, Colorado 80309, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Indian Institute of Science Education and Research Mohali, Sector 81, SAS Nagar, Manauli PO 140306, India"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Advanced Photon Source, Argonne National Laboratory, Argonne, Illinois 60439, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Young-June Kim",
+        "orcid": null,
+        "email": "yjkim@physics.utoronto.ca",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. P. Clancy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "H. Gretarsson",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "G. Cao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Yogesh Singh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Jungho Kim",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "M. H. Upton",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "D. Casa",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "T. Gog",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "We report a comprehensive resonant inelastic x-ray scattering (RIXS) study of various iridate materials focusing on core-level excitations and transitions between crystal-field split d-levels. The 2p core hole created at the Ir L3 absorption edge has a very short lifetime giving rise to a broad absorption width (∼ 5 eV). This absorption linewidth broadening can be overcome by studying the resonant x-ray emission spectroscopy (RXES) map, which is a two-dimensional intensity map of the Ir Lα2 emission obtained with high energy-resolution monochromator and analyzer. By limiting the emitted photon energy to a narrow range, one can obtain x-ray absorption spectra in the high energy-resolution fluorescence detection (HERFD) mode, while one can also simulate quasi-M4edge absorption spectra by integrating over incident photon energies. Both methods improve the absorption line width significantly, allowing detailed studies of unoccupied electronic structure in iridates and other 5d transition metal compounds. On the other hand, the short lifetime of the 2p core hole benefits the study of excitations of valence electrons. We show that the incident energy dependence of the RIXS spectra for d − d transitions is simple to understand due to the short corehole lifetime, which validates ultra-short core-hole lifetime approximation used widely in theoretical calculations. We compared d − d excitations in various iridates and found that the excitations between the t2g and eg states share many similarities among different materials. However, the RIXS spectra due to the transitions between the spin-orbit-split t2g levels vary widely depending on the oxidation state and electronic bandwidths.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2018-05-10",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1712101"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL METHODS",
+      "III. RESULTS AND DISCUSSION: RXES",
+      "IV. RESULTS AND DISCUSSION: RIXS",
+      "V. CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Advanced Photon Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ir",
+      "sample_description": null,
+      "chemical_composition": "Ir",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Alfa Aesar"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "IrCl3",
+      "sample_description": "Ir3+ reference sample",
+      "chemical_composition": "IrCl3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "IrO2",
+      "sample_description": null,
+      "chemical_composition": "IrO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "Alfa Aesar"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Li2IrO3",
+      "sample_description": null,
+      "chemical_composition": "Li2IrO3",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Sr2IrO4",
+      "sample_description": null,
+      "chemical_composition": "Sr2IrO4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "Sr2Ir0.89Rh0.11O4",
+      "sample_description": null,
+      "chemical_composition": "Sr2Ir0.89Rh0.11O4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "Sr2Ir0.58Rh0.42O4",
+      "sample_description": null,
+      "chemical_composition": "Sr2Ir0.58Rh0.42O4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_8",
+      "sample_name": "Sr2Ir0.3Rh0.7O4",
+      "sample_description": null,
+      "chemical_composition": "Sr2Ir0.3Rh0.7O4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_9",
+      "sample_name": "Ca5Ir3O12",
+      "sample_description": "mixed valence compound",
+      "chemical_composition": "Ca5Ir3O12",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_10",
+      "sample_name": "Eu2Ir2O7",
+      "sample_description": null,
+      "chemical_composition": "Eu2Ir2O7",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_11",
+      "sample_name": "Sr2YIrO6",
+      "sample_description": "Ir5+ valence",
+      "chemical_composition": "Sr2YIrO6",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "RXES",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant X-ray Emission Spectroscopy map for Ir Lα2 emission in various iridate compounds.",
+      "measurement_technique": "resonant x-ray emission spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "HERFD-XAS",
+      "sample_refs": [
+        "sample_2",
+        "sample_3",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "X-ray absorption spectra obtained in high energy-resolution fluorescence detection mode.",
+      "measurement_technique": "x-ray absorption spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "RIXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7",
+        "sample_8",
+        "sample_9",
+        "sample_10",
+        "sample_11"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Resonant Inelastic X-ray Scattering map for valence excitations in various iridate compounds.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

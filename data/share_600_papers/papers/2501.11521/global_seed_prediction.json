@@ -1,0 +1,205 @@
+{
+  "bibliographic": {
+    "title": "SANS evidence for the dispersion of nanoparticles in W–1Y2O3 and W–1La2O3 processed by hot isostatic pressing",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Departamento de Física, Universidad Carlos III de Madrid, Avda. de la Universidad 30, 28911 Leganés, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institut für Festköperforschung, Neutron Science JCNS, Outstation at FRM II, 85747 Garching, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "A. Muñoz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "J. Martínez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "M.A. Monge",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "B. Savoini",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "R. Pareja",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "A. Radulescu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The development of a dispersion of nanoparticles in the W–1%Y2O3 and W–1%La2O3 (wt%) alloys processed by hot isostatic pressing have been investigated using small-angle neutron scattering. The analyses of the scattering data using the Beaucage unified approach reveal the presence of a bi-modal distribution of spherical scattering centers with sizes of less of 180 nm in these alloys. The mode values of these centers are found at ~10 and 40 nm in W–1%Y2O3, and at ~15 and 80 nm in W–1%La2O3. The scanning electron microscopy analyses showed the presence of small second phase particles. The contribution of the pore space to the scattering curves has been analyzed using the results obtained for pure W processed following the same procedure used for the alloys, and the porosity measurements of the samples.",
+    "keywords": [
+      "ODS tungsten alloys",
+      "Refractory metals",
+      "SANS",
+      "HIP"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Consejería de Educación de la Comunidad de Madrid",
+        "grant_id": "ESTRUMAT-CM S2009MAT-1585"
+      },
+      {
+        "funder": "Ministerio de Innovación y Ciencia",
+        "grant_id": "ENE2008-06403-C06-04"
+      },
+      {
+        "funder": "EURATOM/CIEMAT association",
+        "grant_id": "EFDA WP11-MATWWALLOY"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "1. Introduction",
+      "2. Experimental procedure",
+      "3. Results and discussion",
+      "4. Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "FRM II research reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "W–1%Y2O3",
+      "sample_description": null,
+      "chemical_composition": "W–1%Y2O3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "W–1%La2O3",
+      "sample_description": null,
+      "chemical_composition": "W–1%La2O3",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "non-ODS W",
+      "sample_description": "Ingot of non-ODS W consolidated under identical conditions to the alloys",
+      "chemical_composition": "W",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS measurements acquired using the KWS-1 diffractometer with a neutron wavelength of 7 Å and sample-detector distances of 2, 8 and 20 m.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SANS",
+      "sample_refs": [
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS measurements made in the KWS-2 diffractometer using sample-detector distances of 2, 8 and 20 m and wavelengths of 3.5, 7.6 and 19.6 Å.",
+      "measurement_technique": "small-angle neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "reference"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "SEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "High resolution scanning electron microscopy images obtained in a MEB JEOL J8M6500 field emission scanning electron microscope.",
+      "measurement_technique": "scanning electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

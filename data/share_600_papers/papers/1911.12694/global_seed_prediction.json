@@ -1,0 +1,311 @@
+{
+  "bibliographic": {
+    "title": "Biophysical characterization of membrane phase transition profiles for the discrimination of Outer Membrane Vesicles (OMVs) from Escherichia coli grown at different temperatures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Science, University of Roma Tre, Via della Vasca Navale, 00146, Rome, Italy"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Children’s Hospital Bambino Gesù-IRCCS, Research Laboratories, V.le di San Paolo 15, 00146, Rome – Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Life and Environmental Sciences, Marche Polytechnic University, Via brecce bianche, Ancona, I-60131, Italy"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "CNR-ISC UOS Sapienza and Department of Physics, Sapienza University of Rome, Pz.le Aldo Moro, 00185, Rome, Italy"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "National Institute for Insurance against Accidents at Work (INAIL), Department of Occupational and Environmental Medicine, Epidemiology and Hygiene, 00078 Monte Porzio Catone, Italy"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Angelo Sarra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Antonella Celluzzi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Stefania Paola Bruno",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Caterina Ricci",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Simona Sennato",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Maria Grazia Ortore",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Stefano Casciardi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Paolo Postorino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Federico Bordi",
+        "orcid": null,
+        "email": "federico.bordi@roma1.infn.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Andrea Masotti",
+        "orcid": null,
+        "email": "andrea.masotti@opbg.net",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Dynamic Light Scattering (DLS), Small Angle X-ray Scattering (SAXS) and Transmission Electron Microscopy (TEM) are physical techniques widely employed to characterize the morphology and the structure of vesicles such as liposomes or human extracellular vesicles (exosomes). Bacterial extracellular vesicles are similar in size to human exosomes, although their function and membrane properties have not been elucidated in such detail as in the case of exosomes. Here, we applied the above cited techniques, in synergy with the thermodynamic characterization of the vesicles lipid membrane using a turbidimetric technique to the study of vesicles produced by Gram-negative bacteria (Outer Membrane Vesicles, OMVs) grown at different temperatures. This study demonstrated that our combined approach is useful to discriminate vesicles of different origin or coming from bacteria cultured under different experimental conditions. We envisage that in a near future the techniques employed in our work will be implemented to discriminate complex mixtures of bacterial vesicles, thus showing great promises for biomedical or diagnostic applications.",
+    "keywords": [
+      "Outer membrane vesicle (OMV)",
+      "Dynamic light scattering (DLS)",
+      "Transmission electron microscopy (TEM)",
+      "Small-angle X-ray scattering (SAXS)",
+      "Gram negative bacteria"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "MATERIALS AND METHODS",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Austrian SAXS beamline of the Elettra Synchrotron"
+    },
+    {
+      "id": "facility_2",
+      "name": "Department of Occupational and Environmental Medicine, Epidemiology and Hygiene of INAIL-Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "OMVs grown at 37°C",
+      "sample_description": "Outer Membrane Vesicles from Escherichia coli (ATCC 8739) cultured at 37°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "OMVs grown at 27°C",
+      "sample_description": "Outer Membrane Vesicles from Escherichia coli (ATCC 8739) cultured at 27°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "OMVs grown at 20°C",
+      "sample_description": "Outer Membrane Vesicles from Escherichia coli (ATCC 8739) cultured at 20°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "E. coli grown at 37°C",
+      "sample_description": "Escherichia coli (ATCC 8739) bacteria cultured at 37°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "E. coli grown at 27°C",
+      "sample_description": "Escherichia coli (ATCC 8739) bacteria cultured at 27°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "E. coli grown at 20°C",
+      "sample_description": "Escherichia coli (ATCC 8739) bacteria cultured at 20°C.",
+      "chemical_composition": "Escherichia coli",
+      "sample_state": "bulk",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "MVs from LGG",
+      "sample_description": "Membrane Vesicles from Lactobacillus rhamnosus LGG (ATCC 53103).",
+      "chemical_composition": "Lactobacillus rhamnosus LGG",
+      "sample_state": "vesicles",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Dynamic Light Scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of vesicle size and hydrodynamic diameter.",
+      "measurement_technique": "Dynamic Light Scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "turbidimetric measurements",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Determination of thermotropic lipid phase transitions by measuring mean count rate of scattered photons versus temperature.",
+      "measurement_technique": "Dynamic Light Scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Small Angle X-ray Scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Investigation of OMVs structure and membrane thickness as a function of temperature.",
+      "measurement_technique": "Small Angle X-ray Scattering",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Transmission Electron Microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Morphological characterization of OMVs and MVs.",
+      "measurement_technique": "Transmission Electron Microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

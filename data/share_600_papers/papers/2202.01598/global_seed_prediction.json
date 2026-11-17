@@ -1,0 +1,231 @@
+{
+  "bibliographic": {
+    "title": "Probing the SO2 adsorption mechanism in Hofmann clathrates via inelastic neutron scattering and density functional theory calculations",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "†",
+        "text": "Institut Laue Langevin, 71 Avenue des Martyrs, CS 20156-38042, Grenoble, France"
+      },
+      {
+        "id": "aff_2",
+        "label": "‡",
+        "text": "SIMaP, University of Grenoble-Alpes, 38042 Grenoble, France"
+      },
+      {
+        "id": "aff_3",
+        "label": "¶",
+        "text": "IMDEA Nanociencia, Faraday 9, Ciudad Universitaria de Cantoblanco, 28049 Madrid, Spain"
+      },
+      {
+        "id": "aff_4",
+        "label": "§",
+        "text": "Departamento de Química Inorgánica, Insituto de Ciencia Molecular (ICMol), Universidad de Valencia, Spain"
+      },
+      {
+        "id": "aff_5",
+        "label": "∥",
+        "text": "Grenoble-INP, SIMaP, University of Grenoble-Alpes, CNRS, 38042 Grenoble, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Ángel Fernández-Blanco",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Lucía Piñeiro-López",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Mónica Jiménez-Ruiz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Stephane Rols",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "José Antonio Real",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "J. Alberto Rodríguez-Velamazán",
+        "orcid": null,
+        "email": "velamazan@ill.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Roberta Poloni",
+        "orcid": null,
+        "email": "roberta.poloni@grenoble-inp.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      }
+    ],
+    "abstract": "The adsorption mechanism of SO2 in the Hofmannlike coordination polymer Fe(pz)[Pt(CN)4] is studied using inelastic neutron scattering and density functional theory calculations. We find that the most important spectral change upon gas adsorption is the blueshift of the low energy peak found at 100 cm−1 , a feature that is fully confirmed by the computed neutron-weighted phonon density of states. Our calculations suggest that the origin of this change is twofold: i) an increase in the force constant of the cyanide out-of-plane movement due to the binding of the gas onto the Pt(CN)4 plane, and ii) the hampered rotation of the pyrazine due to steric hindrance. The high energy region of the neutron scattering data whose spectral weight is dominated by the internal vibrations of the pyrazine is negligibly affected by the presence of the gas as expected from a physisorption type of binding.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2022-02-04",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "French National Agency for Research",
+        "grant_id": "ANR-15-CE06-0003-01"
+      },
+      {
+        "funder": "GENCI",
+        "grant_id": "A0020907211"
+      },
+      {
+        "funder": "GENCI",
+        "grant_id": "A0110907211"
+      },
+      {
+        "funder": "Rhone-Alpes region",
+        "grant_id": "CPER07 13 CIRA"
+      },
+      {
+        "funder": "MCIN/AEI",
+        "grant_id": "PID2019-106147GB-I00"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Methods",
+      "Results and discussion",
+      "Low-energy region",
+      "Partial G( ω )",
+      "The SO2 binding mechanism",
+      "High-energy region",
+      "Choice of the supercell",
+      "Conclusion"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe(pz)[Pt(CN)4]",
+      "sample_description": "Empty Hofmann-type clathrate",
+      "chemical_composition": "Fe(pz)[Pt(CN)4]",
+      "sample_state": "powder",
+      "sample_mass": "722.9 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Fe(pz)[Pt(CN)4] loaded with SO2",
+      "sample_description": "Hofmann-type clathrate with one molecule of SO2 per formula unit",
+      "chemical_composition": "Fe(pz)[Pt(CN)4] + SO2",
+      "sample_state": "powder",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "IN1-LAGRANGE",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Inelastic neutron scattering measurements collected at 30 K for empty and loaded material.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "IN5",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "INS data for the bare material collected in the low energy region (< 100 cm-1) at 295 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "PANTHER",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Complementary measurements for the low energy region collected at 10 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

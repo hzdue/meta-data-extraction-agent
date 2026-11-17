@@ -1,0 +1,330 @@
+{
+  "bibliographic": {
+    "title": "Disorder-induced chirality in superconductor-ferromagnet heterostructures revealed by neutron scattering and multiscale modeling",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "European Spallation Source ERIC, Partikelgatan 2, 224 84 Lund, Sweden"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Instituto de F´ısica, Universidade de S˜ao Paulo, CP 66318, 05315-970 S˜ao Paulo-SP, Brazil"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, SE-75120 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Faculdade de F´ısica, Universidade Federal do Par´a, CEP 66075-110, Bel´em, PA, Brazil"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "J¨ulich Centre for Neutron Science for Quantum Materials and Collective Phenomena (JCNS-2), Forschungszentrum J¨ulich GmbH, 52425 J¨ulich, Germany"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Division of Synchrotron Radiation Research, Lund University, 22100 Lund, Sweden"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Ernst Ruska-Centre (ER-C 2), Forschungszentrum J¨ulich GmbH, 52425 J¨ulich, Germany"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, Grenoble Cedex 9 CS 20156, France"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Department of Mathematics and Physics, Linnaeus University, SE-39231 Kalmar, Sweden"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Annika Stellhorn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Juan G. C. Palma",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alicia Backs",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Anders Bergman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Angela B. Klautau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Emmanuel Kentzinger",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Connie Bednarski-Meinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Steffen Tober",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Elizabeth Blackburn",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Juri Barthel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Nina-Juliane Steinke",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Helena M. Petrilli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Ivan P. Miranda",
+        "orcid": null,
+        "email": "ivan.depaulamiranda@lnu.se",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_9",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Chirality in superconductor-ferromagnet hybrids strongly influences phenomena such as the observable signatures of long-range triplet superconductivity, but its microscopic origin in nominally centrosymmetric ferromagnets is still unclear. Here, we combine structural characterization, polarization-analyzed grazing-incidence small-angle neutron scattering (PA-GISANS), firstprinciples calculations, and deep-learning-assisted multiscale modeling to study FePd and Nb/FePd heterostructures. Experimentally, we observe partial L10 order, atomic intermixing, anti-phase boundaries, and a depth-dependent defect gradient across the FePd layer, together with a finite net magnetic chirality at room temperature. The GISANS asymmetry indicates that the main chiral contribution lies in-plane, with an additional out-of-plane component associated with depth-dependent magnetic inhomogeneity. Theoretically, we show that chemical disorder in FePd, especially when combined with a compositional gradient, produces finite Dzyaloshinskii-Moriya interactions and stabilizes chiral finite- q magnetic modulations with mixed Bloch-N´eel character. In the mesoscopic model, the resulting in-plane modulation length approaches the experimentally observed range. These results identify disorder and compositional gradients as intrinsic microscopic sources of net chirality in FePd-based films, showing that the observed chirality does not arise only from interface effects.",
+    "keywords": [
+      "thin film heterostructures",
+      "magnetic chirality",
+      "Dzyaloshinskii-Moriya interaction",
+      "GISANS",
+      "graph neural network",
+      "atomic intermixing",
+      "superconductorferromagnet hybrids"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-04-06",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "202106157"
+      },
+      {
+        "funder": "Crafoord Foundation",
+        "grant_id": "20231063"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2022-06725"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. EXPERIMENTAL RESULTS",
+      "III. THEORETICAL RESULTS",
+      "IV. SUMMARY AND OUTLOOK",
+      "VI. METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ER-C, research center Juelich"
+    },
+    {
+      "id": "facility_2",
+      "name": "Institut-Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "i.Nb/FePd",
+      "sample_description": "S/F heterostructure consisting of Pd-cap (2 nm)/ Nb (39 nm)/FePd (44 nm)/ Pd-buffer (60 nm)/Cr (1 nm).",
+      "chemical_composition": "Nb/FePd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "ii.FePd",
+      "sample_description": "Single-film FePd consisting of Pd-cap (3 nm)/FePd (55 nm)/Pd-buffer (62 nm)/Cr (2 nm).",
+      "chemical_composition": "FePd",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Bulk magnetization measurements to determine uniaxial anisotropy constant Ku.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray Diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD measurements of FePd(001) and FePd(002) Bragg peaks to calculate structural long-range order parameter S.",
+      "measurement_technique": "X-ray Diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "MFM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Surface magnetic domain structure imaging.",
+      "measurement_technique": "Magnetic Force Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "HAADF-STEM",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "High-resolution imaging of interfaces and structural defects.",
+      "measurement_technique": "High-Angle Annular Dark-Field Scanning Transmission Electron Microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "PA-GISANS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Polarization-analyzed grazing-incidence small-angle neutron scattering to determine magnetic chirality at room temperature.",
+      "measurement_technique": "polarization-analyzed grazing-incidence small-angle neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

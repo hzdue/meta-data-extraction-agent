@@ -1,0 +1,220 @@
+{
+  "bibliographic": {
+    "title": "Magnetic properties of Transition Metal Dimers probed by Inelastic Neutron Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "School of Chemistry, The University of Manchester, Oxford Road, Manchester, M13 9PL, UK."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Institut Laue-Langevin, 71 Avenue des Martyrs, Grenoble CS 20156, France."
+      },
+      {
+        "id": "aff_3",
+        "label": "c",
+        "text": "Institute of Nanotechnology (INT), Karlsruhe Institute of technology (KIT), Hermann-vonHelmholtz-Platz 1, D-76344 Eggenstein-Leopoldshafen, Germany."
+      },
+      {
+        "id": "aff_4",
+        "label": "d",
+        "text": "Hangzhou Wahaha Precision Machinery Co., Ltd, Street No. 14, Xiasha ETDZ, 310018 Hangzhou, China."
+      },
+      {
+        "id": "aff_5",
+        "label": "e",
+        "text": "Institut de Physique et Chimie des Matériaux de Strasbourg (IPCMS), CNRS-Université de Strasbourg, 23 rue du Loess, BP 43, F-67034 Strasbourg Cedex 2, France."
+      },
+      {
+        "id": "aff_6",
+        "label": "f",
+        "text": "Dipartimento di Scienze Matematiche, Fisiche e Informatiche, University of Parma, 43124 Parma, Italy."
+      },
+      {
+        "id": "aff_7",
+        "label": "g",
+        "text": "Institute for Advanced Simulation, Forschungszentrum Jülich, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Simon Ansbro",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Eufemio Moreno-Pineda",
+        "orcid": null,
+        "email": "eufemio.pineda@kit.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Wen Yu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jacques Ollivier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Hannu Mutka",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Mario Ruben",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alessandro Chiesa",
+        "orcid": null,
+        "email": "alessandro.chiesa@unipr.it",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      }
+    ],
+    "abstract": "The physical characterisation and understanding of molecular magnetic materials is one of the most important steps towards the integration of such systems in hybrid spintronic devices. Amongst the many characterisation techniques employed in such a task, Inelastic Neutron Scattering (INS) stands as one of the most powerful and sensitive tools to investigate their spin dynamics. Herein, magnetic properties and spin dynamics of two dinuclear complexes, namely [(M(hfacac)2)2(bpym)] (where M = Ni2+ , Co2+ , abbreviated in the following as Ni2 , Co2 ) are reported. These are model systems that could constitute fundamental units of future spintronic devices. By exploiting the highly sensitive IN5 Cold INS spectrometer, we are able to gain a deep insight into the spin dynamics of one Ni2 and to fully obtain the microscopic spin Hamiltonian parameters; while for Co2 , a multitude of INS transitions are observed demonstrating the complexity of the magnetic properties of octahedral cobalt-based systems.",
+    "keywords": [
+      "Molecular Nanomagnets",
+      "Inelastic Neutron scattering",
+      "spin dynamics"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "TRR 88, “3MET”, project A8"
+      },
+      {
+        "funder": "European Commission",
+        "grant_id": "FET-Open project “MOQUAS”"
+      },
+      {
+        "funder": "French Government",
+        "grant_id": "ANR project “MolQuSpin”"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL SECTION",
+      "RESULT AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Ni2",
+      "sample_description": null,
+      "chemical_composition": "[(Ni(hfacac)2)2(bpym)]",
+      "sample_state": "polycrystalline",
+      "sample_mass": "0.1 g",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Co2",
+      "sample_description": null,
+      "chemical_composition": "[(Co(hfacac)2)2(bpym)]",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of magnetic susceptibility and magnetisation.",
+      "measurement_technique": "SQUID magnetometry",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Inelastic Neutron Scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Probing low-energy spin dynamics using the IN5 cold spectrometer.",
+      "measurement_technique": "Inelastic Neutron Scattering",
+      "measurement_mode": [
+        "TemperatureScan",
+        "EnergyScan",
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

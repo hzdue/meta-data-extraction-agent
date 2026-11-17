@@ -1,0 +1,299 @@
+{
+  "bibliographic": {
+    "title": "In situ time-resolved X-ray absorption spectroscopy of shock-loaded magnesiosiderite",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "European X-ray Free-Electron Laser Facility, Schenefeld, Germany."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics, Universität Hamburg, Hamburg, Germany."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "European Synchrotron Radiation Facility, Grenoble, France."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Institut de Minéralogie, de Physique des Matériaux et de Cosmochimie (IMPMC), UMR7590, CNRS, Sorbonne Université, Muséum National d’Histoire Naturelle, Paris, France."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milano, Italy."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Earth Sciences, University of Milano, Milano, Italy."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Laboratoire de Géologie, Département de Géosciences, École Normale Supérieure, CNRS, UMR 8538, PSL University, Paris, France , Paris, France."
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Laboratoire pour l’Utilisation des Lasers Intenses, École Polytechnique, Palaiseau, France."
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Institut PPRIME, CNRS-ENSMA-Université de Poitiers, Poitiers, France."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Anand Prashant Dwivedi",
+        "orcid": null,
+        "email": "anand.dwivedi@xfel.eu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Jean-Alexis Hernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Sofia Balugani",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Delphine Cabaret",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Valerio Cerantola",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Davide Comboni",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Damien Deldicque",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "François Guyot",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Marion Harmand",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Harald Müller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Nicolas Sévelin-Radiguet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Irina Snigireva",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Raffaella Torchio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Tommaso Vinci",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Thibaut de Rességuier",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      }
+    ],
+    "abstract": "Carbonate minerals are important in Earth’s system sciences and have been found on Mars and in meteorites and asteroids, highlighting the importance of impacts in planetary processes. While extensively studied under static compression, the behavior of carbonates under shock compression remains underexplored, with no in situ X-ray investigations reported so far. Here we investigate natural magnesiosiderite (Fe0.6Mg0.4CO3) under nanosecond laser-driven shock compression at pressures up to 150 GPa, coupled with in situ ultrafast synchrotron X-ray absorption spectroscopy (XAS). The interpretation of the experimental spectra is complemented using first-principles absorption cross-section calculations performed on crystalline phases at different pressures and on a dense liquid phase obtained using density functional theory-based molecular dynamics (DFT-MD) simulations. Under laser-driven shock compression, the magnesiosiderite crystal phase remains unchanged up to the melt. Under shock reverberation, the absorption spectra show changes similar to those attributed to a high-spin to low-spin transition observed under static compression. At higher pressures, the laser shock induces the formation of CO4 tetrahedral units in the melt. Upon unloading from the shocked state, only a few nanoseconds later, the original magnesiosiderite phase is recovered.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS",
+      "IV. DISCUSSION",
+      "V. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "European Synchrotron Radiation Facility"
+    },
+    {
+      "id": "facility_2",
+      "name": "LULI Laboratory"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "magnesiosiderite",
+      "sample_description": "Natural magnesiosiderite crystals collected at the dumps of the Me sage mine, Saint Pierre de Me sage (Ise re, French Alps).",
+      "chemical_composition": "Fe0.6Mg0.4CO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "In situ XAS measurements at the Fe K-edge under nanosecond laser-driven shock compression and shock reverberation.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Raman spectroscopy",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Mapping of the crater floor in post-impact recovered magnesiosiderite crystals.",
+      "measurement_technique": "Raman spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Single-crystal X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XRD measurements at ambient conditions to determine lattice parameters and composition.",
+      "measurement_technique": "Single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

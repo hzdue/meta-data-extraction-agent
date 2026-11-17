@@ -1,0 +1,280 @@
+{
+  "bibliographic": {
+    "title": "Electrically Enhanced Exchange Bias via Solid State Magneto-Ionics",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Physics Department, University of California, Davis, CA 95616, USA"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physics Department, Georgetown University, Washington, DC 20057, USA"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "King Abdullah University of Science & Technology, Thuwal 23955-6900, Saudi Arabia"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, MD 20899, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Peyton D. Murray",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Christopher J. Jensen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Alberto Quintana",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Junwei Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Xixiang Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Alexander J. Grutter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Brian J. Kirby",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Kai Liu",
+        "orcid": null,
+        "email": "Kai.Liu@georgetown.edu",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Electrically induced ionic motion offers a new way to realize voltage-controlled magnetism, opening the door to a new generation of logic, sensor, and data storage technologies. Here, we demonstrate an effective approach to magneto-ionically and electrically tune exchange bias in Gd/Ni1- x Co x O thin films ( x =0.50, 0.67), where neither of the layers alone is ferromagnetic at room temperature. The Gd capping layer deposited onto antiferromagnetic Ni1- x Co x O initiates a solid-state redox reaction that reduces an interfacial region of the oxide to ferromagnetic NiCo. Exchange bias is established after field cooling, which can be enhanced by up to 35% after a voltage conditioning and subsequently reset with a second field cooling. These effects are caused by the presence of an interfacial ferromagnetic NiCo layer, which further alloys with the Gd layer upon field cooling and voltage application, as confirmed by electron microscopy and polarized neutron reflectometry studies. These results highlight the viability of the solid-state magneto-ionic approach to achieve electric control of exchange bias, with potentials for energy-efficient magnetoionic devices.",
+    "keywords": [
+      "Magneto-ionics",
+      "electric field control of magnetism",
+      "exchange bias",
+      "electron energy loss spectroscopy",
+      "polarized neutron reflectometry"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ECCS-1611424"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "ECCS-1933527"
+      },
+      {
+        "funder": "National Science Foundation",
+        "grant_id": "DMR-1828420"
+      },
+      {
+        "funder": "KAUST",
+        "grant_id": "OSR-2019-CRG8-4081"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "SAMPLE SYNTHESIS",
+      "MAGNETOMETRY",
+      "ABERRATION-CORRECTED SCANNING TRANSMISSION ELECTRON MICROSCOPY",
+      "POLARIZED NEUTRON REFLECTOMETRY",
+      "DISCUSSIONS",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "KAUST"
+    },
+    {
+      "id": "facility_2",
+      "name": "NIST Center for Neutron Research"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "series 1",
+      "sample_description": "Gd/Ni0.50Co0.50O thin film samples",
+      "chemical_composition": "Gd/Ni0.50Co0.50O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "series 2",
+      "sample_description": "Gd/Ni0.33Co0.67O thin film samples",
+      "chemical_composition": "Gd/Ni0.33Co0.67O",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Vibrating sample magnetometry",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetometry measurements of series 1 samples in as-grown, field cooled, and voltage conditioned states.",
+      "measurement_technique": "Vibrating sample magnetometry",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "SQUID magnetometry",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Magnetometry measurements for series 2 samples using a superconducting quantum interferometer device magnetometer.",
+      "measurement_technique": "superconducting quantum interferometer device magnetometer",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Cs-corrected STEM",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Aberration-corrected scanning transmission electron microscopy images of Gd/Ni0.50Co0.50O samples.",
+      "measurement_technique": "aberration-corrected scanning transmission electron microscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "EELS elemental mapping",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Electron energy loss spectroscopy elemental distributions of Co, Ni, Gd, and O across the interface.",
+      "measurement_technique": "electron energy loss spectroscopy",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Polarized Neutron Reflectometry",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Structural and magnetic depth profiles of series 2 samples.",
+      "measurement_technique": "polarized neutron reflectometry",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRR of a Ni0.33Co0.67O film and a comparison sample of as-grown Ni0.33Co0.67O/Gd/Pd.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

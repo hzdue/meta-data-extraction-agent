@@ -1,0 +1,378 @@
+{
+  "bibliographic": {
+    "title": "Thermally-driven reorientation of the Néel vector in altermagnetic MnTe",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "PSI Center for Neutron and Muon Sciences, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Physics, Czech Academy of Sciences, Prague, Czech Republic"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Department of Condensed Matter Physics, Faculty of Science, Masaryk University, Kotlářská 2, Brno, 61137, Czechia"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "School of Physics and Astronomy, University of Nottingham, Nottingham, United Kingdom"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "PSI Center for Photon Science, 5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Institut de Physique, École Polytechnique Fédérale de Lausanne, 1015 Lausanne, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Thomas J. Hicken",
+        "orcid": null,
+        "email": "thomas.hicken@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Klára Uhlířová",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Helena Reichlová",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Ondrej Caha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Vincent C. Morano",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Oliver Amin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Alfred Dal Din",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "J. Hugo Dil",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Marek Duchan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Dominik Kriegner",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Hubertus Luetkens",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Zeno Maesen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Jan Martinek",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Zaher Salman",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Peter Wadley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Oksana Zaharko",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Juraj Krempaský",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Jonas A. Krieger",
+        "orcid": null,
+        "email": "jonas.krieger@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Altermagnets are novel magnetic systems that possess a spin-polarized electronic band structure without a net magnetic moment, making them promising for device applications. Hexagonal MnTe, a prototypical altermagnet, arguably exhibits the most properties consistent with theoretical predictions, including an anomalous Hall effect despite a vanishing net magnetization, and altermagnetinduced electronic band splitting. However, fundamental questions remain, including why some effects only appear significantly below the magnetic ordering temperature. Here, we resolve this discrepancy by revealing a reorientation of the Néel vector in single-crystalline MnTe. The Néel vector points 30◦ from the a -axis at low T , before aligning directly with the a -axis around T∗ ≃ 260 K. We attribute this to single-ion anisotropy, which depends on temperature-dependent lattice parameters. We obtained these results using muon-spin spectroscopy, magnetization measurements, and X-ray diffraction; we show that the findings are consistent with neutron diffraction. Manipulating this effect, for example through strain, could unlock sensitive electronic detection schemes for external stimuli, paving the way for functional altermagnetic devices.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2026-09-23",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Program of Czech Research Infrastructures",
+        "grant_id": "LM2023065"
+      },
+      {
+        "funder": "TERAFIT",
+        "grant_id": "CZ.02.01.01/00/22_008/0004594"
+      },
+      {
+        "funder": "Dioscuri Program",
+        "grant_id": "LV23025"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021-219950"
+      },
+      {
+        "funder": "QM4ST project",
+        "grant_id": "CZ.02.01.01/00/22_008/0004572"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Paul Scherrer Institute"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "single-crystalline MnTe",
+      "sample_description": "Bridgman-grown crystal containing a minor MnTe2 impurity phase.",
+      "chemical_composition": "MnTe",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "MnTe thin film",
+      "sample_description": "2 nm Al / 30 nm α-MnTe grown via molecular beam epitaxy on an InP(111)A substrate.",
+      "chemical_composition": "MnTe",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "sample B",
+      "sample_description": "Flux-grown MnTe crystal free of MnTe2 impurities.",
+      "chemical_composition": "MnTe",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "sample C",
+      "sample_description": "Flux-grown MnTe crystal free of MnTe2 impurities.",
+      "chemical_composition": "MnTe",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "zero-field µSR",
+      "sample_refs": [
+        "sample_1",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Zero-field muon-spin spectroscopy measurements to track internal magnetic fields and their temperature evolution.",
+      "measurement_technique": "muon-spin spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "weak-transverse-field µSR",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Weak-transverse-field measurements using a 10 mT field to determine non-magnetic volume fraction.",
+      "measurement_technique": "muon-spin spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "X-ray scattering to extract lattice parameters a and c as a function of temperature.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature-dependent and field-dependent magnetization measurements in a 10 mT field.",
+      "measurement_technique": "magnetization measurements",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Neutron scattering measurements to investigate magnetic structure and domain populations.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "paper_id": "2304.08667",
+  "split_role": "pseudo_train",
+  "source_pdf": "papers/2304.08667/paper.pdf",
+  "pdf_sha256": "ddc0c0d91b45335073e4b40b313fdccff65ebea1b6fe8cf3cffe237ea0163154",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "preparation_source_sha256": "ec1cf5a7f93463c77564b7a4e2e83b8f0b98bbd2658bb6cb587c29714b772692",
+  "text_sha256": "1647fdbdbf068e0eb713404a773fed2f7b4551f8adea5241986758b5eb5fcbf7",
+  "text_chars": 85291,
+  "pages": 55,
+  "plain_text_chars": 83821,
+  "warnings": [
+    "bogus font ascent/descent values (3117 / -2464)",
+    "... repeated 10 times..."
+  ],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 669,
+      "word_presence": 0.9032
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 1504,
+      "word_presence": 1.0
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 2284,
+      "word_presence": 1.0
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 2213,
+      "word_presence": 1.0
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 2318,
+      "word_presence": 1.0
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 1912,
+      "word_presence": 0.987
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 1790,
+      "word_presence": 0.991
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 1996,
+      "word_presence": 1.0
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 2034,
+      "word_presence": 0.9921
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 1084,
+      "word_presence": 0.871
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 1591,
+      "word_presence": 0.9608
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 1901,
+      "word_presence": 0.9861
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 2009,
+      "word_presence": 0.9935
+    },
+    {
+      "page": 14,
+      "plain_text_chars": 2203,
+      "word_presence": 0.9921
+    },
+    {
+      "page": 15,
+      "plain_text_chars": 2248,
+      "word_presence": 1.0
+    },
+    {
+      "page": 16,
+      "plain_text_chars": 2174,
+      "word_presence": 1.0
+    },
+    {
+      "page": 17,
+      "plain_text_chars": 2290,
+      "word_presence": 1.0
+    },
+    {
+      "page": 18,
+      "plain_text_chars": 1969,
+      "word_presence": 0.9913
+    },
+    {
+      "page": 19,
+      "plain_text_chars": 2385,
+      "word_presence": 1.0
+    },
+    {
+      "page": 20,
+      "plain_text_chars": 2145,
+      "word_presence": 1.0
+    },
+    {
+      "page": 21,
+      "plain_text_chars": 2163,
+      "word_presence": 1.0
+    },
+    {
+      "page": 22,
+      "plain_text_chars": 2232,
+      "word_presence": 1.0
+    },
+    {
+      "page": 23,
+      "plain_text_chars": 2207,
+      "word_presence": 1.0
+    },
+    {
+      "page": 24,
+      "plain_text_chars": 2383,
+      "word_presence": 1.0
+    },
+    {
+      "page": 25,
+      "plain_text_chars": 1858,
+      "word_presence": 1.0
+    },
+    {
+      "page": 26,
+      "plain_text_chars": 2041,
+      "word_presence": 1.0
+    },
+    {
+      "page": 27,
+      "plain_text_chars": 2261,
+      "word_presence": 1.0
+    },
+    {
+      "page": 28,
+      "plain_text_chars": 2197,
+      "word_presence": 1.0
+    },
+    {
+      "page": 29,
+      "plain_text_chars": 1075,
+      "word_presence": 1.0
+    },
+    {
+      "page": 30,
+      "plain_text_chars": 478,
+      "word_presence": 1.0
+    },
+    {
+      "page": 31,
+      "plain_text_chars": 579,
+      "word_presence": 0.9787
+    },
+    {
+      "page": 32,
+      "plain_text_chars": 885,
+      "word_presence": 1.0
+    },
+    {
+      "page": 33,
+      "plain_text_chars": 612,
+      "word_presence": 1.0
+    },
+    {
+      "page": 34,
+      "plain_text_chars": 834,
+      "word_presence": 1.0
+    },
+    {
+      "page": 35,
+      "plain_text_chars": 38,
+      "word_presence": null
+    },
+    {
+      "page": 36,
+      "plain_text_chars": 712,
+      "word_presence": 1.0
+    },
+    {
+      "page": 37,
+      "plain_text_chars": 65,
+      "word_presence": 1.0
+    },
+    {
+      "page": 38,
+      "plain_text_chars": 526,
+      "word_presence": 1.0
+    },
+    {
+      "page": 39,
+      "plain_text_chars": 647,
+      "word_presence": 1.0
+    },
+    {
+      "page": 40,
+      "plain_text_chars": 177,
+      "word_presence": 1.0
+    },
+    {
+      "page": 41,
+      "plain_text_chars": 371,
+      "word_presence": 0.9697
+    },
+    {
+      "page": 42,
+      "plain_text_chars": 452,
+      "word_presence": 1.0
+    },
+    {
+      "page": 43,
+      "plain_text_chars": 601,
+      "word_presence": 1.0
+    },
+    {
+      "page": 44,
+      "plain_text_chars": 435,
+      "word_presence": 0.9773
+    },
+    {
+      "page": 45,
+      "plain_text_chars": 8,
+      "word_presence": null
+    },
+    {
+      "page": 46,
+      "plain_text_chars": 486,
+      "word_presence": 1.0
+    },
+    {
+      "page": 47,
+      "plain_text_chars": 870,
+      "word_presence": 0.9722
+    },
+    {
+      "page": 48,
+      "plain_text_chars": 2147,
+      "word_presence": 1.0
+    },
+    {
+      "page": 49,
+      "plain_text_chars": 2451,
+      "word_presence": 0.9886
+    },
+    {
+      "page": 50,
+      "plain_text_chars": 2386,
+      "word_presence": 1.0
+    },
+    {
+      "page": 51,
+      "plain_text_chars": 2538,
+      "word_presence": 1.0
+    },
+    {
+      "page": 52,
+      "plain_text_chars": 2306,
+      "word_presence": 1.0
+    },
+    {
+      "page": 53,
+      "plain_text_chars": 2486,
+      "word_presence": 1.0
+    },
+    {
+      "page": 54,
+      "plain_text_chars": 2614,
+      "word_presence": 0.99
+    },
+    {
+      "page": 55,
+      "plain_text_chars": 873,
+      "word_presence": 1.0
+    }
+  ],
+  "low_word_presence_pages": []
+}

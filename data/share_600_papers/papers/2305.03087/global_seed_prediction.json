@@ -1,0 +1,358 @@
+{
+  "bibliographic": {
+    "title": "4d -element induced improvement of structural disorder and development of weakly re-entrant spin-glass behaviour in NiRuMnSn",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Condensed Matter Physics Division, Saha Institute of Nuclear Physics, 1/AF, Bidhannagar, Kolkata 700064, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Atomic & Molecular Physics Division, Bhabha Atomic Research Centre, Mumbai 400 094, Maharashtra, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Ames National Laboratory, Iowa State University, Ames, Iowa 50011, USA"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Universit´e Paris-Est, Institut de Chimie et des Mat´eriaux Paris-Est, UMR 7182 CNRS UPEC, 2 rue H. Dunant, 94320 Thiais, France"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Solid State Physics Division, Bhabha Atomic Research Centre, Mumbai 400 085, India"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Homi Bhabha National Institute, Training School Complex, Anushaktinagar, Mumbai 400094, India"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Department of Materials Science and Engineering, Iowa State University, Ames, Iowa 50011, USA"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Shuvankar Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sudip Chakraborty",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Vidha Bhasin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Santanu Pakhira",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Anis Biswas",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Yaroslav Mudryk",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Amit Kumar",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Celine Barreteau",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Jean-Claude Crivello",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Amitabh Das",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "S.N. Jha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "D. Bhattacharyya",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Vitalij K. Pecharsky",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Eric Alleno",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Chandan Mazumdar",
+        "orcid": null,
+        "email": "chandan.mazumdar@saha.in",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The pursuit of efficient spin-polarization in quaternary Heusler alloys with the general formula XX′YZ (where X , X′ , and Y are transition metals and Z is a p -block element), has been a subject of significant scientific interest. While previous studies shows that isoelectronic substitution of 4 d element in place of 3 d element in quaternary Heusler alloy, improves the half-metallic ferromagnetic characteristics, our research on the quaternary Heusler alloy NiRuMnSn reveals a strikingly different scenario. In this study, we present a detailed structural analysis of the material using X-ray absorption fine structure (EXAFS) and neutron diffraction (ND) techniques, which confirms the formation of a single-phase compound with 50:50 site disorder between Ni/Ru atoms at 4 c /4 d sites. Contrary to expectations, our DFT calculations suggests a considerable decrease in spin-polarization even in the ordered structure. Additionally, we report on the compound’s exceptional behavior, displaying a rare re-entrant spin glass property below ∼ 60 K, a unique and intriguing feature for quaternary Heusler-type compounds.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2023-05-08",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "GENCI-CINES",
+        "grant_id": "2021-A0100906175"
+      },
+      {
+        "funder": "Department of Energy- Basic Energy Sciences, Materials Sciences and Engineering Division",
+        "grant_id": "DE-AC02-07CH11358"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. METHODS",
+      "III. RESULTS AND DISCUSSION",
+      "IV. CONCLUSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Indus-2 Synchrotron Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Dhruva reactor"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "NiRuMnSn",
+      "sample_description": "Polycrystalline quaternary Heusler alloy.",
+      "chemical_composition": "NiRuMnSn",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD analysis of powdered sample at room temperature to determine phase purity and crystal structure.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "dc magnetization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "dc magnetization measurements carried out at temperatures 5 − 380 K under applied magnetic fields.",
+      "measurement_technique": "dc magnetization measurements",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "ac magnetic susceptibility measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "ac magnetic susceptibility measurements to investigate spin-glass behavior.",
+      "measurement_technique": "ac magnetic susceptibility measurements",
+      "measurement_mode": [
+        "TemperatureScan",
+        "FrequencyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Electrical resistivity",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Electrical resistivity measured with a four-probe technique.",
+      "measurement_technique": "Electrical resistivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "EXAFS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Extended X-ray absorption fine structure measurements at the Ni-, Ru- and Mn K-edges.",
+      "measurement_technique": "extended X-ray absorption fine structure",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Powder Neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Powder neutron diffraction data recorded at 300 K and 1.5 K.",
+      "measurement_technique": "powder neutron diffraction",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Neutron depolarization measurements",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Neutron depolarization measurements performed in the temperature range 2 − 300 K.",
+      "measurement_technique": "neutron depolarization",
+      "measurement_mode": [
+        "TemperatureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

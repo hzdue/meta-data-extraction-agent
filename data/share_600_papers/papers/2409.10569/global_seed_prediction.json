@@ -1,0 +1,304 @@
+{
+  "bibliographic": {
+    "title": "Growth-Induced Unconventional Magnetic Anisotropy in Co/Fullerene (C60) Bilayer Systems; Insights from a Two-Grain Stoner-Wohlfarth Model",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "UGC-DAE Consortium for Scientific Research, Khandwa Road, Indore-452001, India"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Synchrotron Utilization Division, RRCAT, Indore-452013, India"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Homi Bhabha National Institute, Training School Complex, Anushakti Nagar, Mumbai 400094, India"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Photon Science, DESY, Notkestraße 85, 22607 Hamburg, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Sonia Kaushik",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Rakhul Raj",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Pooja Gupta",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Venkatesh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Andrei Chumakov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Matthias Schwartzkopf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "V. Raghavendra Reddy",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Dileep Kumar",
+        "orcid": null,
+        "email": "dkumar@csr.res.in",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Organic spintronics has drawn the interest of the science community due to various applications in spinvalve devices. However, an efficient room-temperature Organic Spin Valve device has not been experimentally realized due to the complicated spin transport at the metal-organic interfaces. The present study focuses on a comprehensive understanding of the interfacial properties essential for advancing device performance and functionality. The structural and magnetic properties of the ultra-thin Cobalt (Co) films deposited on the fullerene (C60) layer are studied to investigate the origin of magnetic anisotropy in the metal-organic bilayer structures. Due to the mechanical softness of C60, penetration of ferromagnetic Co atoms inside the C60 film is confirmed by the X-ray reflectivity and Secondary Ion Mass Spectroscopy measurements. Grazing incidence small-angle X-ray scattering and atomic force microscopy provided information regarding the structural and morphological properties of the Co/C60 bilayers, angular dependent Magneto-optic Kerr effect measurements with varying Co layer thickness provided information about the growth-induced uniaxial magnetic anisotropy. In contrast to the inorganic silicon substrates, magnetic anisotropy in Co film tends to develop at 25 Å thickness on the C60 layer, which further increases with the thickness of Cobalt. The anomalous behavior in coercivity and remanence variation along the nominal hard axis is explained by a two-grain Stoner-Wohlfarth model with intergranular exchange coupling. It is further confirmed by a non-uniform spatial distribution of magnetic domains investigated through Kerr microscopy. These anomalies could be attributed to the distribution of magneto-crystalline anisotropy and inhomogeneous strain caused by the formation of a diffused layer at the Co/C60 interface. These findings shed light on the intricate relationship between ferromagnetic materials and organic semiconductors, opening up possibilities for customizing magnetoresistance effects and deepening the fundamental understanding of organic spintronic devices.",
+    "keywords": [
+      "Organic Semiconductors",
+      "Magnetic anisotropy",
+      "Stoner Wohlfarth Model",
+      "GISAXS",
+      "GIWAXS"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Department of Science and Technology, Government of India",
+        "grant_id": "CRG/2021/003094"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "INTRODUCTION",
+      "EXPERIMENTAL",
+      "RESULTS AND DISCUSSION",
+      "CONCLUSIONS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "RRCAT, Indore"
+    },
+    {
+      "id": "facility_2",
+      "name": "PETRA III"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "S1",
+      "sample_description": "Co film of nominal thickness 10 Å on a 1000 Å thick C60 layer.",
+      "chemical_composition": "Co/C60",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "S2",
+      "sample_description": "Co film of nominal thickness 25 Å on a 1000 Å thick C60 layer.",
+      "chemical_composition": "Co/C60",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "S3",
+      "sample_description": "Co film of nominal thickness 40 Å on a 1000 Å thick C60 layer.",
+      "chemical_composition": "Co/C60",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "S4",
+      "sample_description": "Co film of nominal thickness 180 Å on a 1000 Å thick C60 layer.",
+      "chemical_composition": "Co/C60",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "reference samples",
+      "sample_description": "Co films on bare silicon substrates with varying thicknesses.",
+      "chemical_composition": "Co/Si",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRR patterns used to extract structural parameters like thickness and density of the Co film.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Secondary Ion Mass Spectroscopy",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Depth profiling measurements of Co, Al, C, and Si to confirm Co diffusion into the C60 layer.",
+      "measurement_technique": "Secondary Ion Mass Spectroscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "atomic force microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Topographical analysis and surface roughness measurement in tapping mode.",
+      "measurement_technique": "atomic force microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "GISAXS/GIWAXS",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Simultaneous GISAXS and GIWAXS measurements to study lateral and vertical structural parameters.",
+      "measurement_technique": "GISAXS/GIWAXS",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Out-of-plane and in-plane XRD measurements to investigate the preferential orientation of Co hcp (002) grains.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "Magneto-optic Kerr effect",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Angular dependent MOKE hysteresis loops to investigate magnetic anisotropy.",
+      "measurement_technique": "Magneto-optic Kerr effect",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "Kerr microscopy",
+      "sample_refs": [
+        "sample_4"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Domain images captured near the coercive field at different azimuthal angles.",
+      "measurement_technique": "Kerr microscopy",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}

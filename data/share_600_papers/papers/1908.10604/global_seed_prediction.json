@@ -1,0 +1,338 @@
+{
+  "bibliographic": {
+    "title": "Electronic Localization in CaVO3 Films via Bandwidth Control",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Photon Science Division, Paul Scherrer Institut, CH‐5232 Villigen PSI, Switzerland."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Materials Theory, ETH Zurich, Wolfgang‐Pauli Strasse 27, CH‐8093 Zurich, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Institute of Condensed Matter Physics, Ecole Polytechnique Federale de Lausanne (EPFL), CH‐ 1015 Lausanne, Switzerland"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Laboratory for Scientific Developments and Novel Materials, Paul Scherrer Institut, CH‐5232 Villigen PSI, Switzerland"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, CH‐5232 Villigen PSI, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Daniel E. McNally",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Xingye Lu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Jonathan Pelliciari",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sophie Beck",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Marcus Dantz",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Muntaser Naamneh",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Tian Shang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Marisa Medarde",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Christof W. Schneider",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Vladimir N. Strocov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Ekaterina V. Pomjakushina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Claude Ederer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Milan Radovic",
+        "orcid": null,
+        "email": "milan.radovic@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Thorsten Schmitt",
+        "orcid": null,
+        "email": "thorsten.schmitt@psi.ch",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "Understanding and controlling the electronic structure of thin layers of quantum materials is a crucial first step towards designing heterostructures where new phases and phenomena, including the metal‐insulator transition (MIT), emerge.  Here, we demonstrate control of the MIT via tuning electronic bandwidth and local site environment through selection of the number of atomic layers deposited. We take CaVO3, a correlated metal in its bulk form that has only a single electron in its V4+ 3d manifold, as a representative example. We find that thick films and ultrathin films (≤ 6 unit cells, u.c.) are metallic and insulating, respectively, while a 10 u.c. CaVO3 film exhibits a clear thermal MIT. Our combined X‐ray absorption spectroscopy and resonant inelastic x‐ray scattering (RIXS) study reveals that the thickness‐induced MIT is triggered by electronic bandwidth reduction and local moment formation from V3+ ions, that are both a consequence of the thickness confinement.  The thermal MIT in our 10 u.c. CaVO3 film exhibits similar changes in the RIXS response to that of the thickness‐induced MIT in terms of reduction of bandwidth and V 3d – O 2p hybridization.",
+    "keywords": [
+      "transition metal oxides",
+      "thin films",
+      "resonant inelastic X‐ray scattering",
+      "X‐ray absorption spectroscopy",
+      "electronic structure",
+      "metal‐insulator transition"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "European Community’s Seventh Framework Programme",
+        "grant_id": "290605 (Cofund; PSI‐Fellow)"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "P2FRP2‐171824"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200021L 141325"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Results",
+      "Metal‐insulator transition in thin film CaVO3.",
+      "Control of electronic bandwidth in CaVO3.",
+      "Local moment formation in CaVO3 films.",
+      "Thermal MIT in 10 u.c. CaVO3 film and the role of V‐O hybridization.",
+      "Discussion",
+      "Methods",
+      "Experimental details."
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ADRESS beamline of the Swiss Light Source"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CaVO3 50 u.c.",
+      "sample_description": null,
+      "chemical_composition": "CaVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "CaVO3 15 u.c.",
+      "sample_description": "capped by a 2 nm SrTiO3 overlayer",
+      "chemical_composition": "CaVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "CaVO3 10 u.c.",
+      "sample_description": "capped by a 2 nm SrTiO3 overlayer",
+      "chemical_composition": "CaVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "CaVO3 6 u.c.",
+      "sample_description": "capped by a 2 nm SrTiO3 overlayer",
+      "chemical_composition": "CaVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "CaVO3 4 u.c.",
+      "sample_description": "capped by a 2 nm SrTiO3 overlayer",
+      "chemical_composition": "CaVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_6",
+      "sample_name": "SrVO3 50 u.c.",
+      "sample_description": null,
+      "chemical_composition": "SrVO3",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_7",
+      "sample_name": "CaVO3 single crystal",
+      "sample_description": null,
+      "chemical_composition": "CaVO3",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6",
+        "sample_7"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS at the V L2,3 edges to reveal evolution of d-bands and valence fluctuations.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "resonant inelastic x-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5",
+        "sample_6"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "RIXS intensity maps of energy transfer versus incident energy across the V L3 edge.",
+      "measurement_technique": "resonant inelastic x-ray scattering",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

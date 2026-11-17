@@ -1,0 +1,417 @@
+{
+  "bibliographic": {
+    "title": "Single-crystal X-ray diffraction of BC8 carbon near terapascal pressures",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "National Key Laboratory of Plasma Physics, Laser Fusion Research Center, Chinese Academy of Engineering Physics; Mianyang, 621900, China."
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Center for High Pressure Science and Technology Advanced Research; Shanghai, 201203, China."
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "College of Science and Hunan Key Laboratory of Extreme Matter and Applications, National University of Defense Technology; Changsha, 410073, China."
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Shanghai Institute of Laser Plasma; Shanghai, 201800, China."
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "HEDPS, Center for Applied Physics and Technology, and College of Engineering, Peking University; Beijing, 100871, China."
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Graduate School of Engineering, Osaka University; Suita, Osaka 565-0871, Japan."
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Hunan Research Center of the Basic Discipline for Physical States, National University of Defense Technology; Changsha, 410073, China."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Liang Sun",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Bo Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Zhiyu He",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Pin Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Zanyang Guan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Guo Jia",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Fan Zhang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Yi Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Bo Xu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Pei Guo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Yonggang Liu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Wei Fan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Tao Xi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Yulong Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Lingbiao Meng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Wei Kang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Zhiyong Xie",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "Yuqiong Tu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "Cheng Ji",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Xiuguang Huang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "Zhongjing Chen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_22",
+        "full_name": "Ji Yan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_23",
+        "full_name": "Jiamin Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_24",
+        "full_name": "Wenge Yang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_25",
+        "full_name": "Toshimori Sekine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_26",
+        "full_name": "Zongqing Zhao",
+        "orcid": null,
+        "email": "498427431@qq.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_27",
+        "full_name": "Jiayu Dai",
+        "orcid": null,
+        "email": "jydai@nudt.edu.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_28",
+        "full_name": "HoKwang Mao",
+        "orcid": null,
+        "email": "maohk@hpstar.ac.cn",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Whether carbon forms crystalline structures beyond diamond at terapascal pressures remains unresolved. Predicted for nearly four decades, the denser BC8 phase has lacked direct crystallographic evidence. Here we report the first direct crystallographic identification of BC8 carbon, formed as a single crystal from molten carbon during laser-driven decaying-shock compression of [100]-oriented diamond following loading above 1.1 TPa. Using _in situ_ orientation-resolved single-crystal X-ray diffraction, we observe discrete Bragg spots whose spacings and angular relationships are reproduced by a common orientation matrix within each indexed BC8 reflection group, providing constraints beyond powder peak matching. Our singlecrystal formation strategy and direct diffraction evidence resolve the decades-long quest for a postdiamond carbon structure, demonstrating how dynamic loading pathways can make predicted high-pressure phases experimentally accessible.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12534013"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12104507"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "12205276"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "11975053"
+      },
+      {
+        "funder": "National Natural Science Foundation of China",
+        "grant_id": "41974099"
+      },
+      {
+        "funder": "Science and Technology Innovation Program of Hunan Province",
+        "grant_id": "2025ZYJ001 (to J. D.)"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Results.",
+      "Discussion."
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "SG-IIIp laser facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "[100]-oriented single-crystal diamond",
+      "sample_description": null,
+      "chemical_composition": "C",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": null
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "BC8 carbon",
+      "sample_description": "formed as a single crystal from molten carbon during laser-driven decaying-shock compression",
+      "chemical_composition": "C",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "in situ orientation-resolved SCXRD",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Orientation-resolved single-crystal X-ray diffraction of carbon under laser-driven decaying-shock compression to probe the diamond-BC8-liquid phase boundaries.",
+      "measurement_technique": "single-crystal X-ray diffraction",
+      "measurement_mode": [
+        "PressureScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "bibliographic": {
+    "title": "Element-selective probing of ultrafast ferromagnetic–antiferromagnetic order dynamics in Fe/CoO bilayers",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Institut f¨ur Experimentalphysik, Freie Universit¨at Berlin, Arnimallee 14, 14195 Berlin, Germany"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Department of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Helmholtz-Zentrum Berlin f¨ur Materialien und Energie, Albert-Einstein-Straße 15, 12489 Berlin, Germany"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Chowdhury S. Awsaf",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Sangeeta Thakur",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Markus Weißenhofer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Jendrik G¨ordes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Marcel Walter",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Niko Pontius",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Christian Sch¨ußler-Langeheine",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Peter M. Oppeneer",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Wolfgang Kuch",
+        "orcid": null,
+        "email": "kuch@physik.fu-berlin.de",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The ultrafast magnetization dynamics of an epitaxial Fe/CoO bilayer on Ag(001) is examined in an element-resolved way by resonant soft-x-ray reflectivity. The transient magnetic linear dichroism at the Co L 2 edge and the magnetic circular dichroism at the Fe L 3 edge measured in reflection in a pump–probe experiment with 120 fs temporal resolution show the loss of antiferromagnetic and ferromagnetic order in CoO and Fe, respectively, both within 300 fs after excitation with 60 fs light pulses of 800 and 400 nm wavelengths. Comparison to spin-dynamics simulations using an atomistic spin model shows that direct energy transfer from the laser-excited electrons in Fe to the magnetic moments in CoO provides the dominant demagnetization channel in the case of 800-nm excitation.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2024-08-27",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Deutsche Forschungsgemeinschaft",
+        "grant_id": "328545488"
+      },
+      {
+        "funder": "K. and A. Wallenberg Foundation",
+        "grant_id": "2022.0079"
+      },
+      {
+        "funder": "K. and A. Wallenberg Foundation",
+        "grant_id": "2023.0336"
+      },
+      {
+        "funder": "Swedish Research Council",
+        "grant_id": "2022-06725"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "BESSY II"
+    },
+    {
+      "id": "facility_2",
+      "name": "Femtoslicing Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe/CoO bilayer on Ag(001)",
+      "sample_description": "A film of 9 (± 0.5) atomic monolayers (ML) of CoO grown epitaxially on a Ag(001) surface and capped by 9 (± 1) ML Fe.",
+      "chemical_composition": "Fe/CoO",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "R-XMLD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Time-resolved x-ray magnetic linear dichroism in resonant soft-xray reflectivity of the CoO layer at the Co L 2 edge (793.3 eV).",
+      "measurement_technique": "resonant soft-x-ray reflectivity",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "R-XMCD",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2"
+      ],
+      "dataset_description": "Time-resolved x-ray magnetic circular dichroism in reflection of the Fe layer at the Fe L 3 edge (709.8 eV).",
+      "measurement_technique": "resonant soft-x-ray reflectivity",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

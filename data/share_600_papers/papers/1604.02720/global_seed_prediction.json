@@ -1,0 +1,225 @@
+{
+  "bibliographic": {
+    "title": "Field-Driven Self-Assembly of Magnetite Nanoparticles Investigated Using Small-Angle Neutron Scattering",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "a",
+        "text": "Jülich Centre for Neutron Science JCNS, Forschungszentrum Jülich GmbH, Lichtenbergstraße 1, D-85748 Garching, Germany."
+      },
+      {
+        "id": "aff_2",
+        "label": "b",
+        "text": "Jülich Centre for Neutron Science JCNS and Peter Grünberg Institut PGI, JARA-FIT, Forschungszentrum Jülich GmbH, D-52425 Jülich, Germany."
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Zhendong Fu",
+        "orcid": null,
+        "email": "fuzhendong@gmail.com",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yinguo Xiao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Artem Feoktystov",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Vitaliy Pipich",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Marie-Sousai Appavou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Yixi Su",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Erxi Feng",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "W. T. Jin",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Thomas Brückel",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "The magnetic-field-induced assembly of magnetic nanoparticles (NPs) provides a unique and flexible strategy in the design and the fabrication of functional nanostructures and devices. We have investigated the field-driven self-assembly of core-shell magnetite NPs dispersed in toluene by means of in situ small angle neutron scattering (SANS). The form factor of the core-shell NPs was characterized and analyzed using SANS with polarized neutrons. Large-scale aggregation of magnetite NPs has formed above 0.02 T as indicated by very-small angle neutron scattering measurements. Three-dimensional longrange ordered superlattice of magnetite NPs was revealed under the application of moderate magnetic field. The crystal structure of the superlattice has been identified as a face-centred cubic one.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": []
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental",
+      "Results and discussion",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Heinz Maier-Leibnitz Zentrum"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "Fe3O4 NPs",
+      "sample_description": "Core-shell magnetite nanoparticles coated with oleic acid dispersed in toluene.",
+      "chemical_composition": "Fe3O4",
+      "sample_state": "solution",
+      "sample_mass": null,
+      "supplier_or_creator": "Sigma-Aldrich Corporation"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "Transmission electron microscopy (TEM)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Examination of nanoparticle shape and size distribution.",
+      "measurement_technique": "Transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray powder diffraction (XRD)",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Measurement of the crystal structure of dried Fe3O4 NPs.",
+      "measurement_technique": "X-ray powder diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "Magnetization",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Temperature and field dependence of magnetization using SQUID.",
+      "measurement_technique": "superconducting quantum interference device",
+      "measurement_mode": [
+        "TemperatureScan",
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "VSANS",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Very-small angle neutron scattering measurements on KWS-3 to detect large aggregations.",
+      "measurement_technique": "very-small angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "SANSpol",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "SANS with polarized neutrons on KWS-1 to investigate core-shell microstructure and field-assisted self-assembly.",
+      "measurement_technique": "small angle neutron scattering",
+      "measurement_mode": [
+        "MagneticFieldScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

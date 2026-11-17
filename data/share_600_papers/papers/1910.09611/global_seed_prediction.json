@@ -1,0 +1,214 @@
+{
+  "bibliographic": {
+    "title": "Attractive Interaction between Fully Charged Lipid Bilayers in a Strongly-Confined Geometry",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "UPR 22 / CNRS, Institut Charles Sadron, Universit´e de Strasbourg, 23 rue du Loess, BP 84047 67034 Strasbourg Cedex 2, France"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Dipartimento di Biotecnologie Mediche e Medicina Traslazionale, Universit´a degli Studi di Milano, LITA, Via F.lli Cervi 93, 20090 Segrate, Italy"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Institut Laue-Langevin, 71 av. des Martyrs, BP 156, 38042 Grenoble Cedex, France"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Synchrotron SOLEIL, L’Orme des Merisiers, Saint-Aubin, BP 48, F-91192 Gif-sur-Yvette Cedex, France"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Tetiana Mukhina",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Arnaud Hemmerle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Thierry Charitat",
+        "orcid": null,
+        "email": "thierry.charitat@ics-cnrs.unistra.fr",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Valeria Rondelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Yuri Gerelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Giovanna Fragneto",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Jean Daillant",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      }
+    ],
+    "abstract": "We investigate the interaction between highly charged lipid bilayers in the presence of monovalent counterions. Neutron and X-ray reflectivity experiments show that the water layer between likecharged bilayers is thinner than for zwitterionic lipids, demonstrating the existence of counterintuitive electrostatic attractive interaction between bilayers. Such attraction can be explained by taking into account the correlations between counterions within the Strong Coupling limit, which falls beyond the classical Poisson-Boltzmann theory of electrostatics. Our results show the limit of the Strong Coupling continuous theory in a highly confined geometry and are in agreement with a decrease in the water dielectric constant due to a surface charge-induced orientation of water molecules.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2019-11-06",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Labex NIE",
+        "grant_id": "11-LABX-0058-NIE"
+      },
+      {
+        "funder": "Investissement d’Avenir programme ANR",
+        "grant_id": "ANR-10- IDEX-0002-02"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_2",
+      "name": "European Synchrotron Radiation Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "DPPS2-DPPS2",
+      "sample_description": "Highly charged double bilayers.",
+      "chemical_composition": "DPPS",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "DSPC2-DSPC2",
+      "sample_description": "Zwitterionic double bilayers.",
+      "chemical_composition": "DSPC",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "DPPC/DPPS-DPPS/DPPC",
+      "sample_description": "Double asymmetric bilayer.",
+      "chemical_composition": "DPPC/DPPS",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "DPPS2-DPPS2-DPPS2",
+      "sample_description": "Triple DPPS bilayer.",
+      "chemical_composition": "DPPS",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "neutron reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Characterization of the structure of double and triple bilayers using contrast variation with H2O, SiMW and D2O.",
+      "measurement_technique": "neutron reflectivity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray reflectivity",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "Characterization of the structure of double bilayers using a 27 keV X-ray beam.",
+      "measurement_technique": "X-ray reflectivity",
+      "measurement_mode": [
+        "TemperatureScan",
+        "CompositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

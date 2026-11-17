@@ -1,0 +1,394 @@
+{
+  "bibliographic": {
+    "title": "Impact of Electron Correlations on Infinite-Layer Cuprates and Nickelates",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Department of Physics, The Chinese University of Hong Kong, Shatin, Hong Kong, China"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Physik-Institut, Universit¨at Z¨urich, Winterthurerstrasse 190, CH-8057 Z¨urich, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "State Key Laboratory of Quantum Information Technologies and Materials, The Chinese University of Hong Kong, Shatin, Hong Kong, China"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing 100190, China"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "Dipartimento di Ingegneria Industriale, Universita’ degli Studi di Salerno, Fisciano (SA) 84084, Italy"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Department of Materials Science and Engineering, Cornell University, Ithaca, New York 14850, USA"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Kavli Institute at Cornell for Nanoscale Science, Ithaca, New York 14853, USA"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Department of Physics, Laboratory of Atomic and Solid State Physics, Cornell University, Ithaca, New York 14853, USA"
+      },
+      {
+        "id": "aff_9",
+        "label": "9",
+        "text": "Diamond Light Source, Harwell Campus, Didcot OX11 0DE, United Kingdom"
+      },
+      {
+        "id": "aff_10",
+        "label": "10",
+        "text": "European Synchrotron Radiation Facility, 71 Avenue des Martyrs, 38043 Grenoble, France"
+      },
+      {
+        "id": "aff_11",
+        "label": "11",
+        "text": "Institute of Physics, ´Ecole Polytechnique Fed´erale de Lausanne (EPFL), CH-1015 Lausanne, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Xunyang Hong",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Yuetong Wu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "Ying Chan",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Sze Tung Li",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "I. Bia�lo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "L. Martinelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "A. Drewanowski",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Qiang Gao",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Xiaolin Ren",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Xingjiang Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Zhihai Zhu",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "A. Galdi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5",
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "D. G. Schlom",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "K. M. Shen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7",
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "J. Choi",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "M. Garcia-Fernandez",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_17",
+        "full_name": "Ke-Jin Zhou",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_18",
+        "full_name": "N. B. Brookes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_19",
+        "full_name": "H. M. Rønnow",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_11"
+        ]
+      },
+      {
+        "id": "author_20",
+        "full_name": "Qisi Wang",
+        "orcid": null,
+        "email": "qwang@cuhk.edu.hk",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_21",
+        "full_name": "J. Chang",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      }
+    ],
+    "abstract": "Optimization of unconventional superconductivity involves a balance of interaction strengths. Precise determination of correlation strength across different material families is therefore important. Here, we present a combined X-ray absorption spectroscopy (XAS) and resonant inelastic X-ray scattering (RIXS) study of infinite-layer PrNiO2 and SrCuO2 that enables fair comparison of their interaction strengths. For both compounds, we study the orbital and magnetic excitations and extract their dispersions along high-symmetry directions. Using a single-band Hubbard model and including higher-order exchange interactions, we derive the correlation factor U/t for both compounds. A key finding is that despite a smaller Coulomb repulsion U , PrNiO2 exhibits a correlation strength that is 20% stronger than that of its isostructural cuprate counterpart SrCuO2 . This indicates that a moderation of the correlation strength may further optimize superconductivity in nickelates.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Research Grants Council of Hong Kong",
+        "grant_id": "ECS No. 24306223"
+      },
+      {
+        "funder": "Guangdong Provincial Quantum Science Strategic Initiative",
+        "grant_id": "GDZX2401012"
+      },
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "Projects No. 200021 ~~1~~ 88564"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2021YFA1401800"
+      },
+      {
+        "funder": "National Key Research and Development Program of China",
+        "grant_id": "2022YFA1403900"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "RESULTS",
+      "ANALYSIS",
+      "DISCUSSION",
+      "METHODS"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Diamond Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "Swiss Light Source"
+    },
+    {
+      "id": "facility_3",
+      "name": "European Synchrotron Radiation facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "PrNiO2",
+      "sample_description": "Thin films of the PrNiO2 on SrTiO3 (STO) substrates.",
+      "chemical_composition": "PrNiO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "SrCuO2",
+      "sample_description": "Thin films of SrCuO2 grown on GdScO3 (GSO) substrates.",
+      "chemical_composition": "SrCuO2",
+      "sample_state": "thin film",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XAS using vertical incident light polarization across the nickel and copper L-edges to demonstrate film quality.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "resonant inelastic X-ray scattering",
+      "sample_refs": [
+        "sample_1",
+        "sample_2"
+      ],
+      "facility_refs": [
+        "facility_1",
+        "facility_2",
+        "facility_3"
+      ],
+      "dataset_description": "RIXS study mapping out electronic and magnetic excitations across high-symmetry directions at the Cu and Ni L-edges.",
+      "measurement_technique": "resonant inelastic X-ray scattering",
+      "measurement_mode": [
+        "PositionScan"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

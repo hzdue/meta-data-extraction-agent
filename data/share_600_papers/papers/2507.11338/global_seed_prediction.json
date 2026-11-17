@@ -1,0 +1,533 @@
+{
+  "bibliographic": {
+    "title": "Unveiling Zn incorporation in CuInS₂ quantum dots: X-ray and optical analysis of doping effects, structural modifications and surface passivation",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": "1",
+        "text": "Madrid Institute for Advanced Studies IMDEA Nanoscience, Ciudad Universitaria de Cantoblanco, Calle Faraday 9, 28049 Madrid, Spain"
+      },
+      {
+        "id": "aff_2",
+        "label": "2",
+        "text": "Departamento de Química, Universidad Autónoma de Madrid, Ciudad Universitaria de Cantoblanco, Calle Francisco Tomás y Valiente 7, 28049 Madrid, Spain"
+      },
+      {
+        "id": "aff_3",
+        "label": "3",
+        "text": "Ultrafast laboratory spectroscopy, \"Gleb Wataghin\" Institute of Physics, University of Campinas, Brazil"
+      },
+      {
+        "id": "aff_4",
+        "label": "4",
+        "text": "Grupo de Pesquisa Química de Materiais, Departamento de Ciências Naturais, Universidade Federal de São João Del-Rei, Brazil"
+      },
+      {
+        "id": "aff_5",
+        "label": "5",
+        "text": "CELLS-ALBA Synchrotron Light Source, 08290 Cerdanyola del Vallès, Barcelona, Spain"
+      },
+      {
+        "id": "aff_6",
+        "label": "6",
+        "text": "Laboratório de Nanotecnologia e Energia Solar, Chemistry Institute, University of Campinas – UNICAMP, Campinas, São Paulo, Brazil"
+      },
+      {
+        "id": "aff_7",
+        "label": "7",
+        "text": "Chemistry, School of Natural and Environmental Sciences Newcastle University, NE1 7RU Newcastle upon Tyne, UK"
+      },
+      {
+        "id": "aff_8",
+        "label": "8",
+        "text": "Faculty of Physics, Adam Mickiewicz University, ul. Uniwersytetu Poznańskiego 2, 61-614 Poznań, Poland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "Andrés Burgos-Caminal",
+        "orcid": null,
+        "email": "andres.burgos@imdea.org",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "Brener R. C. Vale",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "André F. V. Fonseca",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6",
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "Juan F. Hidalgo",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "Elisa P. P. Collet",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "Lázaro García",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "Víctor Vega-Mayoral",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "Saül Garcia-Orrit",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "Iciar Arnay",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "Juan Cabanillas‐ González",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "Laura Simonelli",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "Ana Flávia Nogueira",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "Marco Antônio Schiavon",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Thomas J. Penfold",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "Lazaro A. Padilha",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_16",
+        "full_name": "Wojciech Gawelda",
+        "orcid": null,
+        "email": "wojciech.gawelda@uam.es",
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_2",
+          "aff_1",
+          "aff_8"
+        ]
+      }
+    ],
+    "abstract": "Quantum dots (QDs) exhibit unique properties arising from their reduced size and quantum confinement effects, including exceptionally bright and tunable photoluminescence. Among these, CuInS₂ QDs have gained significant attention owing to their remarkable broadband emission, making them highly desirable for various optoelectronic applications requiring efficient luminescent nanomaterials. However, maximizing radiative recombination in CuInS₂ QDs often necessitates minimizing intragap trap states. A common approach involves the introduction of Zn during the synthesis, which typically promotes the formation of a ZnS shell that passivates the QD surface. \n\nDespite its importance, the characterization and quantification of Zn incorporation using conventional techniques, such as optical spectroscopy or electron microscopy, remains challenging. In this study, we utilized X-ray absorption spectroscopy (XAS), in both X-ray absorption near-edge structure (XANES) and extended X-ray absorption fine structure (EXAFS) spectral ranges, to investigate Zn incorporation into CuInS₂ QDs with element-specific precision. This approach allowed us to detect the formation of a ZnS surface shell and to resolve the spatial distribution of Zn atoms within the QD lattice, distinguishing between Zn as a substituent, or as an interstitial defect. \n\nAdditionally, we explored the optical and dynamical properties of CuInS₂ QDs using time-resolved optical spectroscopies, particularly in the presence of electron and hole acceptors. These results provide deeper insights into the role and effectiveness of the Zn-induced passivating layer, paving the way for optimizing QD performance in photoluminescence applications.",
+    "keywords": [
+      "CuInS2 quantum dots",
+      "X-ray absorption",
+      "Zn doping",
+      "Core-shell",
+      "charge carrier dynamics",
+      "charge transfer"
+    ],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": null,
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Ministerio de Universidades",
+        "grant_id": "CA1/RSUE/2021-00809"
+      },
+      {
+        "funder": "European Union’s Horizon 2020 research and innovation programme",
+        "grant_id": "101034431"
+      },
+      {
+        "funder": "Severo Ochoa Programme for Centres of Excellence in R&D",
+        "grant_id": "CEX2020-001039S / AEI / 10.13039/501100011033"
+      },
+      {
+        "funder": "Spanish Ministry of Universities",
+        "grant_id": "BEAGAL18/00092"
+      },
+      {
+        "funder": "Regional Government of Madrid and Universidad Autónoma de Madrid",
+        "grant_id": "SI2/PBG/2020-00003"
+      },
+      {
+        "funder": "Spanish Ministry of Science, Innovation and Universities",
+        "grant_id": "PID2019-108678GB-I00"
+      },
+      {
+        "funder": "Spanish Ministry of Science, Innovation and Universities",
+        "grant_id": "PID2022-140257NB-I00"
+      },
+      {
+        "funder": "São Paulo Research Foundation",
+        "grant_id": "2018/15574-6"
+      },
+      {
+        "funder": "São Paulo Research Foundation",
+        "grant_id": "2022/06470-8"
+      },
+      {
+        "funder": "São Paulo Research Foundation",
+        "grant_id": "2020/16077-6"
+      },
+      {
+        "funder": "São Paulo Research Foundation",
+        "grant_id": "2024/01722-4"
+      },
+      {
+        "funder": "São Paulo Research Foundation",
+        "grant_id": "2023/10395-4"
+      },
+      {
+        "funder": "FAPESP",
+        "grant_id": "2017/11986-5"
+      },
+      {
+        "funder": "FAPEMIG",
+        "grant_id": "APQ02598-23"
+      },
+      {
+        "funder": "MICINN-FEDER",
+        "grant_id": "PID2021-128313OB-I00"
+      },
+      {
+        "funder": "Research Consolidation Grant",
+        "grant_id": "CNS202236191"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "PDC202-314587-1I00"
+      },
+      {
+        "funder": "Spanish Ministry of Science, Innovation and Universities",
+        "grant_id": "TED2021-131906A-100"
+      },
+      {
+        "funder": "Spanish Ministry of Science, Innovation and Universities",
+        "grant_id": "RYC2022-035200-I"
+      },
+      {
+        "funder": "Regional Government of Madrid",
+        "grant_id": "2019-T2/IND-12737"
+      },
+      {
+        "funder": "Regional Government of Madrid",
+        "grant_id": "2024-T1/TEC-31349"
+      },
+      {
+        "funder": "Spanish Ministry of Science and Innovation",
+        "grant_id": "PRE2019-09345"
+      },
+      {
+        "funder": "Regional government of Madrid",
+        "grant_id": "TEC-2024/TEC-85"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "Introduction",
+      "Experimental Section",
+      "Results and discussion",
+      "Structural investigation",
+      "Implications of structural modifications on charge carrier dynamics and surface passivation",
+      "Conclusions"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": true
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "ALBA synchrotron"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "CuIn0.4S2",
+      "sample_description": "stoichiometric CuInS2",
+      "chemical_composition": "CuIn0.4S2",
+      "sample_state": "quantum dots",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "Cu0.3InS2",
+      "sample_description": "Cu-deficient CuInS2",
+      "chemical_composition": "Cu0.3InS2",
+      "sample_state": "quantum dots",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "Cu(Zn)In0.8S2",
+      "sample_description": "Zn-doped stoichiometric CuInS2",
+      "chemical_composition": "Cu(Zn)In0.8S2",
+      "sample_state": "quantum dots",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_4",
+      "sample_name": "Cu0.3(Zn)InS2",
+      "sample_description": "Zn-doped Cu-deficient CuInS2",
+      "chemical_composition": "Cu0.3(Zn)InS2",
+      "sample_state": "quantum dots",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_5",
+      "sample_name": "Cu0.2(Zn)InS2/ZnS",
+      "sample_description": "Zn-doped Cu-deficient CuInS2 with a post-treatment of ZnCl2 at 200 ºC",
+      "chemical_composition": "Cu0.2(Zn)InS2/ZnS",
+      "sample_state": "quantum dots",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "UV-Vis absorption",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Steady-state UV-Vis absorption spectra of the investigated samples.",
+      "measurement_technique": "UV-Vis absorption",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "Photoluminescence",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Steady-state photoluminescence spectra of the investigated samples.",
+      "measurement_technique": "photoluminescence",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "X-ray absorption spectroscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "XAS measurements at Zn, S and Cu K-edges for colloidal dispersions of CIS QDs.",
+      "measurement_technique": "X-ray absorption spectroscopy",
+      "measurement_mode": [
+        "EnergyScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "Transient absorption spectroscopy",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Ultrafast decay kinetics of photoexcited QDs in the presence of electron and hole acceptors.",
+      "measurement_technique": "transient absorption spectroscopy",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "Time-Resolved Photoluminescence",
+      "sample_refs": [
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Nanosecond decay dynamics of photoexcited QDs using time-correlated single photon counting.",
+      "measurement_technique": "time-resolved photoluminescence",
+      "measurement_mode": [
+        "TimeScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "X-ray diffraction",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "XRD patterns of the samples deposited on a glass slide.",
+      "measurement_technique": "X-ray diffraction",
+      "measurement_mode": [
+        "AngleScan"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_7",
+      "dataset_name": "High-resolution transmission electron microscopy",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "HR-TEM micrographs and size histograms for the five samples.",
+      "measurement_technique": "high-resolution transmission electron microscopy",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_8",
+      "dataset_name": "X-ray fluorescence",
+      "sample_refs": [
+        "sample_1",
+        "sample_2",
+        "sample_3",
+        "sample_4",
+        "sample_5"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Elemental analysis to determine relative mass for each element.",
+      "measurement_technique": "X-ray fluorescence",
+      "measurement_mode": [
+        "Snapshot"
+      ],
+      "purpose": "measurement"
+    }
+  ]
+}

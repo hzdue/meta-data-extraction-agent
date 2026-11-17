@@ -1,0 +1,153 @@
+{
+  "paper_id": "1803.07403",
+  "split_role": "pseudo_train",
+  "source_pdf": "papers/1803.07403/paper.pdf",
+  "pdf_sha256": "bb87a0fc0745e00032a2509e57bbe777edff1cf4c90196a765208ea78c4362a4",
+  "parser": {
+    "name": "PdfParser",
+    "options": "repository defaults; complete PDF; no truncation",
+    "pymupdf": "1.27.2.2",
+    "pymupdf4llm": "1.27.2.2",
+    "layout_enabled": true,
+    "source_sha256": "73f4040c6734144bbef10ba0edc7bca3f1aa6a28c8b09cdfddfb3ee6f2a7417f"
+  },
+  "preparation_source_sha256": "ec1cf5a7f93463c77564b7a4e2e83b8f0b98bbd2658bb6cb587c29714b772692",
+  "text_sha256": "a87fa5f542151ea586a93f8bc858e6b0700f53cdde11299f3d341c39ad181422",
+  "text_chars": 56624,
+  "pages": 26,
+  "plain_text_chars": 51943,
+  "warnings": [],
+  "page_word_presence": [
+    {
+      "page": 1,
+      "plain_text_chars": 1781,
+      "word_presence": 0.9172
+    },
+    {
+      "page": 2,
+      "plain_text_chars": 2466,
+      "word_presence": 0.9432
+    },
+    {
+      "page": 3,
+      "plain_text_chars": 2343,
+      "word_presence": 0.9623
+    },
+    {
+      "page": 4,
+      "plain_text_chars": 2808,
+      "word_presence": 0.9521
+    },
+    {
+      "page": 5,
+      "plain_text_chars": 2293,
+      "word_presence": 0.963
+    },
+    {
+      "page": 6,
+      "plain_text_chars": 2746,
+      "word_presence": 0.9799
+    },
+    {
+      "page": 7,
+      "plain_text_chars": 830,
+      "word_presence": 1.0
+    },
+    {
+      "page": 8,
+      "plain_text_chars": 1102,
+      "word_presence": 0.9524
+    },
+    {
+      "page": 9,
+      "plain_text_chars": 2168,
+      "word_presence": 0.927
+    },
+    {
+      "page": 10,
+      "plain_text_chars": 1726,
+      "word_presence": 0.9661
+    },
+    {
+      "page": 11,
+      "plain_text_chars": 1708,
+      "word_presence": 0.9355
+    },
+    {
+      "page": 12,
+      "plain_text_chars": 2761,
+      "word_presence": 0.9836
+    },
+    {
+      "page": 13,
+      "plain_text_chars": 2206,
+      "word_presence": 0.9926
+    },
+    {
+      "page": 14,
+      "plain_text_chars": 1872,
+      "word_presence": 0.9371
+    },
+    {
+      "page": 15,
+      "plain_text_chars": 1166,
+      "word_presence": 0.9565
+    },
+    {
+      "page": 16,
+      "plain_text_chars": 1727,
+      "word_presence": 1.0
+    },
+    {
+      "page": 17,
+      "plain_text_chars": 2285,
+      "word_presence": 0.9535
+    },
+    {
+      "page": 18,
+      "plain_text_chars": 1819,
+      "word_presence": 0.9531
+    },
+    {
+      "page": 19,
+      "plain_text_chars": 2211,
+      "word_presence": 0.9592
+    },
+    {
+      "page": 20,
+      "plain_text_chars": 1779,
+      "word_presence": 0.9832
+    },
+    {
+      "page": 21,
+      "plain_text_chars": 1823,
+      "word_presence": 0.9556
+    },
+    {
+      "page": 22,
+      "plain_text_chars": 2066,
+      "word_presence": 0.9919
+    },
+    {
+      "page": 23,
+      "plain_text_chars": 2774,
+      "word_presence": 0.9844
+    },
+    {
+      "page": 24,
+      "plain_text_chars": 2346,
+      "word_presence": 0.9602
+    },
+    {
+      "page": 25,
+      "plain_text_chars": 1666,
+      "word_presence": 0.9833
+    },
+    {
+      "page": 26,
+      "plain_text_chars": 1421,
+      "word_presence": 0.9825
+    }
+  ],
+  "low_word_presence_pages": []
+}

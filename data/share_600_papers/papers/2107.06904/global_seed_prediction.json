@@ -1,0 +1,378 @@
+{
+  "bibliographic": {
+    "title": "Magnetic correlations in triangular antiferromagnet FeGa2S4",
+    "subtitle": null,
+    "affiliations": [
+      {
+        "id": "aff_1",
+        "label": null,
+        "text": "Laboratory for Neutron Scattering and Imaging, Paul Scherrer Institute, CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_2",
+        "label": null,
+        "text": "Department of Quantum Matter Physics, University of Geneva, CH-1211 Geneva, Switzerland"
+      },
+      {
+        "id": "aff_3",
+        "label": null,
+        "text": "Max-Planck-Institut f¨ur Chemische Physik fester Stoffe, 01187 Dresden, Germany"
+      },
+      {
+        "id": "aff_4",
+        "label": null,
+        "text": "Rutherford Appleton Laboratory, ISIS Facility, Chilton, Didcot, Oxon OX11 0QX, United Kingdom"
+      },
+      {
+        "id": "aff_5",
+        "label": null,
+        "text": "Laboratorium f¨ur Anorganische Chemie, CH-8093 Z¨urich, Switzerland"
+      },
+      {
+        "id": "aff_6",
+        "label": null,
+        "text": "Instituto de F´ısica de L´ıquidos y Sistemas Biol´ogicos, CCT La Plata, CONICET and Departamento de F´ısica, Facultad de Ciencias Exactas, Universidad Nacional de La Plata, C.C. 67, 1900 La Plata, Argentina"
+      },
+      {
+        "id": "aff_7",
+        "label": null,
+        "text": "Quantum Criticality and Dynamics Group, Paul Scherrer Institute, CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_8",
+        "label": null,
+        "text": "Institut Laue-Langevin, 156X, 38042 Grenoble C´edex, France"
+      },
+      {
+        "id": "aff_9",
+        "label": null,
+        "text": "Laboratory for Multiscale Materials Experiments, Paul Scherrer Institute, CH-5232 Villigen, Switzerland"
+      },
+      {
+        "id": "aff_10",
+        "label": null,
+        "text": "Swiss Light Source, Paul Scherrer Institute, CH-5232 Villigen, Switzerland"
+      }
+    ],
+    "authors": [
+      {
+        "id": "author_1",
+        "full_name": "K. Guratinder",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_2",
+        "full_name": "M. Schmidt",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_3"
+        ]
+      },
+      {
+        "id": "author_3",
+        "full_name": "H. C. Walker",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_4",
+        "full_name": "R. Bewley",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_4"
+        ]
+      },
+      {
+        "id": "author_5",
+        "full_name": "M. W¨orle",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_5"
+        ]
+      },
+      {
+        "id": "author_6",
+        "full_name": "D. Cabra",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_7",
+        "full_name": "S. A. Osorio",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_8",
+        "full_name": "M. Villalba",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_6"
+        ]
+      },
+      {
+        "id": "author_9",
+        "full_name": "A. K. Madsen",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_7"
+        ]
+      },
+      {
+        "id": "author_10",
+        "full_name": "L. Keller",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      },
+      {
+        "id": "author_11",
+        "full_name": "A. Wildes",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_8"
+        ]
+      },
+      {
+        "id": "author_12",
+        "full_name": "P. Puphal",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_9"
+        ]
+      },
+      {
+        "id": "author_13",
+        "full_name": "A. Cervellino",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_10"
+        ]
+      },
+      {
+        "id": "author_14",
+        "full_name": "Ch. R¨uegg",
+        "orcid": null,
+        "email": null,
+        "is_corresponding": true,
+        "affiliation_refs": [
+          "aff_1",
+          "aff_2"
+        ]
+      },
+      {
+        "id": "author_15",
+        "full_name": "O. Zaharko",
+        "orcid": null,
+        "email": "oksana.zaharko@psi.ch",
+        "is_corresponding": false,
+        "affiliation_refs": [
+          "aff_1"
+        ]
+      }
+    ],
+    "abstract": "The crystal structure and magnetic correlations in triangular antiferromagnet FeGa2S4 are studied by x-ray diffraction, magnetic susceptibility, neutron diffraction and neutron inelastic scattering. We report significant mixing at the cation sites and disentangle magnetic properties dominated by major and minor magnetic sites. The magnetic short-range correlations at 0.77˚ A−1 correspond to the major sites and being static at base temperature they evolve into dynamic correlations around 30 - 50 K. The minor sites contribute to the magnetic peak at 0.6˚ A−1 , which vanishes at 5.5 K. Our analytical studies of triangular lattice models with bilinear and biquadratic terms provide the ratios between exchanges for the proposed ordering vectors. The modelling of the inelastic neutron spectrum within linear spin wave theory results in the set of exchange couplings J 1 = 1 . 7 meV, J 2 = 0 . 9 meV, J 3 = 0 . 8 meV for the bilinear Heisenberg Hamiltonian. However, not all features of the excitation spectrum are explained with this model.",
+    "keywords": [],
+    "doi": null,
+    "arxiv_id": null,
+    "url": null,
+    "publication_date": "2021-07-16",
+    "venue": null,
+    "publisher": null,
+    "language": "en",
+    "funding": [
+      {
+        "funder": "Swiss National Science Foundation",
+        "grant_id": "200020-182536"
+      },
+      {
+        "funder": "Centro Lanitoamericano-Suizo",
+        "grant_id": "SMG1811"
+      },
+      {
+        "funder": "Swiss Data Science Center",
+        "grant_id": "BISTOM C17-12"
+      }
+    ]
+  },
+  "document_overview": {
+    "section_headings": [
+      "I. INTRODUCTION",
+      "II. CRYSTAL STRUCTURE OF FeGa2S4 AND NiGa2S4",
+      "III. MAGNETIC PROPERTIES",
+      "IV. MODELLING OF MAGNETIC HAMILTONIAN",
+      "V. SUMMARY AND DISCUSSION"
+    ],
+    "has_references": true,
+    "has_figures": true,
+    "has_tables": false
+  },
+  "facilities": [
+    {
+      "id": "facility_1",
+      "name": "Swiss Light Source"
+    },
+    {
+      "id": "facility_2",
+      "name": "SINQ"
+    },
+    {
+      "id": "facility_3",
+      "name": "Institut Laue-Langevin"
+    },
+    {
+      "id": "facility_4",
+      "name": "ISIS Facility"
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample_1",
+      "sample_name": "FeGa2S4",
+      "sample_description": "Polycrystalline sample with significant inversion on the cation sites.",
+      "chemical_composition": "FeGa2S4",
+      "sample_state": "polycrystalline",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_2",
+      "sample_name": "FeGa2S4 single crystal",
+      "sample_description": "Single crystals consisting of layers with thickness on the micrometer scale.",
+      "chemical_composition": "FeGa2S4",
+      "sample_state": "single crystal",
+      "sample_mass": "2.87 mg",
+      "supplier_or_creator": "prepared in house"
+    },
+    {
+      "id": "sample_3",
+      "sample_name": "NiGa2S4",
+      "sample_description": "Isostructural compound used for comparison.",
+      "chemical_composition": "NiGa2S4",
+      "sample_state": "single crystal",
+      "sample_mass": null,
+      "supplier_or_creator": "prepared in house"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_1",
+      "dataset_name": "synchrotron x-ray diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_1"
+      ],
+      "dataset_description": "Powder diffraction patterns collected at 300 K and in the 5 K- 300 K temperature range to study structure imperfection and temperature evolution.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_2",
+      "dataset_name": "X-ray single crystal diffraction",
+      "sample_refs": [
+        "sample_2",
+        "sample_3"
+      ],
+      "facility_refs": [],
+      "dataset_description": "Diffraction on single crystals to verify cation site inversion.",
+      "measurement_technique": "x-ray diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_3",
+      "dataset_name": "magnetic susceptibility",
+      "sample_refs": [
+        "sample_2",
+        "sample_1"
+      ],
+      "facility_refs": [],
+      "dataset_description": "DC magnetic susceptibility measured at 0.1 T in the range 1.8 K - 350 K.",
+      "measurement_technique": "magnetic susceptibility",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_4",
+      "dataset_name": "powder neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_2"
+      ],
+      "dataset_description": "PND patterns collected on DMC at several temperatures between 1.3 K and 180 K.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_5",
+      "dataset_name": "XYZ-polarization analysis of powder neutron diffraction",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_3"
+      ],
+      "dataset_description": "Polarized neutron powder diffuse scattering measured on D7 at 1.4 K and 60 K.",
+      "measurement_technique": "neutron diffraction",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    },
+    {
+      "id": "dataset_6",
+      "dataset_name": "inelastic neutron scattering",
+      "sample_refs": [
+        "sample_1"
+      ],
+      "facility_refs": [
+        "facility_4"
+      ],
+      "dataset_description": "Excitation spectrum measured on the LET spectrometer at temperatures including 2 K, 38 K, 60 K, and 180 K.",
+      "measurement_technique": "inelastic neutron scattering",
+      "measurement_mode": [],
+      "purpose": "measurement"
+    }
+  ]
+}
