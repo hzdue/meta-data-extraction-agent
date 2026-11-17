@@ -173,6 +173,8 @@ class OpperRunSpec(BaseModel):
     max_input_tokens: int = Field(default=119_000, ge=1, le=128_000, strict=True)
     timeout_seconds: float = Field(default=60.0, gt=0, le=300, allow_inf_nan=False)
     api_key_env: str = "OPPER_API_KEY"
+    response_format: Literal["text", "json_object"] = "text"
+    reasoning_effort: Literal["low", "medium", "high", "xhigh", "max"] | None = None
 
     _valid_profile = field_validator("profile_sha256")(_sha256)
 
@@ -245,6 +247,7 @@ class RequestLedger:
     relative_path = "runs/agent/_control/chatai-requests.sqlite3"
     window_seconds = 3600.0
     request_limit = 10
+    require_initial_history_window = True
 
     def __init__(self, root: Path | str, *, clock: Callable[[], float] = time.time,
                  monotonic_clock: Callable[[], float] = time.monotonic):
@@ -328,7 +331,8 @@ class RequestLedger:
                 if now < last_seen or monotonic_now < last_monotonic:
                     return Reservation(error_code="ledger_clock_regressed")
                 connection.execute("UPDATE meta SET last_seen=?, last_monotonic=? WHERE id=1", (now, monotonic_now))
-                if (min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds
+                if (self.require_initial_history_window
+                        and min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds
                         and not self._history_override(
                             run_id, created_at=created_at,
                             created_monotonic=created_monotonic)):
@@ -367,7 +371,8 @@ class RequestLedger:
                     "UPDATE meta SET last_seen=?, last_monotonic=? WHERE id=1",
                     (now, monotonic_now),
                 )
-                if min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds:
+                if (self.require_initial_history_window
+                        and min(now - created_at, monotonic_now - created_monotonic) < self.window_seconds):
                     return LedgerCapacity(
                         remaining_attempts=0, error_code="request_history_unknown")
                 count = connection.execute(
@@ -404,6 +409,7 @@ class OpperRequestLedger(RequestLedger):
     """Opper accounting is isolated from ChatAI accounting."""
 
     relative_path = "runs/agent/_control/opper-requests.sqlite3"
+    require_initial_history_window = False
 
     def _override_path(self, run_id: str) -> Path:
         validate_run_id(run_id)
@@ -577,6 +583,11 @@ class _GuardedOpenAIProvider:
             adapter = OpenAICompatibleLLM(
                 self.spec.model, api_key_env=self.spec.api_key_env,
                 base_url=self.spec.endpoint, max_tokens=self.spec.max_output_tokens,
+                reasoning_effort=(self.spec.reasoning_effort
+                                  if isinstance(self.spec, OpperRunSpec) else None),
+                response_format=({"type":"json_object"}
+                                 if isinstance(self.spec, OpperRunSpec)
+                                 and self.spec.response_format == "json_object" else None),
             )
             original_client = adapter._client
             adapter._client = original_client.with_options(

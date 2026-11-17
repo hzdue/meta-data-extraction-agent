@@ -51,6 +51,14 @@ def test_reasoning_effort_included_when_set():
     assert req["reasoning_effort"] == "none"
 
 
+def test_json_object_response_format_is_explicit_and_copied():
+    response_format = {"type": "json_object"}
+    llm = _llm(response_format=response_format)
+    response_format["type"] = "changed"
+    req = llm._build_request("P")
+    assert req["response_format"] == {"type": "json_object"}
+
+
 def test_gpt5_style_request_combines_all_three():
     """The intended gpt-5.5 shape: no temperature, max_completion_tokens,
     reasoning_effort=none."""

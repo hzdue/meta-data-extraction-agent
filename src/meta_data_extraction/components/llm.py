@@ -19,12 +19,14 @@ class OpenAICompatibleLLM(BaseLLM):
         max_tokens: int = 4096,
         max_tokens_param: str = "max_tokens",
         reasoning_effort: str | None = None,
+        response_format: dict[str, str] | None = None,
     ):
         self.model_name = model_name
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.max_tokens_param = max_tokens_param
         self.reasoning_effort = reasoning_effort
+        self.response_format = dict(response_format) if response_format is not None else None
 
         api_key = os.environ.get(api_key_env)
         if not api_key:
@@ -44,6 +46,8 @@ class OpenAICompatibleLLM(BaseLLM):
             request["temperature"] = self.temperature
         if self.reasoning_effort is not None:
             request["reasoning_effort"] = self.reasoning_effort
+        if self.response_format is not None:
+            request["response_format"] = dict(self.response_format)
         return request
 
     def generate(self, prompt: str) -> LLMResponse:

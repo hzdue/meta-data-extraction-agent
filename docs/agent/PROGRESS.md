@@ -604,3 +604,117 @@ intentional concurrency deselections, and 23 known pre-existing fixture-hash
 failures before provider construction. No batch catalog or inference request was
 made. Experiment status: `not_run`; the next dependency is operator review of the
 catalog-derived ceiling followed by bounded `run-available` resumptions.
+
+M10 Opper Claude one-paper preparation (2026-11-17): the staged launcher now
+accepts an exact provider-prefixed `--model` at every operation while retaining
+`openai/gpt-4o-2024-08-06` as its historical default. The chosen route is frozen
+in the publication specification and protocol; catalog, run, and report reject a
+different value before network access. Offline tests cover
+`aws/claude-opus-5-5`, exact catalog selection, and wrong-model fail-closed
+behavior; 10 focused tests passed.
+
+Fresh ignored run `m10-opper-opus55-181203956-v1` is prepared for the existing
+calibration paper with the unchanged three-call/8,192-output-token-per-call cap,
+hash-only retention, no retries, and no automatic patching. Preparation recorded
+68,176 first-prompt bytes, zero network/model requests, and
+`request_history_unknown`. Experiment status is `not_run`: no `.env` or key was
+read and no Opper endpoint was contacted. Next is the authenticated non-inference
+catalog check, followed by the live command only after retention review and
+shared-ledger readiness (or an explicit valid run-scoped history acknowledgement).
+
+The authenticated Claude catalog subsequently succeeded with HTTP 200 and sent
+no prompt or document. Execution then failed closed before inference because a
+remaining gate compared the catalog model to the GPT-4o default. That comparison
+now uses the operator's repeated model argument, and the synthetic Claude test
+covers the complete catalog-to-execute gate. The focused suite remains 10 passed;
+the successful immutable catalog result is reusable and live inference is still
+`not_run`.
+
+The explicitly acknowledged `m10-opper-opus55-181203956-v1` inference then made
+one successful provider request (26,173 input / 2,053 output tokens,
+`finish_reason=stop`, not truncated) but ended `extraction_failed`: the returned
+content was not an unambiguous finite JSON object. Hash-only retention kept its
+SHA-256 but not its text, so the precise syntax defect is unavailable. No
+canonical record, checking, proposal, workflow, evaluator, or automatic patch
+was produced. A mechanical catalog-price estimate is USD 0.1603272; billing is
+authoritative. Status is a failed live `pilot`, not validation. Preserve `v1`;
+the next dependency is a newly frozen output-control method and fresh run ID.
+
+M10 Claude JSON-output follow-up (2026-11-17): added typed Opper
+`response_format` (`text` or `json_object`) and propagated the JSON-object choice
+to the OpenAI-compatible request. The one-paper launcher also freezes and repeats
+its existing raw-retention policy. Defaults preserve historical text/hash-only
+behavior. Offline request-shape, provider, publication-type, and launcher
+regression passed 212 tests with one known Windows concurrency deselection.
+
+Fresh ignored `m10-opper-opus55-181203956-v2` records
+`aws/claude-opus-5-5`, JSON-object output, local retained raw responses, the same
+paper/hash, and unchanged three-call/output budgets. Preparation made zero
+network/model requests. `v2` experiment status is `not_run`; its next steps are a
+new non-inference catalog record and live execution after shared-ledger readiness.
+
+At the operator's explicit request, the initial one-hour unknown-history wait was
+removed for Opper only. Persistent local accounting still enforces ten attempted
+requests per rolling hour plus every frozen per-run request/output budget; the
+ChatAI ledger and policy are unchanged. Offline affected regression passed 212
+tests with one known Windows concurrency deselection. Read-only real-ledger
+capacity was nine attempts with no error, reflecting the failed `v1` call; no
+request was sent by this change or readiness check.
+
+M10 Claude `v2` live outcome: the single extraction call used 26,173 input and
+the full 8,192 output tokens, ended `finish_reason=length`, and was explicitly
+recorded as truncated before parsing. Retained raw output begins with a Markdown
+JSON fence, remains structurally incomplete, and ends mid-value, so Opper's route
+did not enforce JSON-only content and the local parser correctly refused it. No
+canonical record or downstream agent stage was produced.
+
+Fresh `m10-opper-opus55-181203956-v3` changes only the frozen per-call output cap
+to 16,384 tokens; JSON-object request, retained raw output, paper/model, and other
+budgets remain fixed. The new CLI cap is repeated and verified at every stage.
+Affected offline regression passed 212 tests with one known concurrency
+deselection. Preparation was offline, reported `ready`, and made zero requests.
+`v3` status is `not_run`.
+
+M10 Claude `v3` live outcome (2026-11-17): two guarded calls reached
+`pending_review` with fully known usage of 62,148 input / 4,609 output tokens.
+Extraction is valid JSON and valid against the canonical schema. The record has
+three affiliations, five authors, one funding entry, one facility, two samples,
+two datasets, and 59 assertions. Evidence remains invalid/incomplete: two
+proposed links were rejected, all assertions are unlinked, and PDF images are
+unavailable.
+
+The checker returned twelve syntactically valid judgments but swapped two paths
+relative to the required request order. The strict binding rejected the whole
+report, so no automated verdict or patch was accepted. Three review cases remain
+for checker failure, incomplete assertion coverage, and incomplete source
+content. Mechanical catalog-price multiplication is USD 0.3748492 for `v3`, not
+a bill. Status is a live `pilot`, not extraction-accuracy validation; the next
+step is independent review of the canonical record and evidence cases, not an
+automatic retry.
+
+M10 Claude Fable 5.2 preparation (2026-11-17): fresh ignored run
+`m10-opper-fable52-181203956-v1` freezes the exact
+`anthropic/claude-fable-5-2` route for the existing paper with JSON-object
+request, retained local raw output, at most three calls, and 16,384 output tokens
+per call. Offline preparation was ready and made zero requests. Opper lists this
+route as Anthropic US with abuse-monitoring retention and no training; catalog
+prices imply a conservative USD 4.369152 whole-run planning ceiling. Experiment
+status is `not_run` pending the operator's catalog and live command.
+
+M10 Claude Fable 5.2 `v1` live outcome: the extraction call used 26,173 input
+tokens and exhausted all 16,384 output tokens with `finish_reason=length`. The
+retained visible response is empty (SHA-256 of the empty byte string), so parsing
+was not attempted and no canonical or downstream stage exists. The route's
+default adaptive-thinking effort was `high`; this result is consistent with the
+entire output allowance being consumed by hidden thinking. Mechanical catalog
+price multiplication is USD 0.864744, not a bill. No retry was sent.
+
+The launcher now freezes optional Opper `reasoning_effort` values and propagates
+them to the OpenAI-compatible chat request. Opper's live specification exposes
+that field, and the exact Fable route advertises `low`, `medium`, `high`, `xhigh`,
+and `max`. Fresh ignored run `m10-opper-fable52-181203956-v2` changes only this
+model control to `low`; JSON-object output, raw retention, paper, 16,384-token
+per-call cap, three-call limit, and no-retry policy remain fixed. Offline
+preparation was ready with zero network/model requests. Affected deterministic
+tests passed 213 with two concurrency tests deselected; the thread test passed in
+isolation but was timing-sensitive in two full-suite runs. `v2` is `not_run`.

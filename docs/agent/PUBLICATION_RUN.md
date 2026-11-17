@@ -195,7 +195,28 @@ project. The endpoint is fixed by the typed scope. Opper attempts use
 `runs/agent/_control/opper-requests.sqlite3`; they never consume or reset ChatAI
 ledger history. The same conservative ten-attempt rolling-hour implementation
 applies locally, but that is a safety cap rather than a claim about the account's
-provider quota. A new ledger waits one hour because recent use is unknown.
+provider quota. At the operator's explicit 2026-11-17 request, Opper no longer
+adds an initial one-hour unknown-history wait; locally recorded attempts still
+consume the rolling allowance, and unrelated external usage remains unobservable.
+
+The staged one-paper launcher accepts `--model` on every operation. For Claude
+Opus 5.5 on Opper's AWS EU route, use the exact same
+`--model aws/claude-opus-5-5` value for `prepare`, `catalog`, `run`, and `report`.
+The prepared publication specification and protocol both retain that selection;
+a later mismatch stops before a network request.
+
+The launcher also accepts repeated `--response-format text|json_object` and
+`--raw-retention hash_only|retain` arguments. Both are frozen into the live scope
+or publication specification. `json_object` sends the OpenAI-compatible
+`response_format={"type":"json_object"}` request; `retain` stores raw responses
+only under the ignored run directory so parse failures can be diagnosed.
+`--max-output-tokens` freezes the per-call cap and must likewise be repeated;
+changing it requires a fresh run ID.
+`--reasoning-effort low|medium|high|xhigh|max` is an optional Opper-only setting
+that maps to the compat chat request's `reasoning_effort`. When present it is
+frozen into the provider scope and must be repeated at every launcher stage.
+Use only a value advertised by the selected route's live `params.reasoning`
+catalog entry.
 
 After separately recording an approved document/split, exact model, call/token
 budgets, retention and spend limit, invoke a freshly frozen specification with:

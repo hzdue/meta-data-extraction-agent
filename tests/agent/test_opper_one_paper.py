@@ -42,6 +42,63 @@ def test_prepare_freezes_one_paper_model_budgets_and_token_plan(pilot_workspace,
     assert b"OPPER_API_KEY" not in (prep / "readiness.json").read_bytes()
 
 
+def test_selected_claude_route_is_frozen_and_required_for_catalog(
+        pilot_workspace, monkeypatch):
+    run_id = "m10-opper-claude-unit-v1"
+    model = pilot.CLAUDE_OPUS_5_5_MODEL
+    result = pilot.prepare(
+        pilot_workspace, run_id, model=model, response_format="json_object",
+        reasoning_effort="low", raw_retention="retain",
+        max_output_tokens=16_384)
+    prep = pilot_workspace / result["prep_relative"]
+    spec = json.loads((prep / "publication-spec.json").read_text(encoding="utf-8"))
+    protocol = json.loads((prep / "protocol.json").read_text(encoding="utf-8"))
+    assert result["model"] == spec["live"]["model"] == protocol["model"] == model
+    assert result["response_format"] == spec["live"]["response_format"] == "json_object"
+    assert result["reasoning_effort"] == spec["live"]["reasoning_effort"] == "low"
+    assert result["raw_retention"] == spec["raw_retention"] == "retain"
+    assert result["max_output_tokens"] == spec["live"]["max_output_tokens"] == 16_384
+    assert protocol["model_parameters"] == {
+        "response_format":"json_object", "reasoning_effort":"low"}
+
+    called = []
+    monkeypatch.setattr(
+        pilot, "_models_request",
+        lambda key: called.append(key) or (200, {}, json.dumps({"data":[{
+            "id":model, "context_length":1_000_000, "pricing":{},
+            "opper":{"max_output_tokens":128_000, "region":"eu"},
+        }]}).encode()))
+    with pytest.raises(pilot.OpperPilotError, match="prepared_scope_changed"):
+        pilot.check_catalog(pilot_workspace, run_id, "synthetic-secret-key")
+    assert called == []
+
+    catalog = pilot.check_catalog(
+        pilot_workspace, run_id, "synthetic-secret-key", model=model,
+        response_format="json_object", reasoning_effort="low", raw_retention="retain",
+        max_output_tokens=16_384)
+    assert catalog["model"] == catalog["model_metadata"]["id"] == model
+    assert catalog["model_metadata"]["region"] == "eu"
+
+    monkeypatch.setenv("OPPER_API_KEY", "synthetic-secret-key")
+    monkeypatch.setattr(pilot, "OpperRequestLedger", lambda root: SimpleNamespace(
+        reserve=lambda *a, **k: SimpleNamespace(error_code=None)))
+    monkeypatch.setattr(pilot, "run_publication", lambda *a, **k: {
+        "status":"pending_review", "workflow_status":"pending_review",
+        "new_model_calls":2, "new_live_requests":2,
+        "known_input_tokens":100, "known_output_tokens":20,
+        "usage_unknown":False, "cost":None, "cost_status":"unknown",
+        "canonical_relative":"runs/agent/x/canonical.json",
+        "sidecar_relative":"runs/agent/x/sidecar.json",
+    })
+    executed = pilot.execute(
+        pilot_workspace, run_id, confirm_live=True, retention_reviewed=True,
+        load_dotenv_file=False, model=model, response_format="json_object",
+        reasoning_effort="low", raw_retention="retain",
+        max_output_tokens=16_384)
+    assert executed["status"] == "pending_review"
+    assert executed["new_model_calls"] == 2
+
+
 def test_catalog_check_is_one_redacted_administrative_attempt(pilot_workspace, monkeypatch):
     run_id = "m10-opper-unit-v2"
     pilot.prepare(pilot_workspace, run_id)
@@ -66,11 +123,11 @@ def test_catalog_check_is_one_redacted_administrative_attempt(pilot_workspace, m
         pilot.check_catalog(pilot_workspace, run_id, "synthetic-secret-key")
 
 
-def _successful_catalog(workspace, run_id, monkeypatch):
-    body = {"data":[{"id":pilot.MODEL, "context_length":128000,
+def _successful_catalog(workspace, run_id, monkeypatch, *, model=pilot.MODEL):
+    body = {"data":[{"id":model, "context_length":128000,
                      "pricing":{}, "opper":{"max_output_tokens":16384}}]}
     monkeypatch.setattr(pilot, "_models_request", lambda key: (200, {}, json.dumps(body).encode()))
-    pilot.check_catalog(workspace, run_id, "synthetic-secret-key")
+    pilot.check_catalog(workspace, run_id, "synthetic-secret-key", model=model)
 
 
 def test_execute_fails_closed_before_publication_dispatch(pilot_workspace, monkeypatch):

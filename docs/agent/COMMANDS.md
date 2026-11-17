@@ -1831,3 +1831,162 @@ The second command is resumable and stops when fewer than three shared rolling-h
 slots remain. At the pilot catalog prices, the hard planning ceiling is USD
 34.1478; the explicit USD 35 acknowledgment does not authorize a higher catalog
 ceiling.
+
+## M10 Opper Claude one-paper preparation (2026-11-17)
+
+The launcher change and verification were offline. No `.env`, credential,
+catalog endpoint, or inference service was accessed.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py -q -p no:cacheprovider --basetemp tmp/opper-claude-one-paper
+~~~
+
+Result: **10 passed in 4.21s**. The suite includes a synthetic catalog row for
+`aws/claude-opus-5-5` and verifies that repeating the historical default after a
+Claude preparation stops before the catalog transport is called.
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py tests/agent/test_providers.py tests/agent/test_publication_types.py -q -p no:cacheprovider --basetemp tmp/opper-claude-regression -k "not concurrent_processes_share_durable_reservations"
+~~~
+
+Affected regression result: **201 passed, 1 deselected in 5.43s**. The deselected
+Windows cross-process SQLite case is the same explicitly isolated case recorded
+earlier; this change does not alter its ledger implementation.
+
+The requested fresh scope was then prepared without credentials or network:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py prepare --run-id m10-opper-opus55-181203956-v1 --model aws/claude-opus-5-5
+~~~
+
+Result: status `prepared`; exact first prompt 68,033 characters / 68,176 UTF-8
+bytes; maximum three calls and 24,576 reserved output tokens; zero network/model
+requests. The new shared-ledger view is `request_history_unknown`, so live
+dispatch must wait for readiness unless the operator validly supplies the
+existing explicit run-scoped history acknowledgement.
+
+The operator's authenticated catalog command later returned HTTP 200 for the
+exact Claude route and explicitly reported `prompt_sent=false`,
+`document_sent=false`, and `model_requests=0`. The chained run stopped before
+inference with `successful_catalog_check_required`. Inspection found a stale
+comparison against the historical `MODEL` default in the execution gate; it now
+uses the repeated `model` argument. The Claude test was expanded through a fake
+execute boundary and rerun offline:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/agent/test_opper_one_paper.py -q -p no:cacheprovider --basetemp tmp/opper-claude-catalog-gate-fix
+~~~
+
+Result: **10 passed in 2.63s**. No additional catalog request or model inference
+was made by the fix or its tests.
+
+The affected launcher/provider/publication-type regression command recorded above
+was repeated with a fresh temporary directory: **201 passed, 1 deselected in
+4.64s**.
+
+### Claude v1 live outcome
+
+The operator used the explicit run-scoped history acknowledgement. The provider
+completed one request with 26,173 input and 2,053 output tokens, but strict
+extraction parsing returned `invalid_json_object`. The immutable result is
+`extraction_failed`; no canonical record or downstream agentic stage exists.
+`finish_reason=stop` and `response_truncated=false` distinguish this from an
+output-token cutoff. Hash-only retention preserved only the response digest, so
+no output text was inspected or reconstructed. No retry was issued.
+
+### Claude v2 JSON-output preparation
+
+The typed JSON-object and retained-raw scope passed offline regression:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/test_llm_request.py tests/agent/test_opper_one_paper.py tests/agent/test_publication_types.py tests/agent/test_providers.py -q -p no:cacheprovider --basetemp tmp/opper-claude-json-v2 -k "not concurrent_processes_share_durable_reservations"
+~~~
+
+Result: **212 passed, 1 deselected in 4.84s**. No credential or network was used.
+Fresh scope preparation then completed with zero network/model requests:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py prepare --run-id m10-opper-opus55-181203956-v2 --model aws/claude-opus-5-5 --response-format json_object --raw-retention retain
+~~~
+
+### Operator-requested removal of the initial Opper wait
+
+The Opper-only initial unknown-history quarantine was disabled while retaining
+the rolling ten-attempt cap and all per-run budgets. Affected offline regression:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/test_llm_request.py tests/agent/test_opper_one_paper.py tests/agent/test_publication_types.py tests/agent/test_providers.py -q -p no:cacheprovider --basetemp tmp/opper-no-initial-wait-final -k "not concurrent_processes_share_durable_reservations"
+~~~
+
+Result: **212 passed, 1 deselected in 4.89s**. The read-only capacity command
+reported `remaining_attempts=9` and `error_code=null`; it made no network request.
+
+### Claude v2 truncation and v3 output budget
+
+The live `v2` extraction used 26,173 input / 8,192 output tokens and stopped at
+the exact output cap. Sidecar inspection recorded `finish_reason=length`,
+`response_truncated=true`, and `parse_status=not_attempted`. Structural inspection
+of the retained response found a Markdown JSON fence, unmatched delimiters, and a
+mid-value ending; content was not printed. No retry or downstream call occurred.
+
+The per-call output cap was then made an explicit repeated CLI/scope value. Its
+offline regression command passed **212 tests, 1 deselected in 4.73s**. Fresh
+offline preparation used:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py prepare --run-id m10-opper-opus55-181203956-v3 --model aws/claude-opus-5-5 --response-format json_object --raw-retention retain --max-output-tokens 16384
+~~~
+
+Result: `prepared`, `ledger_readiness=ready`, 16,384 tokens per call and 49,152
+maximum reserved across three calls, with zero network/model requests.
+
+### Claude v3 successful bounded run
+
+The operator completed the fresh catalog and live commands. A read-only report
+replay made no request and returned `pending_review`, two calls, 62,148 known
+input tokens, 4,609 known output tokens, and `usage_unknown=false`. Extraction
+and checker calls both had `finish_reason=stop`.
+
+Read-only artifact inspection found valid extraction JSON/schema, 59 assertions,
+two samples, and two datasets. All assertion evidence remained unlinked. The
+checker returned valid JSON with twelve entries but swapped exactly two requested
+paths; the strict binding produced `invalid_support_response` and retained three
+pending review cases. No patch, approval, evaluator, or extra model call ran.
+
+### Claude Fable 5.2 preparation
+
+The requested exact Anthropic route was prepared offline:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py prepare --run-id m10-opper-fable52-181203956-v1 --model anthropic/claude-fable-5-2 --response-format json_object --raw-retention retain --max-output-tokens 16384
+~~~
+
+Result: `prepared`, `ledger_readiness=ready`, zero network/model requests. The
+scope permits three calls and 49,152 reserved output tokens. Opper's current
+catalog posture is Anthropic US with abuse-monitoring retention; conservative
+catalog-price multiplication is USD 4.369152 for the whole frozen token plan.
+
+### Claude Fable 5.2 v1 failure and low-effort v2
+
+The operator's `v1` extraction used 26,173 input / 16,384 output tokens and
+stopped at the output cap. The retained visible response is zero bytes, so the
+workflow recorded truncation without parsing and made no downstream call.
+Mechanical catalog-price multiplication is USD 0.864744; no retry was issued.
+
+The live Opper OpenAPI specification lists `reasoning_effort` on compat chat
+requests, and the public Fable route advertises five values with `high` as its
+default. The launcher now freezes this option. Deterministic affected regression:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python -m pytest tests/test_llm_request.py tests/agent/test_opper_one_paper.py tests/agent/test_publication_types.py tests/agent/test_providers.py -q -p no:cacheprovider --basetemp tmp/opper-fable-effort-tests-stable -k "not concurrent_processes_share_durable_reservations and not concurrent_threads_cannot_exceed_global_limit"
+~~~
+
+Result: **213 passed, 2 deselected in 9.24s**. The timing-sensitive thread test
+passed separately in 1.27s. Fresh preparation made zero network/model requests:
+
+~~~powershell
+uv --cache-dir tmp/uv-cache run --frozen --offline --no-sync python scripts/agent/test_opper_one_paper.py prepare --run-id m10-opper-fable52-181203956-v2 --model anthropic/claude-fable-5-2 --response-format json_object --reasoning-effort low --raw-retention retain --max-output-tokens 16384
+~~~
+
+Result: `prepared`, `ledger_readiness=ready`, `reasoning_effort=low`; the other
+scope and budget values are unchanged from `v1`.

@@ -26,9 +26,10 @@ from .publication_types import PublicationOpperSettings, PublicationSpec, load_p
 from .sources import prepare_sources
 
 
-VERSION = "m10-opper-one-paper-1"
+VERSION = "m10-opper-one-paper-5"
 ENDPOINT = "https://api.opper.ai/v3/compat"
 MODEL = "openai/gpt-4o-2024-08-06"
+CLAUDE_OPUS_5_5_MODEL = "aws/claude-opus-5-5"
 SOURCE = "data/raw/1812.03956/paper.pdf"
 SOURCE_SHA256 = "158984e801673f2ce019d9fd793684183bbc288e1b27856039aa37b6c9845bce"
 MAX_CALLS = 3
@@ -55,6 +56,22 @@ def _run_id(value: str) -> str:
     if not re.fullmatch(r"m10-[a-z0-9][a-z0-9_-]{0,27}", value):
         raise argparse.ArgumentTypeError("Use an m10- run ID of at most 32 lowercase characters.")
     return value
+
+
+def _model_id(value: str) -> str:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}/[A-Za-z0-9][A-Za-z0-9._:/-]{0,191}", value):
+        raise argparse.ArgumentTypeError("Use an exact provider-prefixed Opper model ID.")
+    return value
+
+
+def _output_tokens(value: str) -> int:
+    try:
+        parsed = int(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError("Output-token limit must be an integer.") from None
+    if not 1 <= parsed <= 32_768:
+        raise argparse.ArgumentTypeError("Output-token limit must be between 1 and 32768.")
+    return parsed
 
 
 def _prep_id(run_id: str) -> str:
@@ -90,18 +107,23 @@ def _prep(root: Path, run_id: str) -> RunDirectory:
     return run
 
 
-def _fixed_spec(source_sha256: str, run_id: str) -> PublicationSpec:
+def _fixed_spec(source_sha256: str, run_id: str, model: str = MODEL, *,
+                response_format: str = "text",
+                reasoning_effort: str | None = None,
+                raw_retention: str = "hash_only",
+                max_output_tokens: int = MAX_OUTPUT_TOKENS) -> PublicationSpec:
     return PublicationSpec(
         run_id=run_id, mode="live", split="calibration",
         source={"path": SOURCE, "sha256": source_sha256},
         policy="issue_aware", max_calls=MAX_CALLS, max_targets=12,
         evidence_chars=24_000, retrieval_strategy="lexical_v1",
         allow_automatic_patches=False, generate_proposal=True,
-        raw_retention="hash_only", unknown_usage="allow_bounded_calls",
+        raw_retention=raw_retention, unknown_usage="allow_bounded_calls",
         workflow_timeout_seconds=300, mock_responses=(),
-        live={"provider":"opper", "endpoint":ENDPOINT, "model":MODEL,
-              "api_key_env":"OPPER_API_KEY", "max_output_tokens":MAX_OUTPUT_TOKENS,
-              "max_prompt_bytes":MAX_PROMPT_BYTES, "timeout_seconds":TIMEOUT_SECONDS},
+        live={"provider":"opper", "endpoint":ENDPOINT, "model":model,
+              "api_key_env":"OPPER_API_KEY", "max_output_tokens":max_output_tokens,
+              "max_prompt_bytes":MAX_PROMPT_BYTES, "timeout_seconds":TIMEOUT_SECONDS,
+              "response_format":response_format, "reasoning_effort":reasoning_effort},
         panet=None, nexus=None,
     )
 
@@ -154,8 +176,14 @@ def _first_scope(spec: PublicationSpec, bundle, profile, prompt: str) -> OpperRu
     )
 
 
-def _verify_fixed(spec: PublicationSpec, run_id: str) -> None:
-    expected = _fixed_spec(SOURCE_SHA256, run_id)
+def _verify_fixed(spec: PublicationSpec, run_id: str, model: str, *,
+                  response_format: str, reasoning_effort: str | None,
+                  raw_retention: str,
+                  max_output_tokens: int) -> None:
+    expected = _fixed_spec(
+        SOURCE_SHA256, run_id, model, response_format=response_format,
+        reasoning_effort=reasoning_effort, raw_retention=raw_retention,
+        max_output_tokens=max_output_tokens)
     if spec != expected:
         raise OpperPilotError("prepared_scope_changed")
 
@@ -165,13 +193,20 @@ def _history_override_run_ids(spec: PublicationSpec) -> tuple[str, ...]:
     return (spec.run_id, *(_publication_child(spec, stage) for stage in MODEL_STAGE_NAMES))
 
 
-def prepare(root: Path | str, run_id: str) -> dict[str, Any]:
+def prepare(root: Path | str, run_id: str, *, model: str = MODEL,
+            response_format: str = "text",
+            reasoning_effort: str | None = None,
+            raw_retention: str = "hash_only",
+            max_output_tokens: int = MAX_OUTPUT_TOKENS) -> dict[str, Any]:
     root = workspace_root(root)
     source = input_file(root, SOURCE, allowed_roots=("data/raw",))
     source_sha256 = hashlib.sha256(source.read_bytes()).hexdigest()
     if source_sha256 != SOURCE_SHA256:
         raise OpperPilotError("source_hash_mismatch")
-    spec = _fixed_spec(source_sha256, run_id)
+    spec = _fixed_spec(
+        source_sha256, run_id, model, response_format=response_format,
+        reasoning_effort=reasoning_effort, raw_retention=raw_retention,
+        max_output_tokens=max_output_tokens)
     bundle, profile, prompt = _inputs(root, spec)
     plan = _token_plan(prompt, spec)
     scope = _first_scope(spec, bundle, profile, prompt)
@@ -183,13 +218,15 @@ def prepare(root: Path | str, run_id: str) -> dict[str, Any]:
         "launcher_sha256": sha256(Path(__file__).read_bytes()),
         "question": "Can the guarded issue-aware workflow produce an inspectable one-paper result through Opper?",
         "comparison": "engineering smoke test only; no comparative performance claim",
-        "model": MODEL, "endpoint": ENDPOINT,
+        "model": model, "endpoint": ENDPOINT,
+        "model_parameters": {"response_format":response_format,
+                             "reasoning_effort":reasoning_effort},
         "source": {"path":SOURCE, "sha256":source_sha256, "split":"calibration", "publication_count":1},
-        "budgets": {"max_calls":MAX_CALLS, "max_output_tokens_per_call":MAX_OUTPUT_TOKENS,
+        "budgets": {"max_calls":MAX_CALLS, "max_output_tokens_per_call":max_output_tokens,
                     "max_prompt_bytes_per_call":MAX_PROMPT_BYTES, "timeout_seconds":TIMEOUT_SECONDS,
                     "automatic_retries":0},
         "policy": {"controller":"issue_aware", "automatic_patches":False,
-                   "raw_retention":"hash_only", "external_tracing":"must_be_reviewed_before_run"},
+                   "raw_retention":raw_retention, "external_tracing":"must_be_reviewed_before_run"},
         "primary_outcome": "structural completion with evidence-linked diagnostics and review state",
         "evaluator": None, "empirical_status": "not_run",
         "catalog_check_required": True,
@@ -203,7 +240,10 @@ def prepare(root: Path | str, run_id: str) -> dict[str, Any]:
         "credential_read":False, "network_requests":0, "model_requests":0,
     })
     return {
-        "version": VERSION, "status":"prepared", "run_id":run_id,
+        "version": VERSION, "status":"prepared", "run_id":run_id, "model":model,
+        "response_format":response_format, "reasoning_effort":reasoning_effort,
+        "raw_retention":raw_retention,
+        "max_output_tokens":max_output_tokens,
         "prep_relative":f"runs/agent/{prep.run_id}",
         "spec_relative":f"runs/agent/{prep.run_id}/publication-spec.json",
         "ledger_readiness":readiness.error_code or "ready",
@@ -238,7 +278,7 @@ def _numeric_headers(headers: dict[str, str]) -> dict[str, int | float]:
     return retained
 
 
-def _model_metadata(raw: bytes) -> dict[str, Any] | None:
+def _model_metadata(raw: bytes, model: str) -> dict[str, Any] | None:
     try:
         payload = json.loads(raw)
         rows = payload["data"]
@@ -246,7 +286,7 @@ def _model_metadata(raw: bytes) -> dict[str, Any] | None:
         raise OpperPilotError("catalog_response_invalid") from None
     if not isinstance(rows, list):
         raise OpperPilotError("catalog_response_invalid")
-    matches = [row for row in rows if isinstance(row, dict) and row.get("id") == MODEL]
+    matches = [row for row in rows if isinstance(row, dict) and row.get("id") == model]
     if len(matches) != 1:
         return None
     row = matches[0]
@@ -260,7 +300,7 @@ def _model_metadata(raw: bytes) -> dict[str, Any] | None:
         return value if isinstance(value, str) and re.fullmatch(r"[0-9]+(?:\.[0-9]+)?", value) else None
 
     return {
-        "id": MODEL,
+        "id": model,
         "context_length": integer(row.get("context_length")),
         "max_output_tokens": integer(opper.get("max_output_tokens")),
         "region": opper.get("region") if isinstance(opper.get("region"), str) else None,
@@ -271,13 +311,19 @@ def _model_metadata(raw: bytes) -> dict[str, Any] | None:
     }
 
 
-def check_catalog(root: Path | str, run_id: str, api_key: str) -> dict[str, Any]:
+def check_catalog(root: Path | str, run_id: str, api_key: str, *,
+                  model: str = MODEL, response_format: str = "text",
+                  reasoning_effort: str | None = None,
+                  raw_retention: str = "hash_only",
+                  max_output_tokens: int = MAX_OUTPUT_TOKENS) -> dict[str, Any]:
     root = workspace_root(root)
     if not api_key:
         raise OpperPilotError("missing_credentials")
     prep = _prep(root, run_id)
     spec = load_publication_spec(root, f"runs/agent/{prep.run_id}/publication-spec.json")
-    _verify_fixed(spec, run_id)
+    _verify_fixed(spec, run_id, model, response_format=response_format,
+                  reasoning_effort=reasoning_effort, raw_retention=raw_retention,
+                  max_output_tokens=max_output_tokens)
     prep.write_json("catalog-attempt.json", {
         "version":"opper-catalog-attempt-1", "attempt_id":uuid.uuid4().hex,
         "attempted_at":_utc_now(), "method":"GET", "url":ENDPOINT + "/models",
@@ -285,10 +331,10 @@ def check_catalog(root: Path | str, run_id: str, api_key: str) -> dict[str, Any]
     })
     try:
         status, headers, raw = _models_request(api_key)
-        metadata = _model_metadata(raw) if status == 200 else None
+        metadata = _model_metadata(raw, model) if status == 200 else None
         result = {
             "version":"opper-catalog-result-1", "completed_at":_utc_now(),
-            "status_code":status, "model":MODEL, "model_found":metadata is not None,
+            "status_code":status, "model":model, "model_found":metadata is not None,
             "model_metadata":metadata, "numeric_limit_headers":_numeric_headers(headers),
             "prompt_sent":False, "document_sent":False, "model_requests":0,
             "error_code":None if status == 200 and metadata is not None else
@@ -296,13 +342,13 @@ def check_catalog(root: Path | str, run_id: str, api_key: str) -> dict[str, Any]
         }
     except OpperPilotError as error:
         result = {"version":"opper-catalog-result-1", "completed_at":_utc_now(),
-                  "status_code":None, "model":MODEL, "model_found":False,
+                  "status_code":None, "model":model, "model_found":False,
                   "model_metadata":None, "numeric_limit_headers":{},
                   "prompt_sent":False, "document_sent":False, "model_requests":0,
                   "error_code":error.code}
     except Exception:
         result = {"version":"opper-catalog-result-1", "completed_at":_utc_now(),
-                  "status_code":None, "model":MODEL, "model_found":False,
+                  "status_code":None, "model":model, "model_found":False,
                   "model_metadata":None, "numeric_limit_headers":{},
                   "prompt_sent":False, "document_sent":False, "model_requests":0,
                   "error_code":"catalog_request_failed"}
@@ -314,7 +360,11 @@ def check_catalog(root: Path | str, run_id: str, api_key: str) -> dict[str, Any]
 
 def execute(root: Path | str, run_id: str, *, confirm_live: bool,
             retention_reviewed: bool, load_dotenv_file: bool,
-            acknowledge_untracked_history: bool = False) -> dict[str, Any]:
+            acknowledge_untracked_history: bool = False,
+            model: str = MODEL, response_format: str = "text",
+            reasoning_effort: str | None = None,
+            raw_retention: str = "hash_only",
+            max_output_tokens: int = MAX_OUTPUT_TOKENS) -> dict[str, Any]:
     if confirm_live is not True:
         raise OpperPilotError("live_confirmation_required")
     if retention_reviewed is not True:
@@ -322,13 +372,15 @@ def execute(root: Path | str, run_id: str, *, confirm_live: bool,
     root = workspace_root(root)
     prep = _prep(root, run_id)
     spec = load_publication_spec(root, f"runs/agent/{prep.run_id}/publication-spec.json")
-    _verify_fixed(spec, run_id)
+    _verify_fixed(spec, run_id, model, response_format=response_format,
+                  reasoning_effort=reasoning_effort, raw_retention=raw_retention,
+                  max_output_tokens=max_output_tokens)
     try:
         catalog = _strict_json(prep.path / "catalog-result.json")
     except OpperPilotError:
         raise OpperPilotError("successful_catalog_check_required") from None
     if (catalog.get("error_code") is not None or catalog.get("model_found") is not True
-            or catalog.get("model") != MODEL or catalog.get("status_code") != 200):
+            or catalog.get("model") != model or catalog.get("status_code") != 200):
         raise OpperPilotError("successful_catalog_check_required")
     metadata = catalog.get("model_metadata")
     if not isinstance(metadata, dict):
@@ -337,9 +389,9 @@ def execute(root: Path | str, run_id: str, *, confirm_live: bool,
     provider_max_output = metadata.get("max_output_tokens")
     if type(context_length) is not int or type(provider_max_output) is not int:
         raise OpperPilotError("model_limits_unknown")
-    if context_length < MAX_PROMPT_BYTES + 128 + MAX_OUTPUT_TOKENS:
+    if context_length < spec.live.max_prompt_bytes + 128 + spec.live.max_output_tokens:
         raise OpperPilotError("model_context_too_small")
-    if provider_max_output < MAX_OUTPUT_TOKENS:
+    if provider_max_output < spec.live.max_output_tokens:
         raise OpperPilotError("model_output_limit_too_small")
     if load_dotenv_file:
         env_path = checked_path(root, ".env", allowed_roots=(".env",))
@@ -367,7 +419,7 @@ def execute(root: Path | str, run_id: str, *, confirm_live: bool,
         "known_input_tokens":result.get("known_input_tokens"),
         "known_output_tokens":result.get("known_output_tokens"),
         "usage_unknown":result.get("usage_unknown"),
-        "maximum_reserved_output_tokens":MAX_CALLS * MAX_OUTPUT_TOKENS,
+        "maximum_reserved_output_tokens":spec.max_calls * spec.live.max_output_tokens,
         "untracked_history_acknowledged":acknowledge_untracked_history,
         "cost":result.get("cost"), "cost_status":result.get("cost_status"),
         "canonical_relative":result.get("canonical_relative"),
@@ -375,9 +427,17 @@ def execute(root: Path | str, run_id: str, *, confirm_live: bool,
     }
 
 
-def report(root: Path | str, run_id: str) -> dict[str, Any]:
+def report(root: Path | str, run_id: str, *, model: str = MODEL,
+           response_format: str = "text",
+           reasoning_effort: str | None = None,
+           raw_retention: str = "hash_only",
+           max_output_tokens: int = MAX_OUTPUT_TOKENS) -> dict[str, Any]:
     root = workspace_root(root)
     prep = _prep(root, run_id)
+    spec = load_publication_spec(root, f"runs/agent/{prep.run_id}/publication-spec.json")
+    _verify_fixed(spec, run_id, model, response_format=response_format,
+                  reasoning_effort=reasoning_effort, raw_retention=raw_retention,
+                  max_output_tokens=max_output_tokens)
     plan = _strict_json(prep.path / "token-plan.json")
     result = read_publication(root, run_id)
     return {
@@ -400,6 +460,18 @@ def main(argv=None) -> int:
         command = commands.add_parser(name)
         command.add_argument("--root", default=str(Path(__file__).resolve().parents[3]))
         command.add_argument("--run-id", required=True, type=_run_id)
+        command.add_argument("--model", default=MODEL, type=_model_id,
+                             help="Exact provider-prefixed Opper model ID; repeat it for every stage.")
+        command.add_argument("--response-format", choices=("text", "json_object"),
+                             default="text", help="Provider output constraint; repeat it for every stage.")
+        command.add_argument("--reasoning-effort",
+                             choices=("low", "medium", "high", "xhigh", "max"),
+                             default=None,
+                             help="Adaptive-thinking effort; repeat it for every stage when set.")
+        command.add_argument("--raw-retention", choices=("hash_only", "retain"),
+                             default="hash_only", help="Local raw-response policy; repeat it for every stage.")
+        command.add_argument("--max-output-tokens", default=MAX_OUTPUT_TOKENS,
+                             type=_output_tokens, help="Per-call output cap; repeat it for every stage.")
         if name in {"catalog", "run"}:
             command.add_argument("--load-dotenv", action="store_true")
         if name == "run":
@@ -409,19 +481,35 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     try:
         if args.command == "prepare":
-            result = prepare(args.root, args.run_id)
+            result = prepare(args.root, args.run_id, model=args.model,
+                             response_format=args.response_format,
+                             reasoning_effort=args.reasoning_effort,
+                             raw_retention=args.raw_retention,
+                             max_output_tokens=args.max_output_tokens)
         elif args.command == "catalog":
             root = workspace_root(args.root)
             if args.load_dotenv:
                 load_dotenv(checked_path(root, ".env", allowed_roots=(".env",)), override=False)
-            result = check_catalog(root, args.run_id, os.environ.get("OPPER_API_KEY", ""))
+            result = check_catalog(root, args.run_id, os.environ.get("OPPER_API_KEY", ""),
+                                   model=args.model, response_format=args.response_format,
+                                   reasoning_effort=args.reasoning_effort,
+                                   raw_retention=args.raw_retention,
+                                   max_output_tokens=args.max_output_tokens)
         elif args.command == "run":
             result = execute(args.root, args.run_id, confirm_live=args.execute_live,
                              retention_reviewed=args.retention_reviewed,
                              load_dotenv_file=args.load_dotenv,
-                             acknowledge_untracked_history=args.acknowledge_untracked_history)
+                             acknowledge_untracked_history=args.acknowledge_untracked_history,
+                             model=args.model, response_format=args.response_format,
+                              reasoning_effort=args.reasoning_effort,
+                             raw_retention=args.raw_retention,
+                             max_output_tokens=args.max_output_tokens)
         else:
-            result = report(args.root, args.run_id)
+            result = report(args.root, args.run_id, model=args.model,
+                            response_format=args.response_format,
+                            reasoning_effort=args.reasoning_effort,
+                            raw_retention=args.raw_retention,
+                            max_output_tokens=args.max_output_tokens)
     except OpperPilotError as error:
         parser.exit(2, f"Opper one-paper command stopped ({error.code}).\n")
     except FileExistsError:

@@ -61,6 +61,8 @@ def test_opper_scope_is_distinct_and_does_not_read_credentials(monkeypatch):
     assert type(scope.live) is PublicationOpperSettings
     assert scope.live.endpoint == "https://api.opper.ai/v3/compat"
     assert scope.live.api_key_env == "OPPER_API_KEY"
+    assert scope.live.response_format == "text"
+    assert scope.live.reasoning_effort is None
     assert "api_key" not in scope.live.model_dump()
 
 
@@ -69,6 +71,8 @@ def test_opper_scope_is_distinct_and_does_not_read_credentials(monkeypatch):
     {"model":"openai/gpt-5-mini", "endpoint":"https://other.example/v3/compat"},
     {"model":"openai/gpt-5-mini", "provider":"chatai"},
     {"model":"openai/gpt-5-mini", "api_key_env":"lowercase"},
+    {"provider":"opper", "model":"openai/gpt-5-mini", "response_format":"xml"},
+    {"provider":"opper", "model":"openai/gpt-5-mini", "reasoning_effort":"none"},
 ])
 def test_opper_live_settings_reject_ambiguous_provider_scope(patch):
     with pytest.raises(ValueError):

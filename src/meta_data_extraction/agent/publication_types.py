@@ -54,6 +54,8 @@ class PublicationOpperSettings(FrozenModel):
     max_prompt_bytes: int = Field(default=100000, ge=1, le=150000, strict=True)
     max_input_tokens: int = Field(default=119000, ge=1, le=128000, strict=True)
     timeout_seconds: float = Field(default=60, gt=0, le=300, allow_inf_nan=False)
+    response_format: Literal["text", "json_object"] = "text"
+    reasoning_effort: Literal["low", "medium", "high", "xhigh", "max"] | None = None
 
     @field_validator("timeout_seconds", mode="before")
     @classmethod

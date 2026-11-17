@@ -145,6 +145,7 @@ def test_result_is_frozen_and_unknown_usage_stays_unknown():
     {"endpoint": "https://other.example/v3/compat"}, {"model": "gpt-5-mini"},
     {"model": "openai model/gpt"}, {"provider": "chatai"},
     {"api_key_env": "lowercase"}, {"max_calls": 11},
+    {"response_format": "json_schema"}, {"reasoning_effort": "none"},
 ])
 def test_opper_spec_requires_fixed_gateway_prefixed_model_and_bounds(opper_spec, update):
     with pytest.raises(ValidationError):
@@ -189,26 +190,19 @@ def test_new_ledger_fails_closed_until_full_hour_and_survives_restart(workspace,
     assert RequestLedger(workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]).reserve("first", spec).request_id
 
 
-def test_opper_run_scoped_history_override_preserves_other_guards(
+def test_opper_skips_initial_history_wait_but_preserves_other_guards(
         workspace, opper_spec, spec, clock):
     ledger = OpperRequestLedger(
         workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0])
-    assert ledger.reserve("opper-now", opper_spec).error_code == "request_history_unknown"
-    assert ledger.acknowledge_untracked_history("opper-now").error_code is None
-    reservation = OpperRequestLedger(
-        workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]
-    ).reserve("opper-now", opper_spec)
+    assert ledger.capacity().remaining_attempts == 10
+    reservation = ledger.reserve("opper-now", opper_spec)
     assert reservation.request_id
-    assert ledger.acknowledge_untracked_history("opper-now").error_code is None
-    assert ledger.acknowledge_untracked_history(
-        "other-run").error_code == "history_override_requires_zero_local_attempts"
+    assert ledger.complete(ProviderResult(
+        status="ok", request_id=reservation.request_id, mode="live"))
+    assert ledger.capacity().remaining_attempts == 9
     assert RequestLedger(
         workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0]
     ).reserve("chatai-now", spec).error_code == "request_history_unknown"
-    override = workspace / "runs/agent/_control/opper-history-override-opper-now.json"
-    payload = json.loads(override.read_text(encoding="utf-8"))
-    assert payload["accepts_untracked_external_history"] is True
-    assert payload["local_attempts"] == 0
 
 
 def test_ten_attempts_shared_across_runs_and_exact_rolling_window(workspace, ready_ledger, spec, clock):
@@ -327,7 +321,7 @@ def test_opper_factory_uses_distinct_provider_and_ledger(workspace, opper_spec, 
     assert live.model_name == "openai/gpt-5-mini" and live.spec == opper_spec
     assert (workspace / OpperRequestLedger.relative_path).is_file()
     assert not (workspace / RequestLedger.relative_path).exists()
-    assert live.generate("prompt").error_code == "request_history_unknown"
+    assert live.generate("prompt").error_code == "missing_credentials"
 
 
 def test_live_providers_reject_the_other_services_ledger(workspace, spec, opper_spec):
@@ -345,6 +339,8 @@ def test_opper_transport_propagates_exact_scope_offline(workspace, opper_spec, m
     ledger = OpperRequestLedger(workspace, clock=lambda: clock[0], monotonic_clock=lambda: clock[0])
     clock[0] += 3600
     run = RunDirectory.create(workspace, "opper-transport")
+    opper_spec = opper_spec.model_copy(update={
+        "response_format":"json_object", "reasoning_effort":"low"})
     run.write_json("live-run-spec.json", opper_spec.model_dump(mode="json"))
     client = FakeClient()
     options = []
@@ -356,6 +352,8 @@ def test_opper_transport_propagates_exact_scope_offline(workspace, opper_spec, m
     assert result.status == "ok" and result.request_id
     assert options == [{"api_key": "synthetic-opper-key", "base_url": "https://api.opper.ai/v3/compat"}]
     assert client.requests[0]["model"] == "openai/gpt-5-mini"
+    assert client.requests[0]["response_format"] == {"type":"json_object"}
+    assert client.requests[0]["reasoning_effort"] == "low"
     assert client.options["max_retries"] == 0 and client.closed
     assert (workspace / OpperRequestLedger.relative_path).is_file()
     assert not (workspace / RequestLedger.relative_path).exists()
