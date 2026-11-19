@@ -26,11 +26,11 @@ def write_json(path: Path, value):
 
 
 def paper_mean(papers: list[dict]) -> float:
-    if len(papers) != 2 or len({p["paper_id"] for p in papers}) != 2:
-        raise ValueError("Validation requires exactly two distinct papers")
+    if not papers or len({p["paper_id"] for p in papers}) != len(papers):
+        raise ValueError("Validation requires one or more distinct papers")
     if any(not math.isfinite(p["loss"]) or p["loss"] < 0 or p["supervised_tokens"] <= 0 for p in papers):
         raise ValueError("Every paper needs a finite nonnegative loss and answer tokens")
-    return math.fsum(p["loss"] for p in papers) / 2
+    return math.fsum(p["loss"] for p in papers) / len(papers)
 
 
 def best_entry(history: list[dict]) -> dict:
@@ -48,8 +48,11 @@ def best_entry(history: list[dict]) -> dict:
 
 def diagnostic_quality(entry: dict) -> dict:
     diagnostics = entry.get("diagnostics", [])
-    if len(diagnostics) != 2 or len({row["paper_id"] for row in diagnostics}) != 2:
-        raise ValueError("Schema-aware selection requires two generated validation diagnostics")
+    paper_ids = {row["paper_id"] for row in entry["papers"]}
+    diagnostic_ids = {row["paper_id"] for row in diagnostics}
+    if (not diagnostics or len(diagnostic_ids) != len(diagnostics)
+            or diagnostic_ids != paper_ids):
+        raise ValueError("Schema-aware selection requires one diagnostic per validation paper")
     schema_valid_papers = sum(row.get("status") == "scored" and row.get("schema_valid") is True
                               for row in diagnostics)
     reference_scores = []
@@ -74,6 +77,21 @@ def best_schema_entry(history: list[dict]) -> dict:
     ))
 
 
+def fixed_endpoint_entry(history: list[dict], max_steps: int, *, require_endpoint=False) -> dict:
+    """Return only the declared endpoint; intermediate metrics are diagnostic."""
+    best_entry(history)  # Reuse step, loss and paper validation without selecting by loss.
+    if type(max_steps) is not int or max_steps <= 0:
+        raise ValueError("Fixed endpoint requires a positive declared max_steps")
+    endpoints = [row for row in history if row["step"] == max_steps]
+    if len(endpoints) > 1 or any(row["step"] > max_steps for row in history):
+        raise ValueError("Validation history crosses or duplicates the fixed endpoint")
+    if endpoints:
+        return endpoints[0]
+    if require_endpoint:
+        raise ValueError("Completed fixed-endpoint selection is missing its endpoint")
+    return history[0]
+
+
 @contextmanager
 def validation_context(model, *, base=False):
     """Evaluation cannot consume training randomness or leave dropout disabled."""
@@ -96,8 +114,8 @@ def validation_context(model, *, base=False):
 
 
 def validate_rows(rows: list[dict], training_ids: set[str], cap: int, max_new_tokens: int):
-    if len(rows) != 2 or len({r["paper_id"] for r in rows}) != 2:
-        raise ValueError("Exactly two distinct validation papers are required")
+    if not rows or len({r["paper_id"] for r in rows}) != len(rows):
+        raise ValueError("One or more distinct validation papers are required")
     for row in rows:
         if row["split"] != "validation" or row["task"] != "D" or row["paper_id"] in training_ids:
             raise ValueError("Only held-out validation D examples may be used")
@@ -203,11 +221,15 @@ def score_generation(row: dict, generated: dict, directory: Path) -> dict:
 
 
 class ValidationCallback(TrainerCallback):
-    def __init__(self, trainer, rows, config, *, selection_policy="loss"):
-        if selection_policy not in {"loss", "schema_reference_loss"}:
+    def __init__(self, trainer, rows, config, *, selection_policy="loss",
+                 step_zero_base=True):
+        if selection_policy not in {"loss", "schema_reference_loss", "fixed_endpoint"}:
             raise ValueError(f"Unknown validation selection policy: {selection_policy}")
+        if type(step_zero_base) is not bool:
+            raise ValueError("step_zero_base must explicitly be true or false")
         self.trainer, self.rows, self.config = trainer, rows, config
         self.selection_policy = selection_policy
+        self.step_zero_base = step_zero_base
         self.output = Path(trainer.args.output_dir)
         train_ids = {r["example_id"].split(":")[0] for r in trainer.train_dataset}
         validate_rows(rows, train_ids, config.max_seq_length, config.validation_max_new_tokens)
@@ -215,14 +237,19 @@ class ValidationCallback(TrainerCallback):
         self.history = []
 
     def state_dict(self):
-        return {"version": "1.1.0", "validation_sha256": self.data_hash,
+        return {"version": "1.2.0", "validation_sha256": self.data_hash,
                 "validation_steps": self.config.validation_steps,
                 "max_new_tokens": self.config.validation_max_new_tokens,
-                "selection_policy": self.selection_policy, "history": self.history}
+                "selection_policy": self.selection_policy,
+                "step_zero_base": self.step_zero_base, "history": self.history}
 
-    def winner(self):
+    def winner(self, *, complete=False):
         if self.selection_policy == "loss":
             return best_entry(self.history)
+        if self.selection_policy == "fixed_endpoint":
+            return fixed_endpoint_entry(
+                self.history, self.config.max_steps, require_endpoint=complete
+            )
         # Intermediate saves exist for recovery only. Compare the unadapted base
         # with the predeclared fixed-exposure endpoint, never a partially consumed
         # task schedule whose D/E/R mix depends on shuffle order.
@@ -233,8 +260,12 @@ class ValidationCallback(TrainerCallback):
         saved = json.loads((checkpoint / "validation_state.json").read_text(encoding="utf-8"))
         if {k: v for k, v in saved.items() if k != "history"} != {k: v for k, v in self.state_dict().items() if k != "history"}:
             raise ValueError("Resumed validation data or settings changed")
-        (best_entry(saved["history"]) if self.selection_policy == "loss"
-         else best_schema_entry(saved["history"]))
+        if self.selection_policy == "loss":
+            best_entry(saved["history"])
+        elif self.selection_policy == "fixed_endpoint":
+            fixed_endpoint_entry(saved["history"], self.config.max_steps)
+        else:
+            best_schema_entry(saved["history"])
         if saved["history"][-1]["step"] != step:
             raise ValueError("Checkpoint validation history is incomplete")
         self.history = saved["history"]
@@ -242,7 +273,8 @@ class ValidationCallback(TrainerCallback):
     def measure(self, step: int):
         trainer = self.trainer
         timer = trainer.tracking.resources.phase("validation") if trainer.tracking else nullcontext()
-        with timer, validation_context(trainer.model, base=step == 0):
+        with timer, validation_context(
+                trainer.model, base=step == 0 and self.step_zero_base):
             papers = validation_losses(trainer, self.rows)
             directory = self.output / "validation" / f"step-{step}"
             diagnostics = [score_generation(row, generate_answer(trainer.model, trainer.processing_class, row,
@@ -260,19 +292,29 @@ class ValidationCallback(TrainerCallback):
         trainer.control.should_log = should_log
 
     def publish(self, *, complete=False):
-        winner = self.winner()
+        winner = self.winner(complete=complete)
         cfg = self.trainer.model.peft_config["default"]
         quality = diagnostic_quality(winner) if self.selection_policy == "schema_reference_loss" else None
+        metrics = {
+            "loss": "mean_of_per_paper_target_token_nll",
+            "schema_reference_loss": "lexicographic_schema_validity_reference_f1_then_target_nll",
+            "fixed_endpoint": "fixed_exposure_endpoint",
+        }
+        if winner["step"]:
+            kind = "adapter"
+        else:
+            kind = "base" if self.step_zero_base else "initial_adapter"
         selected = {"status": "complete" if complete else "in_progress",
-                    "metric": ("mean_of_per_paper_target_token_nll" if self.selection_policy == "loss"
-                               else "lexicographic_schema_validity_reference_f1_then_target_nll"),
-                    "tie_break": "earliest_step",
+                    "metric": metrics[self.selection_policy],
+                    "tie_break": "earliest_step" if self.selection_policy != "fixed_endpoint" else None,
+                    "endpoint_policy": ("fixed_exposure" if self.selection_policy == "fixed_endpoint"
+                                        else "metric_selection"),
                     "step": winner["step"], "loss": winner["loss"], "papers": winner["papers"],
                     **({"diagnostic_quality": quality} if quality is not None else {}),
                     "exposure": winner["exposure"], "base_model": cfg.base_model_name_or_path,
                     "revision": cfg.revision,
                     "inference_precision": self.config.precision_policy(),
-                    "kind": "base" if winner["step"] == 0 else "adapter",
+                    "kind": kind,
                     "checkpoint": None, "adapter_sha256": None}
         if winner["step"]:
             relative = f"checkpoint-{winner['step']}"

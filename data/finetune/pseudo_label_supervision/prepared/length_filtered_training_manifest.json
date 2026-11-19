@@ -1,0 +1,2044 @@
+{
+  "version": "1.0.0",
+  "status": "frozen",
+  "source": {
+    "path": "data/finetune/pseudo_label_supervision/prepared/train_pseudo_d.jsonl",
+    "sha256": "b5200783049b86459891f35ee2caa057703927d9a4cb94f517a41de000168873"
+  },
+  "policy": {
+    "field": "complete_sequence_tokens",
+    "operator": "<=",
+    "maximum": 32660,
+    "truncation": false,
+    "reason": "RTX 5070 Ti backward-pass memory envelope validated by the prior pilot"
+  },
+  "counts": {
+    "source": 504,
+    "included": 442,
+    "excluded_over_limit": 62
+  },
+  "summary": {
+    "included_maximum": 32530,
+    "excluded_minimum": 32694
+  },
+  "included": [
+    {
+      "paper_id": "1007.4683",
+      "sequence_tokens": 20867
+    },
+    {
+      "paper_id": "1108.3315",
+      "sequence_tokens": 14261
+    },
+    {
+      "paper_id": "1111.6204",
+      "sequence_tokens": 23042
+    },
+    {
+      "paper_id": "1204.5594",
+      "sequence_tokens": 16991
+    },
+    {
+      "paper_id": "1205.4132",
+      "sequence_tokens": 15067
+    },
+    {
+      "paper_id": "1304.4809",
+      "sequence_tokens": 19331
+    },
+    {
+      "paper_id": "1304.5111",
+      "sequence_tokens": 16499
+    },
+    {
+      "paper_id": "1312.1800",
+      "sequence_tokens": 17861
+    },
+    {
+      "paper_id": "1403.3552",
+      "sequence_tokens": 19119
+    },
+    {
+      "paper_id": "1405.4966",
+      "sequence_tokens": 19588
+    },
+    {
+      "paper_id": "1406.7351",
+      "sequence_tokens": 18141
+    },
+    {
+      "paper_id": "1408.6668",
+      "sequence_tokens": 27628
+    },
+    {
+      "paper_id": "1410.5727",
+      "sequence_tokens": 21846
+    },
+    {
+      "paper_id": "1501.00553",
+      "sequence_tokens": 11659
+    },
+    {
+      "paper_id": "1502.02434",
+      "sequence_tokens": 21182
+    },
+    {
+      "paper_id": "1502.03719",
+      "sequence_tokens": 26763
+    },
+    {
+      "paper_id": "1502.07231",
+      "sequence_tokens": 18733
+    },
+    {
+      "paper_id": "1508.00500",
+      "sequence_tokens": 21413
+    },
+    {
+      "paper_id": "1509.01341",
+      "sequence_tokens": 15388
+    },
+    {
+      "paper_id": "1511.02783",
+      "sequence_tokens": 17091
+    },
+    {
+      "paper_id": "1601.03005",
+      "sequence_tokens": 16858
+    },
+    {
+      "paper_id": "1603.06051",
+      "sequence_tokens": 15077
+    },
+    {
+      "paper_id": "1604.02720",
+      "sequence_tokens": 20909
+    },
+    {
+      "paper_id": "1605.05867",
+      "sequence_tokens": 31427
+    },
+    {
+      "paper_id": "1609.00103",
+      "sequence_tokens": 23169
+    },
+    {
+      "paper_id": "1701.08707",
+      "sequence_tokens": 25858
+    },
+    {
+      "paper_id": "1702.00350",
+      "sequence_tokens": 21381
+    },
+    {
+      "paper_id": "1702.02104",
+      "sequence_tokens": 30784
+    },
+    {
+      "paper_id": "1705.06540",
+      "sequence_tokens": 19975
+    },
+    {
+      "paper_id": "1801.00830",
+      "sequence_tokens": 17924
+    },
+    {
+      "paper_id": "1801.01739",
+      "sequence_tokens": 17934
+    },
+    {
+      "paper_id": "1801.01772",
+      "sequence_tokens": 19215
+    },
+    {
+      "paper_id": "1801.05545",
+      "sequence_tokens": 21057
+    },
+    {
+      "paper_id": "1801.06685",
+      "sequence_tokens": 19403
+    },
+    {
+      "paper_id": "1801.07558",
+      "sequence_tokens": 31917
+    },
+    {
+      "paper_id": "1801.08224",
+      "sequence_tokens": 18698
+    },
+    {
+      "paper_id": "1801.08663",
+      "sequence_tokens": 27375
+    },
+    {
+      "paper_id": "1802.00158",
+      "sequence_tokens": 23993
+    },
+    {
+      "paper_id": "1802.03874",
+      "sequence_tokens": 26401
+    },
+    {
+      "paper_id": "1802.08610",
+      "sequence_tokens": 21679
+    },
+    {
+      "paper_id": "1802.08740",
+      "sequence_tokens": 29107
+    },
+    {
+      "paper_id": "1802.09329",
+      "sequence_tokens": 21925
+    },
+    {
+      "paper_id": "1802.09743",
+      "sequence_tokens": 31817
+    },
+    {
+      "paper_id": "1803.02244",
+      "sequence_tokens": 24912
+    },
+    {
+      "paper_id": "1803.04361",
+      "sequence_tokens": 25090
+    },
+    {
+      "paper_id": "1803.04766",
+      "sequence_tokens": 16055
+    },
+    {
+      "paper_id": "1803.07403",
+      "sequence_tokens": 26366
+    },
+    {
+      "paper_id": "1803.07707",
+      "sequence_tokens": 15498
+    },
+    {
+      "paper_id": "1803.08318",
+      "sequence_tokens": 17289
+    },
+    {
+      "paper_id": "1803.10614",
+      "sequence_tokens": 15564
+    },
+    {
+      "paper_id": "1803.11041",
+      "sequence_tokens": 12184
+    },
+    {
+      "paper_id": "1804.01479",
+      "sequence_tokens": 15429
+    },
+    {
+      "paper_id": "1804.08579",
+      "sequence_tokens": 16289
+    },
+    {
+      "paper_id": "1805.00701",
+      "sequence_tokens": 22811
+    },
+    {
+      "paper_id": "1805.03612",
+      "sequence_tokens": 30098
+    },
+    {
+      "paper_id": "1805.10028",
+      "sequence_tokens": 27834
+    },
+    {
+      "paper_id": "1806.04978",
+      "sequence_tokens": 24635
+    },
+    {
+      "paper_id": "1806.07852",
+      "sequence_tokens": 26603
+    },
+    {
+      "paper_id": "1806.09416",
+      "sequence_tokens": 21665
+    },
+    {
+      "paper_id": "1806.10499",
+      "sequence_tokens": 25503
+    },
+    {
+      "paper_id": "1807.01612",
+      "sequence_tokens": 29629
+    },
+    {
+      "paper_id": "1807.07388",
+      "sequence_tokens": 18869
+    },
+    {
+      "paper_id": "1807.09364",
+      "sequence_tokens": 20467
+    },
+    {
+      "paper_id": "1809.02567",
+      "sequence_tokens": 22845
+    },
+    {
+      "paper_id": "1810.07616",
+      "sequence_tokens": 27061
+    },
+    {
+      "paper_id": "1810.08327",
+      "sequence_tokens": 22086
+    },
+    {
+      "paper_id": "1810.09258",
+      "sequence_tokens": 17907
+    },
+    {
+      "paper_id": "1810.11230",
+      "sequence_tokens": 23870
+    },
+    {
+      "paper_id": "1810.11696",
+      "sequence_tokens": 23339
+    },
+    {
+      "paper_id": "1811.01321",
+      "sequence_tokens": 24916
+    },
+    {
+      "paper_id": "1811.04674",
+      "sequence_tokens": 21391
+    },
+    {
+      "paper_id": "1811.08574",
+      "sequence_tokens": 29591
+    },
+    {
+      "paper_id": "1812.00455",
+      "sequence_tokens": 27608
+    },
+    {
+      "paper_id": "1812.01959",
+      "sequence_tokens": 24885
+    },
+    {
+      "paper_id": "1812.07138",
+      "sequence_tokens": 17057
+    },
+    {
+      "paper_id": "1812.07267",
+      "sequence_tokens": 17097
+    },
+    {
+      "paper_id": "1812.09840",
+      "sequence_tokens": 24906
+    },
+    {
+      "paper_id": "1901.00159",
+      "sequence_tokens": 21077
+    },
+    {
+      "paper_id": "1901.03944",
+      "sequence_tokens": 15791
+    },
+    {
+      "paper_id": "1901.08822",
+      "sequence_tokens": 21484
+    },
+    {
+      "paper_id": "1901.08823",
+      "sequence_tokens": 26318
+    },
+    {
+      "paper_id": "1901.09368",
+      "sequence_tokens": 16666
+    },
+    {
+      "paper_id": "1901.09636",
+      "sequence_tokens": 16364
+    },
+    {
+      "paper_id": "1902.00833",
+      "sequence_tokens": 19587
+    },
+    {
+      "paper_id": "1902.04127",
+      "sequence_tokens": 20919
+    },
+    {
+      "paper_id": "1902.05383",
+      "sequence_tokens": 18284
+    },
+    {
+      "paper_id": "1902.05471",
+      "sequence_tokens": 29521
+    },
+    {
+      "paper_id": "1902.06244",
+      "sequence_tokens": 18000
+    },
+    {
+      "paper_id": "1902.06396",
+      "sequence_tokens": 18056
+    },
+    {
+      "paper_id": "1902.07541",
+      "sequence_tokens": 17439
+    },
+    {
+      "paper_id": "1902.09708",
+      "sequence_tokens": 23480
+    },
+    {
+      "paper_id": "1903.03301",
+      "sequence_tokens": 26988
+    },
+    {
+      "paper_id": "1903.03466",
+      "sequence_tokens": 18863
+    },
+    {
+      "paper_id": "1903.04183",
+      "sequence_tokens": 24327
+    },
+    {
+      "paper_id": "1903.05884",
+      "sequence_tokens": 30730
+    },
+    {
+      "paper_id": "1903.07280",
+      "sequence_tokens": 14036
+    },
+    {
+      "paper_id": "1904.01857",
+      "sequence_tokens": 18032
+    },
+    {
+      "paper_id": "1904.10732",
+      "sequence_tokens": 21309
+    },
+    {
+      "paper_id": "1904.11270",
+      "sequence_tokens": 27421
+    },
+    {
+      "paper_id": "1904.13274",
+      "sequence_tokens": 21344
+    },
+    {
+      "paper_id": "1905.03318",
+      "sequence_tokens": 20662
+    },
+    {
+      "paper_id": "1905.03572",
+      "sequence_tokens": 21259
+    },
+    {
+      "paper_id": "1905.04120",
+      "sequence_tokens": 17502
+    },
+    {
+      "paper_id": "1905.04377",
+      "sequence_tokens": 14028
+    },
+    {
+      "paper_id": "1905.07849",
+      "sequence_tokens": 22512
+    },
+    {
+      "paper_id": "1905.09862",
+      "sequence_tokens": 21239
+    },
+    {
+      "paper_id": "1906.01384",
+      "sequence_tokens": 19401
+    },
+    {
+      "paper_id": "1906.02986",
+      "sequence_tokens": 21624
+    },
+    {
+      "paper_id": "1906.04101",
+      "sequence_tokens": 18631
+    },
+    {
+      "paper_id": "1906.07388",
+      "sequence_tokens": 19017
+    },
+    {
+      "paper_id": "1906.11532",
+      "sequence_tokens": 21522
+    },
+    {
+      "paper_id": "1907.00414",
+      "sequence_tokens": 14423
+    },
+    {
+      "paper_id": "1907.01261",
+      "sequence_tokens": 16386
+    },
+    {
+      "paper_id": "1907.06531",
+      "sequence_tokens": 17796
+    },
+    {
+      "paper_id": "1908.00228",
+      "sequence_tokens": 24720
+    },
+    {
+      "paper_id": "1908.00343",
+      "sequence_tokens": 25797
+    },
+    {
+      "paper_id": "1908.01190",
+      "sequence_tokens": 22102
+    },
+    {
+      "paper_id": "1908.02618",
+      "sequence_tokens": 17553
+    },
+    {
+      "paper_id": "1908.07096",
+      "sequence_tokens": 29565
+    },
+    {
+      "paper_id": "1908.08860",
+      "sequence_tokens": 29428
+    },
+    {
+      "paper_id": "1908.10604",
+      "sequence_tokens": 21896
+    },
+    {
+      "paper_id": "1908.10625",
+      "sequence_tokens": 20112
+    },
+    {
+      "paper_id": "1909.01942",
+      "sequence_tokens": 23289
+    },
+    {
+      "paper_id": "1909.03420",
+      "sequence_tokens": 19778
+    },
+    {
+      "paper_id": "1909.06555",
+      "sequence_tokens": 21751
+    },
+    {
+      "paper_id": "1909.06791",
+      "sequence_tokens": 16805
+    },
+    {
+      "paper_id": "1909.07645",
+      "sequence_tokens": 30085
+    },
+    {
+      "paper_id": "1909.07855",
+      "sequence_tokens": 23825
+    },
+    {
+      "paper_id": "1909.11689",
+      "sequence_tokens": 23737
+    },
+    {
+      "paper_id": "1909.12407",
+      "sequence_tokens": 26211
+    },
+    {
+      "paper_id": "1910.01715",
+      "sequence_tokens": 18035
+    },
+    {
+      "paper_id": "1910.03963",
+      "sequence_tokens": 21219
+    },
+    {
+      "paper_id": "1910.05167",
+      "sequence_tokens": 26797
+    },
+    {
+      "paper_id": "1910.10273",
+      "sequence_tokens": 17444
+    },
+    {
+      "paper_id": "1910.10540",
+      "sequence_tokens": 21942
+    },
+    {
+      "paper_id": "1911.06201",
+      "sequence_tokens": 23188
+    },
+    {
+      "paper_id": "1911.07545",
+      "sequence_tokens": 31139
+    },
+    {
+      "paper_id": "1911.12694",
+      "sequence_tokens": 23419
+    },
+    {
+      "paper_id": "1912.05669",
+      "sequence_tokens": 18339
+    },
+    {
+      "paper_id": "1912.09381",
+      "sequence_tokens": 18971
+    },
+    {
+      "paper_id": "1912.10935",
+      "sequence_tokens": 24899
+    },
+    {
+      "paper_id": "2001.08555",
+      "sequence_tokens": 21841
+    },
+    {
+      "paper_id": "2001.11923",
+      "sequence_tokens": 29743
+    },
+    {
+      "paper_id": "2002.08152",
+      "sequence_tokens": 32028
+    },
+    {
+      "paper_id": "2002.11827",
+      "sequence_tokens": 23814
+    },
+    {
+      "paper_id": "2003.00772",
+      "sequence_tokens": 27900
+    },
+    {
+      "paper_id": "2003.02723",
+      "sequence_tokens": 21493
+    },
+    {
+      "paper_id": "2004.00247",
+      "sequence_tokens": 19888
+    },
+    {
+      "paper_id": "2004.01731",
+      "sequence_tokens": 26262
+    },
+    {
+      "paper_id": "2004.04218",
+      "sequence_tokens": 23503
+    },
+    {
+      "paper_id": "2004.04869",
+      "sequence_tokens": 29880
+    },
+    {
+      "paper_id": "2004.06175",
+      "sequence_tokens": 20063
+    },
+    {
+      "paper_id": "2004.06648",
+      "sequence_tokens": 21401
+    },
+    {
+      "paper_id": "2004.08319",
+      "sequence_tokens": 21285
+    },
+    {
+      "paper_id": "2004.10405",
+      "sequence_tokens": 20590
+    },
+    {
+      "paper_id": "2004.11651",
+      "sequence_tokens": 22110
+    },
+    {
+      "paper_id": "2004.13391",
+      "sequence_tokens": 27345
+    },
+    {
+      "paper_id": "2005.05648",
+      "sequence_tokens": 19339
+    },
+    {
+      "paper_id": "2005.07242",
+      "sequence_tokens": 20738
+    },
+    {
+      "paper_id": "2005.09729",
+      "sequence_tokens": 16566
+    },
+    {
+      "paper_id": "2005.10557",
+      "sequence_tokens": 21411
+    },
+    {
+      "paper_id": "2006.00065",
+      "sequence_tokens": 22689
+    },
+    {
+      "paper_id": "2006.01234",
+      "sequence_tokens": 26978
+    },
+    {
+      "paper_id": "2006.01602",
+      "sequence_tokens": 23055
+    },
+    {
+      "paper_id": "2006.06262",
+      "sequence_tokens": 23749
+    },
+    {
+      "paper_id": "2006.07595",
+      "sequence_tokens": 21549
+    },
+    {
+      "paper_id": "2006.09087",
+      "sequence_tokens": 27938
+    },
+    {
+      "paper_id": "2006.09548",
+      "sequence_tokens": 22412
+    },
+    {
+      "paper_id": "2006.11903",
+      "sequence_tokens": 24328
+    },
+    {
+      "paper_id": "2007.10967",
+      "sequence_tokens": 26632
+    },
+    {
+      "paper_id": "2007.11332",
+      "sequence_tokens": 21399
+    },
+    {
+      "paper_id": "2007.12253",
+      "sequence_tokens": 23200
+    },
+    {
+      "paper_id": "2007.12379",
+      "sequence_tokens": 32312
+    },
+    {
+      "paper_id": "2008.02575",
+      "sequence_tokens": 21531
+    },
+    {
+      "paper_id": "2008.05050",
+      "sequence_tokens": 21491
+    },
+    {
+      "paper_id": "2008.05268",
+      "sequence_tokens": 23164
+    },
+    {
+      "paper_id": "2008.05340",
+      "sequence_tokens": 25098
+    },
+    {
+      "paper_id": "2008.07858",
+      "sequence_tokens": 25247
+    },
+    {
+      "paper_id": "2008.13649",
+      "sequence_tokens": 28871
+    },
+    {
+      "paper_id": "2009.11283",
+      "sequence_tokens": 19405
+    },
+    {
+      "paper_id": "2010.00293",
+      "sequence_tokens": 26653
+    },
+    {
+      "paper_id": "2010.02796",
+      "sequence_tokens": 27848
+    },
+    {
+      "paper_id": "2010.07937",
+      "sequence_tokens": 18114
+    },
+    {
+      "paper_id": "2010.08206",
+      "sequence_tokens": 23657
+    },
+    {
+      "paper_id": "2010.08231",
+      "sequence_tokens": 29252
+    },
+    {
+      "paper_id": "2010.11739",
+      "sequence_tokens": 21427
+    },
+    {
+      "paper_id": "2010.12359",
+      "sequence_tokens": 30789
+    },
+    {
+      "paper_id": "2011.00595",
+      "sequence_tokens": 25556
+    },
+    {
+      "paper_id": "2011.06441",
+      "sequence_tokens": 17037
+    },
+    {
+      "paper_id": "2011.07196",
+      "sequence_tokens": 21444
+    },
+    {
+      "paper_id": "2011.11446",
+      "sequence_tokens": 22220
+    },
+    {
+      "paper_id": "2011.12553",
+      "sequence_tokens": 28686
+    },
+    {
+      "paper_id": "2012.01729",
+      "sequence_tokens": 29744
+    },
+    {
+      "paper_id": "2012.10972",
+      "sequence_tokens": 31742
+    },
+    {
+      "paper_id": "2012.13010",
+      "sequence_tokens": 27467
+    },
+    {
+      "paper_id": "2012.15217",
+      "sequence_tokens": 25810
+    },
+    {
+      "paper_id": "2012.15415",
+      "sequence_tokens": 22290
+    },
+    {
+      "paper_id": "2101.00777",
+      "sequence_tokens": 23275
+    },
+    {
+      "paper_id": "2101.02370",
+      "sequence_tokens": 16650
+    },
+    {
+      "paper_id": "2101.06161",
+      "sequence_tokens": 16826
+    },
+    {
+      "paper_id": "2101.06196",
+      "sequence_tokens": 19915
+    },
+    {
+      "paper_id": "2101.06225",
+      "sequence_tokens": 21025
+    },
+    {
+      "paper_id": "2101.08026",
+      "sequence_tokens": 18139
+    },
+    {
+      "paper_id": "2101.08876",
+      "sequence_tokens": 22751
+    },
+    {
+      "paper_id": "2101.08948",
+      "sequence_tokens": 31935
+    },
+    {
+      "paper_id": "2102.04078",
+      "sequence_tokens": 23071
+    },
+    {
+      "paper_id": "2102.06484",
+      "sequence_tokens": 22889
+    },
+    {
+      "paper_id": "2102.11643",
+      "sequence_tokens": 25763
+    },
+    {
+      "paper_id": "2103.01822",
+      "sequence_tokens": 23963
+    },
+    {
+      "paper_id": "2103.13310",
+      "sequence_tokens": 21678
+    },
+    {
+      "paper_id": "2103.16296",
+      "sequence_tokens": 22150
+    },
+    {
+      "paper_id": "2104.09912",
+      "sequence_tokens": 16818
+    },
+    {
+      "paper_id": "2104.12204",
+      "sequence_tokens": 23978
+    },
+    {
+      "paper_id": "2105.13146",
+      "sequence_tokens": 16966
+    },
+    {
+      "paper_id": "2106.08465",
+      "sequence_tokens": 20601
+    },
+    {
+      "paper_id": "2106.12061",
+      "sequence_tokens": 27301
+    },
+    {
+      "paper_id": "2106.13192",
+      "sequence_tokens": 27032
+    },
+    {
+      "paper_id": "2107.02258",
+      "sequence_tokens": 26476
+    },
+    {
+      "paper_id": "2107.06904",
+      "sequence_tokens": 27616
+    },
+    {
+      "paper_id": "2107.08618",
+      "sequence_tokens": 29165
+    },
+    {
+      "paper_id": "2107.12792",
+      "sequence_tokens": 24578
+    },
+    {
+      "paper_id": "2108.02261",
+      "sequence_tokens": 29988
+    },
+    {
+      "paper_id": "2108.04290",
+      "sequence_tokens": 30677
+    },
+    {
+      "paper_id": "2108.06118",
+      "sequence_tokens": 30351
+    },
+    {
+      "paper_id": "2108.06139",
+      "sequence_tokens": 26733
+    },
+    {
+      "paper_id": "2108.06439",
+      "sequence_tokens": 31651
+    },
+    {
+      "paper_id": "2108.11506",
+      "sequence_tokens": 20626
+    },
+    {
+      "paper_id": "2109.01873",
+      "sequence_tokens": 22313
+    },
+    {
+      "paper_id": "2109.14870",
+      "sequence_tokens": 25918
+    },
+    {
+      "paper_id": "2110.03186",
+      "sequence_tokens": 24991
+    },
+    {
+      "paper_id": "2110.09572",
+      "sequence_tokens": 30964
+    },
+    {
+      "paper_id": "2110.14371",
+      "sequence_tokens": 30430
+    },
+    {
+      "paper_id": "2111.04944",
+      "sequence_tokens": 19698
+    },
+    {
+      "paper_id": "2111.05611",
+      "sequence_tokens": 31045
+    },
+    {
+      "paper_id": "2111.07903",
+      "sequence_tokens": 23045
+    },
+    {
+      "paper_id": "2111.08013",
+      "sequence_tokens": 29889
+    },
+    {
+      "paper_id": "2111.09183",
+      "sequence_tokens": 25707
+    },
+    {
+      "paper_id": "2111.10516",
+      "sequence_tokens": 28690
+    },
+    {
+      "paper_id": "2111.11340",
+      "sequence_tokens": 26703
+    },
+    {
+      "paper_id": "2111.12191",
+      "sequence_tokens": 25398
+    },
+    {
+      "paper_id": "2111.12570",
+      "sequence_tokens": 19980
+    },
+    {
+      "paper_id": "2111.14285",
+      "sequence_tokens": 23292
+    },
+    {
+      "paper_id": "2112.01022",
+      "sequence_tokens": 12360
+    },
+    {
+      "paper_id": "2112.05336",
+      "sequence_tokens": 27112
+    },
+    {
+      "paper_id": "2112.08669",
+      "sequence_tokens": 29424
+    },
+    {
+      "paper_id": "2201.00606",
+      "sequence_tokens": 27932
+    },
+    {
+      "paper_id": "2201.10306",
+      "sequence_tokens": 17556
+    },
+    {
+      "paper_id": "2201.10467",
+      "sequence_tokens": 27573
+    },
+    {
+      "paper_id": "2201.13061",
+      "sequence_tokens": 20377
+    },
+    {
+      "paper_id": "2202.07232",
+      "sequence_tokens": 26831
+    },
+    {
+      "paper_id": "2203.06010",
+      "sequence_tokens": 17826
+    },
+    {
+      "paper_id": "2203.06521",
+      "sequence_tokens": 20788
+    },
+    {
+      "paper_id": "2203.08687",
+      "sequence_tokens": 18408
+    },
+    {
+      "paper_id": "2203.16212",
+      "sequence_tokens": 23150
+    },
+    {
+      "paper_id": "2203.16295",
+      "sequence_tokens": 29013
+    },
+    {
+      "paper_id": "2204.03023",
+      "sequence_tokens": 19067
+    },
+    {
+      "paper_id": "2204.05683",
+      "sequence_tokens": 20168
+    },
+    {
+      "paper_id": "2204.07385",
+      "sequence_tokens": 20668
+    },
+    {
+      "paper_id": "2204.12094",
+      "sequence_tokens": 20122
+    },
+    {
+      "paper_id": "2204.12775",
+      "sequence_tokens": 18556
+    },
+    {
+      "paper_id": "2205.00004",
+      "sequence_tokens": 19564
+    },
+    {
+      "paper_id": "2205.03596",
+      "sequence_tokens": 21774
+    },
+    {
+      "paper_id": "2205.13990",
+      "sequence_tokens": 27813
+    },
+    {
+      "paper_id": "2207.02318",
+      "sequence_tokens": 30584
+    },
+    {
+      "paper_id": "2207.07819",
+      "sequence_tokens": 22256
+    },
+    {
+      "paper_id": "2207.12142",
+      "sequence_tokens": 27369
+    },
+    {
+      "paper_id": "2207.14409",
+      "sequence_tokens": 24749
+    },
+    {
+      "paper_id": "2208.02456",
+      "sequence_tokens": 23828
+    },
+    {
+      "paper_id": "2208.04658",
+      "sequence_tokens": 24977
+    },
+    {
+      "paper_id": "2208.07019",
+      "sequence_tokens": 17592
+    },
+    {
+      "paper_id": "2209.06460",
+      "sequence_tokens": 25184
+    },
+    {
+      "paper_id": "2209.13954",
+      "sequence_tokens": 23097
+    },
+    {
+      "paper_id": "2210.01039",
+      "sequence_tokens": 17554
+    },
+    {
+      "paper_id": "2210.10274",
+      "sequence_tokens": 24469
+    },
+    {
+      "paper_id": "2210.11290",
+      "sequence_tokens": 17073
+    },
+    {
+      "paper_id": "2210.16619",
+      "sequence_tokens": 24301
+    },
+    {
+      "paper_id": "2211.00776",
+      "sequence_tokens": 32246
+    },
+    {
+      "paper_id": "2211.10294",
+      "sequence_tokens": 22294
+    },
+    {
+      "paper_id": "2211.16925",
+      "sequence_tokens": 25970
+    },
+    {
+      "paper_id": "2212.01680",
+      "sequence_tokens": 20514
+    },
+    {
+      "paper_id": "2212.07862",
+      "sequence_tokens": 22218
+    },
+    {
+      "paper_id": "2301.02677",
+      "sequence_tokens": 25943
+    },
+    {
+      "paper_id": "2302.01506",
+      "sequence_tokens": 27135
+    },
+    {
+      "paper_id": "2302.03368",
+      "sequence_tokens": 20070
+    },
+    {
+      "paper_id": "2302.06063",
+      "sequence_tokens": 24231
+    },
+    {
+      "paper_id": "2303.05135",
+      "sequence_tokens": 20732
+    },
+    {
+      "paper_id": "2303.11869",
+      "sequence_tokens": 23490
+    },
+    {
+      "paper_id": "2303.18127",
+      "sequence_tokens": 21098
+    },
+    {
+      "paper_id": "2304.00110",
+      "sequence_tokens": 29780
+    },
+    {
+      "paper_id": "2304.01369",
+      "sequence_tokens": 23400
+    },
+    {
+      "paper_id": "2304.14896",
+      "sequence_tokens": 18354
+    },
+    {
+      "paper_id": "2305.03087",
+      "sequence_tokens": 28016
+    },
+    {
+      "paper_id": "2305.05960",
+      "sequence_tokens": 19535
+    },
+    {
+      "paper_id": "2305.11542",
+      "sequence_tokens": 19382
+    },
+    {
+      "paper_id": "2305.11706",
+      "sequence_tokens": 21873
+    },
+    {
+      "paper_id": "2305.13727",
+      "sequence_tokens": 18360
+    },
+    {
+      "paper_id": "2305.16512",
+      "sequence_tokens": 27237
+    },
+    {
+      "paper_id": "2306.00821",
+      "sequence_tokens": 20476
+    },
+    {
+      "paper_id": "2306.01167",
+      "sequence_tokens": 27046
+    },
+    {
+      "paper_id": "2306.03544",
+      "sequence_tokens": 26454
+    },
+    {
+      "paper_id": "2306.06933",
+      "sequence_tokens": 26154
+    },
+    {
+      "paper_id": "2306.10492",
+      "sequence_tokens": 19952
+    },
+    {
+      "paper_id": "2306.12147",
+      "sequence_tokens": 27767
+    },
+    {
+      "paper_id": "2306.12732",
+      "sequence_tokens": 26452
+    },
+    {
+      "paper_id": "2306.14836",
+      "sequence_tokens": 27959
+    },
+    {
+      "paper_id": "2307.06375",
+      "sequence_tokens": 30515
+    },
+    {
+      "paper_id": "2307.08871",
+      "sequence_tokens": 21998
+    },
+    {
+      "paper_id": "2307.12433",
+      "sequence_tokens": 16000
+    },
+    {
+      "paper_id": "2308.01513",
+      "sequence_tokens": 19659
+    },
+    {
+      "paper_id": "2308.06724",
+      "sequence_tokens": 22371
+    },
+    {
+      "paper_id": "2308.11680",
+      "sequence_tokens": 28021
+    },
+    {
+      "paper_id": "2308.13465",
+      "sequence_tokens": 22604
+    },
+    {
+      "paper_id": "2309.00340",
+      "sequence_tokens": 18185
+    },
+    {
+      "paper_id": "2309.02126",
+      "sequence_tokens": 21363
+    },
+    {
+      "paper_id": "2309.13721",
+      "sequence_tokens": 22709
+    },
+    {
+      "paper_id": "2309.15982",
+      "sequence_tokens": 20673
+    },
+    {
+      "paper_id": "2309.15989",
+      "sequence_tokens": 24880
+    },
+    {
+      "paper_id": "2310.12824",
+      "sequence_tokens": 21957
+    },
+    {
+      "paper_id": "2310.18096",
+      "sequence_tokens": 20214
+    },
+    {
+      "paper_id": "2311.01621",
+      "sequence_tokens": 19340
+    },
+    {
+      "paper_id": "2311.04504",
+      "sequence_tokens": 18608
+    },
+    {
+      "paper_id": "2311.04992",
+      "sequence_tokens": 19336
+    },
+    {
+      "paper_id": "2311.05469",
+      "sequence_tokens": 27930
+    },
+    {
+      "paper_id": "2311.05959",
+      "sequence_tokens": 23902
+    },
+    {
+      "paper_id": "2312.00397",
+      "sequence_tokens": 21301
+    },
+    {
+      "paper_id": "2312.01595",
+      "sequence_tokens": 32530
+    },
+    {
+      "paper_id": "2312.06388",
+      "sequence_tokens": 23029
+    },
+    {
+      "paper_id": "2312.06862",
+      "sequence_tokens": 23749
+    },
+    {
+      "paper_id": "2312.13160",
+      "sequence_tokens": 27291
+    },
+    {
+      "paper_id": "2401.08029",
+      "sequence_tokens": 23803
+    },
+    {
+      "paper_id": "2401.08834",
+      "sequence_tokens": 24797
+    },
+    {
+      "paper_id": "2401.13468",
+      "sequence_tokens": 23142
+    },
+    {
+      "paper_id": "2401.15325",
+      "sequence_tokens": 27309
+    },
+    {
+      "paper_id": "2401.16118",
+      "sequence_tokens": 26331
+    },
+    {
+      "paper_id": "2402.07155",
+      "sequence_tokens": 20548
+    },
+    {
+      "paper_id": "2402.12873",
+      "sequence_tokens": 19730
+    },
+    {
+      "paper_id": "2403.02082",
+      "sequence_tokens": 24748
+    },
+    {
+      "paper_id": "2403.08679",
+      "sequence_tokens": 28298
+    },
+    {
+      "paper_id": "2403.17642",
+      "sequence_tokens": 20002
+    },
+    {
+      "paper_id": "2404.16808",
+      "sequence_tokens": 28022
+    },
+    {
+      "paper_id": "2404.17505",
+      "sequence_tokens": 24491
+    },
+    {
+      "paper_id": "2406.13550",
+      "sequence_tokens": 25769
+    },
+    {
+      "paper_id": "2407.06728",
+      "sequence_tokens": 24435
+    },
+    {
+      "paper_id": "2408.00410",
+      "sequence_tokens": 21205
+    },
+    {
+      "paper_id": "2408.06239",
+      "sequence_tokens": 29936
+    },
+    {
+      "paper_id": "2408.09608",
+      "sequence_tokens": 17963
+    },
+    {
+      "paper_id": "2408.14172",
+      "sequence_tokens": 21945
+    },
+    {
+      "paper_id": "2408.14360",
+      "sequence_tokens": 28521
+    },
+    {
+      "paper_id": "2409.07595",
+      "sequence_tokens": 29482
+    },
+    {
+      "paper_id": "2409.07705",
+      "sequence_tokens": 24013
+    },
+    {
+      "paper_id": "2409.10569",
+      "sequence_tokens": 27281
+    },
+    {
+      "paper_id": "2410.01980",
+      "sequence_tokens": 31005
+    },
+    {
+      "paper_id": "2410.02007",
+      "sequence_tokens": 32320
+    },
+    {
+      "paper_id": "2410.03295",
+      "sequence_tokens": 29921
+    },
+    {
+      "paper_id": "2410.05456",
+      "sequence_tokens": 28473
+    },
+    {
+      "paper_id": "2410.06323",
+      "sequence_tokens": 25447
+    },
+    {
+      "paper_id": "2410.10671",
+      "sequence_tokens": 20942
+    },
+    {
+      "paper_id": "2411.12686",
+      "sequence_tokens": 30068
+    },
+    {
+      "paper_id": "2412.03777",
+      "sequence_tokens": 24161
+    },
+    {
+      "paper_id": "2412.16732",
+      "sequence_tokens": 27490
+    },
+    {
+      "paper_id": "2412.18722",
+      "sequence_tokens": 30284
+    },
+    {
+      "paper_id": "2501.07162",
+      "sequence_tokens": 18859
+    },
+    {
+      "paper_id": "2501.10424",
+      "sequence_tokens": 14589
+    },
+    {
+      "paper_id": "2501.15350",
+      "sequence_tokens": 26847
+    },
+    {
+      "paper_id": "2501.16034",
+      "sequence_tokens": 26309
+    },
+    {
+      "paper_id": "2501.16264",
+      "sequence_tokens": 30042
+    },
+    {
+      "paper_id": "2502.03239",
+      "sequence_tokens": 26124
+    },
+    {
+      "paper_id": "2502.10809",
+      "sequence_tokens": 24578
+    },
+    {
+      "paper_id": "2502.14118",
+      "sequence_tokens": 21814
+    },
+    {
+      "paper_id": "2502.17096",
+      "sequence_tokens": 30204
+    },
+    {
+      "paper_id": "2502.18920",
+      "sequence_tokens": 20292
+    },
+    {
+      "paper_id": "2503.01939",
+      "sequence_tokens": 23920
+    },
+    {
+      "paper_id": "2503.08469",
+      "sequence_tokens": 27250
+    },
+    {
+      "paper_id": "2503.08816",
+      "sequence_tokens": 25662
+    },
+    {
+      "paper_id": "2503.18833",
+      "sequence_tokens": 24735
+    },
+    {
+      "paper_id": "2504.02219",
+      "sequence_tokens": 17245
+    },
+    {
+      "paper_id": "2504.20905",
+      "sequence_tokens": 32277
+    },
+    {
+      "paper_id": "2505.08055",
+      "sequence_tokens": 24898
+    },
+    {
+      "paper_id": "2506.04930",
+      "sequence_tokens": 24567
+    },
+    {
+      "paper_id": "2506.14332",
+      "sequence_tokens": 25250
+    },
+    {
+      "paper_id": "2506.18363",
+      "sequence_tokens": 24628
+    },
+    {
+      "paper_id": "2506.19577",
+      "sequence_tokens": 30976
+    },
+    {
+      "paper_id": "2507.01164",
+      "sequence_tokens": 17285
+    },
+    {
+      "paper_id": "2507.01666",
+      "sequence_tokens": 18466
+    },
+    {
+      "paper_id": "2507.09147",
+      "sequence_tokens": 29989
+    },
+    {
+      "paper_id": "2507.15038",
+      "sequence_tokens": 25994
+    },
+    {
+      "paper_id": "2507.22492",
+      "sequence_tokens": 24776
+    },
+    {
+      "paper_id": "2508.08817",
+      "sequence_tokens": 16520
+    },
+    {
+      "paper_id": "2508.21023",
+      "sequence_tokens": 27031
+    },
+    {
+      "paper_id": "2509.10741",
+      "sequence_tokens": 23225
+    },
+    {
+      "paper_id": "2509.19181",
+      "sequence_tokens": 24906
+    },
+    {
+      "paper_id": "2510.02772",
+      "sequence_tokens": 21233
+    },
+    {
+      "paper_id": "2510.21511",
+      "sequence_tokens": 32086
+    },
+    {
+      "paper_id": "2510.27294",
+      "sequence_tokens": 27959
+    },
+    {
+      "paper_id": "2511.23248",
+      "sequence_tokens": 29000
+    },
+    {
+      "paper_id": "2512.02742",
+      "sequence_tokens": 22875
+    },
+    {
+      "paper_id": "2512.05563",
+      "sequence_tokens": 30190
+    },
+    {
+      "paper_id": "2512.06397",
+      "sequence_tokens": 22406
+    },
+    {
+      "paper_id": "2512.08287",
+      "sequence_tokens": 28409
+    },
+    {
+      "paper_id": "2512.08488",
+      "sequence_tokens": 25598
+    },
+    {
+      "paper_id": "2512.14571",
+      "sequence_tokens": 23040
+    },
+    {
+      "paper_id": "2512.16994",
+      "sequence_tokens": 22635
+    },
+    {
+      "paper_id": "2512.17018",
+      "sequence_tokens": 26692
+    },
+    {
+      "paper_id": "2512.18005",
+      "sequence_tokens": 31231
+    },
+    {
+      "paper_id": "2512.23501",
+      "sequence_tokens": 31554
+    },
+    {
+      "paper_id": "2601.08935",
+      "sequence_tokens": 28545
+    },
+    {
+      "paper_id": "2601.10518",
+      "sequence_tokens": 24606
+    },
+    {
+      "paper_id": "2601.13582",
+      "sequence_tokens": 22473
+    },
+    {
+      "paper_id": "2601.21672",
+      "sequence_tokens": 25598
+    },
+    {
+      "paper_id": "2602.02792",
+      "sequence_tokens": 24809
+    },
+    {
+      "paper_id": "2602.14932",
+      "sequence_tokens": 30870
+    },
+    {
+      "paper_id": "2602.22156",
+      "sequence_tokens": 29897
+    },
+    {
+      "paper_id": "2602.22169",
+      "sequence_tokens": 23686
+    },
+    {
+      "paper_id": "2603.09635",
+      "sequence_tokens": 30109
+    },
+    {
+      "paper_id": "2603.09659",
+      "sequence_tokens": 31638
+    },
+    {
+      "paper_id": "2603.15772",
+      "sequence_tokens": 25261
+    },
+    {
+      "paper_id": "2603.26242",
+      "sequence_tokens": 20421
+    },
+    {
+      "paper_id": "2604.00907",
+      "sequence_tokens": 24033
+    },
+    {
+      "paper_id": "2604.17826",
+      "sequence_tokens": 21319
+    },
+    {
+      "paper_id": "2604.26560",
+      "sequence_tokens": 25430
+    },
+    {
+      "paper_id": "2605.01141",
+      "sequence_tokens": 24587
+    },
+    {
+      "paper_id": "2605.09578",
+      "sequence_tokens": 22340
+    },
+    {
+      "paper_id": "2605.28288",
+      "sequence_tokens": 28443
+    },
+    {
+      "paper_id": "2606.01251",
+      "sequence_tokens": 21292
+    },
+    {
+      "paper_id": "2606.10715",
+      "sequence_tokens": 22172
+    },
+    {
+      "paper_id": "2606.18731",
+      "sequence_tokens": 24110
+    },
+    {
+      "paper_id": "2606.18791",
+      "sequence_tokens": 20470
+    },
+    {
+      "paper_id": "2607.18954",
+      "sequence_tokens": 30213
+    },
+    {
+      "paper_id": "2607.20298",
+      "sequence_tokens": 24752
+    },
+    {
+      "paper_id": "2608.07081",
+      "sequence_tokens": 24206
+    },
+    {
+      "paper_id": "2608.09815",
+      "sequence_tokens": 23681
+    },
+    {
+      "paper_id": "2609.02368",
+      "sequence_tokens": 22746
+    },
+    {
+      "paper_id": "2609.03571",
+      "sequence_tokens": 31843
+    },
+    {
+      "paper_id": "2609.05000",
+      "sequence_tokens": 26630
+    },
+    {
+      "paper_id": "2609.35380",
+      "sequence_tokens": 25269
+    },
+    {
+      "paper_id": "2610.03806",
+      "sequence_tokens": 28897
+    },
+    {
+      "paper_id": "2610.04903",
+      "sequence_tokens": 26673
+    },
+    {
+      "paper_id": "2610.29694",
+      "sequence_tokens": 21750
+    },
+    {
+      "paper_id": "2610.31176",
+      "sequence_tokens": 28503
+    },
+    {
+      "paper_id": "2611.00390",
+      "sequence_tokens": 25896
+    },
+    {
+      "paper_id": "2611.00540",
+      "sequence_tokens": 21774
+    },
+    {
+      "paper_id": "2611.06045",
+      "sequence_tokens": 20815
+    }
+  ],
+  "excluded": [
+    {
+      "paper_id": "1507.03694",
+      "sequence_tokens": 36176
+    },
+    {
+      "paper_id": "1806.08811",
+      "sequence_tokens": 33810
+    },
+    {
+      "paper_id": "1810.09772",
+      "sequence_tokens": 35037
+    },
+    {
+      "paper_id": "1810.09788",
+      "sequence_tokens": 38916
+    },
+    {
+      "paper_id": "1906.01270",
+      "sequence_tokens": 42791
+    },
+    {
+      "paper_id": "1907.00649",
+      "sequence_tokens": 33311
+    },
+    {
+      "paper_id": "1909.07414",
+      "sequence_tokens": 32982
+    },
+    {
+      "paper_id": "1911.03752",
+      "sequence_tokens": 33278
+    },
+    {
+      "paper_id": "2002.11473",
+      "sequence_tokens": 36710
+    },
+    {
+      "paper_id": "2003.02969",
+      "sequence_tokens": 33506
+    },
+    {
+      "paper_id": "2005.12956",
+      "sequence_tokens": 63524
+    },
+    {
+      "paper_id": "2007.07313",
+      "sequence_tokens": 35640
+    },
+    {
+      "paper_id": "2010.07709",
+      "sequence_tokens": 42661
+    },
+    {
+      "paper_id": "2101.05178",
+      "sequence_tokens": 34025
+    },
+    {
+      "paper_id": "2101.09946",
+      "sequence_tokens": 33199
+    },
+    {
+      "paper_id": "2108.09224",
+      "sequence_tokens": 43443
+    },
+    {
+      "paper_id": "2110.14415",
+      "sequence_tokens": 33455
+    },
+    {
+      "paper_id": "2112.00502",
+      "sequence_tokens": 54575
+    },
+    {
+      "paper_id": "2202.09887",
+      "sequence_tokens": 33366
+    },
+    {
+      "paper_id": "2203.00814",
+      "sequence_tokens": 40540
+    },
+    {
+      "paper_id": "2203.12939",
+      "sequence_tokens": 45270
+    },
+    {
+      "paper_id": "2203.16240",
+      "sequence_tokens": 49909
+    },
+    {
+      "paper_id": "2206.01497",
+      "sequence_tokens": 38879
+    },
+    {
+      "paper_id": "2207.14196",
+      "sequence_tokens": 33160
+    },
+    {
+      "paper_id": "2211.15496",
+      "sequence_tokens": 39205
+    },
+    {
+      "paper_id": "2212.01894",
+      "sequence_tokens": 62306
+    },
+    {
+      "paper_id": "2301.04425",
+      "sequence_tokens": 44943
+    },
+    {
+      "paper_id": "2304.08667",
+      "sequence_tokens": 34960
+    },
+    {
+      "paper_id": "2304.11972",
+      "sequence_tokens": 39552
+    },
+    {
+      "paper_id": "2306.14507",
+      "sequence_tokens": 34202
+    },
+    {
+      "paper_id": "2307.15265",
+      "sequence_tokens": 40300
+    },
+    {
+      "paper_id": "2309.12679",
+      "sequence_tokens": 37707
+    },
+    {
+      "paper_id": "2311.01986",
+      "sequence_tokens": 40979
+    },
+    {
+      "paper_id": "2404.18915",
+      "sequence_tokens": 41537
+    },
+    {
+      "paper_id": "2407.00222",
+      "sequence_tokens": 37621
+    },
+    {
+      "paper_id": "2408.01267",
+      "sequence_tokens": 37030
+    },
+    {
+      "paper_id": "2412.04894",
+      "sequence_tokens": 42990
+    },
+    {
+      "paper_id": "2412.05219",
+      "sequence_tokens": 34267
+    },
+    {
+      "paper_id": "2412.07204",
+      "sequence_tokens": 44710
+    },
+    {
+      "paper_id": "2501.04840",
+      "sequence_tokens": 32694
+    },
+    {
+      "paper_id": "2501.08687",
+      "sequence_tokens": 36877
+    },
+    {
+      "paper_id": "2503.06043",
+      "sequence_tokens": 43692
+    },
+    {
+      "paper_id": "2503.10373",
+      "sequence_tokens": 35913
+    },
+    {
+      "paper_id": "2503.22383",
+      "sequence_tokens": 35204
+    },
+    {
+      "paper_id": "2504.07268",
+      "sequence_tokens": 35611
+    },
+    {
+      "paper_id": "2506.16972",
+      "sequence_tokens": 49437
+    },
+    {
+      "paper_id": "2507.04076",
+      "sequence_tokens": 36171
+    },
+    {
+      "paper_id": "2507.11338",
+      "sequence_tokens": 36722
+    },
+    {
+      "paper_id": "2507.13838",
+      "sequence_tokens": 35552
+    },
+    {
+      "paper_id": "2507.15052",
+      "sequence_tokens": 35994
+    },
+    {
+      "paper_id": "2507.23068",
+      "sequence_tokens": 51611
+    },
+    {
+      "paper_id": "2508.03786",
+      "sequence_tokens": 34725
+    },
+    {
+      "paper_id": "2508.05796",
+      "sequence_tokens": 33523
+    },
+    {
+      "paper_id": "2510.10012",
+      "sequence_tokens": 41824
+    },
+    {
+      "paper_id": "2511.03721",
+      "sequence_tokens": 59151
+    },
+    {
+      "paper_id": "2512.10219",
+      "sequence_tokens": 37479
+    },
+    {
+      "paper_id": "2604.02824",
+      "sequence_tokens": 42212
+    },
+    {
+      "paper_id": "2604.13442",
+      "sequence_tokens": 45424
+    },
+    {
+      "paper_id": "2605.05364",
+      "sequence_tokens": 50103
+    },
+    {
+      "paper_id": "2606.17701",
+      "sequence_tokens": 34947
+    },
+    {
+      "paper_id": "2610.09210",
+      "sequence_tokens": 51838
+    },
+    {
+      "paper_id": "2610.30513",
+      "sequence_tokens": 37657
+    }
+  ]
+}

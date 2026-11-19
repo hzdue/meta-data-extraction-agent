@@ -14,8 +14,8 @@ pytest.importorskip("peft")
 from meta_data_extraction.finetune.training import attach_lora, build_trainer, prepare_output
 from meta_data_extraction.finetune import validation as validation_module
 from meta_data_extraction.finetune.validation import (
-    best_entry, generate_answer, paper_mean, score_generation, validate_rows,
-    validation_context, validation_losses,
+    best_entry, fixed_endpoint_entry, generate_answer, paper_mean, score_generation,
+    validate_rows, validation_context, validation_losses,
 )
 from tests.test_finetune_training import (
     PREPARATION, ROOT, StopAfterTwo, config, records, tiny_model, tokenizer,
@@ -57,6 +57,20 @@ def test_equal_paper_mean_and_earliest_tie_ignore_f1():
     assert best_entry([entry(0, 1.0, 1.0), entry(2, 1.0, 1.0)])["step"] == 0
 
 
+def test_equal_paper_mean_and_membership_support_57_pseudo_validation_papers():
+    papers = [
+        {"paper_id": f"pseudo_{index}", "loss": float(index), "supervised_tokens": index + 1}
+        for index in range(57)
+    ]
+    assert paper_mean(papers) == 28.0
+    rows = []
+    for index in range(57):
+        row = deepcopy(validation_rows()[index % 2])
+        row.update(paper_id=f"pseudo_{index}", example_id=f"pseudo_{index}:D")
+        rows.append(row)
+    validate_rows(rows, set(), 128, 4)
+
+
 @pytest.mark.parametrize("loss", [float("nan"), float("inf"), -0.1])
 def test_invalid_loss_cannot_select_a_checkpoint(loss):
     with pytest.raises(ValueError, match="finite"):
@@ -64,14 +78,26 @@ def test_invalid_loss_cannot_select_a_checkpoint(loss):
 
 
 def test_missing_paper_baseline_or_inconsistent_aggregation_rejected():
-    with pytest.raises(ValueError, match="two distinct"):
-        paper_mean(entry(0, 1.0, 2.0)["papers"][:1])
+    with pytest.raises(ValueError, match="one or more distinct"):
+        paper_mean([])
+    duplicated = entry(0, 1.0, 2.0)["papers"]
+    duplicated[1]["paper_id"] = duplicated[0]["paper_id"]
+    with pytest.raises(ValueError, match="one or more distinct"):
+        paper_mean(duplicated)
     with pytest.raises(ValueError, match="step-zero"):
         best_entry([entry(2, 1.0, 2.0)])
     bad = entry(0, 1.0, 2.0)
     bad["loss"] = 0.1
     with pytest.raises(ValueError, match="equal-paper"):
         best_entry([bad])
+
+
+def test_fixed_endpoint_ignores_better_intermediate_metrics():
+    history = [entry(0, 3.0, 3.0), entry(2, 0.1, 0.1), entry(4, 5.0, 5.0)]
+    assert fixed_endpoint_entry(history, 4)["step"] == 4
+    assert fixed_endpoint_entry(history[:2], 4)["step"] == 0
+    with pytest.raises(ValueError, match="missing its endpoint"):
+        fixed_endpoint_entry(history[:2], 4, require_endpoint=True)
 
 
 @pytest.mark.parametrize("change", ["train_paper", "test_split", "auxiliary", "gold_in_prompt", "overflow"])
@@ -245,6 +271,47 @@ def test_selected_artifact_is_base_or_best_adapter_not_last(monkeypatch, tmp_pat
         assert len(selected["adapter_sha256"]) == 64
         assert (tmp_path / selected["checkpoint"] / "adapter_model.safetensors").exists()
         assert sum(selected["exposure"]["examples"].values()) == 4
+
+
+def test_fixed_endpoint_policy_publishes_only_declared_final_step(monkeypatch, tmp_path):
+    cfg = config(max_steps=3)
+    values = iter([3.0, 0.1, 5.0])
+
+    def measured(trainer, rows):
+        value = next(values)
+        return [
+            {"paper_id": row["paper_id"], "loss": value, "supervised_tokens": 3}
+            for row in rows
+        ]
+
+    monkeypatch.setattr(validation_module, "validation_losses", measured)
+    trainer = build_trainer(
+        attach_lora(tiny_model(), cfg, PREPARATION), tokenizer(), records(), cfg,
+        tmp_path, cpu=True, validation=validation_rows(), selection_policy="fixed_endpoint",
+    )
+    trainer.train()
+
+    selected = json.loads((tmp_path / "selection.json").read_text())
+    assert [row["step"] for row in trainer.validation.history] == [0, 2, 3]
+    assert selected["status"] == "complete"
+    assert selected["metric"] == "fixed_exposure_endpoint"
+    assert selected["endpoint_policy"] == "fixed_exposure"
+    assert selected["step"] == 3 and selected["loss"] == 5.0
+    assert selected["checkpoint"] == "checkpoint-3"
+
+
+def test_step_zero_adapter_policy_is_explicit_and_recoverable(tmp_path):
+    cfg = config()
+    trainer = build_trainer(
+        attach_lora(tiny_model(), cfg, PREPARATION), tokenizer(), records(), cfg,
+        tmp_path, cpu=True, validation=validation_rows(), selection_policy="fixed_endpoint",
+        validation_step_zero_base=False,
+    )
+    assert trainer.validation.step_zero_base is False
+    assert trainer.validation.state_dict()["step_zero_base"] is False
+    trainer.validation.history = [entry(0, 1.0, 1.0, diagnostics=[], exposure={})]
+    selected = trainer.validation.publish()
+    assert selected["kind"] == "initial_adapter"
 
 
 def test_resume_rejects_missing_or_changed_validation_history(tmp_path):

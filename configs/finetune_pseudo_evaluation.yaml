@@ -1,0 +1,9 @@
+version: "1.0.0"
+evaluation_config: configs/finetune_evaluation.yaml
+pseudo_only_config: configs/finetune_pseudo_only.yaml
+output_dir: outputs/finetune/pseudo_label_supervision/evaluation
+base_metrics: outputs/finetune/evaluation/m0/metrics.json
+condition: pseudo_length_filtered_seed42
+corpus_role: exploratory_reused_step7_test_as_development
+endpoint_policy: fixed_exposure
+

@@ -23,7 +23,33 @@ from .training_data import TrainingConfig, file_hash
 from .validation import generate_answer, paper_mean, score_generation, validation_context, validation_losses, validate_rows, write_json
 
 
-CASES = ("short", "longest_D", "longest_E", "longest_R", "validation_loss", "validation_generation")
+CASES = (
+    "short", "median_D", "longest_prompt_D", "longest_target_D",
+    "longest_D", "longest_E", "longest_R",
+    "validation_loss", "validation_generation",
+)
+
+
+def _row_shape(row):
+    labels = row["labels"]
+    try:
+        prompt_tokens = next(i for i, token in enumerate(labels) if token != -100)
+    except StopIteration as exc:
+        raise ValueError(f"Example has no supervised target: {row['example_id']}") from exc
+    return {
+        "sequence_tokens": len(row["input_ids"]),
+        "prompt_tokens": prompt_tokens,
+        # Position zero cannot contribute to the causal loss.
+        "supervised_tokens": sum(token != -100 for token in labels[1:]),
+    }
+
+
+def _case_task(case):
+    if case == "short" or case in {"median_D", "longest_prompt_D", "longest_target_D"}:
+        return "D"
+    if case.startswith("longest_"):
+        return case.removeprefix("longest_")
+    return None
 
 
 def case_rows(case, records, validation):
@@ -32,19 +58,31 @@ def case_rows(case, records, validation):
         raise ValueError(f"Unknown smoke case: {case}")
     if case.startswith("validation_"):
         return validation
-    task = "D" if case == "short" else case.removeprefix("longest_")
+    task = _case_task(case)
     candidates = [r for r in records if r["task"] == task]
     if not candidates:
         raise ValueError(f"No training examples for task {task}; use the structure-aware config for E/R")
     candidates.sort(key=lambda r: (len(r["input_ids"]), r["example_id"]))
-    return [candidates[0] if case == "short" else candidates[-1]]
+    if case == "short":
+        chosen = candidates[0]
+    elif case == "median_D":
+        # Use the upper middle record for an even-sized dataset.
+        chosen = candidates[len(candidates) // 2]
+    elif case == "longest_prompt_D":
+        chosen = max(candidates, key=lambda r: (
+            _row_shape(r)["prompt_tokens"], len(r["input_ids"]), r["example_id"]
+        ))
+    elif case == "longest_target_D":
+        chosen = max(candidates, key=lambda r: (
+            _row_shape(r)["supervised_tokens"], len(r["input_ids"]), r["example_id"]
+        ))
+    else:
+        chosen = candidates[-1]
+    return [chosen]
 
 
 def describe_rows(rows):
-    return [{"example_id": r["example_id"], "task": r["task"],
-             "sequence_tokens": len(r["input_ids"]),
-             "supervised_tokens": sum(x != -100 for x in r["labels"][1:]),
-             **({"prompt_tokens": len(r["prompt_ids"])} if "prompt_ids" in r else {})}
+    return [{"example_id": r["example_id"], "task": r["task"], **_row_shape(r)}
             for r in rows]
 
 
@@ -53,7 +91,7 @@ def probe_plan(records, validation, config):
                   config.max_seq_length, config.validation_max_new_tokens)
     tasks = {r["task"] for r in records}
     return {case: describe_rows(case_rows(case, records, validation)) for case in CASES
-            if not case.startswith("longest_") or case[-1] in tasks}
+            if _case_task(case) is None or _case_task(case) in tasks}
 
 
 def weight_hashes(model):
@@ -159,7 +197,8 @@ def exercise_case(case, trainer, rows, validation, config, output, report):
 
 
 def run_probe(root, config, tokenizer, records, validation, summary, architecture,
-              preparation, case, output: Path, *, offline=False):
+              preparation, case, output: Path, *, offline=False,
+              contract_builder=None, entrypoint="scripts/smoke_finetune.py"):
     plan = probe_plan(records, validation, config)
     if case not in plan:
         raise ValueError(f"Case {case} is unavailable for {config.method}")
@@ -172,10 +211,11 @@ def run_probe(root, config, tokenizer, records, validation, summary, architectur
     values = config.model_dump()
     values.update(max_steps=1, save_steps=1, validation_steps=1, output_dir=str(output))
     probe_config = TrainingConfig.model_validate(values)
-    contract = run_contract(root, probe_config, summary, architecture)
+    contract = (run_contract(root, probe_config, summary, architecture)
+                if contract_builder is None else contract_builder(probe_config))
     contract["smoke"] = {"case": case, "examples": plan[case], "production_config": config.model_dump(),
                          "not_a_comparative_run": True}
-    for name in ("scripts/smoke_finetune.py", "src/meta_data_extraction/finetune/smoke.py"):
+    for name in (entrypoint, "src/meta_data_extraction/finetune/smoke.py"):
         contract["sources"][name] = file_hash(root / name)
     prepare_output(output, contract, None)
     report = {"status": "running", "phase": "model_load", "case": case, "hardware": hardware,

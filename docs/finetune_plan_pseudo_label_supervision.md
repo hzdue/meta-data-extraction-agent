@@ -2,13 +2,15 @@
 
 ## Status
 
-**Training records prepared; GPU probe pending.** The deterministic 508/57/30
-paper split is frozen, and all 600 source PDFs have been parsed and cached. Four
-pseudo-train teacher labels failed the current schema and were excluded without
-repair, leaving 504 train and 57 validation D records. The next step is the
-server-side memory and timing probe. No pseudo-label model training has started.
-This plan does not change the completed 40-paper experiment or its
-model-selection decision.
+**Length-filtered pilot is ready for Stage A; training has not started.** The
+deterministic 508/57/30 paper split is frozen, and all 600 source PDFs have been
+parsed and cached. Four pseudo-train teacher labels failed the current schema and
+were excluded without repair, leaving 504 eligible train and 57 validation D
+records. The approved resource filter retains 442 complete records at or below
+32,660 tokens and excludes 62 longer records without truncation. Both worst-case
+training probes and the complete validation loss/generation probes pass on the
+local RTX 5070 Ti. No pseudo-label model training has started. This plan does not
+change the completed 40-paper experiment or its model-selection decision.
 
 ## Objective
 
@@ -64,12 +66,12 @@ projecting noisy labels into auxiliary tasks would add another variable.
 |---|---:|---:|---|
 | `base` | 0 | 0 | Unadapted reference |
 | `gold_d24` | 0 | D24 | Existing gold-only control |
-| `pseudo_only` | One fixed pass | 0 | Measure teacher imitation |
-| `pseudo_then_gold_d24` | One fixed pass | D24 | Primary candidate |
+| `pseudo_length_filtered` | One fixed pass over 442 papers | 0 | Measure teacher imitation within the validated memory envelope |
+| `pseudo_length_filtered_then_gold_d24` | The same fixed pass | D24 | Primary candidate |
 
-`gold_d24` and `pseudo_then_gold_d24` must receive the same final gold schedule,
-learning rate and six optimizer updates. Their only intended difference is the
-pseudo-label stage.
+`gold_d24` and `pseudo_length_filtered_then_gold_d24` must receive the same final
+gold schedule, learning rate and six optimizer updates. Their only intended
+difference is the pseudo-label stage.
 
 ### Seeds
 
@@ -91,10 +93,11 @@ Select the 30 future-test papers before training, using only manifest metadata.
 Stratify all splits by subject group and paper-length bin. Keep the future-test
 paper IDs hidden from training preparation and ignore their existing predictions.
 
-After formal validation and length filtering, place approximately 10% of the
-remaining eligible pseudo-labels in pseudo validation. Make the training count
-divisible by four; place any small remainder in pseudo validation. Never move a
-reserved future-test paper into training.
+After formal validation, the approved hardware filter applies only to pseudo
+training and retains every complete sequence at or below 32,660 tokens. Keep the
+57-paper pseudo-validation set unchanged. The 442-example training pass uses 110
+four-example updates and one final two-example update; never move a reserved
+future-test or validation paper to fill that accumulation window.
 
 If no new human annotation will be produced, use a 536/59 pseudo train/validation
 split and evaluate on the existing thirty papers only as reused development
@@ -122,14 +125,15 @@ data/
         future_test_manifest.jsonl
         preparation_manifest.json
         length_report.json
+        length_filtered_training_manifest.json
         quality_report.md
         text/
 
 outputs/
   finetune/
     pseudo_label_supervision/
-      pseudo_only_seed<seed>/
-      pseudo_then_gold_d24_seed<seed>/
+      pseudo_length_filtered_seed<seed>/
+      pseudo_length_filtered_then_gold_d24_seed<seed>/
       evaluation/
 ```
 
@@ -223,7 +227,60 @@ issues are documented, and every record can be traced to its source prediction.
 
 ## Step 5 — Audit context length and hardware feasibility
 
-**Status (2026-11-17): Length audit complete; hardware probes pending.** Using
+**Status (2026-11-18): Complete for the approved length-filtered pilot.** The
+read-only pseudo-data loader verifies the frozen split, exclusions,
+artifact and per-record provenance, future-test isolation, prompt reconstruction,
+teacher-target schema validity and the pinned tokenizer identity. It first
+reconstructs all 504 eligible answer-only train rows, then verifies and applies
+the separately frozen 32,660-token manifest to retain 442. All 57 validation rows
+remain unchanged, with EOS supervision and no truncation.
+
+The shared validator now supports the full 57-paper pseudo-validation set with an
+equal-paper mean, while preserving the existing two-paper gold diagnostics. The
+`fixed_endpoint` policy makes intermediate checkpoint loss and generation results
+diagnostic only and requires the declared final update for a completed run.
+Step-zero validation also records whether it disables the adapter (fresh stage A)
+or evaluates an already-loaded adapter (the later stage-B boundary).
+
+The isolated probe runner freezes the four required shape cases and uses the
+production trainer without changing NF4, BF16 compute, activation offload,
+MLP chunking, gradient checkpointing, batch size, accumulation or context. Plan
+the cases with:
+
+```bash
+uv run --group finetune-cuda python scripts/smoke_pseudo_finetune.py \
+  --case plan --offline
+```
+
+Each GPU case must use its own persistent `--output-dir`.
+
+The original 504-record population did not fit this GPU: the 63,524-token
+longest-prompt and 62,306-token longest-target backward passes OOMed even with
+`PYTORCH_ALLOC_CONF=expandable_segments:True`. The approved derived manifest
+therefore excludes 62 complete records above 32,660 tokens (12.30% of records,
+19.30% of input tokens and 14.46% of supervised tokens) without changing or
+truncating any retained example. It records all included/excluded IDs, lengths
+and the source JSONL hash.
+
+On the NVIDIA GeForce RTX 5070 Ti (15.54 GiB usable, native BF16), the filtered
+32,530-token longest-prompt case passed at 12.95 GB peak reserved VRAM and 100.5
+seconds of measured CUDA time. The distinct 32,028-token longest-target case
+passed at 12.81 GB and 96.3 seconds. Both completed a real four-example
+accumulation window, produced finite loss and 248 nonzero LoRA gradients, changed
+the adapter, and left all frozen weights unchanged.
+
+The unchanged 57-paper validation loss probe passed at 10.07 GB peak reserved
+VRAM in 274 seconds, with step-zero equal-paper loss 0.0451447. Full-budget
+generation passed all 57 papers at 11.01 GB in 5,161 seconds: every output ended
+with EOS, none hit the 16,384-token cap, 56/57 were valid JSON and 44/57 passed
+the full schema. These format results are baseline diagnostics, not a selection
+gate or human-quality result. Reports and MLflow records are preserved under
+`outputs/finetune/pseudo_label_supervision/probes/`.
+
+Observed token throughput plus five planned validation rounds gives a rough
+Stage-A wall-time estimate of 10–11 hours on this machine; generation dominates.
+
+The source length audit used
 Qwen/Qwen3.5-4B tokenizer revision
 `851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a`, the complete user-plus-assistant
 chat sequences for all 508 pseudo-train and 57 pseudo-validation papers fit the
@@ -254,6 +311,12 @@ configuration.
 
 ## Step 6 — Train the pseudo-only adapter
 
+**Preparation status (2026-11-18): Ready to launch; training not started.** The
+reviewed Stage-A contract consumes 442 unique D records once in 111 optimizer
+updates (110 four-example windows plus a final two-example window), uses fixed
+endpoint selection, and records diagnostics at updates 0, 32, 64, 96 and 111.
+Its CPU dry run and all required RTX 5070 Ti probes pass.
+
 **Purpose:** Measure what Qwen learns from broad teacher supervision alone.
 
 **What to do:**
@@ -262,8 +325,8 @@ configuration.
 - Reuse the established QLoRA configuration: rank 16, alpha 32, dropout 0.05,
   learning rate `1e-4`, microbatch 1, gradient accumulation 4, constant schedule,
   no packing and answer-only loss.
-- Train for one fixed pass over pseudo training. With 504 examples this is 126
-  optimizer updates.
+- Train for one fixed pass over the 442 retained pseudo-training records. This is
+  111 optimizer updates, with the last update consuming the final two records.
 - Save diagnostic checkpoints near 25%, 50%, 75% and 100% exposure.
 - Measure pseudo-validation target-token loss and generated structural validity
   at step zero and each checkpoint.
@@ -276,6 +339,14 @@ match the frozen split, and all checkpoints contain complete provenance and
 optimizer state.
 
 ## Step 7 — Calibrate on human-gold D24
+
+**Preparation status (2026-11-18): Stage-boundary runner complete; training not
+started.** The runner requires the completed, hash-verified Stage-A update-111
+adapter, reloads only its LoRA weights as trainable, and creates a new Stage-B
+trainer at optimizer update zero. Optimizer, scheduler and exposure state are not
+restored from Stage A. The GoldD24 seed-42 schedule hash exactly matches the
+existing gold-only control, and the two conditions retain identical learning-rate,
+precision and six-update schedules.
 
 **Purpose:** Correct teacher-specific errors while preserving broad domain
 adaptation.
@@ -302,8 +373,9 @@ exposure, a fresh stage-B optimizer and successful adapter reload.
 
 **What to do:**
 
-- Evaluate `base`, `gold_d24`, `pseudo_only` and `pseudo_then_gold_d24` with the
-  ordinary one-call D prompt and identical decoding settings.
+- Evaluate `base`, `gold_d24`, `pseudo_length_filtered` and
+  `pseudo_length_filtered_then_gold_d24` with the ordinary one-call D prompt and
+  identical decoding settings.
 - Report full-schema validity, generic metadata, facilities/samples/datasets F1,
   both reference F1 scores, JSON validity, failures, latency and peak VRAM.
 - Report results by subject group and paper-length bin where sample sizes permit.
@@ -319,7 +391,7 @@ comparison with frozen checkpoint and evaluator hashes.
 **Purpose:** Avoid promoting a method from a single favorable run.
 
 After the seed-42 feasibility run, proceed to all three seeds only if
-`pseudo_then_gold_d24`:
+`pseudo_length_filtered_then_gold_d24`:
 
 - preserves required reference fields and full-schema generation;
 - stays within 0.03 of `gold_d24` on every structural F1 field;
@@ -352,7 +424,7 @@ once with the complete analysis frozen.
 
 ## Interpretation rules
 
-- Improvement from `pseudo_only` measures imitation and broad domain exposure;
+- Improvement from `pseudo_length_filtered` measures imitation and broad domain exposure;
   it does not validate the teacher labels.
 - Improvement only after gold calibration supports pseudo-label pretraining plus
   human correction as a combined recipe.
@@ -370,6 +442,7 @@ once with the complete analysis frozen.
 
 - Frozen pseudo/future-test split manifest.
 - Preparation manifest, length audit and quality report.
+- Frozen length-filter manifest with included/excluded paper IDs and source hash.
 - Pseudo-only and pseudo-then-gold configs and run contracts.
 - Per-seed exposure, token, runtime and memory summaries.
 - Reproducible exploratory evaluation on reused development data.

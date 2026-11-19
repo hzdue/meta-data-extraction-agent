@@ -303,7 +303,10 @@ class RunTracker:
                             for key, value in selection["diagnostic_quality"].items()})
         self.log_metrics(metrics, last_step)
         self.client.set_tag(self.run_id, "selected.kind", selection["kind"])
-        self.client.set_tag(self.run_id, "selected.checkpoint", selection["checkpoint"] or "base")
+        self.client.set_tag(
+            self.run_id, "selected.checkpoint",
+            selection["checkpoint"] or selection["kind"],
+        )
         self.client.log_artifact(self.run_id, str(self.output / "selection.json"), "selected")
         if selection["kind"] == "adapter":
             path = self.output / selection["checkpoint"]

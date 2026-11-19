@@ -3,6 +3,7 @@ from __future__ import annotations
 
 from contextlib import nullcontext
 from importlib.metadata import PackageNotFoundError, version
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -219,7 +220,8 @@ class PilotTrainer(SFTTrainer):
 
 def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Path, *,
                   validation=None, tracking=None, cpu=False, callbacks=None,
-                  selection_policy="loss", sequential_training=False):
+                  selection_policy="loss", sequential_training=False,
+                  validation_step_zero_base=True):
     if config.max_steps is None:
         raise ValueError("Set a finite max_steps after the server feasibility check")
     args = SFTConfig(
@@ -255,7 +257,8 @@ def build_trainer(model, tokenizer, records, config: TrainingConfig, output: Pat
         raise ValueError("This pilot trainer currently requires one process and one visible GPU")
     if validation is not None:
         trainer.validation = ValidationCallback(trainer, validation, config,
-                                                selection_policy=selection_policy)
+                                                selection_policy=selection_policy,
+                                                step_zero_base=validation_step_zero_base)
         trainer.add_callback(trainer.validation)
     if tracking is not None:
         from .tracking import ResourceMeter, TrackingCallback
@@ -302,6 +305,33 @@ def run_contract(root: Path, config: TrainingConfig, summary: dict, architecture
                         **{p: version(p) for p in ("torch", "transformers", "tokenizers", "peft", "trl", "accelerate", "mlflow")}}}
 
 
+def binary_file_hash(path: Path) -> str:
+    with path.open("rb") as stream:
+        return hashlib.file_digest(stream, "sha256").hexdigest()
+
+
+def initial_adapter_contract(root: Path, path: Path) -> dict:
+    path = path.resolve()
+    if not path.is_dir():
+        raise ValueError("Initial adapter directory does not exist")
+    required = ("adapter_config.json", "adapter_model.safetensors",
+                "inference_precision.json")
+    if any(not (path / name).is_file() for name in required):
+        raise ValueError("Initial adapter is incomplete")
+    try:
+        relative = path.relative_to(root.resolve())
+    except ValueError as exc:
+        raise ValueError("Initial adapter must be on repository persistent storage") from exc
+    return {
+        "path": str(relative),
+        "adapter_sha256": binary_file_hash(path / "adapter_model.safetensors"),
+        "config_sha256": file_hash(path / "adapter_config.json"),
+        "precision_sha256": file_hash(path / "inference_precision.json"),
+        "optimizer_policy": "fresh_not_restored_from_initial_adapter",
+        "scheduler_policy": "fresh_not_restored_from_initial_adapter",
+    }
+
+
 def prepare_output(output: Path, contract: dict, resume: Path | None):
     """Reject accidental overwrites and incompatible resumes before model loading."""
     manifest = output / "run_manifest.json"
@@ -338,7 +368,10 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
                  stop_after_step: int | None = None, smoke: bool = False,
                  selection_policy="loss", experiment: dict | None = None,
                  checkpoint_steps: tuple[int, ...] = (),
-                 checkpoint_exposures: dict[int, dict[str, int]] | None = None):
+                 checkpoint_exposures: dict[int, dict[str, int]] | None = None,
+                 validation_step_zero_base=True, initial_adapter: Path | None = None,
+                 precomputed_contract: dict | None = None,
+                 expected_final_exposure: dict[str, int] | None = None):
     from .tracking import RunTracker, read_tracking_config
 
     if config.max_steps is None:
@@ -363,9 +396,29 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     tracking_settings = read_tracking_config(root / config.tracking_config, require_ready=True)
     set_seed(config.seed)
     output = (root / config.output_dir).resolve()
-    contract = run_contract(root, config, summary, architecture)
+    contract = (run_contract(root, config, summary, architecture)
+                if precomputed_contract is None else precomputed_contract)
+    if (contract.get("config") != config.model_dump()
+            or contract.get("data") != summary
+            or contract.get("architecture") != architecture):
+        raise ValueError("Precomputed run contract differs from config, data or architecture")
+    contract["validation"] = {
+        "selection_policy": selection_policy,
+        "step_zero_base": validation_step_zero_base,
+        "papers": len(validation),
+    }
+    if expected_final_exposure is not None:
+        if (not expected_final_exposure
+                or any(type(value) is not int or value <= 0
+                       for value in expected_final_exposure.values())):
+            raise ValueError("Expected final exposure must contain positive integer counts")
+        contract["expected_final_exposure"] = expected_final_exposure
+    if initial_adapter is not None:
+        initial_adapter = initial_adapter.resolve()
+        contract["initial_adapter"] = initial_adapter_contract(root, initial_adapter)
     experiment_phase = experiment.get("phase", "ablation") if experiment else None
-    if experiment_phase not in {None, "ablation", "followup_phase_b", "followup_phase_c"}:
+    if experiment_phase not in {None, "ablation", "followup_phase_b", "followup_phase_c",
+                                 "pseudo_stage_a", "pseudo_stage_b"}:
         raise ValueError(f"Unsupported training experiment phase: {experiment_phase}")
     contract["phase"] = experiment_phase or ("smoke" if smoke else "comparison")
     if experiment:
@@ -388,10 +441,14 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
     trainer = None
     try:
         set_seed(config.seed)
-        model = attach_lora(load_base(preparation, config, offline=offline), config, preparation)
+        base = load_base(preparation, config, offline=offline)
+        model = (attach_lora(base, config, preparation) if initial_adapter is None
+                 else reload_adapter(base, initial_adapter, preparation, trainable=True,
+                                     config=config))
         trainer = build_trainer(model, tokenizer, records, config, output, validation=validation,
                                 tracking=tracker, selection_policy=selection_policy,
-                                sequential_training=experiment_phase == "followup_phase_c")
+                                sequential_training=experiment_phase == "followup_phase_c",
+                                validation_step_zero_base=validation_step_zero_base)
         if checkpoint_steps:
             trainer.add_callback(SaveAtSteps(
                 checkpoint_steps, trainer=trainer, expected_exposures=checkpoint_exposures))
@@ -402,6 +459,11 @@ def run_training(root: Path, config: TrainingConfig, tokenizer, records, summary
                                 "device_total_bytes": torch.cuda.get_device_properties(0).total_memory},
                                 f"attempts/{tracker.record['attempt']}/hardware.json")
         result = trainer.train(resume_from_checkpoint=str(resume) if resume else None)
+        if (expected_final_exposure is not None
+                and trainer.exposure["examples"] != expected_final_exposure):
+            raise ValueError(
+                f"Final exposure differs from contract: {trainer.exposure['examples']} "
+                f"!= {expected_final_exposure}")
         trainer._save_checkpoint(trainer.model, trial=None)
         trainer.save_model(str(output / "adapter"))
         trainer.save_state()

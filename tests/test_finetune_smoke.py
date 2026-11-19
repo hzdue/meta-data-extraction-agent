@@ -42,6 +42,21 @@ def test_plan_selects_each_longest_task_without_validation_leakage():
         probe_plan(rows, bad, config())
 
 
+def test_shape_probes_select_median_prompt_and_target_extremes():
+    rows = records()
+    for i, row in enumerate(rows):
+        row["input_ids"] += [8] * i
+        row["labels"] += [-100] * i
+    # Move paper 1's first target token later without changing sequence length.
+    rows[1]["labels"][3:5] = [-100, -100]
+    # Give paper 2 the largest supervised target.
+    rows[2]["labels"][1:] = rows[2]["input_ids"][1:]
+
+    assert case_rows("median_D", rows, validation_rows())[0]["example_id"] == "paper_2:D"
+    assert case_rows("longest_prompt_D", rows, validation_rows())[0]["example_id"] == "paper_1:D"
+    assert case_rows("longest_target_D", rows, validation_rows())[0]["example_id"] == "paper_2:D"
+
+
 def test_short_probe_checks_real_update_and_frozen_weights(tmp_path):
     cfg = config(max_steps=1, save_steps=1, validation_steps=1)
     model = attach_lora(tiny_model(), cfg, PREPARATION)

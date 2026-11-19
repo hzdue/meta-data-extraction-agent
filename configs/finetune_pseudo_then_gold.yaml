@@ -1,0 +1,13 @@
+version: "1.0.0"
+pseudo_only_config: configs/finetune_pseudo_only.yaml
+gold_base_config: configs/finetune_json_only.yaml
+output_dir: outputs/finetune/pseudo_label_supervision/pseudo_length_filtered_then_gold_d24_seed42
+seed: 42
+pseudo_endpoint_step: 111
+gold_exposure: 24
+endpoint_updates: 6
+checkpoint_interval: 6
+selection_policy: fixed_endpoint
+optimizer_policy: fresh_adamw_torch
+scheduler_policy: fresh_constant
+reuse_pseudo_optimizer: false
